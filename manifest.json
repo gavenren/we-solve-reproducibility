@@ -1,0 +1,1381 @@
+{
+  "payload_kind": "Unchanged original verification source for32pending We-Solve contributions",
+  "prepared_date": "2026-10-19",
+  "prepared_by_agent": "/root/hundred_algorithms",
+  "repository": {
+    "intended_owner": "gavenren",
+    "intended_name": "we-solve-reproducibility",
+    "state": "local_prepared_payload_not_uploaded",
+    "commit_sha": null
+  },
+  "selection": {
+    "source_attribution_manifest": "model-attribution-20261019/manifest.json",
+    "source_attribution_manifest_sha256": "960eff46bb0add0943032502227660bab896a2e50617c765e654669321030479",
+    "pending_contributions_at_checkpoint": 83,
+    "selected_handles": 32,
+    "selected_programs": 32,
+    "criterion": "Only pending two-hundred-more-problems-20261018 contributions with a successful frozen program entry in root_verification_runs.json",
+    "source_frozen_manifest": "two-hundred-more-problems-20261018/reviewed_inputs_sha256.json",
+    "source_frozen_manifest_sha256": "8c83ce606f10db1f79d660ae36862bd35560da883fb33d7c2e422eb08caae91f"
+  },
+  "integrity": {
+    "source_bytes_identical_to_recorded_successful_program_sha256": true,
+    "source_bytes_identical_to_frozen_program_sha256": true,
+    "originals_modified": false,
+    "programs_executed_during_payload_preparation": 0,
+    "public_creation_or_upload_performed": false,
+    "extra_selected_or_third_party_paper_files_included": false
+  },
+  "model_provenance": {
+    "model": "GPT-6.1 Sol",
+    "reasoning_level": "Ultra",
+    "source": "Explicit submitting-user instruction dated2026-10-19",
+    "attribution_source": "user-specified; not independently runtime-verified",
+    "runtime_configuration_independently_verified": false,
+    "historical_roles_or_configurations_reassigned": false,
+    "addendum": "User-specified model attribution (19 October 2026):\nModel: GPT-6.1 Sol\nReasoning level: Ultra\nSource: the submitting user's explicit instruction on 2026-10-19. Runtime model and reasoning settings were not independently verified.\nThis supplements the original disclosure. The recorded author/reviewer roles and historical provenance above remain unchanged; this label does not retrospectively verify the configurations used for the earlier work."
+  },
+  "license": {
+    "path": "LICENSE",
+    "spdx_license_identifier": "Apache-2.0",
+    "sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+    "source_file": "two-hundred-more-problems-20261018/LICENSE-Apache-2.0.txt",
+    "copy_is_exact": true
+  },
+  "readme_sha256": "f96a8afa0abd8f887053d734661353fb73cee1805d151b5d66b96c9c52249ecb",
+  "payload_members": [
+    "LICENSE",
+    "README.md",
+    "SHA256SUMS",
+    "TOP-30000423/verify.py",
+    "TOP-30000608/verify.py",
+    "TOP-30000784/verify.py",
+    "TOP-30001930/check_exact.py",
+    "TOP-30001933/check_exact.py",
+    "TOP-30001934/verify.py",
+    "TOP-30002722/verify.py",
+    "TOP-30003997/verify.py",
+    "TOP-30004015/verify.py",
+    "TOP-30004130/verify.py",
+    "TOP-30004864/verify.py",
+    "TOP-30004909/verify.py",
+    "TOP-30004912/verify.py",
+    "TOP-30004914/verify.py",
+    "TOP-30005977/verify.py",
+    "TOP-30006105/check_exact.py",
+    "TOP-30006109/verify.py",
+    "TOP-30006760/verify.py",
+    "TOP-30006781/verify.py",
+    "TOP-30006800/verify.py",
+    "TOP-30007005/verify_tensor_squares.py",
+    "TOP-30007113/check_exact.py",
+    "TOP-30007441/verify.py",
+    "TOP-30007453/verify.py",
+    "TOP-30007460/verify.py",
+    "TOP-30007461/verify.py",
+    "TOP-30007480/verify.py",
+    "TOP-30007481/verify.py",
+    "TOP-30007486/verify.py",
+    "TOP-9400095/verify.py",
+    "TOP-9400104/verify.py",
+    "TOP-9400141/verify.py",
+    "manifest.json"
+  ],
+  "entries": [
+    {
+      "handle": "TOP-9400095",
+      "path": "TOP-9400095/verify.py",
+      "sha256": "bebba35b9623167d99b164b445288b080db888e32e63d0fa09f5164cccaf9bc7",
+      "bytes": 1760,
+      "source_file": "two-hundred-more-problems-20261018/TOP-9400095/verify.py",
+      "source_report_sha256": "41a8b6d454a5630a8fe18231415cd667e08e35ac2012c34a4dc469e28e67aaae",
+      "title": "Odd greedy expansions can terminate after arbitrarily many steps",
+      "claim_type": "Literature report",
+      "report_scope": "For every odd prime p, the odd greedy algorithm applied to 2/(2(p-1)!-1) terminates with reduced positive numerators 2,3,...,p-1,1 and therefore exactly p-1 unit fractions, by Pihko Theorem3.5. This gives an explicit unbounded-length terminating family, not universal termination.",
+      "recorded_verification_summary": "Executed verify.py for source-family primes3,5,7,11,13 using exact Fraction arithmetic. Reduced numerators and term counts2,4,6,10,12 match; exact reconstruction and the preceding-odd-denominator test verify every greedy choice. The largest tested denominator has58103 bits. The infinite family remains the credited source theorem. Standard-library exact Python, Apache-2.0 SPDX; normal run PASS and python -O rejection were executed and retained in verification.json/verification_output.txt.",
+      "author_agent": "/root/hundred_numbers",
+      "independent_reviewer_agent": "/root/hundred_graphs",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-9400095",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.057,
+        "recorded_program_sha256": "bebba35b9623167d99b164b445288b080db888e32e63d0fa09f5164cccaf9bc7",
+        "recorded_output_sha256": "21538fa19703c575fc6b2555a397a0c2b2471ea386d7b79a816aeb213eb837db",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-9400095/root_verification.log",
+        "root_log_sha256": "1c3b5985a0d5d6d64075cdabf33fa05e34422081715a4d4cd8d9d4fa8a242fc4",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-9400095/independent_audit.md",
+        "sha256": "3cb5cb82da34f391a2191c21cb7ce9ba886e1ff420e905c4ed2619ee5d703f33",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-9400095/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-9400095/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "J. Pihko, Fibonacci Quarterly48 (2010), Theorem3.5, https://www.fq.math.ca/Papers1/48-3/Pihko.pdf"
+      ]
+    },
+    {
+      "handle": "TOP-9400104",
+      "path": "TOP-9400104/verify.py",
+      "sha256": "45538a9c55e6e0ec7b4cc22f5af9bb49a013cef1bb9591a1d6a581152a1e3429",
+      "bytes": 2439,
+      "source_file": "two-hundred-more-problems-20261018/TOP-9400104/verify.py",
+      "source_report_sha256": "b82abe2f93bfd020c9422dff5cea84f4ce9c1de730b8ea8d0f02d0fe8375a924",
+      "title": "Exact Tunnell obstructions with the conditional direction kept separate",
+      "claim_type": "Literature report",
+      "report_scope": "For positive squarefree n, unequal signed ternary-form counts in Tunnell’s criterion prove n is not congruent, unconditionally. Equality is only reported as a BSD-conditional converse. The attached exact counting certificate classifies these necessary conditions through5000; it does not unconditionally classify all congruent numbers.",
+      "recorded_verification_summary": "Executed verify.py for all3042 positive squarefree n<=5000, with all four signed-form counts independently checked by full signed enumeration for every0<=n<=120. Exactly1275 fail Tunnell’s necessary test;1767 merely pass it. Exact per-n evidence is tunnell_counts.json; passing is not an unconditional congruence certificate. Standard-library exact Python, Apache-2.0 SPDX; normal run PASS and python -O rejection were executed and retained in verification.json/verification_output.txt.",
+      "author_agent": "/root/hundred_numbers",
+      "independent_reviewer_agent": "/root/hundred_graphs",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-9400104",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.125,
+        "recorded_program_sha256": "45538a9c55e6e0ec7b4cc22f5af9bb49a013cef1bb9591a1d6a581152a1e3429",
+        "recorded_output_sha256": "df871bc6994ca2b6d3cb1d05df4d2bd86e7c7a956ddc1057b44efa9795b95518",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-9400104/root_verification.log",
+        "root_log_sha256": "4874a1eae3985d9dcce5fc3fda20a0317eea7d0364f36b86a39aafaee808b0b2",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-9400104/independent_audit.md",
+        "sha256": "69ac3bf289405ec1ba75236d67cffc1c6b9ccaa183e80668b20af9c05edcfc37",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-9400104/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-9400104/verify.py",
+      "execution_generated_files": [
+        "A future user execution writes tunnell_counts.json beside verify.py. This generated output is not part of the prepared payload."
+      ],
+      "checked_references": [
+        "J.B.Tunnell, Invent.Math.72(1983),323–334, original primary PDF and indexed text, https://sites.math.rutgers.edu/~zeilberg/EM22/JT1983.pdf"
+      ]
+    },
+    {
+      "handle": "TOP-9400141",
+      "path": "TOP-9400141/verify.py",
+      "sha256": "ccf21c58b3e87537ea8959c58066204db4bd3345b8af5d9b56cd40268a49d69a",
+      "bytes": 2230,
+      "source_file": "two-hundred-more-problems-20261018/TOP-9400141/verify.py",
+      "source_report_sha256": "ccc11df38bca2ab891c434761978f71a1d89a94a232e387e608ba84948856424",
+      "title": "Every composite super-Wieferich candidate needs a prime factor exceeding100000",
+      "claim_type": "Partial result",
+      "report_scope": "For odd n>1 with p^e exactly dividing n, n^2 divides2^(n-1)-1 iff every p satisfies ord_p(2)|(n-1) and v_p(2^(p-1)-1)>=2e. Exact enumeration of all primes<=100000 then proves that any composite candidate must have a prime factor>100000. Existence of composite candidates is not settled.",
+      "recorded_verification_summary": "Executed verify.py: sieve independently matches trial primality for all integers<=100000 (9592 primes); only1093,3511 pass the Wieferich test, each valuation is2, their exact orders are364,1755, and their sole composite product fails. The local iff also agrees with direct modular exponentiation for every odd3<=n<=2001. Infinite prime-support exclusion rests on the proof. Standard-library exact Python, Apache-2.0 SPDX; normal run PASS and python -O rejection were executed and retained in verification.json/verification_output.txt.",
+      "author_agent": "/root/hundred_numbers",
+      "independent_reviewer_agent": "/root/hundred_graphs",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-9400141",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.39,
+        "recorded_program_sha256": "ccf21c58b3e87537ea8959c58066204db4bd3345b8af5d9b56cd40268a49d69a",
+        "recorded_output_sha256": "f34eefaa04a2929444b00d1e0f722001180793d0aba3112fa0c10cf3e01c42d5",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-9400141/root_verification.log",
+        "root_log_sha256": "4df3c5a9baeae87f81fa590d2b90a706d7a32553d8b678c65954f56e1dd86b4d",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-9400141/independent_audit.md",
+        "sha256": "4d5ccd6b1c35fef0ea3cfac2f3c95f9b7daa06ea72ad33bdda68142dcea85c37",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-9400141/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-9400141/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "Fresh official TOP-9400141 prompt",
+        "Self-contained lifting/order argument and exhaustive exact prime-support certificate in this folder"
+      ]
+    },
+    {
+      "handle": "TOP-30000423",
+      "path": "TOP-30000423/verify.py",
+      "sha256": "dbe0a87b793be9edb08ac19ce4cf263d7f568b88908bb618b6527c89921ba662",
+      "bytes": 2843,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30000423/verify.py",
+      "source_report_sha256": "5b03673409b2a5aa3608130f911ba74b8d2ba472e2fcc14305e6a87c8a505540",
+      "title": "Recognition and Characterization of Leaf Powers",
+      "claim_type": "Partial result",
+      "report_scope": "For every fixed k≥5, graphs whose quotient by equal closed neighborhoods is a forest have explicit k-leaf roots, constructible in polynomial time; the test is sufficient, not a recognition test for all leaf powers.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30000423",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.301,
+        "recorded_program_sha256": "dbe0a87b793be9edb08ac19ce4cf263d7f568b88908bb618b6527c89921ba662",
+        "recorded_output_sha256": "da902a3322ed224d70d8f2587a55025df3d334f12cc666ac81d942cabeef7700",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30000423/root_verification.log",
+        "root_log_sha256": "62e641c541b7fe26c2df4db1320a4fcd6006986d9b28f65354c5db447c0eda70",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30000423/independent_audit.md",
+        "sha256": "0890d71e01d8f43a8035811484eb08cfe5e501fb913f858ddba77801cda18642",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30000423/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30000423/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30000423.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30000608",
+      "path": "TOP-30000608/verify.py",
+      "sha256": "5cc06dbff01d98cd58d6fe40aa4bb8c25312ffb9c40cb381f4e8877e30ffe96e",
+      "bytes": 2732,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30000608/verify.py",
+      "source_report_sha256": "a8ea6ba63977051716f092af781863a6f6c6b08fb428c4f87574e9646c1e7740",
+      "title": "Complexity of Dense Perfect Hypergraph Matching",
+      "claim_type": "Partial result",
+      "report_scope": "For fixed c>1/3, sufficiently large 3-uniform hypergraphs with n divisible by three and minimum codegree≥cn have a polynomial-time perfect-matching decision algorithm consisting of one explicit GF(2) linear-system test.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30000608",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.76,
+        "recorded_program_sha256": "5cc06dbff01d98cd58d6fe40aa4bb8c25312ffb9c40cb381f4e8877e30ffe96e",
+        "recorded_output_sha256": "8cb78ac902b08ff68f5a5d82946c1c7836baabc59e7704544a6e22e479f66a10",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30000608/root_verification.log",
+        "root_log_sha256": "64233ae3480d4951466c00c06ed7f9a1028a9691e1215c758c151002d7c837ca",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30000608/independent_audit.md",
+        "sha256": "a0f577eb0d443278ce0dfeb18822f3eba966af2b5915e6b1bbe2a6bc130e6ec2",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30000608/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30000608/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30000608.txt",
+        "Peter Keevash, Fiachra Knox, Richard Mycroft, Polynomial-Time Perfect Matchings in Dense Hypergraphs, STOC2013 primary author paper, Theorem 1.4 and discussion of its special 3-uniform scope, pp.1–2: https://people.maths.ox.ac.uk/keevash/papers/stoc212fp-keevash.pdf . Full revised paper arXiv:1307.2608v2, Adv.Math.269 (2015), pp.265–334; this report fixes the STOC theorem numbering."
+      ]
+    },
+    {
+      "handle": "TOP-30000784",
+      "path": "TOP-30000784/verify.py",
+      "sha256": "5d2fc84ed14b4c2dd9e278a6845ee4485c3523d2613080415d70ab93bb081138",
+      "bytes": 1755,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30000784/verify.py",
+      "source_report_sha256": "4bcf5d6eb9a651bf65c6f0c96e46ae30f1c35bd15a8f111c20555abd49207668",
+      "title": "Optimal Algebraic Immunity of Boolean Functions",
+      "claim_type": "Partial result",
+      "report_scope": "For every n≥16 and 1≤m≤n, some Boolean map f:F₂ⁿ→F₂ᵐ has graph algebraic immunity at least floor(n/16)+1; this is nonconstructive and does not prove the optimum dimension bound.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30000784",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.054,
+        "recorded_program_sha256": "5d2fc84ed14b4c2dd9e278a6845ee4485c3523d2613080415d70ab93bb081138",
+        "recorded_output_sha256": "ae9cdecc5ad329636af8938eb6b36142dead240243e30d067dbe1c34b9fe55a3",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30000784/root_verification.log",
+        "root_log_sha256": "885dd3796f04c28979c45341b0c19d7cfbda4ef530eca3dacd27cbdf0fc2ee1c",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30000784/independent_audit.md",
+        "sha256": "2d2e90423784b3cb995758b3314b6b126959d3a2b0d23827539af898c678558d",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30000784/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30000784/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30000784.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30001930",
+      "path": "TOP-30001930/check_exact.py",
+      "sha256": "a528ff954c25539c79d066bbc82b408369ce5b5b6c0ecbe1622400b4a341f168",
+      "bytes": 1601,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30001930/check_exact.py",
+      "source_report_sha256": "55b731fd024aa5ed6a38ceff9cee7c6d28047635fa168082d28ead0c88f461a2",
+      "title": "Quadratic graph diameter for every simple graphical zonotope",
+      "claim_type": "Partial result",
+      "report_scope": "Every graphical zonotope of a connected simple graph on d+1 vertices, and every invertible affine image, has vertex-edge diameter at most |E| <= d(d+1)/2.",
+      "recorded_verification_summary": "Executed check_exact.py with assertions enabled: PASS 771 connected labelled simple graphs on2..5vertices; exact all-pairs orientation-graph diameters. python -O was separately executed and refused. These are finite exact checks only.",
+      "author_agent": "/root/hundred_geometry",
+      "independent_reviewer_agent": "/root/hundred_algebra",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30001930",
+        "recorded_program": "check_exact.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 1.142,
+        "recorded_program_sha256": "a528ff954c25539c79d066bbc82b408369ce5b5b6c0ecbe1622400b4a341f168",
+        "recorded_output_sha256": "3c3b73c5b7b40f7ac2a737c907a9dd21280f04cb1325710020838f4a538ec3f9",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30001930/root_verification.log",
+        "root_log_sha256": "60a6c648f8034ff2b7ac16740eb5d22d1838a60a38fad7840baf306e0e3ae335",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30001930/independent_audit.md",
+        "sha256": "3190dff3d538af197b3f2943402e183e7acb7966b3858e93e2e0fdf3411d3721",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30001930/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30001930/check_exact.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30001930.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30001933",
+      "path": "TOP-30001933/check_exact.py",
+      "sha256": "330f996d5dd4ed1c6a35d3d112c180222762c0755613e2386920b04399f44511",
+      "bytes": 3137,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30001933/check_exact.py",
+      "source_report_sha256": "0d3477d144498d5fe00fa19e7a847e2dfd8ee5d3ec8c18e093d19385b9e10c1e",
+      "title": "ICP for rooted arborescences on bidirected cactus graphs",
+      "claim_type": "Partial result",
+      "report_scope": "For every connected undirected cactus, replace every edge by both directed arcs. Its outward arborescence polytope at any root has ICP for every integer dilation.",
+      "recorded_verification_summary": "Executed check_exact.py with assertions enabled: PASS 400 weighted bidirected-cactus dilate decompositions; physical rooted-tree reconstruction and exact affine-rank oracle. python -O was separately executed and refused. These are finite exact checks only.",
+      "author_agent": "/root/hundred_geometry",
+      "independent_reviewer_agent": "/root/hundred_algebra",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30001933",
+        "recorded_program": "check_exact.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.276,
+        "recorded_program_sha256": "330f996d5dd4ed1c6a35d3d112c180222762c0755613e2386920b04399f44511",
+        "recorded_output_sha256": "7e1d41e857f21f3e4e53447e19c47f4efdba016fb3dbbcd1fc527704f6a5db84",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30001933/root_verification.log",
+        "root_log_sha256": "39df03932b9ac47de40d589f749833163756b1f39ee7c0b9242e680def14d947",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30001933/independent_audit.md",
+        "sha256": "185ef80777c94e0c225abe7ae12aa42bf4e84b41a9479d00085b256c7b69c145",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30001933/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30001933/check_exact.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30001933.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30001934",
+      "path": "TOP-30001934/verify.py",
+      "sha256": "2e4caa5028b86edc662b3ee195cf62f6c97ffbcae81aa07e5a159205cd7ea9dd",
+      "bytes": 2737,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30001934/verify.py",
+      "source_report_sha256": "0e05ccd89d3cde9773dae9f3c9f02e0ad47318a0c857082b47f79e2cb41b7625",
+      "title": "Greedy Decomposition of the Spanning-Tree Polytope",
+      "claim_type": "Partial result",
+      "report_scope": "Under the usual greedy range 0≤λ≤k, every scaled integral point of the spanning-tree polytope of K_{2,t}, t≥2, admits positive integral greedy subtraction; a polynomial-time decomposition uses at most 5t+1 steps.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30001934",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.654,
+        "recorded_program_sha256": "2e4caa5028b86edc662b3ee195cf62f6c97ffbcae81aa07e5a159205cd7ea9dd",
+        "recorded_output_sha256": "d34010dbb31edcb1ba7a9c1ddc68491ea0b70bb526509c8300cafbd696ee0880",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30001934/root_verification.log",
+        "root_log_sha256": "b8152299c1cd423b21eeee5a70d48dc01c573e0088310e20fd64abbccdd1a138",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30001934/independent_audit.md",
+        "sha256": "7895eaede53489e0d3ee8998463ec874653fa5705870f1b91c8fa98943aa55dd",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30001934/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30001934/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30001934.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30002722",
+      "path": "TOP-30002722/verify.py",
+      "sha256": "8e3320ffb15f690b699c3f2e78659a8692fbfa6569ff2f341a84e1aaa31e2af0",
+      "bytes": 2288,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30002722/verify.py",
+      "source_report_sha256": "34d54d2b52718370b1e4472f62e9e12ea73abafe0ddc3475045a1e97945ff237",
+      "title": "Polynomial-Time Minimization of K-Submodular Functions",
+      "claim_type": "Partial result",
+      "report_scope": "Explicit k-submodular functions given by admissible unary terms and nonnegative star-metric pair interactions on a tree can be minimized exactly in O(n(k+1)²) rational operations, with polynomial bit complexity.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30002722",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 8.046,
+        "recorded_program_sha256": "8e3320ffb15f690b699c3f2e78659a8692fbfa6569ff2f341a84e1aaa31e2af0",
+        "recorded_output_sha256": "31eb470fcc666b55c3895d3d8ea858249b45ea5c6de3d2318e8d74745ee4f2fb",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30002722/root_verification.log",
+        "root_log_sha256": "1dafee0847ecf34b97d7a4991ed76bfc0d2a28f37f4e69ba1c2b5d1156bce72e",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30002722/independent_audit.md",
+        "sha256": "5ee4d7b2c0f7f54334a95b129d90c4099cec5de5101d53c123c92e9c004575ac",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30002722/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30002722/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30002722.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30003997",
+      "path": "TOP-30003997/verify.py",
+      "sha256": "f7e86ad34b08d0530eabf8d58724e467f1f52a6ca4684b929a62aeb3c68ac0b1",
+      "bytes": 3677,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30003997/verify.py",
+      "source_report_sha256": "f0099ded6122caa673b546df55c436d1d53dadee3db8f4cd9c6cd0060ca3db4d",
+      "title": "Hardness of Path-Cost Arborescence Optimization",
+      "claim_type": "Partial result",
+      "report_scope": "Distinguishing optimum zero is NP-hard for destination-specific path-cost spanning arborescences even on DAGs with indegree≤2, outdegree≤2, underlying undirected degree≤3 and only 0/1 costs.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30003997",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.058,
+        "recorded_program_sha256": "f7e86ad34b08d0530eabf8d58724e467f1f52a6ca4684b929a62aeb3c68ac0b1",
+        "recorded_output_sha256": "33c3aca08bde2b12b0683a41fd279a295270f5ce0662ad252d14757c7a787c3d",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30003997/root_verification.log",
+        "root_log_sha256": "01bb9197ccf447b3b7e55f94434d59788b72207bae7c66ddc7169743d0020359",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30003997/independent_audit.md",
+        "sha256": "e90cc9a2559b8eaf5b55af6187c0cae61ca1bddd901628d560562d7ef7bb833a",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30003997/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30003997/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30003997.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30004015",
+      "path": "TOP-30004015/verify.py",
+      "sha256": "7f96ac040a065c7e3f979f520d8bf935b5b2032491e8a5457bc1044abfba1f0b",
+      "bytes": 1772,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30004015/verify.py",
+      "source_report_sha256": "8084775f8c5d6910d9491fe4c2871fdf74721b63bb452b6a8ca8a3bf10d945cb",
+      "title": "Subquadratic Approximation for Longest Common Subsequences",
+      "claim_type": "Partial result",
+      "report_scope": "For matching-position count r, an exact longest common subsequence is computable in O((n+r) log(n+2)) word operations after alphabet compression; r=n^{2−Ω(1)} gives a truly subquadratic exact regime.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30004015",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.499,
+        "recorded_program_sha256": "7f96ac040a065c7e3f979f520d8bf935b5b2032491e8a5457bc1044abfba1f0b",
+        "recorded_output_sha256": "b58b998ee1432a343ccdcec683a8922b4a5cbe93f077f41eff78bf41c8c89814",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30004015/root_verification.log",
+        "root_log_sha256": "c10f370078d239c3b7dfb65b159eb8099e06f7a9be3a87306f3f02842e80dc5b",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30004015/independent_audit.md",
+        "sha256": "54caf86f82c2a84e03249dfcfe7ed5932a61d3a3577c9bed66b942957c40381f",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30004015/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30004015/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30004015.txt",
+        "J. W. Hunt and T. G. Szymanski, A Fast Algorithm for Computing Longest Common Subsequences, Communications of the ACM 20(5), 1977, pp.350–353, DOI https://doi.org/10.1145/359581.359603 . Primary paper bibliographic/algorithm statement checked; the chain and tails correctness are proved here."
+      ]
+    },
+    {
+      "handle": "TOP-30004130",
+      "path": "TOP-30004130/verify.py",
+      "sha256": "c262611a26cb9350a6e39868448871915f0e6aa4553823a2b7935bc8008c8a17",
+      "bytes": 3170,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30004130/verify.py",
+      "source_report_sha256": "e2896b1b5b1cce71c0c9ccb6fef08df45809cef54ca65455cda56125b15887c4",
+      "title": "Complexity of Approximate Counting in Spin Systems",
+      "claim_type": "Partial result",
+      "report_scope": "For fixed q≥2 and a supplied feedback vertex set S of size k, exact rational Potts and hard-core partition functions are computable in q^k·poly(L) and 2^k·poly(L) bit time, respectively, where G−S is a forest and L is full encoded input length.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30004130",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.322,
+        "recorded_program_sha256": "c262611a26cb9350a6e39868448871915f0e6aa4553823a2b7935bc8008c8a17",
+        "recorded_output_sha256": "c74a9bfba1aa9f858ef87a7a5c5a3b6e5b2f81ed62ec31b15537021e4086b5d4",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30004130/root_verification.log",
+        "root_log_sha256": "170baf09d00cc05cb0418aa172f901f758cbaa7317fe0560b3a40f68f44a0b55",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30004130/independent_audit.md",
+        "sha256": "75d6acb9021d5567101920ddcf7ae3f64e3e7643b8ce787e180c53415d3808e9",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30004130/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30004130/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30004130.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30004864",
+      "path": "TOP-30004864/verify.py",
+      "sha256": "3e48f57a1c63c64a65113ed6922fb27f6f289ceb98543c034d6832f2623a6d17",
+      "bytes": 2599,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30004864/verify.py",
+      "source_report_sha256": "3bb8110ad11017341ff0b19987e2f00b42d98c28b08281acce8454b7143a5760",
+      "title": "Algorithms for Symmetry-Reduced Semidefinite Programs",
+      "claim_type": "Partial result",
+      "report_scope": "A rational SDP whose coefficient matrices are invariant under all simultaneous row/column permutations reduces exactly to a two-variable rational LP, allowing exact feasibility/optimality/unboundedness decisions in polynomial bit time.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30004864",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.821,
+        "recorded_program_sha256": "3e48f57a1c63c64a65113ed6922fb27f6f289ceb98543c034d6832f2623a6d17",
+        "recorded_output_sha256": "5d26ca8b2e382c4cde7dd78764c99a12f5744278bbb13bf422293ceb6181af41",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30004864/root_verification.log",
+        "root_log_sha256": "c343f47b133a618e492ac595b119e8c432a5ac980686fcffa66ed3ca060d4553",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30004864/independent_audit.md",
+        "sha256": "c86d2abab6634f4dcd7d762561c3b06f4bd728417785967ff32062df8371efd6",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30004864/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30004864/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30004864.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30004909",
+      "path": "TOP-30004909/verify.py",
+      "sha256": "b4cacf04560e53faebe7b44917ef8519dc98f4ab9f4e9c1539deb37e7603b080",
+      "bytes": 1713,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30004909/verify.py",
+      "source_report_sha256": "9a45ef5a5f8d61a0bf47449b70a4571506b15c8cd2b7e31bf52f2dd29f443a5a",
+      "title": "Approximating Submodular Functions by Matroid Rank Functions",
+      "claim_type": "Partial result",
+      "report_scope": "Every integer-valued normalized monotone submodular function with f({i})=1 is exactly a matroid rank function, so the prompt’s comparison holds with α=1 in this integral regime.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30004909",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.382,
+        "recorded_program_sha256": "b4cacf04560e53faebe7b44917ef8519dc98f4ab9f4e9c1539deb37e7603b080",
+        "recorded_output_sha256": "74d7fdc3bceccf950c6f2d181286a40e69dbfb93b2497013f8e1afa7aeb0507c",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30004909/root_verification.log",
+        "root_log_sha256": "3a31976d255003269fad650c5e540d3d2f1c99a326556e29d5665062e5543729",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30004909/independent_audit.md",
+        "sha256": "1e32b60d6a6ee140d817af3d588c8b660d0f7868cd70e7b0d821806e5fda5084",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30004909/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30004909/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30004909.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30004912",
+      "path": "TOP-30004912/verify.py",
+      "sha256": "6d904b162c84344fc71b978773b8a0894d87bc650e94b8b071b87f82aff72747",
+      "bytes": 2080,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30004912/verify.py",
+      "source_report_sha256": "257a608c22d6685177cd8d553cbd2b43a702001ffe4c68604b61948a032bbd6e",
+      "title": "Compact Representations of Four-Thirds Near-Mincuts",
+      "claim_type": "Partial result",
+      "report_scope": "Every cut of a connected nonnegatively weighted cactus with 0<λ and weight≤4λ/3 is one bridge or one pair of edges in one cycle; all such cuts have an O(n+m)-word implicit representation.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30004912",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.312,
+        "recorded_program_sha256": "6d904b162c84344fc71b978773b8a0894d87bc650e94b8b071b87f82aff72747",
+        "recorded_output_sha256": "4f4895238510fb2f6f0ca2446d3accdc469aa57ab053f64cd1bdad94bea5f075",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30004912/root_verification.log",
+        "root_log_sha256": "bee5802f96becf21c5b9c57bf879bc09698f44ca50547ad8aa8b701a559b0bbc",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30004912/independent_audit.md",
+        "sha256": "85613df662a118bc58caf543263dc6a5e020f02137e08e4a685c7ddbc331f060",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30004912/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30004912/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30004912.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30004914",
+      "path": "TOP-30004914/verify.py",
+      "sha256": "fe5eec414ccfe5708d6acd070b69fbb05915b394088dc2fdec9d76ac7df587c3",
+      "bytes": 1832,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30004914/verify.py",
+      "source_report_sha256": "7c992480b7257eb57278b15dc64bf345997ad16b8a124d1d3ae1db22e62a78d9",
+      "title": "Deterministic Optimization of Top-$k$ Perfect-Matching Edges",
+      "claim_type": "Partial result",
+      "report_scope": "On arbitrary graphs with two rational weight levels a<b, one polynomial-time perfect matching maximizes the sum of its k largest edge weights simultaneously for every k, including k supplied as input.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30004914",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.656,
+        "recorded_program_sha256": "fe5eec414ccfe5708d6acd070b69fbb05915b394088dc2fdec9d76ac7df587c3",
+        "recorded_output_sha256": "9710c03ca2079dfbbc99647c47c4bed56ee22f35f64f966dd783a40f08702fe7",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30004914/root_verification.log",
+        "root_log_sha256": "05f384bfedc3b9424c569c37d8e01eda71328d54e9e939af1a9b49d29922c67b",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30004914/independent_audit.md",
+        "sha256": "efc2e55b66c7ff36aee084cab1fe41e0ae0f7e3f506a85f367e5cc41628bfd9a",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30004914/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30004914/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30004914.txt",
+        "Edmonds 1965, primary NIST paper, abstract and weighted algorithm: https://nvlpubs.nist.gov/nistpubs/jres/69B/jresv69Bn1-2p125_A1b.pdf ."
+      ]
+    },
+    {
+      "handle": "TOP-30005977",
+      "path": "TOP-30005977/verify.py",
+      "sha256": "185d95e1073451d2d4130ceb48c5e5f3a67fccd56586565098d030aed8dbed75",
+      "bytes": 1638,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30005977/verify.py",
+      "source_report_sha256": "018fcf6ed1163e170e550f94d487425b048591fb577eaf6f3ad0107646c00ef8",
+      "title": "Finite-field polynomial multiplication and integer-multiplication lower bounds",
+      "claim_type": "Partial result",
+      "report_scope": "For every fixed C≥1 and primes d≤p≤d^C, d≥2, degree<d polynomial multiplication over F_p takes O(d log p·log(d log p)) bit time using credited O(N log N) integer multiplication and explicit carry-free packing.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30005977",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.124,
+        "recorded_program_sha256": "185d95e1073451d2d4130ceb48c5e5f3a67fccd56586565098d030aed8dbed75",
+        "recorded_output_sha256": "edbbda992a8b9fb549bb7c2c670942e1e3401daa2715da537a4a6e37a30ee68d",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30005977/root_verification.log",
+        "root_log_sha256": "175300c1b0e245b1a894fbd973895a9c7351e561844fbdc0101858da4956be6f",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30005977/independent_audit.md",
+        "sha256": "4e45aae31d79bd535c85f47964c522e7f86700d8074639fb26bafe55057ca4e7",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30005977/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30005977/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30005977.txt",
+        "Harvey–van der Hoeven, Annals of Mathematics 193 (2021), primary publication abstract/theorem: https://annals.math.princeton.edu/2021/193-2/p04 ; author paper page https://web.maths.unsw.edu.au/~davidharvey/research/nlogn/index.html ."
+      ]
+    },
+    {
+      "handle": "TOP-30006105",
+      "path": "TOP-30006105/check_exact.py",
+      "sha256": "fb890b68ca4b1f96b346b93d16e732f8311930b82caea57ced72b76cf5a3e6d1",
+      "bytes": 3017,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30006105/check_exact.py",
+      "source_report_sha256": "ee5efdda74012b61c74a706062d5aa47ef89845e7823a9c0a59fb52b61353238",
+      "title": "Exact containment when the outer zonotope has fixed generator co-rank",
+      "claim_type": "Partial result",
+      "report_scope": "For rational full-row-rank H in Q^(d x m), centered zonotope containment is decidable in binom(m,d-1) poly(L) bit operations. With m=d+c and fixed c this is polynomial in total encoded input length L.",
+      "recorded_verification_summary": "Executed check_exact.py with assertions enabled: PASS 120 rational containment cases d1..4, outer co-rank0..2; independent cube-feasibility oracle. python -O was separately executed and refused. These are finite exact checks only.",
+      "author_agent": "/root/hundred_geometry",
+      "independent_reviewer_agent": "/root/hundred_algebra",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30006105",
+        "recorded_program": "check_exact.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.243,
+        "recorded_program_sha256": "fb890b68ca4b1f96b346b93d16e732f8311930b82caea57ced72b76cf5a3e6d1",
+        "recorded_output_sha256": "6d1df61a87d40e95729d9e3a0c595af47767b32f7ed4050544c05d0f23b09714",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30006105/root_verification.log",
+        "root_log_sha256": "62bc517eacbbd71b93f376b2bf23e6908055b7e5bc56adbd87d36d3c21e17e62",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30006105/independent_audit.md",
+        "sha256": "34aa1c3b9d3208847cf8900560df954ef4e18fbde5cf561fd7f22a3c68fc6019",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30006105/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30006105/check_exact.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30006105.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30006109",
+      "path": "TOP-30006109/verify.py",
+      "sha256": "1b5a0074a98797897da53d5c88fd0fec91c9ded2eae77656f3703321d011e41f",
+      "bytes": 1825,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30006109/verify.py",
+      "source_report_sha256": "bcf23ac84fd98ed0869de7235f6ebe539b4840e00d5947e386998897563850a5",
+      "title": "Approximating Fare-Zone Assignment on Trees",
+      "claim_type": "Partial result",
+      "report_scope": "Exact hard-budget fare-zone optimization is NP-hard even on stars with edge congestion exactly three, all commodity weights and budgets one, and paths of length one or two.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30006109",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.463,
+        "recorded_program_sha256": "1b5a0074a98797897da53d5c88fd0fec91c9ded2eae77656f3703321d011e41f",
+        "recorded_output_sha256": "66bf82c5798cc46a0111fa42b349bed876dea35ef9c0de2488eee5393d097d0a",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30006109/root_verification.log",
+        "root_log_sha256": "825182b45334702d2ddb1a8a95332d0291cd81fd87bbbe6b66897c97862d3214",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30006109/independent_audit.md",
+        "sha256": "8f4618024b882ae5848d491e4d942b2a38b80ae559a6c1fbd6da275dae6a7f9f",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30006109/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30006109/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30006109.txt",
+        "M. R. Garey, D. S. Johnson, L. Stockmeyer, Some Simplified NP-Complete Graph Problems, Theoretical Computer Science 1 (1976), pp.237–267, Theorem 2.6 on NODE COVER with maximum-degree-three graphs; primary paper pp.260–262 read in the OCR-accessible copy: https://www.acs.uwinnipeg.ca/ychen2/journalpapers/Garey-Johnson-2maxsat.pdf . The earlier two-up scan did not justify our initially mistaken theorem/page reference; the final reference is this explicitly rechecked result . DOI https://doi.org/10.1016/0304-3975(76)90059-1 ."
+      ]
+    },
+    {
+      "handle": "TOP-30006760",
+      "path": "TOP-30006760/verify.py",
+      "sha256": "a841b23da04aae90b3193a5e53113cdb995258763f891a3309f70fc88ab74c2d",
+      "bytes": 1417,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30006760/verify.py",
+      "source_report_sha256": "bf2db993389b5ead01a4a8531562f06cd59fe35bdc57651984dc357696569148",
+      "title": "An explicit anticanonical count on every open subset of projective space",
+      "claim_type": "Partial result",
+      "report_scope": "For every n>=1 and every fixed nonempty Zariski open U in P^n/Q, with H([x])=max|x_i|^(n+1) on primitive integer coordinates, N(U,B)~2^n B/zeta(n+1), with error O_U(B^(n/(n+1))) for n>=2 and O_U(B^(1/2) log B) for n=1.",
+      "recorded_verification_summary": "Executed verify.py on32 complete integer grids: coordinate count d=2,3,4,5 and T=1,...,8. Direct gcd enumeration agrees with Möbius inversion; the sign quotient and open x0!=0 counts are integral. The asymptotic and arbitrary-open claim rest on the proof. Standard-library exact Python, Apache-2.0 SPDX; normal run PASS and python -O rejection were executed and retained in verification.json/verification_output.txt.",
+      "author_agent": "/root/hundred_numbers",
+      "independent_reviewer_agent": "/root/hundred_graphs",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30006760",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.672,
+        "recorded_program_sha256": "a841b23da04aae90b3193a5e53113cdb995258763f891a3309f70fc88ab74c2d",
+        "recorded_output_sha256": "05a82cc1b20d594596f0a1704c405fddea312212ba49a1272a8731af9bf1a1ea",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30006760/root_verification.log",
+        "root_log_sha256": "76d57a59db204ecffb29ed8ebc8bf8faf2f0e96ef64850cacc6da055a4e6fb34",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30006760/independent_audit.md",
+        "sha256": "3d15461e64eb23d35b386fb0418e0623ef7d44b7e31ce2d96016afe1eba5b1e9",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30006760/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30006760/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "Batyrev–Tschinkel, Rational points on some Fano cubic bundles, arXiv:alg-geom/9602013v1, https://arxiv.org/pdf/alg-geom/9602013",
+        "Fresh official TOP-30006760 prompt and its Math-170-A1 contribution"
+      ]
+    },
+    {
+      "handle": "TOP-30006781",
+      "path": "TOP-30006781/verify.py",
+      "sha256": "168423b71de96f429818e65d13ef579f7d6d7ac1e1b7575819685e73f778d61d",
+      "bytes": 1348,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30006781/verify.py",
+      "source_report_sha256": "0dff919f79bbf9ace74bbad42c28d45ab85b51f0145dab020e4546f3d5fd4110",
+      "title": "Omega(n log n) Boolean Circuit Lower Bound for Integer Multiplication",
+      "claim_type": "Partial result",
+      "report_scope": "For every fixed depth D≥2, unbounded-fan-in AND/OR/NOT circuits outputting exact n-bit integer products need exp(Ω_D((n/log(n+2))^{1/(D−1)})) gates; no unrestricted-depth lower bound is claimed.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30006781",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.407,
+        "recorded_program_sha256": "168423b71de96f429818e65d13ef579f7d6d7ac1e1b7575819685e73f778d61d",
+        "recorded_output_sha256": "b6e41350ada94165881cca7b0be91a4cb6d76f4dffff03103c22a51f75c7b59d",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30006781/root_verification.log",
+        "root_log_sha256": "286f68a21adb9b6513d414388ddd53601d860928ccd20addccdbe5bf39870139",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30006781/independent_audit.md",
+        "sha256": "d981997747f77cfde2708f3d565822ce1b575a4880d007ad776a19f58b751d68",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30006781/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30006781/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30006781.txt",
+        "Johan Håstad, Computational Limitations for Small Depth Circuits, primary 1986 thesis manuscript, §2.2 circuit conventions and Theorem 5.1 (pp.35–37 in manuscript pagination): https://johanhastad.se/thesis.pdf ."
+      ]
+    },
+    {
+      "handle": "TOP-30006800",
+      "path": "TOP-30006800/verify.py",
+      "sha256": "7c18b3a39790b69c4e80d75ad9efc26deae95b96b997c986c5338cc43f8f7f7d",
+      "bytes": 2080,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30006800/verify.py",
+      "source_report_sha256": "355f1f1f1f625a050fa094863dcd6b1ced219546721d2937b02f660931b3a3f9",
+      "title": "Perfect-Matching Search in Deterministic NC (General Graphs)",
+      "claim_type": "Partial result",
+      "report_scope": "Perfect-matching search, including the NO output, is in logspace-uniform NC² on forests, by computing edge-cut parities in parallel and verifying the resulting candidate matching.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30006800",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.352,
+        "recorded_program_sha256": "7c18b3a39790b69c4e80d75ad9efc26deae95b96b997c986c5338cc43f8f7f7d",
+        "recorded_output_sha256": "894b2f4188c13dedd8def07db0326f27b9fd4e7d15be9ff61370378232f5b549",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30006800/root_verification.log",
+        "root_log_sha256": "b3573e64e182a710cab949d99082bb339493c61cae61693e2ca915c6d7881486",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30006800/independent_audit.md",
+        "sha256": "a51f984009badb09e781ed6cd5e0c9fbc0e5ef51e91e442a0a1a91ab894dc624",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30006800/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30006800/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30006800.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30007005",
+      "path": "TOP-30007005/verify_tensor_squares.py",
+      "sha256": "bb0fa76674cbb7fa0c4d9a272155702368f44f0bc6c38bc0021ca3e2850c43d4",
+      "bytes": 5589,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30007005/verify_tensor_squares.py",
+      "source_report_sha256": "b4543bd343b66ac5ff8fb3d335c1e76ecc9708b83226b2b64792ec591b6ce63d",
+      "title": "A complete exact universal-tensor-square search through degree sixteen",
+      "claim_type": "Computational evidence",
+      "report_scope": "For every 1≤n≤16 outside {2,4,9}, an explicit irreducible S_n representation has a tensor square containing every irreducible; no such representation exists at the three excluded degrees in this finite range.",
+      "recorded_verification_summary": "Complete exact symmetric-group character tables and universal-square candidate searches passed for n=1..16; every character entry for n=1..7 also matched a separate Frobenius coefficient oracle. Hook-length degrees, full row orthogonality, integral nonnegative multiplicities and dimension sums passed. -O was run and rejected; full witness spectra and execution logs retained.",
+      "author_agent": "/root/hundred_algebra",
+      "independent_reviewer_agent": "/root/hundred_topology",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30007005",
+        "recorded_program": "verify_tensor_squares.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 2.492,
+        "recorded_program_sha256": "bb0fa76674cbb7fa0c4d9a272155702368f44f0bc6c38bc0021ca3e2850c43d4",
+        "recorded_output_sha256": "7dac00af75dc3eb15a0e68a86fefdc0d3e11d361a9d8b45cdac6ed9eb4a94a3b",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30007005/root_verification.log",
+        "root_log_sha256": "04ab76377a387d903facaf2b11866ad71a9c196ee62267bf84e77887ebd71308",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30007005/independent_audit.md",
+        "sha256": "183089fdda2b0bc0bd8ea11a37c02359f1831cb72e68c6b11134adc2af17b3cb",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30007005/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30007005/verify_tensor_squares.py",
+      "execution_generated_files": [
+        "A future user execution writes verification.json beside verify_tensor_squares.py. This generated output is not part of the prepared payload."
+      ],
+      "checked_references": [
+        "[1] Igor Pak, Greta Panova and Ernesto Vallejo, Kronecker products, characters, partitions, and the tensor square conjectures, arXiv:1304.0738v2, inspected primary paper: Section 3 gives the character scalar-product framework, sign/conjugation symmetry and Murnaghan–Nakayama applications. Published Advances in Mathematics 288 (2016), 702–731. https://arxiv.org/pdf/1304.0738v2",
+        "[2] Alexander R. Miller, On parity and characters of symmetric groups, Journal of Combinatorial Theory, Series A 162 (2019), 231–240, DOI 10.1016/j.jcta.2018.11.001. Author manuscript Section 1.1, equations (1) and (2), explicitly states both the Vandermonde/power-sum Frobenius coefficient formula and the Murnaghan–Nakayama rule used by the two independent implementations. These formulas on manuscript p.1 were freshly inspected; no full-paper proof review is claimed. https://www.armiller.org/Parity.pdf",
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30007005.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30007113",
+      "path": "TOP-30007113/check_exact.py",
+      "sha256": "707b19215cb07d2234ade410d1b52134d1e5a922a09c35a20e331b070fc84470",
+      "bytes": 2558,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30007113/check_exact.py",
+      "source_report_sha256": "30837318443be3a3230e18db05a261f40bf0232e224a3629f74dc7a766d342d6",
+      "title": "Isometric L1 embeddings of all positively weighted cactus metrics",
+      "claim_type": "Partial result",
+      "report_scope": "Every finite connected cactus with arbitrary positive edge lengths embeds isometrically in real L1; it has a tree decomposition with bag cardinality at most3, giving distortion1 on this explicit bag-size3 subclass.",
+      "recorded_verification_summary": "Executed check_exact.py with assertions enabled: PASS 140 rational weighted cacti; 15202 pairwise L1 distances equal independent Dijkstra shortest paths. python -O was separately executed and refused. These are finite exact checks only.",
+      "author_agent": "/root/hundred_geometry",
+      "independent_reviewer_agent": "/root/hundred_algebra",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30007113",
+        "recorded_program": "check_exact.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.93,
+        "recorded_program_sha256": "707b19215cb07d2234ade410d1b52134d1e5a922a09c35a20e331b070fc84470",
+        "recorded_output_sha256": "5e3951a200a051bd77645ed0971c751187a1df87377c3d9eb78297d03f535008",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30007113/root_verification.log",
+        "root_log_sha256": "97833c3b4f3bcd1f4d20af116bb949b03fcf86198bc1e397b1419c7e19be3b28",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30007113/independent_audit.md",
+        "sha256": "3db75554b75a9290465ed19573aa9b3555f2730ab45c07e185c5ba3961fdd9a6",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30007113/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30007113/check_exact.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30007113.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30007441",
+      "path": "TOP-30007441/verify.py",
+      "sha256": "2661640a10ed741227ac0f83fbd1ba93887d3bfd6674b602ac3138b759bc25fd",
+      "bytes": 2124,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30007441/verify.py",
+      "source_report_sha256": "a58ce9eebac4a17546745254600204f4f9d7798392a08d2d445c8d841cada14b",
+      "title": "Polynomial switch-chain mixing for all degree sequences",
+      "claim_type": "Partial result",
+      "report_scope": "For the all-one degree sequence on even n≥4, the literal lazy four-vertex switch chain has gap at least 1/(12 binom(n,4)) and mixes by ceil(12 binom(n,4) ln(4n/2)), hence by 2n⁸.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30007441",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.221,
+        "recorded_program_sha256": "2661640a10ed741227ac0f83fbd1ba93887d3bfd6674b602ac3138b759bc25fd",
+        "recorded_output_sha256": "dabd944bcf02bda26cef0ec69d0aad57f16aa46c3e9a5e2a28b998cbfb7467ad",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30007441/root_verification.log",
+        "root_log_sha256": "0c9d716582d95d854a83eac88dd893d91bb221f7b07d02435eeb15d174e0c2a7",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30007441/independent_audit.md",
+        "sha256": "293903ae82c33013f7ac6f236f926e58d08c6faa9738f091635f8612e54d9625",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30007441/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30007441/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30007441.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30007453",
+      "path": "TOP-30007453/verify.py",
+      "sha256": "36a4e3e8cac424205f6c99ee5ab5720f9445feb455296a8049380f5037654518",
+      "bytes": 1639,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30007453/verify.py",
+      "source_report_sha256": "461917006f4ba84c4ab6f0f0c882be0c9ca4e570251c3b3d29454eca9c101d24",
+      "title": "Almost-linear edit-distance approximation scheme",
+      "claim_type": "Partial result",
+      "report_scope": "Exact unit-cost edit distance on the promise ED(x,y)≤k is computable in O(N(k+1)) word operations and O(k+1) working words; k=N^{o(1)} gives deterministic almost-linear exact estimation.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30007453",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.352,
+        "recorded_program_sha256": "36a4e3e8cac424205f6c99ee5ab5720f9445feb455296a8049380f5037654518",
+        "recorded_output_sha256": "c3478a6c169d543dd94f5d2c3cde7114a4f7175a1eea9b7058c679ea947125bd",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30007453/root_verification.log",
+        "root_log_sha256": "bef6df6d2d5434d5bcb75d690dc28a2c1bce1133664e6a97713f1008ce29b80d",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30007453/independent_audit.md",
+        "sha256": "a2fb9f183aefa2e9b11193a49643b31e00469dcba917a8954305cc78d1123722",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30007453/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30007453/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30007453.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30007460",
+      "path": "TOP-30007460/verify.py",
+      "sha256": "a2dd14117bdbbf07c7d600ef8536d54ab2b6cbef8cd83111fcd3b57f1b38c08d",
+      "bytes": 1462,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30007460/verify.py",
+      "source_report_sha256": "0b57a020c4587e7f119a2e77b4cf74e428f69444952f326ecefeb0c231e14368",
+      "title": "Depth-five homogeneous lower bounds for iterated matrix multiplication",
+      "claim_type": "Partial result",
+      "report_scope": "A monotone homogeneous depth-three ΣΠΣ circuit for IMM_{n,n}, whose product gates multiply n homogeneous linear forms with nonnegative real coefficients, requires at least n^{n−1} product gates for n≥2.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30007460",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.063,
+        "recorded_program_sha256": "a2dd14117bdbbf07c7d600ef8536d54ab2b6cbef8cd83111fcd3b57f1b38c08d",
+        "recorded_output_sha256": "d5c7a1c651ed766a9aeb6abe41abc28d8106e78c1f39ca092732db758903ab3c",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30007460/root_verification.log",
+        "root_log_sha256": "97dcd75b47040a97fe5983115ffe66f95d3a7d3cf4614a57f151e2289c28c355",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30007460/independent_audit.md",
+        "sha256": "20cfb5ebd0938c4bc729f2b0376e8a372c55ecd22bdfc6e652174d540d81f6f5",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30007460/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30007460/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30007460.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30007461",
+      "path": "TOP-30007461/verify.py",
+      "sha256": "0ddce175ccdc83937a0c74c728a38764ba2ed6701b10e9441b551c0a8220d410",
+      "bytes": 1516,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30007461/verify.py",
+      "source_report_sha256": "d559ef68d9150fc154c10a443fa8b8d854229f45c30a3eb9af637628a6461b22",
+      "title": "Integer multiplication below n log n",
+      "claim_type": "Partial result",
+      "report_scope": "A uniform deterministic fixed-multitape algorithm multiplies n-bit operands in O(n(h+1)) bit time and O(n) work bits when one operand has Hamming weight h; h≤√log₂(n+2) meets the prompt’s time scale.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30007461",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 2.574,
+        "recorded_program_sha256": "0ddce175ccdc83937a0c74c728a38764ba2ed6701b10e9441b551c0a8220d410",
+        "recorded_output_sha256": "403f51c712db599314873b5a6a7b0be36a2de1e1177b54017b0e556325adca21",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30007461/root_verification.log",
+        "root_log_sha256": "a89621fc422671989f6e5b69762fda221a52bfd40a85722132fdfb4817836ec0",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30007461/independent_audit.md",
+        "sha256": "6a85f0494963b43a94eb0cb3bb06d107b775cd573f30905723cc7ef4dc8a8011",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30007461/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30007461/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30007461.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30007480",
+      "path": "TOP-30007480/verify.py",
+      "sha256": "de887f0bb8a64c850f9c3ec55c1d71b08f385356c6bf48e11fb997db4bdca6f9",
+      "bytes": 2645,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30007480/verify.py",
+      "source_report_sha256": "9c17bcb7d0b8ff0b7c08e96f7d68b03db02b79d42a77a2a434f7365d660106f1",
+      "title": "Almost-linear maximum-cardinality matching",
+      "claim_type": "Partial result",
+      "report_scope": "Maximum-cardinality matching is deterministic exact in O(D·2^p·poly(p,log(n+D+2))) word operations from a supplied nice path decomposition of length D and bag size at most p; D=N^{1+o(1)}, p=o(log N) give almost-linear time.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30007480",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.191,
+        "recorded_program_sha256": "de887f0bb8a64c850f9c3ec55c1d71b08f385356c6bf48e11fb997db4bdca6f9",
+        "recorded_output_sha256": "5bf5648aaf105c6e9f3d76f4012ba0d8dd854acd7b82cd559063ec66e086838c",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30007480/root_verification.log",
+        "root_log_sha256": "70fa8a21bd77d614f5f627ced534815e5b8e874e0c811e83146cbb46f45391e7",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30007480/independent_audit.md",
+        "sha256": "af39569cd29c2c4d40992eb62dbd2f9241afb2069bbab30492883608603a634d",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30007480/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30007480/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30007480.txt"
+      ]
+    },
+    {
+      "handle": "TOP-30007481",
+      "path": "TOP-30007481/verify.py",
+      "sha256": "e683a7ca0203a350595dacb22aa13aa8812fd9e33414e62c2c04bb58190cdd86",
+      "bytes": 2082,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30007481/verify.py",
+      "source_report_sha256": "d118b00c17b5cecf7ebf0129b468f69f40a8f3326fae1e3b8295e0c708387df8",
+      "title": "Randomized k-server with squared-logarithmic ratio",
+      "claim_type": "Partial result",
+      "report_scope": "On a unit uniform metric with k initially distinct server sites, randomized marking has E[cost]≤2H_k·OPT with additive constant zero for every fixed finite request sequence.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30007481",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.522,
+        "recorded_program_sha256": "e683a7ca0203a350595dacb22aa13aa8812fd9e33414e62c2c04bb58190cdd86",
+        "recorded_output_sha256": "ce3d5161b347200dbb567b4991fb559f992a1b2803fe54f69286311b0d8bb7ba",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30007481/root_verification.log",
+        "root_log_sha256": "a47e957d798e3424668181bcf737cfee3d68e5372816eac4654b872e8f8b29f7",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30007481/independent_audit.md",
+        "sha256": "bcef580ddf3e61511a9732d5380f652f8b8795140bcde5fc1618779571eb0a13",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30007481/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30007481/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30007481.txt",
+        "Fiat et al., Journal of Algorithms 12 (1991), pp.685–699, primary author-hosted paper, marking-algorithm analysis: https://www.cs.cmu.edu/afs/cs.cmu.edu/usr/sleator/www/papers/competitive-paging.pdf ."
+      ]
+    },
+    {
+      "handle": "TOP-30007486",
+      "path": "TOP-30007486/verify.py",
+      "sha256": "a7811c52998b0e1af4777ac40cdfaaf8479a28e32f6e14fce72e54fe49c9c8c6",
+      "bytes": 1293,
+      "source_file": "two-hundred-more-problems-20261018/TOP-30007486/verify.py",
+      "source_report_sha256": "ceee4077a891856fe649782ed48d2383001a338219f5d1723c40398eb7383a84",
+      "title": "Low-space worst-case Subset Sum at half-exponential time",
+      "claim_type": "Partial result",
+      "report_scope": "Subset Sum is deterministic exact within the requested time/space envelopes whenever the target after gcd normalization satisfies t/g+1≤2^{0.199n}; no bound of this strength is asserted for arbitrary targets.",
+      "recorded_verification_summary": "An exact standard-library checker accompanies this report; its actual tested ranges and stdout are recorded in verification.json and verification_stdout.txt.",
+      "author_agent": "/root/hundred_algorithms",
+      "independent_reviewer_agent": "/root/hundred_geometry",
+      "review_run": {
+        "source_file": "two-hundred-more-problems-20261018/root_verification_runs.json",
+        "source_file_sha256": "a7e30391692d79a2c4f67db60e6d165b9f5592a9b6fd908505270a0e0cff3cec",
+        "handle": "TOP-30007486",
+        "recorded_program": "verify.py",
+        "recorded_exit_code": 0,
+        "recorded_elapsed_seconds": 0.396,
+        "recorded_program_sha256": "a7811c52998b0e1af4777ac40cdfaaf8479a28e32f6e14fce72e54fe49c9c8c6",
+        "recorded_output_sha256": "d0ff1b4c1706e40dc4d7a6a17fe227d4a0a4e82f2a159b667c60c02411022198",
+        "root_log_source_file": "two-hundred-more-problems-20261018/TOP-30007486/root_verification.log",
+        "root_log_sha256": "97f7f2a1d8b5f65e4cd67cad85579f85531f3b1a20cfac35f13f100941ac65f9",
+        "new_execution_during_payload_preparation": false
+      },
+      "independent_audit": {
+        "source_file": "two-hundred-more-problems-20261018/TOP-30007486/independent_audit.md",
+        "sha256": "9265a0afea4e59e4b63555e7971153d14697a49d32393149f8c7c720b069e9a8",
+        "binds_identical_program_sha256": true
+      },
+      "source_license_file": "two-hundred-more-problems-20261018/TOP-30007486/LICENSE-Apache-2.0.txt",
+      "source_license_sha256": "c1d1a38c99c48ccad170890ade6066e2e240bb6ce59861d4eb7f672eddd2a4c6",
+      "spdx_license_identifier": "Apache-2.0",
+      "run_command": "python3 TOP-30007486/verify.py",
+      "execution_generated_files": [],
+      "checked_references": [
+        "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/TOP-30007486.txt"
+      ]
+    }
+  ]
+}
