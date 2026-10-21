@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006776",
+  "canonical_problem_id": "prb_9589acfb5ee946259f3bd2dfe82f5845",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "e60345afc5920d5f03834bf1ae00b978eaa75413eea997154e7c6e4702869851",
+  "report_sha256": "e60345afc5920d5f03834bf1ae00b978eaa75413eea997154e7c6e4702869851",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "fab3368e35c7cd886ea623cb561594076392e84ad986794632b0f6cc3b17b67f",
+    "contribution.json": "d63a1b422bab60d05a38f62cdb1bf4a077254d89bb7135d7a6955f463e8e3fb3",
+    "official_metadata.json": "16afd97ec08668154211ad6f3d697af0031bf72e03ade94c18cf5a6364e62e25",
+    "official_metadata_api.json": "b574ce6c484dab2612c9c2665f9bd589fb7918d99567b908086921719d783f23",
+    "official_prompt.txt": "37a111bde5da28c0e4ff76488af731be5555a851349898845bf16f40a01d3077",
+    "official_prompt_api.json": "e3cd7388ddbaaa1c4190aa97a332514bf7739ea9a7c564114aa6815f7a51768a",
+    "prior_attempts/TOP-30006776-A1.html": "aa3c782de5917de2ac084c322b92cc8fae8d28a40f107a74d4c908912a8bb55e",
+    "prior_attempts/TOP-30006776-A1.json": "15024872474d79a4a2580fcd189427fbe612312d58324f134e0a95ad90610858",
+    "prior_attempts/TOP-30006776-A1.txt": "5ed4970b222888fab54bf89aa67ce94ce8ef026cfc891d42424da3d0a083d7ba",
+    "report.md": "e60345afc5920d5f03834bf1ae00b978eaa75413eea997154e7c6e4702869851",
+    "source_notes.md": "0dad5c9ea99682474573489a64602cfb5f116ed5f22fb7363a096ecd0ac51c37"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:20:54.202951+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read complete prior A1 including inseparability-safe descent, curve-certificate exponents and composition-vs-tensor countermodel. The present unconditional one-cycle theorem for all abelian varieties is distinct; prior descent is correctly credited rather than counted as added scope.",
+    "Checked actual Sebastian statements are rational one-dimensional cycles on arbitrary products of curves and arbitrary abelian varieties over algebraically closed fields, with no dimension cap or hidden characteristic0 premise. The report does not infer all cycle dimensions from the one-cycle theorem or replace numerical by algebraic triviality.",
+    "Independently checked proper generically-finite equal-dimensional transfer: operational pullback on smooth varieties is available without flatness, divisor projection tests numerical triviality, f_*f^*=delta, external pushforward givesdelta^N alpha^externalN, and rational coefficients permit division. An arbitrary rational map/resolution is not substituted for the required product-of-curves morphism.",
+    "Checked the Jacobian proof dimension correction: projective-bundle pullback is intersected with hyperplane powerm-g before pullback toC^m; symmetric quotient push-pull factorm! restores the original one-cycle. Abelian varieties are factors of Jacobians up to isogeny; source push/pull and factor projection preserve the assertion. The reverse implication smash=>numerical follows by factoring complementary external intersection degrees. All-field descent is only used as the retained prior lemma, with no uniform exponent claim."
+  ],
+  "sources": [
+    "Sebastian, actual arXiv:1207.7344v2,1Aug2012,14-page primary PDF turn1705view1; algebraically closed/rational setup p1, Theorem6 induction pp6-7 as turn1709view3/turn1714view1, Lemma8/Theorem9 pp8-9 as turn1709view4/turn1714view1. Published title is distinguished from actual preprint title."
+  ],
+  "limitations": [
+    "Modified-diagonal induction/source theorem imported and checked at statement/proof-path level, not fully reconstructed or formally verified. The generically-finite push-pull and degree argument were checked directly. No programs/runs."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

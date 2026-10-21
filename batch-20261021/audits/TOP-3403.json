@@ -1,0 +1,49 @@
+{
+  "handle": "TOP-3403",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "c1c27eb5f620133be26574503bafe52e2a0f9b1f5d3ef14feed3bb4e9238caac",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "268f758e385bd7c45bbaba23a4e81e6b87386883fa478a49db7693252f2146c9",
+    "contribution.json": "ae60482bbb7a171fc14e591dd5a82982a12dea33732a90865c8670a2beece1bb",
+    "official_metadata.json": "c317854f0034209fdf2c8f5af37897c20bf57c328345b3f10016f17143730f8a",
+    "official_metadata_api.json": "3e8fd684fcca80d8d439e2a6b4b100995fc387ba8dd55faf93ad9fdd57172cb0",
+    "official_problem.json": "c317854f0034209fdf2c8f5af37897c20bf57c328345b3f10016f17143730f8a",
+    "official_problem_api.json": "3e8fd684fcca80d8d439e2a6b4b100995fc387ba8dd55faf93ad9fdd57172cb0",
+    "official_prompt.txt": "8eea674f4c1423b3904bdbbef2fe4fb919725b191c32ab80918ce8c4be6c5f27",
+    "official_prompt_api.json": "bbdd301d6708f45da2f4f470a8b7369f8210c5b3dea56b57793b69a4825ee5b2",
+    "prior_attempts/TOP-3403-A1.tex": "c506d2052f24e65ff7e31d0a7baeb79713ceee0133a6845b0df8dde464cd930d",
+    "prior_attempts/TOP-3403-A1_api.json": "a06e0dc36da9243902befca5c1b3b523c0db09f65c4986cabee9e8b40e4e325f",
+    "prior_attempts/TOP-3403-A1_manuscript_api.json": "d7bd38c489027fa67f972a77d4d902dff6d3298c818fe48c5fa490740dffd0f3",
+    "prior_attempts/TOP-3403-A2.tex": "805f1a4156b5757c354b8b8612b09e509ea70cadb36a74fc97e85c2b3b1c592b",
+    "prior_attempts/TOP-3403-A2_api.json": "d7b78eaf086fcc9c813e0c185d27cccdd986c75caa28866f44e1d72e92e03de1",
+    "prior_attempts/TOP-3403-A2_manuscript_api.json": "940a63f7a07ab6e25d7c89ac604db71a122bd1fd135f73e222588bab643a0a86",
+    "report.md": "c1c27eb5f620133be26574503bafe52e2a0f9b1f5d3ef14feed3bb4e9238caac",
+    "source_notes.md": "f6804166db34c6db97c416173b4fc9f9c33decaa3511931c07adec3f9b01cfd2",
+    "verification.json": "a20d9f250815d26cc990ceea919ea32afb250096d96548730061715bd439f565"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:22:00.349821+00:00",
+  "actual_checks": [
+    "Read exact eventual-negligibility/any-preimage OWF prompt and both full prior fiber/candidate reports. Verified one-way padding reduction with copied random r and polynomial parameter rescaling, including optional odd-length extension.",
+    "From average correlation>=2epsilon, good x with rho_x>=epsilon have fraction>=epsilon. Distinct nonzero subset coefficient vectors over F2 give pairwise independent uniform rS; shifts preserve it and fresh predictor coins preserve vote pairwise independence.",
+    "For the correct ell-bit guess, each coordinate vote has bias>=epsilon; variance<=M/4 and Chebyshev give coordinate error<=1/(M epsilon^2), union<=1/8. Enumerating M+1 guesses contains x with probability>=7/8, and testing f(z)=y accepts any preimage without a collision assumption.",
+    "Calls nM, list M+1 and explicit enumeration are polynomial for a fixed inverse-polynomial epsilon bound. Inverse success>=7epsilon/8 on infinitely many lengths contradicts eventual negligible inversion. Negative correlation handled by output flip. Goldreich-Levin is credited, not an unconditional OWF construction; source/proof-only zero runs."
+  ],
+  "primary_sources": [
+    "Goldreich-Levin,A Hard-Core Predicate for all One-Way Functions,author-hosted7-page STOC1989-version paper https://www.cs.bu.edu/fac/lnd/pdf/hard.pdf, padded scalar-product theorem and reconstruction framework read. The report supplies a complete deliberately nonoptimal pairwise-independent decoder. Retained04_followup.json."
+  ],
+  "prior_work_distinction": "Adds a substantive complete hard-core predicate/list-reconstruction implication, distinct from earlier fiber resampling and planted quadratic candidates, with precise any-preimage and infinitely-many-length quantifiers. No underlying cryptographic hardness is proved.",
+  "scope_assessment": "Conditional on an arbitrary polynomial-time one-way family f, the padded family (x,r)->(f(x),r) remains one-way and the inner product <x,r> mod2 is a hard-core bit. An explicit polynomial list-reconstruction reduction is proved with the any-preimage convention; this is the established Goldreich–Levin theorem, not an unconditional construction of one-way functions.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

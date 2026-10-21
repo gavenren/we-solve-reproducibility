@@ -1,0 +1,45 @@
+{
+  "handle": "TOP-30000230",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "0e7f4d9e9e2f92197e7c5fe1d6c8065762e8f92ec5c97520492671f54f62cedb",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "4084a26f8caaac34681d9fa982189bd29072f0f4ba17379381a96a1d834abb4e",
+    "contribution.json": "0d3ab2d67ca3a957f5d3404aa6469e72397b0671188b37fa3d1b588adeafbfa5",
+    "official_metadata.json": "518ef50188f503d7c4589518055f29c48113b98ee40be9280b8c8448c63d60c1",
+    "official_metadata_api.json": "3947419f5bf848339ee2790fb5f325c6f028dab2fc86192ded09e2d90ada6c5c",
+    "official_problem.json": "518ef50188f503d7c4589518055f29c48113b98ee40be9280b8c8448c63d60c1",
+    "official_problem_api.json": "3947419f5bf848339ee2790fb5f325c6f028dab2fc86192ded09e2d90ada6c5c",
+    "official_prompt.txt": "9d85f7bcd2a0680b6c49cf109687073c443c79d1622eb1de00e3a3c02a68005c",
+    "official_prompt_api.json": "34858c3ac807fc9f331048660a2c47119c4904ed7a7cba07e59ff44d1d3a8192",
+    "prior_attempts/TOP-30000230-A1.tex": "5f1b4a11884086046a25072afd127d227452b9eeb0b771513b88119b6b9a57c9",
+    "prior_attempts/TOP-30000230-A1_api.json": "8d55bacac8f22792fc259bacc2114d30efe493182a692e02e63c08549caf5cb2",
+    "prior_attempts/TOP-30000230-A1_manuscript_api.json": "11c5724045c32b917e8615c1306d5ba633eeaad05e4043b1662222b20940c742",
+    "report.md": "0e7f4d9e9e2f92197e7c5fe1d6c8065762e8f92ec5c97520492671f54f62cedb",
+    "source_notes.md": "caea5cef73f8e42b4ba4d45113c748c8f7e0f4d6e50989f265f5434b17c422e4",
+    "verification.json": "a20d9f250815d26cc990ceea919ea32afb250096d96548730061715bd439f565"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:20:36.376526+00:00",
+  "actual_checks": [
+    "Read full official underdetermined source statement and A1 unit-task schedule. New interface explicitly requires positive rational durations, atomic nonpreemptive jobs, identical processors, zero communication and acyclic finish-before-start precedence; cyclic numerical iteration is not silently modeled.",
+    "Reconstructed latest-finishing-predecessor chain from the final job. In every gap before/between its jobs, the next chain job is ready so all processors are busy; every underfull interval is covered by a chain job. Integrating work gives W>=p(T-U)+U with U<=D, and hence the stated refined bound and2-1/p ratio.",
+    "Checked empty input, p=1, simultaneous completions, cycle infeasibility by positive-duration sum and large binary p capped to n. Event scheduler uses at most polynomially many heap updates and exact comparisons; common denominator and sums keep event times/output polynomial in input bits. No unary time expansion or scheduler execution claimed."
+  ],
+  "primary_sources": [
+    "Graham, Bounds on Multiprocessing Timing Anomalies,SIAMJ.Appl.Math.17(1969),416-429, primary publisher https://doi.org/10.1137/0117039, bibliographic attribution checked. Full article access restricted; no inaccessible proof claimed read. The complete bound used is proved in the report. Retained coordination/qualified_algorithms_primary_retrieval_03.json."
+  ],
+  "prior_work_distinction": "Extends A1 unit jobs to binary rational durations with nonpreemption, exact event-time implementation and full bit accounting; meaningful specified scheduling interface beyond an unquantified grid-framework request. Classical method is credited.",
+  "scope_assessment": "For finite atomic jobs with positive rational durations and a directed acyclic finish-before-start dependency graph, deterministic nonpreemptive list scheduling on p identical processors has makespan≤W/p+(1−1/p)D≤(2−1/p)OPT. It is implementable in polynomial bit time including its explicit schedule. Cyclic dependencies are detected as infeasible in this model; unspecified iterative grid semantics are not silently supplied.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

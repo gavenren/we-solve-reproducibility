@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006755",
+  "canonical_problem_id": "prb_b9e7cbfd1da44698b8de25fefd8328e9",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "f0ead4970944e19b98af638b77364158dc39f69d5b2b299321b212cf2dda2f03",
+  "report_sha256": "f0ead4970944e19b98af638b77364158dc39f69d5b2b299321b212cf2dda2f03",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "1c43c3a54344895dc2a1e1c9e64ced7028199086c3e15a18210f74d7614269f1",
+    "contribution.json": "0fae11fb8d92c2fd1b26207771f0188ccf3118cf17bc949d2e8d42167ef1cdfe",
+    "official_metadata.json": "9da4305e936766bc226ec2a5c9b13cc02d47d7d30ba9d3268c6e5f0c80bd6ae2",
+    "official_metadata_api.json": "5bc65c32c45355083628ca84ad1ff54c6c6e58a478dfce925bdd44f10edcf91c",
+    "official_prompt.txt": "5c577f86928b4e8be5e22842606e353c52fd63e3fbcb94e7c2b019d9353d382d",
+    "official_prompt_api.json": "788f628251ab3ba2b211e78f3a8d7489f3b003ff39668e8964833754554b8c8f",
+    "prior_attempts/TOP-30006755-A1.html": "aab271d9e4d7f8698f0afb9870fd6d4de93d069c32795d63da778819af71805b",
+    "prior_attempts/TOP-30006755-A1.json": "9161cdfa6adb8c89464c23becf0f7e1307bdd9caaca639d0d3b365981843c8ea",
+    "prior_attempts/TOP-30006755-A1.txt": "488b657ab5f6d110b3fcd0b08ba101341cd9c5d1c2068761dbe907ee485621ea",
+    "prior_attempts/TOP-30006755-A2.html": "3128964e26944f7966e7c3cf1356b40cd95098ca95b3d77a677ddf4456103a24",
+    "prior_attempts/TOP-30006755-A2.json": "e6f0a37da1ab490b6688ad4b3c020f42431c13a4e7d6972d4fd288d0520e45f4",
+    "prior_attempts/TOP-30006755-A2.txt": "cb31b5ceb0ba9947ed3c395f6b96d20f7a7f9a9146d77916e81e64d978df833a",
+    "prior_attempts/TOP-30006755-A3.html": "a334660de6241ae83d7e4712887c1573c3089b885a26697190de6ea368299c1e",
+    "prior_attempts/TOP-30006755-A3.json": "fa1031ab865ff6a2fee482e2dd38f294d996bc40bf0e9f9dd231cae4d79b1e78",
+    "prior_attempts/TOP-30006755-A3.txt": "d22223d24905e5cbb6131b87b893ecf31d7ea63cc700877a8bef36df1fd38ccb",
+    "report.md": "f0ead4970944e19b98af638b77364158dc39f69d5b2b299321b212cf2dda2f03",
+    "source_notes.md": "0c9b6a8fa6f661f9e01b6d4f538fe932aa8536e7bcf0a8fa7a68029a1ccc76f8"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:20:54.153991+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read all three full earlier mathematical bodies: definition/source record, complete conditional conjugacy/filtration obstruction including its square-zero matrix model, and the unverified pg0 summary. The new unconditional toric class uses injectivity on X\u00b2, which removes that obstruction and is not a repetition of nilpotent-conjugacy existence.",
+    "Checked Totaro linear-scheme cycle-class theorem applies over C to smooth projective toric X and X\u00b2; smooth proper purity and the generic one-parameter affine-cell filtration give the stated isomorphisms and odd vanishing. Product toric geometry preserves these hypotheses.",
+    "Independently checked dual-basis orientation b_(j,nu) x a_(j,nu) under first-factor pull-intersect/push gives identity onCH^j and zero on other codimensions. Poincare duality gives the perfect pairing; cohomological orthogonality/idempotence/diagonal sum lift via injectivity ofCH^d(X\u00b2)->H^(2d)(X\u00b2).",
+    "Checked every-decomposition uniqueness: graded cohomological actions determine the full degree-zero correspondence class by Kunneth/Poincare duality, so any q_i-p_i is zero already inCH by square injectivity. Thus strong B includes i<j, F0 is the empty intersection, every positive-r filtration contains ker(p2j)=0 even atj0 andr>2j, and D is zero by cycle injectivity. No special preferred splitting substitutes for the universal quantifier."
+  ],
+  "sources": [
+    "Totaro, Chow groups, Chow cohomology, and linear varieties, actual24-page author primary PDF turn1705view0; Theorem3 and toric linear examples pp1-3/Section4 as turn1709view2.",
+    "Fulton-Sturmfels, actual arXiv:alg-geom/9403002v1,1Mar1994,24-page primary PDF turn1715view2, introduction toric Chow duality; used as supporting context rather than a new full-Chow injectivity theorem for singular varieties."
+  ],
+  "limitations": [
+    "Classical toric cycle/cellular facts are credited imported inputs, checked for hypotheses and mechanism rather than fully re-proved from toric intersection theory. The all-decomposition deduction is checked directly. No programs/runs/formal verification."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

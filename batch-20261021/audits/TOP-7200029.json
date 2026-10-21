@@ -1,0 +1,35 @@
+{
+  "handle": "TOP-7200029",
+  "reviewer": "/root/hundred_topology",
+  "author": "/root/hundred_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T19:00:31.649402+00:00",
+  "checked_report_sha256": "9a86d07cd822102b5cb0fc6ed959fd8a17a993cdf476b47498b794687addaa3e",
+  "checked_source_notes_sha256": "43fd9295f753bb64f186f74fbe6d71e7d51734ed26164bfd6109272f386e3a40",
+  "checked_contribution_sha256": "67dfaff0fa290c0626b4f960699e86bd5cf38656e0329ab3ed0a1b62f2c87d8e",
+  "programhashes": {},
+  "program_hashes": {},
+  "actualchecks": [
+    "Read literal Reinhardt inequality and affine uniqueness prompt, full report/notes; no priors. Matched2024Theorem16.3.1 finite switches/straight segments alternating hyperbolic arcs and explicit chattering exclusion dependence.",
+    "Checked minimizer-existence source and infimum-to-subclass-minimum logic, and determinant proof of affine invariance.",
+    "Confirmed MahlerFirst is separated from octagon choice/equality and no finite uniform side-number bound, computational rerun or peer-publication status is claimed.",
+    "Confirmed exact prompt bytes and decoded metadata content against retained fresh API wrappers and current author-record hashes; source-only, zero program executions."
+  ],
+  "primary_sources_actually_read": [
+    "Hales arXiv1103.4518v1 \u00a72Lemma5/structural context, fresh turn1471view1/turn1474view4.",
+    "Hales\u2013Vajjha arXiv2405.04331v1, abstract and complete Theorem16.3.1 proof/16.4.1 dependency, fresh turn1469view3/turn1479view3.",
+    "Hales original13May2024 announcement, fresh turn1471view2/turn1474view5 distinguishes MahlerFirst and remaining Reinhardt conjecture."
+  ],
+  "checked_files_sha256": {
+    "official_metadata_api.json": "13732a2077975eb08067afb0a50abfe86c00c1ba671be36e2c20529f5d45ed16",
+    "official_metadata.json": "534b0c202e5e4fa45cfe9f2436d7d3eb2326be0d6bf7d6de215726299c409ac5",
+    "report.md": "9a86d07cd822102b5cb0fc6ed959fd8a17a993cdf476b47498b794687addaa3e",
+    "source_notes.md": "43fd9295f753bb64f186f74fbe6d71e7d51734ed26164bfd6109272f386e3a40",
+    "author_record.json": "02e519151b385df58f5be4d163f79b662067af156b7f33567040a2bbfc954db3",
+    "official_prompt_api.json": "0fac75cd7c43b6e09d33a9efff21f7136787f18539a61e0ba66eca1445c81e2c",
+    "contribution.json": "67dfaff0fa290c0626b4f960699e86bd5cf38656e0329ab3ed0a1b62f2c87d8e",
+    "official_prompt.txt": "fe106d5cf18b13356e1d3e35a18d186622bd309bc35afdb29871b479103752bb"
+  },
+  "limitations": "Independent LLM review of prose, proof and inspected primary-source passages; not formal verification or human/editorial acceptance. No program exists or was executed. Imported monograph theorem/computer-assisted dependencies not independently rerun or exhaustively audited across283pages."
+}

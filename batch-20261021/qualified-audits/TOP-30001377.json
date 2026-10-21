@@ -1,0 +1,82 @@
+{
+  "handle": "TOP-30001377",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "906ef94ab9137b22b0272e4ffa55c1ed6155165d2e8629502bebcbc2a3d4ba7b",
+  "program_sha256": {
+    "verify.py": "ba6a9d07ff9e5c276006f0bdc1537915abeae5f7f0061f5e10b863ed3c1815a9"
+  },
+  "checked_files_sha256": {
+    "author_record.json": "04e5ff51f73539a03625ccbf39aecb0834766ebc357e57eddf28416ef72e3085",
+    "contribution.json": "5c8c7ef4c72be30aa6368728ff1e4299f25ebda9b67ae70d0b65e5e5906cf561",
+    "official_metadata.json": "af1026aacadf473c1cd0cbbcbc4158dbca7cfab0937f9687895d7155b3b2b3f9",
+    "official_metadata_api.json": "5a9fbf403451d91489d036a2241a741f4a116c9f890b00a55220d10fa412f9a1",
+    "official_problem.json": "af1026aacadf473c1cd0cbbcbc4158dbca7cfab0937f9687895d7155b3b2b3f9",
+    "official_problem_api.json": "5a9fbf403451d91489d036a2241a741f4a116c9f890b00a55220d10fa412f9a1",
+    "official_prompt.txt": "1312fe24a416903e133cc9f0ccf7f262fb481973fc132c3364339680f577539c",
+    "official_prompt_api.json": "df43cc86cb0404008ca9f3048cf03f37271b5ccdf5143b15f7797f0568189886",
+    "prior_attempts/TOP-30001377-A1.tex": "21b23cfe597c88a68019ec6cdb133df0484b1e37aab75cd39df631c29c0c44ef",
+    "prior_attempts/TOP-30001377-A1_api.json": "d883c410cddd0b4504160e50e64fbf68dba0ac66abdc26b14bc33ceaf6bda827",
+    "prior_attempts/TOP-30001377-A1_manuscript_api.json": "d3f2ae09b2bc6901dd022d137e99fde69a55b99d242e46fc31d8777b0feb54f7",
+    "report.md": "906ef94ab9137b22b0272e4ffa55c1ed6155165d2e8629502bebcbc2a3d4ba7b",
+    "source_notes.md": "d09a3b3d3707965f1b9dfb620b3ef7b4c7f20bb3c77f09df8f8f9617dc6ac225",
+    "verification.json": "517aed74b48f4a77ae667ec092eeb2cf7b2ecb2991a8e0275a1c59f2820ccc51",
+    "verification_stdout.txt": "d0404abdcfcd120240f9450276b83c27b51f296c799410132f9d4778185e6de6",
+    "verify.py": "ba6a9d07ff9e5c276006f0bdc1537915abeae5f7f0061f5e10b863ed3c1815a9"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:31:53.371798+00:00",
+  "actual_checks": [
+    "Read literal source-qualified functional prompt, full prior and all current inputs. Fresh source confirms uniform expectation of maximum inside expectation. Balanced disjoint blocks make pairs(f_j,Z_j) independent; within-block correlation is explicitly allowed.",
+    "Verified conditional tails<=2p_j, union min(1,2sum p_j), comparison with4(1-exp(-sum p_j)) and layer-cake integration. This proves weighted E[A*1_EJ]<=4*2^-|J|*E[A] without pointwise sensitivity cap or division byE[A].",
+    "False conjunction sensitivities<=A; true ones equal sum selected block sensitivities. Weighted union/tail sum at q=ceil(log2(4n)) yields(q+2)*ams(f). Constants,empty conjunctions,a=0,n=0 and literal n-bit/n-function padding are correctly separated. Arbitrary correlated case remains open here.",
+    "Read full checker before isolated normal/-O executions:342 block configurations,120168 conjunction families,3312 conditioning tests,850176 cube profiles and900 literal-padding families passed; optimized run refused. Finite tests do not replace tail proof."
+  ],
+  "primary_sources": [
+    "Rossman,The k-Clique Problem on Random Graphs and New Conjectures on AC0,Oberwolfach52/2009,printed2825,primary publisher PDF https://ems.press/content/serial-article-files/46253,exact ams definition and conjunction question freshly read. Independent-block weighted proof checked directly. Retained10_proof.json."
+  ],
+  "prior_work_distinction": "Prior handles coordinate functions withA=1. Current weighted conditioning controls arbitrary spiky internal block sensitivity and gives a genuine broader independent-block theorem, with nontrivial blocks fitting exact dimension via constants.",
+  "scope_assessment": "Under the source’s exact functional ams(f)=E_x max_j sens(f_j,x), prove ams(g)≤(⌈log₂(4n)⌉+2)ams(f) for n Boolean functions that are each constant or balanced, with the nonconstant functions depending on pairwise disjoint coordinate blocks, and any n subset conjunctions. Internal block functions are arbitrary and have no pointwise sensitivity bound. Constant padding fits nontrivial block functions into the literal n-functions/n-input-bits regime. The general correlated case remains untreated.",
+  "required_corrections": [],
+  "execution": [
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "ba6a9d07ff9e5c276006f0bdc1537915abeae5f7f0061f5e10b863ed3c1815a9",
+      "exit_code": 0,
+      "stdout_path": "qualified_execution/verify_normal.stdout.txt",
+      "stdout_sha256": "d0404abdcfcd120240f9450276b83c27b51f296c799410132f9d4778185e6de6",
+      "stderr_path": "qualified_execution/verify_normal.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_behavior": "finite verification pass"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "-O",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "ba6a9d07ff9e5c276006f0bdc1537915abeae5f7f0061f5e10b863ed3c1815a9",
+      "exit_code": 1,
+      "stdout_path": "qualified_execution/verify_optimized.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_path": "qualified_execution/verify_optimized.stderr.txt",
+      "stderr_sha256": "3e502175c4174d50a06ab0b7861bc67749a20e7955f0a834f5bf52124c64f76f",
+      "expected_behavior": "explicit optimization refusal"
+    }
+  ],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

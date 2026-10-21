@@ -1,0 +1,82 @@
+{
+  "handle": "TOP-30006694",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "fef80dd212e875f670698f46fd1e57fc8743a93711e235910ef4619a15a07886",
+  "program_sha256": {
+    "verify.py": "c7a64fb61a2e29b3a0b0bce77722bbcd673637e9a8b5bba6463af1db9c87e46e"
+  },
+  "checked_files_sha256": {
+    "author_record.json": "17589bb7e1b18581af5e90cefdfcd1fd735f805ce403179ae11ce3ef40327a89",
+    "contribution.json": "b2d33b4753d76eeb801de5fddcfd8b7cbf8bf8fe7ec91e5bce94588c065cdc7b",
+    "official_metadata.json": "83f8d3fe71aeb644c844307b58a6f2d4d1e261674ee17a83a22bb320158852ae",
+    "official_metadata_api.json": "3a458cc1d245f6fc39cbd339a737e7855e508fc435973b572630813e08ce6b8a",
+    "official_problem.json": "83f8d3fe71aeb644c844307b58a6f2d4d1e261674ee17a83a22bb320158852ae",
+    "official_problem_api.json": "3a458cc1d245f6fc39cbd339a737e7855e508fc435973b572630813e08ce6b8a",
+    "official_prompt.txt": "e017f39e563e6a00151b452ccfd92fe92f95cf166bf5a9e13b32a0f264e88569",
+    "official_prompt_api.json": "90063cb57cc671de71ae24b89fade275269435c77873505ff97f06cbb97d6159",
+    "prior_attempts/TOP-30006694-A1.tex": "fb20492401537c1368efa170c81d574d9a02e960c4951e257ef9b7afd3de26c7",
+    "prior_attempts/TOP-30006694-A1_api.json": "fbc2ecf952b154e8ff967daa919598c7fc2ac4888cb023158adbeeaf28bbe1bd",
+    "prior_attempts/TOP-30006694-A1_manuscript_api.json": "f8f8d18e3de0783f10d39f128c1dbe91021b097329b07f7491d514e4d4c8fd9a",
+    "report.md": "fef80dd212e875f670698f46fd1e57fc8743a93711e235910ef4619a15a07886",
+    "source_notes.md": "57624614525b8d89f7f874b86811b4f1f2783c27c677619141aacc1a14285e5a",
+    "verification.json": "d893da2219ba6413478d9f54a78bd816dd0ca80ecee2561ad50d9bf0f3faee1f",
+    "verification_stdout.txt": "c1df6afd3e1fb29a707543fc268017fa8f520cab46df83c81b20cbdfe2205c3a",
+    "verify.py": "c7a64fb61a2e29b3a0b0bce77722bbcd673637e9a8b5bba6463af1db9c87e46e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:27:45.395591+00:00",
+  "actual_checks": [
+    "Read exact deterministic positive-rate ETH prompt, full prior and complete new proof. A falsified padded clause has a distance-decreasing occurrence with probability>=1/3. Checked equal-parity pessimistic-walk coupling and stopping at any satisfying assignment.",
+    "First-hit likelihood ratio2^-k is exact. Stopped downward-biased walk has E(tau)<=3k by drift/nonnegativity/monotone convergence; Markov at6n supplies factor1/2. Binomial averaging gives(3/4)^n/2 and integer restart count gives failure<=exp(-2).",
+    "Verified bounded two-fair-bit rejection sampler, global union bound<1/12, O(n) worst-case bits per selection and polynomial formula/index overhead. Randomized4/3 exponential upper bound neither refutes deterministic ETH nor asserts a lower bound.",
+    "Read exact-chain checker then ran isolated normal and -O copies.234 finite Markov chains (122 satisfiable), all states through6 variables, passed; optimized run refused. No Monte Carlo inference."
+  ],
+  "primary_sources": [
+    "Schoening,FOCS1999,A probabilistic algorithm for k-SAT and constraint satisfaction problems,IEEE DOI10.1109/SFFCS.1999.814612. Fresh primary publisher search exposes original local-search abstract and exponent; direct page was robot-blocked. Full original proof not claimed read; complete conservative6n variant checked directly. Retained07_theorems.json."
+  ],
+  "prior_work_distinction": "Prior studies separators, expanders and representation obstructions. New full finite-time tilted-walk probability analysis and bounded-random-bit worst-case algorithm are distinct substantive positive scope, with established priority credited.",
+  "scope_assessment": "A Schöning-style one-sided randomized3SAT algorithm with O((4/3)^n poly(|F|,n)) worst-case bit time and error below1/3, proved via an explicit6n-step change-of-measure calculation and bounded fair-bit sampling. This algorithmic upper bound is credited and does not refute the prompt's deterministic positive-rate ETH.",
+  "required_corrections": [],
+  "execution": [
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "c7a64fb61a2e29b3a0b0bce77722bbcd673637e9a8b5bba6463af1db9c87e46e",
+      "exit_code": 0,
+      "stdout_path": "qualified_execution/verify_normal.stdout.txt",
+      "stdout_sha256": "c1df6afd3e1fb29a707543fc268017fa8f520cab46df83c81b20cbdfe2205c3a",
+      "stderr_path": "qualified_execution/verify_normal.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_behavior": "finite verification pass"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "-O",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "c7a64fb61a2e29b3a0b0bce77722bbcd673637e9a8b5bba6463af1db9c87e46e",
+      "exit_code": 1,
+      "stdout_path": "qualified_execution/verify_optimized.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_path": "qualified_execution/verify_optimized.stderr.txt",
+      "stderr_sha256": "5d0aa5eb84f4ee26f7087442d4b8b3c8f4a9153a9305f9f79e50ade0acfbd804",
+      "expected_behavior": "explicit optimization refusal"
+    }
+  ],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

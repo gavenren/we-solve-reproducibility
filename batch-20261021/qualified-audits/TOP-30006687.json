@@ -1,0 +1,49 @@
+{
+  "handle": "TOP-30006687",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "2c09f38907c7864c2bddf5a335c18b623e26daace66ce1722b5c6e69b07e3706",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "f97247af039f78d6b7e89dd8de4cd65ab47be529b8f573c39f66dbf8cde7faf0",
+    "contribution.json": "39b2eda1fe7fcf0d8673309f771d2d36d1a453e904a0ebe420cc41fc9e53ca4c",
+    "official_metadata.json": "0449cc960f282426a0681a3a63459471f7f0151a2e57fecc4691e2ca912a63f7",
+    "official_metadata_api.json": "7cbd95fc6a9f2c36f302b880aa9dfbb0f9f803f5323b58d7c85e1a045f073bfc",
+    "official_problem.json": "0449cc960f282426a0681a3a63459471f7f0151a2e57fecc4691e2ca912a63f7",
+    "official_problem_api.json": "7cbd95fc6a9f2c36f302b880aa9dfbb0f9f803f5323b58d7c85e1a045f073bfc",
+    "official_prompt.txt": "b7f5eb9e8f8fe14bb73edbbad9c354bb007ed78cd5897a83c744e6b086a24ffd",
+    "official_prompt_api.json": "add86b461a103a5fa25d5de1f0128a82a7ad6519c051fcc66fbeb902d2390b8b",
+    "prior_attempts/TOP-30006687-A1.tex": "3860a6000015634f7e68e41df2dfba8b7d699317d4da1c397083a72cd8d92c7f",
+    "prior_attempts/TOP-30006687-A1_api.json": "05e69805dfc2095e0fb5cefb300083bacb6267804489835139e41af820b45e4f",
+    "prior_attempts/TOP-30006687-A1_manuscript_api.json": "116f971803d929a79ca6ee6df5cff017c30db677e0c41ac6770769824381323b",
+    "prior_attempts/TOP-30006687-A2.tex": "87f8a1248d339a03639594f201f29c7bf561fc80622073c2d59ce61d70693103",
+    "prior_attempts/TOP-30006687-A2_api.json": "9581f7a8445369bd2ca1742a5893ef665637a7cccd690ee97db2357b9f2c8bb0",
+    "prior_attempts/TOP-30006687-A2_manuscript_api.json": "b6b3a54d9eb2ee0ac841159f6b831d7513468a1f4e897dc445942fc436a3710c",
+    "report.md": "2c09f38907c7864c2bddf5a335c18b623e26daace66ce1722b5c6e69b07e3706",
+    "source_notes.md": "4da8511adcfe01ab68b75cbc849f61b863d7536bbba3cf112354739f640fbd0f",
+    "verification.json": "1e142d62a0912a01f07f1690f480e2617a0175ac783deff39da580373e05ae4e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:24:10.651037+00:00",
+  "actual_checks": [
+    "Read exact total NP-intersection-coNP prompt and both full prior unique-output/factoring manuscripts. Verified total parity-game encoding with invalid rejection, arbitrary binary priorities and ordinary largest-infinitely-often parity convention.",
+    "For a selected positional strategy, opponent can force a losing reachable odd-maximum cycle and any losing infinite play contains such a cycle in its recurrent SCC. Correct verifier checks original-graph prefix reachability and SCC cycles in each priority-threshold induced subgraph; it does not wrongly restrict the finite prefix.",
+    "Positional determinacy is explicitly imported for certificate completeness and disjointness. Both successor-list certificates have polynomial bit length; malformed inputs have direct complement certificates.",
+    "Checked priority sorting/parity-preserving compression, possible +2 shift and unreachable-loop vertex padding to fit source Theorem2.7 priority indexing. Runtime becomes2^O(log^2(n+2))*poly(L); this remains quasipolynomial. No general class equality, game program or full imported algorithm proof certification."
+  ],
+  "primary_sources": [
+    "Calude-Jain-Khoussainov-Li-Stephan,Deciding Parity Games in Quasipolynomial Time,STOC2017 primary12-page author PDF https://www.cs.auckland.ac.nz/~cristian/crispapers/paritygame-stoc.pdf, game definition/determinacy discussion and exact Theorem2.7 (priorities1..m,m<=n), with2.8-2.9 context. Established algorithm credited; newly exposed verifier/encoding analysis checked directly. Retained05.json and05_followup.json."
+  ],
+  "prior_work_distinction": "Adds a substantial total dual-certificate game family and credited general quasipolynomial algorithm, absent from both prior permutation/factor examples; exact certificate and numerical-priority details make the literature report problem-specific.",
+  "scope_assessment": "The total explicitly encoded parity-game winner language is placed in NP∩coNP using checked positional-strategy certificates, and the credited Calude–Jain–Khoussainov–Li–Stephan quasipolynomial algorithm is specialized with binary priority and input-length accounting. This does not decide whether all NP∩coNP languages are in P.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

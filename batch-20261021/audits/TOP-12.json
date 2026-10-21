@@ -1,0 +1,65 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "A precise credited exceptional-set account with an explicit sparse structured additive completion and gap consequence. The deep 0.72 theorem, its ineffectivity and the retained third summand are kept separate from binary Goldbach. Literature report is appropriate.",
+  "actual_checks": [
+    "Verified the original Pintz Theorem 1 is unconditional E(X)<X^0.72 above an ineffective X2; the 2026 account gives the same exponent and qualification.",
+    "For even shifts a<=N/2, the values N−a are distinct even integers in [N/2,N] and exceed two. Strict candidate count >N^0.72 contradicts the total exception bound if all fail.",
+    "The derivative of k^(4/3) exceeds one for k>=1, hence floors are distinct; floor((N/4)^(3/4)) candidates suffice because 3/4−18/25=3/100. The added term is at least two and cannot be removed.",
+    "Gap proof correctly uses E(2N), K=ceil((2N)^0.72), K+1 candidates and 2K<=N eventually. All resulting thresholds inherit ineffectivity."
+  ],
+  "prior_comparison": "Both full earlier bodies read: pointwise circle-method criteria, local factors, prime powers, ordered/diagonal conventions, mean-square obstruction and finite-field countermodels. They do not give this exact exponent, translate lemma or sparse completion.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1804.09084",
+      "version": "1804.09084v2, 30 April 2018",
+      "locators": "Theorem 1, PDF page 2; explicit ineffective X2",
+      "retrieval": "coordination/qualified_number_first_half_primary_02.json; _03.json"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.27282v2",
+      "version": "v2, 13 August 2026",
+      "locators": "Section 6, Proposition 6.4 and following conclusion",
+      "retrieval": "coordination/qualified_number_first_half_primary_01.json; _02.json"
+    }
+  ],
+  "limitations": [
+    "Pinned Pintz URL failed; unversioned PDF returned the exact v2 header. Preparatory analytic papers and large historical finite verifications were not rerun or independently proved.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-12",
+  "reviewer": "/root/sol_ultra_numbers",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "6c1db01bad599b367b8e467d1ac5b03905083302f91351f333833e8bdc8f1a84",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "6c1db01bad599b367b8e467d1ac5b03905083302f91351f333833e8bdc8f1a84",
+    "source_notes.md": "9ed1c06298e2c6bd9c9d16078b6ddb29f0fd1b150bdf41617027556ad74ec855",
+    "author_record.json": "793f2e2c190ddd6b021c460f156375fc35d24ac7bc5f0f295cbee27088d3ac8c",
+    "official_prompt.txt": "5fbd2afc03215c88bcaa0a8914d9e1eacf0684513686b631945a49c8f1fef176",
+    "official_prompt_api.json": "4ecab1c0bcf85a7678f4470077b40e8f6305a1b2ffd6546f74fb8250461d50a3",
+    "official_metadata.json": "074642ee945255bca1fc436d7f23ee016cf93b73facfd76d87c829750b38cf6d",
+    "official_metadata_api.json": "baf98d8d7c1eb2d38e6fd1769ba11fa8b4e392219ffb04a7d3e5bbf07e408759",
+    "contribution.json": "ccc1b3e909d9d1baf14118049526eeb593948564aa92c31d8bf4011e6f5648db",
+    "retrieval.json": "90d83743ff9526ced1bbe549186dd1d60ea133d863f8d90bda2cef4fd4cad438",
+    "prior_attempts.json": "ac5bc2123d8c892c76f2aae6ca3d9be4b16ba98d665f3140fc04709754720308",
+    "prior_attempt_01_api.json": "2985ce4b7186fcdd0d55b771e3003de645e59664304491a8d74386615cb440cb",
+    "prior_attempt_02_api.json": "d66ec362d48486ff790db339173d77b02fb4f5a603414ec5e9f56283a2e273ec",
+    "prior_attempt_01_text.txt": "31ddc89c3c49897070d63049a200de05fbedb90ec2c0344ac5bf8b54859bd6dc",
+    "prior_attempt_02_text.txt": "cb57da321fa0154b428a719aef901eca8efade40575fc877f7870fb506b0bd13"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_numbers_first_half_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:30:57.514788+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

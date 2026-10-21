@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30007114",
+  "canonical_problem_id": "prb_36c67d3a146f425e8c350fed7f167e7f",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "656f4c85b729ecb859f02e33d999fe78ea44001a3249a8a1eeb46f19f20bdf2c",
+  "report_sha256": "656f4c85b729ecb859f02e33d999fe78ea44001a3249a8a1eeb46f19f20bdf2c",
+  "program_sha256": {
+    "verify_simplex_blocks.py": "262e5b1fda38ff82ae4bcb5c2a6ef9d3ad62940413a34441cbbd027c3db981cf"
+  },
+  "checked_files_sha256": {
+    "author_record.json": "5a189a7a07e0098fd1c08b50e9db1fad263d6226dde0b30d3d7b64fd9e8cd9db",
+    "contribution.json": "7a591626c9b44644cea5e16f8b02b2c744cba2f1842bfdcf799cd39ffa14b3d7",
+    "official_metadata.json": "55bd2836b7ef3e502d51d00f1f12c9e891bafcfa7325921e6cb4158f1103e994",
+    "official_metadata_api.json": "048703980cbd4c98eb691acf0a868126e315c7466cc3fb3169169955c1fdc87f",
+    "official_prompt.txt": "dccad11d8681260e95791a09d750275066a1f5e2febb4d16576a029a11b42e34",
+    "official_prompt_api.json": "b6258b47960d9b25fb7e5371edb3a8ce3749d0dd74a5da75dd36e35cb7297ef2",
+    "prior_attempt_1.html": "bbb835362e83e9a38cf38f744c428affae96055beaae521ba7086a1b2c10a4e1",
+    "prior_attempt_1.txt": "fa4ead17114b7c52690071fd385c34c67ecbb50d096cff1ef53b866227779c50",
+    "prior_attempt_1_api.json": "67fde15fe3d3c3308536f80eca7592ee108f88def45377b1dc86c3f33b990271",
+    "report.md": "656f4c85b729ecb859f02e33d999fe78ea44001a3249a8a1eeb46f19f20bdf2c",
+    "source_notes.md": "6ffe27e7797ec68f06679f314472615ddb8a91d270e47b134fa2251fa497415a"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:15:08.666140+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read the full original standard-library Fraction checker before executing; verified exact c(n), all998 strict integer-power rate comparisons for1<=n<1000 except13, three rational tail certificates and complete partition DP through80. Actually ran an exact-byte isolated temporary copy normally (exit0,PASS) and with -O (exit1, explicit refusal). Commands, stdout/stderr and all source/output hashes are retained in qualified_execution.json.",
+    "Independently checked projection-body constants and product geometry against the full pinned primary TeX. Product facet vectors give Pi(AxB)=(|B|Pi A)x(|A|Pi B) with the Cauchy1/2 factor; cancellation gives R multiplicativity. A simplex projection zonotope is the stated scaled cube plus diagonal segment, with volume d+1 and c_d=(d+1)d^d/d!. The d=1 interval convention gives R1=2 and the same factorization.",
+    "Checked the analytic infinite tail independently of finite enumeration: the exponential series bounds e<11/4, its positive mth term gives m^m/m!<e^m; the exact binomial certificate forces (101/100)^1000>1001 and induction works for all m>=1000 because (m+1)/100>=1. Thus c_m^(1/m)<1111/400<c10^(1/10)<c13^(1/13). Combined with the actual exact finite comparisons this proves unique all-integer maximality, not merely a cutoff search.",
+    "Checked c13=23298085122481/34214400, the factorwise rate upper bound, equality only for all13 partitions in dimensions13q, and the all-large-N lower construction with residual2..12 or replacing one13 plus residual1 by14. Finitely many residual ratios are positive constants, yielding the exact asymptotic rate within the product class.",
+    "Read the entire retained prior entry and independently fetched its full pinned primary main.tex. That source already proves the ten-dimensional counterexample, product identity AND all-large-dimensional exponential excess. The report expressly does not recycle those claims as added work: the unique optimal block13, exact infinite optimization and optimal partition-class rate are the substantive added scope."
+  ],
+  "sources": [
+    "OpenAI, A product counterexample to the simplex maximum for projection-body volume,24September2026, full primary build/main.tex fetched through GitHub fetch_file at explicit commit adc7f1241b42e322a6451854ab7e4b4c146bf78a, Git blob c32187535cddb5c38f28d332997dc0578cbad586. Read facet lemma, product/simplex propositions and exponential-excess corollary. Raw web retrieval returned DisabledError; the GitHub tool successfully returned the complete actual TeX."
+  ],
+  "limitations": [
+    "The exact checker covers the finite part and rational tail constants; the all-m proof also uses the separately checked analytic induction and series argument. No optimization over arbitrary convex bodies, source Lean execution or formal verification was performed. Exactly two original-checker executions were run by this reviewer."
+  ],
+  "actual_program_executions": [
+    {
+      "kind": "normal",
+      "command": [
+        "/opt/miniconda3/bin/python",
+        "/var/folders/l4/jk3067hj4fv99h55rd1j9jnw0000gn/T/qualified-geometry-simplex-w4_9cx9v/verify_simplex_blocks.py"
+      ],
+      "cwd": "/var/folders/l4/jk3067hj4fv99h55rd1j9jnw0000gn/T/qualified-geometry-simplex-w4_9cx9v",
+      "isolated_copy_preserves_source_bytes": true,
+      "source_sha256": "262e5b1fda38ff82ae4bcb5c2a6ef9d3ad62940413a34441cbbd027c3db981cf",
+      "exit_code": 0,
+      "stdout": "{\"partition_dynamic_program_dimensions\": 80, \"scope\": \"Exact finite comparisons and rational tail constants; report supplies the infinite tail argument and geometric product formula.\", \"status\": \"PASS\", \"strict_block_rate_comparisons\": 998, \"tail_rational_certificates\": 3, \"unique_best_block_dimension_below1000\": 13}\n",
+      "stderr": "",
+      "stdout_sha256": "853b482d81ec22ab2b0e99d71ab9fbd21dcb168d3614173d2837a6368d911298",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "kind": "optimized",
+      "command": [
+        "/opt/miniconda3/bin/python",
+        "-O",
+        "/var/folders/l4/jk3067hj4fv99h55rd1j9jnw0000gn/T/qualified-geometry-simplex-w4_9cx9v/verify_simplex_blocks.py"
+      ],
+      "cwd": "/var/folders/l4/jk3067hj4fv99h55rd1j9jnw0000gn/T/qualified-geometry-simplex-w4_9cx9v",
+      "isolated_copy_preserves_source_bytes": true,
+      "source_sha256": "262e5b1fda38ff82ae4bcb5c2a6ef9d3ad62940413a34441cbbd027c3db981cf",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Refusing -O: exact assertions must be enabled.\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "225f3f7cf5a605d8488a3710b287771133c248c9a525a3bfc4741a9781f85e96"
+    }
+  ],
+  "execution_count": 2,
+  "formal_verification": false
+}

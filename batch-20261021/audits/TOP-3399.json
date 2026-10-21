@@ -1,0 +1,82 @@
+{
+  "handle": "TOP-3399",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "f765c4b88ad6473d8392f76ca01dc92a05da7901acfd9db114908e6458cc6a75",
+  "program_sha256": {
+    "verify.py": "4b284b9a7bb3d3972a9aa4360a33b7e26098ceaf984539a0c78beddbd42c3ad8"
+  },
+  "checked_files_sha256": {
+    "author_record.json": "fcfa4b9bcb405b2096dac6eb7e2aba1de951487f1a10936819be3df088369e6a",
+    "contribution.json": "356fd04af17aa3d1baef68a7c575fef560741b3a91cded74e881fdc9901c0ec0",
+    "official_metadata.json": "844a3c43b314f497747d536c63c6b0425b6124fa6fab12c5fe872e0f25a0a61f",
+    "official_metadata_api.json": "f25b4a6849e2e8a923cb3aac0fbb64d48fd45b8d846af2f80c934599ec02b3a5",
+    "official_problem.json": "844a3c43b314f497747d536c63c6b0425b6124fa6fab12c5fe872e0f25a0a61f",
+    "official_problem_api.json": "f25b4a6849e2e8a923cb3aac0fbb64d48fd45b8d846af2f80c934599ec02b3a5",
+    "official_prompt.txt": "872181d5eab384c556efb0b7a23eeade933896121449d16a8946ed6a54b29218",
+    "official_prompt_api.json": "9d9ee9de9eeabb3fedaa03f68cd2ee071f12698a8c11723a86b85d02f75dd1a7",
+    "prior_attempts/TOP-3399-A1.tex": "f39d74e2074f813d79274893961692fe101a4f1ba8d333a89c858ca3216eb9f6",
+    "prior_attempts/TOP-3399-A1_api.json": "901becbe99f8651cf485a6a3cb9806082af81a31a72eb85be967f4c3c527bf9a",
+    "prior_attempts/TOP-3399-A1_manuscript_api.json": "ca547b7c0bfdc13f64b2a2a89d1d3fcdb0e29b9155541b1c0e66c2ab94d63972",
+    "report.md": "f765c4b88ad6473d8392f76ca01dc92a05da7901acfd9db114908e6458cc6a75",
+    "source_notes.md": "1fd293ab3c23eaa330ee802f976c4b52141ef3496a5c4933a4301c10ac8503db",
+    "verification.json": "978092beaf1370f5dded58c36e6068451f33e12a146b01d90b3c75cc9ac10be7",
+    "verification_stdout.txt": "f447d9d7655a9f44cc91d91fded70dedd938d3ed082937bc86c0b7ecacf75999",
+    "verify.py": "4b284b9a7bb3d3972a9aa4360a33b7e26098ceaf984539a0c78beddbd42c3ad8"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:30:14.007260+00:00",
+  "actual_checks": [
+    "Read literal nonnegative binary radicands/threshold exact comparison prompt, complete prior and all current inputs. Positive integersa,P have equal rational squareclass iff aP integer-square; enumerating subset products therefore discovers a genuine independent basis without factorization.",
+    "Every selected generator is an inputentry so product bit length<=L. At mostn*2^r integer-square tests each polynomialL discover rank. Expressing roots by rational multiples of basis monomials places sum in degree<=2^r field without assuming all sign patterns embeddings.",
+    "Checked algebraic integer norm nonzero lower bound and B bound for all conjugates. Chosen precision interval has width<2^-q; overlap with integerk forces equality, so yes convention preserved, including zero radicands,rank0 and emptylist. Shifted integer arithmetic has2^O(r)*polyL bit costs.",
+    "Read original checker then isolated normal/-O runs:9961 comparisons against exact two-surd/one-class criteria and700 rank comparisons against independent tiny factoring oracle passed, including300-bit equality and emptylist; optimized run refused. Factoring is used only in tiny verifier oracle, not the stated algorithm."
+  ],
+  "primary_sources": [
+    "Self-contained squareclass enumeration and bit algorithm checked directly; classical norm mechanism shared with full retained A1 is explicitly credited, not counted again as original content. No external deep theorem beyond standard field norm facts imported."
+  ],
+  "prior_work_distinction": "A1 uses degree2^n and merely suggests instance degree. New factorization-free rank discovery plus rank-parametric bound handles arbitrarily many dependent summands and yields new-to-this-archive logarithmic-rank polynomial regime.",
+  "scope_assessment": "An unconditional exact algorithm decides binary square-root-sum instances in 2^{O(r)}poly(L) bit time, where r is the F₂-rank of the positive radicands in Q*/Q*²; this rank is itself discovered within that bound using integer-square tests, without integer factorization or supplied prime factors. In particular r=O(log L) gives polynomial time. Equality remains a yes-instance.",
+  "required_corrections": [],
+  "execution": [
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "4b284b9a7bb3d3972a9aa4360a33b7e26098ceaf984539a0c78beddbd42c3ad8",
+      "exit_code": 0,
+      "stdout_path": "qualified_execution/verify_normal.stdout.txt",
+      "stdout_sha256": "f447d9d7655a9f44cc91d91fded70dedd938d3ed082937bc86c0b7ecacf75999",
+      "stderr_path": "qualified_execution/verify_normal.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_behavior": "finite verification pass"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "-O",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "4b284b9a7bb3d3972a9aa4360a33b7e26098ceaf984539a0c78beddbd42c3ad8",
+      "exit_code": 1,
+      "stdout_path": "qualified_execution/verify_optimized.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_path": "qualified_execution/verify_optimized.stderr.txt",
+      "stderr_sha256": "3e502175c4174d50a06ab0b7861bc67749a20e7955f0a834f5bf52124c64f76f",
+      "expected_behavior": "explicit optimization refusal"
+    }
+  ],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

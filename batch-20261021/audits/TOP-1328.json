@@ -1,0 +1,58 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-1328",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "e493cdc3a3bc9f3ed9a280ebb5aa80da35421fefb77537f656778176cbe83160",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "e493cdc3a3bc9f3ed9a280ebb5aa80da35421fefb77537f656778176cbe83160",
+    "source_notes.md": "4db6513e7d24cceab4b026a34a3e3b144f88c8dfaad86991d8fbbfdc9aec1b86",
+    "author_record.json": "fb60a4baecbe9e5c831b3ff0f6a629f1e1923520b39d9bccf93143df48cde065",
+    "contribution.json": "5ff313a3deb5df27720069768863c38bb06f0d2c375e0aafd4623af9a4b0e3f3",
+    "official_prompt.txt": "bba05a6fbff9736b14298e1eb4a6c966397e944b9e35d3847e62dbee037f1704",
+    "official_prompt_api.json": "75b0e9ea522279999d33f3612e7ccc63a9f24ff7f1b619475b3dd7ab1e17f7b1",
+    "official_metadata.json": "58d16ae57a07cfc98c98e51138705a94ced75eb320598a93e15c51335eff5ce3",
+    "official_metadata_api.json": "627ebaa50e990ac590356c2b419ee88edd0dcd0077faf8684d668fdab14753b0",
+    "prior_attempts/attempt-1.txt": "fa7328859e92514387ee8e0402e59a791f3fd82db275af188dd4af2b3247277c",
+    "prior_attempts/attempt-1_api.json": "74ecf4adb21b4a195bfa96346fa9af1069baa14d546160e61d55c10c7033706f",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "8e4fa62c5fd8280295ba75ea247195d423f4ce560e957e9e449220e56315216f"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked the primary bipartite semialgebraic pure-pair theorem with fixed dimension/description complexity and symmetric relation. Splitting N>=2 into floor/ceiling halves gives c=min(epsilon/3,1/4) and disjoint proper subsets.",
+    "Checked both complete and anticomplete product inequalities and the coefficient-one induction with 2*c^delta=1. The disk encoding uses one fixed polynomial inequality; no unrestricted induced-H-free geometric description is assumed.",
+    "The complete earlier body has the false-unrestricted-pure-pair obstruction and a cograph product argument. This report supplies a substantial geometric class with a valid external pure-pair input and quantified exponent."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://web.math.princeton.edu/~nalon/PDFS/apprs8.pdf",
+      "version": "author-hosted manuscript; JCTA 111 (2005), 310–326",
+      "locators": "Theorem 1.1 and following bipartite remark, Theorem 1.2, Section 3; PDF pages 2–3,7",
+      "retrieval_refs": [
+        "turn1758view0",
+        "turn1762view1"
+      ],
+      "access": "Exact primary theorem and deduction read; geometric partition theorem credited."
+    }
+  ],
+  "distinct_significant_scope": "A fully quantified product induction for bounded semialgebraic classes, with exact hereditary and description-complexity hypotheses, beyond prior conditional sparsification.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:25:25.475761+00:00"
+}

@@ -1,0 +1,65 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-9400055",
+  "canonical_problem_id": "prb_987f75c3b862455ab50e178421064473",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:34:22.337899+00:00",
+  "checked_report_sha256": "fdc631fbc51e8114cad27ed08b1a75a5d0aa346c8de13da62f9c81ce2c64fda6",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "92a255c58218c34286b64159807a1bb7153a506f2e651737cb8f3aa5f38e4125",
+    "contribution.json": "8a89260182cafe41d304473bdf87f5aa1c636391f1cfd475850b16d1ee242bdc",
+    "official_metadata.json": "2e3dc2dc7d37d4cb3382900f60c93b65e4a5847a4d9065f39c9ea174a8140923",
+    "official_metadata_api.json": "e8180f897ea4789f481d4a09ee38e78289bd261dbd794ad00d0f4c347dc2f6af",
+    "official_prompt.txt": "2d37aefbe5cbf658704687e2a01975d3c161e8059d16bd2cbd619c6a32a98f9d",
+    "official_prompt_api.json": "5e756f0485b694bc686aafc9c71240cf448caa7a3f86d8400de00b9606d7c5bb",
+    "prior_attempt_01_api.json": "55a5eaf91cd78c5a237d3e06e4565eeee97b26a8970006ec13bd768b797ef991",
+    "prior_attempt_01_text.txt": "14ec4823d9c26472c2706871560380ee1e5c1bee3a722488a6b0bcf49eba29d4",
+    "prior_attempts.json": "f319b47da716848c144c7e1f1317a6c1d9d0a38de0964124749003b9d9297595",
+    "report.md": "fdc631fbc51e8114cad27ed08b1a75a5d0aa346c8de13da62f9c81ce2c64fda6",
+    "retrieval.json": "7b0eed5566e14f7d55a94e0f88173d45e84eb6475fd02bbd9b331b4810dd0c29",
+    "source_notes.md": "d5898932b93e95be25a5c3a7569e883b10b4e6b019518687cd29199e62249ba7"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8abd348b18f67b61cb97e7fa72eeb990a89587d29cbab694915ecac22cb2ece3"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact report, literal prompt, all provenance/source records and full retained prior body read. The moving unbounded window of vanishing near-top even eigenspaces is distinct from the prior fixed small-prime computations and norm identities; no Vandiver proof is asserted.",
+    "Integral omega-idempotents exist because p-1 is a p-adic unit. Complex conjugation selects even components; extension and norm across the degree-two real subfield identify the p-primary plus class group. For a finite p-group, vanishing modulo p implies the whole component vanishes by iteration/Nakayama, not merely the first layer.",
+    "Kurihara supplies C^(p-3)=0 (p=3 also checked separately); Soule supplies C^(p-n)=0 for odd n>=5 under log p>n^(224 n^4). The precise first Theorem 4 of Section 3.2 is used rather than the unrelated reused Theorem 4 label in Section 3.3.",
+    "For L=log log p and N=floor(c(L/log L)^(1/4)), c<56^(-1/4), direct logarithms yield 224 n^4 log n <= (56 c^4+o(1)) L<L uniformly for 5<=n<=N. Thus the required n^(224n^4)<log p holds. The floor, eventual n<p and the separate n=3 case cause no boundary loss. This proves an unbounded window, while its fraction of all even eigenspaces tends to zero; it supplies no information about n proportional to p."
+  ],
+  "primary_source_checks": [
+    "Kurihara, Compositio Mathematica 81 (1992), 223–236, original Numdam full scan introduction and relevant theorem context checked; exact vanishing independently corroborated in Ghate author exposition Theorem 3. Soule, arXiv:math/9812171v1 (22 December 1998), first Theorem 4 in Section 3.2, explicit log v(n) bound and Chern-map passage checked in full primary PDF. Ghate Theorem 4 confirms exponent notation; retrievals 11,13,15,17. Deep K-group bounds and Chern-map surjectivity remain credited imports."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Precisely credited unconditional vanishing of the p−3 cyclotomic class-group eigenspace and Soulé's effective moving window near p, including a proved growing-window corollary and the remaining quantifier gap to Vandiver.",
+    "listed_prior_count": 1,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

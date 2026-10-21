@@ -1,0 +1,57 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3198",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "0a6e95c7ef8b0839ad3fdfeb96df94e7328c064168a2714c09e294b99e9b300d",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "0a6e95c7ef8b0839ad3fdfeb96df94e7328c064168a2714c09e294b99e9b300d",
+    "source_notes.md": "335288bc97e1398c9dc069c13fd7215266f9482b5d7784f1228e47af30203035",
+    "author_record.json": "471ce503f4f02e98aa6a60dd59daebc64027e4b7e6b0787a2f401051ac128333",
+    "contribution.json": "3c5bbdd202ed63c1102f11fef3dbbaefe3a6fa519090ee570d753758c13fc59e",
+    "official_prompt.txt": "8cf5f55f22ec73f5771feea5c3cdd3809f70aecfe5d34afd6342bcdb259b1e8f",
+    "official_prompt_api.json": "8e17579cee14c468a9b322ec1d76a06d5c93e62e84dde7df98cd2318c437853c",
+    "official_metadata.json": "515d6c70a4a89f6673ed3edb61338fff59c0d194d437b35f67455a09367414ab",
+    "official_metadata_api.json": "257d39f3167cbc8432763f2e6936bd2a53492a67ccee72838d26641939b35e74",
+    "prior_attempts/attempt-1.txt": "5779d1ece5bf6ddee2b44735856d80038d8b7e9527067f12e7a9692b96555d50",
+    "prior_attempts/attempt-1_api.json": "49a5b7641f25025cb69872e85f9477d0903d636b3f5a729c1a3b9b750d2f03f8",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "23512b5850a47872e06be9693aeff5bda521b61e047a3feaafc263612ae4449c"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked primary2-degenerate acyclic EDGE-coloring theorem gives Delta+1; recoloring proof is external and no algorithm run claimed.",
+    "Checked mad<3 deletion argument; planar girth6 Euler bound with degree0/1 pruning; all subdivisions are2-degenerate and explicit S(K_t) branch sets give unbounded clique minors. No coloring is lifted back to H.",
+    "Checked regular d>=2 pair-color cycle obstruction and exact3-color cycles; K4 is not2-degenerate. Prior cactus/K4 proof does not supply entire overlapping-cycle class."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/0803.2433",
+      "version": "masthead v2,20 October2008",
+      "locators": "Theorem1,definitions and proof framework",
+      "retrieval_refs": [
+        "turn1822view4"
+      ],
+      "access": "Exact primary theorem checked; full recoloring proof not independently reproduced."
+    }
+  ],
+  "distinct_significant_scope": "Substantial2-degenerate class theorem with explicit planar/subdivision/minor and optimal-additive-color deductions.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:29:16.679529+00:00"
+}

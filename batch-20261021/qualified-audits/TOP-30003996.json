@@ -1,0 +1,82 @@
+{
+  "handle": "TOP-30003996",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "101595effca7b57c703b19a2a4d008d3bbdea1a8a91b6b4e4ba8bcdad64ef1ea",
+  "program_sha256": {
+    "verify.py": "8680f8dd14303298e6961a926f766c6938f28466714191efd4fc2833895782d6"
+  },
+  "checked_files_sha256": {
+    "author_record.json": "51c80fe11aa232639ff3b2c51b3e171333cf27559e8e0959a7327b53ed5b5598",
+    "contribution.json": "475785b67d5c6e002c2ddf16bfd891cfb1c525f2002b47ccd8340bee54a4158c",
+    "official_metadata.json": "9b86f7b366b488e8b5921beb9a0881d3ff647c4b49d2b1947e9166e575ff449c",
+    "official_metadata_api.json": "2be6a043594230b422826298eaff23ba4009f9510f3d498ba8c75bb6398a3fa0",
+    "official_problem.json": "9b86f7b366b488e8b5921beb9a0881d3ff647c4b49d2b1947e9166e575ff449c",
+    "official_problem_api.json": "2be6a043594230b422826298eaff23ba4009f9510f3d498ba8c75bb6398a3fa0",
+    "official_prompt.txt": "50dbba894ee3b5d7464ac16e19470abbaabb6025a629a828ccb7528f62efd3c4",
+    "official_prompt_api.json": "3484cb4841a9bfdd23d7dd7f54c6492e8b61664d48ec3298334a6e8709d91ab7",
+    "prior_attempts/TOP-30003996-A1.tex": "ac14e1cef2229c70ceff39d3bdb58596d4e5f972a8c6ab0c5c6aa58ca4f61aab",
+    "prior_attempts/TOP-30003996-A1_api.json": "5bd6f7e4a51ad2c73bcf5fbc35fb85c40bcaf0d34190ea675056c89fa75c1804",
+    "prior_attempts/TOP-30003996-A1_manuscript_api.json": "49156c2e754eb01cecc80093751eb1303eb4d7e4d67b3fea9d25d2aecea327d2",
+    "report.md": "101595effca7b57c703b19a2a4d008d3bbdea1a8a91b6b4e4ba8bcdad64ef1ea",
+    "source_notes.md": "7dec2f0c7b89d3545f13742591cd2dff274a988e17859121f6e48f33291288f9",
+    "verification.json": "3283f1fadb8457ba87fb0824e795cd3863f732893c36112993193e156624b420",
+    "verification_stdout.txt": "04235915747966636233ff4acc350dc7fa387e742a2ac10252eab0d2f326ddb1",
+    "verify.py": "8680f8dd14303298e6961a926f766c6938f28466714191efd4fc2833895782d6"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:19:12.100316+00:00",
+  "actual_checks": [
+    "Read exact summed root-dependent objective, source conventions, complete A1 general hardness proof and new cactus algorithm. In a cactus, bridges are forced and each cycle deletes exactly one edge; the block-cut tree makes these choices independent.",
+    "Verified root projection to a block is fixed before any tree choices, so every root orientation inside that block depends only on its local chosen tree. Sum over roots/edges factorizes over blocks, valid also for negative rational costs. Enumerating ell deletions and n root traversals costs O(n ell^2).",
+    "Checked cactus recognition, articulation-root boundaries, one vertex and tree cases, inward convention by cost reversal, exact tie comparisons and common-denominator bit lengths bounded polynomially by the explicit input table.",
+    "Read the full original checker before isolated execution. It scores all global spanning trees on37 certified cacti and370 exact signed-rational/convention instances,1850 trees total. Local factor minima agree with exhaustive global minima. Normal exit0 and explicit -O refusal retained."
+  ],
+  "primary_sources": [
+    "Exact official TOP-30003996 prompt, metadata and retained wrappers define the literal root-dependent sum. The subclass factorization and algorithm use no external hardness theorem."
+  ],
+  "prior_work_distinction": "Does not resubmit A1 general NP-hardness. Provides a genuinely different tractable family with arbitrary rational costs and a complete polynomial bit algorithm; structural factorization is proved for all cactus sizes.",
+  "scope_assessment": "For a connected cactus graph with arbitrary explicitly encoded rational root-dependent directed arc costs, the literal objective Σr c_r(T^r) is exactly minimized by independent bridge/cycle-block optimization. A cycle of length ℓ needs O(nℓ²) rational additions; total bit time is polynomial in the full cost-table length. This is a tractable graph subclass, not a repeated general hardness proof.",
+  "required_corrections": [],
+  "execution": [
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "8680f8dd14303298e6961a926f766c6938f28466714191efd4fc2833895782d6",
+      "exit_code": 0,
+      "stdout_path": "qualified_execution/verify_normal.stdout.txt",
+      "stdout_sha256": "04235915747966636233ff4acc350dc7fa387e742a2ac10252eab0d2f326ddb1",
+      "stderr_path": "qualified_execution/verify_normal.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_behavior": "finite verification pass"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "-O",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "8680f8dd14303298e6961a926f766c6938f28466714191efd4fc2833895782d6",
+      "exit_code": 1,
+      "stdout_path": "qualified_execution/verify_optimized.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_path": "qualified_execution/verify_optimized.stderr.txt",
+      "stderr_sha256": "a9f4539dfea87b91619b2bac6d78acc95b15ff7705d30f52ae511a5f609f11ac",
+      "expected_behavior": "explicit optimization refusal"
+    }
+  ],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

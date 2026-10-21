@@ -1,0 +1,58 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3218",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "cee2f3b966f818067cad50fd92bd095ef8beb6cc19c6602172f8a98d96248f7c",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "cee2f3b966f818067cad50fd92bd095ef8beb6cc19c6602172f8a98d96248f7c",
+    "source_notes.md": "73202ec1986409a540304cc39e70be8b095e2e902758c3c1fb3d52c8decfac52",
+    "author_record.json": "f49e55e3c7c36e763326f8fec0249da9537c86046d1586b9219e5287c1ed6824",
+    "contribution.json": "b3e1454137bcbddb77d2beec0beadc2638089c8e6b1cf4f98e75909bda311b98",
+    "official_prompt.txt": "9bf9207f40132d938621c7d5054c0b21e936a244a1edeede1d854709de3d4788",
+    "official_prompt_api.json": "bc4d9b96ab5e42453a84d305c7111ea100dc07aab47f8df902b3292855777e35",
+    "official_metadata.json": "299597e2192b05fb5507c36e66a18f85f1881e0fa3eb55e36ac0e030998d3c92",
+    "official_metadata_api.json": "872ed4a79243390b705fd0e8b1e346bdf0c623ddd88a147f6cab5adfad036e40",
+    "prior_attempts/attempt-1.txt": "5856cd21a86103ed57b209423cb8b2b2da734186d8e34127ba1c26cac3e24519",
+    "prior_attempts/attempt-1_api.json": "623e7c370a3de44b5c20a84cf5a411a4b74db3faabcf23c6c71b4a0462ec93fb",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "7afbf65ae44a8752ffbb8dc69aa543154fa2d1381100f8c451691c95ce7490fb"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked primary Theorem3.2 exact values:5-flow, no magnitude3, magnitude4 only on bridges; bridgeless modular subclass therefore has3-flow. General11-flow is kept separate.",
+    "Checked signature epsilon=-sigma1*sigma2, source out-sign global negation, and reorientation by edge-value negation including double-counted negative loops.",
+    "Checked arbitrary trivalent-tree negative-leaf-loop modular witness and no4 proof using parity-even edge subset of a tree, forcing all tree values2 and impossible3-term internal balance. At least one trivalent vertex excludes the earlier handcuff exception."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1908.10853",
+      "version": "masthead v2,29 August2019",
+      "locators": "Definition2.1,Theorem3.2,sharpness remark and Section5",
+      "retrieval_refs": [
+        "turn1822view6",
+        "turn1823view0"
+      ],
+      "access": "Exact primary theorem/sign conventions and sharpness family checked; deep lifting theorem imported."
+    }
+  ],
+  "distinct_significant_scope": "Substantial modular-lifting subclass and complete unbounded sharpness family beyond prior balanced/handcuff examples.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:29:16.686893+00:00"
+}

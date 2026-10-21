@@ -1,0 +1,56 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-3432",
+  "canonical_problem_id": "prb_31ffa95a5499451fabbcfaf3a63ff714",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:23:15.162003+00:00",
+  "checked_report_sha256": "40ff82084f2ed208c4a6f57457bc477dc64cfc19a68d88b07ddc300cd020809e",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "619ac2ba96b21061da3d5f310fd70a3df220574d4152ec8296ab6d1e6ef638e3",
+    "contribution.json": "c4e5b0de60a7f08a8f5004841d5bc4292fb7263e00a80d8e22f7432f721995b0",
+    "official_metadata.json": "fbf80dfc7e0bbf923be7cbbf70daa938914935e409856bdd1a074515ca7b41d5",
+    "official_metadata_api.json": "882e4b8fee5e0be62280a67386a3c3d8daeac488d1d3fa9246f0452c02fe0089",
+    "official_prompt.txt": "1a9ada023e6632e9fb6f4ff213818247b046561cccaebf18f3591322110f8a82",
+    "official_prompt_api.json": "71b236b996d6829371466e580f03124fd38e20eb4a9a1aaec3b7d8bfdde53662",
+    "report.md": "40ff82084f2ed208c4a6f57457bc477dc64cfc19a68d88b07ddc300cd020809e",
+    "source_notes.md": "5ccfb739407c81991956250ad18fad03a89f09cf9bfdc54a6b3f713e135c0d8a"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Full exact prompt, API/meta, report and source/provenance read; no prior listed. The partial scope retains the specified-point quantifier for smooth Hamiltonian inputs on compact symplectic surfaces. It does not replace arbitrary finite-Cr inputs or the flow/high-dimensional problem.",
+    "Asaoka–Irie gives a periodic point in any prescribed nonempty open U after arbitrarily small smooth Hamiltonian perturbation. A decreasing neighborhood basis of f and shrinking U_j gives f_j->f and q_j->p simultaneously.",
+    "With i_X omega=-dH and H=chi(v_y*x-v_x*y), on the cutoff-one region X=(v_x,v_y); the full segment from 0 to v_j is contained there. The fixed cutoff yields all derivative bounds O(|v_j|), so time-one maps psi_j tend smoothly to identity and send p to q_j.",
+    "Conjugation g_j=psi_j^-1*f_j*psi_j remains Hamiltonian, tends smoothly to f, and makes p periodic with the period of q_j. No bound on periods is asserted. Finite total area excludes wandering open sets, so every point of the stated input lies in the required nonwandering set. Smooth convergence only gives finite-Cr neighborhoods of this smooth input."
+  ],
+  "primary_source_checks": [
+    "Asaoka–Irie, arXiv:1512.06336v3, 14 September 2016, primary https://arxiv.org/pdf/1512.06336, Theorem 1.1 checked with closed-surface, smooth and Hamiltonian hypotheses (qualified_topology_primary_retrieval_15.json, turn1700view11). Published GF&A 26 (2016), 1245–1254, DOI 10.1007/s00039-016-0386-3. The specified-point conjugation is independently checked; the deep closing theorem remains imported."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Partial result",
+    "exact_scope": "For every smooth Hamiltonian diffeomorphism of a closed oriented symplectic surface and every specified point p, arbitrarily C-infinity-close Hamiltonian perturbations make p periodic; hence every finite-C^r neighborhood of that smooth input also admits such a perturbation.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

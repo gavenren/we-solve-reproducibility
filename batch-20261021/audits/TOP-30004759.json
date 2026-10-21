@@ -1,0 +1,57 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-30004759",
+  "canonical_problem_id": "prb_ad5e6aa377994f8d9716563114d16180",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:24:02.453877+00:00",
+  "checked_report_sha256": "90ee9f0fac6aec75fea7a9667c089aec33d7d4337fe66f6ca6d1a21337f41a2a",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "8aca5373978324342643a5c8b79837abb65612ff3c9999d41feebc290b89f8c3",
+    "contribution.json": "10ca377e00f2f62ebab6e350f50e4c471fb584c4e0f7a6dd72478b80a1ce7dbf",
+    "official_metadata.json": "9a7cf6b45666e64dd959780a5d0343977c17b2a38068b014c052ab9f21239c23",
+    "official_metadata_api.json": "67243774c8d0f7bceae46f26d6d7774e7237ff4056d077974ab25912cf6a6fe0",
+    "official_prompt.txt": "972bfb15e2cdc698070e269c55d281f5892e8659fde569a9fddf7591d4df5d59",
+    "official_prompt_api.json": "ff63b2367de344b08dac9b50939ce610ae3c9d864c2d690ffcac3dd505aa74e7",
+    "prior_1_api.json": "cf19c65c3bcf2fdf626f852591dd200b8cabba2182476ab9639bbade1e455f97",
+    "report.md": "90ee9f0fac6aec75fea7a9667c089aec33d7d4337fe66f6ca6d1a21337f41a2a",
+    "source_notes.md": "7251870a099b0dde61979474ba5290d26622ea5947dd9b5a4ea26d12bfee436c"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Full prompt, API/meta, report, author/source records and full prior body read. The contribution covers the complete smooth closed aspherical dimension-4 and dimension-5 strata with nonnegative-scalar rigidity, while the earlier all-dimensional announcement is not accepted or extended to dimension >=6.",
+    "Exact Theorem 2 requires no spin, orientability, positive-b1 or special nonpositive-sectional-curvature metric assumption. Asphericity is the topological contractibility of the universal cover; the obstruction ranges over every smooth metric.",
+    "Nonnegative scalar curvature forces full curvature tensor zero, stronger than no everywhere-positive scalar metric. Contrapositive: any nonflat metric has negative scalar curvature somewhere. A different smoothing preserves underlying asphericity; theorem applies to every available smoothing without claiming all topological manifolds smoothable.",
+    "Finite covers preserve closedness and the contractible universal cover. Curvature pulls back under local isometries; flatness descends by surjectivity, so an orientation-cover argument would add no hypothesis. No noncompact/boundary or higher-dimensional extension is inferred from the imported dimension-sensitive mu-bubble proof."
+  ],
+  "primary_source_checks": [
+    "Chodosh–Li, arXiv:2008.11888v4, 20 September 2023, actual primary https://arxiv.org/pdf/2008.11888, Theorem 2 and introductory context read exactly (qualified_topology_primary_retrieval_22.json, turn1727view4). Published Annals of Math. 199 (2024), 707–740, DOI 10.4007/annals.2024.199.2.3 is credited. The deep analytical proof is imported, not independently reproduced."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "For every smooth closed aspherical manifold of dimension 4 or 5, reports the published Chodosh–Li obstruction to positive scalar curvature and the stronger conclusion that any nonnegative-scalar-curvature metric is flat; explains smooth-structure and finite-cover implications.",
+    "official_prior_count": 1,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

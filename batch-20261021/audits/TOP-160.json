@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-160",
+  "canonical_problem_id": "prb_6448767bdb064effb0865c070ea7a5e1",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "a0cd988234732d8738023f4fe84bbe0daeb6470e5cbaddfc8fd8049fc01b6630",
+  "report_sha256": "a0cd988234732d8738023f4fe84bbe0daeb6470e5cbaddfc8fd8049fc01b6630",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "2a5840a31fd28628ef55c2d275422c621630b1fe170423583dfe88c9602c8665",
+    "contribution.json": "4a07b39402c81414ffc2c9b1ee29f65ab45198dab51c0b6f86f6c6c7bc298686",
+    "official_metadata.json": "ab3aaa27b2cb74b1a70b94755686d5c40f0faf0d1a50293e0423b9a5ab205eea",
+    "official_metadata_api.json": "62340d88bbbfdfc7ac1d9143e4b0f23fa80da79e55cbae842f4779698bff1eb1",
+    "official_prompt.txt": "b8bddd5392dc6daae095f8b258441a2020f1498345d640b55138a89cc5dac098",
+    "official_prompt_api.json": "87b3c22b54996b8582a2882bbadcd9456fc7139b867d0e42baf3f0f849c730fd",
+    "prior_attempts/TOP-160-A1.html": "23186864cc1e94cd247be495b5de7974c0d98f51d403b0d91c59d28ea86fa8e0",
+    "prior_attempts/TOP-160-A1.json": "35e8b80a8d3d287f504d44e5ee935c6c4fe220574b6c6a25d4bcb60c472dcfd1",
+    "prior_attempts/TOP-160-A1.txt": "29801bf2c873f56156a48093892bc0e30383d06e912b40e971db28b8ae040c91",
+    "report.md": "a0cd988234732d8738023f4fe84bbe0daeb6470e5cbaddfc8fd8049fc01b6630",
+    "source_notes.md": "cbffee3d943e6cff02a4dc798859b853bba9705ffcc93466a8c168eab1eb11c0"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:26:22.449554+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked bilinear alternating group law/associativity, inverse, nonzero commutator2 and explicit left covering with central shear and7*2^(2r) translates.",
+    "Checked every permissible K is at least (5/3)^(2r) from horizontal projection/fiber lower bound; the polynomial conclusion uses the actual covering parameter.",
+    "Checked eightfold central formula with28 pairs, bound23W/32, horizontal half-bounds, floor ratio>=1/31 including thin sides, and (5/3)^7>31. All ranks r>=1 and W>=sum L_i^2 covered.",
+    "Read full priorA1: its abelian boxes/injective homomorphism condition do not contain this arbitrary-rank noncommutative family."
+  ],
+  "sources": [
+    "Breuillard\u2013Green\u2013Tao, actual28-page primary author survey arXiv1301.7718v1,31Jan2013 https://arxiv.org/pdf/1301.7718 : Section2 noncommutative/nilpotent examples, context only. Every estimate here checked directly."
+  ],
+  "limitations": [
+    "No BGT structure theorem, finite sampling or asserted classification of arbitrary approximate groups is used.",
+    "Source/proof-only, no checker program and zero executions. No formal verification."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

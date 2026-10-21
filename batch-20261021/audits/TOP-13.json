@@ -1,0 +1,59 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Substantive quantitative fixed-support reconstruction from the exact finite-rank theorem, with an explicit primitive-triple injection and a careful uniform-count versus global-height distinction. Literature report accurately leaves global abc open.",
+  "actual_checks": [
+    "Checked Beukers–Schlickewei Theorem 1.1 applies to the Q-closure of a finitely generated subgroup of (C*)² of rank r and gives 2^(8r+8). Divisible closure and sign torsion are retained.",
+    "U_S has rank s; its Cartesian square has rank 2s. Negative valuations allow a/c and b/c. Membership in H implies membership in the larger Q-closure.",
+    "For primitive ordered positive triples, a/c is reduced since gcd(a,c)=1, so it fixes a,c and then b. This makes normalization injective and yields 2^(16s+8), without counting scaled triples.",
+    "Finite support yields an S-dependent constant after taking a finite maximum, but no height estimate uniform over varying supports. Bounded radical implies finitely many possible supports and hence finitely many primitive triples."
+  ],
+  "prior_comparison": "Both full prior bodies read. They concern ordinary and weighted arithmetic derivatives, additive defects, Wronskian divisibility, minors/image ideals, transverse lattice minima and finite diagnostics. The multiplicative-group counting route is distinct.",
+  "primary_sources": [
+    {
+      "url": "https://webspace.science.uu.nl/~beuke106/s-units.pdf",
+      "version": "Author manuscript dated 8 January 2007; published article identified as Acta Arithmetica 78 (1996), 189–199",
+      "locators": "Definition of Q-closure and Theorem 1.1, first page",
+      "retrieval": "coordination/qualified_number_first_half_primary_05.json"
+    }
+  ],
+  "limitations": [
+    "Initial author-PDF request timed out; retry succeeded with exact theorem. The deep finite-rank theorem is imported, not independently reproved; numerical solution count supplies no effective height bound.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-13",
+  "reviewer": "/root/sol_ultra_numbers",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "cbbfa028db4c9b06d28a7dd548c00fff366271318d02d390ef890efd7ff25265",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "cbbfa028db4c9b06d28a7dd548c00fff366271318d02d390ef890efd7ff25265",
+    "source_notes.md": "5bffd0e82403a995004f9207d043a727d4dca6c9497d342b4fc280c8dc63aad6",
+    "author_record.json": "d30895b0b11b319d62dd6b07cc09efb3d72e261abf73f8fe9c9dffc807ef6b16",
+    "official_prompt.txt": "30d7fc6ed869f14cb2f98e1f6b8332679a469154abe48d596391c550ced49223",
+    "official_prompt_api.json": "83810ab348a90a08163c9c115c6923f703434400d95811784e4d0599eeb39249",
+    "official_metadata.json": "a611b394e43fba8d6c92872ef989435405eb33ca6714995579b94d738203e26b",
+    "official_metadata_api.json": "4be04b082d072769c3cf45eccacfa3169f33c375d200deeb0706791897a0c588",
+    "contribution.json": "264cbc06b646444a9e886dc2a8fac35d2bb4083d58780123ce763285c403a589",
+    "retrieval.json": "450a8217b6955ef685203932f74de81b4be0aa8661c5542b08bf9e8ba3bf9205",
+    "prior_attempts.json": "d755c5eea64cc1499c5bd673422223b47f9186b0e7d523cff79b423bebf66964",
+    "prior_attempt_01_api.json": "1812c5106ea278b72bf8378c93f4855a1c90e32369599e125d51f79c8d9cea16",
+    "prior_attempt_02_api.json": "995f68ed4250fa478eb9c506bd433e1727e49414bd4972239ab636bf59b3380b",
+    "prior_attempt_01_text.txt": "c2e5e314fc56a9a2064a57772c8db85c0cf5fe4b72b5ed8d2eab95a8e56223b3",
+    "prior_attempt_02_text.txt": "3ebd355feabfd864f74b5c06d50ffb2498b709e3074bdb435794d4aa6f161996"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_numbers_first_half_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:30:57.522737+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

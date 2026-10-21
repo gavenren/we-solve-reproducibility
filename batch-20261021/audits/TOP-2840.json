@@ -1,0 +1,56 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2840",
+  "canonical_problem_id": "prb_70ee13733f1a466093fc94d339814c8c",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:22:33.307079+00:00",
+  "checked_report_sha256": "ccce4e3cc6bc2a44e6c07ecbc6423f9241347f04f09c5a912d47f89979cbf709",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "4cc5b6d5e66f90e5d3bf8815497b401a3ea4048894f87e0c7aa0b8ba12415aac",
+    "contribution.json": "1cfe8646bb1459f87ea09e5d9e32a3e51ed84868be785ac506c975f10d376dea",
+    "official_metadata.json": "9490f8296895a766cc6002940308bad4f7c58b1e70e04489c78d07659b537766",
+    "official_metadata_api.json": "73d92d87ea06dafdd1044f9fdb17050e8b631c3b516f5bf1136df6da0f9cbe74",
+    "official_prompt.txt": "f962b4e0c41c796280101100b8157a3c8d3e20d93d8d8019791ae65118cadc77",
+    "official_prompt_api.json": "89409157d7312039f6ee1efb969e754c1b83d3bdd0ba7156a5d8b8c4de84685d",
+    "report.md": "ccce4e3cc6bc2a44e6c07ecbc6423f9241347f04f09c5a912d47f89979cbf709",
+    "source_notes.md": "501a36bca6f5220945563bbfcd597355fbbde39fdf649a28bb211b0dd295af44"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Full exact scientific inputs and metadata read, with zero listed priors. The contribution makes two distinct substantial statements: strongly fillable pairs have zero integral Giroux torsion, and a single underlying T3 has tight structures with unbounded lower bounds. It expressly leaves pointwise finiteness for arbitrary fixed tight structures open.",
+    "Gay uses angle pi*t on a length-2n layer; this equals n full turns in the prompt. The filling gluing uses a strongly convex boundary. No weak-fillability conclusion is inferred.",
+    "The torus contact forms match the standard tight family after y->-y. Checked the whole closed-layer embedding e_N for 1<=N<n: the z interval has length N/n<1, its boundary tori are distinct, and its pullback is exactly the N-turn form. Thus GT>=n-1, including n=1 giving only the trivial lower bound. Changing n changes the contact structure; no upper bound for arbitrary embeddings is claimed."
+  ],
+  "primary_source_checks": [
+    "Gay, Geom. Topol. 10 (2006), 1749–1759, primary https://arxiv.org/pdf/math/0606402, Definition 2.1 and Corollary 2.2 with its strongly-convex-boundary proof checked (qualified_topology_primary_retrieval_18.json, turn1710view0).",
+    "Kanda original publisher PDF access returned 403; no fresh full-text read of that original is claimed. Tightness of the exact torus family independently checked in the primary research exposition by Geiges–Hedicke–Saglam, Bott-integrable Reeb flows on 3-manifolds, JLMS 109 (2024), e12859, DOI 10.1112/jlms.12859, Section 8.1 lines 899–907, https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/jlms.12859. It explicitly credits Kanda/Giroux/Honda and gives beta_n with the opposite dy sign; coordinate reflection gives the report family. Actual source text retained in qualified_topology_primary_retrieval_21.json (turn1725view2)."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Every strongly symplectically fillable contact 3-manifold has Giroux torsion zero. On the fixed manifold T³, tight structures realize arbitrarily large lower bounds on Giroux torsion. This separates pointwise finiteness from a false uniform bound; it does not establish finiteness for an arbitrary fixed tight structure.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Kanda original full text was inaccessible to this verifier. The family statement is checked through the explicit primary research exposition above; the report author historical source assertion is not replaced with a claim that this verifier read the inaccessible original.",
+    "Deep cited theorems are imported and credited, not independently reproved. No human or formal verification, novelty or editorial acceptance is asserted."
+  ]
+}

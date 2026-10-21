@@ -1,0 +1,66 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-3349",
+  "canonical_problem_id": "prb_e26e941816844a228a401a0b413bb57b",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:29:35.033295+00:00",
+  "checked_report_sha256": "b7084ac67d255eaeeacf226fae6a3898679e33860737a5c619e4ba173218c64c",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "3b77faaa7c5b8a78de71499d9ef82eb138a65a2c2eb4dc82e310a60f22829738",
+    "contribution.json": "0961bb48d6047bb1f204e003960545a48e557370f0d26b07014aec82b1091006",
+    "official_metadata.json": "e503a5fc699682e3e7d477b763bb727dc993253d9b47ee55356cc709037f7cbc",
+    "official_metadata_api.json": "3a706a2b9ad550a5af4094659dd496a779ee99cbc5b405c23ab51a17f2492a83",
+    "official_prompt.txt": "2b76f8d1c411daf08689eb4b5459327a1d612a6bdbc8c0f2dbb0bd39de2f2226",
+    "official_prompt_api.json": "99b7d51907661f7839ed57050477ad8cbeddfdd26b9119c5d32aaac2d5a1d32e",
+    "prior_attempt_01_api.json": "57283f4e6d9975c950508cd0da4c90a71e6e3e4f2fe5aa0cb51447030b2378c1",
+    "prior_attempt_01_text.txt": "b8af0d7bd42c68c45c4628198e30e4e0664c2cffa105b9e02809fcb339ad75e7",
+    "prior_attempts.json": "2340d02f3df5d27ddb9a915f44f4d560b5cf7170c08d08f87207351dff5493b9",
+    "report.md": "b7084ac67d255eaeeacf226fae6a3898679e33860737a5c619e4ba173218c64c",
+    "retrieval.json": "286bf926cc3a41b3e718c95a3dee9aa013615ee6d6547b6308bdf6ee4069b53f",
+    "source_notes.md": "e9c455d4558d2b16d959a12ea7a118b242483ad7338f01dba6d62fb1459ccf63"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8e2e73deea8ce21484c848e54e05f8b9387a4301ec9675a929422d53b3d7f61c"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact prompt, report/source notes, API/meta, author/contribution records and complete earlier manuscript read. Prior symmetric-coordinate/Schanuel/auxiliary-function and finite-polynomial work does not provide this exact modular specialization plus full rational-monomial rank theorem. Literature scope remains the neighboring triple, not the literal e,pi independence question.",
+    "At tau=i, q=exp(2*pi*i*tau)=exp(-2*pi)=v^-2. Checked E2=3/u, E4=3*Gamma(1/4)^8/(64*u^6) and E6=0, from omega=Gamma(1/4)^2/sqrt(8*pi). Nesterenko lower degree >=3 for these generators forces trdeg Q(u,v,w)=3; the three-number field has the matching upper bound.",
+    "For independent integer exponent columns, different polynomial monomials give distinct Laurent exponents; multiplication by one monomial clears negative powers and preserves nonzero polynomial. Every dependent column becomes algebraic after clearing rational denominators in its column relation. Thus exact transcendence degree equals rational rank, including zero/rank-deficient columns. Positive rational powers are fixed unambiguously, and passing to a common integer power gives an algebraic field extension with the same transcendence degree.",
+    "Rank-two/nonsingular-matrix examples correctly give infinite families. Taking r=1/pi is not allowed, and e is not exp(r*pi) for rational nonzero r. The already-established independent pair pi,exp(pi) has dependent pi,log(exp(pi)), correctly disproving arbitrary logarithm transfer. No Schanuel conclusion is imported."
+  ],
+  "primary_source_checks": [
+    "Fonseca, arXiv:2011.14401v1, 29 November 2020, actual author mathematical exposition https://arxiv.org/pdf/2011.14401, Theorems 1.1/3.2 and following tau=i corollary read (qualified_number_second_half_primary_04.json/_05.json, turn1813view2). Waldschmidt author-hosted KIAS February 2004 slides https://webusers.imj-prg.fr/~michel.waldschmidt/articles/pdf/KIAS-02-2004.pdf, PDF pp.32–36, exact lemniscatic evaluations and independent triple read (_06.json, turn1818view0).",
+    "Nesterenko original MathNet endpoint timed out for this verifier; no fresh full-original proof read is claimed. The exact theorem and evaluations are checked in the identified mathematical authors’ expositions, explicitly credited to Nesterenko, with deep modular/period proofs imported. Original publication is Sbornik Mathematics 187 (1996), 1319–1348, DOI 10.1070/SM1996v187n09ABEH000158."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Credited Nesterenko modular theorem and exact tau=i nome/period/gamma specialization proving pi,e^pi,Gamma(1/4) independence; complete rational monomial-transform rank criterion and infinite independent pairs pi,e^(r*pi), r nonzero rational. Explicitly does not replace e^pi by e or solve target.",
+    "listed_prior_count": 1,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

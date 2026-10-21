@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-3310",
+  "canonical_problem_id": "prb_11b6b414f5f34ce3900f43d1682eaeeb",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_graphs",
+  "verdict": "PASS",
+  "checked_report_sha256": "6c2025831f8d4532260b4b4020b899633a7504a3849abe386bc1d4d21d169a8e",
+  "report_sha256": "6c2025831f8d4532260b4b4020b899633a7504a3849abe386bc1d4d21d169a8e",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "author_history/before_qualified_verification_description/author_record.json": "2e9f27a17c15707d0a8be92f7671cae85f07e0c008a43c670b21a1f0f0d29056",
+    "author_history/before_qualified_verification_description/contribution.json": "ed090332c3201ab7792297991e0511cf7853d8e8ea9cb083c68a4852472f05cb",
+    "author_record.json": "5da7415f544bcf47ccc40c533e47272e2b4f831a229635df22faf559c327b2c5",
+    "contribution.json": "d6c6c8c08639aa2f9e3ee6d0441ebb20f6ec2cc13b230ffc437732fabce2dbdc",
+    "official_metadata.json": "7c9cbf552261c63835e5a7ae8121d247893283048b7edd42cc42efa8169d8e62",
+    "official_metadata_api.json": "dc321ebf65cfe33e23bd667ae78c0bfbc640d12edad7a2819232c22952e3214b",
+    "official_prompt.txt": "39b5d4529e3acf04808d58086e8df610df4b87c6a3d4a8a3dff44237c6c0bfa3",
+    "official_prompt_api.json": "7ffa1237096f5ecdb6c796832b43e4875e961224869cf44b762ed5ded30ac4a6",
+    "prior_attempts/attempt-1.txt": "0dfd8e5b3e0b772cfb5c70435e4a0ad442fafd47be765e8e4e01dfbe9d3052ff",
+    "prior_attempts/attempt-1_api.json": "7cb0c36b07552624dfd86a3a137098a9528898ebeac1db4ac4a33c0228fb38e7",
+    "report.md": "6c2025831f8d4532260b4b4020b899633a7504a3849abe386bc1d4d21d169a8e",
+    "retrieval_record.json": "50b2bd1204e6ef655475f486329793f70b41be5c4187cfe787e27d051f2ad97a",
+    "source_notes.md": "4c2a6f9fb91e2d47299ec809f163a83a88612fd6121f6c896eb631be01b2af94"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:35:46.047168+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read the full retained earlier contribution: its triangle-permutation/Brooks argument confines chi to {3,4}, without the new exact strongly equitable first moment.",
+    "Independently derived the unique zero-diagonal 3x3 contingency table, its labelled matching count, ten independent edge events for each fixed coloring, and the outer multinomial factor; no independence between colorings is used.",
+    "Checked binomial-cube bounds and Stirling exponential rate, named colors, h=3s restriction, Proposition 2.2 prefactor specialization and ell_3<4. The rare-large-variable example correctly prevents a first-moment-to-high-probability inference. Significant new exact enumeration is scoped as partial progress.",
+    "Reread the root-amended contribution.json and author_record.json plus preserved original metadata. The verification description now names this report's actual deductions; report/source/program bytes are unchanged."
+  ],
+  "sources": [
+    "Opened arXiv:2109.13347 PDF, displayed v1 (27 September 2021), 62 pages; pages 3 and 6-7, Theorem 1.2, equitable-coloring definition and Proposition 2.2. Confirmed the moment result has no d<ell_k restriction, unlike colorability/second moment: https://arxiv.org/pdf/2109.13347.",
+    "Opened arXiv:1003.1527 PDF, displayed v2 (31 July 2011), 10 pages; title/abstract establish that the comparison theorem concerns K5 minus one edge: https://arxiv.org/pdf/1003.1527."
+  ],
+  "limitations": [
+    "Independent mathematical/source review by an LLM; no formal proof certification, novelty-priority decision, or editorial acceptance.",
+    "The source asymptotic moment theorem is imported; its full 62-page analytic proof is not independently certified. No program is attached or run, and no general 2026 open/settled status is inferred."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "actual_program_run_count": 0,
+  "formal_verification": false
+}

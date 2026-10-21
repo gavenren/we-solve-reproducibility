@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2814",
+  "canonical_problem_id": "prb_d2ea207a4275486894059b67bd68485f",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:18:12.792403+00:00",
+  "checked_report_sha256": "5bc4739a89bd4812ff2586abd77c9a3491cd3435b3959e430cb6c60c365c286a",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "aff267fa50db8a136ee0fe45bfdc5348f1e71bd3d898e10c683f529cced85c5e",
+    "contribution.json": "03402c4e2fbc29e9760977200d5279cddee1e2c83db7613816994795093a9b00",
+    "official_metadata.json": "aeb67ee9b5676df207edcedb0b32d6d09ed5a9996d8364c01072d663ffb6299b",
+    "official_metadata_api.json": "836fe39198eedc5f8b73df4d7470a280ad103514a1d881fce4e2e0964e249f51",
+    "official_prompt.txt": "c330e5d7425d8d6125d552c34630743ac23f0e520c7a5dfa036852734ae26126",
+    "official_prompt_api.json": "2aae94da3c911c189f9938e2337636e61fa0e4a7b829b23abf96bd7cadac39b8",
+    "report.md": "5bc4739a89bd4812ff2586abd77c9a3491cd3435b3959e430cb6c60c365c286a",
+    "source_notes.md": "0d7b5c0a97d758c59f241ddc61927f95371b78e2f15bb949d45b7294b42a58d8"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Read the full report, exact image-counting/closed-or-cusped prompt and records; no earlier contribution. Verified primitive unoriented counting, no nondegeneracy issue, no projection of simple lifts assumed.",
+    "Checked the two exponents balance with the displayed H and delta; ratio against e^((d−1)L)/L tends to zero, yielding infinitely many distinct simple images. Imported shallow escape lemma explicitly covers nonorientable cosets in Remark 5.3. Recent all-manifold assertion remains labeled preprint and published theorem stays orientable cusped."
+  ],
+  "primary_source_checks": [
+    "Kuhlmann published AGT 6 (2006) Theorem 1.1; Han–Yang arXiv:2608.29855v2, Theorem 1.1, Lemmas 5.1–5.2, Remark 5.3 and final optimization. Primary turn1651view2–3, turn1664view7, evidence _07/_10. Technical escape estimates remain imported rather than independently certified."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Published infinitude for orientable cusped hyperbolic 3-manifolds, and a precisely attributed account of Han–Yang arXiv:2608.29855v2 Theorem 1.1, which claims density-one simple primitive geodesics for every finite-volume hyperbolic d-manifold, d≥3, including nonorientable manifolds. The general theorem is reported as a preprint, not independently certified or published.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

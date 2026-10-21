@@ -1,0 +1,67 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-30005093",
+  "canonical_problem_id": "prb_3c368c8ca0334fdab9ceb62221a817fc",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:35:35.514943+00:00",
+  "checked_report_sha256": "018a90f9a34399fc5fe40546190d0fb64ee2946bd7fd71e1695c9874310a4101",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "af04e5047eea5f8253783a8580afc7b7abf1ab55ee20a74aeaaa7d261e1fcb75",
+    "contribution.json": "db027f3d187374fd4ef05a07a7a024d3dbbf3016987ca3deb5f2e76af22fb154",
+    "official_metadata.json": "4d090154551eb1430221fe707071272fb1b04e81ba7193ae15f4eb1a88c5caf6",
+    "official_metadata_api.json": "107c9e853303aeb19e622dd419bbbf85681bfb2d82d5f84d4c3967a9f9868b61",
+    "official_prompt.txt": "84be8180369c52db8be0d8978864832a191f4aea9bd0139674d5e36c16cbfad6",
+    "official_prompt_api.json": "a9d4d54bad87de25a5b941562eb19873a326f4fa8255544b9fbef1276bcd4824",
+    "prior_attempt_01_api.json": "954bc9b9775ab8f731b377a80d12d360e68507aa1f2dcbf3b0c6599478d55822",
+    "prior_attempt_01_text.txt": "92f6ca48ea6ec7b6f9f34330bd4a969b9b398527b34cb5a258405d0eb4af9568",
+    "prior_attempt_02_api.json": "1b78e2d0f520ff0420c9dd10c465addb2bccd2eb45ead4f7aca7df58bdcb5bde",
+    "prior_attempt_02_text.txt": "62a1f1dde57a1d91d08fcff224a857851309708354214bb4667ca5d8e596b2bb",
+    "prior_attempts.json": "c7199339c1ba38828cfad4f9a7dfaf594cd75969df59b37e1eefa76605e957af",
+    "report.md": "018a90f9a34399fc5fe40546190d0fb64ee2946bd7fd71e1695c9874310a4101",
+    "retrieval.json": "6717b5bf89d9d914e55dfd7c64c89856fb7091a99ee63d420e91602aca25306a",
+    "source_notes.md": "2a0d729e95350f3bdee1bdeca45ca739caee4cf5df3877099bf82971c56ca291"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8abd348b18f67b61cb97e7fa72eeb990a89587d29cbab694915ecac22cb2ece3"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact report, literal prompt, all provenance/source records and both retained full prior scientific contributions read, including the newer unaudited individual OpenAI claim. This is a published six-beta benchmark plus explicit arithmetic/elimination analysis, distinct from prior one-variable approximants and claim-summary status.",
+    "Zudilin Theorem 1 has precisely beta(2),...,beta(12), whereas the simpler Section 2 yields eight values. Section 3 uses s=13 and eta=(31,10,10,10,10,10,11,11,11,11,12,12,12,12), with even n since eta_0 is odd, M=11n. Positivity, odd-index symmetry elimination and Lemma 5 coefficient integrality, including the constant coefficient, are matched exactly.",
+    "Multiplying the coefficient inclusion by d_M^i makes every coefficient of the normalized form integral. If all six beta values were rational, a single common denominator Q would make the positive normalized forms positive integers tending to zero, impossible. The source decay/growth strict margin is an imported published assertion, not independently certified numerical optimization.",
+    "An invertible five-by-five unwanted-column matrix has trivial left kernel, so five available rows cannot eliminate all five unwanted values. Six rows supply a left-kernel vector but do not guarantee survival of Catalan coefficient, actual nonvanishing or preserved height/decay. The report identifies each additional requirement and does not promote the six-value disjunction to individual irrationality or independently verify newer Lean/manuscript claims."
+  ],
+  "primary_source_checks": [
+    "Zudilin, arXiv:1804.09922v2 (31 May 2019; internal revised 4 May), actual primary PDF Theorem 1, Sections 2–3, Lemmas 2–5 and final normalized decay checked, including exponents -100.73966317... versus +100.23354349.... Publisher full HTML confirms same theorem and publication in Abh. Math. Sem. Univ. Hamburg 89 (2019),45–53, DOI 10.1007/s12188-019-00203-w. Retrievals 19–22. No program attached or optimization rerun."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Precisely credited published six-even-beta irrationality disjunction; reconstruction of the positivity/integrality contradiction and exact row-elimination obstruction for isolating Catalan's constant. No new individual irrationality or verification of newer OpenAI manuscript/formal claims.",
+    "listed_prior_count": 2,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

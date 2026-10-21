@@ -1,0 +1,84 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Substantive literature/status correction with a modern analytic reconstruction: exact literal assertion is classical, and the report derives saddle parity/cancellation, exposes the transition-estimate boundary, and proves the odd-order and half-open endpoint transfer from precise unconditional inputs. It is accurately categorized as credited literature, not a newly discovered solution.",
+  "actual_checks": [
+    "Reread entire final report/source/contribution/authorrecord after freeze; reportSHAf2bbc1d0fa399a00943f478096d43e8c9f58e46bbf9b7b048d2708a4a8373035. All references now align to primary Springer publicationDecember1916,Acta41,119–196. Exact official prompt and metadata list no priors.",
+    "Independently retrieved exact indexed original primary-PDF printedp184 Theorem4.41: for every positive allowance, every sufficiently high critical-line segment of lengthT^(1/4+allowance) has an odd-order zero. Direct facsimile returned zero OCR lines and screenshot calls exposed only text placeholders; no independent visual inspection is claimed. Original full contour proof was not independently reconstructed.",
+    "Read actual Ivić0907.3803v1 main unconditional primitive theorem and proof text, smoothedAFE(3), exact phase(5), five index ranges, stationary-phase lemma(8), alternating sum(9), and transition discussion through proof conclusion. At k=1 remainderO(t^-3/4) integrates toO(X^1/4), whereas unsmoothed absolute remainder would costX^3/4.",
+    "Direct differentiation givesPhi'=log(sqrt(t/(2pi))/n),Phi''=1/(2t),c_n=2pi*n^2. HencePhi(c)+pi/4=-pi*n^2+pi/8 and Gaussian amplitude sqrt(2pi/Phi'')=sqrt(8pi^2*n^2). The partition identity forcesrho(1)=1/2; source later prints this correctly after its earlier typo. Leading weighted sum is proportional tosum(-1)^n sqrt(n), bounded byO(sqrtB)=O(X^1/4) by Abel/pairing.",
+    "Away from transitions, phase derivative separation~m/sqrtX and weight~X^-1/4 yieldX^1/4 times a harmonic sum. Near endpoints the generic sqrtX error is insufficient; current report explicitly imports Ivić's uniform established theorem and does not present its inconsistent later contour-radius text as independently repaired. Thus the derived interior calculation is not overstated as a complete new primitive proof.",
+    "Independently read Ramachandra original PDF introductory hypotheses and printedTheorem2p4, including2k>=1; k=1/2,m=0,fieldQ gives the displayedH(logH)^1/4(loglogH)^(-C) bound. Its logarithmically long interval range includes the stated conservative(logT)^20<=H<=T after fixing the small parameter1/20; publisher record independently corroborates the theorem specialization but its simplified abstract does not replace the printed conditions.",
+    "Hardy's nonvanishing analytic phase multiplier preserves zero order and makesZ real analytic. Absence of odd-order zeros entails a fixed sign despite even-order zeros, so|integralZ|=integral|Z|. Gamma=min(epsilon/2,1/8) fixes the strictly interior interval lengthT^(1/4+gamma)/2; both endpoints remain comparable toT, the logarithmic lower cutoff is automatic andH<=start.",
+    "Using the primitive at both endpoints with loss gamma/2 givesO(T^(1/4+gamma/2)), which is little-o of the absolute-mass lower bound at scaleT^(1/4+gamma). Contradiction forces an odd zero inside the target half-open interval; an odd zero at excludedT cannot be counted. All thresholds may depend on the prescribed epsilon."
+  ],
+  "prior_comparison": "Fresh exact prompt and canonical metadata have no earlier contribution. Retired TOP-1278 is a distinct divisor-problem canonical record whose significance REVISE is retained historically and excluded from active coverage.",
+  "primary_sources": [
+    {
+      "url": "https://personal.math.ubc.ca/~gerg/teaching/592-Fall2018/papers/1916.Hardy.pdf",
+      "version": "Original Hardy–Littlewood paper,Acta41,printedp184",
+      "locators": "Theorem4.41",
+      "access": "Direct PDF timed out, but an independent query constrained to this exact primary PDF returned its complete indexed theorem text. Exact mathematical statement read; no full original-proof/visual-access claim."
+    },
+    {
+      "url": "https://mwolf.pracownicy.uksw.edu.pl/Hardy_Littlewood%20zeta.pdf",
+      "version": "40-sheet double-page original facsimile",
+      "locators": "sheet32,printedp184",
+      "access": "Opened as PDF with zero OCR lines; screenshot API returned text placeholders without inspectable image blocks. No fabricated local screenshot or visual inspection."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/BF02422942",
+      "version": "Primary publisher DOI record",
+      "locators": "PublishedDecember1916;volume41,119–196",
+      "access": "Independently opened and read metadata; requested and verified correction of earlier1918 bibliography before PASS."
+    },
+    {
+      "url": "https://arxiv.org/pdf/0907.3803",
+      "version": "Actual header0907.3803v1,22July2009; corrected author version of2004 paper",
+      "locators": "mainTheorem,equations3–15 and2009revision note",
+      "access": "Full8-page primary PDF opened; relevant theorem and proof text read. Uniform transition machinery is imported rather than claimed independently reproved."
+    },
+    {
+      "url": "https://hrj.episciences.org/87/pdf",
+      "version": "Ramachandra,Hardy-RamanujanJ1(1978),1–15",
+      "locators": "intropp1–2;Theorem2p4",
+      "access": "Original primary PDF opened and introductory/theorem text read; OCR imperfect, no visual-read claim. Specialized inequality and2k>=1 also corroborated by actual publisher article record https://hrj.episciences.org/87."
+    }
+  ],
+  "required_corrections": [],
+  "limitations": [
+    "No novel solution, current best gap record, proof of simplicity/RH, independent full original contour proof or repair of every Ivić source misprint is claimed.",
+    "Author/source-assistance visual reading is not relabeled as this independent reviewer's visual access.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-9400064",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "f2bbc1d0fa399a00943f478096d43e8c9f58e46bbf9b7b048d2708a4a8373035",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "f2bbc1d0fa399a00943f478096d43e8c9f58e46bbf9b7b048d2708a4a8373035",
+    "source_notes.md": "0a5f3be9b296a12614cf2f22b09273bd977185395f2e63e3c7d62f78b81772a8",
+    "author_record.json": "e05b5fd29d6d35bc877328aae39857033f0f601626b6ca872ea78cc2ed686928",
+    "official_prompt.txt": "c38337dfc8d920f5736b3cc31254684d54cfb398ec1ddedc375342db1b2a027c",
+    "official_prompt_api.json": "7b89f1b366f6a2b2026c04864c59ab8948719a162b399de3d11da0f57548e3af",
+    "official_metadata.json": "e1e4b099618ce4b7c2d875c6435f7f8be312f6274f96494de40f144af5bb4016",
+    "official_metadata_api.json": "adeb40818566260ec4422472bbf858f29debdbda2df361f2c5aa60fcbf2b9e17",
+    "contribution.json": "6a886fa3a3df76d6398a35bc6a11f18a63797c49f596b7d82b3fc034f58e879a",
+    "retrieval.json": "9339922513f1508426d1fdec5968dcd24f9444840d9b5cb2bac5d9660fae99f7"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_algorithms_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:44:15.351053+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

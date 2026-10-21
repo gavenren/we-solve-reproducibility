@@ -1,0 +1,65 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-30006842",
+  "canonical_problem_id": "prb_1eb8c9f2e53a491ca8e333ebcd182726",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:35:35.549939+00:00",
+  "checked_report_sha256": "eac13102556bd067d903d2793b845f34e5c8ede1c33f10681e8b4a26ecd854a7",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "7235d3cd6b796cb6f1243920c67edf95c83c4ec7b84b451b10795a8f1e460874",
+    "contribution.json": "2dc705078df686009baada733429515a41ec45c412b40706f2100c62482b3fbf",
+    "official_metadata.json": "d80f01551e7e771bbdd2feabd5b1889b2bd87e7c2cded729afd07efcb15068f1",
+    "official_metadata_api.json": "2e87d7a8c3c912338d870b6f492aa700e216b901ab1c7dd4411bd274341b3ee1",
+    "official_prompt.txt": "54ea9b1cce2271c5ae442cf751658effeb2d758bc03b36638e085fe58a6b5a6d",
+    "official_prompt_api.json": "9461aef29823a22672902c1f14fc3ce0b8cbada6bb2048afbc7960db8e261903",
+    "prior_attempt_01_api.json": "20f769140bd77803d13a7ab3fcf271bc36afe8706bffd5a2f47fb1e450b6ae2a",
+    "prior_attempt_01_text.txt": "cfabad17bc6cdfaef1df7a8ec1dc7f33880ff9884caab123e6632c7d9a3704f0",
+    "prior_attempts.json": "f7a1b55858cf668788bd0c84f1fb421c4adb6c5228c4d50397ddedecfbe72adc",
+    "report.md": "eac13102556bd067d903d2793b845f34e5c8ede1c33f10681e8b4a26ecd854a7",
+    "retrieval.json": "7ea26da1852d36edc48240588310c990a62b60bedc6e8ecf4731fa8b8ec89bf0",
+    "source_notes.md": "79a18bc66f3ab050c7b0a66bad34c6cf37e900583ffb8c2485fc90b86f82e184"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8abd348b18f67b61cb97e7fa72eeb990a89587d29cbab694915ecac22cb2ece3"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact report, literal prompt, all provenance/source records and full retained mean-square/fixed-moment prior read. The report adds the deep Guth–Maynard theorem and exact exponent-region comparison instead of repeating the earlier elementary moment family.",
+    "Guth–Maynard Theorem 1.1 covers all complex |b_n|<=1 and one-separated times in [0,T]. Lower endpoint is reconciled by assigning its coefficient zero and strict prompt values imply the nonstrict theorem threshold. Formula (1.1) classical comparison is matched, retaining fixed polynomial T ranges and honest subpower constants.",
+    "Setting T=N^a,V=N^sigma gives g=max(2-2sigma,18/5-4sigma,a+12/5-4sigma) and c=max(2-2sigma,a+min(1-2sigma,4-6sigma)); the better bound has exponent min(g,c). For sigma>3/4, a<=4sigma-2 makes the classical second term no larger than the first, including endpoint. Sigma>=1 has impossible strict threshold in the standard integral-length convention.",
+    "At sigma=3/4 the exponents are max(3/5,a-3/5) and max(1/2,a-1/2); improvement begins precisely a>11/10, breakpoint a=6/5, and a=5/4 gives 13/20 versus classical 3/4. Gap 3/20 equals a fixed 3/25 power of T and is not a subpower. The new theorem itself has conjectured order only for sigma>=4/5 and a<=2sigma-2/5, where the classical range is at least as long. No optimality over all methods or full conjecture conclusion is asserted."
+  ],
+  "primary_source_checks": [
+    "Guth–Maynard, arXiv:2405.20552v2 (7 April 2026), actual full primary PDF Theorem 1.1, classical formula (1.1) and critical discussion checked. Actual Annals publisher record confirms Volume 203 (2026),623–675, DOI 10.4007/annals.2026.203.2.6 and online 1 March 2026. Retrievals 19,21. Deep analytic estimates credited, not independently reproved."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Precisely normalized Guth–Maynard large-value theorem and classical comparison, with proved exponent-region consequences, a conjectured-order high-amplitude regime and an exact critical σ=3/4 phase calculation showing the remaining polynomial gap.",
+    "listed_prior_count": 1,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

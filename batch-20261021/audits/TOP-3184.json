@@ -1,0 +1,66 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3184",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "1385f639773ba26dfcdf041799f988cdf2e1740d7fd47d7805644db5b0926388",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "1385f639773ba26dfcdf041799f988cdf2e1740d7fd47d7805644db5b0926388",
+    "source_notes.md": "db3507c0940ca49d8e30548e3e4d4baef1c5f36bb6947d8f3bdaa09f15686165",
+    "author_record.json": "29c82146b3731097b3adf6ac59a5f5b1b27ef03129ee4b1b4c762b7a6b3547dd",
+    "contribution.json": "20ed493a56d3d77419aef5b9465d8ad3993de8ed34a2b22ded8cc1cb67da0e75",
+    "official_prompt.txt": "dfc7e9f749c9e85b256fcc18c509532d0759a88bb2cd5853523947865a5b5fb1",
+    "official_prompt_api.json": "5e12d02f42528e462165964d27b28af5701848691f9d57e797407a1d538fb6c0",
+    "official_metadata.json": "5102282c4c26dc7f93ccbebbcb0a4468724adbce9afd422c9b453ac3cacdce72",
+    "official_metadata_api.json": "6a25328f94be5ca535655c91217664aa855abd2086387012dba2b868ec30b70d",
+    "prior_attempts/attempt-1.txt": "62160d253960eabe9d362b8dc109326ca5ed3f5bf0308521838de2401bd43229",
+    "prior_attempts/attempt-1_api.json": "11e0fdc0520ffe5593b2b806df984bb2d3f1e4efb0bfdf0e36bebf883084dd54",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "347f0e350ee075fedabeab5213b519b5453960b66a4ad08773cfcd825699199f"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked girth>=6 all-order K6-minor theorem and girth>=5 density16n/5-8 version with6-connectivity, plus separate large-order theorem.",
+    "Checked apex curvature sum>=12, upper contribution<=1 only at actual apex neighbors, equality triangulation/degree5-6 characterization, triangle necessity in planar remainder, and minimum-degree7 density comparison.",
+    "Earlier large-order context/order>=13 and small minor models read. Present all-order girth regimes and apex degree>=12 are distinct; no finite exceptional range is claimed resolved."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1012.5795",
+      "version": "v1,28 December2010",
+      "locators": "results1.2–1.3 and graph conventions",
+      "retrieval_refs": [
+        "turn1822view2"
+      ],
+      "access": "Exact primary structural scopes checked; long minor proof credited."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1203.2192",
+      "version": "v1,9 March2012",
+      "locators": "Theorem1.3",
+      "retrieval_refs": [
+        "turn1822view3"
+      ],
+      "access": "Absolute sufficiently-large-order quantifier checked."
+    }
+  ],
+  "distinct_significant_scope": "Distinct all-order girth theorem and fully proved apex-neighbor curvature obstruction/equality structure.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:29:16.675176+00:00"
+}

@@ -1,0 +1,66 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3217",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "c4faf4981047efcefd203a380719c1ef56fb63d6c660f8f5d0c8be8f2a9a084a",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "c4faf4981047efcefd203a380719c1ef56fb63d6c660f8f5d0c8be8f2a9a084a",
+    "source_notes.md": "f61d0beab1d0cca27022e39c6e9ed1849344952b3999a381a2f56ac90f1d998b",
+    "author_record.json": "c77ff8a50d69de8f26ab223c5d359061ee88144241fb1ef43be118f0b0e1c767",
+    "contribution.json": "3d32df90ca3e332e5fcdf37f3aad8cedd93ca0ac2c0eb5f20689f0bf238ebf78",
+    "official_prompt.txt": "c358aea97cb234c45b65344f0ab28cd88a37ccd2f7ad6043b7d650ff10b93a90",
+    "official_prompt_api.json": "737f92ff4634dac68293c399ace2943be7c5bb9f5f7cf5d5262240ec9337209f",
+    "official_metadata.json": "618c1edc901d45798f71db17d88fdfa71bdc8f0b53382ebdad5b97f3fed4780d",
+    "official_metadata_api.json": "fb9e1783ee8bba435ed1085e97554e6941e4da74cb79f47add34b121601cac2d",
+    "prior_attempts/attempt-1.txt": "786e5da0a0089a4dbf98d3e11fc7d7867449e30aa05b57a7165c1ac51d98c683",
+    "prior_attempts/attempt-1_api.json": "0efe8ca370624cfd09ba48b30dc4703a57739f607391415e7efcc14193e63f32",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "a6d984d19d4d103fea6a88e7778be906d5c140d245bd0e410ed89bfc86fd6e36"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked global odd-modulus theorem threshold3a-3 becomes6k at a=2k+1, not4k. Additional connectivity is imposed only on fixed odd-degree terminals.",
+    "Checked repeated bridge-parity argument, degree2 and admissible degree>=4 splitting, loop/component saving, and final6k-connected odd core.",
+    "Checked current-edge original trails partition ALL original edges, discarded loops/even components are retained as closed trails, and directional lifting balances each internal visit. Full prior Hall/outdegree/Euler/two-vertex body is strictly narrower."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://orbit.dtu.dk/en/publications/nowhere-zero-3-flows-and-modulo-emkem-orientations/",
+      "version": "JCTB103(2013),587–598",
+      "locators": "primary author-institution abstract,lines22–24",
+      "retrieval_refs": [
+        "turn1822view5"
+      ],
+      "access": "Exact3a-3 formula read; original full proof not accessed."
+    },
+    {
+      "url": "https://www.keisu.t.u-tokyo.ac.jp/data/2006/METR06-62.pdf",
+      "version": "November2006",
+      "locators": "Mader local splitting printedpages2–3",
+      "retrieval_refs": [
+        "turn1810view3"
+      ],
+      "access": "Exact local hypothesis checked in primary research restatement."
+    }
+  ],
+  "distinct_significant_scope": "Complete odd-terminal local-connectivity compression beyond global6k restatement or prior all-even cases, preserving fixed-unit whole-edge orientation.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:29:16.683123+00:00"
+}

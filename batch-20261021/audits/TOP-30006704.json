@@ -1,0 +1,82 @@
+{
+  "handle": "TOP-30006704",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "f30e3c832069af85b223867e157562fb1d2b44b7594abd38a3e0add5ca81730e",
+  "program_sha256": {
+    "verify.py": "467450c94d7312669a090e64be3dd368c372645d92a3c41cffd1013dbea2355f"
+  },
+  "checked_files_sha256": {
+    "author_record.json": "b6f1ca431c17377b940af52b842b91c11ed7a846c35912ae5fee908165d4ec4a",
+    "contribution.json": "e8202f759cdbb0e97fb688057f270d1626535dc42377b3b45906792fb7928790",
+    "official_metadata.json": "da79574e30d40d0d4e633f60ae20f8a8ac2922965e607589d63516b13f32edfd",
+    "official_metadata_api.json": "2ba3dbe093087168a2b15091793fb6a9571b36e890f43346f5a53b63311cd61f",
+    "official_problem.json": "da79574e30d40d0d4e633f60ae20f8a8ac2922965e607589d63516b13f32edfd",
+    "official_problem_api.json": "2ba3dbe093087168a2b15091793fb6a9571b36e890f43346f5a53b63311cd61f",
+    "official_prompt.txt": "06029b81fec3e2610b1b44be3be6c2e7f47ccbb262990c934b508fa9ae3b9969",
+    "official_prompt_api.json": "c2cd355f6f61aa93d44b3bac52052b38dddfae63889ea3f1c2672e2042863e94",
+    "prior_attempts/TOP-30006704-A1.tex": "54477fba1ce7b5d50d6d0094f2d66e02ba05bcf832e3873c93ec9fcabec966f6",
+    "prior_attempts/TOP-30006704-A1_api.json": "eba45cde71517de8b4fe9386721f2c959dc485200228620e39cd0feecf20b7e8",
+    "prior_attempts/TOP-30006704-A1_manuscript_api.json": "fd2ff2441aaae4dd183b824eb635fd55f27ea4d17463e787816d1aebe2f6fb2b",
+    "report.md": "f30e3c832069af85b223867e157562fb1d2b44b7594abd38a3e0add5ca81730e",
+    "source_notes.md": "dcb1b7894334e481d40c6318c061941c22344be5dfb6dc0b58ae0eeff9cd4174",
+    "verification.json": "2cfdde4d14eda20d113f0c603e694b4ea13f5459ae341c3a4eb288cc7c730c77",
+    "verification_stdout.txt": "fe48cff1c23df58494db4197c16859a58284c9eb32616bd1ecd2eea561b89281",
+    "verify.py": "467450c94d7312669a090e64be3dd368c372645d92a3c41cffd1013dbea2355f"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:27:45.406694+00:00",
+  "actual_checks": [
+    "Read exact SETH infimum/limit quantifiers, full prior and all current inputs. Independently checked split-and-list unsatisfied-clause bits, integer orthogonality equivalence and actual list-writing cost, including odd splits, empty clauses, tautologies and repeated vectors.",
+    "Primary IPZ Corollary1 gives at most2^(alpha*n) sparse fixed-width formulas with C(k,alpha)*n clauses and charged construction. With N=2^ceil(n/2), dimension<=2C*log2N. Fixed epsilon uniform in dimension c is essential.",
+    "Set alpha=epsilon/8 and checked all three displayed exponents, including construction: for epsilon<=1 their maximum<=1-3epsilon/8. This common saving bounds every s_k and conditionally contradicts SETH; c-dependent savings or N^2/logN do not. Randomized premise cannot silently replace deterministic.",
+    "Read original checker then isolated normal/-O execution:2522 formulas passed exact satisfying-assignment versus orthogonal-pair counts through seeded8 variables; optimized run refused. Finite reduction tests do not certify IPZ or unconditional hardness."
+  ],
+  "primary_sources": [
+    "Williams,A new algorithm for optimal constraint satisfaction and its implications,primary2-csp-final.pdf,Section5.1 Theorem5.1 and Boolean OV equivalence freshly read. IPZ,Which Problems Have Strongly Exponential Complexity?,JCSS63(2001),512-530,primary19-page author PDF,Section2/Corollary1,constant dependence and construction statement read. Deep sparsification imported. Retained07_details.json,07_final.json."
+  ],
+  "prior_work_distinction": "A1 has k-dependent branching and projection-CNF obstruction. Current report supplies the complete established logarithmic-dimensional OV conditional implication with all dimension, list and exponent constants, beyond those failed routes.",
+  "scope_assessment": "Full split-and-list reduction: a uniformly truly subquadratic deterministic bichromatic Boolean Orthogonal Vectors algorithm in every fixed logarithmic dimension would refute SETH. Includes the sparse-dimension conversion, list construction and quantified constant accounting. This is an established conditional fine-grained implication, not a proof of SETH or an unconditional OV lower bound.",
+  "required_corrections": [],
+  "execution": [
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "467450c94d7312669a090e64be3dd368c372645d92a3c41cffd1013dbea2355f",
+      "exit_code": 0,
+      "stdout_path": "qualified_execution/verify_normal.stdout.txt",
+      "stdout_sha256": "fe48cff1c23df58494db4197c16859a58284c9eb32616bd1ecd2eea561b89281",
+      "stderr_path": "qualified_execution/verify_normal.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_behavior": "finite verification pass"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "-O",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "467450c94d7312669a090e64be3dd368c372645d92a3c41cffd1013dbea2355f",
+      "exit_code": 1,
+      "stdout_path": "qualified_execution/verify_optimized.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_path": "qualified_execution/verify_optimized.stderr.txt",
+      "stderr_sha256": "909a460f59e62ae421588d21488bb1c6bcd9b2a93bfb36b218a5b7d1e0e55b6c",
+      "expected_behavior": "explicit optimization refusal"
+    }
+  ],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

@@ -1,0 +1,45 @@
+{
+  "handle": "TOP-30000240",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "810aeb629d41bb808366dc847049bba8affdad7f5385b42ed250eb4d7908f46f",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "1da17edf18b0146aad4d523ba79571368f0aeefabac67c2a2ece88691dda9553",
+    "contribution.json": "463be1aaf1c0d82a0198688f1f5f8998f0b9c945d51156daae503d78eee43a7c",
+    "official_metadata.json": "1ceeb0567f1f8fcca79a092aca0772328fe56d85484e8c9903ccff42bf0c846b",
+    "official_metadata_api.json": "c47f19dcb5a81f99d3ae7c163f26ebedafde9352731d409b2a878d9e02330d4b",
+    "official_problem.json": "1ceeb0567f1f8fcca79a092aca0772328fe56d85484e8c9903ccff42bf0c846b",
+    "official_problem_api.json": "c47f19dcb5a81f99d3ae7c163f26ebedafde9352731d409b2a878d9e02330d4b",
+    "official_prompt.txt": "c8010121f9d931e970a68b64ee41bcc20914de9ad900f25b2d2dca545f1e52ac",
+    "official_prompt_api.json": "a17a7e84ae73056e71492562925cb7f3ba57dd872c7737d1acaa32f7d6f717cc",
+    "prior_attempts/TOP-30000240-A1.tex": "342827302c57873e9cb5c45639a30adce920989c346d70777a65bfe6ec36b2c9",
+    "prior_attempts/TOP-30000240-A1_api.json": "1ad2505c4a84a5552203fc2db751542b43ad2384732eba623e8eb930acc1f87b",
+    "prior_attempts/TOP-30000240-A1_manuscript_api.json": "7e7343ddc9ff34f56540aa2b1f837bed902843ec5cde14086805c89d16cc6872",
+    "report.md": "810aeb629d41bb808366dc847049bba8affdad7f5385b42ed250eb4d7908f46f",
+    "source_notes.md": "3205a023ee4bb7e33939748d68e6f7c6ee4af89d75f26d711c9642cbd5f05846",
+    "verification.json": "a20d9f250815d26cc990ceea919ea32afb250096d96548730061715bd439f565"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:20:36.384551+00:00",
+  "actual_checks": [
+    "Read exact damaged source fragment and complete A1 abelian obstruction. Verified the three distinct transposition quotient sets in S3: parity excludes odd products and two distinct transpositions cannot multiply to identity, establishing TPP. Coordinatewise products preserve it for every k.",
+    "Checked S3 irreducibles1,1,2 and squared-dimension exhaustion, direct-product degree multiplicities binomial(k,j)2^(k-j), volume8^k and character-power sum(2+2^tau)^k.",
+    "Applied the Cohn-Umans inequality to this specified triple, obtaining2^(k omega)<=(2+2^omega)^k, identically valid for every positive candidate. Largest block has the original matrix dimension; the result does not constrain other triples/pseudo-exponents or assert a repaired numerical target. Source/proof-only, zero group runs."
+  ],
+  "primary_sources": [
+    "Cohn-Umans, A Group-theoretic Approach to Fast Matrix Multiplication,math/0307321v2,31Oct2003, primary PDF https://arxiv.org/pdf/math/0307321, header verifies v2. Read Definition2.1, Section1.3 decomposition, Theorem4.1 and Section4 necessity discussion. Official source mistakenly links0307210 (a different paper); the new report correctly cites0307321. Retained coordination/qualified_algorithms_primary_retrieval_03_followup.json."
+  ],
+  "prior_work_distinction": "Substantively moves beyond A1 abelian volume obstruction to a nonabelian excess-volume family, exact representation counts and a family-level failure explanation; no unrestricted group-method obstruction or exponent improvement is claimed.",
+  "scope_assessment": "An explicit triple in S3, and its coordinatewise powers in S3^k, has the triple-product property and volume8^k>|S3^k|=6^k, yet its exact character-degree inequality is vacuous for every positive candidate exponent. This proves that nonabelian excess volume alone does not suffice; no new matrix exponent is claimed.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

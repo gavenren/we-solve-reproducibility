@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2819",
+  "canonical_problem_id": "prb_7ed177fddf4540ca86e13b541f485ecf",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:18:12.827338+00:00",
+  "checked_report_sha256": "fbde10b9ee1454645a6f185579628dfcf55cf757995300f3535fd159113ddb6b",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "421f0509b0e9a54ed435edbf0c042966f885c23b384de35660cb172825e52d60",
+    "contribution.json": "d04a3c1fac652a322329d4dc05f90ab3f3dcf683dc9b913a48ddfbd7de38e061",
+    "official_metadata.json": "8f3e333cf189aa1e726e24f292701861741e325d2f72f773a962763b00aacff8",
+    "official_metadata_api.json": "ebc4adfb627ae4485ccf479db5f3a0d3c76977285db5ff0b2f6bc88b973a7f76",
+    "official_prompt.txt": "860857bf7e8a386be69bd712d93662d80938e650d11322ec4f47c18adc18bbe4",
+    "official_prompt_api.json": "0353b34340e742642d83dc4cbb5e6a69ad00cd05917c2ac7a38efc5801770185",
+    "report.md": "fbde10b9ee1454645a6f185579628dfcf55cf757995300f3535fd159113ddb6b",
+    "source_notes.md": "b360a59c4aa692ee426c29fd3b1762a1612333dc4552064bca58c954ea3600f9"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Read complete five-clause official prompt, report and source records, no priors. Checked finite isotopy classes imply the weaker orbit/combinatorial finiteness; restriction to transitive flows is harmless.",
+    "Checked fixed link and strict positivity remain in Theorem 5.1, and common filling slopes are justified by the finite slope/intersection contradiction plus repeated infinite subsequences. The no-perfect-fits conclusion uses finite singular-link data, atoroidality and separate suspension treatment as in source, not deletion of intermediate hypotheses. Other three clauses remain unclaimed."
+  ],
+  "primary_source_checks": [
+    "Barthelmé–Tsang–Zung arXiv:2607.10398v2 (12 August 2026), Theorems 5.1, 5.4, 5.9 and Lemma 5.3. Primary HTML exact statements at lines 632–634, 712–716 and 747–749 read; turn1651view5, turn1684view0–1 and turn1664view8, evidence _07/_10/_12. Deep contact/flow classification imports and preprint status retained."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Reports Barthelmé–Tsang–Zung arXiv:2607.10398v2: finiteness of veering triangulations on compact orientable torus-boundary3-manifolds up to isotopy and finiteness of pseudo-Anosov flows without perfect fits up to isotopy, addressing parts(e) and(d). Other transitive-flow finiteness clauses are not asserted.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

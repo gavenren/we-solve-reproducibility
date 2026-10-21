@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-3101",
+  "canonical_problem_id": "prb_60a3d14e169d45c78c72873525b057c8",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "356ff9bb74a220aa4cd840095e03440113b27a7523502e38fe10f3169f9bad39",
+  "report_sha256": "356ff9bb74a220aa4cd840095e03440113b27a7523502e38fe10f3169f9bad39",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "369a1215c9bad6cb66c9e78b899cb86a9c834acfff3948a64964c72f5b7c7057",
+    "contribution.json": "a19ac2fe68d8ba8fc829c312f290d5f8c6e36f632f066125ac34347f7e8b757e",
+    "official_metadata.json": "f0cd6acc47cc3595a9e8ba71e7c631e801b61cce8e33c340be8d60985e809536",
+    "official_metadata_api.json": "54660707519d24be1bd05aef58faae90413566b8853e13fcaa6656db019eb17f",
+    "official_prompt.txt": "a0c5ae72d8da4c1e3432519d930d7d1ba05fc81febb1c67fb1c03d1fbfd01444",
+    "official_prompt_api.json": "13fa953f6ffc494658ab621a4a609040396aa41b7e7d4cab62d114ac9397bc99",
+    "report.md": "356ff9bb74a220aa4cd840095e03440113b27a7523502e38fe10f3169f9bad39",
+    "source_notes.md": "0f261a3d675df27a0f9272d7545cf3d06cdf0ec22769f1ee863aed9df0d0351d"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:04:03.136518+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "No earlier contributions listed. Checked triangular-side restriction against the original-edge-only convention and positive base-turn parameter.",
+    "Checked exact theorem threshold and both simultaneous height requirements in the source; independently minimized max(a/l,b/(1-l)) at l=a/(a+b), obtaining a+b and the corrected denominator3*pi*P_A+4d.",
+    "Read source proof estimates and confirmed its printed min and4*pi denominator slips. Checked affine stretching theorem and why it changes intrinsic geometry and cannot settle the original-metric prompt."
+  ],
+  "sources": [
+    "Opened Bian\u2013Demaine\u2013Madhukara, arXiv2106.14262v1,27Jun2021, Theorem1.2 and full Section4 proof pp4\u20135: https://arxiv.org/pdf/2106.14262 (turn1523view3,turn1526view3\u20134).",
+    "Opened Ghomi author PDF dated21Apr2014, Theorem1.1/Corollary1.2 and stretch definition p2: https://ghomi.math.gatech.edu/Papers/durer.pdf (turn1523view4)."
+  ],
+  "limitations": [
+    "Petal-sector geometry and Ghomi\u2019s topological unfolding theorem are imported primary results; no independent full proof of every geometric/topological lemma was carried out. The scalar repair is checked directly."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

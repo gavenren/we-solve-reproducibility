@@ -1,0 +1,49 @@
+{
+  "handle": "TOP-30006815",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "c467bbab99a28db8a3228b53d1a1c1f1d1579602ab0e10eab64d11b31a4151ee",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "4f2fb42a1cccf4378dc20c8bdcfb241e84897941d11feb89125dfd889eed3350",
+    "contribution.json": "4ffb231eca262ef62817db4fac2dbc084645a5f7da7b78124460b0423a7b162f",
+    "official_metadata.json": "4439ea652b63a1c5a58fdf66e81ccfdb4bd7d715a257c2c7ae89341938204039",
+    "official_metadata_api.json": "9cba176c66c48a8a340598a5577feaf34dd32cb41c3874a0c01d0c7e050bfdf2",
+    "official_problem.json": "4439ea652b63a1c5a58fdf66e81ccfdb4bd7d715a257c2c7ae89341938204039",
+    "official_problem_api.json": "9cba176c66c48a8a340598a5577feaf34dd32cb41c3874a0c01d0c7e050bfdf2",
+    "official_prompt.txt": "dcecdd29861ac65a6924836129228783ed9cc073a17a284cf32231433439cc37",
+    "official_prompt_api.json": "5b96c6ed1c01776e32281ba6b004da0d131d0199834e8409378cf7d6a9f0e5ee",
+    "prior_attempts/TOP-30006815-A1.tex": "5315d6f529fa77378ccfe456761901e71584488d3add0df7cf70ff190ce9b882",
+    "prior_attempts/TOP-30006815-A1_api.json": "297744c3be8c530c5f8c072b04d7d7573169d37003a9ec1f60549e1762fa9ca5",
+    "prior_attempts/TOP-30006815-A1_manuscript_api.json": "81ebdda07738efebdaf88adc9d2df3a48b274ad470baafb046398607134b0e4d",
+    "prior_attempts/TOP-30006815-A2.tex": "d1e9a548a6cb17243fd7e022101298b0d69f68330287eb18dcbd624b2222449e",
+    "prior_attempts/TOP-30006815-A2_api.json": "6ad40ba3dd561d4797cab0e8fee4ce1bbf356e07bc0721b51c04b6d299505a9b",
+    "prior_attempts/TOP-30006815-A2_manuscript_api.json": "3e44cebc72b7501876498c4f1f0ab7decfb20f2e2e8af0dcce9706a7475f919c",
+    "report.md": "c467bbab99a28db8a3228b53d1a1c1f1d1579602ab0e10eab64d11b31a4151ee",
+    "source_notes.md": "8fd76b405ec142525eed56e4c4b15030808981b65051ef95b05eeb2832eccefc",
+    "verification.json": "1e142d62a0912a01f07f1690f480e2617a0175ac783deff39da580373e05ae4e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:30:13.972223+00:00",
+  "actual_checks": [
+    "Read exact all-random-tapes-halting read-once RL prompt, both complete priors and current proof. Reachable configuration cycle would give an infinite tape; omitting the absolute fresh-tape position is valid. Thus polynomial clock and width/length polynomial unrolling preserve exact acceptance probability.",
+    "Primary Hoza always-halting footnote matches prompt. Width/length padding and logspace on-demand edge access use counted memory. Constant-threshold promise distinguisher at0 versus>=2/3 suffices; optional error1/6 estimate separates at1/3.",
+    "Substitution w=polyN gives log^(3/2)N/sqrt(loglogN), with input access absorbed. Weighted pseudodistributions need not be positive samplers. Configuration clock yields conservative quasipolynomial time, not polynomial-time/logspace equality.",
+    "Prior stronger unverified equality is explicitly excluded as hypothesis. Imported deep derandomization not rerun/reproved; source-only zero executions."
+  ],
+  "primary_sources": [
+    "Hoza,Better Pseudodistributions and Derandomization for Space-Bounded Computation,ECCC TR21-048 revision1,16July2021,primary23-page PDF,Theorem1.6/footnote3,Section1.6.2,Corollary5.5 and proof printed18-19 freshly read. Exact constant-threshold ROBP statement checked. Saks-Zhou,JCSS58(1999),376-403 primary scan abstract/model accessed for credited baseline. Retained09_details.json,09_final.json."
+  ],
+  "prior_work_distinction": "A1 provides polynomial clock and Savitch log^2 simulation but not unconditional Hoza refinement. Current precise theorem/model/resource translation adds substantial stronger established scope; A2 is not silently endorsed.",
+  "scope_assessment": "For the prompt’s unbiased read-once, all-random-tapes-halting RL model, the credited Hoza 2021 theorem yields deterministic work space O((log(N+2))^{3/2}/√loglog(N+4)). A configuration-to-branching-program translation and exact one-sided acceptance threshold are supplied; L = RL is not concluded.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

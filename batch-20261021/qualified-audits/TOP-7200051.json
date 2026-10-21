@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-7200051",
+  "canonical_problem_id": "prb_4d2fe5dba9914882a3ff6e708e0be82e",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "2c6cc67da1224b5c43b9863e124d1306ed12127f8572c86d5d83f0a4cbcd9312",
+  "report_sha256": "2c6cc67da1224b5c43b9863e124d1306ed12127f8572c86d5d83f0a4cbcd9312",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "a7f740562cef1fab44b04c7bff9fdd7d5f263dba8d1a3272bf22744fe32e40d8",
+    "contribution.json": "6fd350147e17a890163cdd854b45a171973c46adb3c1bc0ffd202902c22a1b48",
+    "official_metadata.json": "2aa0d647a07c29be98451dfc630da905f61b5730eab1dc6e9ea312256c656c87",
+    "official_metadata_api.json": "ac5f756505dfb6fa0497ad29fc2619b8618b8909082f1cf1d2e5548cd8d8e840",
+    "official_prompt.txt": "6ff9bc88983c7485c9126620a7eb1cf3ffd0ae4cec5631776a6015c729aa36c3",
+    "official_prompt_api.json": "7f2a5079cc20c834c6af9f3e4e6a7a2e00f4497f22608352febe4056772a93d0",
+    "report.md": "2c6cc67da1224b5c43b9863e124d1306ed12127f8572c86d5d83f0a4cbcd9312",
+    "source_notes.md": "3cf5179c6696c1e86b5b90638f8fefde4c8aec81d272be2b536c454f463fae39"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:05:09.220461+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "No earlier contributions. Independently checked arbitrary-gap three-level squared-distance embedding, two/one-level cases, injectivity and D<=2d.",
+    "Verified affine Gram identity, m<=D+1, reduction of m>2d to full-dimensional regular simplex, centered covariance scale a0/(2m), and negative mixed covariance for each feature pair, giving contradiction.",
+    "Checked d=1, constant coordinates, stronger two-level m<=d+1 and sharp cross-polytope subclass. Scope is substantial infinite-dimensional special case, not a finite search."
+  ],
+  "sources": [
+    "Opened Swanepoel primary author expositionmath/0406264v1,14Jun2004, Section1.2 for exact conjecture and cross-polytope configuration. https://arxiv.org/pdf/math/0406264 (turn1536view3)."
+  ],
+  "limitations": [
+    "The three-level theorem is checked directly and is not attributed as a theorem located in the source. No unrestricted Kusner bound or current-frontier claim is certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

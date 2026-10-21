@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30007197",
+  "canonical_problem_id": "prb_a3baf7d876684dfda15bc0a0a6e085b2",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "b4f0782caf0bc789fd102bec1bfa823dac8eb7fd606f85a2704069cc81b8e551",
+  "report_sha256": "b4f0782caf0bc789fd102bec1bfa823dac8eb7fd606f85a2704069cc81b8e551",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "8b75355dd183038a2635a06b9b64b51ddac505e558aee750fc335971621f8cc2",
+    "contribution.json": "3acbda65f3e2f86f66a943fb4e0b5a04855ef1bbe9c5e844ec14ccb744541c4a",
+    "official_metadata.json": "1862472f558ea4cfc89e5c8bcb33c0a6747e03a45dcc631333baef165ce0dbc8",
+    "official_metadata_api.json": "174404cee1eac77bb3c73ef66438b0db049c044bbc6315ec727fbc8f34e74391",
+    "official_prompt.txt": "a8b52e4d66bc03cd4999be0ccb53c0812e6903aaa25fba0096737aa8d2680e1c",
+    "official_prompt_api.json": "1b5f6932d940f345f87e6083a2be4266da09ee850373fcc063472ef5ebc37a0b",
+    "prior_attempts/TOP-30007197-A1.html": "86867a12a08bab00e19642090262aa692f19323560d371da088714b7b958b5c9",
+    "prior_attempts/TOP-30007197-A1.json": "9f5f0311f995043f614dd8b277d97f564cff54db9cb1c8b2bb68bf9fd02d2f6b",
+    "prior_attempts/TOP-30007197-A1.txt": "8403867a7508f20721a8021748cf97bb3a344fa5c6b039ac5ab3d3f10f26f393",
+    "report.md": "b4f0782caf0bc789fd102bec1bfa823dac8eb7fd606f85a2704069cc81b8e551",
+    "source_notes.md": "8b1ac6097fea900421a498da52da43508a3bcfa4cf9f7cc45d8fb0b52423b06b"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:26:22.626500+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked exponent0 and |e|>=2 cyclic quotients for every A, and exponent+-1 finite-quotient reduction preserving exponent and embedded nontrivial coefficient image.",
+    "Checked Gerstenhaber\u2013Rothaus finite overgroup existence rather than solution inside B; normal-closure factorization proves nontriviality without falsely inferring injectivity of original A.",
+    "Checked U(|B|) faithful permutation embedding and degree e^|B| alternative, one finite quotient sufficient, no finite-generation/residual-finiteness assumptions, and necessary no-finite-quotient restriction on any uncovered counterexample.",
+    "Read full priorA1 including claimed coefficient-injectivity comparator; neither prior general theorem nor Lean files are verified or used."
+  ],
+  "sources": [
+    "Gerstenhaber\u2013Rothaus, original PNAS48(1962),1531\u20131533 author-uploaded full article text actually accessed at https://www.researchgate.net/publication/7189139_THE_SOLUTION_OF_SETS_OF_EQUATIONS_IN_GROUPS : Theorem1 compact connected Lie degree and Theorem2 finite extension with nonzero determinant; PMC endpoint encountered bot gate."
+  ],
+  "limitations": [
+    "Source/proof-only, no checker program and zero executions. No formal verification.",
+    "Deep source theorems are credited imports with hypotheses checked; their full proofs are not independently reconstructed."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

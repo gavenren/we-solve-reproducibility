@@ -1,0 +1,66 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-1165",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "6cf087fd40ad42b601b8fbd15a7acab22d924c1b1a33d47063127efe235a6b73",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "6cf087fd40ad42b601b8fbd15a7acab22d924c1b1a33d47063127efe235a6b73",
+    "source_notes.md": "ca790678d95ef29c5e1e18ecc6bcbf629ac07179838e95e8cb423c29b8745fcf",
+    "author_record.json": "c68d7d1567348eb250c6f20070862896f606eb7f602a8eec491704e3cf2b1f98",
+    "contribution.json": "0a2616bf9a53554f0a68d78e4e72533ba6225b59f2379b266e1dba664981d2af",
+    "official_prompt.txt": "39f009913a65572586011d7e986116e87a7f8e33d9ceec2ab80201aa3aff1b63",
+    "official_prompt_api.json": "8cf8f2bc6c10fca45d6c8ecff42e241feb8b3ffaa46f4e6f0d6b114e9c79ba36",
+    "official_metadata.json": "781525360258f64a26a01e70e16dc82418db5d4d042367a41fb75d118dceb9eb",
+    "official_metadata_api.json": "5db1e75e8ed77b21e8c2df2281c2d29cfcac59ade732b5a49a3334645725b7f6",
+    "prior_attempts/attempt-1.txt": "54b3bfae24389a24dcf6460f5a1455b3c8c44cc6301cd367ae0591a210236632",
+    "prior_attempts/attempt-1_api.json": "4a93ed36b8b1596221b9e0f76bff2b58ac219e48697c09bca3e7dc6324460471",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "54d0515802be832143a879bd970c94af89482b75d2333e48590cc088d586c675"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked Hilton–Hind hypothesis is maximum degree >=3|V|/4, no minimum-degree, parity or regularity replacement.",
+    "Checked bipartite regular multigraph completion, equal total deficiencies, Hall decomposition into Delta matchings, and two separate vertex colors. Edgeless case is harmless.",
+    "Checked K_n,n palette exhaustion: color incidence counts force a_c=b_c while proper vertex coloring forces a_c*b_c=0, contradiction for all n>=1. Prior trees/complete graphs do not supply this class or dense theorem."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/0012365X9390329R",
+      "version": "Discrete Math117(1993),127–140",
+      "locators": "Hilton–Hind published result",
+      "retrieval_refs": [
+        "turn1778view0"
+      ],
+      "access": "Direct original full text returned403; no full-proof reading claimed."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0166218X25004688",
+      "version": "primary2025 research introduction",
+      "locators": "Introduction, exact Hilton–Hind Delta>=3|V|/4 statement",
+      "retrieval_refs": [
+        "turn1781search0"
+      ],
+      "access": "Primary indexed introduction positively supplies the exact imported threshold."
+    }
+  ],
+  "distinct_significant_scope": "Known dense maximum-degree theorem and complete all-bipartite proof with sharp K_n,n obstruction, beyond prior tree/complete cases.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:26:21.274107+00:00"
+}

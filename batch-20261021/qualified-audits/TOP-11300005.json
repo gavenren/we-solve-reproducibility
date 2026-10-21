@@ -1,0 +1,58 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-11300005",
+  "canonical_problem_id": "prb_a7de21a4219947feb1ef4d1b80a08658",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:23:15.245220+00:00",
+  "checked_report_sha256": "73506ca82cffbdbf75f2ddad8f56f6e392fc43ede652f9260721a7b7744389c3",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "53d87b01f206dadc884385e5f528b18faf3c8ca8c594f481dd2910516aa1ab22",
+    "contribution.json": "3af913c24fdcab7e73e5a9872606423badde6006f4b11246676eebb84f6a6f22",
+    "official_metadata.json": "bdadaba8973e0fc0923d1bb0121a44dbe1787604c4c26f1be832f7d12c280c9e",
+    "official_metadata_api.json": "6d8165b6b535a9507b507c6e1d793b3863094c77efa68d74111a7e0b1a105716",
+    "official_prompt.txt": "153a5db3c760db0de9448de109647474352e22c739f5712788a1b73ae4259710",
+    "official_prompt_api.json": "76f2fbc101972d41ecf16a618eed124447d1497c93ba0e4946c604934cdf5164",
+    "prior_1_api.json": "9a65197166782091f23268c9b73ca8561b2933a51ce04f0871926ab72a28bf05",
+    "prior_2_api.json": "67c85b90b7767250c15d4e3fd666a5c3517f3d65592fef4f578d5672147d999c",
+    "report.md": "73506ca82cffbdbf75f2ddad8f56f6e392fc43ede652f9260721a7b7744389c3",
+    "source_notes.md": "f73c79d601b37664affaa8f3b393ee9de29c07ac997188c09887cf311295fab8"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Complete prompt, API/meta, author/source records, report and both full prior bodies read. Earlier graph/multisection and path arguments do not cover the imported global theorem for every closed embedded exact Lagrangian. The other prior announcement is treated as unverified data; no Hamiltonian-isotopy solution is asserted.",
+    "Checked connected closed smooth base and closed connected embedded exact Lagrangian. The conclusion concerns the canonical projection as a simple homotopy equivalence, without graph, immersion, covering, Maslov or spin hypotheses added. It does not make the projection a diffeomorphism or supply ambient Hamiltonian isotopy.",
+    "For an arbitrary cotangent symplectomorphism, image of a lens-space zero section is closed embedded Lagrangian; the restricted Liouville form is closed. Finite first homology gives H1(L;R)=0, hence exactness by de Rham. The simple-homotopy theorem and the explicitly cited standard lens-space classification corollary then imply diffeomorphism.",
+    "The converse cotangent lift has the displayed inverse-transpose covector formula and preserves the Liouville form by evaluation. The argument applies to standard smooth lens spaces of dimension >=3 as in the source; it does not identify simple homotopy with diffeomorphism for arbitrary manifolds."
+  ],
+  "primary_source_checks": [
+    "Abouzaid–Kragh, arXiv:1603.05431v1, 17 March 2016, actual primary https://arxiv.org/pdf/1603.05431, Theorem 1 and Corollary 1.1 with their lens-space classification explanation read (qualified_topology_primary_retrieval_22.json, turn1727view1). Acta Math. 220 (2018), 207–237 is credited publication; the verified theorem text is the specified v1. Floer torsion and classical lens classification are imported rather than independently reproved."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Reports Abouzaid–Kragh’s simple-homotopy-equivalence theorem for the projection of every closed connected embedded exact Lagrangian in a connected closed-base cotangent bundle, and derives their lens-space cotangent rigidity corollary, including exactness under an arbitrary symplectomorphism.",
+    "official_prior_count": 2,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

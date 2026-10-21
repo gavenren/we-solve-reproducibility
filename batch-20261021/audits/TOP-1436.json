@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-1436",
+  "canonical_problem_id": "prb_4df08164f2284a4c983b8b1edddc41f3",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_graphs",
+  "verdict": "PASS",
+  "checked_report_sha256": "307260c5b1f18a10b6602657af83ddbe428c234f4fad834186bbc52d685c0441",
+  "report_sha256": "307260c5b1f18a10b6602657af83ddbe428c234f4fad834186bbc52d685c0441",
+  "program_sha256": {
+    "verify.py": "fc46ee9d062de3dfc613e87932f5109825f52c7c4f3911bc4b0a4d1555cdcc83"
+  },
+  "checked_files_sha256": {
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "author_record.json": "e7628cee38fb43b07036f98cd323e6a3829db380ef29f43b12c10cdc090c8d56",
+    "contribution.json": "17618ceb961319b1dfd6529276e33937ec1662f9b4f67e40c407009868972c5d",
+    "official_metadata.json": "167a4b87773b2987b77a87c4d402fb1070d4686b4fd3abe90b84b621bc77c68d",
+    "official_metadata_api.json": "2b953f319a5232dbc60a364a66accc880a70fab1e6f5696857087fc14826a89e",
+    "official_prompt.txt": "9c8e4ad1ef0e30e8d08c92beab2aaf497491b88feb12b5b88aec3efe38acdf20",
+    "official_prompt_api.json": "d8b9deb89c84256ded06fbe2854db099898234fe51a646ecd2c2eacb4314a315",
+    "report.md": "307260c5b1f18a10b6602657af83ddbe428c234f4fad834186bbc52d685c0441",
+    "retrieval_record.json": "f82df4168532c310ab37032e499ce3fdddd4e55bf143f719711604bfffd35f88",
+    "source_notes.md": "b8ef47ba8807d3ba7477634e41d37f606ab71ed8a98960acfa7def263d4e8327",
+    "verification.json": "634ee45c5ca00920632bc04cdb1638f77a077787148464c356240437e4714e83",
+    "verification_optimized.txt": "6a3a8dd2b43c8274f0ca96a0ebf916134e18d5e3f219042b678d370b71bcb07c",
+    "verification_stdout.txt": "03a49f294c043a31c4f11f7d76c2d43b4cad6deae2fd5b3b3716c2a81ad19e75",
+    "verify.py": "fc46ee9d062de3dfc613e87932f5109825f52c7c4f3911bc4b0a4d1555cdcc83"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:35:21.960489+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked the literal universal implication, the exact Mycielski construction, root/line orders and edge counts. No earlier official attempt is retained. The credited infinite counterexample family plus exact finite diagnostic is significant and accurately labelled as a literature report.",
+    "Compared every labelled orientation rule to the primary paper. Independently proved the DAG reachability-interval criterion detects precisely shortcuts: comparable missing forward pairs lie on an endpoint-shortcut path; incomparable interval pairs impose no requirement.",
+    "Fully read the original verify.py before execution, including endpoint-set reconstruction, coverage, topological sorting and bitset closure. Actually ran byte-identical isolated normal and -O copies. Normal exit 0 matches every author JSON case: 49 odd orders 5..101, 2,401,049 checks; m=3 rejects by the stated shortcut. -O exit 1 refuses before verification. Logs and source/output hashes retained."
+  ],
+  "sources": [
+    "Versioned 2509.03339v1 PDF fetch was disabled; unversioned PDF identifies v1, 3 September 2025, 15 pages. Checked Section 3 construction, three orientation steps, Lemmas 3-4 and exact Theorem 3 (n>=2): https://arxiv.org/pdf/2509.03339.",
+    "Opened the Kitaev-Pyatkin author-institution abstract confirming the Mycielski iff bipartite theorem, DOI 10.7151/dmgt.2575: https://pureportal.strath.ac.uk/en/publications/a-note-on-hameeds-conjecture-on-the-semi-transitivity-of-mycielsk/. Full primary proof not read.",
+    "Opened arXiv:1501.07108v1 (28 January 2015), Theorem 3, page 9, word representation iff semi-transitive orientation: https://arxiv.org/pdf/1501.07108."
+  ],
+  "limitations": [
+    "Independent mathematical/source review by an LLM; no formal proof certification, novelty-priority decision, or editorial acceptance.",
+    "Infinite nonrepresentability and positive orientation theorem are credited imports, not inferred from the finite run. No exhaustive root-orientation search, shortest-word construction or proof-assistant execution was performed. The Kitaev-Pyatkin input was checked through its primary abstract and the line-graph paper citation, not its full proof."
+  ],
+  "actual_program_executions": [
+    {
+      "label": "normal",
+      "command": [
+        "/opt/miniconda3/bin/python",
+        "verify.py"
+      ],
+      "cwd": "/var/folders/l4/jk3067hj4fv99h55rd1j9jnw0000gn/T/qualified_graph1436_iv2l5rkv",
+      "isolated_temporary_copy": true,
+      "source_path": "verify.py",
+      "source_sha256": "fc46ee9d062de3dfc613e87932f5109825f52c7c4f3911bc4b0a4d1555cdcc83",
+      "exit_code": 0,
+      "stdout_path": "qualified_execution/normal.stdout.txt",
+      "stdout_sha256": "03a49f294c043a31c4f11f7d76c2d43b4cad6deae2fd5b3b3716c2a81ad19e75",
+      "stderr_path": "qualified_execution/normal.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_files_sha256": {
+        "qualified_execution/normal.verification.json": "634ee45c5ca00920632bc04cdb1638f77a077787148464c356240437e4714e83"
+      },
+      "checked_at_utc": "2026-10-21T19:33:53.914175+00:00"
+    },
+    {
+      "label": "optimized_refusal",
+      "command": [
+        "/opt/miniconda3/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "cwd": "/var/folders/l4/jk3067hj4fv99h55rd1j9jnw0000gn/T/qualified_graph1436_u8d3qmh9",
+      "isolated_temporary_copy": true,
+      "source_path": "verify.py",
+      "source_sha256": "fc46ee9d062de3dfc613e87932f5109825f52c7c4f3911bc4b0a4d1555cdcc83",
+      "exit_code": 1,
+      "stdout_path": "qualified_execution/optimized_refusal.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_path": "qualified_execution/optimized_refusal.stderr.txt",
+      "stderr_sha256": "30fbc9f5ae71d12afadca21335d53398df90f4150178da5a618b526c643cc0de",
+      "output_files_sha256": {},
+      "checked_at_utc": "2026-10-21T19:33:54.166504+00:00"
+    }
+  ],
+  "execution_count": 2,
+  "actual_program_run_count": 2,
+  "formal_verification": false
+}

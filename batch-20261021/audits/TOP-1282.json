@@ -1,0 +1,71 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Substantive literature report with fully justified one-coordinate conditional irrationality-measure and algebraic-independence consequences of a published joint theorem; this gives a distinct exact route beyond the earlier finite denominator certificates without claiming individual irrationality.",
+  "actual_checks": [
+    "Independently opened the original16-page published Rivoal paper via a mirror after author-site timeouts and publisher empty response. Theorem1(ii) has positive rational z, epsilon>0, arbitrary integers p,q,r with q!=0 and H=max absolute entries. Theorem2(ii) allows algebraic z outside(-infinity,0]. At z=1, G0(1) is precisely the displayed Euler–Gompertz integral.",
+    "If gamma=a/b, substituting(aq,bq,br) annihilates its error and gives delta-r/q exactly. For approximants within1 of delta, |r|<= (|delta|+1)q gives H'<=Cq; more distant approximants are covered by reducing the positive constant. Thus all denominators, including those not divisible by b before substitution, satisfy the q^(-3-epsilon) lower bound and mu(delta)<=3.",
+    "If gamma is algebraic, adjoining it does not change transcendence degree, so trdeg Q(e,delta)>=2 and the two generators are algebraically independent. Symmetry swaps gamma/delta for the converse rationality implication. No conclusion selects which constant is irrational unconditionally.",
+    "For E(-1), integrated absolute series sum1/(n!(n+1)^2)<infinity justifies expansion under logarithmic integral. Reindexing gives sum_n>=1(-1)^n/(n*n!). Integration by parts on[1,infinity) and t->t+1 give e^-1 delta, and Gamma'(1)=-gamma yields the stated sign/normalization, agreeing with Proposition1(ii).",
+    "Sufficient premises delta rational or mu(delta)>3 are explicitly unproved. Algebraic independence of the joint field does not eliminate the auxiliary constant or imply gamma alone irrational."
+  ],
+  "prior_comparison": "Read the complete prior A1 manuscript: signed harmonic and digamma remainders, rational logarithm enclosure, finite denominator100000 exclusion, lcm-clearing failure, nonzero-integer-linear-form criterion and fast-convergence countertest. It does not supply the joint Rivoal theorem or its coordinate rescaling consequences.",
+  "primary_sources": [
+    {
+      "url": "https://rivoal.perso.math.cnrs.fr/articles/gammater.pdf",
+      "version": "Author cited manuscript5March2011",
+      "locators": "Theorems1(ii),2(ii),Proposition1(ii)",
+      "access": "Repeated independent fetches timed out; no independent author-hosted access is claimed."
+    },
+    {
+      "url": "https://scispace.com/pdf/on-the-arithmetic-nature-of-the-values-of-the-gamma-function-4v59b00j12.pdf",
+      "version": "Original published MichiganMathJ61(2012),239–254 paper, T.Rivoal; received16July2010/revised7March2011",
+      "locators": "p240 Theorems1(ii),2(ii);p242 Proposition1(ii)/equation2.2 and integral proof",
+      "access": "Independently opened/read the original primary paper hosted on a third-party mirror, not a summary. Exact relied-on statements and normalization checked; deep approximation/E-function proofs imported."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1303.1856",
+      "version": "Actual header1303.1856v6,25October2013",
+      "locators": "§3.16 Theorem3.16.2 pp75–76",
+      "access": "Independently opened corroborating context; relied-on theorem verified in original Rivoal paper via mirror."
+    }
+  ],
+  "required_corrections": [],
+  "limitations": [
+    "No individual unconditional irrationality or transcendence theorem and no independent proof of the deep published inputs is supplied.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-1282",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "219b752d89ae8c1ea0278ad5ac210b4d761ae3a68f3043f1b9021a57d25c195f",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "219b752d89ae8c1ea0278ad5ac210b4d761ae3a68f3043f1b9021a57d25c195f",
+    "source_notes.md": "c60ab73a9f2d6b6613de662156c71a84955cfccb250f77a879d6d32e06ac2464",
+    "author_record.json": "2ac468ebdc3207a69b2281b09293a04b58b9f412649d86c294c799d28940f2fc",
+    "official_prompt.txt": "406d5377ad47d2d6b76f670f90f349a85d415b557d07109d02801e0bfed953c5",
+    "official_prompt_api.json": "bf4c7144d9f480b8bab64e16c18f099d94ec69202652831e71c64ac513670131",
+    "official_metadata.json": "3ba22c2306d4f9b576c3de30878689f743a7f2ac097b6f816ecbe4775e408df6",
+    "official_metadata_api.json": "f7bee32848273c6c6a7c169f6dc6af2253b10474a851fac44351c4e50c35aa04",
+    "contribution.json": "ee820e62bec8991cdf4e87d68d482ac424216b4306b34aecb6e633790f1b3295",
+    "retrieval.json": "b48a5293b78f8b323bd64e4d524d97407259368f829f8d33ecc509aa0eca74cf",
+    "prior_attempts.json": "f7650eec04e1a2864b7ce1cc95e69f77b180fdbd4abdf06ff5b13d9a9a7c2423",
+    "prior_attempt_01_api.json": "9cde8457e1169f0e0ea01506f7a94340e15c1d637553c01de540254453106ba8",
+    "prior_attempt_01_text.txt": "86a225d5d87834407ab45a75aed3a8c3106a6fdc4e2e24135a1a435ec5644fdc"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_algorithms_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:38:04.636119+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

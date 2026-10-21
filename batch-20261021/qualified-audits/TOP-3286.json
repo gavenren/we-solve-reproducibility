@@ -1,0 +1,60 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3286",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "631adb40c9b1fc8d7f71731051b1022da04b585e00ed59ac561c13bcd5d2f9ac",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "631adb40c9b1fc8d7f71731051b1022da04b585e00ed59ac561c13bcd5d2f9ac",
+    "source_notes.md": "d775ed705f00296161a8bbfcadb250e4ff77519f2bfaca4ef85259bc28a938b0",
+    "author_record.json": "396257f7b4194e52f29e95c136ddbc53fed7fcbb6474d77f8f25806edcde3823",
+    "contribution.json": "9d4720c61885d05caf519e60a2657698c2bcd0737159ca28fadeb89ad2029406",
+    "official_prompt.txt": "ba8bb677120b935fb3a22ce3f2fed1df6790efee0cf68a8e736e4df06004ef3c",
+    "official_prompt_api.json": "67983b44695113a58a7ffdbc87f4728c632ebccdb51cd00b1807a57958b31d01",
+    "official_metadata.json": "f7058017bf486459296d747d9d1e9d4d68dc72c37e22ece88e5980da7eacb4b3",
+    "official_metadata_api.json": "ec16adb0eac601f540e687d7bde37a4310015e13cc7a00200bd630726d063393",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "f82df4168532c310ab37032e499ce3fdddd4e55bf143f719711604bfffd35f88"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked the exact v2 PDF masthead and theorem labels:3.4 is treewidth≤6 factor2,4.5 planar triangulations other than K4 factor3/2,5.1 3-trees factor9/5 plus1/5. Edge-packing/transversal definitions, tree decomposition and 3-tree construction agree with the report; no fractional or vertex-packing substitution occurs.",
+    "Checked integral floor consequences and the distinction between the deep imported structural theorems and the supplied small proof. No retained prior contribution exists for this intake.",
+    "Independently checked τ(K4)=2,ν(K4)=1 and the planar triangulation G+=K5−4x. Explicit triangles124 and13x are edge-disjoint; three disjoint triangles would exhaust all nine edges and force even vertex degrees, contradicted at4,x. The core triangle edges give a cover of size3. A hypothetical cover2 must be an opposite-edge pair of K4, and each such pair misses a stated x-triangle, proving τ=3,ν=2.",
+    "This supplies an exact counterexample to transferring the sharper3/2 ratio to arbitrary planar subgraphs; it does not dispute either source theorem or Tuza factor2. Treewidth monotonicity under subgraphs correctly supplies a separate direct factor2 application."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/2002.07925",
+      "version": "arXiv:2002.07925v2,16 July2020 masthead,17 July internal date",
+      "locators": "Theorems3.4,4.5,5.1 and definitions on pages1–3; exact labels verified rather than another version.",
+      "retrieval_refs": [
+        "turn1855view3",
+        "turn1859view2",
+        "turn1859view3",
+        "turn1859view4",
+        "turn1863view2"
+      ],
+      "access": "Primary PDF statements, definitions and structural framework read; long external proofs not independently certified."
+    }
+  ],
+  "distinct_significant_scope": "Three substantial credited integral packing/transversal class theorems with precise restrictions, plus a complete boundary certificate explaining nonmonotonicity of the stronger ratio. No earlier intake attempt; no unrestricted Tuza solution claimed.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:32:53.334492+00:00"
+}

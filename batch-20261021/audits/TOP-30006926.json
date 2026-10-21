@@ -1,0 +1,65 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-30006926",
+  "canonical_problem_id": "prb_51773bfd9711408a8b74dbb1a219ff54",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:37:14.513513+00:00",
+  "checked_report_sha256": "b24da279f88a307a820278d9808900f1f7c25492dc21235f1c4a2cb300943ebd",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "1bd235e086ad4b00df4e8c909b1b77424da822a3d2bcd3d662df066a8fec2ccb",
+    "contribution.json": "191e68ca4255cb3d56e389b6028f45025ef5dabb2beb9e57947297766af4b8ac",
+    "official_metadata.json": "408e45085e4999321586440be4b85338b06a24d250ffea514879cc3ab152d2a5",
+    "official_metadata_api.json": "af5f994d8ea53b53bf68d48248e13d50bfa77ee3567c8aa17940827b5aa290f3",
+    "official_prompt.txt": "439ec12a81c56f7dcc0c1797b046aa00193ad3faf3ce4372e8fa3731df3ac545",
+    "official_prompt_api.json": "bd98679dfcb34668047a758649f7f2b30efe9347d5ae76ee6b0c577d2d159473",
+    "prior_attempt_01_api.json": "ea3690ab6556531e5ac933cbad570933f1dfb72f6c2ad38619df72973c5738f6",
+    "prior_attempt_01_text.txt": "60db02bd03a5fd742689ea03645fea671d9871145581e30f6db57651989d9505",
+    "prior_attempts.json": "e7744b8d0ce2d6f75adf1ee3efd10e7c76d47cf9f50066858909bae48eb11a0f",
+    "report.md": "b24da279f88a307a820278d9808900f1f7c25492dc21235f1c4a2cb300943ebd",
+    "retrieval.json": "7406b64b59752249f93f46f4426d8d013090859773d31b122e5488d9eb2dd15c",
+    "source_notes.md": "7852b093bd6cc9cafbb786f167038ec2274ad42bd145d910890a747bf362adb0"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8abd348b18f67b61cb97e7fa72eeb990a89587d29cbab694915ecac22cb2ece3"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact report, literal prompt, provenance/source records and entire retained orbit-residual prior read. The all-abelian, every-CM-type individual theorem plus complete finite Fourier coefficients is a distinct established infinite-family regime beyond extracting one-orbit consequences from an average.",
+    "Colmez–Obus individual theorem applies to CM E/Q Galois abelian and every type; Obus removes the previous rational log 2 error. Howard stable full-ring height, its archimedean normalization, finite Artin L-functions and conductors match the literal prompt. Nonmaximal orders are explicitly excluded.",
+    "Type translation leaves overlap invariant in an abelian group, so no further class averaging changes it. Its chi-inner product equals |sum_(tau in Phi) chi(tau)|^2/(2g). The trivial coefficient is g/2 and every nontrivial even coefficient is zero because G=Phi disjoint union c Phi. This gives the formula with -g/2 log(2pi), retaining the trivial finite zeta term.",
+    "Parseval gives total coefficient mass g, odd mass g/2, all coefficients nonnegative real algebraic; no rationality is imposed in general. Conjugate characters pair to make the expression real. Exponent-two groups yield rational squared character sums and only imaginary quadratic odd characters. The induced biquadratic type has one odd coefficient one and the other zero, giving twice the CM elliptic formula with the correct individual character conductor. No general nonabelian identity is claimed."
+  ],
+  "primary_source_checks": [
+    "Howard, arXiv:1811.00428v2 (4 December 2018), actual primary exposition Sections 3.2–3.3, Theorems 3.2.2 and 3.3.2, finite L conventions and equation (1.1.1) checked. Obus, arXiv:1107.0684v2 (7 September 2012), equation (1.1), correction w_p and Theorem 3.9 checked in full primary PDF. Colmez own addendum first bullet independently confirms completed abelian case. Retrievals 23,24,26. Stable-reduction/period theorem remains credited, not independently reproved."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Credited Colmez–Obus individual theorem for all abelian CM fields and every type, with a proved explicit Fourier formula for coefficients, parity/Parseval/conductor checks and complete multiquadratic specialization. No general nonabelian or nonmaximal-order claim.",
+    "listed_prior_count": 1,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

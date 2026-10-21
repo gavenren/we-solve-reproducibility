@@ -1,0 +1,49 @@
+{
+  "handle": "TOP-30006681",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "97d5ec2adf86aa0483a665a69b71dbcc74bd941bee84d30d49d1659a5e97169b",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "45e34729b73d9a81b8ff88afd339dc1abca561dd51cb371d3bf629724b25e624",
+    "contribution.json": "84dd5f3a5e358797fd28915df323cc2c0014ba8dbe584a43d61fe6351c16e02f",
+    "official_metadata.json": "fe380053bc9b6cb395808c55dd1b1c6d3335e8ff724d1df9cc629ee98dd093c3",
+    "official_metadata_api.json": "5de2bf6f6368e081e11c1e6f793c726450892db6278a07fa16fef37cb508cae1",
+    "official_problem.json": "fe380053bc9b6cb395808c55dd1b1c6d3335e8ff724d1df9cc629ee98dd093c3",
+    "official_problem_api.json": "5de2bf6f6368e081e11c1e6f793c726450892db6278a07fa16fef37cb508cae1",
+    "official_prompt.txt": "1e90593154132bfae492628a6d66e6a5018f53f0f22851b4e965945cd6b1c103",
+    "official_prompt_api.json": "e9c5455ba4e9b4fb6081197c24afd060a5e2ff51d5d4a218b0b45efde0fd5a2e",
+    "prior_attempts/TOP-30006681-A1.tex": "dcdaac658b11c5fa395d572bcae40025df1dc53594196b6fafd2961b36ef0e1d",
+    "prior_attempts/TOP-30006681-A1_api.json": "9c7ed48f3941c7855969b9a2298ae4fad2df0ac01e551b2008828b0e90aeea24",
+    "prior_attempts/TOP-30006681-A1_manuscript_api.json": "6bb17ef4ec2cdfb65985ecf6ff975663d0e57b8aabb277c4019ea555cd1184bc",
+    "prior_attempts/TOP-30006681-A2.tex": "711a4c49ac79d148c41e5c2ae120f966d32d06dab0e8a9a6bb37ee3f79201045",
+    "prior_attempts/TOP-30006681-A2_api.json": "03844f856f554fc02dd983cbcc7e6251ad17762d0d6e361e17a491b867a8dba4",
+    "prior_attempts/TOP-30006681-A2_manuscript_api.json": "f570e0ecbe480d256fc9ae4cc8afd195cf5c7a37e62d3b82cfa33194bf6211d4",
+    "report.md": "97d5ec2adf86aa0483a665a69b71dbcc74bd941bee84d30d49d1659a5e97169b",
+    "source_notes.md": "730560b8a12becc208981e16f8113e7dce8b08ade13fe0611aec95c6b6ba56c9",
+    "verification.json": "a20d9f250815d26cc990ceea919ea32afb250096d96548730061715bd439f565"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:24:10.640727+00:00",
+  "actual_checks": [
+    "Read exact fixed-gate total-language comparison and both full prior path-sum/query reports. Squared fixed-gate paths yield Gaussian-integer numerator over2^h, with complete final/environment-string matching; numerator is GapP by explicit signed branches and polynomial-product/exponential-sum closure.",
+    "Checked uniform exponentially small error amplification for every possible polynomial-length query, common exact denominatorD=2^H and padded PP coin countT. Enumerating adaptive answer transcripts with sequential product weights gives one GapP numeratorS representing independent amplified-query simulations.",
+    "Conditional query error<=epsilon on every transcript gives sign-expectation error<=2qepsilon. Thus S/D^q approximates integer exact-oracle gap to<1/8. GapP sign2S-D^q matches2g-1, including rejected tiesg=0. All indices/counters have polynomial bit length; exponential summation is counting semantics, not deterministic enumeration.",
+    "Read primary GapP closure and exact Fortnow-Rogers Corollary3.4. This lowness simulation does not evaluate the count efficiently, imply BPP simulation or decide either NP/BQP containment. Source/proof-only zero executions."
+  ],
+  "primary_sources": [
+    "Fortnow-Rogers,Complexity Limitations on Quantum Computation,primary author13-page PDF https://lance.fortnow.com/papers/files/quantum.pdf, Theorem2.2,Theorems3.1/3.3 and Corollaries3.4/3.5; original paper uses rational-amplitude QTM convention, while the report explicitly reconstructs the prompt fixed-gate version. Retained05.json,05_followup.json,05_finalsources.json."
+  ],
+  "prior_work_distinction": "Acknowledges prior path formula and adds the substantive PP lowness theorem with complete adaptive-transcript, denominator and exponentially small gap accounting absent from both priors.",
+  "scope_assessment": "The established Fortnow–Rogers lowness theorem PP^BQP=PP, explained through exact fixed-gate path counts, common denominators, adaptive oracle transcripts and exponential error control. This is a counting-class upper bound and decides neither NP subset BQP nor BQP subset NP.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

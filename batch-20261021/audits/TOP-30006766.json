@@ -1,0 +1,65 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-30006766",
+  "canonical_problem_id": "prb_449bc17b46e449029d7c182a3251b26e",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:35:35.542340+00:00",
+  "checked_report_sha256": "f69b0c124e70a4e0765d00df6e86813e56bccff222e8c4be9e4aa9b3ce44ffb9",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "0e91a8ee517d8a3233753e4ed8868639525f1cad92b3047202a912c7d7720670",
+    "contribution.json": "7b78cae3af8854d7a2445b73fd3c2bb35156080b924c02de140b34bea82c71c6",
+    "official_metadata.json": "10a8acccb2279b4f4321f883e4bdf039b2f62c6b836fb287e6b506500bd78ee2",
+    "official_metadata_api.json": "c4ae66252e97cefd2cabb363a180cf3666d68ac97a8543efa13e58b8933d0acb",
+    "official_prompt.txt": "209428006bd4a31ad7eb8891b5fc1eda6cf52d8e3acfbec0df27d4714d246776",
+    "official_prompt_api.json": "d94edf8c3b66d97e530ebad042e2955a18a16e85052e6638111011968e4759cc",
+    "prior_attempt_01_api.json": "eb54d274b3237771df99efffd750e00b1cd65f395daffbcf25fb7375be67403f",
+    "prior_attempt_01_text.txt": "9c0638fd9429ad0cfa47a90eb233215595c4f14be7f64540613bec96f59077b3",
+    "prior_attempts.json": "1c8ac6b65a0ee5a3f705c9aa477d20cbfb051ff228646a67713fda37e0d24a53",
+    "report.md": "f69b0c124e70a4e0765d00df6e86813e56bccff222e8c4be9e4aa9b3ce44ffb9",
+    "retrieval.json": "a15701a879ca05d6801340686e4cd04268c42180b7597d5f1b3a9f90ac8ceff3",
+    "source_notes.md": "c443c09d48e6f4a118f8cad97e56c3c8b0939d983c1f9475711aae965f379e37"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8abd348b18f67b61cb97e7fa72eeb990a89587d29cbab694915ecac22cb2ece3"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact report, literal prompt, all provenance/source records and full retained prior analytic/defect manuscript read. The new result is an unconditional published baseline and every-large-scale multiplicative-window consequence, distinct from the earlier local L1/Rouche criteria and RH-conditional or unaudited claims.",
+    "Bui–Conrey–Young Theorem 1.1 has kappa*>=0.4058 for simple critical zeros; 0.4105 is the separate on-line constant. Total zeros are counted with multiplicity. The published Section 2.1 linear auxiliary Q condition for simplicity is checked and no optimization or entire moment-proof revalidation asserted.",
+    "Liminf supplies S(U)>=(c-epsilon)N(U) eventually for every U, and S(T)<=N(T). Subtraction at lambda T and Riemann–von Mangoldt give liminf window/(T log T/(2pi))>=c lambda-1. Fixed lambda>1/c gives a positive bound; lambda=3 yields 0.2174 and any strict eta below it eventually. Half-open endpoints are consistently usable and do not alter the asymptotic.",
+    "At lambda=2 the deduction gives a negative bound, so no dyadic claim is inserted. Weighted repeated-zero count M<=N-S implies limsup M/N<=0.5942; equality or actual density is not claimed, because N-S may also include simple off-line zeros. No positive-proportion result, even density one, excludes every repeated zero or proves RH."
+  ],
+  "primary_source_checks": [
+    "Bui–Conrey–Young, actual published author-hosted PDF Acta Arithmetica 150.1 (2011),35–64, DOI 10.4064/aa150-1-3, definitions, Theorem 1.1 and Section 2.1 checked directly. Retrievals 19–20. This is explicitly a published unconditional baseline, with no latest-record assertion; its deep mollified moments remain credited imports."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Checks the published unconditional Bui–Conrey–Young simple-critical-zero proportion and derives explicit lower counts in every sufficiently large multiplicative window(T,λT] for λ>1/0.4058, including λ=3. Preserves multiplicity/counting conventions and separates this theorem from RH-conditional and unaudited2026 claims.",
+    "listed_prior_count": 1,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

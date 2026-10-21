@@ -1,0 +1,67 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Literature report with substantive problem-specific reconstruction: exact minimization of one obstruction for each exponent, an infinite 2-adic fourth-power obstruction, and an unbounded multiplicative separation of the prompt's two quantifiers. Classical character is acknowledged; it is not an exact solution for every k.",
+  "actual_checks": [
+    "For q=floor((3/2)^k), N=q*2^k-1<3^k restricts each summand to 0,1,2^k. The positive term count N-r(2^k-1) decreases on 0<=r<=q-1 and has minimum 2^k+q-2. The displayed representation attains this minimum for the witness, not a universal upper bound.",
+    "For 31*16^a, padding to fifteen slots makes the odd-base count divisible by16 at each divisible-by16 step; between0 and15 it must be0, allowing a divisions. At31 the odd count is15. Every odd fourth power <=31 equals1, giving15 instead of31. This includes a=0 and proves infinitely many arbitrarily large exceptions.",
+    "Verified modern primary author-hosted statement G(k)<=ceil(k(log k+4.20032)) for every natural k. At most positive powers matches the prompt by zero padding. A positive denominator G(k) bounded above allows g/G >= elementary_lower/analytic_upper, tending to infinity.",
+    "Independently read the separate author-hosted paper's discussion immediately after Theorem1.3 explicitly crediting Davenport1939 for G(4)=16. The report does not claim to have read Davenport's proof or to establish g(4)=19 by a lower bound alone."
+  ],
+  "prior_comparison": "The complete exact official prompt and canonical metadata both list no earlier contributions; no prior body is available or invented.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/2211.10380v1",
+      "version": "18 November 2022, author cited version",
+      "locators": "Theorem1.1",
+      "access": "Exact v1 PDF/HTML/abstract fetches were disabled in this independent session. Independently verified the precise theorem and definition in the same authors' accessible 20230915wpk.pdf, p1 Theorem1.1; no claim to independent access of v1."
+    },
+    {
+      "url": "https://www.math.purdue.edu/~twooley/publ/20230915wpk.pdf",
+      "version": "author-hosted 20230915 version",
+      "locators": "p1 definition and Theorem1.1",
+      "access": "Full PDF opened; exact imported statement read."
+    },
+    {
+      "url": "https://www.math.purdue.edu/~twooley/publ/20240211squareplusktha.pdf",
+      "version": "author-hosted 20240211 version",
+      "locators": "after Theorem1.3, PDF p5; reference12",
+      "access": "Full PDF opened; explicit G(4)=16 attribution read. Original Davenport paper not independently read."
+    }
+  ],
+  "required_corrections": [],
+  "limitations": [
+    "Imported analytic upper bounds are not reproved; no exact formula for all g(k), G(k), or effective cutoff is supplied.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-1269",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "2436f15dc6ee20e9117161197352c88b4ffce78b6a3380bc53031df3ba4312b9",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "2436f15dc6ee20e9117161197352c88b4ffce78b6a3380bc53031df3ba4312b9",
+    "source_notes.md": "ac11ec13888db7cc0547291aaa41cb3d0a0440b1fd7ddb309930f3c68620f9d5",
+    "author_record.json": "c5b6dbdc9544c3ec585dbcde320eb53afcc69f68f179b82309cf0bad0bcfc24d",
+    "official_prompt.txt": "098b80c95475bad2e76ec344ea29e049afc1c13509aefea742fe601669dfb9fa",
+    "official_prompt_api.json": "c11ed129480933bbf13c2ea6eb323149bfe3a185092539f30bda17f6528efdbf",
+    "official_metadata.json": "5774cdcecec1c01363dcb5976142082202a0acbdeda527e99236cf1ab70ca610",
+    "official_metadata_api.json": "d2ac6b2dbd32a76cb48e445a2ad70571974f957d2e977916ff732d00b559e60d",
+    "contribution.json": "f0e052765629f0b2fee412c0b7c71c74826db094af6df718103c7322ab71d0bd",
+    "retrieval.json": "77070bba39f8a5d40e949b746ffc32169ba4dd866459f4b5ec4b29e33476c434"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_algorithms_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:34:39.521951+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

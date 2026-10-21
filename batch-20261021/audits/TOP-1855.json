@@ -1,0 +1,65 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-1855",
+  "canonical_problem_id": "prb_059b6a90192546968b2d07fcb0c0bfef",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:29:35.014109+00:00",
+  "checked_report_sha256": "dc7ad3c827c7b2d9e181ae363e1ebd2c06f05aaeb30412281f56c9f8d549e05b",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "bea2c3de8b67d899937170a0358345d048a02cf6e504bc28f830bcf4a633d0ea",
+    "contribution.json": "bb6be04c933bd62dd13d9bbdaf72981c35fe7b66ecfba710e9c0e62d00d47b1d",
+    "official_metadata.json": "41b1a659214a4e66c210366e8bbb7f112fb7c08cdbb4193a5570a4f0f00584e8",
+    "official_metadata_api.json": "539ba04776fc43a4fbbe8bae3657bf42ed2a942d3ab9f2941f9b81b11936c1f6",
+    "official_prompt.txt": "6d64b4127590ecd3ba7a5f5795a00612982476bc6c4f2a808ce57f98618a7b14",
+    "official_prompt_api.json": "83db375e0bdc9bb3e5d1f8e9d9a118ce8be0c041419bc83cc548e4a825db1ff5",
+    "prior_attempt_01_api.json": "338650fbce755091123eca7afc26788a41522b391e54f68a36076d70cab07a86",
+    "prior_attempt_01_text.txt": "54dccb7ae92123a954b8544c899920fac43e38ad8c2197bd1f1494525756bc65",
+    "prior_attempts.json": "0e222b6124d34520a321c0083005ba4a5e39bb6b28641d2e74d366ffad41c3f2",
+    "report.md": "dc7ad3c827c7b2d9e181ae363e1ebd2c06f05aaeb30412281f56c9f8d549e05b",
+    "retrieval.json": "d343019d6c1c4befe25b8d9f510be6baadf75e159b0f8e8494787ada43ed23cb",
+    "source_notes.md": "c5afa030c2581f9e421f2c726369845d1c1824d1a41f346c09d00e574ae8ebbb"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8e2e73deea8ce21484c848e54e05f8b9387a4301ec9675a929422d53b3d7f61c"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact prompt, wrappers/meta, report/source/author records and entire earlier exploration read. The prior establishes an abstract full-support sufficient condition and finite races; the added content is the precise published GRH plus joint grand-simplicity theorem giving every full ordering positive logarithmic density, with an exact leader-density translation.",
+    "The stated hypothesis excludes central zero ordinates, repeated ordinates and rational linear relations among the nonnegative primitive-family zero ordinates, stronger than individual simplicity. Source assumptions are kept conditional and fixed-modulus. No unconditional or finite-race inference is made.",
+    "For r=phi(b), the (r-1)! full strict orderings with chosen leader are disjoint; their union differs from strict leadership only where some other counts tie. Source limiting measure is absolutely continuous on the sum-zero hyperplane when r=phi(b), so the finite tie-hyperplane union has zero mass/density. Sum of ordering densities gives a positive leader density and all leader densities sum to one without asserting they are equal.",
+    "Positive logarithmic density forces unbounded winning cutoffs. Taking integer parts preserves all prime counts and strict inequalities. Nonreduced classes only contain prime divisors of b and have bounded counts; Dirichlet makes reduced counts unbounded. b=1 is vacuous and b=2 eventually settled directly. The exact simultaneous comparison in the literal prompt is retained."
+  ],
+  "primary_source_checks": [
+    "Feuerverger–Martin, Biases in the Shanks–Renyi prime numbers race, arXiv:math/9910184v1, 1 November 1999, actual primary research PDF https://arxiv.org/pdf/math/9910184, introduction pp.1–2 and Section 2.1 p.5 read. They explicitly credit Rubinstein–Sarnak for all-ordering density existence/positivity under GRH+LI; Section 2.1 states absolute continuity and zero-density ties, including full-residue hyperplane caveat (qualified_number_second_half_primary_01.json and _02.json, turn1798view1 and turn1801view2). No fresh readable full-original Rubinstein–Sarnak proof is claimed; the precise theorem statement is checked through the identified primary research application."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "A precisely credited conditional resolution of simultaneous leadership for every fixed modulus under GRH and the grand simplicity/linear independence hypothesis, with exact winning-density decomposition and strict/integer-cutoff checks; unconditional target remains open here.",
+    "listed_prior_count": 1,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

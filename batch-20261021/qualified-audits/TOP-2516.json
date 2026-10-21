@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-2516",
+  "canonical_problem_id": "prb_be54217b83b34046a663384fce7cb1d7",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "35951f2c3327d5e204b04b8ec7277e54b9ae34e45dba792d72ceeb33f8c5f03e",
+  "report_sha256": "35951f2c3327d5e204b04b8ec7277e54b9ae34e45dba792d72ceeb33f8c5f03e",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "68154b409a7bb2e373faa9124018d4798f6ca53d314253dec5990b6ff6e7a3ee",
+    "contribution.json": "c981bfef1c7bc7017bc57532e434dcffd8f1735eb842c587ebf71ddd6b54c25c",
+    "official_metadata.json": "551cf56b37eb2b4627cc09165c85d3e3b5e816ebb88519cc99fdb09dd03c6fff",
+    "official_metadata_api.json": "286211840a2fac8068a6dec835c99cefea2530987dd1474d3afd66341735b57a",
+    "official_prompt.txt": "1503fc3fafac4046286250e384f70e293223bafb29bf591548a68ef26e570c77",
+    "official_prompt_api.json": "454494a31f048a0fd81739ea79128890b798adb21698cadb160109c491ababa0",
+    "report.md": "35951f2c3327d5e204b04b8ec7277e54b9ae34e45dba792d72ceeb33f8c5f03e",
+    "source_notes.md": "37dcc50c243de81c8ab342063c96636dc12d50606d1a1a72401bcbffebe41f65"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:17:09.719572+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Independently checked the semidirect multiplicative law, inverse and common identity; the displayed brace compatibility follows coordinatewise exactly because rho(b) is additive and B is a left brace. No coprimality is needed, and every group automorphism of the trivial brace on abelian A preserves both laws.",
+    "Checked lambda_b=-b+b circle(-) is an additive automorphism and lambda_(b circle b')=lambda_b lambda_b'; the resulting R action ignores the kernel coordinate consistently with the projection homomorphism. The identity bijection satisfies the cocycle equality exactly.",
+    "Checked induction over arbitrary split abelian-kernel extensions and the left-translation action on A^H, including its order of composition. Wreath and nontrivial generalized-dihedral examples are valid. The argument expressly distinguishes a brace-preserving kernel action from a mere automorphism of its multiplicative group, so arbitrary Sylow-IYB data are not silently used. No listed priors; this structural infinite class is clearly delimited."
+  ],
+  "sources": [
+    "Notebook primary independently accessed through arXiv:1401.0300, actual v49 header20Oct2026 (turn1656view0,turn1657view0-2,turn1658view0), relevant Problems21.1-3 printed178,21.7 printed179,21.26 printed182. The authors' October-update3 WordPress URL was inaccessible to this reviewer; no exact-PDF equality with that link or older v47 is asserted.",
+    "Cedo-Jespers-Okninski, arXiv:1205.3587v1,16May2012, primary34-page PDF independently opened as turn1653view2; left-brace definition p4, Corollary4.6 p13, Section9 pp27-28 semidirect construction and Corollary9.1 as turn1656view1/2. The report's specialized construction was checked directly."
+  ],
+  "limitations": [
+    "No global closure theorem or solution of the Sylow-local-to-global conjecture is certified. Source-only, no program or runs, no formal verification. Historical current audit preserved."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

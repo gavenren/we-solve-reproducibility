@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-7200025",
+  "canonical_problem_id": "prb_be97d627f64443d8bd52ac7700647070",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "8020acfb4be16c6733ce0c1c25e6fd33db5ddc3398a2f674aaad88e63634e2cb",
+  "report_sha256": "8020acfb4be16c6733ce0c1c25e6fd33db5ddc3398a2f674aaad88e63634e2cb",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "27c66d4bb3eec8ea908c5e9819eacd78d02331a16119e60d5a2a56d312e83199",
+    "contribution.json": "b74d5f04d2bb05c05e121d4abfa94693f34b71bb37e2f0744b168a89b8abe519",
+    "official_metadata.json": "a01d30304ae2f25e13bd4b7acf6aa4c1e66f61d6b53b463bca6217c23cd3ff9a",
+    "official_metadata_api.json": "b2c2bc2b3afd07e8da1ab4868d5786a28633346ab8f9d73b2df045e591adf567",
+    "official_prompt.txt": "37ba8eff115d7de1be5666e2d97d8fee3a063963e2cbc58cfdcaceeebdb0f92b",
+    "official_prompt_api.json": "6e4900f04802384b1408523e741167c584490977c5156169d19acc6c2236b37d",
+    "report.md": "8020acfb4be16c6733ce0c1c25e6fd33db5ddc3398a2f674aaad88e63634e2cb",
+    "source_notes.md": "008ea8eb629bcce49787861712a956d442ffc5a42ebe0dd64209d3ebbf0599d9"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:06:04.289262+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "No earlier contributions. Verified literal union-area denominator, positive arbitrary square sizes and closed-set intersection convention.",
+    "Recomputed equation3t^2-4t-14=0, positive root and allowed range, exact inverse-lambda constant and95/384 upper arithmetic.",
+    "Checked finite patch limiting argument, rescaling invariance, bulk/boundary orders, closed-square selection and distinction between geometric-operation count and polynomial rational-bit overhead."
+  ],
+  "sources": [
+    "Opened Bereg\u2013Dumitrescu\u2013Jiang author manuscript17Feb2009, Theorem1/algorithmA1 and Theorem5/Section6: https://adriandumitrescu.org/rado.pdf (turn1546view0,turn1547view3\u20134,turn1549view1).",
+    "Opened Dall\u2019Ara\u2013Dumitrescu2604.17509v2,24Apr2026 for conventions: https://arxiv.org/pdf/2604.17509 (turn1549view2)."
+  ],
+  "limitations": [
+    "Algorithmic geometric charging and upper construction are credited imported results, not fully independently reimplemented. No claim to exact optimum, best current constant, local implementation or execution."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

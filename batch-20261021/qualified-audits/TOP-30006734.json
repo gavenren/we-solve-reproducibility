@@ -1,0 +1,59 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-30006734",
+  "canonical_problem_id": "prb_aa49e339dfe14ea6b4f99c4b72eb6da2",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:24:49.614790+00:00",
+  "checked_report_sha256": "5808590e24ac2b87c464a35e74158b2ad7fa4a87fbe88cb0e6c7527479265d3c",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "0518a28370383a1d20b410330154060addf8680c01db2058bbe977c08ff0f750",
+    "contribution.json": "ce864836364f962885ba9e14bdde1fde579426b81492ca68019b4d02baf30f82",
+    "official_metadata.json": "5f22c4ac1ce9c19e4bd24ef58288b51fb85f2aa568883b984c002dc555f1ac07",
+    "official_metadata_api.json": "05e9530da9ed050ad2d340784f4e6ef5954ff3d662b3cf932916501777b92348",
+    "official_prompt.txt": "c86936110dd291e40a26a58b10792968cfed8aa57b75b69b47a66a20bf4dcd70",
+    "official_prompt_api.json": "83df7afe8d4ac41839c695a183961a350d46143d844f46d6b3110a660524d32b",
+    "prior_1_api.json": "c92777a1b140ec63d853e136e73d906ae97531c19f6c63dc4a86f5a07f18a697",
+    "prior_2_api.json": "64305259497ff1b08368b7aa3387d627a19e5b5335e36abd011e6bba9e098ac1",
+    "report.md": "5808590e24ac2b87c464a35e74158b2ad7fa4a87fbe88cb0e6c7527479265d3c",
+    "source_notes.md": "d404e266fe445ff5b5bcf47e3df5855a3973b07d8403b810f66ba60606942b0b"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "All full exact inputs and both full prior bodies read. Earlier assembly/tori and hyperbolic/CAT0 regimes do not contain the virtually-solvable theorem; the announced dimension-4 counterexample is not used. The added regime and explicit nonabelian nilmanifold example are substantive.",
+    "Wegner supplies coefficient K- and L-theoretic assembly relative to virtually cyclic groups for every virtually solvable group. This includes all orientation-character twists. Bartels–Luck Proposition 0.3 requires torsion-free G, K bijective <=0/surjective in degree 1 and all-degree twisted L; all are supplied.",
+    "A closed aspherical manifold has finite integral cohomological dimension from its finite-dimensional contractible-cover CW model. Restricting a finite projective resolution to a prime-order subgroup contradicts its unbounded periodic integral cohomology, proving torsion-freeness. The surgery criterion concerns the marked structure set, so each specified equivalence is homotopic to a homeomorphism, not merely existence of some homeomorphism.",
+    "Heisenberg multiplication and integer subgroup closure, central commutator xy-prime-x-prime*y, proper free lattice action and compact coordinate-reduction domain are checked. H is R3; product with T^k for k>=2 gives closed aspherical dimension 3+k>=5 and a nonabelian solvable group. No smooth-rigidity, general dimension-4 or arbitrary-group assertion follows."
+  ],
+  "primary_source_checks": [
+    "Wegner, arXiv:1308.2432v3, 16 August 2015, https://arxiv.org/pdf/1308.2432, exact Theorem 1.1 checked (qualified_topology_primary_retrieval_27.json, turn1752view7). Published J. Topol. 8 (2015), 975–1016.",
+    "Bartels–Luck, arXiv:0901.0442v2, 25 March 2010, https://arxiv.org/pdf/0901.0442, Proposition 0.3 hypotheses, conclusion (ii), dimension-4 goodness exception and structure-set proof read in full relevant passage (qualified_topology_primary_retrieval_27.json, turn1752view4). Annals 175 (2012), 631–689 credited. Assembly and surgery are imported."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Every homotopy equivalence between closed aspherical topological manifolds of dimension at least five with virtually solvable fundamental group is homotopic to a homeomorphism, by Wegner’s coefficient Farrell–Jones theorem and Bartels–Lück Proposition0.3; includes an explicit nonabelian nilmanifold family.",
+    "official_prior_count": 2,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

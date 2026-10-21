@@ -1,0 +1,45 @@
+{
+  "handle": "TOP-30006794",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "4785bcc148113c2c22a5973478ca5152e7dc2fc6832a12d4e9fee0dd5a7fac9a",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "170bc0f8ae71dc1a54a1b0fe57e03dcbd3431edc08f7d0dd2a581320296cd462",
+    "contribution.json": "0260c267334ce5ab251fb9daa890a3e090a73dd5afbc7f28233c22711caca9e3",
+    "official_metadata.json": "f832cb6b070d41226632a5f07f16a919957f6022e7454baad9e65b46cec10b7a",
+    "official_metadata_api.json": "bdc0e77ea1b5363942da2ae78455504d20649365cd0f8c9711727e8511865923",
+    "official_problem.json": "f832cb6b070d41226632a5f07f16a919957f6022e7454baad9e65b46cec10b7a",
+    "official_problem_api.json": "bdc0e77ea1b5363942da2ae78455504d20649365cd0f8c9711727e8511865923",
+    "official_prompt.txt": "cfe833111bd4dc8ead61c3215831149444c0f9ba4adac835d6b038e20878efd6",
+    "official_prompt_api.json": "f5665e2120a03275b50e05d72b4f3fb52367b592933b16b7a1271c0e07164f4c",
+    "prior_attempts/TOP-30006794-A1.tex": "9b49f28fac37c4ea0d73ef8cf001afd84356fc4e9cd44ef6f3f6a59eac532504",
+    "prior_attempts/TOP-30006794-A1_api.json": "57d8b488cef8983e5fa9e9cfdc294c86e767bd287592c5f828f85f872bcaa9be",
+    "prior_attempts/TOP-30006794-A1_manuscript_api.json": "9fda241c611c8b1d02c7770af8a941bdc43e0f2aea9fdc24e277d327cc535393",
+    "report.md": "4785bcc148113c2c22a5973478ca5152e7dc2fc6832a12d4e9fee0dd5a7fac9a",
+    "source_notes.md": "f8ac9518b1e742167290a89de69173afee07921ff4914ae28a6f157a7a6d9726",
+    "verification.json": "e8da9031108d83db691c5a548d74fd9843973fae702c05dc6dbb39ba07dbd28a"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:17:58.829800+00:00",
+  "actual_checks": [
+    "Read full exact prompt and A1 manuscript, including its achievable fiber-compression probability and conditional efficient implementation. Reconstructed normalization on the nonempty-fiber subspace for every composite or prime N and t>=0.",
+    "Checked cyclic averaging of arbitrary POVMs, diagonal E0 entries forced to 1/N, PSD 2x2 minor upper bounds, and rank-one equality construction. Character orthogonality guarantees completeness on support; the uniformly distributed complement extends it to a full POVM. Cauchy-Schwarz yields r/N, including t=0, N=1 and all-zero labels.",
+    "Compared the derived measurement and optimum with Bacon-Childs-van Dam v2 equations 18-27 and Sections 4-5. The report credits the classical result and independently reconstructs the missing upper bound. It does not claim an efficient circuit or arbitrary coherent-oracle query lower bound. No program is attached or run."
+  ],
+  "primary_sources": [
+    "Bacon, Childs and van Dam, quant-ph/0501044v2,26 April 2005, Sections4-5 equations18-27, retrieved through https://arxiv.org/pdf/quant-ph/0501044 (PDF header verifies v2); explicit v2 URL initially failed. Primary formula, POVM support qualification and threshold read; no efficiency theorem is imported. Retained retrieval coordination/qualified_algorithms_primary_retrieval_01_dihedral.json."
+  ],
+  "prior_work_distinction": "A1 proves an attainable probability with a missing compression algorithm. The matching every-measurement upper bound, complete support normalization and exact degeneracies add meaningful block-specific scope. Measurement principle is credited, not claimed novel.",
+  "scope_assessment": "For N≥1, t≥0 and fixed known Fourier labels k∈(Z/NZ)^t, the optimal uniform-prior success for distinguishing the hidden reflection from t phase-qubit states is (Σx√ηx)²/(N·2^t), where ηx counts subset sums. Every such measurement has success≤min(1,2^t/N). This is a finite-block state-discrimination theorem, not an efficient circuit or a lower bound for arbitrary oracle algorithms.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

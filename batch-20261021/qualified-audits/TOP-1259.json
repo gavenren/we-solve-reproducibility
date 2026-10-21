@@ -1,0 +1,58 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Substantive literature report: stronger quantitative digit restrictions and a fully checked continuum of sparse gap-series consequences distinguish it from the retained qualitative/Fourier manuscript. No normality or algebraic counterexample claim.",
+  "actual_checks": [
+    "Independently checked Bugeaud–Evertse Theorems 2.1 and 3.1 against the dated v1 PDF, including eta<1/11, limsup rather than eventual scope, all sufficiently large N in the digit-change theorem, effective absolute c1 and degree/threshold factors. Source definition counts changes 1<=j<=N, exactly matching this report.",
+    "For 2/3<delta<1, derivative delta*x^(delta-1)*exp(x^delta) tends to infinity, so floored exponents eventually have gaps>=2 tending to infinity. Distinct isolated ones give the claimed base-b expansion with no carry; infinite ones and unbounded zero runs exclude eventual periodicity, including the alternative terminating representation.",
+    "Count m_j<=N through exp(j^delta)<N+1; endpoint N+1 for changes is covered by N+2 in (4). Comparing the credited lower bound with this upper bound yields (log N)^(3/2-1/delta)/sqrt(loglog N) -> infinity. Strict delta>2/3 is necessary to this argument.",
+    "The upper delta<1 gives m_(j+1)/m_j->1 and relative gap->0, so the earlier Roth run restriction is not violated. Counting nonzero digits o(N) establishes nonnormality while established transcendence excludes algebraic counterexamples."
+  ],
+  "prior_comparison": "Read the full retained TOP-1259-A1 manuscript, including Weyl equivalence, van der Corput correlations, Roth long-run obstruction, biased Bernoulli counterexample, and exact finite digit tables. It has only qualitative block divergence and none of the quantitative digit-change application or the new sublinear-relative-gap family.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/0709.1560v1",
+      "version": "11 September 2007",
+      "locators": "Definition nbdc p1; Theorems 2.1 p3 and 3.1 p4",
+      "access": "Independently opened dated full PDF and read exact definitions/statements; deep Subspace Theorem proof is imported."
+    }
+  ],
+  "required_corrections": [],
+  "limitations": [
+    "No endpoint conclusion at delta=2/3, all-n logarithmic block complexity bound, explicit numerical threshold, or normality theorem is supplied.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-1259",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "b8847d011cb18ba1159ad8b7d43825803c0139d95e757671f9969c9d24ba0b7d",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "b8847d011cb18ba1159ad8b7d43825803c0139d95e757671f9969c9d24ba0b7d",
+    "source_notes.md": "fcb4a60af184b9c6d999cc44ec488bf0d8637318dec18389e3c65a5774449151",
+    "author_record.json": "185e968b0ed164a288b6ae73bae71c29162a5e77c5189e1107d150f92fa093ff",
+    "official_prompt.txt": "29e0ad0754fb4b25440a77bfb336a23437dc1a8388970fa9a43ab44af01d8dab",
+    "official_prompt_api.json": "c34b69c41ce2c8c91038efa7f5012c4c54c2c1378cb812bf87610ecbad099d53",
+    "official_metadata.json": "1c651d874f122ae009b9533ba5dd1031e1cfc6f3998be78ca8c2773c1ce2589e",
+    "official_metadata_api.json": "fd6ac1cde7e2302680f88be318ac0e7b91069e7e880c22608bacf1a00c89029b",
+    "contribution.json": "bc1aefd978caa29c573ebe48bb5253db2016e2dae0a7e267f1db733b2af97241",
+    "retrieval.json": "b9f21cb0c6e6fdea3f9265d288466f6814bf9fe1b2eb1e09646ca856347d4d38",
+    "prior_attempts.json": "36d91bb27a30bfac8f33b56cd27211ade417864402ee70d34cf73fb7268e4ff0",
+    "prior_attempt_01_api.json": "00f63dfbb2ede98ebd88dfb966cd895e5cc39dcedb91a434ffd2d4419b886d14",
+    "prior_attempt_01_text.txt": "0d74eb6abcbecad460bf95fe2fc9adf1f0f3480402534cc9bbf30ef854a4130e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_algorithms_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:34:39.516315+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

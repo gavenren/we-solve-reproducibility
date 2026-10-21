@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-7200002",
+  "canonical_problem_id": "prb_252fc556f37445e690b10386d8b41145",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "a7f50b0db8715f1e3fb037ca4262b7b0398062fca33a94f090a143656d5bb467",
+  "report_sha256": "a7f50b0db8715f1e3fb037ca4262b7b0398062fca33a94f090a143656d5bb467",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "54a1476544d70663e0ceac93030883b3c13e91963153a2fcd4d0788fe20f570c",
+    "contribution.json": "7ef56002f2912615c2cbd90385c674c9b4fdfb0c778359b14a31585037a72947",
+    "official_metadata.json": "e8db45cfa61bb204ae178ae3838e8950be2ac5bc73eb4e1600590af3585abe6e",
+    "official_metadata_api.json": "1a47e9f07f265d77a966acad4d5c640a3ada51324eabddf5f1d18897abeaf528",
+    "official_prompt.txt": "834298fdeb6a3f3ab291030b43d559a73a7c7fd092920b34b1527ab1aa973f84",
+    "official_prompt_api.json": "b7f0a8ad7f3a7e113ad29573079cec82168cd38f3d1ca30db333dcf950b4ccb5",
+    "report.md": "a7f50b0db8715f1e3fb037ca4262b7b0398062fca33a94f090a143656d5bb467",
+    "source_notes.md": "e25e1787adecd94a0bfd0af9951e432be5ce68446f47affffb18f9edeaadc19f"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:30:35.864352+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked coherent G-theory rather than projective K-theory, nilradical nilpotence and finite module filtration enabling devissage in every nonnegative degree.",
+    "Checked every closed point finite residue field, finite zero-dimensional support, finite-field K groups including K0 and n0 localization endpoint.",
+    "Checked excellence gives regular dense open on each reduced component; intersections/discarded loci finite. Vertical regular affine curves over perfect finite fields fit source theorem.",
+    "Checked horizontal dimension1 implies number field generic fiber and both inclusions B[1/d]=O_K[1/d] by clearing algebra generators/integral basis denominators; localization preserves finite generation via image/subgroup extension, without positive-degree surjectivity.",
+    "No earlier contribution is retained; arbitrary singular/nonreduced arithmetic curves and all n are covered, while higher dimension and singular projective K-theory are not claimed."
+  ],
+  "sources": [
+    "Weibel, actual primary author-hosted K-book ChapterIV93-page PDF https://sites.math.rutgers.edu/~weibel/Kbook/Kbook.IV.pdf : Corollary1.13 printed10 and Theorem6.9 printed59 credit exact Quillen finite-field/number-ring/smooth affine curve statements.",
+    "Weibel, actual ChapterV90-page PDF https://sites.math.rutgers.edu/~weibel/Kbook/Kbook.V.pdf : Devissage4.1/Corollary4.2 printed33\u201334 and scheme localization6.11 printed47, ending with G0 surjection."
+  ],
+  "limitations": [
+    "Source/proof-only; no programs, zero executions and no formal verification.",
+    "Deep credited theorem proofs are not fully independently reconstructed; exact source statements and the report deductions were checked.",
+    "Original Quillen/Grayson arithmetic finite-generation papers were not independently accessed in this review; actual theorem source is the explicitly identified author technical exposition."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30007129",
+  "canonical_problem_id": "prb_5c896e2551e543d99e9fb6a6770ab8a2",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "8848cc6784dab0d679256c0639b450fa75fb63b0e1907ee51008ff454be9e2b7",
+  "report_sha256": "8848cc6784dab0d679256c0639b450fa75fb63b0e1907ee51008ff454be9e2b7",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "7010a7fa8161b0caaaa4ffd32dec9a106093b2683316ed4a6c66d0b42ae9f222",
+    "contribution.json": "71504a156ff8c8c4cbb2c57ad672bd1d6992f634f7f82a6795e11b6593fe6151",
+    "official_metadata.json": "69d41eefe9cbd12da757e31715ab7ba021b39a43f41da9c9401f96327a998182",
+    "official_metadata_api.json": "9533f215908b5a97a31827e18b1b78dfa3854abc978f54c287528bc31dec16d8",
+    "official_prompt.txt": "aadcae48002b980cb09d5a88a5c092c4aaa7fa91b87623aed42d52f127251d3d",
+    "official_prompt_api.json": "3b08b6f57da4165e48f0e6dd8e1ef7be031a8f697b2a38eca9eda2c0cd959679",
+    "prior_attempt_1.html": "3b7af57fbd0574fecbf7140bd51341f15b2d3286a10a83d41944bfd3d4f03f97",
+    "prior_attempt_1.txt": "498c464f664a717227351a75451fb888ab2dff43f8304ab9fdcc27675274c340",
+    "prior_attempt_1_api.json": "2341c5a3bce1ca91ca0143c9b0268585122d1788d66b2bbdc0de53ac8173315a",
+    "report.md": "8848cc6784dab0d679256c0639b450fa75fb63b0e1907ee51008ff454be9e2b7",
+    "source_notes.md": "9666e2ed3c9fb9b56b88b6dd6fbc814256a8938fefa09e940385237bc66f301b"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:10:18.481418+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read complete earlier all-dimensional hard-body claim and centered-cube-limsup convention; only its definition/one-sentence outline is used as context.",
+    "Independently checked boundary-halo finite patch F_R, periodic coverage of closed cubes, center coincidences, limsup ratio using R+D and both infimum directions.",
+    "Verified rational period scaling, finite representative rounding, common-indisk Minkowski containment and density/dilation factor control. No uniform period or pattern-size bound is inferred."
+  ],
+  "sources": [
+    "Read exact retained prompt/prior density definition and opened Schymura\u2013Wang\u2013Xue2505.07369v2,3Jun2025, introductory translative/lattice definitions: https://arxiv.org/pdf/2505.07369 (turn1586view1)."
+  ],
+  "limitations": [
+    "Periodization/rationalization is checked directly for fixed compact full-dimensional K and locally finite coverings. No nlogn hard body, prior Lean theorem or finite-search lower certificate is certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

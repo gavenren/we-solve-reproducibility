@@ -1,0 +1,46 @@
+{
+  "handle": "TOP-30006721",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "7eda27054106bb2c5853fd96ae48c228d129e3fca5c3d538e2331c8ec25da362",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "0d01881453a5b737509a081fd1ae338c01418f38adcaa9288c031f98775b41af",
+    "contribution.json": "604b36f872dc5082755a837bad2448537948e66490939049f259e234ac6070ad",
+    "official_metadata.json": "322424a07f0cd2ee9b7ea6286fb2da6d9cc4a87ae1bfef501096b77bfb922696",
+    "official_metadata_api.json": "5cd247b1b63d1d985fd9bc72f6ea38505c92f49e003c8f0b1c69bf8cf9168596",
+    "official_problem.json": "322424a07f0cd2ee9b7ea6286fb2da6d9cc4a87ae1bfef501096b77bfb922696",
+    "official_problem_api.json": "5cd247b1b63d1d985fd9bc72f6ea38505c92f49e003c8f0b1c69bf8cf9168596",
+    "official_prompt.txt": "d5329bf59b0c0780a94580f8f46efd48a26f334cecd425bbaa4dcafe370e0cb9",
+    "official_prompt_api.json": "21f91375dbca796590b209b833210c622928081ded0f8d74890bd8d1cd5fa28d",
+    "prior_attempts/TOP-30006721-A1.tex": "1835a1ca9aaaf1f41488a878f98f84f27385e96698d8f913b3055f301f11493f",
+    "prior_attempts/TOP-30006721-A1_api.json": "e2f29b8d91038a569d427877bb4767f69935aa464160a6a0f885208e8bf63db3",
+    "prior_attempts/TOP-30006721-A1_manuscript_api.json": "94bbacd7e6458bc5a0036099d77a108f859373d97b25a2ae19792077754bcac1",
+    "report.md": "7eda27054106bb2c5853fd96ae48c228d129e3fca5c3d538e2331c8ec25da362",
+    "source_notes.md": "3a666edf3ae79310f3b27c408a0b863ff35d8fb79c839ca0cad49b776e1ecebb",
+    "verification.json": "1e142d62a0912a01f07f1690f480e2617a0175ac783deff39da580373e05ae4e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:29:06.408424+00:00",
+  "actual_checks": [
+    "Read exact PSPACE/EXPTIME union-class prompt, full prior and current scientific inputs. Compared dated Williams Theorem1.1 t>=n and multitape conventions with source; implicit tree height/value size and Cook-Mertz balancing are correctly scoped as imported machinery.",
+    "Substitution t=2^(n^k) yields n^(k/2)*2^(n^k/2) space, still superpolynomial for each fixed k. Machine constants and union quantifiers cannot reduce this to polynomial space.",
+    "Found boundary mismatch in original hierarchy application for1<epsilon<2 where t<n. Root preserved historical files and corrected paragraph. Reread complete corrected report and amended author record: direct theorem used only0<epsilon<=1; remainder follows TIME(n^(2-epsilon)) subset TIME(n). Report SHA7eda27054106bb2c5853fd96ae48c228d129e3fca5c3d538e2331c8ec25da362 bound here.",
+    "Verified space simulation is o(n) and contradicts deterministic constructible space hierarchy; witness may depend on epsilon. No common-witness quantifier swap, unrestricted RAM extension, class-union resolution or simulation program execution."
+  ],
+  "primary_sources": [
+    "Williams,Simulating Time With Square-Root Space,25Feb2025 author28-page manuscript https://people.csail.mit.edu/rrw/time-vs-space.pdf,Theorem1.1,Corollaries1.2-1.3,Section1.1 and Remark1.6 freshly read. Deep simulation/Cook-Mertz theorem credited rather than independently certified. Retained08.json,08_details.json,08_proof.json."
+  ],
+  "prior_work_distinction": "Prior gives configuration counting and a conditional succinct-game certificate compression. New quantitative established time-to-space simulation with exponential specialization and valid hierarchy deduction is distinct substantial scope.",
+  "scope_assessment": "Williams’s 2025 multitape simulation TIME(t) ⊆ SPACE(√(t log t)) is credited, specialized to every fixed exponential bound, and used with the space hierarchy to derive the known fixed-exponent time lower bound for linear space. Neither the full-union PSPACE/EXPTIME equality nor separation is claimed.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

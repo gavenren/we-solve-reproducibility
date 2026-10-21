@@ -1,0 +1,58 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "A substantive precise exceptional-order classification and uniform proper-form obstruction, with explicit all-X CRT count. Literature report preserves nonmaximal orders and GRH boundaries and does not claim completeness.",
+  "actual_checks": [
+    "Checked Kani Corollary23's alternatives: zero extra; one squarefree1mod4; or two n*,4n* with n* squarefree2mod4. The often-repeated at-most-one-integer assertion is too strong.",
+    "For odd p with n>p² and (−n/p)=1 choose0<r<p/2. Form (p,2r,(n+r²)/p) is primitive, positive definite, discriminant−4n and strictly reduced interior because0<2r<p<c.",
+    "Its inverse (p,−2r,c) is a distinct reduced proper representative, yielding a class not equal to its inverse in the actual order's class group. This reconstructs the credited split-prime test; field/maximal-order substitution is unnecessary.",
+    "For each fixed odd prime, allowed residues of −n are0 or nonsquares, exactly(p+1)/2. CRT gives R classes modP; B covers all n<=maxp² and each class contributes <=floor(X/P)+1. Product factors <=2/3 force density zero.",
+    "Boundary n=p²−1 has c=p (with r=1), so the form is ambiguous; Kani's explicit idoneal examples invalidate the stronger historical threshold. Density zero still permits final exceptional integers."
+  ],
+  "prior_comparison": "Full prior body read. It gives exact fixed-discriminant reduced-form enumeration through5000, inverse-class witnesses and a global-cutoff gap. This report adds accessible primary exceptional alternatives, explicit uniform split-prime forms and all-size CRT counting.",
+  "primary_sources": [
+    {
+      "url": "https://www.labmath.uqam.ca/~annales/volumes/35-2/PDF/197-227.pdf",
+      "version": "Kani, Ann. Sci. Math. Québec35 (2011),197–227",
+      "locators": "Remark7(b), Proposition17(a)/Remark18, Corollary14, Theorem22/Corollary23 and proof, Remark24, Proposition25 and proof, Remark26",
+      "retrieval": "coordination/qualified_number_first_half_primary_06.json; _07.json; _11.json"
+    }
+  ],
+  "limitations": [
+    "Weinberger's original paper and historical massive class-group computations were not independently rerun/read. Kani records documentation limits of those historical computations; the theorem is credited in that exact primary source, not certified anew.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-1252",
+  "reviewer": "/root/sol_ultra_numbers",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "f3eb52df476620e3aea4e853ef47b398fdff8b833e0b9cf906a4bab10420675e",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "f3eb52df476620e3aea4e853ef47b398fdff8b833e0b9cf906a4bab10420675e",
+    "source_notes.md": "f6ac6578332f95ddb839423046b16093e8bd946b59263f9250ffd3e59a3f2d7d",
+    "author_record.json": "6a860c1b62aa3d666dbddc8e50609c02d65afac7ae87d963a9028f897d005699",
+    "official_prompt.txt": "2fe0fa18db175528fe83decac191a788527636765f16ebe65db1d617a617e5cd",
+    "official_prompt_api.json": "3a630507f8a76d781694f660e7acaad2a4bb5facba71012ad0f098b92cf79edd",
+    "official_metadata.json": "e63ae85a33a968419e12f61ac57c4c8f8d788d74711ae8ec340fec7833b11217",
+    "official_metadata_api.json": "4968f5d37c1ca4409b02bdd2223afe611d76ab2f4c9cd2e1fd54227c2c0918fb",
+    "contribution.json": "361f2737bfed9e5cb4c87331bce81c34714ccb41cf4ea4e45bc0f2267422323c",
+    "retrieval.json": "6784c6c7d055db5c3b6e6a50b4984b713e9fdfe19ca64b27643a0d3d562d588e",
+    "prior_attempts.json": "c25115ebb56b1e742d883fe616f5137619a78daa3fce31329160af608fc7e967",
+    "prior_attempt_01_api.json": "855aa544c7dac2386ccdb2e6c470fe9c9dc12544944ac2730f3d5468658cd260",
+    "prior_attempt_01_text.txt": "b4f47aca5543d519ef8ad06db745bae4025f2b0824cb2699a68986a1ea2d639b"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_numbers_first_half_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:32:56.320097+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

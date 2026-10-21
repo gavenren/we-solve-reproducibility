@@ -1,0 +1,59 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-30006856",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "e5d941a2efd2009e9c8e0279a456e23aa8054562448b306db4d0d0e2ad531598",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "e5d941a2efd2009e9c8e0279a456e23aa8054562448b306db4d0d0e2ad531598",
+    "source_notes.md": "9c050cca155e1837e41692fae891234203d8c5a9beccd8cdf0defd7a40517d5f",
+    "author_record.json": "8bc6af05b4ed06416f9111a44fc41bfd3636a7c563219ad285946eac1db6222b",
+    "contribution.json": "e6bcbf44e62829fc14bbbeb6bcfacac16727f0d4355088b172e64e14b0cfeb37",
+    "official_prompt.txt": "f0d230ef7e1cc758497203a9a87404de7e9962e102081ba3e501151265c80958",
+    "official_prompt_api.json": "a266444305b7980bd89e2bb94b651b6579ed2ea717cb867fdfb26eeaa8b76ff5",
+    "official_metadata.json": "1afb5fa98cf1dfd10713d30fc3d141199502f064148acc7a7cd96bd75b8cd51d",
+    "official_metadata_api.json": "061dd636d3ffb1f2f7f8fd9d56b0e12c277fa8c754fe04fa6819dcbd9ddef1a2",
+    "prior_attempts/attempt-1.txt": "1a19c5b1489eb5bf7a0ff3cff2b7bbe3bcd4804a8b1a16d216328e0679e4cc91",
+    "prior_attempts/attempt-1_api.json": "0f94dcc88aedb9161e40014c27cce51808b16b0f1e468c2eddc6cbc80e833a74",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "64e0e44c4cb1526483d17adda17ea87b4b6571f0e489d3e2eae080507eed9dcc"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked LUW odd L and prime-power q theorem: q regular, component order at most 2*q^(L-t+1), t=floor((L+2)/4), girth at least L+5. The component count/transitivity mechanism is credited.",
+    "Checked both parity cases L=2k-3 and d_k=ceil(3(k-1)/2). Largest power of two satisfies q>(n/4)^(1/d)/2; taking floor(n/v) components, rather than a single unknown-size component, yields edge count >=nq/4.",
+    "Checked all-n threshold and constant, k>=4 scope, comparison to the prior random-alteration exponent, and explicit exclusion of any claim to reprove the sharp exceptional k=5 construction."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/3/7714/files/2022/02/bullfin1.pdf",
+      "version": "eight-page author-hosted primary manuscript",
+      "locators": "Proposition 2.1, Lemma 3.1, Theorem 3.2; PDF pages 4–6",
+      "retrieval_refs": [
+        "turn1758view2",
+        "turn1762view3",
+        "turn1764view1"
+      ],
+      "access": "Exact component parameters checked; coordinate/invariant construction remains an imported theorem."
+    }
+  ],
+  "distinct_significant_scope": "Stronger general-k historical algebraic exponent plus a complete all-orders replication argument handling unknown component size, beyond prior k=2,3 and alteration scope.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:25:25.488653+00:00"
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-10000004",
+  "canonical_problem_id": "prb_8932b99457f14c47b840aad6197b8b94",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "9001af4179b728b0a6346f937c7efe8d384968a6199485da63df011c5228868b",
+  "report_sha256": "9001af4179b728b0a6346f937c7efe8d384968a6199485da63df011c5228868b",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "69a0f55e4ffd9058c16ea0e330f4184e4c995ce84c6e9fb077d16dd8682520dc",
+    "contribution.json": "960ee7d758ce3e6e168f3be6190594aa07dc56321c81c18e9bd2c57d34dcd0a6",
+    "official_metadata.json": "b24f8b6b055eb7e733af252d410834511f55ab1233bbd204ca815d829241d89f",
+    "official_metadata_api.json": "2e56b7d428c6c819d801643514099a475c7109fa550eae12a8ce4fe4733ae4d7",
+    "official_prompt.txt": "67abba1d10a2a7143e6aca90a9af83dc1bb0bde903c866b4ea0f4220cbd8c4f7",
+    "official_prompt_api.json": "15206d5b80d3edc29a7d29f5c58aed65b1bb2815750c6a906faf26e12c21da72",
+    "report.md": "9001af4179b728b0a6346f937c7efe8d384968a6199485da63df011c5228868b",
+    "source_notes.md": "19775770726b57622e25ff42d8ac9fc4d428711ffd590c644e6b42bae0b1f4b6"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:03:13.066360+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked full-solution proof: affine extension using four independent points; unique unit sphere center; faithful orthogonal action and index at most two rotation subgroup.",
+    "Independently verified pole/rotation double count, the two/three pole-orbit possibilities, orders 12,24,60, exceptional cyclic/dihedral axis preservation via normality, and H trivial boundary case.",
+    "Checked regular icosahedron group order via transitivity and vertex stabilizer, generic free 120-point orbit, even-sign subgroup spanning, and squared-projection identities ruling out every direction of two-circle containment.",
+    "No earlier contributions are listed. This is a significant literal-statement correction and complete sharp bound, including an attaining nonexceptional orbit."
+  ],
+  "sources": [
+    "Opened Zappa\u2013Dykeman\u2013Twarock, Acta Cryst. A70 (2014),417\u2013428, DOI10.1107/S2053273314007712, Section1 lines45\u201346: rotational order60 versus full order120. https://journals.iucr.org/a/issues/2014/05/00/eo5032/index.html (turn1508view4)."
+  ],
+  "limitations": [
+    "The archived Benjamini manuscript was inaccessible to the author and has not been independently retrieved here. Verdict concerns the literal retained metric-isometry prompt, not the original author\u2019s unobserved orientation convention.",
+    "The mathematical proof was independently checked in exposition; no formal theorem prover or numerical group enumeration was used."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

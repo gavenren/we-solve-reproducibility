@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30004903",
+  "canonical_problem_id": "prb_7e7dd3d5e4b84e72bdb6ddba3318681c",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "5eb4680ad5eafeb7a08d3855425c5e4e7cf8d790d4f58f5401d4c08d112298a3",
+  "report_sha256": "5eb4680ad5eafeb7a08d3855425c5e4e7cf8d790d4f58f5401d4c08d112298a3",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "297f8b53ccdba9ae3bd8d54cf5921a42c4c7eb9644141521c5bc95f0f3e66626",
+    "contribution.json": "b4b31cc6d59680c3d4d9c9eca820bf09b9195ffb80a5218d8237ca01a4e9de4e",
+    "official_metadata.json": "098beeed7c11b4adb6327c01038dc78f6c4a9a0535ac5c82268184a904050781",
+    "official_metadata_api.json": "e0f033ecf9484cde409d2165b8cbc171a28160e6f33cdacb80d897abef45dd5b",
+    "official_prompt.txt": "ee4d10b79922c90727c3bbf421f85fa710abba57b0de06c49e0ada95376e237d",
+    "official_prompt_api.json": "5f7b19a4c329b70bdc2a3a1456a39782a73645b30f5c892c6d5b3da5ca6126a1",
+    "prior_attempt_1.html": "159adf26c17b92254ef37921cd851c6852602015ef0052f50424756bde6ce0a1",
+    "prior_attempt_1.txt": "c4bcc88c32cc72af9e0a28926d33ed510d66d96c9f28fc0c655dee1e1d129389",
+    "prior_attempt_1_api.json": "82cda2483e89bec09f93792aae89c97e6f17a12e71fe7167ae9b32933b984954",
+    "prior_attempt_2.html": "4563c0c906b88ae3480fa36a842849c9a095a4ae4749ff6ff406b5c98c7b00f7",
+    "prior_attempt_2.txt": "a9ac728f25588878d52d60bf0f1e9a76d793105154b280550d227d4663eeac38",
+    "prior_attempt_2_api.json": "4de8bb917559cf2ec35c52f941546714e2cbafcf580e6a2917437367ec02c929",
+    "report.md": "5eb4680ad5eafeb7a08d3855425c5e4e7cf8d790d4f58f5401d4c08d112298a3",
+    "source_notes.md": "8c18a0af1394c27295a876a8444b082bdc7a7c153f8564fffdb9d0f88745abc1"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:13:05.453270+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked the exact general-minor prompt and both retained full earlier manuscripts, including the canonical parity/witness enlargement and the duplicate alias's sign-row family with unbounded Hadamard minors. Neither supplies this determinant-sensitive linear bound under row general position.",
+    "Independently verified the finite-field proof: m<n is immediate; otherwise every n-column determinant of A transpose is a nonzero integer of magnitude <p and remains nonzero mod p. Every smaller chosen subset is independent by extending it to n columns. Quotient by n-2 chosen columns is 2D; zero or proportional remaining projections would contradict some n-column independence, including n=2 and m=n boundary cases.",
+    "Counted exactly (p^2-1)/(p-1)=p+1 quotient projective directions, giving m-n+2<=p+1 and m<=n+p-1. Prime p depends only on Delta, so f=1,g=p(Delta)-1 are legitimate in this restricted class, with no use of b or minimal infeasibility. General zero minors and opposite parallel facet normals are explicitly excluded.",
+    "Checked credited stronger context against the actual source Theorem1.3 and Section2.1; no unproved MDS conjecture is used in the direct quotient argument and no facet-factor-two is misapplied."
+  ],
+  "sources": [
+    "Kriepke-Kyureghyan-Schymura, arXiv:2309.03772v1,7 September2023, actual24-page primary PDF independently opened as turn1614view2; generic/full-minor definition pp1-2, Theorem1.3 p3 and Section2.1 pp4-5 as turn1617view2/3. The source explicitly notes the weaker n<=r+p-1 bound at p5 lines254-256."
+  ],
+  "limitations": [
+    "The direct elementary bound is fully checked here; the stronger Ball/MDS theorem is only verified as credited context, not reproved. No claim about the unrestricted dependent-row problem is accepted. Source-only; zero runs."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

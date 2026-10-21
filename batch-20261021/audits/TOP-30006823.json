@@ -1,0 +1,46 @@
+{
+  "handle": "TOP-30006823",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "1901a1701d62a331dd109416900f0f9a918d53daef6453938cdb058b8be5f443",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "520d30b026f9389ac0e464196192fb3e38548fa957a53e23497d92bcc71e5bc7",
+    "contribution.json": "e1f9954d08db58082a37fa1624a11db858ab52ebe7dc4ef3dc04c6ee15edf57b",
+    "official_metadata.json": "74bfc86c62d971c224f614952a8f031d99e732dda569509d0f310322076fcd7e",
+    "official_metadata_api.json": "5e1dc99d1e97247d5eb5af27ecbf139218f522fe5cebe5e5ddb980744ec88d40",
+    "official_problem.json": "74bfc86c62d971c224f614952a8f031d99e732dda569509d0f310322076fcd7e",
+    "official_problem_api.json": "5e1dc99d1e97247d5eb5af27ecbf139218f522fe5cebe5e5ddb980744ec88d40",
+    "official_prompt.txt": "01864180f882e21539a1528ed7079b5ff712dc9ec4907caeadc44555f5007029",
+    "official_prompt_api.json": "2172bd8db9bdb59614dfef992345e344557818e1b45eedeb81b82af76843dafa",
+    "prior_attempts/TOP-30006823-A1.tex": "5cd459de6dffc1a52f9cb76a3494cbe31d7e5238d9c088a9e563e4e92ef22164",
+    "prior_attempts/TOP-30006823-A1_api.json": "61c4cb0e44ad3273b3b3c25b53e269076bfb3733ac32fc28d40eb9fe39b26c2d",
+    "prior_attempts/TOP-30006823-A1_manuscript_api.json": "cd8d6fb308e297fc78505a4cc918d84b32066c5a15a4100fd260c9de1e3a3541",
+    "report.md": "1901a1701d62a331dd109416900f0f9a918d53daef6453938cdb058b8be5f443",
+    "source_notes.md": "edb3598f878a43cee0de1e9ed04a385eb5f15e8065830116ffbcfb3d405fae5d",
+    "verification.json": "1e142d62a0912a01f07f1690f480e2617a0175ac783deff39da580373e05ae4e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:30:13.983898+00:00",
+  "actual_checks": [
+    "Read exact all-fixed-moduli ACC majority prompt, full prior and all current inputs. Primary lemma uses fixed agreement advantage overF2; report90percent case is valid and odd-length restriction handles strict versus nonstrict majority.",
+    "Independently verified random linear OR polynomial pointwise error2^-t, AND complement, exact parity affine form, and union over original gates despite sharing. Substitution degree<=t^d and averaging give one polynomial agreeing90percent, forcing log(S)^d>=Omega(sqrt n).",
+    "Binary generating-function identity gives weight bitj as elementary-symmetric polynomial of degree2^j overF2. Explicit conjunctions and parity/low-bit test simulate every fixed MOD2^a in polynomial size/constant depth. Repeated-wire multiplicities can be reduced modulo fixed2^a; constants and m<2^j yield zero coefficient.",
+    "No distinct-prime composite-modulus simulation or all-ACC conclusion follows. Deep approximate-degree lemma credited, not independently reproved. Source-only zero executions."
+  ],
+  "primary_sources": [
+    "Rossman-Srinivasan,Separation of AC0[parity] Formulas and Circuits,Theory of Computing15(17)(2019),primary20-page published PDF,Definitions3.1/3.4,Lemma3.2(Smolensky-Szegedy),Lemma3.6 and majority convention freshly read. https://theoryofcomputing.org/articles/v015a017/v015a017.pdf. Exact historical original lemma not claimed newly reproved. Retained09_details.json."
+  ],
+  "prior_work_distinction": "Prior DNF/CNF,real degree and torus countertests lack composition-stable modulus proof. New robust probabilistic-F2 construction plus all-power-of-two reduction supplies a substantial stronger restricted lower-bound theorem.",
+  "scope_assessment": "Majority is outside nonuniform polynomial-size constant-depth circuits with AND, OR, NOT and MOD_{2^a} gates for every fixed a≥1. A full reduction of MOD_{2^a} to polynomial-size AC⁰[2] is proved, and the parity-modulus lower bound follows from the credited Smolensky–Szegedy approximate-degree lemma plus an explicit probabilistic-polynomial construction. Moduli with distinct prime factors remain outside this result.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

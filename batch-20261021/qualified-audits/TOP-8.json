@@ -1,0 +1,57 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Substantive problem-specific reconstruction of the spoof-factorization barrier, with an exact positive seed defect and a fully proved infinite formal extension. Literature report correctly separates positive prime factorizations from generalized negative-base lists.",
+  "actual_checks": [
+    "Checked 22021=19²·61, sigma(22021)=381·62=23622, and formal 22022 cancellation. Pairwise coprimality makes the actual product abundancy 2·23622/22022>2.",
+    "Algebraically verified the extension identity by cancelling S. With a=1, x_next=−(x²+x+1); oddness, x≡1 mod4 and |x_next|>|x| for |x|>=3 hold inductively.",
+    "The new unique odd exponent moves to a negative base, so represented products after the first extension are negative. No positive perfect-number conclusion follows. No unproved primitivity/coprimality of the extended lists is asserted.",
+    "Checked the source's fixed-k finiteness theorem requires nontrivial odd primitive lists; increasing base count is compatible with finiteness for each fixed k."
+  ],
+  "prior_comparison": "Read full retained prior Euler-shape/abundancy/prime-chain manuscript, including exact-exponent and valuation caveats. It does not contain this formal spoof extension or explicit seed defect.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/2006.10697",
+      "version": "2006.10697v1, 18 June 2020",
+      "locators": "Definition 1.1; Descartes introduction; Section 6 equation (6.1), primitive definition and Theorem 6.2",
+      "retrieval": "coordination/qualified_number_first_half_primary_02.json; _03.json; _04.json"
+    }
+  ],
+  "limitations": [
+    "Pinned-v1 URL failed but unversioned PDF explicitly returned v1. The 21-list computation and massive historical enumeration were not rerun; only the stated theorem and local application are credited.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-8",
+  "reviewer": "/root/sol_ultra_numbers",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "fd52c76229b161261891686780b57d9bfd691b45c37073f5168654b39abf0e45",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "fd52c76229b161261891686780b57d9bfd691b45c37073f5168654b39abf0e45",
+    "source_notes.md": "32c37a9f2a7ff70215cdf287dd0905942118385ac2be356d0acdec1615a3bf92",
+    "author_record.json": "7391f027ed2747364a0b24443108dad0ba8244d9194bee6ea1d74fbaf9f4cb80",
+    "official_prompt.txt": "ad7e2ad9b3cf2c299f2de80b9c6e941a841afcb27322414276a4e34bc8f5b1cc",
+    "official_prompt_api.json": "2419eb76e63407b5bd988ba334a06e69e1cba0ff31443adee0085ebabcf03950",
+    "official_metadata.json": "abbb749008a6e10cad6ed9983d290f027d053ca959ab4fcd1255569c5addd1be",
+    "official_metadata_api.json": "98f6d1def54d309d0f8d5d462a771735360663bb1ea6bdf3b7cc8140f0a0fe4d",
+    "contribution.json": "9fceb5f603a00f5f88e374076c77d1361b1bccd276252a6ac818b7e2e98751af",
+    "retrieval.json": "0283d732bc4701079e1eb78149a8626c62a686d214cdfdf30089bc869c4e251e",
+    "prior_attempts.json": "4284e46351681bc6a4b52d81b8e5135f1731dffc4e03c25fac6128204df525e1",
+    "prior_attempt_01_api.json": "88e16fc5dc356529f9aae70156a0d0f209a43cae3b423325ba2f5c37059b7ae5",
+    "prior_attempt_01_text.txt": "4a5d66043ffb5651062b8cb90b46bca3706b60bca7fb4124cb562d42c0b99fb0"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_numbers_first_half_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:28:43.537405+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

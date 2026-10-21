@@ -1,0 +1,56 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2875",
+  "canonical_problem_id": "prb_133f7a4572984a0292c76a5a9bd11ea4",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:23:15.100831+00:00",
+  "checked_report_sha256": "aaddbf89dcea6bbbe73e5a7d2c3212a9b1858469bfd5f50305ed6dbc1845121e",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "1312c0b5fb0589a648e834e72e3699e77208d615f69bf777fccc8cf9ef69354d",
+    "contribution.json": "b99083db2fa55bde93233a091bd369193fa66e56795c12002079bdf51b006dc7",
+    "official_metadata.json": "0de6656c305cb7e92af5e67272145fa071cac8c125e76b1bac2fdebe5ef9a59c",
+    "official_metadata_api.json": "6ee587641b388f6935f8ee88667dc1724d255c1ec6a9df1b33874d01dc511701",
+    "official_prompt.txt": "cb8c2763b08c6bf0134a003cbb906c3f77d870b1d615625fe1d315c68a174456",
+    "official_prompt_api.json": "e5140b180b87fa1bbbf756c649e1d81c336b0e5fe349c95ed075b2b2dbfeca1c",
+    "report.md": "aaddbf89dcea6bbbe73e5a7d2c3212a9b1858469bfd5f50305ed6dbc1845121e",
+    "source_notes.md": "8d9f466c4066ac4b3c1a38774b70c1824e84f0406c8ab55df1c777895c9d9a86"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Full literal orientable-filling prompt and all exact source/report/provenance files read; no priors. The substantial contribution identifies why the closest published infinite-family construction misses the orientable hypothesis and proves why its natural upgrade fails, without asserting a universal nonexistence theorem.",
+    "FKR Theorem A supplies compact hyperbolic fillings but the introduction explicitly labels their constructions nonorientable. The folding involution would need to reverse boundary orientation to obtain an oriented filling.",
+    "For a free orientation-reversing involution on a rational homology 3-sphere, transfer over Q identifies quotient cohomology with invariants: only H0 survives, giving chi=1. The closed odd-dimensional quotient has chi=0, via its orientation cover and multiplicativity. The same argument holds with top degree 2k+1 in the general odd-dimensional statement.",
+    "On an orientable boundary, w1 of the filling restricts to zero because the outward-normal line is trivial. Therefore the orientation double cover restricts to two degree-one boundary copies, not the single copy required. No imported Magma computation is rerun or claimed performed."
+  ],
+  "primary_source_checks": [
+    "Ferrari–Kolpakov–Reid, Transactions AMS 376 (2023), 1979–1997, DOI 10.1090/tran/8816, actual author-hosted published offprint https://math.rice.edu/~ar99/FKR_Trans.pdf. Theorem A, introductory orientation limitation, Lemma 3.1 folding construction and Lemma 7.10 checked; actual introduction and quotient lemma evidence retained in qualified_topology_primary_retrieval_15.json, _20.json and _21.json (turn1725view4)."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Ferrari–Kolpakov–Reid's published infinite families geometrically bound compact hyperbolic four-manifolds, but those constructions have nonorientable fillings. A rational-cohomology proof shows that their free-involution boundary-folding method cannot be made orientable for an odd-dimensional rational homology sphere. The orientation double cover supplies two boundary copies, not the single boundary demanded in the prompt.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3257",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "394829413956b9f18374a8124fe387835b3091672d0dec49c8e211dee62cfaa6",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "394829413956b9f18374a8124fe387835b3091672d0dec49c8e211dee62cfaa6",
+    "source_notes.md": "fe034d0a997e2c810aa5215d371d972f941f0de2c1174a57ec4fec8340debced",
+    "author_record.json": "369bba9b8a1a723844d91f80e87e9799cf897cdc861f94213f9a2adfbd4f4c29",
+    "contribution.json": "104d93f31f1331528730ea878108fcaf23d2150112ff0dd9dd7aa7274deb9bc6",
+    "official_prompt.txt": "eeaf01ae83c4562f6528f473edfb00cb4012ded1226cbce7f29f6c68c6efb9f9",
+    "official_prompt_api.json": "f403fa6adf10ea090514f02a44a85d8d43a04867171895825df0f98b5776e5ab",
+    "official_metadata.json": "c6e8d2bf44a9820abc6aec3d7c6aad7b6e0f51b4f757692fedf0af55ee4d8950",
+    "official_metadata_api.json": "d74513759c6ca191fce5894fe6d0fe3aec90be488bfa6c3db27f06f6398148bd",
+    "prior_attempts/attempt-1.txt": "3ab91f06ac00b39e35240deda8677c6f30a830a8fa76a29ef909b6c0d56c67ee",
+    "prior_attempts/attempt-1_api.json": "61286878fdd058ee65532455f9bf565716d2231e48b63a9b941ca7e07e7d9cfe",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "400f29851e167aa6a4c0239be9a8bb7ef54a9c005050a77b48bdf392d84f6b94"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked the primary university research abstract for the exact all-tournament theorem: minimum outdegree at least 2k−1 gives k vertex-disjoint directed triangles, without an extra minimum-indegree hypothesis. The separate asymptotic result has the quantifiers every ε>0, then sufficiently large k depending on ε.",
+    "Checked the regular cyclic tournament obstruction for every even k=2a: n=6a−1 is odd, exactly one opposite residue is selected, every outdegree equals 3a−1, and k disjoint cycles require at least 3k vertices. For each fixed c<3/2, sufficiently large even k satisfy 3k/2−1≥ck, excluding any smaller universal asymptotic coefficient.",
+    "The report separates the exact sufficient threshold, sharp asymptotic coefficient, and unsolved endpoint/additive constants. The prior symmetric matching theorem, circumference bound, and failed shortest-cycle induction are distinct; its contextual literature claims are not assumed here."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://portal.findresearcher.sdu.dk/en/publications/disjoint-3-cycles-in-tournaments-a-proof-of-the-bermond-thomassen/",
+      "version": "Bang-Jensen–Bessy–Thomassé, Journal of Graph Theory75(3)(2014),284–302; DOI10.1002/jgt.21740",
+      "locators": "Author-university primary abstract states both the exact 2k−1 triangle theorem and the ε-dependent asymptotic cycle theorem.",
+      "retrieval_refs": [
+        "turn1855view0"
+      ],
+      "access": "Primary abstract and bibliographic record read. Full deep proof not independently read or certified; author notes record attempted full-PDF timeout."
+    }
+  ],
+  "distinct_significant_scope": "Credited complete tournament-class resolution at the exact conjectured threshold, stronger triangle conclusion, and a proved unbounded regular-tournament obstruction explaining the sharp asymptotic coefficient, beyond the earlier symmetric/circumference slices.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:32:53.320709+00:00"
+}

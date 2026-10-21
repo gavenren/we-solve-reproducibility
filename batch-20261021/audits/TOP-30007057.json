@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30007057",
+  "canonical_problem_id": "prb_d14af488a14149b7a6b9f17b19c00542",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "1fee7ef45afa48dcf4ee280afa1a13f467c5021c4ec31b968a06bcccc8c25687",
+  "report_sha256": "1fee7ef45afa48dcf4ee280afa1a13f467c5021c4ec31b968a06bcccc8c25687",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "531dbc93d29d5c0d2b68be02aa0a109d5c31a3b48deaea0c877e2f289e558fd6",
+    "contribution.json": "bfe5f8931009811fc50dbfa73a87c53c21d705b4793028e52abf118b0d4aa0c4",
+    "official_metadata.json": "469ca11925a0c249c917828d78d8130e43b26ca34eac7922a90d420cc91d3435",
+    "official_metadata_api.json": "8727ec25a81aeee8965cd0b5007fe9ff91f9ddbb45c2d978414bca048114c1b0",
+    "official_prompt.txt": "1efef7987cd936f87151b156170e4d8bd6109c377f52791f1484e3ffc7da65f0",
+    "official_prompt_api.json": "44b1f90d579ac80aabeffdd24d9fba295923d4243a5d8171102c10ecf3d3f7cf",
+    "prior_attempts/TOP-30007057-A1.html": "3f312f8388993b4977384dc577401a70c92e0450a622ee99be64b034daa9124d",
+    "prior_attempts/TOP-30007057-A1.json": "03df65cc2e17e906d067aea58d5a67da306bbdf13d39cbbf42adcc262b5b1934",
+    "prior_attempts/TOP-30007057-A1.txt": "8c402157edf380e4d36dd50c3402bf71022ff6ca65c31f263d36574d114be188",
+    "report.md": "1fee7ef45afa48dcf4ee280afa1a13f467c5021c4ec31b968a06bcccc8c25687",
+    "source_notes.md": "4dd838676bcea23190540ee8d2c7ead13f028db6b384aba60e4451269eae88a9"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:27:21.688936+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked exact complex projective klt surface, rational coefficients, pseudo-effective K+B and nef rational Cartier M hypotheses in CorollaryC; conclusion is a semiample numerical representative.",
+    "Checked nontorsion Pic0 example on E times E, every positive tensor power has zero global sections, numerical class0 and actual zero semiample representative; no false literal counterexample claimed.",
+    "Checked Theorem8.2 effective representative plus small rational klt perturbation/surface abundance/rescaling, and the explicitly restricted smooth q0 Riemann\u2013Roch computation including H2 vanishing by ample intersection.",
+    "Read entire priorA1 broader unverified manuscript. Higher-dimensional theorem and arbitrary characteristic-zero field descent are not asserted."
+  ],
+  "sources": [
+    "Lazic\u2013Peternell, actual33-page primary arXiv1808.00438v2,6Sep2018 PDF https://arxiv.org/pdf/1808.00438 (version-specific URL failed): CorollaryC printed4, Section8/Theorem8.2 printed29\u201330."
+  ],
+  "limitations": [
+    "Source/proof-only; no programs, zero checker executions and no formal verification.",
+    "Deep cited theorem proofs are imported with exact scope checked, not fully reconstructed analytically or categorically."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

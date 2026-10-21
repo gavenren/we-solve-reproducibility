@@ -1,0 +1,7 @@
+# Sources and prior comparison
+
+Fresh literal prompt, metadata and full earlier manuscript were read. Prior scope: measure bound below1/(2k), periodic endpoint, modulus(k+1) sufficient class, piecewise-linear optimization for one integer tuple. It warns that pairwise irrationality does not imply independent phases and does not solve the codimension-one real-speed case. This report proves the exact orbit-closure optimization there, rather than repeating the prior measure argument.
+
+Tao actual primary PDF opened: arXiv1701.02048v4,2November2017,31pages. Read introduction, normalization of n nonzero relative velocities, Theorems1.2 and1.3, and discussion of finite versus uniform verification. The report does not import an old small-runner record as current, nor claim that the abstract's runner-count wording overrides the prompt's explicit1/n convention. Its theorem is a direct classical Fourier/torus argument supplied in full.
+
+Checked saturation of the relation lattice, primitive row completion by integer Euclidean operations, positivity of time-average test functions, and the distinction between dense orbit and attained maximizing point. The exact l1 optimization includes zero coefficients, signs, parity, and the case k2 whose endpoint requires closed periodic orbit. The all-runner corollary uses invariant affine rational rank, not pairwise irrationality. No code was attached or executed; no formal or separate review is claimed.

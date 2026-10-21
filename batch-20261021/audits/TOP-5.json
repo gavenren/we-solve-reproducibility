@@ -1,0 +1,61 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Substantive literature account of the joint BSD/finite-Sha majority theorem and a quantitative thin-family comparison tailored to the extensive retained congruent-number search. Literature report accurately retains the universal-rank-equality gap.",
+  "actual_checks": [
+    "Primary v2 formula (1) counts rank equality AND finite Sha jointly with liminf strictly >0.6648. Separate 16.50% rank-zero and 20.68% rank-one lower bounds are not summed to manufacture 66.48%.",
+    "Verified unique minimal integral short-model height max(4|A|³,27B²), and #E(X) asymp X^(5/6): squarefree positive A guarantees no p^4|A and nonsingularity; excluded square divisors are bounded by U sum p^(−2)+sqrt(U)<(3/4)U+sqrt(U).",
+    "j=1728 implies B=0, giving O(X^(1/3)) models and relative O(X^(−1/2)). Squarefree congruent-number models have height 4n^6 and are minimal, giving O(X^(1/6)) classes and relative O(X^(−2/3)).",
+    "A positive global liminf gives infinitely many successful classes and complementary upper density <0.3352, but imposes no positive proportion or individual result on a specified zero-density family."
+  ],
+  "prior_comparison": "All three retained bodies read, including the complete long A1 search/proof/error-bound record, its numerical tables and all listed point witnesses as historical data (not recalculated). A3 summarizes unverified low-Selmer converse/Goldfeld claims; A2 gives conditional descent/analytic certification. A1's four passes concern congruent-number and non-CM finite searches; the joint height-density theorem and thin-family count are distinct. Prior numerical or claimed analytic ranks are not accepted as theorem inputs.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1407.1826",
+      "version": "1407.1826v2, header 17 July 2014; internal 18 July",
+      "locators": "Theorems 1–3; displayed formula (1); minimal-model definition and height; explanation of separate versus joint percentages",
+      "retrieval": "coordination/qualified_number_first_half_primary_01.json"
+    }
+  ],
+  "limitations": [
+    "The deep modularity, Selmer-statistics and Euler-system arguments are imported and credited; not independently reproved. Historical computation, point certificates, enormous coefficient arrays and analytic quadratures in prior bodies were not rerun.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-5",
+  "reviewer": "/root/sol_ultra_numbers",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "4583f00373f1c14f73b21dbeb24909ac1e9e5bf335d27f7c9c2591d3129bf68b",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "4583f00373f1c14f73b21dbeb24909ac1e9e5bf335d27f7c9c2591d3129bf68b",
+    "source_notes.md": "270db419d6068f6f9349ed1e4b14ec6d1fbecd6432fc1d7532924a74e1de947a",
+    "author_record.json": "a98dfd22b3c6aa874329bd3967cf8dbcd57fd5e8567790a091eb18fe87f36a2f",
+    "official_prompt.txt": "cedd2e8577f7c2066dcfa0703cd74bcf41ed86f4b2b53ef4a1c6a4354ffb46a6",
+    "official_prompt_api.json": "ceff6044d937795d07051de76beef648488b653eabbadf0a6f9660c8f033965a",
+    "official_metadata.json": "38ee6bf2a8548edef52cb3434ee70fc84b0bacf87b3e78b02fe5dae810c5edc9",
+    "official_metadata_api.json": "5a380fc1cfa9282861b89c2107bfe0cbe0d71a9bdb90056a42c81550d7ad983b",
+    "contribution.json": "42773ffd49fb1bb1d9a97ce0c3140424114fbc0e1243211dd990c7e1c32a52a9",
+    "retrieval.json": "06d34bf247b3f4c1b2d024a7ecb97a0318a9fb0734d04731452eecc5ce83881a",
+    "prior_attempts.json": "0e27756718e8fdc744494d46fa6cf729a92afad0670415c3c73e189e9f2a788e",
+    "prior_attempt_01_api.json": "d1b4dec2a6b3dec3dfd33ca3c9f3ffbc85b13063cba36b879b197960c601a012",
+    "prior_attempt_02_api.json": "4057d80c4435add09b6241d0dbc421c7b97edff3aebe9e3cf3eaeece1173a41f",
+    "prior_attempt_03_api.json": "492ffc7d7505cd3c8f267d12a2bd7f857fc017753afe5f7a1f45211387ddb05b",
+    "prior_attempt_01_text.txt": "1946ce8b8ee35ceea394785ae0579d6dced7006fb95c1be6c8e9049c8b6e4cf4",
+    "prior_attempt_02_text.txt": "6abba1295b0a9d31387b781eca8127ad6a6d6a40ec3c3339f504fba326e715b8",
+    "prior_attempt_03_text.txt": "689201aa0aba1a2ec0b365d3ab0d124eaeb950d729d89ff23a2c57ef917a6205"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_numbers_first_half_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:32:56.300154+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

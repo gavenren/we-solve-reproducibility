@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006546",
+  "canonical_problem_id": "prb_f052dcf9262d4ca29e1c224267771508",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "b54136289d9d25f174d0d29a7ae74b202e0079ac591e33cec519d4122abe74dc",
+  "report_sha256": "b54136289d9d25f174d0d29a7ae74b202e0079ac591e33cec519d4122abe74dc",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "2996358f3878db364a9b173a73fae751f7248c48381b4b10e236c50a274536f3",
+    "contribution.json": "a6f7d49d3020d882f14ebd7a6535362d1a1df11fef023ae1a5456184fb935320",
+    "official_metadata.json": "5357dff87f3cf791aefffeb4546563b23544fa2a7973f526c34c390817113bfb",
+    "official_metadata_api.json": "8740793b2c5f36c1f865367732d51f1099ff3fef76dd7166764d4c33e3725367",
+    "official_prompt.txt": "90591f30ef979fb96e6e4434f260de0ad75419758a30cde211c1985bc84fea92",
+    "official_prompt_api.json": "9af495370c1b2c5e57707ddc238264bae8a5d75b7fdc46423f6f59b3f8828fa8",
+    "prior_attempt_1.html": "2df40652e3e6e83f5e3701c6b6cba370c529edfa5477885e621af5ea17c138e1",
+    "prior_attempt_1.txt": "6829db4acc4431512d23a17c056d025dd61c9e5b9e7cb930fcbbf72d794619f9",
+    "prior_attempt_1_api.json": "64bd96b3a240fa14ee87011aaa44e93f199f878cacf4095f679fad57f9cbde09",
+    "prior_attempt_2.html": "4b92619924dc304be175ce67d2e180b31629c6b425e81a69fec77f1c76ba1bf2",
+    "prior_attempt_2.txt": "86034e540b537fe9a6fedafca288cd4216c7171aebc5312cebb43aeb81758118",
+    "prior_attempt_2_api.json": "dad5345d314f7ae87b5fb2759e9b353832177308e793e2f8cc7e71dd55046d07",
+    "report.md": "b54136289d9d25f174d0d29a7ae74b202e0079ac591e33cec519d4122abe74dc",
+    "source_notes.md": "15f9a1ea342ec1a216f63f7d4caaa16d497f93057798bc8ae07388eccd3651f4"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:15:08.635805+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Reread final report after the requested finite-theorem correction: its spherical statement now explicitly requires n>=3 and r>1, matching Dumer Theorem1. Checked S_r^n in R^(n+1), unit-ball cap density and the separate all-space R^n Corollary2; no arbitrary-radius solid-ball theorem or lattice theorem is asserted.",
+    "Checked exact finite residual (1/2+3 log log n/log n+3/log n)n log n and its expansion; the two error terms are o(n log n). Reviewed the proof endpoint's residual-cap alteration, which covers every point rather than only a typical point. This is a credited upper bound, not an optimal asymptotic order.",
+    "Checked v2's actual Addendum: the published chord-ratio cap estimate was incorrect, the correction involves arcsin radii, main Lemmas6-8 did not use that formula, and preliminary residual estimates were changed. The report explicitly selects the corrected20May2018 version.",
+    "Read both earlier full contribution summaries, including Kominers' multi-coverings and the unverified universal lattice/worst-case-body claims. The checked half-leading-constant ball bound and version correction are distinct significant literature scope. Lattice upper bounds may transfer to translative covers; lattice lower bounds and worst-case other-body lower bounds do not establish a matching ball lower bound."
+  ],
+  "sources": [
+    "I. Dumer, Covering spheres with spheres, arXiv:math/0606002v2,20May2018, actual11-page primary PDF independently opened as turn1625view0; Theorem1/Corollary2 p2, and proof endpoint, large-radius discussion, further directions and Addendum p10 reopened as turn1639view0."
+  ],
+  "limitations": [
+    "The full analytic theorem is imported, not independently reconstructed or formally verified; auxiliary numerical inequalities in the source were not rerun. The source has a dimension-index discrepancy in its final explanatory limit line; this report correctly uses stated Corollary2 and does not certify that literal line. The original1959 lower-bound proof was not separately audited. No program; zero runs."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

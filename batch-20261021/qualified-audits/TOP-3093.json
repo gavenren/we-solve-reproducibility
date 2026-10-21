@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-3093",
+  "canonical_problem_id": "prb_83f74616bc9443b3bd906aad084f2b58",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "7d7cc76c740ba5090fced8d291dd34aaa3d8f53988f86a2f394f869d14a6278d",
+  "report_sha256": "7d7cc76c740ba5090fced8d291dd34aaa3d8f53988f86a2f394f869d14a6278d",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "735a5a64d951f0101fb61263aa8a0623d0e8aec8322eb5105527bc157f02f411",
+    "contribution.json": "dd9aea410107177f726453661d13f658499d7a5e0b79a70e1023f8ede025f8ae",
+    "official_metadata.json": "2823b053c9604ca0d24c21574cf24cfa1a316ca5010c18d3615a6216920180f3",
+    "official_metadata_api.json": "531a16e3695f26639741b6573206aaa858bd8a6be8f952fceb79d56da4357e8f",
+    "official_prompt.txt": "1a4b85c7e14eddac13f3de16b0f526df19d6ac72963f730658b7541483fe3219",
+    "official_prompt_api.json": "516cece7956cc6a247c551b1d6b41fe69c9297e56e7bfea747dbfe6d5492117f",
+    "prior_attempt_1.html": "d1103b8221691196624f97ae6393b9b53355b9e0cd0d8c84c0418bddc2c097e5",
+    "prior_attempt_1.txt": "edea40934d4448468f1adaac39a3899f9193a177247685cb5383efd648a25270",
+    "prior_attempt_1_api.json": "89955aa3cfed7b82550ddb2b241f2491655a0de78e01c87f96a7dd052178528b",
+    "report.md": "7d7cc76c740ba5090fced8d291dd34aaa3d8f53988f86a2f394f869d14a6278d",
+    "source_notes.md": "e247b8ee53ec2d3b78a7246b710a146de9f19c6884d695442556b1e9e3c0e5cc"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:06:47.524493+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Compared full earlier centrally symmetric two-piece manuscript; arbitrary nondegenerate triangles add a distinct nonsymmetric family.",
+    "Independently checked separation-to-halfplane partition, p+2l interface accounting, three corner cases, ts=1/2 parameter range and law-of-cosines square length.",
+    "Verified constrained strictly convex minimization at clippedv/(2u), all endpoint candidates are medians, global minimum across three corners and longest-median maximum. Checked equilateral normalization and out-of-range stationary cases."
+  ],
+  "sources": [
+    "Opened Nandakumar primary question22Oct2015: https://www.openproblemgarden.org/op/convex_equipartitions_with_extreme_perimeter (turn1557view1)."
+  ],
+  "limitations": [
+    "Elementary separation theorem is used with stated convex/closure hypotheses. Quantitative formulas are directly checked; no unproved greedy source conjecture, general n theorem or numerical optimization is imported."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

@@ -1,0 +1,66 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-30006965",
+  "canonical_problem_id": "prb_9e66d33ac28049c6ae6668ea41463564",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:37:14.549204+00:00",
+  "checked_report_sha256": "44c3f92819375cffc64fc80b91bd2231f8bc47a0365581cdae7add8d0ff724e5",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "2bbf5efe87424f22bb90ae05a2e754d339010d05eddfc84a3a3d8714bf6985c0",
+    "contribution.json": "20f760ab01a8474b58912a8dda78b607831a894534091aea177aacbf9d39f7df",
+    "official_metadata.json": "40b5b5d266c50b2161cd0eaace17753accb86fd795aa848c27bf681abe197af5",
+    "official_metadata_api.json": "0021a1ab779b2e1e4b5da01ee071be6d878ce801a352bc17873c0b4a321df74c",
+    "official_prompt.txt": "0b910dae0d2a51baac3f922d4fb507c84f3a88c02fc754f691ee194a7254510f",
+    "official_prompt_api.json": "111febd62a27fe133a9adbf4b2f460aa5ec1a3a7b5a469c1132743d16e24dc92",
+    "prior_attempt_01_api.json": "b6db0057cf7362a540c3f457a13962347b89367388169aa31858be170289caab",
+    "prior_attempt_01_text.txt": "62be09a3c35e82cd880f9571f0d0f32d3eb6f53d0129f6c4a3d578e9a2ab8c77",
+    "prior_attempts.json": "8731f8a38ea7440774d535ab9c2c78845246226de6e5228e5c3c7c59b166b7c7",
+    "report.md": "44c3f92819375cffc64fc80b91bd2231f8bc47a0365581cdae7add8d0ff724e5",
+    "retrieval.json": "721c071db81e3b9f651115121008618b62e8082cd3d3a38368ea04ea9b15bfc1",
+    "source_notes.md": "ce64a9bee8cf573cfebae2ec26b26ee52d3cd62cb72c22c46c8fe94439418834"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8abd348b18f67b61cb97e7fa72eeb990a89587d29cbab694915ecac22cb2ece3"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact report, literal prompt, provenance/source records and entire retained general-density/toy-entanglement prior read. The report adds an actual Jones–Zywina curve, exact prime-order exception and field-extension persistence, rather than repeating abstract independent-event warnings.",
+    "For y^2=x^3+9x+18 cubic discriminant is -11664=-2^4*3^6 and Weierstrass discriminant is 16 times it. Source conductor 2^4*3^4 confirms precisely bad primes 2 and 3. At p=3 mod 4, discriminant nonsquare means Frobenius is a transposition on the separable cubic roots, giving exactly one rational nonzero two-torsion point and even group order.",
+    "At p=1 mod 4, P=(-3,6i) lies on the curve and tangent slope -3i gives 2P=-P, with P nonidentity and valid nonzero denominators for p>3. Thus 3 divides the order. Hasse lower bound exceeds 3 for p>=11; p=7 even order is at least 4; at p=5 the only affine x is 2 with two y values, giving order 3. These establish exact good prime-order set {5}.",
+    "The credited individual densities 2/3,3/4 and joint 5/12 give zero joint avoidance despite positive marginal avoidance, with common field Q(i). The actual torsion/discriminant dichotomy acts on every joint-level-six Galois element, so delta_E(6)=0 and the corrected C_E is zero; it is outside the literal positive-constant conjecture.",
+    "The same square/nonsquare -1 dichotomy works over every finite residue field of characteristic >3 after arbitrary number-field base change. Its orders have a factor 2 or 3. Prime order then forces residue cardinality <=(sqrt(3)+1)^2 by Hasse, yielding finitely many prime ideals of each fixed K without a disjointness hypothesis. No fixed-curve positive-constant asymptotic is claimed."
+  ],
+  "primary_source_checks": [
+    "Zywina, arXiv:0909.5280v1 (header 29 September 2009; internal date 10 November 2018), actual primary PDF Section 1.1 and torsion-field explanation checked. Source explicitly credits Jones, states no rational isogenous torsion, conductor, individual/joint densities and p=5 exception. Retrievals 23,24,26. Numerical densities and no-isogenous-torsion assertion are credited source facts; the finite-field obstruction and boundary arithmetic are independently checked deductions."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Reconstructs the concrete Jones–Zywina entanglement obstruction for y²=x³+9x+18, proves its only prime-order good reduction occurs at p=5, and extends the divisibility obstruction to every number field. Explains exactly why this is outside the prompt's positive-corrected-constant hypothesis.",
+    "listed_prior_count": 1,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

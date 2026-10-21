@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-3312",
+  "canonical_problem_id": "prb_a70b3b4022ad489ca997fb6ee2a4b949",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_graphs",
+  "verdict": "PASS",
+  "checked_report_sha256": "d695dd5825310801628d12ce929bb5a354fda009a19b005014805d196a37e4c1",
+  "report_sha256": "d695dd5825310801628d12ce929bb5a354fda009a19b005014805d196a37e4c1",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "author_record.json": "5070c7edf2e7b481f508bb32308f724bdaaaccc8d89a72eb34fe5e9e6bb3fb5c",
+    "contribution.json": "0bc7b19a24710c0251e292dc664bcc32b4e6a8ae3c4e6a16b07a24ae91ec4e03",
+    "official_metadata.json": "cd3a69d51121d6dbb8c3b0fc750f9a7563aa8dff796c993b8218560ce570beca",
+    "official_metadata_api.json": "509fff6d4dcae46d6e6bfdf9913715310f65b1ecc5fb17262b96845da93d1596",
+    "official_prompt.txt": "308907b921bc1320684326e974ab6110c4be3f809a209947c53822b8c4edc25c",
+    "official_prompt_api.json": "ee1678a43635936edbda5be32d5d4095ec9de42d5534ef9b0af8fbb4cfc245d5",
+    "prior_attempts/attempt-1.txt": "b9e74b44aee3691c7490c9a9e69f84f3003cf55e51a27d3301ff416836183012",
+    "prior_attempts/attempt-1_api.json": "4df6e971afa6608168500f6ed04aee8f41debf8749e592f6e3e06e2b58ebf6bb",
+    "report.md": "d695dd5825310801628d12ce929bb5a354fda009a19b005014805d196a37e4c1",
+    "retrieval_record.json": "95a55f7e775fc6f1911faf8db845e2495b875f13eb62cb8aacdc8f446baeb1d9",
+    "source_notes.md": "095d4c00489e62dc56b56bcfc748fba5522049a4c17a8f620a79f8752c7e5c08"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:33:38.454944+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read the complete earlier contribution, which reports the numerical counterexamples but proves only degeneracy/triangle-free cases. The new profile-gluing mechanism is a substantial distinct exposition, explicitly credited.",
+    "Independently verified the edge-amalgamation formula: if both shared adjacent terminals are selected, the retained shared edge prevents a forest from containing an alternative terminal path. Checked all four profile sums and the 29-vertex order.",
+    "Checked the exact 52-vertex edge construction, t+epsilon<=1 triangle obstruction, attainment by three terminal-avoiding forests plus z, and the disjoint-union/triangulation extension for each positive integer k."
+  ],
+  "sources": [
+    "Opened arXiv:2608.23260v1 HTML (24 August 2026), Section 2 profile equations and edge amalgam, Section 4 Theorem 4.1 and Corollary 4.2, Figure 5 edge specification: https://arxiv.org/html/2608.23260v1."
+  ],
+  "limitations": [
+    "Independent mathematical/source review by an LLM; no formal proof certification, novelty-priority decision, or editorial acceptance.",
+    "Finite gadget profiles and source planar embeddings are credited primary inputs; their exhaustive searches, minimum-order enumeration and alternative case analysis were not rerun. This review certifies the reported source/theorem use and conditional structural derivations, not an independent computational reconstruction. Zero program executions."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "actual_program_run_count": 0,
+  "formal_verification": false
+}

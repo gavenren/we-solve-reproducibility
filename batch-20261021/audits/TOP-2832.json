@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2832",
+  "canonical_problem_id": "prb_347f955c49b7408ca9392aab1b817e75",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:19:40.953313+00:00",
+  "checked_report_sha256": "1bc3f6f9a25163d6ff9081cc15c98ec34c76450c38df3832e7c2c156ec6cd673",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "7b4424eac2d313ddeefa05e922a62e3e51fb4e4aa88334c9b7275c58beb1ccbf",
+    "contribution.json": "f6c1f535ccf8f7df9799bd6fea0ec9e0f78faabb9e989cea15da6925f9783194",
+    "official_metadata.json": "c95197e0c949e79062677da46115fe640da0330eb920e6c01d07d0ffb3078114",
+    "official_metadata_api.json": "b2cbd2aced712fad05d237771b0fb314a55ea8568e01de89b4123da42f77f733",
+    "official_prompt.txt": "4d8ebbd10c3dbb59f16e9cc4ac599f1698ac8180c60706f65a74e95d95fe2c8e",
+    "official_prompt_api.json": "c37e17b753c5a5108667584f7750cc92777083efd7b37be46519384c2ad4521d",
+    "report.md": "1bc3f6f9a25163d6ff9081cc15c98ec34c76450c38df3832e7c2c156ec6cd673",
+    "source_notes.md": "4a8ae7740006d9c2d8bfec2a15799c92751c6c4e68b81e158f71cd58beb30e73"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Read full report, exact unordered equal-genus stabilization prompt and records, no priors. Confirmed lower theorem uses surface isotopy allowing side exchange; upper theorem explicitly covers oriented and unoriented conventions.",
+    "Checked p=q=g substitution, integer floor and number of stabilizations; genus0 separated. One stabilization of genus2k−1 endpoint yields equal genus2k pair; transitivity makes every common stabilization also common to original pair, hence genus≥3k−1 and ≥k−1 stabilizations each. Ordered flip examples cannot disprove the unordered conjecture."
+  ],
+  "primary_source_checks": [
+    "Johnson arXiv:0807.2866v1 main theorem exact3k−1 at primary p.1 lines29–31; arXiv:1107.2127v1 main theorem and explicit equivalence convention at pp.1–2 lines84–114. Primary turn1700view0,turn1702view3; retained _15/_16. Deep stable-genus constructions imported."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "For the prompt's surface-isotopy convention allowing side interchange, Johnson's theorems give a universal common-stabilization upper bound floor(7g/2−1) for g≥1, and for every k>1 equal genus g=2k pairs requiring at least k−1 stabilizations each. These do not settle the proposed 2g upper bound.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

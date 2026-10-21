@@ -1,0 +1,57 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "A complete nontrivial infinite real-speed subcase and exact codimension-one gap formula, distinct from the earlier measure/congruence baseline. Partial result is an accurate category; arbitrary lower-rank systems remain outside scope.",
+  "actual_checks": [
+    "Verified continuous-time Fourier averages tend to Haar integrals whenever h·u≠0; positive test functions give visits at unbounded positive times. Relation lattice is saturated; primitive a completes to a unimodular row, so the orbit closure is the connected kernel H_a.",
+    "Re-derived exact l-infinity distance of the torus center to H_a as dist((sum a_i)/2,Z)/sum|a_i|, including zero coefficients and both signs. Thus parity yields the displayed exact gap.",
+    "Nonzero speeds exclude A=1; odd A has A>=3. For k>=3 the supremum strictly exceeds 1/(k+1), giving actual times. For k=2 the one-relation orbit is periodic and attains the endpoint; rational rank two means relation rank zero and gives supremum 1/2. k=1 is explicit; n=1 is vacuous.",
+    "Changing the reference runner preserves the rational span of differences; all-runner affine-rank conclusion follows, with runner-dependent times permitted."
+  ],
+  "prior_comparison": "Read the complete prior manuscript. It gives measure separation below 1/(2k), a periodic endpoint, a modulus k+1 class and finite piecewise-linear optimization; it explicitly leaves dependent phases untreated. The exact codimension-one torus optimization is additional.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1701.02048",
+      "version": "1701.02048v4, 2 November 2017",
+      "locators": "introduction and relative-velocity formulation; source provides classical context, while all Fourier/optimization steps used here are proved in the report",
+      "retrieval": "coordination/qualified_number_first_half_primary_03.json"
+    }
+  ],
+  "limitations": [
+    "No small-runner computational theorem or general reduction is imported as a proved result. The phrase rank two in the k=2 paragraph denotes rational span rank; the formula's relation rank remains zero there.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-30",
+  "reviewer": "/root/sol_ultra_numbers",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "d92ae5db763bf08dc59d49f1fd7f139e7d947d5c0cd9afe0bdf56582483f69e8",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "d92ae5db763bf08dc59d49f1fd7f139e7d947d5c0cd9afe0bdf56582483f69e8",
+    "source_notes.md": "b89165cae68646e2dd3a51d917247a7e9ec53dd43c66bae911a44714bce84c68",
+    "author_record.json": "1568ae296f16aeb23dd934daabe248eaa9a718b734a3615ea94b211f9e2846e7",
+    "official_prompt.txt": "26157aa92c852fafbb9c44ec644be1dfc81a2b5f4dfd479a5fc458d73a44539c",
+    "official_prompt_api.json": "4c39966975113a586a0522cb053dc07e097e532797ed8937b79a2022428fefe2",
+    "official_metadata.json": "89ea79d55b095dab307ca11d0eb50317d4fef7ded41790df619a0a3e513035f6",
+    "official_metadata_api.json": "8aa41b87653e4f74e89aa5c63286605c4aaf750e884350707855920f8656ed5e",
+    "contribution.json": "4c5ea7159ee28cfbd80d6727325832fa4f0521817aa396c4956c0bb1467ed790",
+    "retrieval.json": "af2568b092ac9ae600e30c5fa992768a0820bdf896e6b8a92ae241321dc21020",
+    "prior_attempts.json": "0508e55a9287a8bb1fcd3b3aaf53bf4c003b69da9d8deb07999255baaa876be9",
+    "prior_attempt_01_api.json": "2bec6424567f5ffea09dbd0201857dbcfa301e3e14bc0a5253866ce9175c864e",
+    "prior_attempt_01_text.txt": "5d60b9a011aac21fbdc005b7b9f39034feb3e1e93011b1cd32c2906e347dc21f"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_numbers_first_half_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:28:43.545867+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

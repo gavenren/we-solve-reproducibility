@@ -1,0 +1,58 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-1422",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "f3268feb5372c407a268cb2d957fbaade26ab2d8829980c8767fd73f1c3abd8e",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "f3268feb5372c407a268cb2d957fbaade26ab2d8829980c8767fd73f1c3abd8e",
+    "source_notes.md": "f847e5d72e14439c8b39ca21107460ddcd43e49fac97aad1edad7fe9b254e8de",
+    "author_record.json": "6172e4496406ee3251b938b77490a7605c7f405f28a64c91d9909fc429e4a4c8",
+    "contribution.json": "89238c9231b3c1be42c5e33b26b4299fdb243d7c8a69a4d3c936f7898bce1daf",
+    "official_prompt.txt": "4c7a8c6ec271d2a31c269ed3e3c8bc7775d7e84b79f12ef7147b93a474232d07",
+    "official_prompt_api.json": "0c7617c09be92a02152b9dfd3ba44c39a26fea01165c8695215920ff8cb7c215",
+    "official_metadata.json": "0f0235a362c68236736cf8d65efb8362ca5f5bdf9f19b1dd95ab677fb0eda18f",
+    "official_metadata_api.json": "b900c82059a388d6b96546cb7823de70bb5102d0ff393943975abcc3e724a5b9",
+    "prior_attempts/attempt-1.txt": "461ad801aff047312e81b61e84bdd82cfbb2e7dd7941e66e06d280b8a5707418",
+    "prior_attempts/attempt-1_api.json": "77fa5478094a052214879e243e728f14d1a53c83475f696090f4294556c3f054",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "27441e4c67ae29997341f7a61fe16fade8a74d03bfcf07f0240b991cae057464"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked published DOI .012 and Theorem5 maximum-degree<=3 epsilon-before-threshold statement, endpoint-bag Lemma4 and seam mechanism.",
+    "Checked arbitrary crossing-degree stable bags<=r and intermediate bags<=r+1, r=0 boundary, concatenation intervals and precise width convention. Checked median last-bag separator, finite-order additive constants and limsup without false equality.",
+    "Prior body gives elementary3n/4 bound and small exact examples, explicitly without reading full source; present n/6 theorem and seam are substantial added scope."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://fedorvf.github.io/articles/2006/2006b.pdf",
+      "version": "published IPL97(2006),191–196; DOI10.1016/j.ipl.2005.10.012",
+      "locators": "Lemma4/Theorem5, pages193–194",
+      "retrieval_refs": [
+        "turn1790view0",
+        "turn1792view1"
+      ],
+      "access": "Full relevant primary proof read; catalogue DOI correction confirmed."
+    }
+  ],
+  "distinct_significant_scope": "Verified sharp-leading historical universal upper bound and complete general seam/separator deductions, beyond prior elementary bound.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:27:17.868016+00:00"
+}

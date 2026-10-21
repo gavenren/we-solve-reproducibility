@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30007201",
+  "canonical_problem_id": "prb_b2b31fd439094d309cd71fa45fe26409",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "69ab703ab05f65aba8ad33e53da9160c2f7a65453250757a953b01b8a0668dd6",
+  "report_sha256": "69ab703ab05f65aba8ad33e53da9160c2f7a65453250757a953b01b8a0668dd6",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "a0e5ff6186cd833bea021cdbf8b37e7e467f1047aed5bf95940cd8b830d1eee7",
+    "contribution.json": "bcbfbefc5cce76d59e5b491fd01821ad81b0c834cc755deda9edddf5c0c6d250",
+    "official_metadata.json": "5872aa3e950af57c177e833c25419329d9e59f270b597a168304371f962b510f",
+    "official_metadata_api.json": "d78ad32f5cc67279cb1a89f100b5cfe5666698d29b094724fb659df9f6b32365",
+    "official_prompt.txt": "6795d45323b551fca9d5e47f594b2bf123f6aa887600cbc29bc3cc35148e8077",
+    "official_prompt_api.json": "3868b54d79e79cf7e1c8e82f2241ec163584eb607e13863d0bf5e534cdd10ffb",
+    "prior_attempts/TOP-30007201-A1.html": "2dec4412ad2bdc9ae5f2791d445775b34786b476a4bea249abeaffa0571f9d90",
+    "prior_attempts/TOP-30007201-A1.json": "fe0a2d9608817ff9d2e7fbd5eecdc7eea476b57e926eebceba7d89a5ee10dae4",
+    "prior_attempts/TOP-30007201-A1.txt": "3e950354fea9350a4d9bf57d98ea5afa08b3b5d7b4e65325ff604361563316b3",
+    "report.md": "69ab703ab05f65aba8ad33e53da9160c2f7a65453250757a953b01b8a0668dd6",
+    "source_notes.md": "cbfb1744ada1321a74c93db67db0146242d06682702be8191bc5773da4e6ccb6"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:28:31.561107+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked source definition of solvability includes coefficient embedding, Theorem1 torsion-free unimodular case and exact Magnusian support condition in Lemma1.",
+    "Checked factorization through normal closure implies injectivity of canonical coefficient map; chosen Magnusian overgroup solution gives injectivity of H*Z into this same universal quotient.",
+    "Checked separate free-factor solution quantifiers suffice for all universal injectivity statements; inversion of relator handles exponent-1 preserving support. Support restriction excludes t=a over a free factor.",
+    "Read entire priorA1 including claimed unrestricted coefficients/Lean scope; no prior general theorem or formalization accepted."
+  ],
+  "sources": [
+    "Klyachko, actual9-page primary arXivmath/0406382v4,12Oct2006 PDF https://arxiv.org/pdf/math/0406382 : definition/solvability printed1, Theorem1 printed2, Magnusian definition/Lemma1 printed3, Section3 proof set-up printed6 explicitly identifies universal solution group."
+  ],
+  "limitations": [
+    "Source/proof-only: no program exists; zero executions and no formal verification.",
+    "Deep theorem proof is credited and its exact hypotheses checked; full analytic/diagrammatic proof is not independently reconstructed."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

@@ -1,0 +1,67 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-30006717",
+  "canonical_problem_id": "prb_3ce304972f324f7483117c1492371c2e",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:35:35.528082+00:00",
+  "checked_report_sha256": "5f97b19f18d390443dd4f056b240cc47bf23ae7cc1884d17a70a4a551ea05237",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "92fc44e649de6e9b09f09cadbfa4b3a39c6e7cabe5370922bb2624eceea68251",
+    "contribution.json": "3cda56a5ffe7ac694793dddbda29002201129b6b1847691be47ad23e130bbf43",
+    "official_metadata.json": "d7264c9531460b13eaccba58e79efc42045a8d42960636ca2fd8f9f7de3cd659",
+    "official_metadata_api.json": "1e51e5621760c9722159d179ad4a60a7f9326d263afa309cda16be0ba72539ab",
+    "official_prompt.txt": "6233d3d72a926bddf6dec2ce6188635dc26f18379c7fc0fe4bfba1c6e882ddb2",
+    "official_prompt_api.json": "59f37ae3f6cf5d1f7d5b6ac085aac8d3bc0b0bb627d75055a55286ee4efc9e56",
+    "prior_attempt_01_api.json": "cd69837681be5f63da52bd18d933f60b0ac02c83869957462941c9cc0727e889",
+    "prior_attempt_01_text.txt": "e47733dc9e01e266a768116e35ab995e79bade7813c5421a730a7f7483e34b2a",
+    "prior_attempt_02_api.json": "4e74899751a84de6dcb1e9ccce742c1ef7bd62d87cfcd1eeaebb69a623f402c6",
+    "prior_attempt_02_text.txt": "f831403d2d9760660a50ea422360eeaf3c94d25993210752a4a61a8fbed33dc5",
+    "prior_attempts.json": "59646803ca4cf62652ec802376a86afec76bbda18debba07d40ce93544e4a7c4",
+    "report.md": "5f97b19f18d390443dd4f056b240cc47bf23ae7cc1884d17a70a4a551ea05237",
+    "retrieval.json": "ebf6e9934e0dd59280d630f3c8f35a5f4e872a3e817605ccbade805f6dd52e0c",
+    "source_notes.md": "90d853ceb12e68f60e445a1b096d39046821936f774498e47bec8efa9b2a97be"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8abd348b18f67b61cb97e7fa72eeb990a89587d29cbab694915ecac22cb2ece3"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact report, literal prompt, all provenance/source records and both retained full prior bodies read. The current exact coefficient-averaged theorem and its almost-sure changing-sequence consequence are distinct from prior fixed-cutoff CRT, weighted equivalences and diagonal-cutoff obstruction.",
+    "Browning–Sofos–Teravainen v2 Theorem 1.2: fixed d,A>=1, 0<c<5/(31d), combinatorial cube in [-H,H] with dimension>=2, constant not fixed zero, x in [H^c,2H^c], error and exceptional fraction (log H)^-A, truncated product p<=exp(sqrt(log x)). Signed Mangoldt extension Lambda(-m)=Lambda(m), Lambda(0)=0 is retained. Tuple Theorem 1.4 and its (#C)^r exceptional normalization also checked.",
+    "With H_j=2^j and A=3 the bad-event probabilities plus leading-zero event are summable. The probability of a bad event after J is bounded by the tail sum, proving finitely many failures almost surely without independence. Error tends to zero for the same fixed A. A fixed vector is also chosen only finitely often almost surely by the same summability calculation.",
+    "This changes polynomials with j; it gives neither a uniform measure on all integer vectors nor a theorem for one prescribed polynomial. A density-zero exceptional set can contain a fixed finite set at all heights. Weighted signed prime powers and a moving truncated product are not silently replaced by positive primes or a uniform limiting product. The fixed-tuple Bateman–Horn target remains unproved."
+  ],
+  "primary_source_checks": [
+    "Browning–Sofos–Teravainen, arXiv:2212.10373v2 (21 May 2026), actual 69-page primary PDF Definition 1.1 and full Theorems 1.2/1.4, cutoff and sign conventions checked; current abstract confirms v2, with no journal reference displayed. Retrievals 19–22. Deep coefficient-average estimates imported, no analytic reproof asserted."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Precisely reports Browning–Sofos–Teräväinen's May2026 coefficient-averaged finite-window Bateman–Horn theorem, including truncated constant, signed von Mangoldt convention, two varying coefficients and rangec<5/(31d). Proves an almost-sure sequence-of-polynomials consequence and why it does not imply any prescribed fixed-tuple asymptotic.",
+    "listed_prior_count": 2,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

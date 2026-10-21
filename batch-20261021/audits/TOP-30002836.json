@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30002836",
+  "canonical_problem_id": "prb_f17419ee5e8245459fd38a881a74b7d5",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "d6ae538bada7cab1d517598e5f53c1eb0d1a1a9056cd9a81309ee6c410d10ab1",
+  "report_sha256": "d6ae538bada7cab1d517598e5f53c1eb0d1a1a9056cd9a81309ee6c410d10ab1",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "1f6204172b53438ad8724985d8c760abbd174fdb97a9e14cefbff618e76647f3",
+    "contribution.json": "5bc5fa26e3ad0e51df79ad0fab71538d395af474889083af39fde12c8a223a94",
+    "official_metadata.json": "16d26f7b5d6b286063a600b559ebf7478cc64fe8bfcdc82a4ce42e039b6a88bf",
+    "official_metadata_api.json": "6fc1901e2a02c147c2dd478c86187b5324a85e807111bab963b782aa48b3a8ab",
+    "official_prompt.txt": "8e138b7645ea20df50b990c9fcbfd5a441130107609a0641b97544d62817adca",
+    "official_prompt_api.json": "cec0a4cd6545e28d4dd136a3eda3d62ced94e3e6bbd789342791070a97a8e06d",
+    "prior_attempts/TOP-30002836-A1.html": "66b809a0b9767135b87dc5c94f916d4866d83c8c89de7f5fe27dafd9d0e16ccc",
+    "prior_attempts/TOP-30002836-A1.json": "83efeea11422d8d2599d954af72a944d3b996171b00f83c2dba5e192a29822ff",
+    "prior_attempts/TOP-30002836-A1.txt": "43cd9eab5a3a43c7a3cd6727de1c792b76ba4cc74000719aeef55659a7f20ba2",
+    "report.md": "d6ae538bada7cab1d517598e5f53c1eb0d1a1a9056cd9a81309ee6c410d10ab1",
+    "source_notes.md": "2d6c30e85417f5eae06f2dcadeac9af4f209942fe7d49fd27b7bb34874dcdc60"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:28:31.600969+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked CKLW generation criterion, exact Virasoro/positive-integral affine starting VOAs and identification of associated nets; finite tensor and unitary-subalgebra closure proves entire operation-stable class.",
+    "Checked simple/unitary qualifications, orbifold/coset statements only as unitary subalgebras, formal/domain commutation versus strong von Neumann locality distinction.",
+    "Checked reconstruction Theorem9.2 and subnet correspondence Theorem7.5; converse9.3 requires actual local-algebra FJ generation equation134, PCT stability, energy bounds and finite-dimensional integer energy eigenspaces separately.",
+    "Read complete priorA1 strongly-rational claim/category and formal-scope limitations. This contribution includes nonrational Virasoro closure class and precise reverse criterion without inferring category or complete-rationality theorems."
+  ],
+  "sources": [
+    "Carpi\u2013Kawahigashi\u2013Longo\u2013Weiner, actual86-page primary arXiv1503.01260v4,8Oct2018 PDF https://arxiv.org/pdf/1503.01260 (version-specific URL failed): Theorems7.1/7.5, Corollary8.2, Theorem8.3, Examples8.4/8.7 and Theorems9.2\u20139.3 with equation134 printed69."
+  ],
+  "limitations": [
+    "Source/proof-only: no program exists; zero executions and no formal verification.",
+    "Deep theorem proof is credited and its exact hypotheses checked; full analytic/diagrammatic proof is not independently reconstructed."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

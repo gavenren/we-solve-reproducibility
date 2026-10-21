@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006999",
+  "canonical_problem_id": "prb_35c6fe4f1bd645859ce5aa6e1084798a",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "03b7c7576d7173c19bd65f5fe909a5c1e8caf9a75f325fa18fba0227fabb1935",
+  "report_sha256": "03b7c7576d7173c19bd65f5fe909a5c1e8caf9a75f325fa18fba0227fabb1935",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "2215b26335dea92655cb44f5f28fb015d5aa5a404abd0b8d3f7518bd2e14deb3",
+    "contribution.json": "0b999efbc74041ce18a51e4a096c5797aa9cd68588bc7fbe1097e1e624b6c10c",
+    "official_metadata.json": "225bc3703e4993481f15f1673974f0420894f4160fb3226ced0cfc6b3b35a6aa",
+    "official_metadata_api.json": "2a32079fa9e72e0121b70198aa2953e12e5469314d05dd45207caf210a48c5ab",
+    "official_prompt.txt": "2596cd453ca390aab334c3db0da7aa3168e34160d45fb6caf067091d68f0cbf8",
+    "official_prompt_api.json": "600298ba50331752d3dcdd74c885b9efa54c575773f6b2b79ff153abd916dd27",
+    "prior_attempts/TOP-30006999-A1.html": "68d66fbb977de80a726d70abdf8d0ab0ecfaaa682e5cc46f602345c677111ce5",
+    "prior_attempts/TOP-30006999-A1.json": "3d93b423ee42c7722eae68d21524ed15026914e3eeced8bb8414e4f317a375e5",
+    "prior_attempts/TOP-30006999-A1.txt": "ada4e38ae4cb9928fd4795024f6cf2c02f5731a96b7c54bd71c170c43d736a17",
+    "report.md": "03b7c7576d7173c19bd65f5fe909a5c1e8caf9a75f325fa18fba0227fabb1935",
+    "source_notes.md": "6dc5da00293ebee459105424ec4dd6bdfee6f67b1d086022c426dd3bfbee3a73"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:26:22.554152+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked Panin TheoremA integral arbitrary-dimensional equicharacteristic regular-local scope and q=5 first-arrow injectivity; no finite-type hypothesis or rationalization inserted.",
+    "Checked localization exact sequence with supports and filtered-colimit kernel equality, directed union through st and distinction between supported group and its pushforward image.",
+    "Checked quartic model ambient regular local dimension3, nonzero linear term5 modulo m^2, quotient dimension/embedding dimension2 and regular domain. Coefficient characteristic0 versus residue5 and 5 in m^4 puts it outside equicharacteristic.",
+    "Read full priorA1: alleged ramified K-class is not certified; checked ring geometry is not a construction of a surviving K-class."
+  ],
+  "sources": [
+    "Panin, original10-page English-language TrudySteklov241(2003),169\u2013178 primary PDF successfully accessed at https://www.mathnet.ru/php/getFT.phtml?jrnid=tm&paperid=394&what=fullt&option_lang=eng : TheoremA printed169. Initial URL and first click failed/time-out; English-option URL succeeded.",
+    "MathNet primary metadata https://www.mathnet.ru/tm394 confirms original and translation page ranges and approximation context."
+  ],
+  "limitations": [
+    "Source/proof-only, no checker program and zero executions. No formal verification.",
+    "Deep source theorems are credited imports with hypotheses checked; their full proofs are not independently reconstructed."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

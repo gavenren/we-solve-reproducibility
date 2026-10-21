@@ -1,0 +1,56 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-10300007",
+  "canonical_problem_id": "prb_5e7a9655a5c54a21b71cc6001e7d5511",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:23:15.214615+00:00",
+  "checked_report_sha256": "78e3d5ff28496a51f9741d18f0c469c23a0cad142cb601aea9f4cd8e60b90581",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "968a8d9b900f87d87687f82142d6a6e27b631f9f3b72a2cac370103eda0e4393",
+    "contribution.json": "9a6facca574f19241f7ea53adccf7b5a3f27e75985744e597e8d0d50ff5d5d5d",
+    "official_metadata.json": "41ba152949057c3d78993eb8a4fce9eea9f44c7446f9a2f49771177239494d43",
+    "official_metadata_api.json": "a00594c22b42585fdcb494f30910bd97a753ea6a96a197f46e24bde637725b69",
+    "official_prompt.txt": "127b33a5546b921a626d08b8ca12993b0e028761ea63a0d87ccf6128232e74d0",
+    "official_prompt_api.json": "c8a66efeb60e22f02a7234c0086bd13e6c1f6a897665adcb41d4fff59ca3c60f",
+    "report.md": "78e3d5ff28496a51f9741d18f0c469c23a0cad142cb601aea9f4cd8e60b90581",
+    "source_notes.md": "6e78d43db83467c50445f59d3f209e62af9d1315cafd3d92f2fc21f76ab34650"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "All full exact inputs and provenance read; no prior listed. The significant partial result parameterizes every metric making the fixed smooth cooriented taut foliation minimal and gives its Diff0 orbit for the isotopy-allowed question. Orbit topology/decision is expressly unresolved.",
+    "The closed leaf-positive 2-form cone is nonempty by the credited tautness theorem and is convex. A leaf-positive 2-form in dimension 3 has one-dimensional transverse kernel; beta(T)=1 selects its unique normalized section. For g=q plus (u beta)^2, N=T/u and vol_g=u beta wedge eta give i_N vol_g=eta.",
+    "Cartan formula and the unit-normal divergence calculation identify d eta=0 with zero mean-curvature trace. Conversely every minimal metric yields eta=i_N vol_g, u=1/beta(N), q=restriction; these reconstruct it uniquely. Positivity/coorientation ensures beta(N)>0.",
+    "Using a reference leaf metric q0, eta-area f_eta*omega0, and q=f_eta*q0(exp(A) dot,dot), the determinant-one positive self-adjoint factor has a unique smooth self-adjoint trace-zero logarithm A. Thus the entire parameterization is a product of two nonempty convex cones and a vector space, with continuous smooth inverse; contractibility is not inferred solely from fibers. Pullback naturality proves the exact Diff0-orbit formula without asserting that orbit contractible."
+  ],
+  "primary_source_checks": [
+    "Calegari, Foliations and the Geometry of 3-Manifolds, Oxford 2007, author-hosted primary book https://math.uchicago.edu/~dannyc/books/foliations/oupbook.pdf, Sections 4.4–4.5, Theorems 4.29 and 4.31 checked, including taut iff volume-preserving transverse flow and Rummler–Sullivan construction (qualified_topology_primary_retrieval_19.json, turn1712view0). The report’s metric parameterization and all-metrics converse are independently checked deductions."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Partial result",
+    "exact_scope": "For a smooth cooriented taut foliation of a closed connected oriented 3-manifold, all metrics making the fixed foliation minimal are explicitly parameterized and form a contractible space. Metrics allowing an isotopy are exactly its Diff₀ orbit; the topology of that orbit is not claimed to be classified.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

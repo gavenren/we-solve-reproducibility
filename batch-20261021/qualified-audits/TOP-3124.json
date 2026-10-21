@@ -1,0 +1,57 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3124",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "aebb9e4f109054f23f8cf9d1fb310a0b8faf0f329f95e3eb3750b4bd9c0400e3",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "aebb9e4f109054f23f8cf9d1fb310a0b8faf0f329f95e3eb3750b4bd9c0400e3",
+    "source_notes.md": "e9881c5104bb9a60ffe32f6204b5ef0c7adfcabdf8ff36080cd6b7a95c7a44af",
+    "author_record.json": "7c898cbe02624f2309ab01a9d6994ae6fe0a32a1a441ba34e53d1953ba4752f2",
+    "contribution.json": "3f11e2c7311e0f142adbf04b2287b8ed031de996238fec7f75490b59b13d456a",
+    "official_prompt.txt": "15978128fbfa9699f40f37161ab15761169533b8a076e754c29050671a0eaf6c",
+    "official_prompt_api.json": "e07c064039379968f422863d7ce6f5537a576e03f796fdb95f100a6b510a8740",
+    "official_metadata.json": "d3bab0e673e3b5d57aae67dd2a532be011aca0268765aeaf9ae4ef2529e65bf1",
+    "official_metadata_api.json": "c26ad03031bdcce8c29c26dae32ae9a906772c230212dee6063ddfd74dd3c469",
+    "prior_attempts/attempt-1.txt": "54619619a392c4ca42369acbdbcc5310f1fbdf1d8aa2a949132ea821a26c72f4",
+    "prior_attempts/attempt-1_api.json": "a566809869b2254b98dd2598a38a5475ee694244884ad2e9e950c726d9d8cf16",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "d688fabfa46897cfcc8aa2cd853cdb120570595fca258b16fe5d25092bceb31b"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked precise semicomplete characterization and sole S4 exception. Source explicitly credits Bang-Jensen–Yeo; original2003 full proof is not claimed read.",
+    "Checked all cut sizes of explicit S4, total8 arcs forcing2 Hamilton cycles, and parity/diagonal proof there is only one. Deductions3-arc-strong semicomplete and2-arc-strong tournaments follow.",
+    "The entire prior symmetric-digraph orientation proof was read and does not cover semicomplete digraphs lacking reverse arcs. Necessary cut condition is not treated as sufficient."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/html/1903.12225v1",
+      "version": "v1,28 March2019",
+      "locators": "Theorem1.1,definitions,lines41–51",
+      "retrieval_refs": [
+        "turn1790view3"
+      ],
+      "access": "Exact later primary restatement checked; deeper characterization proof is imported."
+    }
+  ],
+  "distinct_significant_scope": "Broad semicomplete/tournament decomposition class with a complete exceptional obstruction, beyond prior reverse-symmetric class.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:27:17.887656+00:00"
+}

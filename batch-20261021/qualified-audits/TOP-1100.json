@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-1100",
+  "canonical_problem_id": "prb_5023d3919c5c4fa1bb32d658430c4814",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "1806e8ab6cafb212d993ce1a92aa8c024efe91ff87ee50da3221d5f1f4d9664c",
+  "report_sha256": "1806e8ab6cafb212d993ce1a92aa8c024efe91ff87ee50da3221d5f1f4d9664c",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "05cc04a88400a80845ce348bb54b8a4cbf08316df6a862115976200e0753452d",
+    "contribution.json": "aba6ffafc1330b269918cc1f3b53f605843f69a4586aa4bd250a1f96ff0b84b7",
+    "official_metadata.json": "228aa0e0734d004dfe2ab6b8c0c9a9fa1aab65a63c02635b61fb171d77d3ec6d",
+    "official_metadata_api.json": "6e9fe18500c484d79ac899870809287ec6a0690a1db45edbf60e148f4309cf56",
+    "official_prompt.txt": "9f8b7ef66a1d44692ff03ac97b7ce7132c2f7c255b438e370342f14ac5bfd521",
+    "official_prompt_api.json": "317f06cc79494da7a33ecf45b75f88e014eddfc08c3f8289c63dd0a552b4c248",
+    "prior_attempts/TOP-1100-A1.html": "efa44ce0c340fd8d3c948b67ebf638490abad23f37ebce1410ebb52119f55912",
+    "prior_attempts/TOP-1100-A1.json": "5e28081820e6e426d351b8a81c7a176109828a5e409abf598415d94a936b5bb2",
+    "prior_attempts/TOP-1100-A1.txt": "be69c577bec5069a01564bcee985877c20f3a873fcb70d5c6e8710168f554788",
+    "prior_attempts/TOP-1197-A1.html": "efa44ce0c340fd8d3c948b67ebf638490abad23f37ebce1410ebb52119f55912",
+    "prior_attempts/TOP-1197-A1.json": "5e28081820e6e426d351b8a81c7a176109828a5e409abf598415d94a936b5bb2",
+    "prior_attempts/TOP-1197-A1.txt": "be69c577bec5069a01564bcee985877c20f3a873fcb70d5c6e8710168f554788",
+    "report.md": "1806e8ab6cafb212d993ce1a92aa8c024efe91ff87ee50da3221d5f1f4d9664c",
+    "source_notes.md": "e22685e858939e6c4a802fd9877dec412f6cbad9382c0d248df5825665abdf1e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:19:25.524704+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read both full canonical/alias earlier contribution bodies, including all four inverse-defect/nonsofic claims and formal-scope caveats; no such unverified claim is adopted. The published graph-product/amenable-edge closure and exact support/normal-form transfer are distinct substantive literature scope.",
+    "Checked graph-product relation convention and induced-subgraph retractions by killing outside vertex groups. Finite collections of words lie in finite induced supports; a complete infinite graph gives a restricted direct product, not a full Cartesian product. Both directions of sofic iff every vertex sofic follow from closure and subgroup embeddings.",
+    "Independently checked finite-test locality, restriction to subgroups and arbitrary extension of permutations beyond tested elements. For graphs of groups the full edge groups are amenable and injections are required; finite connected supports are formed using finitely many tree paths, and normal forms embed each finite subgraph fundamental group. This does not assert arbitrary finitely generated subgroups are themselves graph products or drop amenability from arbitrary amalgams."
+  ],
+  "sources": [
+    "Ciobanu-Holt-Rees, Pacific J.Math.271(2014),53-64, primary published PDF independently opened turn1697view0; Theorems1.1/1.2, special quasi-action definitions, locality p55 and Section3 HNN/amenable-amalgamation proof pathway inspected as turn1699view0/1."
+  ],
+  "limitations": [
+    "The long quantitative quasi-action construction and imported amenable-amalgamation theorem are credited, checked at hypothesis/proof-structure level rather than fully reconstructed. No prior Lean development, program or permutation search run. No universal soficity result certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

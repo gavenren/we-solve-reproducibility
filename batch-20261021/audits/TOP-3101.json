@@ -1,0 +1,34 @@
+{
+  "handle": "TOP-3101",
+  "reviewer": "/root/hundred_topology",
+  "author": "/root/hundred_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T18:58:40.510864+00:00",
+  "checked_report_sha256": "356ff9bb74a220aa4cd840095e03440113b27a7523502e38fe10f3169f9bad39",
+  "checked_source_notes_sha256": "0f261a3d675df27a0f9272d7545cf3d06cdf0ec22769f1ee863aed9df0d0351d",
+  "checked_contribution_sha256": "a19ac2fe68d8ba8fc829c312f290d5f8c6e36f632f066125ac34347f7e8b757e",
+  "programhashes": {},
+  "program_hashes": {},
+  "actualchecks": [
+    "Read literal original-edge/original-metric prompt, full report and notes; no priors. Verified triangular-side restriction avoids new cut diagonals.",
+    "Read primary tall-prismatoid proof, both simultaneous height bounds, exterior-sector construction and stated threshold. Independently solved minimax: max(a/l,b/(1\u2212l))\u2265a+b with equality l=a/(a+b); reported3\u03c0 balancing denominator and max correction agree.",
+    "Checked Ghomi theorem changes metric by normalized stretch and yields no original-metric net by inverse affine mapping; existence/theorem and unresolved arbitrary-polytope scope are distinguished.",
+    "Confirmed exact prompt bytes and decoded metadata content against retained fresh API wrappers and current author-record hashes; source-only, zero program executions."
+  ],
+  "primary_sources_actually_read": [
+    "Bian\u2013Demaine\u2013Madhukara arXiv2106.14262v1 Theorem1.2 definitions and complete \u00a74 proof, fresh turn1443view2/turn1448view1/turn1450view0.",
+    "Ghomi author durer.pdf, freshly read Theorem1.1/Corollary1.2 and normalized A_lambda definition, turn1443view3."
+  ],
+  "checked_files_sha256": {
+    "official_metadata_api.json": "54660707519d24be1bd05aef58faae90413566b8853e13fcaa6656db019eb17f",
+    "official_metadata.json": "f0cd6acc47cc3595a9e8ba71e7c631e801b61cce8e33c340be8d60985e809536",
+    "report.md": "356ff9bb74a220aa4cd840095e03440113b27a7523502e38fe10f3169f9bad39",
+    "source_notes.md": "0f261a3d675df27a0f9272d7545cf3d06cdf0ec22769f1ee863aed9df0d0351d",
+    "author_record.json": "369a1215c9bad6cb66c9e78b899cb86a9c834acfff3948a64964c72f5b7c7057",
+    "official_prompt_api.json": "13fa953f6ffc494658ab621a4a609040396aa41b7e7d4cab62d114ac9397bc99",
+    "contribution.json": "a19ac2fe68d8ba8fc829c312f290d5f8c6e36f632f066125ac34347f7e8b757e",
+    "official_prompt.txt": "a0c5ae72d8da4c1e3432519d930d7d1ba05fc81febb1c67fb1c03d1fbfd01444"
+  },
+  "limitations": "Independent LLM review of prose, proof and inspected primary-source passages; not formal verification or human/editorial acceptance. No program exists or was executed. Geometric source lemmas imported with explicit credit; no independent proof of Ghomi's complete32page theorem claimed."
+}

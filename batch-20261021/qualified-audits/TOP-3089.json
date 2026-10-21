@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-3089",
+  "canonical_problem_id": "prb_215c3e74147a469fb3ad926ab1262e2b",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "0e9c6fad9264784f49508ac04010cb364699c6fafa2d32f6f815dc2895fc1320",
+  "report_sha256": "0e9c6fad9264784f49508ac04010cb364699c6fafa2d32f6f815dc2895fc1320",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "30aafc0d805b2ad5f758a2923f5e053aa039db8bc3c8506cc81d1534935801ee",
+    "contribution.json": "c901984528cb3b6a8bbf7a07ea3bd48eaf3f8c71494ea90b0d992debc7541147",
+    "official_metadata.json": "57c75d08d210c148e805cb8ca0fce622981878da39a0811b7c89b95bede0927b",
+    "official_metadata_api.json": "a239af693a51182e1470587300c3dde33b19c07fbf1a22cb0585b31d5464f81b",
+    "official_prompt.txt": "0bf6433f55b6c36c712157557202bebd9bf7f7994c827dae475e90a45edfed62",
+    "official_prompt_api.json": "0b2912c25da72e182110322c9596e1e4bf6a97c7f36e6eddaf548248fbbd18b1",
+    "report.md": "0e9c6fad9264784f49508ac04010cb364699c6fafa2d32f6f815dc2895fc1320",
+    "source_notes.md": "648598657a88ee8aee5bdb0fabbf8a7881b99b2a19b1f9534bff7b9faa1e08ef"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:07:57.349188+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "No earlier contributions. Read source Theorem9 no-more-than-floor(2n/3)-collinear hypothesis and Theorem10; checked target counts determined lines rather than only ordinary lines.",
+    "Independently verified unordered pair identity,4r-r\u00b2 weighted rewrite, sumr\u00b2=n(n-1)+I, averaging/ceiling and rich-line complementary case including n=3.",
+    "Confirmed n/3+1 does not imply n/2-c with fixed absolutec."
+  ],
+  "sources": [
+    "Opened Han,EJC24(1)(2017),#P1.63, full5-page paper, Theorems9\u201310 proof: https://www.combinatorics.org/ojs/index.php/eljc/article/download/v24i1p63/pdf (turn1566view1,turn1568view1)."
+  ],
+  "limitations": [
+    "Bojanowski/Pokora/Langer algebraic-geometry inequality is imported through Han\u2019s primary theorem statement; its original proof is not independently rederived. No stronger Dirac solution is certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

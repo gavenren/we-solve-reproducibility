@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006737",
+  "canonical_problem_id": "prb_2d5ebb56c38f43859e9bd8faa8f87602",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "7617f9d370a79f0cb1fb40de4ac75e541942d08fd4c8e53fd1dc05ed6603389d",
+  "report_sha256": "7617f9d370a79f0cb1fb40de4ac75e541942d08fd4c8e53fd1dc05ed6603389d",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "f94a665aaa1bab9c6030f881c9ab1b0098cc4a587f13621e290b555b9c64ba01",
+    "contribution.json": "c02369b3b9e940a336191645a4dc5c20e181c07f94827f2e68f416a8aba430d2",
+    "official_metadata.json": "071893b21702b61e360cbe9b35d8c798d036b45d4868629ce102d137bd30cbca",
+    "official_metadata_api.json": "c26252e3fce60bb4af26eda40eb5cd83dc5dae2ed6d4ceb6345a2d2832a903b0",
+    "official_prompt.txt": "86a62da55176d14fea1b380b2f8f15c10e7cd04de5b3cd2508a577582f1c5055",
+    "official_prompt_api.json": "634fc03d61427926afbe1a9fa8d20317dbeab05c5ac275a67c6be03f2001d1f5",
+    "prior_attempts/TOP-30006737-A1.html": "0845098f785fb95dccac9c761d383a5421d3971cb3653800de8902e63fd4ca8f",
+    "prior_attempts/TOP-30006737-A1.json": "01d1b2b03e0f54cf7cc2e98a18e199ba9d0ee11c4635c9123ccefc4e47889311",
+    "prior_attempts/TOP-30006737-A1.txt": "ceace6541628fa8219ee96b11fac6ebc3baf46b19980cd09aa6ba1a207855875",
+    "report.md": "7617f9d370a79f0cb1fb40de4ac75e541942d08fd4c8e53fd1dc05ed6603389d",
+    "source_notes.md": "0dc3acf0854b89d8b58791e0abbd2f83aee60a3e28a203b7afa2e32772b67056"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:26:22.509630+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked global field/nonempty finite S/archimedean convention and precise totally imaginary meaning against Section14. Split ranks n-1 or m meet both local positivity and total>=2.",
+    "Checked exact roots-of-unity versus trivial kernel, Q(i) order4 boundary, and real-place triviality rather than claiming universal triviality.",
+    "Checked cofinal elementary-level subgroup inverse limit argument at source theorem; finite-kernel centrality is distinguished from the compact arithmetic subgroup alone.",
+    "Checked trivial-kernel topology equivalence implies all finite quotient factorization; local finite-ring elementary generation, liftability, CRT and inverse-limit local-ring product. Read full priorA1: abstract finite-defect criteria did not establish these arithmetic families."
+  ],
+  "sources": [
+    "Bass\u2013Milnor\u2013Serre, original79-page primary PDF https://www.college-de-france.fr/media/jean-pierre-serre/UPL5461805512086878285_Bass_Milnor_Serre.pdf : Corollary4.3 printed95\u201396 and Section14 printed128\u2013130, exact S definition, Theorem14.1 and entire deduction. One intermediate reopen failed after successful surrounding source access."
+  ],
+  "limitations": [
+    "Source/proof-only, no checker program and zero executions. No formal verification.",
+    "Deep source theorems are credited imports with hypotheses checked; their full proofs are not independently reconstructed."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

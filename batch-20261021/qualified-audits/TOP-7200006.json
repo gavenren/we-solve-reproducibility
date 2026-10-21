@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-7200006",
+  "canonical_problem_id": "prb_30e29d3873d0483dafcbedee416ace51",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "94089ae491467cce9bb2339ac07a9615cf31ac2d8070b3f1a1f3cdacbf9db87d",
+  "report_sha256": "94089ae491467cce9bb2339ac07a9615cf31ac2d8070b3f1a1f3cdacbf9db87d",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "6d3c6fc7e7f2fb4697b07d75c635bcba1cf5d5c4352cdd7b441ca848c29bbc10",
+    "contribution.json": "87e0f3a42919dfcd36067bd1b97743b9e6c018da01d568ae1ae468e48983cc9f",
+    "official_metadata.json": "aa7e28797de87481ec22ec4172e558ff7dbff1bb8914b9bd2b629a01eca7c174",
+    "official_metadata_api.json": "889007a11040aaaea5fc39faef976753f9d3ad40a377726043a57887e786308d",
+    "official_prompt.txt": "44458d5a3319c90c426177c41d3588a47625434c28625f25919b067284451b28",
+    "official_prompt_api.json": "2f089e041925069cfc7f6c9e7973cf6de8d5f0ba74c89236ce7a1ae411292145",
+    "report.md": "94089ae491467cce9bb2339ac07a9615cf31ac2d8070b3f1a1f3cdacbf9db87d",
+    "source_notes.md": "3cee137ca9ae53901038d800c632bcc84b94bc04c8c5718f9530955fde7a82a4"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:24:23.363369+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked E,F,H commutators including endpoints for C[x]/(x^a), the tensor sl2 action, common-center nested irreducible strings and maximal rank of every L^d.",
+    "Checked b_j=max(h_j-h_(j-d),0), symmetry/unimodality and the first-negative rather than first-zero truncation convention; zero plateaux cannot be followed by positive differences.",
+    "Checked finite-degree semicontinuity through S+1, the upper bound from the explicit specialization and the separately credited universal lower bound. All positive degrees including1 and n=1 are covered.",
+    "Checked all-quadrics binomial-difference formula and the n=4 example. Scope is the substantial all-degree r=n+1 case, not the unrestricted conjecture; no earlier contribution is retained."
+  ],
+  "sources": [
+    "Froberg\u2013Lundqvist, arXiv1711.01232v1,3Nov2017, actual12-page full PDF https://arxiv.org/pdf/1711.01232 (version-specific URL failed), printed1\u20132: precise truncation, generic minimum, universal lower bound and known n+1 case.",
+    "Stanley, Weyl groups, the hard Lefschetz theorem, and the Sperner property, SIAM1980, actual17-page original author PDF https://math.mit.edu/~rstan/pubs/pubfiles/42.pdf ; classical Lefschetz/Sperner context only, no unlocated monomial theorem number asserted."
+  ],
+  "limitations": [
+    "Source/proof-only: no program exists and zero checker executions were performed.",
+    "This is an independent mathematical reading, not a formal proof verification or certification of every argument in imported deep theorems.",
+    "Finite-dimensional sl2 complete reducibility and the Froberg Hilbert lower bound are credited standard/imported inputs; the monomial maximal-rank specialization itself was checked directly."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

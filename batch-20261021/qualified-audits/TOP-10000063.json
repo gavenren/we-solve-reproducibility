@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-10000063",
+  "canonical_problem_id": "prb_1a2fbd6444d54ca4a3f5be935ceaa3df",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "74b9536c90396f53570f8adf3fd205a9177c542feee21074fa5e7b0559e01f72",
+  "report_sha256": "74b9536c90396f53570f8adf3fd205a9177c542feee21074fa5e7b0559e01f72",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "7633951dd01cd82175cb6fe013d4a6a738e20644d4e456c0296f1885d19376a0",
+    "contribution.json": "4db2f72a6be8591d99463707f8ef04c528375e3405bbe13805d6a2eea82bfc1f",
+    "official_metadata.json": "7931358d3f689ad0469bec3c10a9f36fbb2a594eb6d1e3b0a8b3ee373b329e56",
+    "official_metadata_api.json": "ebdf0641b75a5aa25d98cabd1a8b42ab05606fe216b2939097094155067f3e04",
+    "official_prompt.txt": "7dcde3b1ada5f5b4cb43bc86a97443bde10990c17d4a4e93dbfbd1f132859842",
+    "official_prompt_api.json": "72039a35db674fa7b38b42ef1dff0f8d5e31e7facb10d438c567730d8ac28cc6",
+    "report.md": "74b9536c90396f53570f8adf3fd205a9177c542feee21074fa5e7b0559e01f72",
+    "source_notes.md": "34635768061ee0c4ec509ce05d892ddc8ada22699b2c37ff2ccb4237b25bb07d"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:06:47.446064+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "No earlier contributions. Verified adjacency quadratic-form estimate for all D including0, epsilon positivity, positive-definite Gram representation, centered span dimension<=n-1 and exact two-distance/radius relation.",
+    "Checked strict nonedge separation, interior-disjoint equal balls, n=2 and edgeless cases, and n=1 convention.",
+    "Verified finite interval-packing class is exactly linear forests by left-to-right order, positive-length exclusion of branching and component-gap converse."
+  ],
+  "sources": [
+    "Exact retained official prompt and canonical/API wrappers; self-contained Gram/interval proof."
+  ],
+  "limitations": [
+    "Benjamini original source inaccessible to author and not independently retrieved. No fixed-dimension characterization, rational-center guarantee or infinite-graph realization follows; no external theorem beyond standard positive-definite Gram representation is imported."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

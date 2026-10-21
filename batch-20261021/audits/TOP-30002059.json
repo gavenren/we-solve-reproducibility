@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30002059",
+  "canonical_problem_id": "prb_35261f196bbd44679d5ff6ae22cf2d39",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "6d393fe07b6cd60707bf1eb1a0dd3aa024c0c625db69bc4258e1ea9aa2a5f839",
+  "report_sha256": "6d393fe07b6cd60707bf1eb1a0dd3aa024c0c625db69bc4258e1ea9aa2a5f839",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "47ed3201ab69c3278350c1298f6d49b7ebfb31a2d07eae00c10a4811ad577087",
+    "contribution.json": "e90535cb5a0caeefcdfb46dee6f8606820707e5778cf0347e7e93d4c1896df2f",
+    "official_metadata.json": "db6c4365c63c41739fa3168722574495ea07cb4ed74521cce17894d1012cc8c8",
+    "official_metadata_api.json": "4789f87e6f22309c8a8619559660f618f3d6e0147543595a7f211a9d88e9b5db",
+    "official_prompt.txt": "ee109c0038ea2f74ceea375b46b8c596ed3f22df407f07cae1f854c6e5b13c2c",
+    "official_prompt_api.json": "4af08b524b3fea6a4194bbc6dd1567f0ff468237aaff42b21e32c70b4b72fdd9",
+    "prior_attempts/TOP-30002059-A1.html": "595ec5051b7f4a11c14306f442effd6aaaa05b24740a8476e9b6101c7aa4a6d7",
+    "prior_attempts/TOP-30002059-A1.json": "4e6e54baaf8828ae13ed7c035a1849120f890f3067df5517744c61a455950dc0",
+    "prior_attempts/TOP-30002059-A1.txt": "1776500084e17d779cc40a977ac95799439638887878cd9266109f8ab23d523f",
+    "prior_attempts/TOP-30002059-A2.html": "906cbebee768ea6f4df22e287a6667047269419e90d76e7fc3a4d799cce1b6f6",
+    "prior_attempts/TOP-30002059-A2.json": "1ff3f3e0eb5fd94b7419efb35120070568c00301f5755f72e8164e0423d94c13",
+    "prior_attempts/TOP-30002059-A2.txt": "7cc82435c2010203ffc78f46f3b933442062e0a67498be8292c9ebf764fe837a",
+    "report.md": "6d393fe07b6cd60707bf1eb1a0dd3aa024c0c625db69bc4258e1ea9aa2a5f839",
+    "source_notes.md": "566c413a94008a7e7dc2981831890966d7cd9524c383c6936c46eaa4260691cf"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:30:35.925418+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked full elementary-to-all p-subgroup inclusion lower fibers with Omega1 center and normal-core contraction only in forward direction.",
+    "Checked mapping-cylinder/deletion proof of lower-fiber lemma, including contractible lower link when upper link empty; opposite building order gives precisely pointwise stabilizer lower fibers.",
+    "Checked p-orbit count produces nonzero fixed space, faithfulness makes it proper for nonidentity P, and every pointwise stabilizer has nontrivial normal Hom(Wprime,W) elementary group.",
+    "Checked Gaussian polynomial identity, Mobius recurrence and reduced Euler sign (-1)^n q^(n choose2), all n>=2, n1 empty boundary and direct trivial p-core argument.",
+    "Read both entire prior bodies: prior rank<=2/fiber machinery credited and unverified unrestricted A2 not used. This unbounded-rank defining-characteristic family supplies substantial new scope."
+  ],
+  "sources": [
+    "Weibel, actual author technical K-book ChapterIV https://sites.math.rutgers.edu/~weibel/Kbook/Kbook.IV.pdf : Section3.7 Quillen TheoremA printed30, dual lower-comma convention; report provides its own finite-poset proof.",
+    "Full retained prior TOP-30002059-A1 Lemma497.1 and normal-core proof read and explicitly acknowledged as background rather than original additions."
+  ],
+  "limitations": [
+    "Source/proof-only; no programs, zero executions and no formal verification.",
+    "Deep credited theorem proofs are not fully independently reconstructed; exact source statements and the report deductions were checked.",
+    "No Solomon\u2013Tits theorem, classification theorem or finite group computation is imported. Original Quillen1978 paper was not independently accessed here."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

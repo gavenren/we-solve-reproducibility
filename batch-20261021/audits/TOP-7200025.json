@@ -1,0 +1,33 @@
+{
+  "handle": "TOP-7200025",
+  "reviewer": "/root/hundred_topology",
+  "author": "/root/hundred_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T19:00:31.648081+00:00",
+  "checked_report_sha256": "8020acfb4be16c6733ce0c1c25e6fd33db5ddc3398a2f674aaad88e63634e2cb",
+  "checked_source_notes_sha256": "008ea8eb629bcce49787861712a956d442ffc5a42ebe0dd64209d3ebbf0599d9",
+  "checked_contribution_sha256": "b74d5f04d2bb05c05e121d4abfa94693f34b71bb37e2f0744b168a89b8abe519",
+  "programhashes": {},
+  "program_hashes": {},
+  "actualchecks": [
+    "Read literal finite closed-axis-parallel-square disjointness prompt, full report/notes; no priors. Matched BDJTheorem1 parameter equation, A1 output disjointness and union-area denominator.",
+    "Recomputed3t\u00b2\u22124t\u221214=0, positive root(2+sqrt46)/3, required2.5<t<3, lower constant9/(sqrt46+2)\u00b2. Matched190/768=95/384 upper ratio and finite-patch boundary transfer.",
+    "Checked source's closed-set/small-enlargement convention and finite infimum rather than exact attainment. Geometric-operation complexity is distinguished from rational bit overhead and no implementation is claimed.",
+    "Confirmed exact prompt bytes and decoded metadata content against retained fresh API wrappers and current author-record hashes; source-only, zero program executions."
+  ],
+  "primary_sources_actually_read": [
+    "Bereg\u2013Dumitrescu\u2013Jiang author rado.pdf17February2009, fresh Theorem1/\u00a72A1 and \u00a76Theorem5, touching convention and finite-patch endpoint; turn1471view0/turn1474view3/turn1478view4/5/turn1479view4."
+  ],
+  "checked_files_sha256": {
+    "official_metadata_api.json": "b2c2bc2b3afd07e8da1ab4868d5786a28633346ab8f9d73b2df045e591adf567",
+    "official_metadata.json": "a01d30304ae2f25e13bd4b7acf6aa4c1e66f61d6b53b463bca6217c23cd3ff9a",
+    "report.md": "8020acfb4be16c6733ce0c1c25e6fd33db5ddc3398a2f674aaad88e63634e2cb",
+    "source_notes.md": "008ea8eb629bcce49787861712a956d442ffc5a42ebe0dd64209d3ebbf0599d9",
+    "author_record.json": "27c66d4bb3eec8ea908c5e9819eacd78d02331a16119e60d5a2a56d312e83199",
+    "official_prompt_api.json": "6e4900f04802384b1408523e741167c584490977c5156169d19acc6c2236b37d",
+    "contribution.json": "b74d5f04d2bb05c05e121d4abfa94693f34b71bb37e2f0744b168a89b8abe519",
+    "official_prompt.txt": "37ba8eff115d7de1be5666e2d97d8fee3a063963e2cbc58cfdcaceeebdb0f92b"
+  },
+  "limitations": "Independent LLM review of prose, proof and inspected primary-source passages; not formal verification or human/editorial acceptance. No program exists or was executed. Deep charging and upper-construction proof remain credited imports; exact algebra/model transfer checked, no solver run."
+}

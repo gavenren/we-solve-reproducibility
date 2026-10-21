@@ -1,0 +1,57 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-30004201",
+  "canonical_problem_id": "prb_f46c100d5c4542f8890ab205211508da",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:24:02.418122+00:00",
+  "checked_report_sha256": "4c204094e5873c4198a20390bbbc083b1c77bb688feed9916fc1cc3a9dcede0f",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "0816936a8ab81205678af6f30a2dc428573f9729402cfbf3e1e0fd3b70fd1fa5",
+    "contribution.json": "8e41a97116128e70c4b700ceeabbe534ca1adccc465f5c11fce582bf6fefec31",
+    "official_metadata.json": "ec087ae94a609470359965b08845a7bdd3b3b39c9349e82aa18bf975dd829486",
+    "official_metadata_api.json": "7508bf4a7befade3e42ea43aa68989a244a2f21077986045a85dd2d99333fbd4",
+    "official_prompt.txt": "d7c81ce8b14cdd89589f346fe11fab15843dfee820098c7f811fc0a36c482f14",
+    "official_prompt_api.json": "ba97a0e6a92ef81a16cd3e38c6132faa30a7bd45704eb1f3fbe179116768a716",
+    "prior_1_api.json": "05abdf07b6ee801e1ae8376cc6f4f1b5abcb812d740c71bb6401d146607b5c8d",
+    "report.md": "4c204094e5873c4198a20390bbbc083b1c77bb688feed9916fc1cc3a9dcede0f",
+    "source_notes.md": "f1d053b23e946897649fca38edf0b394dcfb4e94ebeadda185162ab6f55ff8cb"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Full exact prompt, all source/provenance files, report and full prior announcement read. The latter is not accepted as a proved all-group formula. Report supplies the exact sharp published abelian p-group criterion in compact p-local genuine spectra, and only sufficiency is separately asserted for ordinary finite genuine spectra.",
+    "For finite p-local spectra, K(a-1)-acyclicity is type>=a, so the implication is precisely P(H,m+1) subset P(G,n+1). Substitution into source Theorem 2.3 gives m+1>=n+1+rank_p(G/H), hence m>=n+r, including m or n=0 with K(0)=HQ. H=G has r=0 and the same formula.",
+    "G abelian makes every H normal, so the quotient and its p-rank are defined. A cyclic quotient of order p^s has rank one, whereas elementary abelian rank-s has loss s. Sharpness is imported from finite partition-complex witnesses; it is not inferred merely from the upper bound or numerical experiments.",
+    "Ordinary finite G-spectra become compact p-local spectra; geometric fixed points and relevant Morava theories commute with this localization, proving sufficiency there. The report carefully confines cited necessity witnesses to the p-local category and does not assert unsupported descent to integral finite objects or arbitrary nonabelian groups."
+  ],
+  "primary_source_checks": [
+    "Barthel–Hausmann–Naumann–Nikolaus–Noel–Stapleton, arXiv:1709.04828v3, 7 December 2018, primary https://arxiv.org/pdf/1709.04828, exact ideal definition and Theorems 2.1–2.3 read. Theorem 2.3 direction is source-height >=target-height+quotient rank, checked in qualified_topology_primary_retrieval_21.json (turn1725view7) and _25.json (turn1741view3). Published Invent. Math. 216 (2019), 215–240 credited; Lubin–Tate/partition-complex theorems remain imported."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "For finite abelian p-groups G and H≤G, the compact p-local genuine G-spectrum version has exactly m≥n+rank_p(G/H). Sufficiency also applies to ordinary finite genuine G-spectra by p-localization. No all-nonabelian formula or verification of the earlier announced manuscript is claimed.",
+    "official_prior_count": 1,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

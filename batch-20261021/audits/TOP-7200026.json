@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-7200026",
+  "canonical_problem_id": "prb_3f7005e070ee4d55a8be0987df5c4c34",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "026dae3c1b708aca2e2eed09f1b47cce4ad3211cd6a05726a8d367dee8717a7a",
+  "report_sha256": "026dae3c1b708aca2e2eed09f1b47cce4ad3211cd6a05726a8d367dee8717a7a",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "cdddb56b5722f53c2c472c4086ce781b90b23d0e2a3495ef4d2b6592a7a415a7",
+    "contribution.json": "f400459667aa762967e0678c5aec28ac3aeccb71bddb5a989cd3ff4e91c68133",
+    "official_metadata.json": "fd89bd4a92fddea026c3f1c2479ad58d054626dcd7f4e9d7f90e8200586ad2c5",
+    "official_metadata_api.json": "49ef5ef1b0560e3175ef7b94e54b0540310e46dafb6dc4bbbab6f6e98e7845a3",
+    "official_prompt.txt": "c2d5841c7fbcfefd80247427d58b11d8c32cdb60a38344f6060061aa9d698d75",
+    "official_prompt_api.json": "7f707998725d8745bdf495619ef4ca69b99bbf1b8474d7999ea2c7199da59a2b",
+    "report.md": "026dae3c1b708aca2e2eed09f1b47cce4ad3211cd6a05726a8d367dee8717a7a",
+    "source_notes.md": "f58dbdaa0d4a57944a4be230493ed0066901392c7c3e166d387f611cfa37901b"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:10:18.541964+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "No earlier contributions. Independently checked distance-one Oler theorem scaling to distance2, exact inner-triangle side L\u22122sqrt3 and triangular-grid attainment.",
+    "Recomputed m bound, inverted square root, exact triangular-number value, rationalized deficit8/(2k+1+sqrt(4k\u00b2+4k\u22127)), asymptotic2/k and all k>=2 boundaries.",
+    "Verified direct k=2 diameter and k=3 four-midsegment-subtriangle pigeonhole proofs with touching allowed."
+  ],
+  "sources": [
+    "Opened Graham\u2013Lubachevsky,EJC2(1995),#A1, Section6 Oler equation and triangular-number context: https://www.combinatorics.org/ojs/index.php/eljc/article/download/v2i1a1/pdf/ (turn1586view3,turn1587view4)."
+  ],
+  "limitations": [
+    "Oler\u2019s original1961 proof was not separately read; inequality is imported from the checked primary research paper. No simulated packing optimality or conjectured zero deficit for arbitraryk is certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

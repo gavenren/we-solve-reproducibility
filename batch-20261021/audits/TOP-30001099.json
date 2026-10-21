@@ -1,0 +1,46 @@
+{
+  "handle": "TOP-30001099",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "9484d62f7e343d48e2971e1327d3ccbdca1e555fa8911658a4412ce5294e1fd3",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "6075dc46d47eace9cf345d4cb1720aed5fcb9f7b1c46994e129e30c73110b36a",
+    "contribution.json": "0bd9490d359930024eaa935f2dae8ebcc9f3a786d14ef881e95e96e8eb026f7f",
+    "official_metadata.json": "03f2d09512223e98fc163353db8de914b7a81016d7a9781adda264298c875f58",
+    "official_metadata_api.json": "19950e5564f74409e706fc8d1a328ade2a98a83f1bb8dedfb64a0c1415c74265",
+    "official_problem.json": "03f2d09512223e98fc163353db8de914b7a81016d7a9781adda264298c875f58",
+    "official_problem_api.json": "19950e5564f74409e706fc8d1a328ade2a98a83f1bb8dedfb64a0c1415c74265",
+    "official_prompt.txt": "8b678e6e319cc143de3bca0e121ae9bab1b7ba464ac57bab054e3479eead5f70",
+    "official_prompt_api.json": "7aa03d6fae95e1e7217f1453013598e522bcba7a82da67558e121bedf8641712",
+    "prior_attempts/TOP-30001099-A1.tex": "9207f4fc4b9b5a9dbacb6be09922a1e82dc635a9eaf004bcd7d2e2e6c704d618",
+    "prior_attempts/TOP-30001099-A1_api.json": "0a99e3e83eebffd720b8fd726d7292a50d0606fe33fbf96cf9101cc5c1267c14",
+    "prior_attempts/TOP-30001099-A1_manuscript_api.json": "022673d8d84c9f862b01620281812a82051109c706df658a600df52d0c165f6d",
+    "report.md": "9484d62f7e343d48e2971e1327d3ccbdca1e555fa8911658a4412ce5294e1fd3",
+    "source_notes.md": "c79d95dc5508fd80167977f1bec3b360f9d48bc27e11003110485c19956f7a42",
+    "verification.json": "a20d9f250815d26cc990ceea919ea32afb250096d96548730061715bd439f565"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:20:36.391250+00:00",
+  "actual_checks": [
+    "Read exact prompt, existing disproof qualification and full A1 unequal-demand counterexample. New theorem restricts to equal positive demands, nonnegative rational edge costs and additive envelope relative to supplied x, expressly without enforcing original capacities.",
+    "After scaling by d, all balances and capacity ceilings are integral. A degree-one fractional support vertex contradicts integral balance, so each nonempty fractional support component contains an undirected cycle; signed circulation along it preserves balances. Choose a nonpositive cost direction and stop at the first neighboring integer, retaining all bounds and reducing the fractional-edge count.",
+    "Auxiliary labeled terminal arcs are initially integral and remain fixed. Integral flow decomposes into unit paths and circulations; nonnegative costs permit deleting cycles, leaving one path per labeled demand even for repeated sink locations. Final load<=d ceil(x/d)<x+d, including integral x/d.",
+    "Checked exact common-denominator arithmetic, at most m elimination steps, polynomial explicit path output and positive-d scaling. No flow-integrality theorem, Isabelle execution or rounding program is asserted."
+  ],
+  "primary_sources": [
+    "Exact official TOP-30001099 prompt and retained source body; all new integrality/cycle arguments are supplied directly. Prior published counterexample is historical context, not a new imported premise for the positive restricted proof."
+  ],
+  "prior_work_distinction": "Adds a complete constructive equal-demand boundary and polynomial bit realization rather than resubmitting A1 counterexample. Capacity/cost restrictions delimit a substantive tractable case.",
+  "scope_assessment": "When all demands equal d>0 and edge costs are nonnegative rational, a given rational single-source fractional routing x can be rounded in polynomial bit time to one path per demand with c(y)≤c(x) and y_e≤d⌈x_e/d⌉<x_e+d. This is the additive-load interpretation; original capacities u are not separately guaranteed. Unequal demands, whose universal claim already has a retained counterexample, remain excluded.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

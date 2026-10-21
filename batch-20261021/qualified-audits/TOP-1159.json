@@ -1,0 +1,57 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Substantive exact-normalization reconstruction of a sharp mean-square theorem with density-one and quantitative limsup consequences for the literal radius variable. Literature report correctly distinguishes average conclusions from every-radius bounds.",
+  "actual_checks": [
+    "Checked Nowak definitions P(x) for radius sqrt(x), signed/ordered r(n), C=(3pi²)^−1 sum r(n)²n^(−3/2), formulas (1.6)–(1.8) and stronger remainder theorem. The displayed O(X log²X) is a safe weaker consequence.",
+    "Re-derived Stieltjes integration by parts after x=r²: lower boundary vanishes because F(x)=O(x) near zero. The boundary contributes C/2 R² and integral C/4 R², giving K=3C/4, then dyadic moment 3KR².",
+    "Chebyshev threshold r^(1/2+epsilon) yields bad measure O(R^(1−2epsilon)) per dyadic block. Summation gives natural Lebesgue density zero; large epsilon follows by inclusion from a smaller positive exponent.",
+    "If absolute limsup were <sqrt(2K), integrating eventual E(r)²<=L²r contradicts KR². This excludes smaller pointwise exponents but gives no signed omega result or uniform endpoint estimate."
+  ],
+  "prior_comparison": "Full prior smoothing/Poisson manuscript read. It proves O(r^(2/3)), handles exact lattice radii, and notes mean-square does not imply uniform control. It does not give the published sharp moment constant, variable conversion or these quantitative density/limsup deductions.",
+  "primary_sources": [
+    {
+      "url": "https://www.impan.pl/shop/en/publication/transaction/download/product/83670",
+      "version": "Nowak, Acta Arithmetica 113.3 (2004), 259–272",
+      "locators": "Definitions (1.1)–(1.2), formulas (1.6)–(1.8) and main Theorem, pp.259–260",
+      "retrieval": "coordination/qualified_number_first_half_primary_09.json"
+    }
+  ],
+  "limitations": [
+    "Deep mean-square theorem is credited, not reproved; historical 2004 statements of best pointwise bounds are not promoted to current records.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-1159",
+  "reviewer": "/root/sol_ultra_numbers",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "1d04714494baba84485fe02ebdb028c50716d304c4b3821d94a489bcd9a20ddb",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "1d04714494baba84485fe02ebdb028c50716d304c4b3821d94a489bcd9a20ddb",
+    "source_notes.md": "061de2366ffaecef1cf50f7a1bc24b1c5b80908a981e4b08631cc8ff6dca558e",
+    "author_record.json": "f26fc6c65384618abc3ebcb05ca8577c60974a33e8948509925ab95bf29deb34",
+    "official_prompt.txt": "f96e4eec06308fe1c2c03a2ae79bacde7840066fee759f0f0e67594b428d3ec8",
+    "official_prompt_api.json": "2fad23fb65442103a96606dff975acbf107da0a5fb6f36505205514098849b3f",
+    "official_metadata.json": "558ab25ea5036750a621657e0e758c9d6908c575b3163f3060fa16d2cd5fbf04",
+    "official_metadata_api.json": "db7d4f3ec8f73a9b66b251a64431ae734da6c52e6db562c1ecfeb532b5120f4c",
+    "contribution.json": "f76124db650a47b340b087ccf492595148ae823bfcfbf174e44520aaec6b3d09",
+    "retrieval.json": "fd827ce68e9eb0e5575707bf059dfe4b75cccbee619ed7e426f7b14080f9ff00",
+    "prior_attempts.json": "099d7dd24c91fb203f16026a53599604f218052462ef5c023b84af4a90d084e9",
+    "prior_attempt_01_api.json": "c9767168b85a21d33db39fdf14d56b4e4e1301a5e40bc0edf478aaa0ee5ec40d",
+    "prior_attempt_01_text.txt": "7b8938f908bad83b5c4ea0197319eea35b1dd671f40537d6472c37223a51efb7"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_numbers_first_half_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:32:56.310685+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

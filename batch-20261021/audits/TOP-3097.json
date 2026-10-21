@@ -1,0 +1,36 @@
+{
+  "handle": "TOP-3097",
+  "reviewer": "/root/hundred_topology",
+  "author": "/root/hundred_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T18:58:40.508197+00:00",
+  "checked_report_sha256": "98aa472102e80abefb00abe10586e8056ab00349e1a4ff3e536494607569ad63",
+  "checked_source_notes_sha256": "c333027bfb1969460b80c2effae98ee72bb9b4c1dc628645f8a90753d0ee1a8d",
+  "checked_contribution_sha256": "ceafd9f1867d5d8d848568d4921f2c1d9ac24edea3415675bcb6b1d5d057507a",
+  "programhashes": {},
+  "program_hashes": {},
+  "actualchecks": [
+    "Read exact unshifted-fatness prompt and entire retained prior attempt1 text; prior covers degree/simple barriers and unprojected products, not projected deformed products.",
+    "Checked primary even-n,r\u22652 hypotheses and graph preservation. Independently derived f2 from cube/prism ridge counts, checked Euler, rational ratio and n=2r substitution9\u221240/(r+4), including r2,n4.",
+    "Confirmed convex existence remains an imported theorem, source's shifted normalization is not equated with prompt ratio, and approach to9 is not unboundedness or an optimality claim.",
+    "Confirmed exact prompt bytes and decoded metadata content against retained fresh API wrappers and current author-record hashes; source-only, zero program executions."
+  ],
+  "primary_sources_actually_read": [
+    "Ziegler, arXiv math/0407042v1, freshly read Theorem1.1 and \u00a75 Proposition5.1 proof/Corollary5.2; turn1443view1/turn1448view0."
+  ],
+  "checked_files_sha256": {
+    "official_metadata_api.json": "abde1ac57940727e063a6cd5f4a0221578335e8e516df417643ff2a52503b499",
+    "official_metadata.json": "65a41effb7b6ef5e1de01185870870cfef620d13d88b5419204a2acb37f7150f",
+    "report.md": "98aa472102e80abefb00abe10586e8056ab00349e1a4ff3e536494607569ad63",
+    "prior_attempt_1.html": "78cc863f48717cda334c6774e86c4671a5ca1b52906e5874760a931df9a32129",
+    "source_notes.md": "c333027bfb1969460b80c2effae98ee72bb9b4c1dc628645f8a90753d0ee1a8d",
+    "author_record.json": "336c470b93c5cb69da56cb57ca66fef4b9ed81e507bb3faec28a065adf80a038",
+    "prior_attempt_1.txt": "d3aace4250c6bc7df18cd7aa974691d228d5ffc8f04db8eabb4b0c789b8c5714",
+    "official_prompt_api.json": "5a1e9e564db3a388c3f9ce9fd6d5057db9d974791895566b3603afbf5d87c375",
+    "contribution.json": "ceafd9f1867d5d8d848568d4921f2c1d9ac24edea3415675bcb6b1d5d057507a",
+    "official_prompt.txt": "29bdd63369c91514ebedc2737537f6b0607d02f46ee5fe6abbf5c466828244e1",
+    "prior_attempt_1_api.json": "4aaf33fbbccb1649b0a45861bfeb1dfd8263c58a9e40367beac060a3c44bb5e2"
+  },
+  "limitations": "Independent LLM review of prose, proof and inspected primary-source passages; not formal verification or human/editorial acceptance. No program exists or was executed. Extracted Proposition5.1 display has inconsistent f2 constant; report correctly uses its proof's ridge counts and Euler instead. Deep coordinate realization not independently reproved."
+}

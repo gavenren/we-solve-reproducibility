@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-2512",
+  "canonical_problem_id": "prb_c093cfbce5384cbb81939eeb1487c44a",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "3bb61afb8a7896a9262d0fe51aae24a53bd2d5d8bcb1a705b9fe5105262901c7",
+  "report_sha256": "3bb61afb8a7896a9262d0fe51aae24a53bd2d5d8bcb1a705b9fe5105262901c7",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "32797f908cec7c575cfaa2f3fcf2596a10712e9d1d18a214e04e739eca4fd97d",
+    "contribution.json": "52224f7e102008c3a1688d270a9fcb5390c4d9dbf177848714d2d9a6e35e478d",
+    "official_metadata.json": "858b41a0f7ac49b89cdaaba11e5a365d41f7992588b9e16c9ed1301dff0beb46",
+    "official_metadata_api.json": "efddcc2dd940a2772bcaee55deb9b750fcf3bcca49453bfb6b7089e30ef9bcaf",
+    "official_prompt.txt": "e7a37faadad52cdff626ccf3f48df814df42194d2b093a09cd4ad5fdcdc1fdbb",
+    "official_prompt_api.json": "9e2f3acb48cf1d7d571aaeae21de720207e420bf64e2fe5ed7d3f64552fceed3",
+    "report.md": "3bb61afb8a7896a9262d0fe51aae24a53bd2d5d8bcb1a705b9fe5105262901c7",
+    "source_notes.md": "8e22b9b7c88bb91e3134d12c0e2de8d75a3c3bdb9d6f66eb0b86d1d928ddeb17"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:17:09.688262+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked exact prime-order expectation sum in the actual ambient G. A nontrivial finite intersection contains a prime-order element, so Markov/counting gives both existence and probability>=1-r_n whenever the bound is below1.",
+    "Checked semiregularity gives |H|,|K|<=n and every relevant prime-order cycle type p^(n/p). Its centralizer size p^t t!<=n^(n/2); an Sn class inside An splits into at most two equal classes, hence the factor2 preserves the even-conjugator requirement.",
+    "Independently checked the bound on matched class products by (|H|-1)(|K|-1), exact degree14 arithmetic, and ratio r_(n+1)/r_n=(1+1/n)^(n/2)/sqrt(n+1)*(n/(n-1))^2. The e<3 upper bound is strictly decreasing and below1 from14 onward, proving all subsequent degrees. Includes trivial subgroups and semiregular actions with multiple orbits. No listed priors; the result is a uniform infinite subclass, not a finite degree computation or the original general soluble case."
+  ],
+  "sources": [
+    "Notebook primary independently accessed through arXiv:1401.0300, actual v49 header20Oct2026 (turn1656view0,turn1657view0-2,turn1658view0), relevant Problems21.1-3 printed178,21.7 printed179,21.26 printed182. The authors' October-update3 WordPress URL was inaccessible to this reviewer; no exact-PDF equality with that link or older v47 is asserted."
+  ],
+  "limitations": [
+    "Notebook's recorded solved asymptotic part is context, not independently re-proved; the displayed semiregular theorem is directly checked. No enumeration, checker, execution or formal verification. Historical current audit preserved."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

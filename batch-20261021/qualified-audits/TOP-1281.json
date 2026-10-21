@@ -1,0 +1,60 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Substantive literature report: unconditional exceptional-space rank bound, exact uniform three-dimensional grid sparsity and two-base classification add a coherent problem-specific consequence beyond the prior algebraic-ratio and Schanuel reductions; proper low-transcendence-degree case is separately credited.",
+  "actual_checks": [
+    "Read exact complex six-exponentials Theorem3 in Waldschmidt26May2022. No algebraic-input or cross-pair independence assumption has been added.",
+    "V contains0 and is closed under addition/negation. For rational a/b, the actual exponential satisfies Z^b=(e^(x_i*y))^a with nonzero algebraic RHS, so Z is algebraic without choosing a logarithm branch. Three independent members would contradict the credited2x3 theorem; dim_Q V<=2.",
+    "For a fixed Q-independent triple w, coefficient map Q^3->C is injective. Its preimage of V has dimension<=2 and admits a nonzero rational annihilator. Two integer coordinates uniquely determine at most one third, yielding the exact(2H+1)^2 bound includingH=0.",
+    "Multiplicatively independent positive algebraic bases have Q-independent real logarithms; T=V intersect R containsQ and has dimension<=2. If irrational tau exists,1,tau form its basis. No such tau is constructed. Applying six exponentials to columns1,t1,t2 leaves at least one transcendental value among the four new entries.",
+    "Independently read the source paragraph giving the proven proper case trdeg_Q Q(x1,x2,y1,y2)<=1 with Brownawell1974Cor7/Waldschmidt1973Cor4 credits. This constrains the total parameter field and is not a general solution."
+  ],
+  "prior_comparison": "Read the full earlier A1 manuscript: normalization u,r,s, Hermite-Lindemann/Gelfond-Schneider subcases, rational singular-matrix lemma, conditional Schanuel argument, branch obstruction and2^t/3^t discussion. It has neither the exceptional vector-space/grid theorem nor the credited total-field trdeg<=1 subcase.",
+  "primary_sources": [
+    {
+      "url": "https://webusers.imj-prg.fr/~michel.waldschmidt/articles/pdf/FourExponentialsSchanuel.pdf",
+      "version": "26May2022 author manuscript",
+      "locators": "Section4,Theorem3 pp5–6, following Brownawell/Waldschmidt paragraph",
+      "access": "Full primary author manuscript independently opened; exact theorem and proper-case attribution read. Older original1973/1974 proofs not independently read."
+    }
+  ],
+  "required_corrections": [],
+  "limitations": [
+    "The phrase real part in Section3 is interpreted as the subset V intersect R specified by its displayed definition, not the image of V under real-part projection.",
+    "Dimension<=1 remains conjectural; no novel deep theorem, exceptional irrational parameter or full four-exponentials proof is claimed.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-1281",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "398dd70d5692c0e33f7068ef343c9f317178db0017a68a6dd12ad081cadfe7b1",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "398dd70d5692c0e33f7068ef343c9f317178db0017a68a6dd12ad081cadfe7b1",
+    "source_notes.md": "7032a904923bd32d891d9d974d46a34dcdab823cafe0f6b47e42eb40a62f9a1b",
+    "author_record.json": "1890c7b22ed30299c7684a50a8d82f33a5687084253be18a8269c6142c7f0a16",
+    "official_prompt.txt": "f79b6c7d7909647d5f705e406586190f73edeef17867a916e8d9e26a08e55412",
+    "official_prompt_api.json": "57967fc5e5d6875ec407cc867007b348da45326057b6438d3f4908b63fcae64d",
+    "official_metadata.json": "1a5dc5a84c541e66a5efd8cad76637ed24a1a040034fe8b78867435c66f2f0fd",
+    "official_metadata_api.json": "f1607f96217113e496453dc5b562ed8666017295cda4aaa2f15617bcb5377700",
+    "contribution.json": "03c114056da05da99790913fdf1734cf3bb0ba32c38d6b43760c3e0ecf7cdbd9",
+    "retrieval.json": "a9c03538e68284f13879487eb21f5439e26c8a3fef028e6db7361ca50d520dfe",
+    "prior_attempts.json": "87bae630fcdb9fc8f63f8aefbed0587eb08dc872c6ee5722cb15621eef6b891d",
+    "prior_attempt_01_api.json": "e4149587be81468f647909aaced5ae5ee1b3ad573e9ba383499c0786a08249aa",
+    "prior_attempt_01_text.txt": "4445cfcb4cddad333626e665ed77bc3290a39e3e4147614cf13eff0fb27e6d2a"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_algorithms_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:37:44.223268+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

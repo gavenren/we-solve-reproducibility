@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2809",
+  "canonical_problem_id": "prb_65dff028dae846c7a4054406f4bb67fc",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:17:38.938302+00:00",
+  "checked_report_sha256": "a22bd68a85fdb47805ebeeeafd75defff331e81835630a0bd1827069de4341b3",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "8bb738b34234756e50fc2050cdb3350a85507c778df58440a501c519b507423f",
+    "contribution.json": "b7824a08a17b3d9e0d6573c02719300828a62bf3cd341ba859c41b4d403b4dd9",
+    "official_metadata.json": "ec332253bff15c9b568d8002a85d7e988fb823727dbd43051c991835f11bb072",
+    "official_metadata_api.json": "61f90451e6b7f0a77f7b119baa5988bd5fad1f820d33120e38a9cfe83f346085",
+    "official_prompt.txt": "4df76ea129a00c7cc40703342904fc5ce333868b5a757cc8bb035758c0d4fb15",
+    "official_prompt_api.json": "fc7e384130121b69fbd409b78a65dd53d9deef26db5a5101bc1ded2600021007",
+    "report.md": "a22bd68a85fdb47805ebeeeafd75defff331e81835630a0bd1827069de4341b3",
+    "source_notes.md": "223e384819c40f9167b328b3d645a6959e1a8651599e4dc2f605ad1e08bdcfc4"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Read full report/prompt/source records, no prior contribution. Checked maximal-cusp scale and essential spanning surface hypotheses, slope vectors longitude coefficient one and geometric intersection |a−b|. Triangle inequality produces i length(mu)≤lengths sum.",
+    "Checked state Euler-characteristic sum c+2gT−2, boundary intersection 2c, resulting 3+(6gT−6)/c and exact cutoff c≥6gT−6. Twist-number criterion c≥3t gives strict <4 since c>0. Finite certificate failure is not failure of the geometric bound."
+  ],
+  "primary_source_checks": [
+    "Burton–Kalfagianni arXiv:1608.05035v2, Theorem 4.1 primary PDF p.9 and Theorems 1.2/1.4 plus §4 state identities; retrieved turn1634view9, turn1637view2, turn1664view5, evidence _04/_05/_10. The source’s pleated-surface bound and state-surface essentiality are credited imports."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "The maximal-cusp bound holds for every adequate hyperbolic knot with crossing number c at least 6g_T−6, and for every adequate diagram with c at least three times its twist number. A general essential-spanning-surface certificate and its exact limitations are explained; no universal assertion for all knots is made.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

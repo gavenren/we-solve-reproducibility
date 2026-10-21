@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-2534",
+  "canonical_problem_id": "prb_73051af97d794cddbb6ad0b72ea146f2",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "019a6af8957ee9e507257ffbafacf97362b4fbf3d1a36a40f22572804d7afc8b",
+  "report_sha256": "019a6af8957ee9e507257ffbafacf97362b4fbf3d1a36a40f22572804d7afc8b",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "719a79957952ba7c9764ba84bdc21f944ffe792fe02682b4acde6ba1075d7c27",
+    "contribution.json": "b91d51518acc4528d2d999d6c3546dc4554c4c46a0d2b7d29caf85e81d6a58b5",
+    "official_metadata.json": "268c464745933aa2df29bb1fd61f8c1af9ecb6b272d73899c716b96f67563763",
+    "official_metadata_api.json": "a226a1093b794e2615562293aa018f43f83f46c5d53177c9f648a8975fd4ee3d",
+    "official_prompt.txt": "e77da3b6858111b52431e8823cd7d17cc8bc735ca3463e26c75e88c3974ac2c1",
+    "official_prompt_api.json": "b6e50de540a5d449e6417423b767d42fbaf74d13b607fa9a0107fc58da6f65cd",
+    "report.md": "019a6af8957ee9e507257ffbafacf97362b4fbf3d1a36a40f22572804d7afc8b",
+    "source_notes.md": "965a2bd1b0cebb36d03951d67eae1e907bcd6d6eb92c07dae7a9af5de4fa8d47"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:18:21.901711+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Independently multiplied both w(1) and w(t), verifying w(t)w(-1)=diag(t,t^-1) over arbitrary finite fields, including characteristic2. Signed row interchanges and row additions reduce any determinant-one matrix to a diagonal; pair(i,n) diagonal factors recover the entire diagonal. Full field parameters occur in the two unitriangular groups, so extension fields introduce no hidden cyclic-root assumption.",
+    "Checked GLn(q) product order, SL determinant quotient and the full defining-characteristic p-partq^(n(n-1)/2). Upper/lower groups have this order. The scalar center has p-prime order, so images remain Sylow and retain generation after projection.",
+    "Checked existential two choices and repeated prime(p,p), all ranksn>=2/all fields, and exceptional nonsimple small groups kept separate. Generation by union is not confused with set-product equality. No priors; a uniform family-specific witness, not a general prime-pair solution."
+  ],
+  "sources": [
+    "Notebook actual primary arXiv:1401.0300v49,20Oct2026, relevant Problems21.4 and21.22-28, turn1656view0/turn1657view1/turn1658view0. WordPress update3 link inaccessible here; exact official prompts and retained API wrappers supply literal scoped statements."
+  ],
+  "limitations": [
+    "Classical elementary generation is fully derived in the report and directly checked. No classification theorem beyond identifying simple members is needed; no program/runs/formal verification."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

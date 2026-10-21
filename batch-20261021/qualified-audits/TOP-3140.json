@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-3140",
+  "canonical_problem_id": "prb_5525875603334e539f37192eae1efe38",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_graphs",
+  "verdict": "PASS",
+  "checked_report_sha256": "39385ab2381e43bae21a832b226ee14daccbfe47dc955278bab90cb4ebf3d4aa",
+  "report_sha256": "39385ab2381e43bae21a832b226ee14daccbfe47dc955278bab90cb4ebf3d4aa",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "author_record.json": "0245b74810b2ace8b736683749fc7a3fbb4e83cc6ed8d6fb82fc72fb9160948e",
+    "contribution.json": "b5badfe16b9ce6da183f5fce903a6332c7c38d8d85c30e17f4c4601093754af2",
+    "official_metadata.json": "e29ebb68c7b9dc7a0fa2521dfa310cff893f9857fdfaf2bf9df0dd1a142ea9f7",
+    "official_metadata_api.json": "a6ab80ef825909f6a536586181bf68fe33d276f39972f90263c2b4dffef9de19",
+    "official_prompt.txt": "9625e47ffb7e0c5e6b6e6661ec8298ba34cfa14a1d3abac36bd77e8557385a2a",
+    "official_prompt_api.json": "f2fa884ec85c5c31ab51cb585ac40cfdfddd012b0baf22614e1c1fca5b1a1afa",
+    "prior_attempts/attempt-1.txt": "349715d9f846556de027870a0da430cf88f9c50a92a69e399e0e287fd4eab735",
+    "prior_attempts/attempt-1_api.json": "88c2daac184aa6ea5d68119daa156592bd823a902d2d56464a67d352d07fabe8",
+    "report.md": "39385ab2381e43bae21a832b226ee14daccbfe47dc955278bab90cb4ebf3d4aa",
+    "retrieval_record.json": "cf31b22a8ee726d56a6826cc03d9f0faf649ebbdd7ee76bf4ff91af2403c4d34",
+    "source_notes.md": "08e8f1ce215b4faa6101168041d4ce066839db8e8718ae50d83fa945a291e331"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:35:22.030951+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read the full earlier contribution, an explicitly unverified external disproof claim. The positive closure family and its exact exponents are distinct; the claimed deficit/Lean artifact is not used as a proved premise.",
+    "Checked repeated uniform subdivision and every even-cycle Cartesian-product hypothesis. Independently derived v_a, e_a and iterated product exponent formulas, connected bipartite pattern scope, empty product t=0 and r=4 example (40 vertices, 88 edges).",
+    "Checked finite host normalization N^2, noninjective homomorphism counts, N=1/p=0 boundaries, and categorical host-product identities. The deficit amplification is correctly conditional and uses a different product operation."
+  ],
+  "sources": [
+    "Opened the author-hosted 19-page primary manuscript by Conlon-Kim-Lee-Lee, exact definition/equation (1), Theorems 1.3(i)-(ii) and 1.4 on page 3, and Section 4 normalization: https://www.its.caltech.edu/~dconlon/Sidorenko2.pdf. The unnumbered author-hosted version is identified by this URL and page count; no revision date is invented."
+  ],
+  "limitations": [
+    "Independent mathematical/source review by an LLM; no formal proof certification, novelty-priority decision, or editorial acceptance.",
+    "Imported closure theorems are not independently reproved. The external prior claimed counterexample and Lean development remain unexamined as scientific proof inputs. No program exists or was executed."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "actual_program_run_count": 0,
+  "formal_verification": false
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-600014",
+  "canonical_problem_id": "prb_b21fb9f1c7e44fe7aa9f06471d4f8f03",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "54e95e5909f3b52ada075c62a313ac532b0d929d621a2b6c4b75ed8f7eec8f4a",
+  "report_sha256": "54e95e5909f3b52ada075c62a313ac532b0d929d621a2b6c4b75ed8f7eec8f4a",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "d81e1a3e60040808bc68d8989c5a74a5f7968bb836207a2734ec26cb759cad71",
+    "contribution.json": "291abc7cc462ee01df3d8aa80767bd4550432145a8859b74eb679280fd4d85dd",
+    "official_metadata.json": "a7b9f9f0d9a1fbb98312e5712efc0fdd6390d00644c77e018089fe0c778e858a",
+    "official_metadata_api.json": "8a357558e73dee78ea550b6fd984f1fb1171e3b5848436e5b1e7ecb2606494a8",
+    "official_prompt.txt": "0dab8d0202cbb6faf29720ef3b3c004a6a58155674f1d9f7b3b0f72f30526d37",
+    "official_prompt_api.json": "5e60ccc188f5a2504de93a8b665a151cc3f2967444e5239c872680a8b5de9f97",
+    "report.md": "54e95e5909f3b52ada075c62a313ac532b0d929d621a2b6c4b75ed8f7eec8f4a",
+    "source_notes.md": "c6e42ce31de11d768f36dbd29dc5f88efd638544a16ee1a3297dd4fcbac9bcb4"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:04:03.112460+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "No earlier contributions listed. Verified seven-column affine-span criterion and exact quadratic midpoint identity for every vector-valued total-degree-two polynomial.",
+    "Independently expanded derivative difference and midpoint residual for C3 maps, checked -1/12 coefficient and t6 determinant order, plus uniform compact-set remainder and sufficient near-diagonal quantifiers.",
+    "Checked that rank/injectivity and distant pairs remain separate, and that sphere-constrained tangent spaces do not permit the open-parameter quadratic obstruction to be transferred."
+  ],
+  "sources": [
+    "Opened Tabachnikov, A Baker\u2019s Dozen of Problems, original journal HTML: https://armj.math.stonybrook.edu/html-articles/Files-2015-2024/14-01/ (turn1523view0,turn1526view5). Section12 Problem6.",
+    "Opened Ghomi\u2013Tabachnikov, arXivmath/0307044v1,3Jul2003, Theorems1.1\u20131.2 and1.4: https://arxiv.org/pdf/math/0307044 (turn1523view1)."
+  ],
+  "limitations": [
+    "The imported sphere construction and closed-manifold obstruction are checked at their exact hypotheses, not fully reproved. The report\u2019s polynomial obstruction and jet formula were directly verified. No global existence/nonexistence result is certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

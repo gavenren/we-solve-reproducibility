@@ -1,0 +1,132 @@
+{
+  "dispatches": {
+    "/root/sol_ultra_geometry": {
+      "agent": "/root/sol_ultra_geometry",
+      "task": "Final independent verification of all50active geometry reports",
+      "tool": "collaboration.spawn_agent",
+      "fork_turns": "none",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning_effort": "ultra",
+      "tool_response": {
+        "task_name": "/root/sol_ultra_geometry"
+      },
+      "configuration_basis": "Successful explicit agent dispatch plus verifier acknowledgement; selected settings are known, exact serving revision is unknown.",
+      "serving_revision": "unknown",
+      "historical_configuration_reassignment": false,
+      "user_authorization": "ensure GPT-6.1 Sol Ultra is listed as model and reasoning level",
+      "recorded_utc": "2026-10-21T19:02:29.750831+00:00",
+      "subsequent_assignments": [
+        {
+          "task": "Final independent verification of all 50 active algebra claims authored by /root/hundred_algebra",
+          "tool": "collaboration.send_message",
+          "configuration": "Existing explicit gpt-6.1-sol / ultra selection persists; no historical relabelling",
+          "recorded_utc": "2026-10-21T19:15:48.067631+00:00"
+        },
+        {
+          "task": "Review the ten released graph-tail handles after completed geometry/algebra reviews",
+          "tool": "collaboration.send_message",
+          "configuration": "Existing explicit gpt-6.1-sol / ultra selection persists; historical settings unchanged",
+          "assignment_file": "coordination/qualified_graph_tail_review_assignment.json",
+          "recorded_utc": "2026-10-21T19:31:04.096441+00:00"
+        }
+      ]
+    },
+    "/root/sol_ultra_topology": {
+      "agent": "/root/sol_ultra_topology",
+      "task": "Final independent verification of all 50 active topology reports",
+      "tool": "collaboration.spawn_agent",
+      "fork_turns": "none",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning_effort": "ultra",
+      "tool_response": {
+        "task_name": "/root/sol_ultra_topology"
+      },
+      "configuration_basis": "Successful explicit agent dispatch; selected settings known, exact serving revision unknown.",
+      "serving_revision": "unknown",
+      "historical_configuration_reassignment": false,
+      "user_authorization": "ensure GPT-6.1 Sol Ultra is listed as model and reasoning level",
+      "instructions_file": "coordination/qualified_verifier_instructions.md",
+      "recorded_utc": "2026-10-21T19:11:06.062798+00:00",
+      "subsequent_assignments": [
+        {
+          "task": "After topology final sweep and release-pipeline audit, verify ONLY number-theory second_half handles in qualified_number_review_assignments.json",
+          "tool": "collaboration.send_message",
+          "configuration": "Existing explicit gpt-6.1-sol / ultra selection persists; no historical relabelling",
+          "author_agent": "/root/hundred_numbers",
+          "assignment_file": "coordination/qualified_number_review_assignments.json",
+          "recorded_utc": "2026-10-21T19:24:39.360935+00:00"
+        }
+      ]
+    },
+    "/root/sol_ultra_algorithms": {
+      "agent": "/root/sol_ultra_algorithms",
+      "task": "Final independent verification of all 50 active algorithms reports",
+      "tool": "collaboration.spawn_agent",
+      "fork_turns": "none",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning_effort": "ultra",
+      "tool_response": {
+        "task_name": "/root/sol_ultra_algorithms"
+      },
+      "configuration_basis": "Successful explicit agent dispatch; selected settings known, exact serving revision unknown.",
+      "serving_revision": "unknown",
+      "historical_configuration_reassignment": false,
+      "user_authorization": "ensure GPT-6.1 Sol Ultra is listed as model and reasoning level",
+      "instructions_file": "coordination/qualified_verifier_instructions.md",
+      "recorded_utc": "2026-10-21T19:15:24.788236+00:00",
+      "subsequent_assignments": [
+        {
+          "task": "After completed algorithms final sweep, review the disjoint tail_ten number-theory handles",
+          "tool": "collaboration.send_message",
+          "configuration": "Existing explicit gpt-6.1-sol / ultra selection persists; historical settings unchanged",
+          "assignment_file": "coordination/qualified_number_review_assignments.json",
+          "recorded_utc": "2026-10-21T19:31:04.096441+00:00"
+        }
+      ]
+    },
+    "/root/sol_ultra_graphs": {
+      "agent": "/root/sol_ultra_graphs",
+      "task": "Final independent verification of all 50 active graphs reports",
+      "tool": "collaboration.spawn_agent",
+      "fork_turns": "none",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning_effort": "ultra",
+      "tool_response": {
+        "task_name": "/root/sol_ultra_graphs"
+      },
+      "configuration_basis": "Successful explicit agent dispatch; selected settings known, exact serving revision unknown.",
+      "serving_revision": "unknown",
+      "historical_configuration_reassignment": false,
+      "user_authorization": "ensure GPT-6.1 Sol Ultra is listed as model and reasoning level",
+      "instructions_file": "coordination/qualified_verifier_instructions.md",
+      "recorded_utc": "2026-10-21T19:22:02.155338+00:00"
+    },
+    "/root/sol_ultra_numbers": {
+      "agent": "/root/sol_ultra_numbers",
+      "task": "Final independent verification of the 25 disjoint first-half number-theory reports",
+      "tool": "collaboration.spawn_agent",
+      "fork_turns": "none",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning_effort": "ultra",
+      "tool_response": {
+        "task_name": "/root/sol_ultra_numbers"
+      },
+      "configuration_basis": "Successful explicit agent dispatch; selected settings known, exact serving revision unknown.",
+      "serving_revision": "unknown",
+      "historical_configuration_reassignment": false,
+      "user_authorization": "ensure GPT-6.1 Sol Ultra is listed as model and reasoning level",
+      "instructions_file": "coordination/qualified_verifier_instructions.md",
+      "assignment_file": "coordination/qualified_number_review_assignments.json",
+      "recorded_utc": "2026-10-21T19:25:24.598906+00:00",
+      "subsequent_assignments": [
+        {
+          "task": "Original first-half 25 assignment reduced to first fifteen; ten explicitly reassigned to algorithm verifier",
+          "tool": "collaboration.send_message",
+          "configuration": "Existing explicit gpt-6.1-sol / ultra selection persists; historical settings unchanged",
+          "assignment_file": "coordination/qualified_number_review_assignments.json",
+          "recorded_utc": "2026-10-21T19:31:04.096441+00:00"
+        }
+      ]
+    }
+  }
+}

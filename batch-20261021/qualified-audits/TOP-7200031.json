@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-7200031",
+  "canonical_problem_id": "prb_7eeb77bd54d34b26a7f8ff5fae8ebbc0",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "6a94b73b326ca1208e20567ca601e229cdcd8a43bc002cfe395ca0c111c0a6e7",
+  "report_sha256": "6a94b73b326ca1208e20567ca601e229cdcd8a43bc002cfe395ca0c111c0a6e7",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "c0b110a81400d8ad0594dadc55b6fd44fe44d6579e48396bae1b78d5332a5aa5",
+    "contribution.json": "ca382f90210b013db126ac2ea4742076a5e2432b1a289ed887734d2533eea7a1",
+    "official_metadata.json": "f64ca87b847aa08f10a2d71c5c06d35573f430b23c6f928a879721d0035495ed",
+    "official_metadata_api.json": "cbe50155a83d43fb1d8fe007fd2b79db40338d2d6526d4b7a484d2b17faeb34c",
+    "official_prompt.txt": "0645b9a934ec8eb2b03d8cc29d9e5cc23f6172b18e0ff0774fac8181cb786cdf",
+    "official_prompt_api.json": "f8a40d910ef6acd174089411a9be88dc3126b84661a31971c39da66d1b390965",
+    "report.md": "6a94b73b326ca1208e20567ca601e229cdcd8a43bc002cfe395ca0c111c0a6e7",
+    "source_notes.md": "03aa614f231825e0df877f6be7429a77c7aeca5f354224fafc07ca93aee39642"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:06:47.554234+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "No earlier contributions. Checked good-square angle modulo square symmetries, exact10^-10 threshold and correct multiplicative inclusion direction.",
+    "Independently verified grid upper envelope, integrality lower fractional-part bound, nonnegative t_m=o(m^-1/2) consequence and compatibility with both zero-waste integer sequences and W not in o(sqrtx).",
+    "Source theorem, definitions and proof endpoint checked; no pointwise Omega strengthening of the cited lower statement is made."
+  ],
+  "sources": [
+    "Opened Bui2504.09489v1,13Apr2025, Theorem1 and Definitions7/11/12: https://arxiv.org/pdf/2504.09489 (turn1557view2)."
+  ],
+  "limitations": [
+    "Flow/cut and surgery theorem is imported, not fully independently rederived. Roth\u2013Vaughan original lower proof was not audited. No current best exponent or exact between-integer optimum is certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

@@ -1,0 +1,65 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Substantive literature report relating a verified published irrationality measure to infinite continued-fraction and linear-form restrictions, with a carefully separated current preprint and a complete degree-two obstruction to inferring transcendence. Distinct from the earlier recurrence/tensor/finite polynomial diagnostics.",
+  "actual_checks": [
+    "Independently read original publisher Rhin–Viola Theorem5.1 and final c0,c1,c2 calculation: positive parameter hypotheses, h+m=k+r,j+q=l+s,c0>c2 and bound(c0+c1)/(c0-c2), concluding mu(zeta3)<5.513891. Imported integral/divisibility estimates are credited.",
+    "For fixed B>5.513891, finite-exception measure bound at convergents and strict error<1/(a_(n+1)q_n^2) yield a_(n+1)<q_n^(B-2). Recurrence q_(n+1)=a_(n+1)q_n+q_(n-1) and B>2 give q_(n+1)<=2q_n^(B-1) eventually.",
+    "For unreduced p,q=d*p',d*q', scaling gives d*(q')^(1-B)=d^B q^(1-B)>=q^(1-B) when q' large. For finitely many small q', nearest integer residuals have a positive minimum by irrationality and distant numerators only enlarge errors; sufficiently large d cover them.",
+    "The sqrt2 norm argument is valid on a bounded positive neighborhood of sqrt2, where |p/q|=p/q; fractions outside have fixed error. Pell conjugate gives the stated exact q^-2 approximation and q_n->infinity, proving mu(sqrt2)=2 and showing degree-one control does not prove transcendence.",
+    "Read full2609.26980v1 HTML, including author/date, theorem, parameter tuple, positivity/relations, reported constants, floating-point and200-bit-ball claims, verification methodology and remarks. Ancillary C was neither obtained nor run; new numerical bound is consistently a preprint claim and is not used in deductions."
+  ],
+  "prior_comparison": "Read the full retained A1 Apéry recurrence manuscript: Casoratian enclosure,19682 bounded polynomial exclusions, denominator growth, Liouville comparison and unchanged tensor-power exponent. Current infinite rational-approximation consequences and status-separated literature audit are additional, not restated bounded tests.",
+  "primary_sources": [
+    {
+      "url": "https://www.impan.pl/shop/en/publication/transaction/download/product/82430",
+      "version": "ActaArith97(2001),269–293 original publisher PDF",
+      "locators": "definition of measure p269;Theorem5.1 p292 and final constants/conclusion p293",
+      "access": "Full primary PDF independently opened and exact relied-on statements read. Integral optimization not independently rerun."
+    },
+    {
+      "url": "https://arxiv.org/html/2609.26980v1",
+      "version": "David Niedbala Giraudin,22September2026",
+      "locators": "entire manuscript Sections1–6",
+      "access": "Full primary HTML independently read. Ancillary C and numerical certification not independently executed/audited."
+    }
+  ],
+  "required_corrections": [],
+  "limitations": [
+    "No transcendence, new irrationality record or independent verification of the2026 computational certification is claimed; all deductions use the published2001 bound.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-1283",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "6668bb47c6b88a96715d3a9c2f79be226017dffca4c2258a34f887c7ecbf9c5d",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "6668bb47c6b88a96715d3a9c2f79be226017dffca4c2258a34f887c7ecbf9c5d",
+    "source_notes.md": "7a86ec1166975a52545c82c46cba2b5c765a0885ccbda295d7c9489fa1daa1f0",
+    "author_record.json": "38000a2cbc06fc5fee69b68eb0ddd7034bb3a8f763f2c368aa4f9da87971675b",
+    "official_prompt.txt": "53e95e941e6997198ce655d829a3823b68cfbd4e57bce40465674c5b39aafdee",
+    "official_prompt_api.json": "d657609fe996b185bd8506bb301f5e55f5c1d325e2cc24d805cba47d8050a4fd",
+    "official_metadata.json": "8f8637fd6855d229011503c11793e2db7ea3a81f517fa68c192cf5a15fbb9348",
+    "official_metadata_api.json": "25f0648dca7b59630ceccf94c1eff11bd2a14109a8bf760771875bfdf70ed795",
+    "contribution.json": "8cc4df4210b3dd325bce4bd13386ca1903362f34264c0a5f44cdca141a62c64c",
+    "retrieval.json": "bdee104f7c27605590a22b10f8a32d5ebcc1ad19eb238f899bf8eba16dffcf5a",
+    "prior_attempts.json": "1d9a782550c23dddccdd7b0c37441935e76696582a12c97e113213bab3c7391f",
+    "prior_attempt_01_api.json": "610130b974f760c5a4b77c587cbd8f26a6909d89ec15166e28bf33b88cb50530",
+    "prior_attempt_01_text.txt": "410e7480dfd8076100257f65bbf8584f3a25835932ad7e85457e5c49971e4b04"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_algorithms_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:37:44.235943+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

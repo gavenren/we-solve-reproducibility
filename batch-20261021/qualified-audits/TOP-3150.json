@@ -1,0 +1,59 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3150",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "e5ba5b8799601c568522ca402fb86f3d58676b6b6875c736a447e24f7093f3bb",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "e5ba5b8799601c568522ca402fb86f3d58676b6b6875c736a447e24f7093f3bb",
+    "source_notes.md": "3857d277c8960cca9b9f424814098987d9bce15116f0bdd48bea898c815998e2",
+    "author_record.json": "47d1161a2349676f93cf5c699408eaaf2a62069bb2f7922e29a737ece302d87a",
+    "contribution.json": "6978ef9728044596c75e431e8b8a8d947ab6881772a04356fd41a9f1c0e3cebd",
+    "official_prompt.txt": "92ff03b65c7f28be412984852c697c955d87e2dab0e0f99ffd7b55a8e743aba6",
+    "official_prompt_api.json": "7aa5c2342831f6d08a4abc0e35c2f5a57c1353059150afe991cdee02032efbd0",
+    "official_metadata.json": "8395b7c30b4f7e2f7eaf81f1f283c262f7a8f7443966be0ab7bc59e156c8e919",
+    "official_metadata_api.json": "251594091256eb369c80aa77397eae97a1c6e94a9842db8b5988f5940ecb764a",
+    "prior_attempts/attempt-1.txt": "2f28048b5d5c5bf67a2d6a847b463c26459a6268d9e0b7951076d2d89c4c28c1",
+    "prior_attempts/attempt-1_api.json": "bd2eb178a041f1bfdb7b16881ee87a897fe788c93ecbcca8bc072383bcc8a91a",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "06290573e6e5722b1b77ff23a7934d6938a3386665bb5f3c6094961ad2b3cbc5"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked exact subtree-polynomial bridge and leaf-edge convention; for k>=2 stars have unique center, giving sigma_k=sum binomial(j,k)delta_j and correct descending binomial inversion.",
+    "Checked same-X tree recognized as spider among all trees, top r^m coefficient equals independent positive leg-prefix product, and formal logarithmic derivative/divisor recurrence recovers every leg through n-1.",
+    "Earlier power-sum cut/profile and path/star/double-star body was fully read; arbitrary spiders and this full reconstruction are beyond it. No general-tree inference from subtree polynomial is made."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/math/0609339",
+      "version": "masthead v3,8 June2007",
+      "locators": "Theorem1,Corollary5,Theorem8 and leaf-edge definition",
+      "retrieval_refs": [
+        "turn1807view0",
+        "turn1810view1",
+        "turn1810view2"
+      ],
+      "access": "Exact bridge and spider scope checked; report supplies its own complete inversion after imported bridge."
+    }
+  ],
+  "distinct_significant_scope": "Full arbitrary-leg spider reconstruction among all trees, using a credited nontrivial invariant bridge and explicit divisor inversion.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:28:15.488957+00:00"
+}

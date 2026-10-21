@@ -1,0 +1,46 @@
+{
+  "handle": "TOP-30006671",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "9edd5b6976b72583ddbc22bd36cb666a25fa5b7c23e81a2038a6ce5b5acbce6c",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "937e00be7310e0cf673172fb46c27fa6500d491c6af1faf3d7b1e7e6b72d03eb",
+    "contribution.json": "4aa941fbfa3fd3c97bc78653af1b08cd810e3fab0860f663920f91d34d059c16",
+    "official_metadata.json": "4d10e18fcc110a96568341e87fade38901187a1fb88603ed01f2e4b331f5388f",
+    "official_metadata_api.json": "3fad088ff0df9108711c25ed4981e5a46dbc67386442d30302f96daf9e386d24",
+    "official_problem.json": "4d10e18fcc110a96568341e87fade38901187a1fb88603ed01f2e4b331f5388f",
+    "official_problem_api.json": "3fad088ff0df9108711c25ed4981e5a46dbc67386442d30302f96daf9e386d24",
+    "official_prompt.txt": "781166e92fad481de6dfa5da7586e390b32197f102e83107b915f966d6ec740e",
+    "official_prompt_api.json": "37c4f9fce81d2208ad3d7614cf0180b65b8e79819eda327f6eac0065226add73",
+    "prior_attempts/TOP-30006671-A1.tex": "b14b49814dff1d6492d7ba37ac6cc48f69bb1e63687750c61b485954c8f66042",
+    "prior_attempts/TOP-30006671-A1_api.json": "cac8199ae04c3bf1ea7d2e9a1634bf59ab6df27df2801e84463c222297ea78e7",
+    "prior_attempts/TOP-30006671-A1_manuscript_api.json": "bd256b1f8b9286a26f79a35bff3643fce565c21ed44bcf90cfbaa2c01fb95a29",
+    "report.md": "9edd5b6976b72583ddbc22bd36cb666a25fa5b7c23e81a2038a6ce5b5acbce6c",
+    "source_notes.md": "d6f29beb6e00661b1768040d9024dc66eacaeaf6f2335c21f8e71976098f997e",
+    "verification.json": "1e142d62a0912a01f07f1690f480e2617a0175ac783deff39da580373e05ae4e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:31:53.414393+00:00",
+  "actual_checks": [
+    "Read literal unrestricted real-weight depth questions, full prior and current scientific inputs. Fresh primary v1 Theorem3 is an unbounded-width integer-connection-weight lower bound for max(0,x1,...,x_(2^k)); final affine output weights must also be integer.",
+    "For ell=ceil(log2 d), restriction leaves2^(ell-1) free coordinates and at least one zero, giving forbidden max0 function at depthell-1. d=1 affine and d=2 zero-layer nonaffinity handle boundary; shallower networks can be padded by copying nonnegative channels.",
+    "Verified pair construction sigma(a-b)+sigma(b)-sigma(-b), signed carry channels and integer affine readouts at each ordinary hidden layer. Balanced/unpaired recursion uses ell layers, polynomial width/size and no uncounted skip/output ReLU.",
+    "Bias removal by scaling tx/t and continuity preserves exact positive homogeneous function and integer matrices, including final bias. Clearing rational denominators may require noninteger output rescaling and cannot extend theorem. Deep lattice-parity lower bound credited, not independently certified; no network program run."
+  ],
+  "primary_sources": [
+    "Haase-Hertrich-Loho,Lower Bounds on the Depth of Integral ReLU Neural Networks via Lattice Polytopes,ICLR2023/arXiv2302.12553v1,24Feb2023 masthead,primary13-page PDF https://arxiv.org/pdf/2302.12553,Theorem3,Corollary4,Section1.3 rational warning and Lemma7 bias removal freshly read. Retained10_details.json,10_proof.json."
+  ],
+  "prior_work_distinction": "Prior gives max3 one-layer obstruction and reported unrestricted arity<=12 results. New integral unbounded-width logarithmic hierarchy, exact max_d transfer and constructive matching architecture are substantive separate credited scope.",
+  "scope_assessment": "Using the credited Haase–Hertrich–Loho Theorem 3, prove that max{x₁,…,x_d} needs exactly ⌈log₂d⌉ hidden layers when all connection weights, including the affine output weights, are integers; biases may be arbitrary real numbers. For d=1 the minimum is zero. Width is unrestricted. This restricted-weight depth hierarchy does not settle the source’s unrestricted real-weight questions.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

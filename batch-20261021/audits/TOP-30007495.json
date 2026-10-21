@@ -1,0 +1,46 @@
+{
+  "handle": "TOP-30007495",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "f89596c773bb2f2565447b148cef34fd9c9cadd21d7bb55f29657cfbe40f7fba",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "271d1fe186309f3ed8558283021c10aad538c6eb4abe5ad004676a8a94e1bae6",
+    "contribution.json": "61ac31c1694ce03624f949e60938d46702899e225a57e1a3d10f1d660b2f25b1",
+    "official_metadata.json": "fa27a582b80d5331f042ed785e841a0f7ede16f42a74ea738a5f3cb0a5369fa4",
+    "official_metadata_api.json": "ed454256c6ddb7b627400c0166c5633dd84c470a751e492d47151368c33bb277",
+    "official_problem.json": "fa27a582b80d5331f042ed785e841a0f7ede16f42a74ea738a5f3cb0a5369fa4",
+    "official_problem_api.json": "ed454256c6ddb7b627400c0166c5633dd84c470a751e492d47151368c33bb277",
+    "official_prompt.txt": "26959fae22ce26dd06669c94b572b87c0849be51bbf0827cca61a5e6180fab01",
+    "official_prompt_api.json": "58b2fca58f7834fcd2a497045eb9825efc4d366239de3afb530006d32e298bbb",
+    "prior_attempts/TOP-30007495-A1.tex": "2ec5e1fe912c7215be6acb57e8c90d2099710e459e903ef4f968bc225e02e88c",
+    "prior_attempts/TOP-30007495-A1_api.json": "164c7844a5c9edf70e83551cace9b12c62a161bcd726534b65ab9cc3576a18b7",
+    "prior_attempts/TOP-30007495-A1_manuscript_api.json": "ab2c481c62e8ed5d97a4d0335ca5fa4865fbf9be888fe7010c287a80277d9c2f",
+    "report.md": "f89596c773bb2f2565447b148cef34fd9c9cadd21d7bb55f29657cfbe40f7fba",
+    "source_notes.md": "6794de546dbdd5bcf176ee11509015f53f92d9e11f9f092bf6b6988568f016e2",
+    "verification.json": "1e142d62a0912a01f07f1690f480e2617a0175ac783deff39da580373e05ae4e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:31:53.348780+00:00",
+  "actual_checks": [
+    "Read exact deterministic simple-unweighted factor2-epsilon prompt, complete retained claim summary and all current inputs. Primary Theorem1.1 and Corollary2.3 give every fixed factor below10sqrt5-21; p>1/3 uses4p^3-3p^4 and the limiting ratio is correct.",
+    "Checked rational p,eta,zeta chosen once per factor with strict gap. Deterministic cloning c_v=ceil(Mw_v)+1 keeps even zero-weight classes nonempty; Nprime lies betweenM+n andM+2n, and L1 normalized weight error<=4n/M<=zeta.",
+    "Independent sets enlarge to whole clone classes, proving optimum equivalence without an invalid partial-cover argument. M=O(n/zeta) gives polynomial explicit vertices/edges and rational arithmetic; huge common denominator is never expanded. Fixed gap preserves approximation hardness.",
+    "Exact literal range epsilon>23-10sqrt5 excludes endpoint. Prior unverified full threshold and UGC are not inputs. Deep PCP theorem credited, not independently certified or executed."
+  ],
+  "primary_sources": [
+    "Dinur-Safra,On the hardness of approximating minimum vertex cover,Annals162(2005),439-485,primary47-page published PDF,Theorem1.1,Theorem2.2/Corollary2.3,printed451-452 ratio and Appendix8 unweighting freshly read. https://annals.math.princeton.edu/wp-content/uploads/annals-v162-n1-p08.pdf. Retained10_details.json,10_proof.json."
+  ],
+  "prior_work_distinction": "Prior only summarizes an unverified all-factor2026 assertion. Current independently sourced classical frontier plus complete rational-bit gap-preserving conversion provides substantive credited scope without endorsing that stronger assertion.",
+  "scope_assessment": "Credit and specialize the Dinur–Safra theorem: deterministic polynomial-time NP-hardness holds for every fixed approximation factor α<10√5−21 on simple unweighted Vertex Cover, hence for the literal prompt whenever ε>23−10√5. A complete rational weighted-to-unweighted rounding argument preserves the fixed gap with polynomial output length. The full factor-two threshold is not claimed.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

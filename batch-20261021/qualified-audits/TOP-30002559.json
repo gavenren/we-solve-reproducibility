@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30002559",
+  "canonical_problem_id": "prb_b7c2fe97b4c0454c84405d09f632700f",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "b7a75a175337f02c86345e2437c6ef373617a2d551f093e9368fd33613f862a9",
+  "report_sha256": "b7a75a175337f02c86345e2437c6ef373617a2d551f093e9368fd33613f862a9",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "cc18627b895aa92d2278704215aa61f045069037c117bd5b9437dbce59f058e8",
+    "contribution.json": "c633b1d276714426f6da38fef5a05bbb0dfefce85c21f7591ba0aef20b9baf65",
+    "official_metadata.json": "e592cf77b6cf20cd9bd94f55491a16f3c14a2d393e609f5fd44d89f37deb6240",
+    "official_metadata_api.json": "b3231b7ab18b949985867d81b89656c5ad091f719112da801c2a9d2bb78d0e61",
+    "official_prompt.txt": "ba17d843ff81481f0113e414e512fa4a631dc08f4cc978b4d1b8ffb0a7bee2b4",
+    "official_prompt_api.json": "388ec582fdc322240e6f33351d09e4fba87cf0dd2f56dd9fb592b8554b942b29",
+    "prior_attempt_1.html": "20b9b658f89caa4f1ebb51b743926b8b0093328ade44930c7b120a5668450216",
+    "prior_attempt_1.txt": "4c750b1cb037901fe48d9e1848f222217e8ac29ef738d95947345fb8ec81b9fa",
+    "prior_attempt_1_api.json": "ac660ce74acf67a8ba17879733b4fb86bc85a60b7f1d64c8bb1137e57bfd1654",
+    "report.md": "b7a75a175337f02c86345e2437c6ef373617a2d551f093e9368fd33613f862a9",
+    "source_notes.md": "d5e282dd1eb44db041ea356b0919cebbeb863b4b4385feb5a4cba3a95cfdc005"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:10:18.389635+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read complete prior three direct/lift/no-lift unverified claims; none is adopted as a theorem.",
+    "Independently checked normalization of derivative product, Cauchy\u2013Binet maximal-minor weights1/m from orthogonal complement and determinant identity even at zero a_i.",
+    "Verified M(e)=I, hyperbolicity from real eigenvalues, equality of e-component with convex PD preimage and PSD closure via x+epsilon e, including noninjective pullback/lineality and m=2."
+  ],
+  "sources": [
+    "Opened Br\u00e4nd\u00e9n1204.2997v2,20Sep2013, Theorem1.2 and Sanyal first-derivative attribution: https://arxiv.org/pdf/1204.2997 (turn1576view0)."
+  ],
+  "limitations": [
+    "Explicit first-derivative pencil is directly checked known structured progress. The broader elementary-symmetric theorem and unread original Sanyal proof are not independently reconstructed; no general Lax claim or semidefinite-lift conflation is certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

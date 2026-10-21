@@ -1,0 +1,57 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "A complete integral Pell realization of a credited classical Hall upper-example family, with explicit congruence preservation and exact normalized limit. Literature report adds a substantive all-parameter reconstruction, while leaving the requested lower estimate open.",
+  "actual_checks": [
+    "Expanded A(z)^3−(z²+1)B(z)²=−27(2z+11). Norm of 682+305sqrt5 is −1; norm of 9+4sqrt5 is one.",
+    "In Z[sqrt5]/5, unit fifth power is −1 and tenth power one. Writing tenth power 1+5a and raising to25 makes every nonconstant binomial term divisible by125, so eta=(9+4sqrt5)^250=1 mod125 coefficientwise.",
+    "Thus z=57,w=55 mod125, giving A(z)/5 and wB(z)/5 integral and 125|(2z+11). Substituting norm gives the exact nonzero negative gap; positivity and growth produce infinitely many distinct x.",
+    "Checked x0=93844,y0=28748141 and gap−297; normalized gap tends to54sqrt5/125<0.97. It excludes exponents >1/2, but neither exponent1/2 with sufficiently small constant nor the literal1/2−epsilon bound."
+  ],
+  "prior_comparison": "Complete earlier body read, including abc/gcd implication, nearest-square diagnostics, scaling, Mason–Stothers polynomial restriction and fixed-Mordell finiteness. The explicit congruence-preserving integral Pell family is not present.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1005.3448",
+      "version": "1005.3448v2, 9 July 2010",
+      "locators": "Page1 Danilov constant attribution; page5 Pell identity and modulus125 integrality condition",
+      "retrieval": "coordination/qualified_number_first_half_primary_06.json; _07.json"
+    }
+  ],
+  "limitations": [
+    "Dujella's primary exposition was directly read; original Danilov paper was not. No minimal Pell period or new construction/priority is claimed; numerical sample was checked algebraically, no program run.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-1241",
+  "reviewer": "/root/sol_ultra_numbers",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "0834c1dece3ab9f9b40e6b2cff4cd80d67c0d59c7781162c8396d6f5cbb63e69",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "0834c1dece3ab9f9b40e6b2cff4cd80d67c0d59c7781162c8396d6f5cbb63e69",
+    "source_notes.md": "270addc8c7eb698bbbfbebb54eea0410fe71bdf6740e2b0cfd89ec63dd32a292",
+    "author_record.json": "80fc455c716afe7cd273dce6705b6483aee646119412de347965504a34072bce",
+    "official_prompt.txt": "61d0db70c6714894f87685be34515424a73e36b7b808c7d6c25955f9f604f6ea",
+    "official_prompt_api.json": "14505539b0868600b62dd6887d33ae2e14e9d434799cac10ed652c54e751b5bb",
+    "official_metadata.json": "fb41ee411eb7c23342ec97ed0dd75fc9d924336f20c23546d09b27ca90d0ffa8",
+    "official_metadata_api.json": "c7ac32c17e1f7ad0fdfcf0095686121ef6ad6482390032f2922d0ca0510f15db",
+    "contribution.json": "efee25ac07eb1ba49e2e37843348d8f32c039adab0db49e34088c38ae6189c56",
+    "retrieval.json": "3deffb728bb7ff38366d66f665f3d68ed974a88b8784495ad6fceaecffe643db",
+    "prior_attempts.json": "da7d1bdb0ca702af5da089aabe353ecfd6f7da741b0dedf7c9760372b66f96f8",
+    "prior_attempt_01_api.json": "8b40f682886311e66160bf8980481edfe3dddc10142bb898924a246647829e3e",
+    "prior_attempt_01_text.txt": "5c92979e1117498ca7052c808d27e19d915d3cb2b5d91255148271e2d6c61865"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_numbers_first_half_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:32:56.315871+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

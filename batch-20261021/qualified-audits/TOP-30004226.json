@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30004226",
+  "canonical_problem_id": "prb_376c214e9d384281a45702901aebad43",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "c548235552276a7fe9b9c76e224a1b01293eb7c5567a831d8e01e77f351085ae",
+  "report_sha256": "c548235552276a7fe9b9c76e224a1b01293eb7c5567a831d8e01e77f351085ae",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "3fc6fbdfae02a2b5354919e7a54461cdec38e3b23be28671935dba5d6592af74",
+    "contribution.json": "a84fdd06b33d6ee00cce8c69eeba80b433beaec18131805abd78e42895e2cacf",
+    "official_metadata.json": "6d27ba178830d110350bc9b731cd668a6ee87c8761775bd39676a53eb6a016e3",
+    "official_metadata_api.json": "bde1250a3c23c27eb0de13bf35fa0be8a89853b75d50343a6c76eb18a88a498a",
+    "official_prompt.txt": "98f98a77313e693e3ee19e3cf876b6df3f214fdc5a8f36819594d348c6928e1f",
+    "official_prompt_api.json": "7345bb60e36b06f64eb039af177d5db329b049f2c729b925342adc0bd9a19956",
+    "prior_attempt_1.html": "8f9c5d1dc76467051aa08c641c6823cf0cf741ffd67cc927d5582e592f250f31",
+    "prior_attempt_1.txt": "897548b756337d6374d193f93d3de9a85ee8b8316c01ef5157a37544797eeb3b",
+    "prior_attempt_1_api.json": "f61d3408095e13beb092badeccd3a12c37c4829c1560d0146ff2112f183d6791",
+    "report.md": "c548235552276a7fe9b9c76e224a1b01293eb7c5567a831d8e01e77f351085ae",
+    "source_notes.md": "8739483632777b1056410be55b3dc5e10a7089322bfad1b924b0e115fe6728e4"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:13:24.395809+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked the exact fixed-d binary-input prompt and full earlier manuscript, whose unrestricted d=3 Euler/stacking/truncation characterization does not solve d>=4. The new all-fixed-d simplicial subclass and its cone tests are genuinely distinct and explicitly exclude the full nonsimplicial cone.",
+    "Checked the h-transform and g-theorem conditions against the actual primary Stanley statement: h0=1, Dehn-Sommerville symmetry, nonnegative integer g0=1,g1,... with Macaulay inequalities for i>=1; g1 has no extra upper bound. The displayed greedy binomial expansion and raising operation are correct, including zero. With fixed d, fixed linear coefficients, at most d expansion terms and O(B)-bit upper indices, binary-search/binomial arithmetic has polynomial bit cost. This is recognition, not exponentially large output construction.",
+    "Independently verified the cone closure: truncated polynomial-ring Hilbert/M-sequences g_i=binom(t+i-1,i) for i<=j and zero after j satisfy every Macaulay inequality. Normalizing by g_j sends all smaller coordinates to zero and realizes each limiting coordinate ray. Nonnegative generators and convex conic closure then give exactly the closed orthant.",
+    "Checked rational-functional transfer and both exact tests. Closed-halfspace support is equivalent to all coefficients having one weak sign; mixed signs violate support on limiting rays. Relative-interior identity for nonempty convex sets gives ri(C)=positive orthant, so a zero dot product with a strictly positive vector exists precisely for mixed signs or the zero coefficient vector. The zero restriction may occur for a nonzero ambient normal and correctly contains the full affine span. Closure is not confused with realizable M-sequence membership."
+  ],
+  "sources": [
+    "R.P. Stanley, The Number of Faces of a Simplicial Convex Polytope, Advances in Mathematics35(1980),236-238, actual primary3-page PDF https://math.mit.edu/~rstan/pubs/pubfiles/46.pdf independently opened as turn1614view3/turn1617view1. Complete characterization on p236 and necessity/toric hard-Lefschetz proof on p237 inspected; the paper explicitly credits Billera-Lee sufficiency."
+  ],
+  "limitations": [
+    "The deep g-theorem is imported with correct hypotheses and primary statement, not fully reproved or formally verified. The separate Billera-Lee construction was not retrieved or independently checked; Stanley explicitly states its sufficiency result. The elementary algorithm, asymptotic cone transfer and functional tests were checked directly. Source-only report: no program and zero runs."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

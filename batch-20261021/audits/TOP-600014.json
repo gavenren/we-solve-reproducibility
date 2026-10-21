@@ -1,0 +1,34 @@
+{
+  "handle": "TOP-600014",
+  "reviewer": "/root/hundred_topology",
+  "author": "/root/hundred_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T18:58:40.504849+00:00",
+  "checked_report_sha256": "54e95e5909f3b52ada075c62a313ac532b0d929d621a2b6c4b75ed8f7eec8f4a",
+  "checked_source_notes_sha256": "c6e42ce31de11d768f36dbd29dc5f88efd638544a16ee1a3297dd4fcbac9bcb4",
+  "checked_contribution_sha256": "291abc7cc462ee01df3d8aa80767bd4550432145a8859b74eb679280fd4d85dd",
+  "programhashes": {},
+  "program_hashes": {},
+  "actualchecks": [
+    "Read literal all-pairs disc prompt, full report and notes; no prior attempts. Checked determinant equivalence, exact quadratic midpoint identity and general affine-parameter scope.",
+    "Expanded Taylor terms through cubic order: displacement remainder coefficient1/6\u22121/4=\u22121/12, three difference columns contribute t^3, last contributes t^3, total t^6. C3 suffices for stated uniform remainders on a compact neighborhood.",
+    "Verified local sufficient condition does not assert necessary nonvanishing of the leading jet or global embedding, and sphere-domain quadratic constructions cannot use the open-affine-domain midpoint argument.",
+    "Confirmed exact prompt bytes and decoded metadata content against retained fresh API wrappers and current author-record hashes; source-only, zero program executions."
+  ],
+  "primary_sources_actually_read": [
+    "Ghomi\u2013Tabachnikov, arXiv math/0307044v1, freshly opened theorem statements1.1,1.2,1.4,Corollary1.7 and sphere tangent proof \u00a73 (turn1436view1).",
+    "Tabachnikov primary Baker's Dozen HTML \u00a712 Problem6, fresh read turn1448view3."
+  ],
+  "checked_files_sha256": {
+    "official_metadata_api.json": "8a357558e73dee78ea550b6fd984f1fb1171e3b5848436e5b1e7ecb2606494a8",
+    "official_metadata.json": "a7b9f9f0d9a1fbb98312e5712efc0fdd6390d00644c77e018089fe0c778e858a",
+    "report.md": "54e95e5909f3b52ada075c62a313ac532b0d929d621a2b6c4b75ed8f7eec8f4a",
+    "source_notes.md": "c6e42ce31de11d768f36dbd29dc5f88efd638544a16ee1a3297dd4fcbac9bcb4",
+    "author_record.json": "d81e1a3e60040808bc68d8989c5a74a5f7968bb836207a2734ec26cb759cad71",
+    "official_prompt_api.json": "5e60ccc188f5a2504de93a8b665a151cc3f2967444e5239c872680a8b5de9f97",
+    "contribution.json": "291abc7cc462ee01df3d8aa80767bd4550432145a8859b74eb679280fd4d85dd",
+    "official_prompt.txt": "0dab8d0202cbb6faf29720ef3b3c004a6a58155674f1d9f7b3b0f72f30526d37"
+  },
+  "limitations": "Independent LLM review of prose, proof and inspected primary-source passages; not formal verification or human/editorial acceptance. No program exists or was executed. No closed-manifold lower bound is applied to a disc; own algebraic obstruction and local jet proof checked in full."
+}

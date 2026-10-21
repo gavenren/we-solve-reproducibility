@@ -1,0 +1,65 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-30006731",
+  "canonical_problem_id": "prb_0bf3d4361e0f4a7f9f2373128018cc47",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:35:35.535354+00:00",
+  "checked_report_sha256": "5b4972ee88dc027a349289438c37fe2fd9c6ea16cc937d9663557bdbe03efe93",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "eaea100c493e683ecb42c6af9ff53140deb392db35ad604efff6740d4750f1f9",
+    "contribution.json": "97b4fe1ebf3615fd4053b12d7ae0bd4a9009e85ee94f3911fdea204b260804df",
+    "official_metadata.json": "bb4b8daf2fc2837648fdad128224b8dd64a042343e589895596695624d093e61",
+    "official_metadata_api.json": "b7b1994b0eaa466d76ea8d30821d7ef4d28cc27f4353c8519a4c281d361c9cea",
+    "official_prompt.txt": "123f6516d351f889489861f2e07c9b1ba55a57f029a8e4d5eac71f881f360b76",
+    "official_prompt_api.json": "43af2858516e84f4e10d54e7f9224f1e1246e8096456bf62f9eb767814109708",
+    "prior_attempt_01_api.json": "ceb9c331b41dc0179b5fc742f9fdae6fa3528426e51d0f4d723cd21a19444d00",
+    "prior_attempt_01_text.txt": "6f4d440caaabffcf4a308fabceaa2a3f75477ae67fbc945d12cbcffc254147cc",
+    "prior_attempts.json": "3dd9dfadc1d7073747ed168fa9f28b347fb34c89ece5d8b89b8e62956bc50525",
+    "report.md": "5b4972ee88dc027a349289438c37fe2fd9c6ea16cc937d9663557bdbe03efe93",
+    "retrieval.json": "fb0eec3c49a1c9b0320668b77815118ed80d8d74e18c37fadb3dbfcb6de3098c",
+    "source_notes.md": "fed07a9277ca64a9058ca50c572cdc67a6645f2d4579d0b8cbf624a7b6d50d5a"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8abd348b18f67b61cb97e7fa72eeb990a89587d29cbab694915ecac22cb2ece3"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact report, literal prompt, all provenance/source records and full retained rank-construction/descent prior read. This adds global rank-tail frequency and rank-mass bounds from a precise deep Selmer mean, distinct from the earlier finite rank-four point certificate.",
+    "Minimal integral short Weierstrass model and H=max(4|A|^3,27B^2) match Bhargava–Shankar Theorems 1–2. The average 5-Selmer size is 6, including finite congruence families with the same height ordering. Kummer injection gives #Sel_5>=5^r #E(Q)[5]>=5^r without requiring finite Sha or equating Selmer rank with rational rank.",
+    "Subtracting baseline one yields limsup rank>=R proportion <=5/(5^R-1) for fixed R>=1. Cross-multiplication shows r/(5^r-1) decreases: 5^r(4r-1)+1>0, giving rank-tail mass <=5R/(5^R-1). Uninformative R=1 bound may be capped at one. Congruence-family extension is limited to positive-density families covered by the source, not thin twists.",
+    "No moving R(X) finite-height uniformity is asserted. The exact sparse model b(5^(2k))=k and zero elsewhere is unbounded but has sum 5^b<=N+O(sqrt N), proving a bounded exponential average does not bound a maximum. Neither rank unboundedness nor boundedness follows from these upper-density bounds."
+  ],
+  "primary_source_checks": [
+    "Bhargava–Shankar, arXiv:1312.7859v1 (30 December 2013, internal 31 December), actual full primary PDF introduction/model conventions and Theorems 1–2 checked. Current abstract retains v1 with no journal reference displayed. Retrievals 19,21. Invariant-theoretic orbit-counting theorem credited as a preprint input, not independently reproved."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Uses the checked Bhargava–Shankar 5-Selmer mean theorem to prove exponential upper-density bounds for every rational-rank tail and a bound for its contribution to average rank, including congruence families. Shows explicitly why these bounds neither prove nor refute unbounded ranks.",
+    "listed_prior_count": 1,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

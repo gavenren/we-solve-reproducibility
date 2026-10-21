@@ -1,0 +1,58 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3179",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "ea39b850997008e732461e746e76946ecf8d9ba5999fa035568f9a0e892573c5",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "ea39b850997008e732461e746e76946ecf8d9ba5999fa035568f9a0e892573c5",
+    "source_notes.md": "77c3a0b023aae9e632ea8e194d01aca2d914ba687b09e17ab14d6739ec7f5179",
+    "author_record.json": "65c5ade474de91c9e3ac83c11b3824f443e9a17756fde9d039db6d261c68ceb2",
+    "contribution.json": "d4ee3fd2968a00b69fd1b30c1c0c7060d83b43d467665d934fa98851965fcb83",
+    "official_prompt.txt": "52d2f56a2b047cf4e437e9d2ab277561cfd67edc9bc18a933a96930532c298d0",
+    "official_prompt_api.json": "8ff61c6a2c83f457aff85cc2399706d78083a6334c0b166aef4c4622f844e87f",
+    "official_metadata.json": "ee066454938c106d27007b537c6af7dfdc500354951716aac059b57457f4beb3",
+    "official_metadata_api.json": "a7f58f70760696dea496592b6f875dcec678552f7d8e61569cf12c5b4d2f39c5",
+    "prior_attempts/attempt-1.txt": "54ab1b14ca2937d3f40e0e119fd7e956ae84f879f0f2115076fe85526703a122",
+    "prior_attempts/attempt-1_api.json": "3cf7a5477be9b9276b0e89efb0067b53b2b01495c519c0f0d6beeeacbaf70b7b",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "b0e0ea771fb9086bcb8481dde02a1f99d01e58c602171acd204ee5d3fc50452b"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked small-cut shore connectedness and distinct two-cut endpoints from bridgeless cubic hypotheses, preservation of labelled multigraph edges and bridge-free closures.",
+    "Checked two-cut zero/both parity and exactly2 shared indices, three-cut all-one intersections from sixfold total6, and labelwise pair permutations for reverse gluing. Forest cut identity yields strict recursive order decrease and cyclic4 pieces, not a solution on those pieces.",
+    "Full prior bipartite/Petersen/necessary3-cut body read. Stronger cyclic5 reduction credited and not presented as reproduced or latest new work."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://iris.univr.it/handle/11562/1030915",
+      "version": "ProcAMS148(2020),4643–4652; DOI10.1090/proc/15057",
+      "locators": "primary repository abstract, minimal counterexample cyclic5 statement",
+      "retrieval_refs": [
+        "turn1823search0",
+        "turn1823search2"
+      ],
+      "access": "Direct repository403 and author-slide timeout; indexed primary abstract checked. No full stronger proof reading claimed; displayed2/3-cut equivalences proved directly."
+    }
+  ],
+  "distinct_significant_scope": "Complete exact restriction/gluing certificate operations and terminating reduction beyond prior necessary cut observation.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:29:16.669880+00:00"
+}

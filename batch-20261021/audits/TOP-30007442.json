@@ -1,39 +1,46 @@
 {
   "handle": "TOP-30007442",
-  "reviewer": "/root/hundred_graphs",
+  "reviewer": "/root/sol_ultra_algorithms",
   "author_agent": "/root/hundred_algorithms",
   "verdict": "PASS",
-  "reviewed_at_utc": "2026-10-21T18:29:28.693503+00:00",
   "checked_report_sha256": "8c4358611527f8db708ea55a0d06a5d33669c05f0667564475664ddc6d677cfa",
   "program_sha256": {},
-  "program_hashes": {},
-  "checked_files": {
-    "official_prompt.txt": "9e3c917866119ee288fc88606316a4264776b492b51c9e6bd05f6258269f25d9",
-    "official_prompt_api.json": "a8196d94278c6fdf4b2d23a71db998a6506e881dfc13f5848d9de5718ba29814",
+  "checked_files_sha256": {
+    "author_record.json": "fb936cea2f9935ee6c5e1d85f9bd14be0ed68021360156a55cf63e9efe5d09ab",
+    "contribution.json": "81b5e73c66284b9128376b7dae2c4b74478930c066443699ced6551d86228a81",
     "official_metadata.json": "a3e0708cd323424a675f8bbf912d4f58f72ff2148f2a60e23e046ffca341aa0c",
     "official_metadata_api.json": "24bb4b00956c5ef9b20d3d8ec5227fc98cccb2c72cf70fa77230f43b814afbc3",
+    "official_problem.json": "a3e0708cd323424a675f8bbf912d4f58f72ff2148f2a60e23e046ffca341aa0c",
+    "official_problem_api.json": "24bb4b00956c5ef9b20d3d8ec5227fc98cccb2c72cf70fa77230f43b814afbc3",
+    "official_prompt.txt": "9e3c917866119ee288fc88606316a4264776b492b51c9e6bd05f6258269f25d9",
+    "official_prompt_api.json": "a8196d94278c6fdf4b2d23a71db998a6506e881dfc13f5848d9de5718ba29814",
+    "prior_attempts/TOP-30007442-A1.tex": "0549da073e7d2eeebeb2790be79d923cd306715c9338e1d57fc37d5528ebc335",
+    "prior_attempts/TOP-30007442-A1_api.json": "523a87217d58f0c6ad0b64896f46ccde78c0778db05e02786249d1ed27860666",
+    "prior_attempts/TOP-30007442-A1_manuscript_api.json": "077a967f9f0289989615795c4ad9bdcd0b49a2e357fc782fae0f8e3f54634296",
+    "report.md": "8c4358611527f8db708ea55a0d06a5d33669c05f0667564475664ddc6d677cfa",
     "source_notes.md": "a8bc56c3d55e32cd129d6e877d00f67750812614990c131b35556ef46e865dd3",
-    "contribution.json": "81b5e73c66284b9128376b7dae2c4b74478930c066443699ced6551d86228a81",
-    "author_record.json": "dc8efac59fb57d4fa698f9a2ac710af71e46b81d0b1d142ec5ddf4020fdc971f"
+    "verification.json": "e8da9031108d83db691c5a548d74fd9843973fae702c05dc6dbb39ba07dbd28a"
   },
-  "prior_attempts": [
-    {
-      "path": "prior_attempts/TOP-30007442-A1.tex",
-      "sha256": "0549da073e7d2eeebeb2790be79d923cd306715c9338e1d57fc37d5528ebc335",
-      "read_in_full": true
-    }
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:17:58.851579+00:00",
+  "actual_checks": [
+    "Read exact numerical exponent prompt and complete A1 claim-summary manuscript. Freshly fetched the pinned primary introduction, confirming only its stated theorem and arithmetic-versus-bit limitation; no tensor extraction, Lean proof or full manuscript certification claimed.",
+    "Verified both finite-extension exponent inequalities by fixed-degree coordinate simulation and formal coefficient-identity extension. Basis includes1, constants are fixed, O(d^3) multiplication overhead is constant only for fixed d, and finite-field pointwise correctness is explicitly insufficient.",
+    "Checked reduction of one fixed rational bilinear identity through Z[1/D] to every prime not dividing D; recursive m>=2 blocking and output/addition costs give exponent at most max(2,log_m R). Finite exceptional primes may vary across constructions, so characteristic-zero bounds alone do not supply all-field bounds. Decimal margin recomputed exactly as 0.000000000993254.",
+    "Scope is transfer lemmas, not the displayed numerical theorem. Effective uniformity, growing extension degrees, divisions and bit complexity retain their stated limits. Source/proof-only: zero executions."
   ],
-  "checks": [
-    "Checked both finite-extension inequalities using fixed basis e1=1 and structure constants. Fixed-degree simulation preserves formal bilinear coefficient identities and uniformity under the stated encoding convention.",
-    "The corrected formal-bilinear convention excludes finite-field pointwise/Frobenius traps. Growing extension degree is explicitly outside the constant-overhead conclusion.",
-    "Checked specialization of one rational bilinear m×m identity, m≥2, through Z[1/D]; recursion/padding gives exponent≤max(2,log_mR). A family of constructions need not share a finite exceptional-prime set.",
-    "Read retained A1 in full and freshly fetched pinned OpenAI introduction.tex: thm:main and arithmetic-versus-bit qualification match. Full tensor proof and Lean were not independently certified.",
-    "Checked exact decimal margin0.000000000993254; no proof of the numerical threshold is claimed.",
-    "Official literal prompt/API bytes, Git blob SHA, decoded canonical metadata/selection/author and current author report/program hashes agree."
+  "primary_sources": [
+    "OpenAI, Staggered extraction for exact matrix multiplication over every field,24 September2026, pinned adc7f1241b42e322a6451854ab7e4b4c146bf78a, build/sections/introduction.tex lines35-85, thm:main and immediately following paragraph; freshly retrieved via connected GitHub. Web HTML route failed; GitHub primary content succeeded. Retained coordination/qualified_algorithms_primary_retrieval_01_followup_0.json."
   ],
-  "primary_sources_independently_checked": [
-    "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Staggered-extraction-for-exact-matrix-multiplication-over-every-field-September-24-2026/build/sections/introduction.tex"
-  ],
-  "runs": [],
-  "limitations": "Independent LLM mathematical review, not formal proof or human review. Finite diagnostics verify only their enumerated ranges, not asymptotic claims. Deep source theorems were checked at listed statements/proof portions, not fully reproved or mechanically certified."
+  "prior_work_distinction": "Adds complete finite-extension and specialization proofs, identifies the finite-field formal-identity trap and quantifies exactly why varying denominator primes obstruct all-field inference. This substantive scope analysis goes beyond A1 unverified numerical claim summary; no numerical progress or historical novelty is asserted.",
+  "scope_assessment": "For every fixed finite extension E/F, formal-bilinear matrix-multiplication exponents satisfy ωE=ωF. A fixed exact rational bilinear block identity also specializes unchanged outside its finite denominator-prime set. These proved transfer lemmas delimit valid characteristic arguments; they do not independently establish the prompt’s numerical exponent threshold.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
 }

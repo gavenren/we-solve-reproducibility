@@ -1,0 +1,48 @@
+{
+  "handle": "TOP-30001375",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "1775917f5ca47c271a0990641666dece563e890d8703e77279c043688dfa1891",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "9aa7cd53ed942aecada9d8b738d45d87959ce54a01776c4a6e684dd902909134",
+    "contribution.json": "3bae4b50ecde94655a38ab1b8308a3595c8357fae7dec641bb2071b97eef1042",
+    "official_metadata.json": "65f35ac45b6839086a6ed471e1242f0a4cb222aa5888fa13f24e955dca1c38e0",
+    "official_metadata_api.json": "d7672d580823abd53e3b585f2e69994071f86fc0a50f88f157fa949fca91c33c",
+    "official_problem.json": "65f35ac45b6839086a6ed471e1242f0a4cb222aa5888fa13f24e955dca1c38e0",
+    "official_problem_api.json": "d7672d580823abd53e3b585f2e69994071f86fc0a50f88f157fa949fca91c33c",
+    "official_prompt.txt": "33c77c6ccd06372fefaf168e442785196bd42487735e78f60e8957bb379208e3",
+    "official_prompt_api.json": "b978095acd170d9630c215749ab4a67dec15c1262f281d1e035033bbf08c53c3",
+    "prior_attempts/TOP-30001375-A1.tex": "7ea0ca4e5a6a4e34595e0e9628559b2f984a723eb4ba5ec2bf9582d470079388",
+    "prior_attempts/TOP-30001375-A1_api.json": "91649892c9d5867e7c88716de0e90f6005034c0f0f84539a1175d23858ff5e5e",
+    "prior_attempts/TOP-30001375-A1_manuscript_api.json": "494b8f8aefa0ab01a09a14a35b2698c04bf16444cc4fef2c7ef1d7e518a711a8",
+    "prior_attempts/TOP-30001375-A2.tex": "6bcc5a2c5e07f5eacaf85413cdb4f368808e1b1fe62626e231759852cf760146",
+    "prior_attempts/TOP-30001375-A2_api.json": "690df76a759c82e6958159495d114ab863a31af54214bcf83b392781a095be07",
+    "prior_attempts/TOP-30001375-A2_manuscript_api.json": "11e304a5ec1e6a07d7f8a862f985759c88e6d59723821729ae4c63c2e26bcc2e",
+    "report.md": "1775917f5ca47c271a0990641666dece563e890d8703e77279c043688dfa1891",
+    "source_notes.md": "9f8969a2cb6060c84c34470f4192e4ef6c255fe532ffba7105ccd91db34ec671",
+    "verification.json": "24ad7eb7c9b0b8557053938600ce5b9bbe54f9995fb065c1ab92f21966d7faec"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:26:36.028027+00:00",
+  "actual_checks": [
+    "Read literal unrestricted characteristic-zero arithmetic-circuit target, both full prior bodies and complete monotone proof. At each relevant nonzero gate a fixed upward parse context has positive coefficient, so every gate monomial extends to a permanent monomial, including under circuit sharing.",
+    "Verified fixed row/column multidegrees, disjoint multiplication children, homogeneous addition children and balanced parse-gate selection for n>=3. One balanced gate accounts for at most d!*(n-d)! permutations; union coverage gives binomial(n,floor(n/3)) gates. Partitioning3*floor(n/3) positions into triples proves the displayed3^floor(n/3) lower bound.",
+    "Checked nonnegative arbitrary real constants, removal of zero gates and exact location where cancellation invalidates the proof. Stronger classical monotone multiplication theorem correctly credited. No unrestricted VP/VNP separation, checker or execution claimed."
+  ],
+  "primary_sources": [
+    "Jerrum-Snir,Some Exact Complexity Results for Straight-Line Computations over Semirings,JACM29(3)(1982),874-897,primary24-page author scan https://snir.cs.illinois.edu/listed/J7.pdf,Section4.3,printed887-889,including exact n*(2^(n-1)-1) multiplication result read. Retained06_final.json."
+  ],
+  "prior_work_distinction": "Both prior contributions stress-test derivatives, cuts, powers and Hessians. Current proof supplies an exponential arbitrary-sharing positivity lower bound via a different gate support covering argument, explicitly weaker than the credited classical optimum.",
+  "scope_assessment": "For n>=3, every monotone fan-in-two arithmetic circuit over nonnegative real constants computing the formal permanent has at least binomial(n,floor(n/3)) operation gates, even with arbitrary fan-out. Gives a complete balanced-gate support proof; credits the stronger classical Jerrum–Snir result. This restricted positivity theorem does not establish characteristic-zero VP!=VNP.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

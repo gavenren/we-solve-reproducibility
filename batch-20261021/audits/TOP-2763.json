@@ -1,0 +1,55 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2763",
+  "canonical_problem_id": "prb_4a1315ff39174e43a8f7b41ae7ff0b31",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:14:09.409246+00:00",
+  "checked_report_sha256": "3a57624393b801ce03ec5da7ff382351fda9a84da3355b13bd1f5a57bda9f29c",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "49f86c34fc7204e4c3ca466aab450f02db6c88c69112d5f5c4ba988e76bdff25",
+    "contribution.json": "5f6defd602ae7972ed1aed468c40fee3e6af6d3fe0a6bfcfe6b543e4280c95db",
+    "official_metadata.json": "1d80e2cddef10904304474a49b2004972983cba710f9a2d808817482e2e97298",
+    "official_metadata_api.json": "720660a1a8b1ea04cc49a0f0b171ec3e2113d9fe23a3ad63dcd5b0f1437e2110",
+    "official_prompt.txt": "8d57fcfd3b623a83b7118ee458fdfd9a14a7baa9cf14c6361c2407b41b860e08",
+    "official_prompt_api.json": "99aea46965ed3ea8ccd707204c0d81d4801892ee10836ea6481adbe8dd716988",
+    "report.md": "3a57624393b801ce03ec5da7ff382351fda9a84da3355b13bd1f5a57bda9f29c",
+    "source_notes.md": "0dd3721b1e7af66d2d4a77c74d825ae1a764d24680fa80e52f1bbb9f8904a8d3"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Read the complete report, literal side-preserving genus-g≥4 Goeritz prompt, notes and records; no prior contribution is listed. Confirmed the recent theorem is a connectivity criterion with an unproved remaining condition.",
+    "Checked the false old lemma’s simultaneous disks and nonseparating opposite disk and the knotted-torus obstruction. The note explicitly leaves the all-genus proof incomplete. Genus-three results do not answer the prompt.",
+    "Checked Lemma 1.1 retains compressibility to both sides after compression. Theorem 1.2 asks that endpoints avoiding E lie in the same component of the full reducing-sphere complex; it does not require a path confined to the E-disjoint subcomplex. No finite generating set is inferred."
+  ],
+  "primary_source_checks": [
+    "Cho–Koda–Lee–Sekino arXiv:2406.13309v3 (25 March 2025), primary 5-page error note, old Lemma 2.5 and Sections 1–2; actual v3 header verified at line 42. Cho–Koda–Lee arXiv:2604.15722v1 (17 April 2026), Lemma 1.1 and Theorem 1.2 at PDF p.2, primary lines 52–57 and 78–84. Retrieved turn1615view4–5, turn1616view3–4, turn1620view3–4; retained _01/_02/_03. Deep geometry is credited, not independently reproved."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Documents the explicit counterexamples invalidating Lemma 2.5 of the former all-genus Powell proof, and reports the 2026 genus-four reduction to connectivity for spheres avoiding a common nonseparating disk. Neither the failed lemma nor genus-three results are used to assert finite generation for g≥4.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006878",
+  "canonical_problem_id": "prb_c26f162bee5f407c86f6b48e45cf68a7",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "f9b307743d70270056dcf58c3ebe6958049802bd0182e1f4878de5e7d2007e83",
+  "report_sha256": "f9b307743d70270056dcf58c3ebe6958049802bd0182e1f4878de5e7d2007e83",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "05da15a732fd80253c791c5caabd5ee803114e302be5febff969899a5aff3941",
+    "contribution.json": "a6b05ca019137b08bdb5aa09d388007261dc206c43de90457c4f02f81e75e905",
+    "official_metadata.json": "0518b96a730e448bf60c8f5501c0b9f384c1827984ff6d94716bdf1d0323939d",
+    "official_metadata_api.json": "f70078b4fd6134121854651f48220feafc8ba111f21083c9ed015cc1dcc63520",
+    "official_prompt.txt": "b83c7d37ff90fad105033e210f216c5bd50dfca6ee98084608a9065ebef35e0d",
+    "official_prompt_api.json": "d2a9165f865ddc9c7e65ee0ccc61e02fae4a1849ac68ec5b20387afb2abbb7bc",
+    "prior_attempts/TOP-30006878-A1.html": "dd2d69385d5bdd7b2951f57225e4db8e8a8655f320428c3a060b10497fbb8c80",
+    "prior_attempts/TOP-30006878-A1.json": "ea0df7dd50742204995fa4b154604e030c3ec14aaea3d2fc5bc8931244e737fb",
+    "prior_attempts/TOP-30006878-A1.txt": "5038f4c5145da79dfc4930196f735494d7dcfba01b1bd025f9bc32356285b3fb",
+    "report.md": "f9b307743d70270056dcf58c3ebe6958049802bd0182e1f4878de5e7d2007e83",
+    "source_notes.md": "248b01a40b76ba2666845876c4e79d43e75f0c9b5e02cbfc21fcda6a70328ead"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:21:46.420310+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read the full earlier A1, including p-group/abelian/direct-product/ell1 cases, path-form certificate and artificial Cartan counterexample. The added all-ambient odd-metacyclic-defect theorem and sharp weighted ratio are distinct from those ambient-group subclasses.",
+    "Checked Section8.2 odd-prime convention, Corollary8.11 full metacyclic Brauer conclusion, and Proposition8.9 specifically nonabelian split metacyclic hypotheses. Actual weighted sum<=|D| and height-zero<=|D:Dprime| match the report; ki are ordinary-character heights, not modular-simple counts. Quantitative conclusions are restricted to the split case.",
+    "Independently derived k0+p\u00b2H<=|D| and k<=|D|/p\u00b2+(1-1/p\u00b2)|D:Dprime|. NonabelianD has |Dprime|>=p, yielding (p\u00b2+p-1)/p\u00b3<1, without replacing Cartan determinant by its largest elementary divisor.",
+    "Checked sharp group family for every oddp:1+p acts with orderp onCp\u00b2, commutator and center both<x^p>, and every noncentral element has proper centralizer of orderp\u00b2 by the two displayed cases. Hencek(P)=p\u00b2+p-1; the unique characteristic-p block ofP has full defect and all ordinary characters, realizing the exact ratio. No finite table or general equality classification is inferred."
+  ],
+  "sources": [
+    "Sambale, actual227-page author primary monograph turn1718view0; Section8.2 heading printed87, Proposition8.9 printed88 and complete Corollary8.11 proof printed89, independently inspected as turn1720view1/2 and turn1721view0."
+  ],
+  "limitations": [
+    "Deep block/fusion estimates are imported with checked hypotheses and source proof pathway, not all independently reconstructed. The ratio and sharp conjugacy-class count are directly checked. No checker, programs, runs or formal verification."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

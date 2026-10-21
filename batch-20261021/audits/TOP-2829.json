@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2829",
+  "canonical_problem_id": "prb_97a85e4f322a4ec9a189504bd03532c1",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:18:54.308109+00:00",
+  "checked_report_sha256": "6efa1238be8bb61ddbec4fc072827742c78ddb8d907378f16b0a4f53e7683abe",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "33f77edea7963e81859495fc576da24b008e6dd7b2adf85307f6509d80d844ae",
+    "contribution.json": "6290a37bdd29af1e755d38289d0af1982d2a9d3ef739b9c51755719b22a67a7d",
+    "official_metadata.json": "0e8d6e8ef9d5c4e139cf8e6d8237d16f37bdf1ff8415edc100de6e2fcdf02b5f",
+    "official_metadata_api.json": "eb4d2586e917ee3e1bb17b0ed5c8223a34598fa2d6d29a696c01adc4f6113e76",
+    "official_prompt.txt": "672f1ccaa993db21c544129eaaa87c2759fd0fe9b11536d9025e9bcbb698d199",
+    "official_prompt_api.json": "de854c43f0b468bff7540265a2919447df758a214c60b4aa19d0daf74f3e4d86",
+    "report.md": "6efa1238be8bb61ddbec4fc072827742c78ddb8d907378f16b0a4f53e7683abe",
+    "source_notes.md": "759a1f7236ba4a2827b3433360e41990ff4a8dabc72af2c0b4d6fd266f0fed38"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Read full left-orderability prompt and report/source records, no priors. Checked closed connected oriented irreducible graph-manifold rational homology sphere promise and nontrivial π1 convention. F2 coefficient rank r>h gives exactly non-L-space.",
+    "Verified terminating diagram-to-nice-diagram procedure and empty bigon/square differential; r=N−2rankD follows D²=0. Completeness of generator enumeration is explicit, including rejected candidate tuples. Certificate checking is polynomial only in fully expanded trace/enumeration/matrices, not tetrahedron-size NP/coNP. Promise recognition and general hyperbolic class are not claimed."
+  ],
+  "primary_source_checks": [
+    "HRRW arXiv:1508.05911v3 Theorem2, Boyer–Clay1401.7726v4 Theorems1.1–1.2, Sarkar–Wangmath/0607777v4 Theorems1.1–1.2 and §4. Primary exact equivalence lines42–48 and algorithm lines395–398 checked; refs turn1659view0–2,turn1684view2–3; evidence _08/_12. No algorithm implementation or Floer computation executed."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "On the promised class of closed connected orientable irreducible graph-manifold rational homology spheres with nontrivial fundamental group, left-orderability is decidable by exact mod-two hat Heegaard Floer rank. The report specifies termination and finite trace certificates measured in their expanded size, without asserting a polynomial bound in triangulation size or a decision procedure for all three-manifolds.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3245",
+  "verdict": "PASS",
+  "claim_type": "Partial result",
+  "checked_report_sha256": "6c6772179f67d7d44e1ec302d3e2e2a437ea44bdc46f136b69c3905daf556281",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "6c6772179f67d7d44e1ec302d3e2e2a437ea44bdc46f136b69c3905daf556281",
+    "source_notes.md": "758ed49aa9d7c0e8dfc9ba64d90a49107be850199397210a0e91409ccfe65928",
+    "author_record.json": "f1f9fbf640ddb02c96cd2a91ee22876cc1a59503fa379f73fafac79fdc4b7e7f",
+    "contribution.json": "1945825d397a153f2114fa6f0f78b4784889d6bb6cebfd2f2f062491935bfb1d",
+    "official_prompt.txt": "c9c7b31efe62dc73c876b7c017d0a21e950a7d41dd9d48935598e01b13428f05",
+    "official_prompt_api.json": "146ececbba2ab844487523dd5ed16303bfbed70a023079563c8609528f54ce71",
+    "official_metadata.json": "154197888b764417ad8ca962119635d42942c242b5f36e9c9a63525b1741f641",
+    "official_metadata_api.json": "022aa5cd6741781ea82c21168752ac5de77adbc7445d8313fcc929b6ce15158f",
+    "prior_attempts/attempt-1.txt": "3b24fe67ac95c9e93c959cd2d244cbb948b79a108fcbf9fce66932c688496a9a",
+    "prior_attempts/attempt-1_api.json": "ea710d9de57675f9c8ed1e500e6f9be05ff5b03798e27233acaa6d36b9647873",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "edacd1f310e658ed2e2e84deb94e0e0f7cb4338bed46a6156b345e3762508905"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "For lists of size k with each connected component of each color-induced graph of order at most F, checked independent bits per (color,component), bad-event probability 2^−k, and dependency degree at most k(F−1). Adjacent vertices sharing a color necessarily share its component variable, so side-permitted choices give a proper coloring.",
+    "Checked the symmetric local-lemma condition e·2^−k·(k(F−1)+1)≤1. For k=ceil(2log2(F+1)+6), k≤2F+7≤4(F+1), and the displayed estimates give at most e/16<1, including F=1. The corollary F≤Δ^a gives k≤2a log2 Δ+9 for Δ≥2.",
+    "The component-size hypothesis is explicit and is not inferred from maximum degree. Unbounded global color occurrence is permitted across components, so this removes the prior global-order/frequency barrier in a distinct conditional setting. No general O(log Δ) list-colorability result is asserted."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/0903.0544",
+      "version": "arXiv:0903.0544v3, 20 May 2009",
+      "locators": "Theorem 1.1 (general local lemma) and Theorem 1.2 (variable version and resampling).",
+      "retrieval_refs": [
+        "turn1831view3",
+        "turn1847view2"
+      ],
+      "access": "Full primary PDF theorem statements read; local-lemma application independently checked. No resampling program was supplied or run."
+    }
+  ],
+  "distinct_significant_scope": "A quantitative, order-independent component-frequency list-coloring theorem, with explicit constants and a polynomial-component corollary, beyond the earlier global-palette union-bound result. Its additional local hypothesis remains explicit.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:31:24.870971+00:00"
+}

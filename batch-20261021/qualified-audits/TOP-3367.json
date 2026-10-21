@@ -1,0 +1,67 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-3367",
+  "canonical_problem_id": "prb_8d014693e1ea4b45a9a422530fc1a60f",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:31:13.377734+00:00",
+  "checked_report_sha256": "52db9885297aa82e285152b61f69b7f6440a7168920d578e4a2c9ddd2c15ffd7",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "d947cf2f2ec3b3650e5c7a42f8a21431c0defaa2896f3b08f6f25da57e2d5d3b",
+    "contribution.json": "bba9c2f10ffcc3361a9db4ff9934071f5233f0491fd43a536a6f0d5501d7bb53",
+    "official_metadata.json": "6964ad042dfb0b495c2f17b8fd541f0b043fd5a9d316a6a8c850db0136ded722",
+    "official_metadata_api.json": "316404cf8a72630b39c8f52a1da9bd1d313935161467fbb2e26e47b6736c7b31",
+    "official_prompt.txt": "9364826721ef087134ab2425fcd30176646e992db650b67d5d8ac1d48fe1afb2",
+    "official_prompt_api.json": "b961069c1ca062f2bd2cfdef3f4e7abdc52fc79d44a7bcd4ab5096c260af7e6a",
+    "prior_attempt_01_api.json": "590594539226c82bd3d1c9de8a5cb94586df0da3474c7a0131b0809015b91db0",
+    "prior_attempt_01_text.txt": "bbdb56fa7e1b5d01e4065077ba7d525a39617e18eafbc2d6ae647c3ee7886d52",
+    "prior_attempt_02_api.json": "f4e5fa744a6b223c9f953124fe374ad00e5f3e9e6bc354265e518fa55adc694f",
+    "prior_attempt_02_text.txt": "3a89d85624b667007671833a6944318cc888a46041abfe6d28cc6d13ec6260a1",
+    "prior_attempts.json": "78c98f185d71e7e46b25bd80b015198c112f547824e5ebdb13bb425e40bc3063",
+    "report.md": "52db9885297aa82e285152b61f69b7f6440a7168920d578e4a2c9ddd2c15ffd7",
+    "retrieval.json": "c22dc7c3f0e7874223dd5a49355996649cad5d9084d147e5ab32815e1c7ce1fd",
+    "source_notes.md": "7ee2e3044c8f4c4ebc7df03131e5f2ebd3e3955908b4b7e3df5d17a7d775ba0c"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "800ec6892172883dc31875bc4103acafc7e24704c3fc02c67e2e5e3965d0f430"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact prompt, source/meta/API records, report, notes and both full prior manuscripts read. Earlier basis/rank-one/algebraic-input, minimal-counterexample and almost-everywhere arguments are not repeated as new progress. The contribution adds two-subspace submodularity, a precise zero-defect gluing obstruction and a complete rationally-independent polynomial-exponent functional classification, labeled literature report with no numerical Schanuel claim.",
+    "For rational basis of W, all exponentials of rational combinations are algebraic over its finite field by clearing denominators, so transcendence degree is finite. F(U+V)=F(U)F(V) exactly, while only inclusion F(U intersection V) subset F(U) intersection F(V) is justified. Field transcendence-degree submodularity plus the vector-space dimension identity gives the stated unconditional inequality.",
+    "Zero-defect join/intersection equality requires nonnegative defects from Schanuel. Lines Q*1 and Q*2*pi*i both have defect zero and trivial intersection; their join defect is trdeg Q(e,pi)-2 up to algebraic adjunctions. Proving unconditional zero-defect gluing there would already solve e/pi independence; it is not inferred from submodularity.",
+    "For finitely many distinct exponential monomials, rational independence modulo constants makes every difference a nonconstant polynomial. A ray avoiding finitely many real-part-zero leading coefficients gives a unique eventual dominant exponential. Dividing by it forces a nonzero coefficient polynomial to tend to zero, contradiction. Rational dependence gives the converse algebraic relation. The nonconstant input polynomial makes t algebraic over the input field, proving total functional degree n+1. Arbitrary constants z_i+t^i and specialization at zero demonstrate why this proves no universal numerical instance."
+  ],
+  "primary_source_checks": [
+    "Pila, Combining the conjectures of Schanuel and Zilber–Pink, Rend. Lincei 36 (2025), 653–670, DOI 10.4171/RLM/1086, actual EMS publisher PDF copyright 2026 and acceptance July 2025, Section 3 read (qualified_number_second_half_primary_08.json/_10.json, turn1844view3). Its apparent independence/dependence typo in Theorem 3.4 is not used as a premise; the report proves its own polynomial functional assertion. Ax primary Annals abstract, 93 (1971), 252–268, https://annals.math.princeton.edu/1971/93-2/p03 explicitly confirms differential scope (_08.json). No original full Ax proof read or numerical specialization theorem is claimed."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Complete unconditional submodularity proof for actual numerical Schanuel predimensions, conditional closure of zero-defect subspaces and precise e/pi obstruction to assuming it; complete functional algebraic-independence classification for rationally independent polynomial exponents over C(t). Functional theorem kept separate from universal numerical conjecture.",
+    "listed_prior_count": 2,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

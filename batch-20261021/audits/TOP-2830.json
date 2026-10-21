@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2830",
+  "canonical_problem_id": "prb_f70a4013c4c44c5e8d450c46c3568c5d",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:18:54.328868+00:00",
+  "checked_report_sha256": "2136a755a06252cbe14c30b63ef1d9469bd3e61632984c9df4b35d5e815019fc",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "d0eb98b7449f3d6ee6a02c7006be8c1f1e38be6dedfe3794ba8490461f2ff724",
+    "contribution.json": "c12c9f24cacea6a9d82c9dce18aab254686d0dbfa2facec370f6bac0c5d36f1e",
+    "official_metadata.json": "e0258bb7acfac90b1fca933113e6f5e7b3d9d7dbec0bfd5011ea608fdf07c9b6",
+    "official_metadata_api.json": "1ff60c30c7fe29eff2fbc571f0594b39b32771d8384f0067e890d232dd53aa0c",
+    "official_prompt.txt": "c65dc1bcbef3fe2940ffe656695aae7682187a6b7638e511c8ff128667f93218",
+    "official_prompt_api.json": "8238c5e597eba62181b8a6060dcd61a3fc813499fb6f14d058a16944315bcaae",
+    "report.md": "2136a755a06252cbe14c30b63ef1d9469bd3e61632984c9df4b35d5e815019fc",
+    "source_notes.md": "ca447ab999d84ce493a90071407e63eed697dbc97d9ebd170aecb3cb881c291f"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Read exact rational-polyhedral R3 isotopy prompt and complete report/records, no priors. Checked arbitrary knotted connected genus-two embeddings, oriented source algorithm and compatibility of complement boundary maps.",
+    "Verified unbounded-side orientation retains infinity, endpoint point-correction supported in the same complementary component and evaluation/isotopy-extension fibration π1(S3)=0 imply a point-fixed isotopy. Restriction gives R3 isotopy; dropping side data could incorrectly allow passage through infinity. Higher genus, disconnected placement and complexity bounds stay unclaimed."
+  ],
+  "primary_source_checks": [
+    "Baroni arXiv:2309.05387v1, Theorem4.1 and Remark4.2, §1.3 triangulated-pair encoding and §4.1 boundary compatibility. Primary theorem context/Remark at PDF pp.46–47, turn1659view3,turn1684view4; retained _08/_12. The deep classification algorithm is imported, not implemented."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Baroni's oriented genus-two classification algorithm decides ambient isotopy for connected tame genus-two surfaces in R³ after orienting by the unbounded complementary side. The passage from S³ to R³ and compatible gluing requirement are explained. No arbitrary-genus or disconnected-input decision is claimed.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-3389",
+  "canonical_problem_id": "prb_58a669a9ca23498c83e7bc0b89f06df0",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:31:13.397737+00:00",
+  "checked_report_sha256": "4b9faf53f7b60fc473a34e35b5cd48d233dd191d9fa0e72be926c5d4d0f22af0",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "187596d2d7134a717d8c60d26b043c3990821cd8689edf6ea8e7747de367b85b",
+    "contribution.json": "7f3740563d1389f417235a8da3b0f4a70f80da1a8c0b6fe5502d01a5a1ded366",
+    "official_metadata.json": "a6f8208a00590274bbb1d271a82405783f2a049f72c3e2fde7dd263030ded1dd",
+    "official_metadata_api.json": "15401157644a9485ea7579de3975fe415db230bdb085c9dcbe4c0eb5159c31db",
+    "official_prompt.txt": "0124059520982405e672d7cec56040ecdc92d66a6fd4034af90046d3fb7d4cab",
+    "official_prompt_api.json": "67cac4ea7bec7e7a54e138877e9585e3ee4f2d1c18cf9a23f30a4b1db648e3cb",
+    "report.md": "4b9faf53f7b60fc473a34e35b5cd48d233dd191d9fa0e72be926c5d4d0f22af0",
+    "retrieval.json": "188d12814ba30027031943ce8b9f4a0f6d94f7db2d8d3583d674ad5d8a4bbbd0",
+    "source_notes.md": "e4be5ef52fae5702771c14dd2d187bf3f1dc545d1bc153730f511132a8b5e78b"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "800ec6892172883dc31875bc4103acafc7e24704c3fc02c67e2e5e3965d0f430"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact two-question prompt, source/meta/API, report and provenance read; no prior. The report supplies an exact all-size squarefree local-order characterization and a credited infinite false-positive family for a different fixed-parameter test, rather than a BPSW counterexample or numerical search.",
+    "Under odd squarefree n and gcd(n,2QD)=1, quadratic roots alpha,beta are distinct nonzero in Fp or Fp2, and rho=alpha/beta has order r_p dividing p-(D/p). U_m vanishes iff rho^m=1; V_m iff rho^m=-1. In finite-field multiplicative groups, the unique element of order two yields the exact common v2(r_p) condition together with r_p|n+1. Divisibility ensures the common strong index is within 0<=j<t. Same argument for order of 2 and n-1 gives base-two criterion.",
+    "For squarefree n=3 or 7 mod10, quadratic reciprocity makes Jacobi(5/n)=-1, so the first selected Method-A D is 5, P=1,Q=-1 and U=Fibonacci. The weak two divisibilities impose local rank/order divisibility but omit both common-index synchronizations. Repeated prime factors require prime-power analysis and are not assumed absent for the full problem.",
+    "If selected Q shares prime factor with n and P is coprime there, recurrence gives U_m=P^(m-1) and V_m=P^m for m>=1, excluding a successful strong test. Thus the coprimality premise genuinely holds for successful Method-A squarefree candidates. Fixed P=Q=2 has D=-4 and V_(2v)=0 for odd v when n=3 mod4, with t>=2 so j=1 allowed. Source infinitude of Carmichael strong-base-two passers combines with that identity, but Selfridge odd-D selection never chooses these parameters."
+  ],
+  "primary_source_checks": [
+    "Baillie–Fiori–Wagstaff, Strengthening the Baillie–PSW primality test, arXiv:2006.14425v2, 11 June 2021, actual primary https://arxiv.org/pdf/2006.14425. Sections 2.2–2.4/3 strong-test definitions, Section 8 Theorem 2 and complete relevant proof/dependence on Wright construction, plus Appendix A A/A* equivalence checked (qualified_number_second_half_primary_08.json through _10.json, turn1844view1). Wright original was not separately read; its imported construction is explicitly mediated through the identified primary theorem, not relabeled as a verifier-reproved infinitude theorem."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "A complete squarefree local-order synchronization criterion for the specified strong tests, an exact comparison with the separate weak Fibonacci question, and a credited infinite-family warning for a different fixed-parameter test; neither requested existence question is settled.",
+    "listed_prior_count": 0,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

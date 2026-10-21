@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2806",
+  "canonical_problem_id": "prb_2522402122e142f4be4ed6899d466a57",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:17:38.920591+00:00",
+  "checked_report_sha256": "4f384e128531b5cb48c16732ef674c91610a6637953d0bad63c56c08b401c1c8",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "e0747eff8e04d858a29cbd5e72ea27622f060ae76c6eb02f3b76feae17d6eb77",
+    "contribution.json": "bd31ce24e39c268bc1cfee0154524a299c06897abc9d3297f742830e11da90d9",
+    "official_metadata.json": "4a23a58a405707305a2dad550bb70b9965aebf021ebf2ba2c0adcdd943d3397c",
+    "official_metadata_api.json": "4c351dd2ed3e423084237f813204c49a17ada14b229a22cc1196a7c62a6bdb1f",
+    "official_prompt.txt": "47be36d2015ef3b4e26bc888156ee6a7574c96f3c2e7c8c0fcae2549a9c2f916",
+    "official_prompt_api.json": "2850a12cfff6fa6360c63fcef96ffe879872aa83c2afd0316c899209b4d0fe98",
+    "report.md": "4f384e128531b5cb48c16732ef674c91610a6637953d0bad63c56c08b401c1c8",
+    "source_notes.md": "3e4b4bce227c485673b551b2faef54d1b6a8dfbde86b829368b5d77f05588940"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Read full report, literal profinite-completion/isometry prompt and records; no prior contribution listed. Checked compact core application, hyperbolic once-punctured-torus bundle, b1=1 and rank-two kernel recovered by the cited theorem; Mostow–Prasad gives isometry after homeomorphism.",
+    "Checked Liu’s finite ambiguity means finitely many group types rather than one; integral first-cohomology lattice, norm, fibered classes and sign ambiguity are retained. No equal-volume or common-cover conclusion is inferred."
+  ],
+  "primary_source_checks": [
+    "BRW arXiv:1610.02410v2 Corollary B (primary HTML lines 53–55) matches compact connected comparison manifold with hyperbolic one-holed-torus bundle. Liu arXiv:2011.09412v2 Theorems 1.1–1.3 and limitations at primary PDF pp.1–3; exact v2 header checked. Sources turn1634view7–8, turn1637view3 and turn1664view4, evidence _04/_05/_10."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "The isometry conclusion follows when one manifold is an orientable hyperbolic once-punctured-torus bundle. General orientable finite-volume hyperbolic manifolds have a finite ambiguity theorem and norm/fibering invariants, which do not by themselves establish full rigidity.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Substantive alternating-digit improvement and exact Fourier reconstruction of the credited new witness upper/lower theorems. Official prior-attempt identity reversal is corrected in the reread report/source notes; Literature report remains accurate.",
+  "actual_checks": [
+    "Lowest differing digit has exact 5-adic valuation j. Odd j rules out a square; even j gives unit 2 or 3 modulo five. Free odd-position digits give 10^m choices in [25^m] after translation.",
+    "Verified general p=1 mod4 digit-set extension and necessary upper restriction c<=1−log(10)/log(25), including an arbitrary fixed prefactor C.",
+    "Checked Fan–Lott v2 Theorems 1.1/1.3 and Corollary 1.2 allow signed cosine coefficients with P>=0 and P(0)=1. Their lower theorem bounds witness constant terms, not extremal set sizes.",
+    "Re-derived Fourier identity at M=2N+1: forbidden signed square frequencies cannot wrap since absolute difference from the square is <=2N−1<M. Nonnegative P controls t=0; signed individual coefficients cause no issue.",
+    "Reread corrected full report/source notes and refreshed author record. Report SHA e8b1168ff7958559e18e4fd77a23987865f414a5997c19661c0f6f734b86d4f6; source SHA e1375c68312e27ae357243417305a853fe19b0989259c8e7c897689bb631d01f. Prior bodies unchanged; previous REVISE independent audit is preserved byte-for-byte in audit_history and superseded."
+  ],
+  "prior_comparison": "Both complete retained bodies were read. Official TOP-126-A2 (prior_attempt_01) is the unverified OpenAI claim summary; official TOP-126-A1 (prior_attempt_02) is the all-position binary digit/prime-field exploration. Corrected report and source notes now match those official IDs. No announced unverified claim is adopted.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/2610.07765",
+      "version": "2610.07765v2, posted 12 October 2026; manuscript 11 October",
+      "locators": "Theorems 1.1/1.3, Corollary 1.2 and Appendix A",
+      "retrieval": "coordination/qualified_number_first_half_primary_05.json; _08.json"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2411.17448",
+      "version": "2411.17448v2, 10 January 2025",
+      "locators": "Theorem 1.1",
+      "retrieval": "coordination/qualified_number_first_half_primary_05.json"
+    }
+  ],
+  "limitations": [
+    "Posted Fan–Lott theorem is credited as a preprint, not independently reproved or a formal verification. No announced power-saving claim is accepted as established.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-126",
+  "reviewer": "/root/sol_ultra_numbers",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "e8b1168ff7958559e18e4fd77a23987865f414a5997c19661c0f6f734b86d4f6",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "e8b1168ff7958559e18e4fd77a23987865f414a5997c19661c0f6f734b86d4f6",
+    "source_notes.md": "e1375c68312e27ae357243417305a853fe19b0989259c8e7c897689bb631d01f",
+    "author_record.json": "f6e18b1e127ff883f1c163a869bcf82f6b0dcda5e4572ba508dff6adf713ecac",
+    "official_prompt.txt": "b83a03fb13c0513584df2652b173ba8ce20a2520e9f3bb4cbacf48833666f752",
+    "official_prompt_api.json": "153fcdfea67208a5b3fad20977da66713f68025c1941e802222b10bebc82f184",
+    "official_metadata.json": "0ec9c397b22c254d81351d5cb67e65114dda4c6a919ad92d502bcb5e75982376",
+    "official_metadata_api.json": "29fd1b7d0693646420f0f7ff43625aaea386e0e8937ea9ac46db03be4a716536",
+    "contribution.json": "ef3021c836f1a08e3badf6cb399f9199542a195c832a63b111c651310142e203",
+    "retrieval.json": "d0875ae42f01503ea0fdece3fc1f1bff98834f1435b6be1b0a321ae7560affcc",
+    "prior_attempts.json": "413eb700ea865f56d7f6462ec58a5d8c464df9fb6aad6bc46838628b757135d0",
+    "prior_attempt_01_api.json": "7bc6b97ff82cc005849b7fd41234346ea0b9cfd9e457943def5ca9d8e7796787",
+    "prior_attempt_02_api.json": "29449817e883c7410dc2072cfa1820a736779cc0a50e190ac64e45f04e4dba18",
+    "prior_attempt_01_text.txt": "ee30930b79dc329f2178b711171490883a4cbe2cb2d5145f0391946c05726c80",
+    "prior_attempt_02_text.txt": "00f09cc99089f205276e0ecfe311cf0aac005d1f2e354677986a1c8cd7669197"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_numbers_first_half_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:33:17.659124+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

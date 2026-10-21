@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-600002",
+  "canonical_problem_id": "prb_424b835b69da4352acaee93905c32f4b",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "07247a96654adf70cd855ab4d80eec81eac1a9eaef756ae45d8477d93e697157",
+  "report_sha256": "07247a96654adf70cd855ab4d80eec81eac1a9eaef756ae45d8477d93e697157",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "51bcc125cc64476a4e6fb42526d19b6388b173cd1e8946992ef9aceff15ac5bd",
+    "contribution.json": "655070ee725bae5001ae1083916961fbb42caccb54a1aed0eddefb555ba75ef6",
+    "official_metadata.json": "de19497997db5aa6e08b043e25b6229da321b278d8bf8312df743f81d9015461",
+    "official_metadata_api.json": "562e02f92afa4ab39b09439d9b777730f659ca69b01f330e067c13d625d0c32a",
+    "official_prompt.txt": "51aa14d1500dcc2e0a6a3027bd183c4f1958fadcbe13243f7fe5cfd06a74f10c",
+    "official_prompt_api.json": "2a3f706905ebbf946875038d4dadc62938cb1a076fa7a5193fe56fa8c0b3faaa",
+    "report.md": "07247a96654adf70cd855ab4d80eec81eac1a9eaef756ae45d8477d93e697157",
+    "source_notes.md": "597d0547153c6f5845964aaa71f2fa872761ff15e848de06c79876b035389496"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:04:03.058082+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "No earlier contributions listed. Checked the distinction between literal local smooth families and global invariant circles/porisms.",
+    "Independently checked regular inner polygon and diameter reflection laws, least periods, finite-contact arc selection, smooth nonnegative radial bump, positive-curvature formula and nonellipticity via a quadratic/trigonometric identity.",
+    "Checked circumscribed outer polygon midpoint/tangency formula, exterior-vertex preservation using global support, prescribed-side convention, primitive periods r>=3 and impossibility of an outer two-cycle. The same construction covers any finite list."
+  ],
+  "sources": [
+    "Opened Tabachnikov, A Baker\u2019s Dozen of Problems, original journal HTML: https://armj.math.stonybrook.edu/html-articles/Files-2015-2024/14-01/ (turn1523view0,turn1526view5). Section2 Problem1, lines28\u201337; used for context only."
+  ],
+  "limitations": [
+    "This is a significant direct construction under the retained local-family definition. It does not resolve the stronger historical global-family question or classify all admissible tables."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

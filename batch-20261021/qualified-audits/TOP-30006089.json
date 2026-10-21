@@ -1,0 +1,46 @@
+{
+  "handle": "TOP-30006089",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "79772233c17ea83cbdfec1179ccd992ed0847d96cea39300275d6746320cba16",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "bd93f1b0603eeba0c0ca538f0fbd5ccd9e53f01a7766f3c5fdeb8cba8225a0ad",
+    "contribution.json": "28313c3e56cf87a9f170079bbebcd785964d913e43a87662b61837c68f4fc448",
+    "official_metadata.json": "3e14737dba0f9e8cef9c61c820dd57db2f90634707b2dd9872ee54da8a3fe274",
+    "official_metadata_api.json": "3254cb8519eaa34d09b13dfeb9f9c6cfcf018288e83f86114fd51e5bfbe42027",
+    "official_problem.json": "3e14737dba0f9e8cef9c61c820dd57db2f90634707b2dd9872ee54da8a3fe274",
+    "official_problem_api.json": "3254cb8519eaa34d09b13dfeb9f9c6cfcf018288e83f86114fd51e5bfbe42027",
+    "official_prompt.txt": "5053cbb4f5729ee7ba6070b3d50d3be9fea9d1bc4685a91c4292517bb0a5a54a",
+    "official_prompt_api.json": "6f73992c0cb8b6ab3c0111a240192645388dbde8ab5b4ce2c5a7a18f1890253d",
+    "prior_attempts/TOP-30006089-A1.tex": "9fb91e3bf5bebe768ca75d3ee9cf388548c07879e55bb3d25028ae09832513be",
+    "prior_attempts/TOP-30006089-A1_api.json": "c3aa00cf6376c899c7d55815270c75a698c37af41438362ef0db72fe418bf25a",
+    "prior_attempts/TOP-30006089-A1_manuscript_api.json": "f7c53135b04ad5e74ea388f9b797f9ab161fd263eb89bb329d83c44817895569",
+    "report.md": "79772233c17ea83cbdfec1179ccd992ed0847d96cea39300275d6746320cba16",
+    "source_notes.md": "0af70250db11a390f6d94f0fe7ee6c147bd117875af213537c999ee8cfb09601",
+    "verification.json": "a20d9f250815d26cc990ceea919ea32afb250096d96548730061715bd439f565"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:20:36.405079+00:00",
+  "actual_checks": [
+    "Read complete bundled source prompt and A1 monotonicity/link counterexample. Restricted supplied rational PSD Gramians plus lambda>0 give a normalized finite logdet objective at empty set; arbitrary costs/distributed/PDE subquestions are retained as untreated.",
+    "Recomputed derivative integral for each marginal. Positive-definite inverse order reverses Loewner order; taking trace against PSD Wi preserves sign without commuting matrices. This proves monotonicity and diminishing returns for all supplied candidates.",
+    "Verified cardinality-k greedy gap recurrence and1-(1-1/k)^k guarantee, including k=0 and k>=m. Exact candidate ordering uses rational determinants, with no logarithm evaluation; determinant sizes and exact elimination have polynomial bit bounds. Unary-horizon/supplied-Gramian scope avoids binary exponentially long horizons.",
+    "Checked Theorem6 logdet portion of Summers-Cortesi-Lygeros primary paper only; other metric claims were not imported. No numerical control computation, full external theorem proof verification or PDE solver run."
+  ],
+  "primary_sources": [
+    "Summers-Cortesi-Lygeros, On Submodularity and Controllability in Complex Dynamical Networks,primary arXiv PDF https://arxiv.org/pdf/1404.7665, SectionIII.D Theorem6 PDFpp4-5. Read logdet theorem and derivative proof; unrelated inverse-trace assertions are not used. Retained coordination/qualified_algorithms_primary_retrieval_03.json and03_followup.json."
+  ],
+  "prior_work_distinction": "Adds budgeted optimization with a complete regularized structural proof, greedy approximation and exact bit-model oracle beyond A1 actuator monotonicity. Applies to one precisely identified substantive subquestion, without a full bundle claim.",
+  "scope_assessment": "For explicitly supplied rational positive-semidefinite candidate Gramians W₁,…,Wm and rational λ>0, cardinality-k greedy selection maximizes the normalized regularized log-determinant gain within factor1−1/e, with exact rational determinant comparisons and polynomial bit time. This addresses the finite-dimensional budgeted-volume subquestion; distributed rank, arbitrary control costs and PDE-ADMM remain outside scope.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

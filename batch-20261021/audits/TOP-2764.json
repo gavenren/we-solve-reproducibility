@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2764",
+  "canonical_problem_id": "prb_f169206961274e81a8518bb1f04e3f2c",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:15:13.281524+00:00",
+  "checked_report_sha256": "0ec6ee85b6e8f1cf0d280d668b2bb54380229c1fb8d37eec8cd2ba127553a699",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "75c4d88afc1969e48f1b61a526c69641eed481041adea070b2ebbda0d08389aa",
+    "contribution.json": "a6ce214b80a6cff00c6eb8392396b0935e69bd4f6dce5ef7bfbf263e8ac90581",
+    "official_metadata.json": "adb2cf06e80a92a245227b6738e437a15fe0fb0c3083040a2775c0f57ceff8b7",
+    "official_metadata_api.json": "c98027e704b14071d6b4e376bec0f308df6310325cab417f4d08476f1264c031",
+    "official_prompt.txt": "4ab45e301ba1f918cecfa164c0af5964408e148b9ae31e7a778c38c4af28366f",
+    "official_prompt_api.json": "2fd7a36e37d90f1716e751171ad0fee7308473b130dc445fae2f5898503faee9",
+    "report.md": "0ec6ee85b6e8f1cf0d280d668b2bb54380229c1fb8d37eec8cd2ba127553a699",
+    "source_notes.md": "85737299a9cc5a317216b7864c857cd2f74b1e288a873f93c76c8a116317bd6b"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Read full report, exact unmarked-multiset prompt, notes and contribution; no prior attempt listed. Retained fixed closed topological type and comparison with an arbitrary Y, not two generic points.",
+    "Checked the extended mapping-class conclusion allows orientation reversal; an unlabeled distinct-length bijection alone gives no curve-incidence preservation. ALLM examples have equal full spectra while simple/bounded-self-intersection spectra differ and thus do not disprove simple rigidity. Exceptional set and cross-type comparisons remain unresolved."
+  ],
+  "primary_source_checks": [
+    "Baik–Choi–Kim arXiv:2012.05652v3, primary Theorem 1.2 PDF p.3, lines 105–111, gives exactly one generic metric and arbitrary second metric; actual v3 header checked. Aougab–Lahn–Loving–Miller arXiv:2210.16706v2, primary abstract and Theorem 1/Corollary 2 describe covers of every closed negative-Euler surface with the claimed difference. Primary turn1615view6–7 and turn1640view4; retained _01/_06. Deep rigidity remains credited."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "For each fixed closed connected orientable surface S of genus at least two, the identified Baik–Choi–Kim theorem gives a meagre exceptional set V⊂T(S) such that X∉V and equality of unmarked simple-length multisets with arbitrary Y∈T(S) imply isometry, possibly orientation reversing. This leaves the exceptional locus and comparisons across different topological types unresolved.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

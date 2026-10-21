@@ -1,0 +1,68 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-9400048",
+  "canonical_problem_id": "prb_f29c554cf7864f5e890b7ef3268f3c3b",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:34:22.325357+00:00",
+  "checked_report_sha256": "38fc10a0cfe4874320f07bc571e876bcd399fedca2e16659f122acaf38a28020",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "6e5e90f8bcdeffe35641dad15a706cdf6a00e17f2760a965c3314aaaa856cbb3",
+    "contribution.json": "3dde8ca9b762e7155149eb4b9f7078cac9365980e323cebf3443b1af0bf1f85d",
+    "official_metadata.json": "277cd03d288b75b4cd1561232901a8d0578844ca341b1e229632f3c43306f35f",
+    "official_metadata_api.json": "980940f2e2141745297a0e7363b4db5e2eec86b6b2b36a453e1719a9c8c07bb4",
+    "official_prompt.txt": "3142dbb2e3a50e99d48617ce5248ed37513f3d9cf1e7832b74978f16674bec37",
+    "official_prompt_api.json": "44528d93cc37fe0e45f171a98480ca69d0ef4e6efc3edd3804d7c3f7b8abdbcb",
+    "prior_attempt_01_api.json": "f9c00b5eecf7c4190f18093f6bdf185771b586f23cc9c118c5fbf136a5816b64",
+    "prior_attempt_01_text.txt": "2173951606494c760d0b3d12bc2a3d83f8d271d7fb17a1243bba428c2de76692",
+    "prior_attempt_02_api.json": "f739fb4657a6b8f0f299d09ffe537e9339fe65121b4228460418ab4781ffb01c",
+    "prior_attempt_02_text.txt": "c8dbd4881d1e420edea1ae59720d112dff3368a42b8f21d374c844e61c187bc1",
+    "prior_attempts.json": "ade23327bee7ce26a7698f62f3ed4b8e0da715b5a8aeac716254dcfcef8576a1",
+    "report.md": "38fc10a0cfe4874320f07bc571e876bcd399fedca2e16659f122acaf38a28020",
+    "retrieval.json": "46a20f77c7457ed35025eb464b64a1aca6a800ead3272747e7b53561aafb2b26",
+    "source_notes.md": "7155cff6e3ec8277ae16eb43495dee36b359904bae5ba3a395b27d59dc3b4120"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8abd348b18f67b61cb97e7fa72eeb990a89587d29cbab694915ecac22cb2ece3"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact report, literal prompt, API/metadata, author/source records and both retained prior scientific bodies read. The new scope is the distinct-Hodge–Tate p>=5 two-dimensional odd Fontaine–Mazur case, with the modularity-to-geometric-realization bridge made explicit; prior potential-realization/finite-image arguments alone did not supply this theorem.",
+    "Pan Theorem 1.0.4 is applied with continuity, absolute irreducibility, finite ramification, oddness and potentially semistable distinct Hodge–Tate weights. Its extra residual restriction is only for p=3, correctly excluded here. Pan uses cyclotomic weight -1 and geometric Frobenius; weight/twist conventions are preserved.",
+    "Scholl realizes the cuspidal eigenform representation in smooth projective cohomology (weight 2 via a Jacobian, higher weight via Kuga–Sato and the indicated projector); duals are accommodated by Poincare duality and Tate twists. The scalar intertwiner character is de Rham and finite ramified; its cyclotomic adjustment has weight zero and hence finite image over Q by Sen and global class field theory.",
+    "The finite-image character is realized in degree-zero Artin cohomology and combined by Kunneth. A smooth projective possibly disconnected source can be embedded as a codimension-at-least-two center in projective space; the blowup is geometrically integral and its blowup formula supplies the shifted/twisted summand. Restriction of coefficients and Jordan–Holder descent give the stated irreducible subquotient without an unjustified semisimplicity assertion. The full Fontaine–Mazur conjecture, repeated weights and p=2/3 are not claimed."
+  ],
+  "primary_source_checks": [
+    "Pan, arXiv:1901.07166v2 (3 September 2021), actual full primary PDF retrieved: Conjecture 1.0.1, Theorem 1.0.4 and Section 1.1 normalization checked; retrievals 11,14,18.",
+    "Scholl, author-hosted Modular forms and de Rham cohomology preprint, Section 1.2.0–1.2.4 checked in actual full PDF; the p>=weight condition belongs to the additional crystalline assertion and is not inserted into motivic realization. Retrievals 12,15. Bellaiche, Bloch–Kato introduction, Proposition 1.2 and proof checked in actual full primary exposition PDF, retrievals 12,16; no independent reproof of modularity/motivic construction is asserted."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Checked published Pan Theorem1.0.4 for odd absolutely irreducible2-dimensional representations of G_Q, p≥5, finite ramification, potentially semistable and distinct Hodge–Tate weights; explains the modular-form-to-smooth-projective realization using Scholl and the finite-image/Tate character classification. Does not cover general fields, ranks, even representations or repeated weights.",
+    "listed_prior_count": 2,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

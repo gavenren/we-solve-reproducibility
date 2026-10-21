@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-3099",
+  "canonical_problem_id": "prb_dc60707e5fe74f2b9ac7ce456afe27ba",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "6b5f99a008f537038aa9cc598ae62ffce019b10235e2199bd733727a74e4a176",
+  "report_sha256": "6b5f99a008f537038aa9cc598ae62ffce019b10235e2199bd733727a74e4a176",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "eb890a32540bc6b56e2524687ded13dacffd1aca878b52900c9041078bfe481a",
+    "contribution.json": "bd65cf59e35f5fba942756fc1c3ff4932398b3f7f85db9db92827516fcac9a45",
+    "official_metadata.json": "26759deb06915b79880a55f18129a96eadb1d1be70e08b13e53b73b09c22fb68",
+    "official_metadata_api.json": "f2fcb6e2cfbdd366e2603507a30c715caa960aa6130928bafff50001e3de683b",
+    "official_prompt.txt": "6acb5d10a1aadbd88dad520b30ebcefb245537f52334b56b1223d2933f3159fe",
+    "official_prompt_api.json": "086ee5a5bdec91cf92c8cea87132f95804a4a6943dcb7b7460c4a240f53045bb",
+    "prior_attempt_1.html": "4f237dde99448b693a979c0f253b197063d29ae682a17bae7757da03e83ce842",
+    "prior_attempt_1.txt": "26dad97ddc0882ca4fd4e61c18a3f315f22b2560c87bba11aa930c1088509258",
+    "prior_attempt_1_api.json": "1bc06f33a2f20892f6bcef31d2712c4d75b5b07afcf3eb941a440822d6836b1a",
+    "report.md": "6b5f99a008f537038aa9cc598ae62ffce019b10235e2199bd733727a74e4a176",
+    "source_notes.md": "4cce84bba1b1a3bd8cc09f8bcb3959e8a2bd1a355dc2ba4c08cf6e04ded8d309"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:10:18.509534+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read full earlier products-of-simplices threshold/obstruction; full simple-polytope theorem and numeric upper/lower bounds add distinct scope.",
+    "Checked Corollary2.9 safe half*k\u00b2*l*2^k bound, diagonal k\u00b3*2^(k-1), integer/even dimension construction and k>=3 range.",
+    "Checked actual-face/combinatorial-cube requirement, TheoremB lower specialization and explicit simplicity limitation; duality cannot remove it."
+  ],
+  "sources": [
+    "Opened De Loera\u2013Fang\u2013Guo\u2013Lu\u2013Zheng2609.00397v1,31Aug2026, TheoremsA/B, Section2 and Corollary2.9: https://arxiv.org/pdf/2609.00397 (turn1586view2,turn1587view2\u20133)."
+  ],
+  "limitations": [
+    "The2026 preprint\u2019s average-face/Nikulin and recognition lemmas are imported, not independently reproved. No nonsimple all-k solution or formal verification is certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

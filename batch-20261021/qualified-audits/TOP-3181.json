@@ -1,0 +1,74 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3181",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "b1296884ec900e8503cc47a357a5dc23223f6313756b004a94c5d004a6bf5407",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "b1296884ec900e8503cc47a357a5dc23223f6313756b004a94c5d004a6bf5407",
+    "source_notes.md": "758a9254065d8d9ce9c0aebc566f172b103016ac499171cdc5bd1fa13a3d2ccc",
+    "author_record.json": "e97e20a591b6905686411991039ec96c2f6e3c754ec9ea54b1e02bc580d0094d",
+    "contribution.json": "507277fdb89b2efa6fe130a04326ab74dcf670230f37a0ff935a76969d2e97c6",
+    "official_prompt.txt": "d919b26fa52fbe62ab90cb9bfab27ae5d171406e95099b86a8b5677ab6814aff",
+    "official_prompt_api.json": "b38c58664360bc7509256a37d7f9e6f3b52f899ea7a26f404260f92527f4e6ec",
+    "official_metadata.json": "58f9ff41cb762d48b94a74c27b80bead9300934635398ed70a6db1f4d17e23bf",
+    "official_metadata_api.json": "c6fc26f9720834b57654c787bd686e799884d7efb90350bda60d436e1b059e55",
+    "prior_attempts/attempt-1.txt": "9e9132f04ea514775c3c0ae2f41bf0e8c5e439435ac27f96e2aee7e5c3273847",
+    "prior_attempts/attempt-1_api.json": "164e9bbd0e83f0f4fa4ffd5e007c18f56f10f7454384b786e4804ccc38b109ac",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked the complete-host perfect-matching induction, including nonzero even crossing endpoint set, artificial perfect matchings, left path pairing, and replacement of edges of one right cycle by disjoint paths.",
+    "Checked artificial edges are all removed and every added edge is a cube edge; alternation yields a perfect added matching. The credited nonperfect linear-forest lemma gives exactly 2^(d-1)-m path components.",
+    "Read the prior coordinate-direction proof and noncompletion example. The report does not convert Hamilton paths or 2/3 cycles into a solution for arbitrary cube matchings."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://kam.mff.cuni.cz/~fink/publications/kreweras1.pdf",
+      "version": "author-hosted original paper",
+      "locators": "Theorem and linear-forest lemma with proofs, PDF pages 2–3",
+      "retrieval_refs": [
+        "turn1734view3"
+      ],
+      "access": "Full relevant primary proof read."
+    },
+    {
+      "url": "https://kam.mff.cuni.cz/~fink/publications/kreweras2.pdf",
+      "version": "author-hosted later gluing exposition",
+      "locators": "Theorem 1, Lemma 3",
+      "retrieval_refs": [
+        "turn1742view1"
+      ],
+      "access": "Primary paper and recursive formulation checked."
+    },
+    {
+      "url": "https://arxiv.org/html/2401.01769v2",
+      "version": "v2, 16 April 2025",
+      "locators": "Theorems 5–7, lines 70–83",
+      "retrieval_refs": [
+        "turn1744view2"
+      ],
+      "access": "Exact theorem scope checked; computer-assisted base not rerun."
+    }
+  ],
+  "distinct_significant_scope": "A full complete-host induction and exact nonperfect spanning path-cover deficit, beyond prior coordinate-direction and long-cycle discussion.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:24:21.193953+00:00"
+}

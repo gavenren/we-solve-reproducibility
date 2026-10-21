@@ -1,54 +1,81 @@
 {
   "handle": "TOP-30006762",
-  "reviewer": "/root/hundred_graphs",
+  "reviewer": "/root/sol_ultra_algorithms",
   "author_agent": "/root/hundred_algorithms",
   "verdict": "PASS",
-  "reviewed_at_utc": "2026-10-21T18:29:28.678892+00:00",
   "checked_report_sha256": "b7c6742633fdf6d45d441445ae9430e94d517a9afebf31780366c083978c4dda",
   "program_sha256": {
     "verify.py": "314930f3c9b9becfc8cf066fdfef17478b54cacc5e73fa59958c83a596557a49"
   },
-  "program_hashes": {
-    "verify.py": "314930f3c9b9becfc8cf066fdfef17478b54cacc5e73fa59958c83a596557a49"
-  },
-  "checked_files": {
-    "official_prompt.txt": "b5e45777c3bddd673a9ad20a918d4aac82859439a5dc283cdf89e66a718786c4",
-    "official_prompt_api.json": "fbc48660f9bfe0513c8cf5511cff29ed0fbdd37b92d5d46e145eb2393003a1cd",
+  "checked_files_sha256": {
+    "author_record.json": "58615f2275ecbcead42dcd569d593da678c30ecb612d726ea63c8b1ad82728f8",
+    "contribution.json": "1db26658feb6f13f1710457999b32eb5de8f991b20976f352d4fa977ec63ad74",
     "official_metadata.json": "c4d82f72a61efdc7ad238afbc4b0e1d534295a7fabf735544397d0ab10d6ee14",
     "official_metadata_api.json": "9105faa2611b07ce5ef5f87a992c84bbeb224a11b5247fb1296e5af365f1434a",
+    "official_problem.json": "c4d82f72a61efdc7ad238afbc4b0e1d534295a7fabf735544397d0ab10d6ee14",
+    "official_problem_api.json": "9105faa2611b07ce5ef5f87a992c84bbeb224a11b5247fb1296e5af365f1434a",
+    "official_prompt.txt": "b5e45777c3bddd673a9ad20a918d4aac82859439a5dc283cdf89e66a718786c4",
+    "official_prompt_api.json": "fbc48660f9bfe0513c8cf5511cff29ed0fbdd37b92d5d46e145eb2393003a1cd",
+    "prior_attempts/TOP-30006762-A1.tex": "9ba1a99ebf6cd89f0b45573d0a02ccfc9f3e82d8bb72e0e5966ae9dc7da09f54",
+    "prior_attempts/TOP-30006762-A1_api.json": "e6051fbc0cf13913709882a66e3c36568fc1a27ffbc99848387a6fda86f61874",
+    "prior_attempts/TOP-30006762-A1_manuscript_api.json": "c7a8cc1faba1631bdd32a5c35176447ee3fe5793175c8848fbde4844eb94007d",
+    "report.md": "b7c6742633fdf6d45d441445ae9430e94d517a9afebf31780366c083978c4dda",
     "source_notes.md": "67d8b190431be83391d8faa9e99bbdf4ddbd41ab538f578571ec8329ba3f15a5",
-    "contribution.json": "1db26658feb6f13f1710457999b32eb5de8f991b20976f352d4fa977ec63ad74",
-    "author_record.json": "ebcda4f807fea488982172311774bdef518ad028147f8a3a779d6e759f69e61f"
+    "verification.json": "520beaea7355714e5357efac609958eadcfb81cc1293e26e07939bd1246ef0d8",
+    "verification_stdout.txt": "a30c3fa8f16dea92e88dc55aae1644dde912a78c81c13912432f68a59d7d17cb",
+    "verify.py": "314930f3c9b9becfc8cf066fdfef17478b54cacc5e73fa59958c83a596557a49"
   },
-  "prior_attempts": [
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:17:58.820884+00:00",
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained wrappers, full preceding A1 manuscript, report, source notes, contribution and author record. Reconstructed the carry-free coefficient identity: beta>n^3 ensures all cube coefficients fit one digit, exponent 3U corresponds exactly to zero sum.",
+    "Verified all three equality-event counts equal R and each multiple intersection is exactly the all-zero triple, giving C-3R+2z; division by six is valid only for distinct triples in a set. Small n returns zero. Checked bit lengths, sorted negative-double merge, dense packing, two multiplications and absorption of logarithms for U=O(n^(2-epsilon)). At U=n^3 no conjecture disproof follows.",
+    "Read the complete original checker before executing both modes in an isolated copy. Its unordered-combination oracle is independent of the packing calculation. All 2048 subsets of [-5,5], repeated-element boundaries and a separated-gap case passed; optimized mode explicitly refused."
+  ],
+  "primary_sources": [
+    "Harvey and van der Hoeven, Annals of Mathematics 193(2021),563-617, publisher abstract at https://annals.math.princeton.edu/2021/193-2/p04: O(K log K) multitape bit multiplication; freshly opened. Only this imported complexity theorem is used; its deep proof was not independently reproved. Retained retrieval coordination/qualified_algorithms_primary_retrieval_01.json."
+  ],
+  "prior_work_distinction": "Adds an unconditional exact counting algorithm, complete distinctness correction and small-universe model accounting beyond A1 random-modulus conditional StreamConv. This is a substantive restricted-universe contribution, without a novelty or unrestricted exponent claim.",
+  "scope_assessment": "For distinct integers S⊆[−U,U], exact 3SUM decision and the number of unordered distinct zero-sum triples are computable deterministically in O((n+U+1) log²(n+U+2)) bit time using fast integer multiplication. This is subquadratic for U=O(n^(2−ε)), for fixed ε>0; it does not handle the prompt’s U=n³ worst case.",
+  "required_corrections": [],
+  "execution": [
     {
-      "path": "prior_attempts/TOP-30006762-A1.tex",
-      "sha256": "9ba1a99ebf6cd89f0b45573d0a02ccfc9f3e82d8bb72e0e5966ae9dc7da09f54",
-      "read_in_full": true
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "314930f3c9b9becfc8cf066fdfef17478b54cacc5e73fa59958c83a596557a49",
+      "exit_code": 0,
+      "stdout_path": "qualified_execution/verify_normal.stdout.txt",
+      "stdout_sha256": "a30c3fa8f16dea92e88dc55aae1644dde912a78c81c13912432f68a59d7d17cb",
+      "stderr_path": "qualified_execution/verify_normal.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_behavior": "finite verification pass"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "-O",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "314930f3c9b9becfc8cf066fdfef17478b54cacc5e73fa59958c83a596557a49",
+      "exit_code": 1,
+      "stdout_path": "qualified_execution/verify_optimized.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_path": "qualified_execution/verify_optimized.stderr.txt",
+      "stderr_sha256": "113a942eb33706f7dd89163136f211d210e40c2472e88cb50bfd27d2882dc0fd",
+      "expected_behavior": "explicit optimization refusal"
     }
   ],
-  "checks": [
-    "Checked carry-free beta>n^3 extraction at exponent3U and exact correction C−3R+2z; repeated patterns and the all-equal zero intersection have the stated multiplicities.",
-    "Packed bit length O((U+1)log(n+2)), sorting/merging and n≤2U+1 give the announced conservative bit bound. Dense U=n^3 is explicitly outside the subquadratic conclusion.",
-    "Read retained A1 in full: its unproved StreamConv prefix reporter is not assumed or implemented by this coefficient algorithm.",
-    "Freshly checked Harvey–van der Hoeven publisher abstract: binary multitape O(KlogK) multiplication; this deep theorem is credited, not reproved.",
-    "Official literal prompt/API bytes, Git blob SHA, decoded canonical metadata/selection/author and current author report/program hashes agree."
-  ],
-  "primary_sources_independently_checked": [
-    "https://annals.math.princeton.edu/2021/193-2/p04"
-  ],
-  "runs": [
-    {
-      "evidence": "independent_execution_graphs.json",
-      "sha256": "4c9f57cfb60c2b61261df124d6552028ca16ce4cc45caddaccca964868936350",
-      "normal_result": {
-        "status": "PASS",
-        "all_subsets_checked": 2048,
-        "independent_oracle": "enumeration of unordered 3-element subsets",
-        "large_gap_case": true
-      },
-      "optimized_refused": true
-    }
-  ],
-  "limitations": "Independent LLM mathematical review, not formal proof or human review. Finite diagnostics verify only their enumerated ranges, not asymptotic claims. Deep source theorems were checked at listed statements/proof portions, not fully reproved or mechanically certified."
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
 }

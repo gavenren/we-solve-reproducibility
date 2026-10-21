@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-3097",
+  "canonical_problem_id": "prb_1e7a2dfc84d64f8bb0cfb88954802218",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "98aa472102e80abefb00abe10586e8056ab00349e1a4ff3e536494607569ad63",
+  "report_sha256": "98aa472102e80abefb00abe10586e8056ab00349e1a4ff3e536494607569ad63",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "336c470b93c5cb69da56cb57ca66fef4b9ed81e507bb3faec28a065adf80a038",
+    "contribution.json": "ceafd9f1867d5d8d848568d4921f2c1d9ac24edea3415675bcb6b1d5d057507a",
+    "official_metadata.json": "65a41effb7b6ef5e1de01185870870cfef620d13d88b5419204a2acb37f7150f",
+    "official_metadata_api.json": "abde1ac57940727e063a6cd5f4a0221578335e8e516df417643ff2a52503b499",
+    "official_prompt.txt": "29bdd63369c91514ebedc2737537f6b0607d02f46ee5fe6abbf5c466828244e1",
+    "official_prompt_api.json": "5a1e9e564db3a388c3f9ce9fd6d5057db9d974791895566b3603afbf5d87c375",
+    "prior_attempt_1.html": "78cc863f48717cda334c6774e86c4671a5ca1b52906e5874760a931df9a32129",
+    "prior_attempt_1.txt": "d3aace4250c6bc7df18cd7aa974691d228d5ffc8f04db8eabb4b0c789b8c5714",
+    "prior_attempt_1_api.json": "4aaf33fbbccb1649b0a45861bfeb1dfd8263c58a9e40367beac060a3c44bb5e2",
+    "report.md": "98aa472102e80abefb00abe10586e8056ab00349e1a4ff3e536494607569ad63",
+    "source_notes.md": "c333027bfb1969460b80c2effae98ee72bb9b4c1dc628645f8a90753d0ee1a8d"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:03:13.166127+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Compared full earlier degree/simple/product-barrier manuscript. Projected deformed products and their approach to nine are distinct substantial credited literature scope.",
+    "Checked even n>=4,r>=2 theorem parameters, preserved graph counts, cube/prism ridge double count and Euler relation independently.",
+    "Recomputed f2=((5r-6)/4+r/n)n^r, unshifted ratio(9rn-6n+4r)/(rn+2n+4r), specialization n=2r and epsilon inequality. The report correctly avoids relying on damaged source display constants."
+  ],
+  "sources": [
+    "Opened Ziegler arXivmath/0407042 PDF displaying v1,3Jul2004, Theorem1.1 and Section5 Proposition5.1/Corollary5.2 pp7\u20138, especially explicit C and P counts in the proof. https://arxiv.org/pdf/math/0407042 (turn1510view2,turn1512view4,turn1513view0)."
+  ],
+  "limitations": [
+    "The convex projection realization theorem is an imported primary theorem; no coordinate realization or complete construction reproof was carried out.",
+    "The extracted source f-vector display is internally problematic, so the review follows the explicit facet counts plus ridge/Euler identities as the report does. No unbounded-fatness or current-record claim is certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

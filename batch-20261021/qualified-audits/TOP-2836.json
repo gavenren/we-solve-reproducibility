@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2836",
+  "canonical_problem_id": "prb_aaa74e71280149c0be4993c221c0e048",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:19:41.037444+00:00",
+  "checked_report_sha256": "26a97aa21183cc1ddd272d26e12f424bf541a1b993e8826571be4c011bdc27e8",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "7ac1681169229f0777a6ef177323b502dabdbdb4faaa2850a7058df3f71784f5",
+    "contribution.json": "f55e04c03d926856f7ab0181bc3fcc8062c541db35a2902e1bf7772f4a4249f8",
+    "official_metadata.json": "00dfe411b00c93bb832eb641d041c0f7c1e496d71f19f30b9b3e5fc6c70a1eb8",
+    "official_metadata_api.json": "536df614985ddcd8aeba142f48d7ef37e8613ca03b74a7a90262a1f1eb79866d",
+    "official_prompt.txt": "84f39bd69075c6a51a99247a692433572a1c2f7250f49eb7a39e556b3e1717e4",
+    "official_prompt_api.json": "c35f21a7b3d522910ca6f938b83baa9daee794b873807d309b01ff01899488e2",
+    "report.md": "26a97aa21183cc1ddd272d26e12f424bf541a1b993e8826571be4c011bdc27e8",
+    "source_notes.md": "9c8f890e50cf6da2916ef5a60087f6b1e46265889ffafebd0c1f4bd0b30eab09"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Read complete report and finitely presented integral PD3 prompt/records, no priors. Checked normal infinite cyclic subgroup, torsion-freeness from finite integral cohomological dimension and orientation character retained.",
+    "Checked virtual-surface quotient and geometric cyclic-extension realization retain finite normal quotient absorption and torsion-free preimages. A finite cover with aspherical surface base and oriented circle fiber has all higher homotopy zero; Whitehead then gives contractible universal cover. No arbitrary cyclic subgroup or general PD3 realization inferred."
+  ],
+  "primary_source_checks": [
+    "Bowditch author version revised November1999, Corollary0.5, Theorem15.1, Corollary15.2 and Lemma15.3, primary pp.3,47–48. Exact nonorientable solid-Klein/circular-mirror convention and construction read at lines2374–2433. Sources turn1684view8–9,turn1702view2; evidence _12/_16. Deep virtual-surface recognition imported."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Every finitely presented integral PD₃ group containing a normal Z is the fundamental group of a closed aspherical Seifert 3-manifold, including the source's nonorientable Seifert convention. No realization theorem without the normal-cyclic hypothesis is claimed.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

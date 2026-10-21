@@ -1,0 +1,33 @@
+{
+  "handle": "TOP-3800004",
+  "reviewer": "/root/hundred_topology",
+  "author": "/root/hundred_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T18:58:40.515999+00:00",
+  "checked_report_sha256": "9cf0593a3144c33b61258c59d1b317fda223ef6b0c707823e786796f641f0ad9",
+  "checked_source_notes_sha256": "9222c63d1c54c9c77bc8d7163d54788a1afbb368a18de7337619f92c878b054b",
+  "checked_contribution_sha256": "0fcb8fe0d3e274132ed88b95034eb440fd5e0887369e9ed388b376a74d6886de",
+  "programhashes": {},
+  "program_hashes": {},
+  "actualchecks": [
+    "Read literal equal-vertex/facet and nonempty-proper-face prompt, report/notes; no priors. Verified face-pair description for affine joins and complete polynomial multiplication.",
+    "Checked dimensions3r\u22121, reciprocal facet coefficient sum m_j, total product(2m_j+2)\u22122. Optimized two-factor family for both parities; two triangles yield5-simplex proper total62.",
+    "Checked credited known5D quadratic order is not a four-dimensional construction or exact M5 formula; all-n scope n\u22656 is explicit.",
+    "Confirmed exact prompt bytes and decoded metadata content against retained fresh API wrappers and current author-record hashes; source-only, zero program executions."
+  ],
+  "primary_sources_actually_read": [
+    "Erickson primary intricate.html, freshly read full note turn1450view2: Eppstein polygon joins, all-faces total and credited UBT order."
+  ],
+  "checked_files_sha256": {
+    "official_metadata_api.json": "64ae60faf5d5923e84abcfc83489ddad24f206cdbf29c18da514b6b25f9f308a",
+    "official_metadata.json": "b2ccca46db164947fd8b7ccfffd187819f85b6d6a2901ffd63b3843020e64182",
+    "report.md": "9cf0593a3144c33b61258c59d1b317fda223ef6b0c707823e786796f641f0ad9",
+    "source_notes.md": "9222c63d1c54c9c77bc8d7163d54788a1afbb368a18de7337619f92c878b054b",
+    "author_record.json": "f17663118f03f516692dbed7478ccd0818daed7964d91a1bf0ad46d9c2e740bb",
+    "official_prompt_api.json": "6857bb3591d8827c12406ba6ca87daae534c066b85fbaef69744d3f659bb664c",
+    "contribution.json": "0fcb8fe0d3e274132ed88b95034eb440fd5e0887369e9ed388b376a74d6886de",
+    "official_prompt.txt": "ad95b1fe432050263ead9853ed9cdf8473a62c8108c29f8613032219178dc15b"
+  },
+  "limitations": "Independent LLM review of prose, proof and inspected primary-source passages; not formal verification or human/editorial acceptance. No program exists or was executed. UBT order is credited via primary problem-author note rather than an independent audit of original UBT proof; own join proof exact."
+}

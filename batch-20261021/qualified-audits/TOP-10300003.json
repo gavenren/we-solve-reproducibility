@@ -1,0 +1,55 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-10300003",
+  "canonical_problem_id": "prb_6c1b5a8325ce419ea7c6607f4bfa6aa5",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:23:15.192853+00:00",
+  "checked_report_sha256": "03cd2ed87b1a6c41d2e8538f1f7552692235545bf19463ebbbc1a78be713cf98",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "d53be5a3c1c960508c5cbe2ab61ca44d61472517c087da50f5d27b15e49e49ed",
+    "contribution.json": "f9c2b131a0d838eca81d13d2a7830746d22fb2222807606fe616dbf7f9d03b50",
+    "official_metadata.json": "de840094932667310c9caf5ac708e4e14ca84248a28a90e3293eab320e1ed872",
+    "official_metadata_api.json": "e035a4ad24af0898048a858b48ebce8435fbe76c7dcd1ad8e293619c691cb363",
+    "official_prompt.txt": "930d76c71b002011f24708b36849017bb4785ef3b4492a7845c9e2ca3fb7feda",
+    "official_prompt_api.json": "5b62f0f6c9b16eba0e7af96728af5f676de22bdbeb3a1f4a7ba05d9a5d62437b",
+    "report.md": "03cd2ed87b1a6c41d2e8538f1f7552692235545bf19463ebbbc1a78be713cf98",
+    "source_notes.md": "7f7b9ff699b30fe5c62084121110745e19d79dfa37a43b63b944160aebeb681d"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "All exact prompt/report/source records read; no prior contributions listed. Complete singleton topological leaf-class scope is C2 foliations on closed connected orientable 3-manifolds. Coarse classification is not inferred from this topological theorem.",
+    "Q-linear independence of covector coordinates makes the integer deck stabilizer of each affine plane zero. Thus leaves have intrinsic topology R2, even though their images may be dense. A primitive v with a.v nonzero gives one embedded closed transversal, and t=(a.x)/(a.v) shows it meets every leaf.",
+    "Any lifted periodic smooth ambient metric admits uniform positive Euclidean quadratic-form bounds by compactness. Restricting to each affine plane and comparing all path lengths, with straight segments for the upper bound, gives uniform bilipschitz constants sqrt(m),sqrt(M). This uses the intrinsic leaf metric and does not confuse ambient/subspace distances or infer metric control from a foliation homeomorphism."
+  ],
+  "primary_source_checks": [
+    "Chatelet–Rosenberg–Weil, Publ. Math. IHES 43 (1974), 261–272, actual primary full paper https://www.numdam.org/item/10.1007/BF02684372.pdf, introduction explicitly records Rosenberg all-plane-foliation theorem separately from its R2-action classification. Exact introductory statement checked (qualified_topology_primary_retrieval_18.json, turn1710view1). Original Rosenberg Topology 7 (1968), 131–138 full text was inaccessible; the report explicitly discloses that and uses the available primary authors’ statement rather than claiming a fresh original proof read."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "For C² foliations on closed connected orientable 3-manifolds, the singleton topological leaf class {R²} forces M≅T³; T³ realizes it by a smooth taut linear foliation. Every leaf of that example is uniformly bilipschitz to Euclidean R² for every ambient smooth metric. No classification from coarse type alone is claimed.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

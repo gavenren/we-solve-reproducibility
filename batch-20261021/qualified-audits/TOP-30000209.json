@@ -1,0 +1,57 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-30000209",
+  "canonical_problem_id": "prb_df29b8e6466d438e935e63671b79cbdb",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:24:02.324727+00:00",
+  "checked_report_sha256": "57c215699145fa21e9eeaab2e70317c845ac3814dcc6ec6b213fc332f2ff3b43",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "69e125ae42bf6d4124f555870ac6fcb201ce7a74b55c37ac9224dc6b61ccaf1f",
+    "contribution.json": "e8ee1d9a8a82e3addfbc2426b19d7f2cbf156702f9168f30216770783d49340b",
+    "official_metadata.json": "2ab28e37b7df601d434c45852ce7192fc3de9458499367a00d3a51c81d118ff8",
+    "official_metadata_api.json": "794a08719e1064b57e2a0b5548787963c3c0be953f28d5010d543626ab383221",
+    "official_prompt.txt": "2dade010b6341310c4af212d12c7682a9daecb113db358bd5527b289229c1f09",
+    "official_prompt_api.json": "3e2dd43dfec5cd4a115e7c37631122460b3c9b141ec40281a05a57c6675e0294",
+    "prior_1_api.json": "0d3ed78b0e2f889ab5cf6dca7767203505f92a4cadb6d4394b387732382ff334",
+    "report.md": "57c215699145fa21e9eeaab2e70317c845ac3814dcc6ec6b213fc332f2ff3b43",
+    "source_notes.md": "fdfc833403b1b45e77d69f5db4aca1b01a4fb41b2a2df33e6d72703021c99151"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Full exact prompt, wrappers, source notes, report, author record and full prior contribution read. Earlier free-abelian Fourier and elementary examples do not contain the corrected noncommutative class-D theorem/residual closure and exact reduced-homology deduction. No unrestricted torsion-free or complex-coefficient theorem is claimed.",
+    "Compared Definition 1.10 verbatim in mathematical content: smallest nonempty class, subgroup closure, directed direct/inverse limits, and torsion-free extension over elementary amenable quotient with every finite-subgroup preimage in D. The corrected version and its errata are used rather than earlier overbroad closure claims.",
+    "For rectangular A:u->v, the square off-diagonal extension kills the additional v summand, so its kernel dimension is dim ker A+v. Cellular boundary matrices are integral and hence rational. Hilbert rank-nullity uses closure of image, giving b_i=k_i+k_(i+1)-c_(i+1), an integer and nonnegative; no asphericity assumption on X is needed.",
+    "The trivial group lies in every nonempty subgroup-closed class. A torsion-free elementary amenable Q has no nontrivial finite subgroup; the identity quotient puts Q in D. Separating such quotients embeds a residually such G in their product. Finite products, inverse limit of finite-coordinate products, and subgroup closure justify the entire residual step. Proposition 1.13 supplies free/direct products and free-group inputs."
+  ],
+  "primary_source_checks": [
+    "Schick, Integrality of L2-Betti numbers, arXiv:math/0001101v4, 10 August 2011, corrected primary https://arxiv.org/pdf/math/0001101, Definition 1.10, Theorem 1.11, Proposition 1.13 and Example 1.14 read; exact text retained in qualified_topology_primary_retrieval_22.json (turn1727view2). Matrix theorem over QG is imported and credited; it is sufficient for integral cellular boundaries without upgrading coefficients to CG."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "For all finite CW complexes whose torsion-free fundamental groups lie in Schick’s corrected class D, proves the exact passage from integer rational-matrix kernel dimensions to integer reduced cellular L2-Betti numbers; includes residually torsion-free elementary amenable groups and noncommutative free-product/direct-product constructions.",
+    "official_prior_count": 1,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

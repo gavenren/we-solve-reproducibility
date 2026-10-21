@@ -1,0 +1,67 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3160",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "d361ebf4ef5aa541fe7f8eaab1e6b8e2ecee2cec5e9d5790c3aa5f08c9f9d1f6",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "d361ebf4ef5aa541fe7f8eaab1e6b8e2ecee2cec5e9d5790c3aa5f08c9f9d1f6",
+    "source_notes.md": "45ac29f685baba9011532fe5055620a8b4cf56769ec807ed4ae2ba67e0c9c93c",
+    "author_record.json": "e3dc4f7a6940858cf7bb02f5c8e717d434fb928855f4c15f86663d0ef7c31f8c",
+    "contribution.json": "3f83333694c14b9ecc13875a858a45fef54240263ff8cf2e945ccda8393d1509",
+    "official_prompt.txt": "c87117fba59451641b35a912899a2806baca71893daf22c5169fdec8d8ed4770",
+    "official_prompt_api.json": "9a10d4776f8e421b1464f254df00f667f81d5ca444e9e85268026e8ea7573458",
+    "official_metadata.json": "4c7a56bf52948fb4d5e819d92d9686e5fc2ab5ba573e49bbab415dddeae8130c",
+    "official_metadata_api.json": "f66c91dd4c971b48a0fa4f0c5ccab4ce994e7d965a823d280c294a3d1f30b22b",
+    "prior_attempts/attempt-1.txt": "105994c34a5865d96c797a4f829f5b314737bc61497564481b4a8a0cb5aad3db",
+    "prior_attempts/attempt-1_api.json": "bdf53134a6b4b2407ba92bd4fd805e86e8304e71e43c0a8df4a4cd45db84465a",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "c81ea38e382e10825f3162e3604ceabe85185cfd48c120083664cf3a18d59658"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked Mader local splitting hypotheses degree>=4 and no incident bridge; the report proves bridge exclusion anew after every parity/connectivity-preserving operation.",
+    "Checked degree-two suppression including equal endpoints, loop removal by degree2, discarding terminal-free components, finite termination and final partition tree-packing inequality.",
+    "Checked lifting tracks edge-disjoint original trails rather than claiming mere subdivisions; connected unions may contain cycles/shared vertices and are reduced to Steiner trees. This handles arbitrary even branching nonterminals beyond earlier degree2 reductions."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://www.keisu.t.u-tokyo.ac.jp/data/2006/METR06-62.pdf",
+      "version": "November2006 METR2006–62 primary research exposition",
+      "locators": "printed pages2–3, Mader local splitting statement",
+      "retrieval_refs": [
+        "turn1807view2",
+        "turn1810view3"
+      ],
+      "access": "Exact later primary restatement read; original1978 full proof not retrieved."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1307.7621",
+      "version": "masthead v2,7 August2015",
+      "locators": "Theorem1.1 and multigraph conventions; inner-Eulerian case attribution",
+      "retrieval_refs": [
+        "turn1807view3"
+      ],
+      "access": "Precise partition theorem and known parity-case credit checked."
+    }
+  ],
+  "distinct_significant_scope": "Complete exact2k inner-Eulerian reduction with repeated bridge justification and resource-safe lifting, beyond prior simple special cases.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:28:15.504001+00:00"
+}

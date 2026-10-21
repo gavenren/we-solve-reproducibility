@@ -1,0 +1,58 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-1403",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "2489fac11240e09b0c3fe96aa7f348fe6f0401f84204edc2472747d138b75721",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "2489fac11240e09b0c3fe96aa7f348fe6f0401f84204edc2472747d138b75721",
+    "source_notes.md": "709c35ff3159d19541087e47fdca385a872a9a90cc64028ee32f01c19930358f",
+    "author_record.json": "890b2ada6aba6f79b87af00655632e68d1f3076ab5b026f6e8783d6f8179e3ce",
+    "contribution.json": "f3589363c57cd228e564d663d6684670ce389b3978ea21187131b03a50aa7879",
+    "official_prompt.txt": "b486ee778149fb11f4773fa0c220d4e5344fcd3564e74d0359dd6b4b077042f8",
+    "official_prompt_api.json": "3d1a860396aa3eb1dc485b294fb580aac693e493b3750abf8af23164eab57321",
+    "official_metadata.json": "d6a977e9df34be4da514c89cef971bef9e07c425ab7a508fb27f63a74c58db58",
+    "official_metadata_api.json": "1a341a53d1d2f295ec111e85300ef9bbeee804800c8f406e0cb3244ba0d8da84",
+    "prior_attempts/attempt-1.txt": "f8a2ccb657c8448fc6986bab85c4346b61bef0057c7ab115ba0dfe3c58a82b12",
+    "prior_attempts/attempt-1_api.json": "0951d51218fe92a167e6f5e5954943e6414f2119b59862dbd849e8a0e5758b2c",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "b913572c1b002a120134b70694ee5d4804a7f9894bd25ea6eb0bc5a497b98259"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked exact-one plane thrackle convention, n>3 density theorem, and distinct odd-crossing quasi-thrackle sharp bound. Omitted source structural proofs are not presented as reproduced.",
+    "Checked every subgraph inherits the drawing; n>=4 average degree<=2.7968<3 and simple n<=3 base imply2-degeneracy and arbitrary3-list greedy coloring.",
+    "Checked K2,t t>=5 violates density despite2-degeneracy; quasi-thrackle examples show parity/deletion-order information alone does not prove m<=n. Earlier crossing counts/pseudoforests do not supply the global theorem."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1708.08037",
+      "version": "masthead v1,27 August2017",
+      "locators": "Theorems1–2, Lemma2, definitions and proof framework",
+      "retrieval_refs": [
+        "turn1775view4",
+        "turn1778view6"
+      ],
+      "access": "Primary precise constants/scopes checked; short source explicitly omits auxiliary arguments."
+    }
+  ],
+  "distinct_significant_scope": "Verified global density input and complete all-subgraph degeneracy/list-coloring consequence, beyond previous parity/pseudoforest scope.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:26:21.281604+00:00"
+}

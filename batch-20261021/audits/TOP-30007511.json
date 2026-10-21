@@ -1,0 +1,57 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-30007511",
+  "canonical_problem_id": "prb_34545f60692a47b3baa3420b71c98684",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:24:49.718773+00:00",
+  "checked_report_sha256": "f6774c977b6c116daacbb3489b48d9040ce4d8150248f4d25e1ebd914c51fb88",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "bbea437f929ca8a6714130e3bd0124ed54e4b7359b336706c7f871767ce5dd48",
+    "contribution.json": "4c19e09c0d9ab594ab11cfb8f1af25a29d426db0c1af18008837fc43d49a2e7f",
+    "official_metadata.json": "4e49624ca1ca0ac371b68cc29b716b6643c3ca377088dca87b431805536f54ad",
+    "official_metadata_api.json": "80396868703216da8c3e38fe0960da9bdd664d4dc21017d5808190ea65d82a54",
+    "official_prompt.txt": "6b384dadea8ef372b775551bd198e0d78f0356770909bfd8e1c5002e67fed9d0",
+    "official_prompt_api.json": "b087ca3b84eb09c22653ad74695c44a4e4f3ce4458e8ffe36af452d637dd7220",
+    "prior_1_api.json": "c266620768dbeae9c2b3cb681a57fadd358eba8035625d236a4dc9617d1e47aa",
+    "report.md": "f6774c977b6c116daacbb3489b48d9040ce4d8150248f4d25e1ebd914c51fb88",
+    "source_notes.md": "6d32fcd667061e4578589c55c8080c8936bc756ce93d1fe437e4a7f9daec0b62"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Full literal D2 prompt, metadata/API/source/author records, report and full earlier contribution read. The earlier announced infinite-group counterexample is not verified or used. This contribution supplies actual finite-group unstabilized/stabilized ranges and an independently checked algebraic splitting.",
+    "For finite G, def(G) convention makes 1-def(G) the minimum Euler characteristic of a finite presentation 2-complex. Theorem A(i) requires strict chi>1-def(G) for an unstabilized finite simple-homotopy 2-model; at equality A(ii) only gives X wedge S2. The report retains that strict/equality boundary.",
+    "In the dimension<=3 cellular model, H3 of the cover vanishes, so partial3 is injective with image B isomorphic to free C3. The B-valued cochain partial3 is a top cocycle; H3(X;B)=0 supplies phi:C2->B restricting identity on B. Thus C2=B direct-sum P with P stably free. Algebraic splitting is not asserted to realize a finite 2-complex or geometrically cancel S2.",
+    "Geometric cancellation in the source needs a spare sphere at the minimum; the report does not erase it. Theorem B applies to finite subgroups of SO(3), including cyclic, rotational dihedral, A4,S4,A5, with unstabilized D2 property. Binary SU(2) polyhedral groups and arbitrary finite/infinite groups are not silently included."
+  ],
+  "primary_source_checks": [
+    "Hambleton, Two remarks on Wall’s D2 problem, arXiv:1708.08532v1, 28 August 2017 (PDF internal date 26 August), primary https://arxiv.org/pdf/1708.08532. Theorems A–B and Section 2 cancellation proof read, including strict and equality cases and SO(3) scope (qualified_topology_primary_retrieval_24.json, turn1732view4–5). The published identity is separately cited; exact theorem locators are those of the read v1. Geometric cancellation theorem remains credited."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "For finite fundamental group G, χ(X)>1−def(G) gives a finite 2-complex simple-homotopy model; equality gives such a model after one S² stabilization. Every finite subgroup of SO(3) has the unstabilized D₂ property. No result for arbitrary groups or general cancellation of S² is claimed.",
+    "official_prior_count": 1,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

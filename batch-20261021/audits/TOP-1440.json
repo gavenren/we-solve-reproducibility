@@ -1,0 +1,61 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-1440",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "fd42018abd39c3f55204c422b948a76ff0344bf0294c0e2910de5c0b18c386c6",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "fd42018abd39c3f55204c422b948a76ff0344bf0294c0e2910de5c0b18c386c6",
+    "source_notes.md": "d0a4cc3382dbc217db4e736773f2674ad39dab9a933fdc0434fb1c5ad23faaed",
+    "author_record.json": "5ae62e7578c9805a150f5fa0f6ec32cc57e399c27bf1b0d9f6cd0704178b2108",
+    "contribution.json": "e021d416eb37cd117b8914e92d1d06d8b6fd66eecf6f32229f1f31588c3a56c4",
+    "official_prompt.txt": "036dfaf2b2d57b69bf5ab5575c490398a37bd2152acbb88cfb64ae26a0060d7a",
+    "official_prompt_api.json": "b3a79c4576dba5813064ccd16ecf5e19b03e110b75b8ef46337ca14ded402c8a",
+    "official_metadata.json": "b30e99386ed5085964f97c9062f0400dffae3112a0c66d49d5aa5b7a753d1398",
+    "official_metadata_api.json": "4f94ccd66ff63f1c4ed55a54a275c34329eef914246c480de00aaddcfd892bc2",
+    "prior_attempts/attempt-1.txt": "0d876e096d93a8f43af4c89415a0e01d1dbffb01d3ae639b879885047dded17d",
+    "prior_attempts/attempt-1_api.json": "10d07b3e8412b01eb77b318723652d90c5c6094e3f9c93ebcd29670ae71f292e",
+    "prior_attempts/attempt-2.txt": "1b40d3fc2069d5a213ee21def5f91b8f395c6ddb013e98bf1769dacf492466ac",
+    "prior_attempts/attempt-2_api.json": "1403637102ac458258b78eeca99a187035536b40316cca7a2456b7c98a6e0b06",
+    "prior_attempts/attempt-3.txt": "25b154b258f79b2438df688f95735d1becfba31a501da5148d0e39da1d8e0fc7",
+    "prior_attempts/attempt-3_api.json": "4b40a1b94ba4f05782326c79ba7b7a584379c0c3673d554efa2c3c6dc61d8653",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "91814d8a1eddf46cf4169b9cc97c51524610ee1ce119504f91d3ae2dc3d39a1b"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked the q>=3 truncated-plane cover lemma, degree-overcount argument, replacement vi->si, exactly two remaining candidate covers, and intersecting/partite preservation under private-vertex padding. Disjoint copies give arbitrary matching number.",
+    "Read all three complete earlier bodies: two unverified OpenAI counterexample claim summaries and one Astra elementary truncated-plane exploration. Root corrected the inaccurate source-note description after this reviewer flagged it; reread the amended notes and author record and rechecked all current hashes. Report/proof unchanged.",
+    "Primary shifted q+2 construction is distinct from the actual earlier ordinary q+1 construction; no upper-bound theorem or unverified counterexample claim is imported."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1605.06361",
+      "version": "masthead v2,12 July2018; internal rendered date2021 differs",
+      "locators": "Theorem1.2,Lemma1.3,Corollary1.4 and Section2",
+      "retrieval_refs": [
+        "turn1795view0"
+      ],
+      "access": "Author-hosted URL timeout; primary arXiv v2 retrieved and complete relevant proof read."
+    }
+  ],
+  "distinct_significant_scope": "Complete shifted-uniformity extremal family beyond ordinary truncated-plane examples; prior summaries accurately distinguished after correction.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:28:28.265044+00:00"
+}

@@ -1,0 +1,95 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-30006982",
+  "canonical_problem_id": "prb_c94a941e600543f89179b75ca3b9a4d0",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:42:03.275603+00:00",
+  "checked_report_sha256": "c16bcaa81a120b5fb84e8522f782b4fa964de476ecf43b5fb697b7da95f2900e",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "2ee9a151ee0043fad3714df04491854485bcc97c86971728fc93fc22cd936a6b",
+    "contribution.json": "feb1da214d892bace6fa652b41ea551420260d977305a7de28a0ea5004b48544",
+    "official_metadata.json": "62b9a72876b8ecb1e08f763617a6c410d3ae74231aeef254d3f957dfeda01730",
+    "official_metadata_api.json": "1c1be66ff86c07133d7471962d961c9274ab9188f8e0128f70ec1d56ef360655",
+    "official_prompt.txt": "24cbf0fd274430911027e7a2be11f035f09f4b2f3feef19186fa2c84d5662fc7",
+    "official_prompt_api.json": "b4703ff6e32bfc441f99fa9cd6ba7956f46955dfbfa372c10a768ddccc24503f",
+    "prior_attempt_01_api.json": "6feee28bb0b0cf4b3176c55ab4eec3722e5acdcd4afe0ab10b863c9d5c0ea156",
+    "prior_attempt_01_text.txt": "ef950b86b02e0cdce9019840ffe59dc531d5262f6fede7446f7a9e884da42802",
+    "prior_attempts.json": "3709a8f073b7390d1d472de7b1607d3b521037837c961fe6231a8d30af38bafc",
+    "report.md": "c16bcaa81a120b5fb84e8522f782b4fa964de476ecf43b5fb697b7da95f2900e",
+    "retrieval.json": "681781622529d27367f6440ba17c60256612b57dfa07f3bb1d220422783a38f6",
+    "source_notes.md": "33fbbccd11d379f15dc9ed40500c0322823368160dc74871dde72d0d1e46f6b7"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "e8b4c6e6ffe62b402391cce4ac53cf7808b4161c06682d390dbcd7983765bf8b"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json",
+    "accepted_author_revision": {
+      "reason": "Substantive numerical Rivoal theorem reconstruction resolves significance hold after full exact-byte reread",
+      "author_agent": "/root/hundred_numbers",
+      "author_freeze_confirmation": "Direct author message: reviewed c16bcaa8... scientific bytes final, no further edits; global manifest refresh awaits unrelated TOP-9400064",
+      "accepted_utc": "2026-10-21T19:41:42.091784+00:00",
+      "preserved_initial_evidence": "retired_evidence/significance_replacements_01/TOP-30006982_before_strengthening",
+      "changed_files": {
+        "author_record.json": {
+          "before": "afe915bf93d31630f583de372a1e289bd7c8e6bd4bdbf09ddd7d25f421cc95fa",
+          "after": "2ee9a151ee0043fad3714df04491854485bcc97c86971728fc93fc22cd936a6b"
+        },
+        "contribution.json": {
+          "before": "06123b335a3333f3306f40baac35a2dfe0a44f6b275eaa5f6ccb8748918830b4",
+          "after": "feb1da214d892bace6fa652b41ea551420260d977305a7de28a0ea5004b48544"
+        },
+        "report.md": {
+          "before": "fd199213060075fa134fc6835f61b0b7e96626260efc0423cfd8dc93978b0161",
+          "after": "c16bcaa81a120b5fb84e8522f782b4fa964de476ecf43b5fb697b7da95f2900e"
+        },
+        "source_notes.md": {
+          "before": "3ed1e067e9897024f72d8a9f8e906b57cb611f3f91f45359730662ccaeec27f4",
+          "after": "33fbbccd11d379f15dc9ed40500c0322823368160dc74871dde72d0d1e46f6b7"
+        }
+      },
+      "revision_author_record_sha256": "2ee9a151ee0043fad3714df04491854485bcc97c86971728fc93fc22cd936a6b"
+    }
+  },
+  "actual_checks": [
+    "Full exact strengthened report, source notes, contribution and author record reread after author final-byte confirmation; unchanged exact literal prompt, metadata/API wrappers, retrieval and entire prior Brown-spanning scientific body remain checked and hashed. The original report and original REVISE audit are preserved byte-for-byte in retired evidence/audit_history. The revised Literature report now supplies a substantive distinct numerical Rivoal lower-dimension mechanism, resolving the original significance hold.",
+    "Rivoal Theorem 1 has exact quantifiers: every epsilon>0, all N>N0(epsilon), dim_Q span(1,zeta(3),...,zeta(2N+1)) >=(1-epsilon)log N/(1+log 2). The odd depth-one restriction is meaningful; unrestricted cumulative weights already have a linear bound from even zeta values and pi transcendence. No best-current-constant claim is made.",
+    "For odd a>=3, integer 1<=r<a/2 and even m>0, the supplied rational function is proper and decays faster than t^-1. Its initial rm terms vanish and later terms are positive, ensuring convergent nonzero S_m. Reflection t -> -t-m-2 swaps numerator products and gives sign (-1)^(a(m+1)); reflected coefficients satisfy c_(i,m-j)=(-1)^(i+1)c_(i,j), so even zeta coefficients vanish. The total simple-pole coefficient is zero from decay at infinity. Grouping those terms before the limit cancels their common harmonic divergence, leaving exactly the finite rational -sum c_(i,j) H_j^(i), never treating zeta(1) as a number.",
+    "Primary Lemmas 2–5 supply positive-integral decay, actual exponential limit, coefficient bound B=2^(a-2r)(2r+1)^(2r+1) and q_m^(a-i)P_i integrality. Multiplication by q_(2n)^a gives integer coefficients, alpha=(e^a s)^2 and beta=(e^a B)^2. Applying the credited Nesterenko criterion yields 1-log alpha/log beta>=f/g with exactly the displayed f,g; the even-subsequence factors two cancel. These deep quantitative inputs are credited, not independently reproved.",
+    "Taylor expansion of x log x at A=r(a+1), d=a-2r has error O(d^2/A). For r=floor(a/log^2 a), it yields f=a log r+O(a+r log r), g=(1+log 2)a+O(r log r), r log r=o(a), and log r=log a-2log log a+o(1). Hence f/g~log a/(1+log 2); because log(e^a s)<=g-f, its growth also verifies alpha<1 before invoking the criterion. a=2N+1 and an arbitrarily small epsilon adjustment recover the exact eventual theorem.",
+    "The quotient inequality dim((E+W_(M,N))/E)>=D_N-(M+1)-dim E follows from V_N=V_M+W and dim(E intersect W)<=dim E, with no cross-weight direct sum assumption. Generator selection gives independent classes modulo any fixed finite-dimensional E. For M=floor(kappa log N), 0<kappa<1/(1+log 2), the explicit epsilon condition makes the stated logarithmic coefficient positive and proves the growing-cutoff consequence. Counting at least D_N-1 irrational generators is justified by retaining 1 in V_N; no prescribed odd value is identified.",
+    "Secondary monomial rank formula follows by weight-preserving absolutely convergent stuffle and division by zeta(2)^(3m), then the minimal polynomial of u=zeta(3)^2/zeta(2)^3. Brown gives only numerical spanning, with index reversal tracked; weight-six words 222 and 33 are reversal invariant. zeta(222)=pi^6/7!=3 zeta(6)/16 and zeta(33)=(zeta(3)^2-zeta(6))/2 give Z6=S1, whose dimension two remains equivalent to u irrational. The cumulative odd theorem does not prove fixed-weight Zagier dimensions or period-map injectivity."
+  ],
+  "primary_source_checks": [
+    "Rivoal, arXiv:math/0008051v1 (7 August 2000), actual four-page primary note read throughout: exact Theorem 1, rational-function parity/partial fractions, Lemmas 1–5, stated Nesterenko criterion and Section 3 f/g parameter optimization. Publisher record confirms C. R. Acad. Sci. Paris Ser. I Math. 331(4)(2000),267–270, DOI 10.1016/S0764-4442(00)01624-4. Retrievals 27–29. Primary proof inputs are credited, with only the supplied reconstruction/applications independently checked.",
+    "Brown, arXiv:1102.1312v1 (7 February 2011), actual primary PDF Theorem 1.1 and period-map numerical spanning consequence checked, including ascending index convention. Actual Annals publisher record confirms 175(2012),949–976, DOI 10.4007/annals.2012.175.2.10. Retrievals 25,29. Motivic independence is not transferred to real periods."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "A proof-level reconstruction of Rivoal’s unconditional logarithmic numerical dimension bound for odd depth-one zeta values, including reflection cancellation, denominator/decay balancing and parameter optimization; explicit independent-class lower bounds after finite or growing odd-weight cutoffs and modulo arbitrary fixed finite-dimensional spaces. The fixed-weight numerical/motivic boundary and monomial diagnostic are retained; Zagier’s equality is not proved.",
+    "listed_prior_count": 1,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

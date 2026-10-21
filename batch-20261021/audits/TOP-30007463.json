@@ -1,0 +1,46 @@
+{
+  "handle": "TOP-30007463",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "3400c4ecff623a4cf99cde9e5e636d5b32f118d3341242ac246e4852a937c4e6",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "252276c38437d04c997938b459f5e1d2c0ca8cfea9d234db1d3edc05e6590ec2",
+    "contribution.json": "0067b1c1d022255c9f6612e1c4b15c44d771b0400180d06735a69226071e3091",
+    "official_metadata.json": "8e239124823ad4acf3d91588da3e13e53b104dbdd95fba8cfca21c06a1b589c4",
+    "official_metadata_api.json": "e4e54f2805fb5beb9fd71e184a174e37556e5afee920dbd903abeaebde2b72f6",
+    "official_problem.json": "8e239124823ad4acf3d91588da3e13e53b104dbdd95fba8cfca21c06a1b589c4",
+    "official_problem_api.json": "e4e54f2805fb5beb9fd71e184a174e37556e5afee920dbd903abeaebde2b72f6",
+    "official_prompt.txt": "4965a4bb575816aee949359ddd9110d636abf3bb3573197cf6349ecff0d06078",
+    "official_prompt_api.json": "38a073eae11ff4254bbd98873be51f9d6d649a9712e000cabe8ea4168d3908e7",
+    "prior_attempts/TOP-30007463-A1.tex": "46d14c2785111a3a217f51be5da114b784e08cb9c9914b6547878ad359790ed8",
+    "prior_attempts/TOP-30007463-A1_api.json": "722d29c69de12d2b179dcb6250dc9aa34a278da896207569cb6dba4de9eafe21",
+    "prior_attempts/TOP-30007463-A1_manuscript_api.json": "2cc823edb6f6f898926a3ae2a418b12e64ed3b01dd1e1dd2bb2a51483977d415",
+    "report.md": "3400c4ecff623a4cf99cde9e5e636d5b32f118d3341242ac246e4852a937c4e6",
+    "source_notes.md": "5fccab854fb818e63d520bae4de6a159694045acd0deae4b3b450dac0220c6c9",
+    "verification.json": "a20d9f250815d26cc990ceea919ea32afb250096d96548730061715bd439f565"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:19:12.076205+00:00",
+  "actual_checks": [
+    "Read exact official prompt, metadata, wrappers and full A1 claim summary. Verified Håstad Theorem8.2 in its original OPT/C convention, giving retained ratio strictly above16/17. The deep PCP theorem is credited and not independently reproved.",
+    "Expanded tr((BB^T)^2): fully distinct row/column indices have zero expectation; coincident-index terms number at most2N^3 and use repeated-variable powers correctly. Conditional expectation fixing remains polynomial in N and rational input length. Schatten-fourth bound gives the stated loose spectral constant.",
+    "Checked arbitrary fractional cluster cuts, both rectangular discrepancy terms, error E<=4mN^(7/4), S=N^2/w*, homogeneous-cut lower bound, conditional rounding and OPT>=w*. N>=(4m/eta)^4 guarantees E<=eta S OPT. The loss alpha-2eta leaves a fixed gap above16/17 with polynomial blowup independent of minimum positive weight. Loops/zero-optimum cases are separated.",
+    "The simple unweighted graph construction and deterministic reduction are supplied; no stronger2026 optimal-threshold theorem is certified and no program or formal proof is run."
+  ],
+  "primary_sources": [
+    "Håstad, Some Optimal Inapproximability Results,JACM48(2001),798-859, primary PDF https://www.cs.umd.edu/~gasarch/BLOGPAPERS/max3satl.pdf, approximation convention introduction and Theorem8.2 PDFp54; freshly read. Retained coordination/qualified_algorithms_primary_retrieval_02.json."
+  ],
+  "prior_work_distinction": "Beyond A1 unverified full-threshold summary, supplies a published baseline plus a complete deterministic weight-removal construction with rational-bit and approximation accounting; substantial problem-specific literature reconstruction, without settling the missing ratio interval.",
+  "scope_assessment": "Every fixed approximation ratio α>16/17 is NP-hard for Max-Cut on simple unweighted graphs, by the credited Håstad theorem and an explicit deterministic approximation-preserving conversion from nonnegative rational edge weights. The proof supplies the weight-removal construction; it does not certify the stronger 2026 manuscript claim or settle α in (αGW,16/17].",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

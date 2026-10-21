@@ -1,0 +1,66 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-30006962",
+  "canonical_problem_id": "prb_1ebb5856b05f4192bcfd8cb4ac7ed78b",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:37:14.541158+00:00",
+  "checked_report_sha256": "d1eddec3734f943de8fe9038440c4cc7983b2976e0a01e8e5a09270895e14d32",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "901379100579d37350f04089156d68aced48c8b83dfe4d10875f8faa8bc2929b",
+    "contribution.json": "a2c547f891da56e08568995884956811ab58b221c9efb371caf1720c9ac22a0e",
+    "official_metadata.json": "0b43f4f814d67f6c8d4a17e48bdddad41ee20f6e19458e54180e093b328c3882",
+    "official_metadata_api.json": "a2f5ac9107345de918c4cbefce10e85e713e2ca15d2f448c958ca06f992a3700",
+    "official_prompt.txt": "c6e17eacf0d0150f4a4a4771c7d9fd66e4f1e574a32f44861f36679cb0250874",
+    "official_prompt_api.json": "a9f4550ed1c2fc625acff2cc0895baa4efdb6248b14b22f376c221b0c58af33d",
+    "prior_attempt_01_api.json": "27fa51ef1b4cfda56899837b72108aec37b74c24fab3cb3cc20d04e15d0d9cbf",
+    "prior_attempt_01_text.txt": "ec3d5b6c2792499dbdaca0f0a04d1525e563d356e84e896e746bfc8b09fa3533",
+    "prior_attempts.json": "e1ee864fa9ec65fcd362eccefbd0c1e954731a8cbb58634fcaf93a6275b5edab",
+    "report.md": "d1eddec3734f943de8fe9038440c4cc7983b2976e0a01e8e5a09270895e14d32",
+    "retrieval.json": "96fcdfd1ab66e163d4dde0f12f08c1f745368d524c4e79cab0e6102279e7706c",
+    "source_notes.md": "3ce3173f6b2094afeab981ab9354c550b7543ca2ea8908b35ebd45f6f75e35de"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8abd348b18f67b61cb97e7fa72eeb990a89587d29cbab694915ecac22cb2ece3"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact report, literal prompt, provenance/source records and full prior product-Kummer/section-propagation manuscript read. The regime all geometric Picard ranks >=5 plus explicit quartic certificate is distinct from the earlier elementary positive-section case, though the broad elliptic density theorem is correctly already credited there.",
+    "In characteristic zero the geometric Neron–Severi lattice has signature (1,rho-1); Meyer indefinite-rank-at-least-five theorem gives a nonzero rational isotropic vector and clearing denominators an integral square-zero class. Schutt–Shioda Proposition 12.8 supplies the reflection/linear-system passage to a genus-one fibration, not necessarily with a section. Its characteristic 2/3 quasi-elliptic disclaimer does not apply here.",
+    "A single fixed fibration has finitely many algebraic coefficients and descends to one finite number-field extension; Bogomolov–Tschinkel Theorem 1.1 then supplies potential density over a further single finite extension. No positive Mordell–Weil rank section, arbitrary infinite field compositum or uniform degree bound is substituted.",
+    "For a smooth quartic, adjunction gives line self-intersection -2, hyperplane square 4 and hyperplane-line degree 1; four disjoint lines give determinant (-2)^4(4+2)=96 and five independent geometric divisor classes. The Fermat quartic is smooth in characteristic zero, and its four lines x0=a_i x1,x2=a_i x3, a_i^4=-1, lie on it and are pairwise skew by direct coordinate comparison. Lines need not be rational over K.",
+    "Rank-four even form 2(7t^2-x^2-y^2-z^2) is anisotropic: t=0 forces zero, even t gives all-even coordinates modulo 4 and descent, and odd t gives impossible three-square residue 7 modulo 8. This only demonstrates failure of Meyer in rank four; neither lattice realization on a K3 nor a counterexample to potential density is asserted."
+  ],
+  "primary_source_checks": [
+    "Bogomolov–Tschinkel, arXiv:math/9902092v1 (15 February 1999), actual primary PDF Theorem 1.1, Remark 1.5 and no-section/non-torsion multisection context checked. Schutt–Shioda, arXiv:0907.0298v3 (9 July 2010), Section 12.9 Proposition 12.8, Corollary 12.9 and characteristic disclaimer checked directly in full primary PDF. Retrievals 23,24,26. The deep fibration and arithmetic density theorems are credited imports, not reproved."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Precisely recovers potential density for every number-field K3 surface of geometric Picard rank≥5 from the isotropic-divisor/fibration theorem and Bogomolov–Tschinkel, with finite-field-of-definition bookkeeping. Gives a concrete quartic-with-four-skew-lines criterion via a determinant96 certificate and explains the rank-four quadratic-form boundary.",
+    "listed_prior_count": 1,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

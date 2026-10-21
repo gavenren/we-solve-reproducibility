@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-2510",
+  "canonical_problem_id": "prb_cc89efa69ee9468f8af85833bf282e3b",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "81add4f395a069f435a7a236345a5ac61240136c846228d8f81ef1b6d2ae0ff5",
+  "report_sha256": "81add4f395a069f435a7a236345a5ac61240136c846228d8f81ef1b6d2ae0ff5",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "f60646f7d1f6c23c9740f4e36d95e672109a2be698af209d29f4edbff7c19475",
+    "contribution.json": "d33b1b440b7d9532baea2f3afa3b6cdbbcfe85dc162c474ee08e2e45afe7b19e",
+    "official_metadata.json": "490d3c41b3acadfcc0361c5e5504cf1481759b2c9f5df3c7ac0ec2aa1d569303",
+    "official_metadata_api.json": "5e2712d2b9b65554415c83d1f24d81ac32db0146978303c79f10313992134812",
+    "official_prompt.txt": "1f34f2385b21b6a3a06f68435f7955d913e05b1c3adf4b0a25a8fcb37da9c4c7",
+    "official_prompt_api.json": "3802e4fb8757df651b8353358583ab0e0a70922390426943b35de404ccab8453",
+    "report.md": "81add4f395a069f435a7a236345a5ac61240136c846228d8f81ef1b6d2ae0ff5",
+    "source_notes.md": "6bb5069c93ab92f51532fb839f71ba38d3a867ba6c89f7def6048ad82fd9ccfb"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:17:09.620149+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Independently rederived the four-translate proof: complement sum <|K| gives t,gt,ht,ght in I; alpha(g)=t^-1 g^-1 t and alpha(h)=t^-1 h^-1 t yield reversed product equality and gh=hg. On the resulting abelian group the norm kernel has index1 once its density exceeds1/2. Strict >3/4 is essential.",
+    "Checked alpha^2=1 specialization, the six square-one elements versus two order-four elements of D8, and admissibility of alpha=id. This proves the sharp c2=3/4, not merely an upper bound.",
+    "Checked N=1+alpha+...+alpha^(n-1) is an endomorphism only in the abelian case, density=1/|N(A)|, and the witness A=Z/(2^(v2(n)+1)), alpha=id has image of size2 for every fixed n, including1. Thus restricted supremum is exactly1/2. No implication in the original composite/noncommutative parts is claimed. No priors listed; this is uniform exact scope, not finite group sampling."
+  ],
+  "sources": [
+    "Notebook primary independently accessed through arXiv:1401.0300, actual v49 header20Oct2026 (turn1656view0,turn1657view0-2,turn1658view0), relevant Problems21.1-3 printed178,21.7 printed179,21.26 printed182. The authors' October-update3 WordPress URL was inaccessible to this reviewer; no exact-PDF equality with that link or older v47 is asserted.",
+    "Bors arXiv:1606.00635v1 HTML independently opened as turn1653view1, Proposition2.1 and complete centralizer proof lines95-103. Arbitrary-automorphism threshold matches the credited classical context; the report's distinct four-translate proof was checked directly."
+  ],
+  "limitations": [
+    "Independent mathematical/source review; no classification or formal verification. No checker is attached and zero executions occurred. Historical current independent audit remains preserved."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

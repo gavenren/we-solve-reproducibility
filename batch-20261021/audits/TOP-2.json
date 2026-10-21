@@ -1,0 +1,62 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Substantive literature reconstruction of a different arithmetic RH route, including the sharp first-order threshold shift and a fixed-tolerance eventual equivalence. Category remains Literature report; neither the universal inequality nor RH is established.",
+  "actual_checks": [
+    "Re-derived H_n=log n+gamma+r_n with 0<r_n<1/n from the exact tail integral. Multiplying the two expansions gives e^gamma gamma n/log n as the first shift; O(log n+loglog n) is absorbed into O(n/log²n).",
+    "Verified n>=3 makes loglog n positive and F(n)>e^gamma n loglog n. RH direction therefore needs no finite-prefix computation for the eventual criterion.",
+    "For false RH, Lagarias Proposition 3.2 gives a fixed C>0 and exponent b<1/2 on an unbounded subsequence. After multiplication by sqrt(log n), the oscillation dominates both O(1/log n) and each fixed K/sqrt(log n). Checked existential K,n0 quantifiers and the weaker-alpha limitation."
+  ],
+  "prior_comparison": "Read all four retained bodies. Two records summarize unverified 11/12 and 7/8 zero-free claims; one copies the statement; the full other manuscript uses logarithmic moments, polynomial isolation, kernel countermodels and finite positivity. The divisor-sum error-scale route is distinct; none of those unverified claims is an input.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/math/0008177",
+      "version": "math/0008177v2, 6 May 2001; internal 5 May",
+      "locators": "Theorem 1.1; Propositions 3.1–3.2; Lemmas 3.1–3.2; proof and small-integer computation attribution",
+      "retrieval": "coordination/qualified_number_first_half_primary_01.json; _02.json"
+    }
+  ],
+  "limitations": [
+    "Robin's original paper was not directly read; the exact credited assertions were checked in Lagarias's primary reconstruction. Historical finite checks were not rerun.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-2",
+  "reviewer": "/root/sol_ultra_numbers",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "d340d6284fbe26ca5d2fa3beb5923acd64e2d03b6020c0a40a124fe3452ae587",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "d340d6284fbe26ca5d2fa3beb5923acd64e2d03b6020c0a40a124fe3452ae587",
+    "source_notes.md": "3775dc4562e6d38b004ab4fc5a6dfbcfef00600e690f4890e8077163c7f4602f",
+    "author_record.json": "89dd9b4f713935ebeb9f2c8d9c7b62e5671585803df1264947b490f1f7510b35",
+    "official_prompt.txt": "4bc5380ee1e1a541c976cfe30eec8b64697efd713cce3eb031ee4f5a3a7076f8",
+    "official_prompt_api.json": "05806498f458c868bbc96d786587d0daba179311f0e7817dca44e1b22c930234",
+    "official_metadata.json": "06ceb40f4a9e738cf7c072cb32a1463c6e1f3e62ce242525e7f6c5581e5f47fa",
+    "official_metadata_api.json": "ae4f2049de3b0f4159dd3b14e877e9f2a83a1fb33df30bc626eb5fb8899d5bd0",
+    "contribution.json": "c3a43b00c9d3ee780828675a88a0ec2caaf650ed1a7eac49eb11babaaec224b9",
+    "retrieval.json": "c589051df624692115c30eb05ea3721e67263d457e90467e77749bbb24125a22",
+    "prior_attempts.json": "b274e15a9f63640fc88c5c9314d9f1fc02887b794da4b7144f286408cba029a6",
+    "prior_attempt_01_api.json": "b70a2f05e7154c9abfbdbb42e78e9a5314d87134fd7c68997cdb45d76c8cad15",
+    "prior_attempt_02_api.json": "b254b7b01afd179947a721a426a480968a198b91b61656d6546cd6eb7c9a682d",
+    "prior_attempt_03_api.json": "13cef7de0c349467aa62114e51e0870067e68bca54044896286ca75ffac8beac",
+    "prior_attempt_04_api.json": "9d5d769a63cecda3d07d53d61f26a0f40db06c1b3fd5aebe625f75993b2e8b61",
+    "prior_attempt_01_text.txt": "a107c41f64ca5ffd22e2a140e4e7775c31bf7e9ddee5d6517b25bc2cb1c36d84",
+    "prior_attempt_02_text.txt": "36f5e9f824d88ca5d34fc14d6a4cff937cd7d16bdcf3f0dd5afcc3ce23c20504",
+    "prior_attempt_03_text.txt": "b90ea948332db9e18ae6093ccb2e4bcb4c0471feb6c011ff369fe4a3addd830b",
+    "prior_attempt_04_text.txt": "d21fee008311706085823d86dd8b6fca53cf1696cb966a7c7c077eae65510fe3"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_numbers_first_half_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:28:43.527734+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

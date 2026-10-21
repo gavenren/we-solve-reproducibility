@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-3092",
+  "canonical_problem_id": "prb_0e85d310d400495784497e6cbb3cd7bd",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "94980cfa761c956a04bd78fc955506fe1bea8f96457358f9d7cbf762e2d79944",
+  "report_sha256": "94980cfa761c956a04bd78fc955506fe1bea8f96457358f9d7cbf762e2d79944",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "829d0eeecadac983b77fc9330a664db8949ef6aefad3f5c4a7280c8d2f606539",
+    "contribution.json": "7a670e3184311b8dff67ad51c065770a209f3991d5de73f60582926aff74c0a2",
+    "official_metadata.json": "49049607c314d640a5bb60a3087f8a1cdc583676bc7ca59d112589bbea8b4ea5",
+    "official_metadata_api.json": "5b7f3f566a186fda1af77c6a241aa933a05691047e1aadc23c298ea5dc622424",
+    "official_prompt.txt": "8cbdca875f48e98124b50d04ee67f40204e03f8da4b5c4218fe91eb1a45898bb",
+    "official_prompt_api.json": "316dbdd466128f8b0d4f651b29d367ce7d1d9f35bea7831b25eb158acb405f60",
+    "prior_attempt_1.html": "d57f6f89d68551472a1f82fa5d311b6134de70c93638a6e81a9d1f1df737452e",
+    "prior_attempt_1.txt": "461c80c0f1a65c8255cc960d2f77358539fd9962f52f9b979bea2e463974b458",
+    "prior_attempt_1_api.json": "cc5ed3b2665b150d373bb6552d427aff60585bf2608352c0722d08a98dec6cbe",
+    "report.md": "94980cfa761c956a04bd78fc955506fe1bea8f96457358f9d7cbf762e2d79944",
+    "source_notes.md": "67aa99d53fc8e15d3f9a1e81aff2b81781bde29ed5408c0f211df08bb1c9c5f7"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:03:13.093228+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Compared complete prior pentagon-product manuscript: it does not contain this explicit palette extraction or the five-proposition dependency map; the literature report is substantive and credited.",
+    "Checked polygon-size indexing, colour-vector product argument, C5=3, coefficient321*3*2*2*3=11556, ceiling correction and necessary inequality n>=3^(q/11556-1).",
+    "Read revised source definitions, Proposition4 modulus, separation cases and final five-coordinate conclusion. Report correctly uses 3*ceil(log_alpha n), rather than the smaller final-display ceiling."
+  ],
+  "sources": [
+    "Opened arXiv1811.08972 PDF displaying v2 (20Feb2025; author revised date21Feb2025), pp2\u20135 and11: Theorem1, Propositions2/4/5/7 dependencies, modulus before Proposition4, final equation(3). https://arxiv.org/pdf/1811.08972 (turn1510view0,turn1512view0\u20131,turn1513view2)."
+  ],
+  "limitations": [
+    "This is a verification of the imported published theorem\u2019s formulation, palette definitions and transfer, not an independent formal reproof of every combinatorial lemma.",
+    "Direct version-suffixed PDF URL returned DisabledError; the unversioned PDF successfully opened and visibly identifies v2. No increasing lower bound or solution of unboundedness is certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

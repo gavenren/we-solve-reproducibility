@@ -1,0 +1,59 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3237",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "d071e44067cd48d15cb0d6efc88795bd58505855a2171d832369dac52583ba22",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "d071e44067cd48d15cb0d6efc88795bd58505855a2171d832369dac52583ba22",
+    "source_notes.md": "6e4bb5e349fe462044c6d1f553ea81210d80ee8fb9aedda600cec060e96bb284",
+    "author_record.json": "d38f99337dc49aa1305a59091d589c41061f459daba3a599ba51bdd48747ff9f",
+    "contribution.json": "1d68ae80daee278a0d95958c289ef4c6de43ebc25618b3613781422e085cffa2",
+    "official_prompt.txt": "9b91be7107ac1b61f185d2385ffb292a87bd0f2fbd978716f35cce25a1e7f6d7",
+    "official_prompt_api.json": "a59972cd7c6c6b0389dc1318de47b56361e31e1c2e70dded59bdc41e3c05415e",
+    "official_metadata.json": "bb479fceb8230f1245304adef5d755a084b23534e532bcccf73a41f7db3718c4",
+    "official_metadata_api.json": "6107ee27784c2ee615d4d7b3839e539850455a295c0025c0aac2b585eec51d80",
+    "prior_attempts/attempt-1.txt": "654d9f4eccb21175470721595b9a8912255e94b671649a406ee16efc100d1cc6",
+    "prior_attempts/attempt-1_api.json": "5d159e491fa7062250ec35873f795721b94f8199d08eb1b5bd8ed63ecbeca852",
+    "prior_attempts/attempt-2.txt": "efa3124e3f066ecf86ff86e93051f7ce699137b249d0e6f5e02017e01a72e977",
+    "prior_attempts/attempt-2_api.json": "e20ae5408c56cd3b550606e754bb85e08188aba45a289dd557a0286af0a5bb42",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked Theorems 1 and 8, correspondence matching conflicts, exponent 2/epsilon, and the local maximum. d/log d is monotone above e, so the stated minimum-degree corollary is valid.",
+    "Checked the nonempty peeled core has maximum degree tending to infinity and a no-larger floor; its budgets fit q. Reverse restoration forbids at most one entry per neighbor. The sufficiently-large threshold is not replaced by the unrelated 524 cutoff.",
+    "Read both earlier bodies: critical/Mycielski restrictions and an unverified OpenAI claim summary. Neither provides the nonuniform leading-constant-one local correspondence result."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1812.01534",
+      "version": "masthead v2, 16 April 2020",
+      "locators": "Theorems 1 and 8, PDF pages 2 and 12–13; cover definition",
+      "retrieval_refs": [
+        "turn1736view0",
+        "turn1742view3"
+      ],
+      "access": "Versioned PDF URL returned DisabledError; unversioned/cached primary PDF positively identifies v2 and supplies the exact theorem."
+    }
+  ],
+  "distinct_significant_scope": "Precise local DP/list budgets, degree-profile comparison and justified low-degree restoration add stronger scope beyond prior ordinary-coloring bounds.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:24:21.184433+00:00"
+}

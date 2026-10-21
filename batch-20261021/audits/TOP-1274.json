@@ -1,0 +1,61 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Substantive literature reconstruction of a uniform entire critical-strip bound for every fixed zeta derivative from the credited pointwise input, with an explicit pole-removing and Gaussian localization proof. This is distinct from both retained moment-to-peak manuscripts and correctly does not claim Lindelof or a new subconvexity exponent.",
+  "actual_checks": [
+    "Read the actual arXiv1408.5794v2 header and Theorem5/equation0.5, whose critical-line exponent is13/84+epsilon. The separate mean-value result is not confused with this theorem; no latest-record claim is made.",
+    "F=(s-1)/(s+2)*zeta is holomorphic on the enlarged right strip, and its boundary bounds have polynomial growth. The real part of the affine L interpolates the exponents. On vertical boundaries, ((|t|+2)/(|t0|+2))^a exp(-(t-t0)^2) is bounded uniformly in t0 for a>=0. Horizontal edges vanish for fixed t0; removal of the rational factor is uniform for |t0|>=2.",
+    "The interpolation line at delta,eta->0 is2theta(1-sigma); losses can be chosen uniformly over sigma. Functional equation gives1/2-sigma+2theta*sigma=1/2-(29/42)sigma for the left half, continuous at sigma=1/2.",
+    "Small fixed-radius Cauchy disks fit an enlarged pole-free strip at large height; the continuous piecewise-linear exponent is Lipschitz. Radius and intermediate epsilon losses are fixed before height, giving constants depending on j,epsilon and uniformity in sigma. No growing-order derivative estimate is claimed.",
+    "Lindelof yields the stated replacement exponent by the same reasoning with arbitrary eta, and j=0,sigma=1/2 recovers precisely its pointwise quantifiers."
+  ],
+  "prior_comparison": "Read both complete retained manuscripts: prior_attempt_01 is official A2 and _02 is A1. They give all-fixed-moments equivalence, coarse derivative peak widths, smooth/triangular countermodels and off-diagonal obstacles. A1 mentions13/84 but neither proves this uniform strip/all-fixed-derivative consequence.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1408.5794",
+      "version": "Actual retrieved header1408.5794v2,22February2016; manuscript23February",
+      "locators": "Theorem5/equation0.5 p2 and approximate-functional-equation discussion",
+      "access": "Full primary PDF independently opened and exact theorem read; explicit-version URL disabled, unversioned URL returned exact v2. Deep proof imported."
+    }
+  ],
+  "required_corrections": [],
+  "limitations": [
+    "No independent proof of Bourgain's decoupling theorem, novelty, new exponent, latest-record assertion or resolution of Lindelof is claimed.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-1274",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "e4b2311378727979b412193e9b62c157b9f86789808828283c963464cd9f2640",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "e4b2311378727979b412193e9b62c157b9f86789808828283c963464cd9f2640",
+    "source_notes.md": "80deb835ea9fdc96559b1397b7b88669d8978af5a554f3fe1b53ce238d331e58",
+    "author_record.json": "cc12cf7e5bc4013e4f41632b35ca3979238b1964418b154bb8163f3594c881e8",
+    "official_prompt.txt": "72a395c8e8dcf4c03a673d53fdb29441ab32226b7fb4aae111048055a4a10f4c",
+    "official_prompt_api.json": "e3aed18c479b10c789c6ce82ecbece47fd359ca53be588b0dca1d59bdfb4f190",
+    "official_metadata.json": "4935650791ee18f78a9d533d659d55f296a0707ae51986f88bed39bfc9b88f85",
+    "official_metadata_api.json": "da3fc4c912492dcbb6241cca448b1e668a4903ddb82476246db8e1072bece1c6",
+    "contribution.json": "4025b7f5e5d48fdead92c563b45dec42108b41a13e5f8009efc6a31314c5593b",
+    "retrieval.json": "19a15df03e0b09589f98e16b47554e59966321a5ce5c4c76994d73a3e8bf53b3",
+    "prior_attempts.json": "3ae1fb8b9e450be6d62a378d9083d7382951eb11603d3d17a87a49063583c184",
+    "prior_attempt_01_api.json": "714d6242ba4ba54e410ab45f54d3ce88a4312c9e2ecf3e9e3dbc80bffbbb9f5b",
+    "prior_attempt_02_api.json": "d0f61e91b6d08da2e274f3fd20e3700cf4be20433ed3411d7b9868ed9417905f",
+    "prior_attempt_01_text.txt": "cc302032b64aefa04dd26b4dd87a39e6d17c7b3588775f9819f6631253675ceb",
+    "prior_attempt_02_text.txt": "2d9997daac75c87b8334e98ca21e12e7954d7aac4845812aaea3c28d0f10744d"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_algorithms_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:35:47.696945+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

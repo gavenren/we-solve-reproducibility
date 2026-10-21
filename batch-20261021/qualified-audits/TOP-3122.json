@@ -1,0 +1,68 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3122",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "dabb9c51312d6e399adf59293b04da4544c0c0e4a85044c1b63db1c1738a3761",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "dabb9c51312d6e399adf59293b04da4544c0c0e4a85044c1b63db1c1738a3761",
+    "source_notes.md": "ed9d1ad6a92b2f57a569f80bd118c2da6e925d4257d2ebae84e427be8b7a31ca",
+    "author_record.json": "41dc7db3080c29e1121a8a29742659eada3088ff7cad0e02f6cb1cc15dc9ce88",
+    "contribution.json": "d4bf2b885093a184b9208d46f1cc3c789f0f2de81b6b04a39052cc1e15627243",
+    "official_prompt.txt": "aa5c23b6661431f2cfc09548a33b32797d25c3b7af93cf4902b9a15ec87e224b",
+    "official_prompt_api.json": "4a197cc7f303cb194beda67f9c6380642fbe76aea1806cf3f889a7f65ca1dafa",
+    "official_metadata.json": "96d14eb4c44b95eaacbe375495cb7898238559768cf22d4f40ee21d358045e78",
+    "official_metadata_api.json": "0545cb158a7458e927231c7e9f5fbda4c823b4159f3cd829ef074d2a595f0136",
+    "prior_attempts/attempt-1.txt": "6319f72bd45ef46a72132a0d0cb1d0b669928c432ceae44040e8787844ca47e8",
+    "prior_attempts/attempt-1_api.json": "d36cb2a1aeb045e597c840a988b3de40bd3f771ee0e88ec9ed9e27c5b0039bba",
+    "prior_attempts/attempt-2.txt": "32dc543e5d899e98d68c663abd369ba0052f3c5e3413250e379ebdd33f248df2",
+    "prior_attempts/attempt-2_api.json": "016a54988bf20f94591309dc81d0bc61a97dcfa0a1dd9255b5fa54ca9bb4d1d1",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "5d521c38a29a6e8c3155702e0c40e0e4a16ebea626c20bdc412b26ed5c935abb"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked exact claw-free threshold9 theorem and separate list threshold69. Induced-claw definition and ordinary/list/DP distinctions are correct.",
+    "Checked C5[K3] counts Delta8,omega6,alpha2, explicit7 independent pairs plus singleton; checked K_t join C5 yields chi=Delta-1 at arbitrarily high degree and fails perfect elimination ordering.",
+    "Checked critical induced-F residual lists >=d_F(v)-1, min degree>=2 and extension contradiction. Both prior claim-summary and elementary Kempe/chordal bodies do not supply this exact class."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1206.1269",
+      "version": "masthead v2,19 December2012",
+      "locators": "Theorem5.5,Introduction,Section2.1",
+      "retrieval_refs": [
+        "turn1790view2"
+      ],
+      "access": "Primary theorem and reduction framework read; full structural proof not certified."
+    },
+    {
+      "url": "https://epubs.siam.org/doi/abs/10.1137/15M1051774",
+      "version": "primary published list-coloring abstract",
+      "locators": "abstract,lines65–66",
+      "retrieval_refs": [
+        "turn1792view0"
+      ],
+      "access": "Exact69 threshold for list coloring checked separately."
+    }
+  ],
+  "distinct_significant_scope": "Substantial exact-threshold claw-free regime, complete boundary examples and residual-list mechanism beyond prior high-degree/chordal scope.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:27:17.883205+00:00"
+}

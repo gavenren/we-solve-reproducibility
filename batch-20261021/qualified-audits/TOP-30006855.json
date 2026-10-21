@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006855",
+  "canonical_problem_id": "prb_1c1b543cb36047a097df18f9ff05e226",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "7e41a680ab01862213fcf9589dffbeef2045ec2ee0782a290d7668219d7841c0",
+  "report_sha256": "7e41a680ab01862213fcf9589dffbeef2045ec2ee0782a290d7668219d7841c0",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "a757f397b9cb6af4c0fc99bcd1e3d738abb771c9976dce9a5e23c78f7e43ead3",
+    "contribution.json": "0c566ef8fa3542c784e8e3d24ae75af8c216a2a7507c285b4e8e0a48e860c3a0",
+    "official_metadata.json": "2fd523cf3f5d194af838419bb94fdb91ee93781e427aac5d085d8c79159f07f8",
+    "official_metadata_api.json": "08c8d927518a5d338203568c49106cffbb4fa6217c05bb994df92c978869ce54",
+    "official_prompt.txt": "2a32ca6e95ca5108cdcf24d12068196067f956926f445efc66ded827b8e02b6b",
+    "official_prompt_api.json": "41efa314e7db7cbf74798d777990621d74da5715da7b06947b3349f578818299",
+    "prior_attempts/TOP-30006855-A1.html": "be688df7e45ee6b0c1906d92462d2c7e1f67650c6b87f15ca97ca6c04ad59568",
+    "prior_attempts/TOP-30006855-A1.json": "fc768c6a46b40e705a9c98d16f6aa1ed34bfb2be3e948e400f2cd63c97b96022",
+    "prior_attempts/TOP-30006855-A1.txt": "7733f401c42fdf3131dbf7b56caa5b07230dd4b020e872d270becd88da5e4089",
+    "report.md": "7e41a680ab01862213fcf9589dffbeef2045ec2ee0782a290d7668219d7841c0",
+    "source_notes.md": "3e11963a05462ba3731382cc8a89374429278ae6c82b998595fe44123ecf1b4e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:27:21.617060+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked all complex Grassmannians1<=r<N, dimension r(N-r), rectangle partition count binomial(N,r), even cohomology and credited full Kapranov collection.",
+    "Checked small semisimple algebra via distinct root subsets is not asserted to give distinct c1 eigenvalue sums; big deformation/coalescence qualifications retained.",
+    "Checked source GammaII implies original Stokes Euler pairing and central factor, modified Ch powers (2pi i)^p and scalar (2pi)^(-d/2); Gamma cup operator commutes with c1 and is invertible by nilpotent positive-degree part.",
+    "Read full priorA1 projective-space algebra/analytic gap: new theorem supplies full Grassmannian family including allowed mutations and analytic phase conventions."
+  ],
+  "sources": [
+    "Galkin\u2013Golyshev\u2013Iritani, actual56-page primary arXiv1404.6407v4,19Oct2015 PDF https://arxiv.org/pdf/1404.6407v4 : Sections4.5\u20134.6, Proposition4.6.6 printed36 and Theorem6.1.1/Corollary6.1.2 printed42, quantum Satake/deformation Sections6.2\u20136.3."
+  ],
+  "limitations": [
+    "Source/proof-only; no programs, zero checker executions and no formal verification.",
+    "Deep cited theorem proofs are imported with exact scope checked, not fully reconstructed analytically or categorically."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

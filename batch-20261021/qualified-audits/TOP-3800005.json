@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-3800005",
+  "canonical_problem_id": "prb_ce8b5e262efc407b9b309dba24f7ae72",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "ed1767fd289776480320d11bc2305e91f5afaeab7aa487d1248416a55e6c3a4c",
+  "report_sha256": "ed1767fd289776480320d11bc2305e91f5afaeab7aa487d1248416a55e6c3a4c",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "8acfa20693ff289b9cd4761fad30bf06b02e11b2ed182b56c2cafdd2d9db9a17",
+    "contribution.json": "fe46bcf8f70ea9b965b80671ea8f72cfc0a20e9d61863765a8575fbc00cb28d8",
+    "official_metadata.json": "ab69f15a3ed7f3f41164c47617953529362743c8459a37c62aec17bf0c1a15ab",
+    "official_metadata_api.json": "70a6527902b9a67affa32611c2682f2005d07a06f3cba27ccbfde902ccf17b2e",
+    "official_prompt.txt": "b6e82212bf1a92c6f5dd7ef4a1bbcde05f25823fe2c70a660714f838bddd9bc7",
+    "official_prompt_api.json": "1612bb0dc5dfd95ae706618235c7073a214e865f7fd9ffc7633851a2d41231dc",
+    "report.md": "ed1767fd289776480320d11bc2305e91f5afaeab7aa487d1248416a55e6c3a4c",
+    "source_notes.md": "0fd6b8948b5c0316a2fd9879daf1b22d26fb09b36adeb59d7fd5aa16ef713f89"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:07:57.373664+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "No earlier contributions. Checked exact balanced theorem with absolute O((s+d\u00b3)N^(2-1/ceil((d+1)/2))) and odd/even specialization at s=d.",
+    "Verified finite-field sharpness allows field and forbidden-size dependence and cannot establish real s=d sharpness.",
+    "Independently checked q-grid point/line counts, q incidences per line, K2,2 exclusion, balanced padding and real hyperplane lift in everyd>=2."
+  ],
+  "sources": [
+    "Opened Milojevi\u0107\u2013Sudakov\u2013Tomon2401.06670v2,3Apr2024, Theorems1.1\u20131.2 and real comparison: https://arxiv.org/pdf/2401.06670 (turn1566view2,turn1568view2,turn1569view0)."
+  ],
+  "limitations": [
+    "Full35-page extremal/induced-pattern proof is imported, not independently reconstructed. Concrete real lower family and theorem parameter transfer are directly checked; no real higher-dimensional matching bound is certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

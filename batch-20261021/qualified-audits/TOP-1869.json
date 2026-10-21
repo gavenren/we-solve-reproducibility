@@ -1,0 +1,113 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-1869",
+  "canonical_problem_id": "prb_50f78c7cc4fe42eb847fc5c966101b38",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:29:35.026128+00:00",
+  "checked_report_sha256": "a2db6fe096464d7460861794c69c6a3c117f602a7f10b67f9f2a1068cbb588e0",
+  "program_sha256": {
+    "verify.py": "109920d53e4d327bbfbf26e9aebccfba18ded31f5840ea72a0b111513172434f"
+  },
+  "checked_files_sha256": {
+    "author_record.json": "137b8c9dfe86ba7e75254a3b8a37aa6e986f048ad14bb469091a635ec94b68ed",
+    "certificate.json": "a7a91f2277ee6df59deb4b229e2b546e34e8a4fa070951c5ff7c1407ac8a3755",
+    "contribution.json": "6830f9c414bb2eae62ecc87b8c156a9cdb63dd2c9f4b38875238c3f0320f6b63",
+    "official_metadata.json": "da4616faee02505ab21512a0ba2d93e3d76f57d660796a599d267f1d8208c020",
+    "official_metadata_api.json": "ef06782482e276a5c6623993dfbb171fd87e6069ab40d86c0666a01934d97220",
+    "official_prompt.txt": "6265acc733f67175208413abcf3bc016c7765102eb3f5b09f7f3dcf96660f271",
+    "official_prompt_api.json": "df1734ad885bec39b5cdd0627524dd495d00d84d88073d10643ceac0453a0c08",
+    "prior_attempt_01_api.json": "5b1e62c45bdaf908d30fdf2433cc1672cf3e84aa5aff6443755a24a3cac4a8a7",
+    "prior_attempt_01_text.txt": "6e536cc8c640543136ef5ace8edf234aedf402e3c2cb9888cd3655063ae89243",
+    "prior_attempts.json": "323758b4b667794668b948e833d3d267325b8c2f6594b9cc16bbcb5aff38e63d",
+    "report.md": "a2db6fe096464d7460861794c69c6a3c117f602a7f10b67f9f2a1068cbb588e0",
+    "retrieval.json": "2ebf3d167839d0e6d5a48c7ed467f7a9a1c3184c6de47f40b0aa830d9a46d21f",
+    "source_notes.md": "415a12bdcd612669bd5fdc21cb7027ee8d2f59d27e1276064b00abe3e21b0298",
+    "verification.json": "a7b9ae94d010552c84f1768cc046bfababf5d173ae5ab38cd1924397ea6fb792",
+    "verification_output.txt": "d0928d26afb09e3ab1ade6e0df211b01466eff502d7de79a60bedfedccedc727",
+    "verify.py": "109920d53e4d327bbfbf26e9aebccfba18ded31f5840ea72a0b111513172434f"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8e2e73deea8ce21484c848e54e05f8b9387a4301ec9675a929422d53b3d7f61c"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact prompt, API/meta, report, source notes, author/contribution records, full prior announcement, original checker, complete certificate data and author verification record read/inspected. The scope is one fixed origin component at squared step 8, a known-moat reproduction with new exact data/checker, not universal bounded-step impossibility or a record. Prior platform Lean/universal claims are not certified.",
+    "Gaussian-prime classification handles nonaxis norm primes, axis absolute primes 3 mod 4, excludes zero/units, and includes ramified +/-1+/-i. All associates are actual distinct vertices. Allowed integer offsets exactly enumerate 0<u^2+v^2<=8; origin is a root, not a prime.",
+    "Checker independently sieves through 2*(84+floor(sqrt8))^2, covering every certificate vertex and candidate neighbor norm; axis tests are covered too. Explicit require checks survive normal execution and include unique integer coordinates, prime membership, exact child/parent sets, nonzero bounded edges, tree reachability and every possible prime exit. A path first leaving the verified finite set would contradict closure; no outside-disk assumption enters the proof.",
+    "Read checker before execution. Actually ran verification-only and explicit -O refusal in an isolated byte-identical copy, retaining both streams and hashes under qualified_execution. Normal exit 0 reproduces 2996 Gaussian primes, max norm 8737, max coordinate 84, 18853 neighbor positions and exact certificate SHA a7a91f2277ee6df59deb4b229e2b546e34e8a4fa070951c5ff7c1407ac8a3755. Optimized exit 1 states refusal. Original bytes unchanged; no BFS regeneration or author negative-control rerun claimed.",
+    "The octant count 380 cannot be multiplied by eight without orbit-boundary corrections. Full-plane data avoid that error; farthest 84+41i agrees with source. Smaller bounds are contained in this component, while arbitrary starting components and larger finite bounds remain outside the certified scope."
+  ],
+  "primary_source_checks": [
+    "Tsuchimura, METR 2004–13, March 2004, actual University of Tokyo primary technical report https://www.keisu.t.u-tokyo.ac.jp/data/2004/METR04-13.pdf, Sections 1–3 read for origin-adjoined graph, inclusive bound, first-octant count/farthest point, Gaussian-prime cases and BFS. Retained qualified_number_second_half_primary_04.json and _06.json (turn1808view0, turn1818view2). Larger imported computations not rerun.",
+    "Gethner–Wagon–Wick, A Stroll Through the Gaussian Primes, Monthly 105 (1998), 327–337, actual primary article text in identified PDF mirror https://scispace.com/pdf/a-stroll-through-the-gaussian-primes-15y1lwufaw.pdf, Section 2 prime classification and Section 3 graph/BFS convention checked (qualified_number_second_half_primary_05.json and _06.json, turn1818view1). Mirror hosting does not change the primary article identity; no third-party program executed."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Computational evidence",
+    "exact_scope": "Exact full-plane origin-component certificate at squared step bound8, with2996 Gaussian primes, maximum norm8737, complete neighbor closure and independent-sieve verification. Reproduction of a known fixed-bound moat, not a new record or resolution for arbitrary finite step bounds/all starting components.",
+    "listed_prior_count": 1,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [
+    {
+      "command": [
+        "/opt/miniconda3/bin/python",
+        "-B",
+        "verify.py",
+        "--verify",
+        "certificate.json"
+      ],
+      "cwd": "isolated byte-identical temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "109920d53e4d327bbfbf26e9aebccfba18ded31f5840ea72a0b111513172434f",
+      "certificate_path": "certificate.json",
+      "certificate_sha256": "a7a91f2277ee6df59deb4b229e2b546e34e8a4fa070951c5ff7c1407ac8a3755",
+      "exit_code": 0,
+      "stdout_path": "qualified_execution/verify_normal.stdout.txt",
+      "stdout_sha256": "d0928d26afb09e3ab1ade6e0df211b01466eff502d7de79a60bedfedccedc727",
+      "stderr_path": "qualified_execution/verify_normal.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/opt/miniconda3/bin/python",
+        "-B",
+        "-O",
+        "verify.py",
+        "--verify",
+        "certificate.json"
+      ],
+      "cwd": "isolated byte-identical temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "109920d53e4d327bbfbf26e9aebccfba18ded31f5840ea72a0b111513172434f",
+      "certificate_path": "certificate.json",
+      "certificate_sha256": "a7a91f2277ee6df59deb4b229e2b546e34e8a4fa070951c5ff7c1407ac8a3755",
+      "exit_code": 1,
+      "stdout_path": "qualified_execution/verify_optimized.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_path": "qualified_execution/verify_optimized.stderr.txt",
+      "stderr_sha256": "c3fe6f4134a006ce9148e5c5636121b12f5e463b59c6597cdc7744caf3e407ac"
+    }
+  ],
+  "execution_coverage": {
+    "original_program_count": 1,
+    "actual_verifier_runs": 2,
+    "scope": "Retained certificate verification-only plus explicit -O refusal in an isolated byte-identical copy; no generator/author negative-control rerun."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

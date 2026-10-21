@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-5500059",
+  "canonical_problem_id": "prb_57f4239e07304710ab4353eac26c4ce2",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "918ebd71184db507b384e78fa66e503bb7dc958f03ef463f7369a95d76a750ca",
+  "report_sha256": "918ebd71184db507b384e78fa66e503bb7dc958f03ef463f7369a95d76a750ca",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "781e8c84250ca3c1de32275bc2702480656f4715aad42016f4766a4f8b36c038",
+    "contribution.json": "f6405b5eabafd3f59d7272e5770f96ca376868eb50e651cdce3539f29e4fb79c",
+    "official_metadata.json": "407d7344c214ab1dd5b1cebf4e0db840040911aaffe5265d729ad7c70ee7f912",
+    "official_metadata_api.json": "682d5c113743ebf4afbfe288d3fbd8deaa7aceca0132ff7cbcd459c658704a83",
+    "official_prompt.txt": "35b510a6a88b97e4c025ba57688d81e28fb09bfa6c026fb7b1f4a6518ede22fc",
+    "official_prompt_api.json": "d3f69ca9699764ecd274cb73689b15331c4c8b296aeeedaef175f86ae4811fee",
+    "report.md": "918ebd71184db507b384e78fa66e503bb7dc958f03ef463f7369a95d76a750ca",
+    "source_notes.md": "17e9de685a42b1403aa1e05f5687491ae3b06d07f25441faa93663bd70df2d07"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:06:04.392082+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "No earlier contributions. Independently checked finite-index Hausdorff compactness, stable empty placeholders, continuity of circumradius/inradius and quality bound forcing every lower-dimensional limit to a point.",
+    "Verified finite limit coverage, persistence of disjoint interiors by inner disks, deletion of point limits using closedness/density and at least one surviving full-dimensional piece.",
+    "Checked fixed-M attainment and contrapositive consequence for any globally nonattaining sequence. Source decimal bounds/nonattainment conjecture are not used as proof."
+  ],
+  "sources": [
+    "Opened Damian\u2013O\u2019Rourkecs/0304023v2,8Feb2026, definitions and Section5 Conjecture2: https://arxiv.org/pdf/cs/0304023 (turn1546view3,turn1549view7).",
+    "Opened TOPP59: https://topp.openproblem.net/p59 (turn1547view0)."
+  ],
+  "limitations": [
+    "Exact numerical source bounds were not independently certified. Fixed-budget theorem is directly checked, but it does not identify c* or decide global nonattainment."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

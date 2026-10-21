@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-2536",
+  "canonical_problem_id": "prb_4ca3fa424ff0421b96febfa4dd3a4a3d",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "996a52873336001fb45bfdd7753d2853bb19ee2e4dff9a4e0c7baf3d4dd4515f",
+  "report_sha256": "996a52873336001fb45bfdd7753d2853bb19ee2e4dff9a4e0c7baf3d4dd4515f",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "95f0454d4bd6f316d432bf87cdbd4b5d3db34438a92870dac92b332a96c045d8",
+    "contribution.json": "af7c320339c326f82039ade23ded34a82a6a886397e9cf3112aa5e9d3bf7dcd5",
+    "official_metadata.json": "3ee356c4687caecaf8b3266b420eaeb24583aa3b788bcdd321cbe8451867aea4",
+    "official_metadata_api.json": "5e140a5964ea7fbc4a7b9edff80ccd6e0cd55b3453746e257ca9550142918a2d",
+    "official_prompt.txt": "3c6c29b146bd670d47b6752f1eed058ec9e3fde2e20defc544f87eca243dacff",
+    "official_prompt_api.json": "fa5dc824f21eade7ed25fae006514aafcd620e80b04599b4718ba1e04a9898ea",
+    "report.md": "996a52873336001fb45bfdd7753d2853bb19ee2e4dff9a4e0c7baf3d4dd4515f",
+    "source_notes.md": "25fc374ab6d0ed39c7c790c44f30bc0f88259c9a82619671c297cf3a6b7f52ed"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:18:21.928715+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked imported large-order quantifier is group order, uniform over all transitive actions, not merely permutation degree. LST Theorem11.2 covers all An,n>=5. BF Theorem9(i) covers alternating/sporadic/rank-one groups in every transitive action, including its exceptional L2(7),S4 stronger class-product form; Theorem9(ii) retains primitive and soluble-stabilizer hypotheses.",
+    "Independently checked D_H=G minus union conjugatesH, H<=M impliesD_M subsetD_H and thus two-factor coverage transfers to every subgroup of a soluble maximal subgroup. A soluble H alone need not possess a soluble maximal overgroup. Faithfulness follows from simple-group core, and taking maximal overgroups gives the exact primitive reduction.",
+    "Checked inverse closure and nonemptiness via the orbit-counting fixed-point total, giving identity inD\u00b2. For anyg the pair count is |D intersection gD^-1|>=2|D|-|G|; sub-half89/325 alone cannot imply this certificate. No priors; exact literature coverage and transfer preserve the unresolved small higher-rank cases."
+  ],
+  "sources": [
+    "Notebook actual primary arXiv:1401.0300v49,20Oct2026, relevant Problems21.4 and21.22-28, turn1656view0/turn1657view1/turn1658view0. WordPress update3 link inaccessible here; exact official prompts and retained API wrappers supply literal scoped statements.",
+    "Larsen-Shalev-Tiep, actual arXiv:2003.12882v2,15Jul2020,50pages, turn1673view2; Theorem10.2/Section10.2 printed38 and Theorem11.2 printed46, turn1676view6/7 and turn1678view1.",
+    "Burness-Fusari, actual58-page author manuscript dated2Sep2024, turn1673view3, Theorem9 and Remark10 printed4, turn1676view3."
+  ],
+  "limitations": [
+    "Classification/character-theoretic source theorems imported with checked statements and hypotheses, not fully rederived or all computational cases rerun. Exact2022 publisher numbering is not certified. Direct transfer/counting proofs checked. Zero programs/runs; no formal verification."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

@@ -1,0 +1,46 @@
+{
+  "handle": "TOP-30006695",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "d154d2b4b2bb5d0f45b65ead1cec442ebba569e0cc5b2299357e7d318063857f",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "6181b76908d1d22fbd7fbb2344d546fa4f3ac6e6903f8651be4eea18f48a2893",
+    "contribution.json": "7f30b8c4fc10473e56f32f107ba78dde14629231864e76ed808c316252b1c316",
+    "official_metadata.json": "59aa8769a6b4c65313774f988196b6459c170207f49082a1fa191d5c3ec518fc",
+    "official_metadata_api.json": "42cdec8c3e6c05162650f73a536e148b3ae0c306a2acc38d71f5437491085b64",
+    "official_problem.json": "59aa8769a6b4c65313774f988196b6459c170207f49082a1fa191d5c3ec518fc",
+    "official_problem_api.json": "42cdec8c3e6c05162650f73a536e148b3ae0c306a2acc38d71f5437491085b64",
+    "official_prompt.txt": "e3750adee70a0333fb6c92c27d97fd317cbd87b8fdedc8a5468c9604e100512b",
+    "official_prompt_api.json": "68a2072aedf0dde7ca2689472f815be644f6f28dcb39b5e783fea1afe8ac8a09",
+    "prior_attempts/TOP-30006695-A1.tex": "3eefe2d364171ed9351509b9aa405360bb4b82ef64ebd4a837db1d24c54fcfa4",
+    "prior_attempts/TOP-30006695-A1_api.json": "8ba939bedf29b8c422c5c76947d4e2731d215a53462cd3f4b4a45f4bcef31ca7",
+    "prior_attempts/TOP-30006695-A1_manuscript_api.json": "c1e2a40ff62963884f0d7d9f6d869d7caed77f3b9e9221f669a9691f562a3e50",
+    "report.md": "d154d2b4b2bb5d0f45b65ead1cec442ebba569e0cc5b2299357e7d318063857f",
+    "source_notes.md": "9c15f7907af7e4f0f3b36ae0c16cbf2c576c487ed9663e1c4477404878bc8454",
+    "verification.json": "a20d9f250815d26cc990ceea919ea32afb250096d96548730061715bd439f565"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:24:10.661515+00:00",
+  "actual_checks": [
+    "Read exact QMA promise prompt, full earlier spectral-density manuscript and complete Clifford argument. Required scope wording to distinguish no ancillas from zero-initialized ancillas; root changed report/contribution to ancillas initialized to zero, preserved old author files and refreshed bindings. Reread the full corrected report, contribution and author record before PASS.",
+    "Conjugated output Z tests are independent commuting signed Paulis. Verified full projector expansion and ancilla expectation filtering: only I/Z ancilla factors survive; the ancilla-X nullspaceH is binary linear and signed witness restriction onH is a genuine group representation, including duplicate images.",
+    "Group average is an orthogonal projector. A negative identity cancels it; otherwise independent commuting signed generators yield positive trace2^(w-r), proving a nonzero eigenspace. Maximum acceptance is therefore0 or2^(h-k). Signed elimination detects negative-identity relations; dropping signs would be unsound.",
+    "Checked exact compressed power representation, polynomial wire-address/nullspace costs, k=0,w=0 and promise thresholds: optimum1 yes,0 or<=1/4 no,1/2 outside promise. Arbitrarily thin accepting spaces are allowed, unlike the prior density condition. No arbitrary output predicate/non-Clifford/adaptive extension or program run claimed."
+  ],
+  "primary_sources": [
+    "Gottesman,Stabilizer Codes and Quantum Error Correction,quant-ph/9705052v1,28May1997,primary PDF https://arxiv.org/pdf/quant-ph/9705052, Sections3.2 (stabilizer dimension/no-negative-identity),3.4 (binary Pauli labels),4.1 (generator row elimination) freshly read. Report explicitly retains phases beyond unsigned labels; compressed-projector argument independently verified. Retained05_details.json."
+  ],
+  "prior_work_distinction": "A complete stabilizer-algebra optimization regime handles arbitrary witnesses and exponentially thin subspaces, distinct from A1 mixed-witness spectral filtering. Substantial structural tractability; full QMA remains untouched.",
+  "scope_assessment": "For an explicitly encoded unitary Clifford verifier with ancillas initialized to zero, arbitrary quantum witnesses and acceptance iff specified output qubits are all zero, the maximum witness acceptance is exactly zero or a computable power of1/2, found in polynomial bit time. Hence this QMA verifier subclass has a classical polynomial-time decision procedure; arbitrary verifier postprocessing/non-Clifford gates are excluded.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

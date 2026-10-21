@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30007070",
+  "canonical_problem_id": "prb_70a9b24d6799447caf96b21c3fd7856a",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "8f62681b89940d595dbf659fbd3292f4de5d87a61ad5be28d2045817c8643e7c",
+  "report_sha256": "8f62681b89940d595dbf659fbd3292f4de5d87a61ad5be28d2045817c8643e7c",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "0618982c4e2b18c59e772db8a265d3b21c3108d0a4b49c532212169ca896bd9c",
+    "contribution.json": "2b40627d49a71f2012afeb555773ecb55211ff2ccd59728f9c6d7c160f7327cc",
+    "official_metadata.json": "ac37cfe884e50ba41493a7d7bd321c34915ec8fd259d23096c0350d6963bb4b1",
+    "official_metadata_api.json": "9943ace530df6102cd7ff13372957311680fe51f08f33ee8a76ee364b7059ef6",
+    "official_prompt.txt": "2cffe40c02995d63eb87dc7ea2440150e92b21d134dd096b8104374318265b18",
+    "official_prompt_api.json": "698edae78966c023b27cbee938b6a8fd93e49ab338ac1645c0699e5010e34450",
+    "prior_attempts/TOP-30007070-A1.html": "3c47da124651db3a9a48d1f4a1a65b7a1562d442e58021c3d2f23833ad3376ef",
+    "prior_attempts/TOP-30007070-A1.json": "47c7746d80c4b94f129ed3ce10800aa49f1e04aa6b681caa2a70ccc85845f9ad",
+    "prior_attempts/TOP-30007070-A1.txt": "6fcfd757d9523e2b6a1147e72219644b3061fb73967a7f88b8026f0bb3a4ee73",
+    "report.md": "8f62681b89940d595dbf659fbd3292f4de5d87a61ad5be28d2045817c8643e7c",
+    "source_notes.md": "e7ac424484b0c59f972effd9c27ef7ebc05f03b3f48bbd6c2a7bcf05aa768218"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:29:00.248361+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked p-adic trace-unit argument forces slopes0 and f, distinct Frobenius roots and ratio not root of unity; this remains true for every finite field extension.",
+    "Checked all balanced exterior basis eigenvalues after Tate twist, dimension binomial(m,r)^2, overlapping x/y index sets and boundary codimensions.",
+    "Checked explicit factor point divisors plus diagonal/Frobenius cross components span every invariant degree2 class; graph orientation or transpose changes only the identification convention. Products span every balanced wedge.",
+    "Checked faithful finite scalar extension descends cycle-map surjectivity; every rational cycle over algebraic closure descends to a finite extension. Complementary balanced wedge pairing is nondegenerate, and all test classes algebraic, proving numerical=homological equivalence.",
+    "Read full priorA1 all-abelian-variety manuscript claim; no higher-codimension general Tate theorem is adopted."
+  ],
+  "sources": [
+    "Milne, actual172-page primary author technical notes Abelian Varieties v2.00,16March2008 https://www.jmilne.org/math/CourseNotes/AV.pdf : TheoremI.12.1/RemarkI.12.5 printed55\u201356 give exterior algebra and Galois compatibility; I.10/II.11 Frobenius/characteristic-polynomial convention."
+  ],
+  "limitations": [
+    "Source/proof-only, no programs, zero executions and no formal verification.",
+    "Standard etale cohomology/Poincare duality/correspondence facts are credited inputs. The explicit eigenvalue/divisor spanning and equivalence proof were independently checked."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

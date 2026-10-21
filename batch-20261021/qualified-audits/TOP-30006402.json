@@ -1,0 +1,45 @@
+{
+  "handle": "TOP-30006402",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "a918d9b13f15eeab60d38fd5116fb6b2ab58ffd52291c05a070c2151ced37cc8",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "bc3d6efcbd369432236fd950a9cd3b33d6f5f48ad9bcc034bbcaec3f87e656ad",
+    "contribution.json": "3df1e22cc2473589dc8b3abe6c73a55581520415f1e25ca19e766c3cbd699c8c",
+    "official_metadata.json": "41ac14aeead0973794bd6459f4107ad9adbf9350d6eae75a7f7b046f4a694b2c",
+    "official_metadata_api.json": "3318a89f29c6c3aa3f2d3f61cf5f1917415a3557d2f6ce376d50275175e37c5e",
+    "official_problem.json": "41ac14aeead0973794bd6459f4107ad9adbf9350d6eae75a7f7b046f4a694b2c",
+    "official_problem_api.json": "3318a89f29c6c3aa3f2d3f61cf5f1917415a3557d2f6ce376d50275175e37c5e",
+    "official_prompt.txt": "9e079ce2b8149e0563d4d507b236eb31b0289c5e35a935b59b497b098816e033",
+    "official_prompt_api.json": "f161790d59520c8d400b931ade32811a875fe7e1c340c8ebc709be8a3854aa2b",
+    "prior_attempts/TOP-30006402-A1.tex": "fda58d0894b4c69f2e11a554f471d62c932c970f34ff01d1212c2be1571b5286",
+    "prior_attempts/TOP-30006402-A1_api.json": "7f075697421414a1120f54d43636ff37de62ac162cc1de19589e678247262d22",
+    "prior_attempts/TOP-30006402-A1_manuscript_api.json": "8af4ff581756c9cba7db4a6fef23ca68b191a604e01cb30ca379feb067c6d4ba",
+    "report.md": "a918d9b13f15eeab60d38fd5116fb6b2ab58ffd52291c05a070c2151ced37cc8",
+    "source_notes.md": "d030feed137d5ab884f7cbcf8b64815cd16db6ebf399a0cc910243530e1933c4",
+    "verification.json": "1e142d62a0912a01f07f1690f480e2617a0175ac783deff39da580373e05ae4e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:27:45.426455+00:00",
+  "actual_checks": [
+    "Read exact real-rank deterministic communication prompt and complete prior. Orthogonal real Fourier characters diagonalize XOR matrix with eigenvalues2^m*Fhat(s), proving exact rank=support size. Binary support basis protocol is valid with public known function and free local computation.",
+    "Checked addressing expansion: distinct(u,e_j) frequencies all magnitude1/k give rankk^2 and span dimensionk+t. Explicit communication uses2t+1 bits for Bob output, plus one for both outputs. Signed transcript rectangles have rank<=1 even when final Bob sign depends on private y.",
+    "Thus lower bound2t and upper2t+1 are consistent; large Fourier dimension is not necessary for low communication. Constant functions/small support and fixed subclass exponent are covered. No general low-rank matrix reduction, Fourier-learning algorithm or execution claimed."
+  ],
+  "primary_sources": [
+    "No imported deep theorem is needed: complete Fourier diagonalization, coefficients, protocol and transcript rank proof independently checked against exact official prompt. Retained prior read for distinction only, not accepted as an unqualified current-status certification."
+  ],
+  "prior_work_distinction": "Prior uses laminar signed rectangles and low-error extraction. New XOR structural criterion with exact addressing countertest supplies a different complete rank/protocol benchmark and explains its sufficient-only limitation.",
+  "scope_assessment": "For every XOR sign matrix M(x,y)=F(x+y) over F₂^m, prove rank_R(M)=|supp(F̂)| and D(M)≤dim_F₂ span(supp(F̂))+1, yielding the log-rank bound whenever that Fourier dimension is polylogarithmic in the support size. An explicit addressing family has rank k² and one-output communication between 2log₂k and 2log₂k+1, while its Fourier dimension is k+log₂k, showing the dimension criterion is sufficient but not necessary.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

@@ -1,0 +1,57 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-30003543",
+  "canonical_problem_id": "prb_22f14e5aa7b94c07b14431c8e8d25366",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:24:02.372606+00:00",
+  "checked_report_sha256": "df15d2b1e3ed9d008bc61ade8675f8e3cff85aa7ecf2467b75b0818ad0a36c1f",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "510105499194e8789f577296f89cf6c85801ec5f7ce348b085cd6a67a04e46ce",
+    "contribution.json": "85139224365a775c230e542d85e525eff04b84ff6832fb1446ec052b657de770",
+    "official_metadata.json": "e8700e4c8a245504fa3a1f1aa31ee589aa24d7a261fa0e62536c854d8fb616a2",
+    "official_metadata_api.json": "db72db1c3f554de92eac56f6039812d6b55432711ebe905786baadccfc2fee7a",
+    "official_prompt.txt": "eba08ab129b1c466ad1e9f23d85fbb46d9a9b9e342704b7d1ff4a965d07a2086",
+    "official_prompt_api.json": "dcd2f75c7e9bb5b35d3413069d7a80b99622503f6641bfbc3de71a93d0227073",
+    "prior_1_api.json": "1e342e62db69966a3326a499ce6e42928acb38ae0a6ffd78856dd1451d99b7d0",
+    "report.md": "df15d2b1e3ed9d008bc61ade8675f8e3cff85aa7ecf2467b75b0818ad0a36c1f",
+    "source_notes.md": "83a0b52a237ecb976f9f5da00458012ef201f5b02fd885398018577a2b743aea"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Full prompt, wrapper/meta, source/report/provenance and full earlier contribution read. Conditional categorization is essential and preserved: the all-convex-C1,1 total-curvature hypothesis is additional. The source reduction, exact profile mechanism, singularity issues and rigidity provide substantial content beyond the earlier normalization observation/announcement.",
+    "With ambient dimension m=n+1>=2, unit-ball volume omega_m and sphere area m*omega_m, the sharp coefficient is m^(-m/(m-1))*omega_m^(-1/(m-1)); the literal (m-1) coefficient is strictly larger. For positive-volume regular open regions the resulting literal inequality is strict. Empty/zero-volume cases do not support that strictness claim.",
+    "The hypothesis ranges over every closed convex C1,1 hypersurface in the fixed complete simply-connected nonpositively curved manifold. Source Lemma 7.2 separates singularities from the convex-hull contact region and gives obstacle C1,1 regularity. Proposition 6.6 transfers total curvature to that contact portion; a generic nonconvex boundary cannot replace it.",
+    "Checked normalized mean curvature, determinant <=H^(m-1), m*omega_m<=H0^(m-1)*I_B, first variation I_B-prime=(m-1)*H0 and derivative of I_B^(m/(m-1)) >=m*(m*omega_m)^(1/(m-1)). Integrating with the credited profile regularity yields the sharp constant. Bounded finite-perimeter sets are covered by the source; regular boundary measure agrees with perimeter. Euclidean-ball rigidity concerns the sharp inequality, not the larger printed coefficient."
+  ],
+  "primary_source_checks": [
+    "Ghomi–Spruck, J. Geom. Anal. 32 (2022), Paper 50, checked author PDF last typeset 21 September 2021, https://ghomi.math.gatech.edu/Papers/isoperimetric.pdf. Introduction (1)–(2), Proposition 6.6, Theorem 7.1, Lemma 7.2 and formulas (40)–(43) read in actual primary text (qualified_topology_primary_retrieval_25.json, turn1741view0–1). Hull regularity, profile integration and equality-case analysis remain credited imports, not new unconditional all-dimensional proof."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Conditional result",
+    "exact_scope": "Under the precise all-convex-hypersurfaces total Gauss–Kronecker curvature hypothesis of Ghomi–Spruck Theorem7.1 in a Cartan–Hadamard m-manifold, derives the sharp Euclidean isoperimetric inequality and hence the weaker coefficient printed in the prompt; explains the finite-perimeter and dimension normalizations without claiming an unconditional all-dimensional theorem.",
+    "official_prior_count": 1,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

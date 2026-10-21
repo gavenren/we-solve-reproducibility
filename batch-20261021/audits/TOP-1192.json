@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-1192",
+  "canonical_problem_id": "prb_0455cf10c63345c78b101272c3ace42b",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "9614ad4c6b251a6e515df7bcb61f204546264a16c8aa47e1bb5bf394900bf9c7",
+  "report_sha256": "9614ad4c6b251a6e515df7bcb61f204546264a16c8aa47e1bb5bf394900bf9c7",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "05e31d687c4ff6fc174b9cfb27e03fa0d1cbb6385ae950335552fa30b338ae79",
+    "contribution.json": "5c7d9ba211d577d2ad4bba8c0e399d97a71b322732571d910a11b9b43fd759a5",
+    "official_metadata.json": "17bfdd4575b538b05882cfcae2cc33d26abf37fe44f3778c6f608cb7f72001c5",
+    "official_metadata_api.json": "2d9779f23a0a965e6b719848a0da540aa0418bbb2272cbd4178c352260786938",
+    "official_prompt.txt": "0d2003c01e5462362a19f98c8dfb7048c2641b4c913b22cb0aad5d02f61ac45b",
+    "official_prompt_api.json": "e360b6b9eded812ee88cdfcd0180dcfd7a4996c1463aee2681f34ef0d140de57",
+    "prior_attempts/TOP-1192-A1.html": "7a7fd541cc4f9474b3982502e34fbf0e96020275a634f7be9962e92cf704ca69",
+    "prior_attempts/TOP-1192-A1.json": "e170405a59c90a5219febcde9880058e6a419f1514908fd23cbce2c84efb7105",
+    "prior_attempts/TOP-1192-A1.txt": "b79f7af6826e75c1c64656788dcbf0d32420fd81635ad27d95646bc255e17f96",
+    "report.md": "9614ad4c6b251a6e515df7bcb61f204546264a16c8aa47e1bb5bf394900bf9c7",
+    "source_notes.md": "b701e16855998416fc6e093c7dcbc523fde27ddf02b1ea9b5de84ac033486e2b"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:19:25.552993+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read the full earlier manuscript: odd-edge abelianization, rank-two classification and positive word-certificate enumeration do not provide a total all-rank right-angled decision procedure. The added published rigidity specialization supplies terminating negative answers on this unbounded class.",
+    "Checked Coxeter involution relations with labels2/infinity are precisely the graph product of finite nontrivial directly indecomposable C2 groups, with edges for commutation. Radcliffe's theorem applies to finite graphs and abstract isomorphisms, without an extra T0/T1 hypothesis in Theorem5.4 and without assuming standard generators map to standard generators.",
+    "Checked finite bijection enumeration and adjacency comparisons, positive generator maps and inverse, negative implication via rigidity, O(r!r\u00b2) adjacency-test bound and r=0 case. Equal-rank abelianizations cannot replace the graph: complete versus discrete graphs give finite elementary-abelian versus infinite free product forr>=2. Outside-class inputs are correctly left outside scope rather than rejected as nonisomorphic."
+  ],
+  "sources": [
+    "Radcliffe, Rigidity of graph products of groups, AGT3(2003),1079-1088, actual10-page published-version primary PDF independently opened turn1697view1; finite-graph convention p1080, labeled product definitions pp1080-1081 and Theorem5.4 p1086 as turn1699view2."
+  ],
+  "limitations": [
+    "Deep rigidity theorem is credited imported input checked for its statement and hypotheses/proof route; not formally verified or reconstructed in full. The finite algorithm/transfer are directly checked. No checker or executions."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

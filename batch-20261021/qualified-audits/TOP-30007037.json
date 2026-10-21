@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30007037",
+  "canonical_problem_id": "prb_14f7e2c857b646f88919fa03c5242278",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "5c0fbd142ddfd8904722ea87f9f516af2b7fefd7b5927067e77140c55ab8cc41",
+  "report_sha256": "5c0fbd142ddfd8904722ea87f9f516af2b7fefd7b5927067e77140c55ab8cc41",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "3e6c90142cc0007e5c4f6cd7b6de1b3d4ba43798e70685b1e3b16c9c95509664",
+    "contribution.json": "5d46f4c269f5a4de4a8e9a933caf74ced1bf0dd745aa28d11bd7a77b65d897cd",
+    "official_metadata.json": "ce48c332a7649bbce14f0d934ff6b77b2d33d4fa6b48acc9cb38c5883e8d28b4",
+    "official_metadata_api.json": "c109afde0b695155310bbb0361bd9bfcaf2f1c03ce19f155baad8c20b29a0927",
+    "official_prompt.txt": "d923244b0efb558ed65b008c518b6d9253ab3caaa00a1921522cf54759d6d04f",
+    "official_prompt_api.json": "d1f4d8915e5b83d6aebf50d4e69614b9715a26fbb0cf7a0e253e89ad7bd09006",
+    "prior_attempts/TOP-30007037-A1.html": "68aabb8383b02af997649d6b94ca4ad2b5ac4f260a0cd7fe506b378dbe8f6974",
+    "prior_attempts/TOP-30007037-A1.json": "7d6bcafdfdea12d0969b03a69d76acc4351d5573a4426391f586076f884798e5",
+    "prior_attempts/TOP-30007037-A1.txt": "6f862ea0c2f674be27fc38ee3d95c45e75a68d2060d659901a3d224abf131312",
+    "report.md": "5c0fbd142ddfd8904722ea87f9f516af2b7fefd7b5927067e77140c55ab8cc41",
+    "source_notes.md": "b7fe63492d393cda35ba81c98d60180738b090b03a392327f4bf74a2406b7667"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:28:31.641062+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked Buskin rational full-H2 Hodge-isometry theorem is applied only after norm-one isometry construction; arbitrary Hodge maps are not assumed isometric.",
+    "Checked norm-one Q-span is a finite-dimensional subalgebra field, rational Cayley parameter clearing scalar norm denominators yields every imaginary element, then u inverse yields all real elements; scalar field case uses diagonal.",
+    "Checked CM adjoint-conjugation input, NS intersection inverse projector, extension by identity, removal of algebraic projectors and every codimension via Kunneth. Cross terms vanish by Lefschetz(1,1); odd cohomology zero.",
+    "Checked larger totally-real field obstruction z^2=1 and restriction to self-square, not arbitrary higher powers or unrelated surfaces. Read full priorA1 broad unverified claim."
+  ],
+  "sources": [
+    "Buskin, actual31-page primary arXiv1510.02852v3,21Dec2016 header/internal23Dec2016 PDF https://arxiv.org/pdf/1510.02852 (version-specific URL failed): Theorem1.1 printed2 and CM self-square Corollary printed3 with norm-one spanning references."
+  ],
+  "limitations": [
+    "Source/proof-only: no program exists; zero executions and no formal verification.",
+    "Deep theorem proof is credited and its exact hypotheses checked; full analytic/diagrammatic proof is not independently reconstructed."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

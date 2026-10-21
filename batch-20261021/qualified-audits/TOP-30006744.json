@@ -1,0 +1,46 @@
+{
+  "handle": "TOP-30006744",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "ea215aab601a40ca70c5d2134a2ca7f4d7017e4baa90fd1dc06264421197f168",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "9f9aded5d3b21f84b8339d0b29414890df728065352d328bcb8fb26890f63090",
+    "contribution.json": "7f3ae820d85a4099a880449d643f9d7683a5e98ca7fbcdf4414f35d5b305b51b",
+    "official_metadata.json": "2f6f5d61fb857f48e43be3f75aa85f7709797d5eff9c811a97263645ffb3f2b0",
+    "official_metadata_api.json": "0a93685ba3a11427dc0e509f26925355a5bb56718fac8640e2c283144eaa1f4f",
+    "official_problem.json": "2f6f5d61fb857f48e43be3f75aa85f7709797d5eff9c811a97263645ffb3f2b0",
+    "official_problem_api.json": "0a93685ba3a11427dc0e509f26925355a5bb56718fac8640e2c283144eaa1f4f",
+    "official_prompt.txt": "4b827546fc07908b8dee6a1f7a61b4efa599e26eb90980fff97c6cbb45f71231",
+    "official_prompt_api.json": "b41d0a5ee2e4c62b7c15d0ab8f75c9ad283bc1dbe8bc36df4e4b55038c303b11",
+    "prior_attempts/TOP-30006744-A1.tex": "a10eb93c80e3625470f073852dfe0b576d7d09471b962b77be92935d178bf872",
+    "prior_attempts/TOP-30006744-A1_api.json": "743a25ebbc3a9463d345caa9e24b4a768fe377c5a2df03d8abc04186af5efede",
+    "prior_attempts/TOP-30006744-A1_manuscript_api.json": "5e1d6f0110326ca73e947742be2d4cd84125b35680c59e52ffc4bfc3b61521ee",
+    "report.md": "ea215aab601a40ca70c5d2134a2ca7f4d7017e4baa90fd1dc06264421197f168",
+    "source_notes.md": "dc9b2d7309d785041c64ae35036e98dc2595415f24ba05214a8791a7e39f3cf3",
+    "verification.json": "1e142d62a0912a01f07f1690f480e2617a0175ac783deff39da580373e05ae4e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:27:45.416605+00:00",
+  "actual_checks": [
+    "Read literal deterministic explicit-total-MCSP target, full prior and current report. Compared every Theorem1.2 program/circuit size, depth, agreement, universal-gap exponent and randomized one-query qualifier to24Aug2022 primary version.",
+    "Checked n=O(log source NP length) and explicit2^n output. Source Section8 defines its partial table exactly on distribution support; mere support containment would not make a yes circuit consistent with other specified rows. Report explicitly avoids that inference and relies on stated Theorem8.5 corollary.",
+    "Verified sufficient totalization map gap and polynomial explicit-output requirements. Deterministic totalization of randomized upstream reduction preserves randomness; deterministic NP-hardness would additionally need deterministic upstream hardness. Polylog input-length approximation factor is not polynomial-factor hardness.",
+    "Deep information extraction/secret-sharing reduction is credited, not independently certified or executed. Source-only zero programs."
+  ],
+  "primary_sources": [
+    "Hirahara,NP-Hardness of Learning Programs and Partial MCSP,ECCC TR22-119,24Aug2022,primary48-page PDF https://eccc.weizmann.ac.il/report/2022/119/download/,Theorem1.2,printed5-6,Definition8.4/Theorem8.5 and support construction printed29-30 freshly read. Retained07_final.json; complete deep proof not reproved."
+  ],
+  "prior_work_distinction": "A1 rejects canonical totalizations and gives an edit budget. Current exact strong partial-MCSP hardness frontier and support-sensitive composition analysis are substantial distinct literature content.",
+  "scope_assessment": "Hirahara’s 2022 Theorem 1.2 is reported with its explicit partial truth table, randomized one-query reduction, circuit-size gap and input-length normalization. Its implication for partial-MCSP approximation is derived, and a precise sufficient deterministic totalization condition is stated. No deterministic NP-hardness of ordinary total MCSP is claimed.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

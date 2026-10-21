@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-1443",
+  "canonical_problem_id": "prb_16ba52a51ab74ef4b2fb1a467ea35964",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_graphs",
+  "verdict": "PASS",
+  "checked_report_sha256": "d647f6c191ef0c0ae3e7c7de19fa86ab99f0b43664873a8d75ae550d08df02a6",
+  "report_sha256": "d647f6c191ef0c0ae3e7c7de19fa86ab99f0b43664873a8d75ae550d08df02a6",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "author_record.json": "6111dd9855df393e0104e9328934fdaa093fc89156c861fc73f873f64e7e51f6",
+    "contribution.json": "327ec64f2f3e5c22b43437249f941e471551af207b61eedaa6a35faa6d977a45",
+    "official_metadata.json": "f576c6d23a6c5d5197e9ffa3b2cd5eff637152a518002e6e955892a173f409da",
+    "official_metadata_api.json": "0f4ebd822b98fa13aa8cbb7acff6de7db4ecd104a10a9cfcfe5bd0efab14595e",
+    "official_prompt.txt": "63d4f7ee36c94e3b1b21441b52bb502baa4116d8311b974065e7252bc24ae62a",
+    "official_prompt_api.json": "d2cf03315ae15ac62a3aace4678dd0c3c74beb6ae63e15a12647e7baad8be43e",
+    "prior_attempts/attempt-1.txt": "c2e103a418b07bbaaa57a7972cc45ed81fd9c4993a9554f6d1838fec6791f732",
+    "prior_attempts/attempt-1_api.json": "55b0dabe5a5a5b3d14224449aa64dfc1e99dee4f0776eeea587d6573abed7b14",
+    "report.md": "d647f6c191ef0c0ae3e7c7de19fa86ab99f0b43664873a8d75ae550d08df02a6",
+    "retrieval_record.json": "d1641d6b543ff17de2838f539013e765904520fa6f41ed65f9b5ff3530d29d3b",
+    "source_notes.md": "6bd92c60832d243366f52d9cb9091b496c5b78c9b0b0d9de8301db1a2d555916"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:35:21.996658+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read the entire prior attempt, including its modular-to-integer lifting proof. The oddness-four structural theorem and orientation-complete cut certificate are distinct substantial additions.",
+    "Checked cyclic rather than ordinary six-edge connectivity, bridgeless oddness convention, integer values and narrowed loopless cubic multigraph certificate scope against the broader prompt.",
+    "Independently checked both directions of the bipartition certificate, the all-subsets inequality, total outdegree slot count and Hall argument for arbitrary edge subsets (including parallel edges). Checked valuation signs, 3-cut parity and bridge contradiction. No prescribed orientation is silently assumed realizable."
+  ],
+  "sources": [
+    "Opened arXiv:1412.5398 PDF, displayed v1, 17 December 2014, 10 pages. Checked Theorem 1.2 on page 2 and Jaeger balanced-valuation Theorem 2.1 with explicit cubic +/-5/3 specialization on page 3: https://arxiv.org/pdf/1412.5398."
+  ],
+  "limitations": [
+    "Independent mathematical/source review by an LLM; no formal proof certification, novelty-priority decision, or editorial acceptance.",
+    "The structural oddness theorem and balanced-valuation characterization are credited imported results; their full proofs are not independently certified. No program is attached or executed, and the unrestricted 5-flow conjecture is not claimed solved."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "actual_program_run_count": 0,
+  "formal_verification": false
+}

@@ -1,0 +1,48 @@
+{
+  "handle": "TOP-3405",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "da89521ecc9659283e14562b111033493339a0493b156dd78168af441e393a6b",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "761cee1c3570d40965be8e7ce65a823ab4b3d9f044289017cc706f3c94ff145b",
+    "contribution.json": "b1aed3ab5daba93eaee741ea53f36eff30cb4b1a5a493d9474d33a3f9a374a0e",
+    "official_metadata.json": "226283e0d9ff39fce18bd12e80f370cbcfb9de9a9db0b0f0cad46247cad5be92",
+    "official_metadata_api.json": "774c3ef272df7f3de914bf120e09f17b37c4f6842cc61d513701d75846336679",
+    "official_problem.json": "226283e0d9ff39fce18bd12e80f370cbcfb9de9a9db0b0f0cad46247cad5be92",
+    "official_problem_api.json": "774c3ef272df7f3de914bf120e09f17b37c4f6842cc61d513701d75846336679",
+    "official_prompt.txt": "f583d281019dc388103cbe046b37bbfad6bf0d2be52f027c1c14022483809be2",
+    "official_prompt_api.json": "4105b1e95e63071d310594518bac08e0dcd26a19f70064b99d795ca87a0b3eaa",
+    "prior_attempts/TOP-3405-A1.tex": "6f74571c1cbcf3b4cf305568567b693b86bbdde3ae70b544bf4e5381c4030bb9",
+    "prior_attempts/TOP-3405-A1_api.json": "4d5ce60ff2a9afa1f05c93b6e539514531c9e0153a585cdb9ddfd02866edf750",
+    "prior_attempts/TOP-3405-A1_manuscript_api.json": "cf9989b794745127ddcb2fb9a1cf1addf136e25423250397e0298906e15b74de",
+    "prior_attempts/TOP-3405-A2.tex": "8b48811fc3a3064cd3a5b473d80c4f191ad8d74c20e7498f797e0057ac4ea938",
+    "prior_attempts/TOP-3405-A2_api.json": "7507cad7ea354153ce37e7146cc243e00a169605745270965a8ecf0226911481",
+    "prior_attempts/TOP-3405-A2_manuscript_api.json": "66175253f425cd044b01720b9e7c6c160f7dfa16114fdda208e187c5f0571b9a",
+    "report.md": "da89521ecc9659283e14562b111033493339a0493b156dd78168af441e393a6b",
+    "source_notes.md": "3239fd5329db8037ec40becb8eadda852b38901fbc6c86d09def2ed1cc65697f",
+    "verification.json": "1e142d62a0912a01f07f1690f480e2617a0175ac783deff39da580373e05ae4e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:29:06.358579+00:00",
+  "actual_checks": [
+    "Read exact uniform total-language BPP/P prompt, both complete prior bodies and current proof. Fixed polynomial independent repetition yields exponentially small error with polynomial exact random-bit count; eventual m*delta<1 and finite exceptional lengths are legitimate machine-dependent constants.",
+    "For each yes input expected uncovered cube points<=2^m*delta^m<1 proves existence of m shifts; for each no input union of m translates has size<=m|S|<2^m. Quantified strings have polynomial lengths m^2,m and inner simulations are polynomial, so this is actual uniform Sigma2 containment.",
+    "Complement BPP machine supplies Pi2 containment. Existential shifts need not be efficiently found, and the universal coverage block remains. No advice-to-uniform jump, promise substitution, P=BPP claim or execution."
+  ],
+  "primary_sources": [
+    "Lautemann,BPP and the polynomial hierarchy,IPL17(4)(1983),215-217,primary Elsevier record/abstract freshly retrieved at https://www.sciencedirect.com/science/article/abs/pii/0020019083900443,DOI10.1016/0020-0190(83)90044-3. Full original article not accessed; complete written counting proof checked independently. Retained08_details.json."
+  ],
+  "prior_work_distinction": "Priors offer good tape advice, conditional generators/estimators and independence failures. New complete shift-cover proof supplies the stronger unconditional uniform hierarchy containment with polynomial quantifier accounting.",
+  "scope_assessment": "For every total BPP language, a uniform Σ₂^P ∩ Π₂^P decision procedure is proved by an explicit amplified shift-cover construction. This is a classical unconditional containment, not P = BPP.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

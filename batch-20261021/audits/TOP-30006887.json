@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006887",
+  "canonical_problem_id": "prb_428960a99f7e40f0879788b1737bf4b3",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "aff6b94c7e6f983a7c940e7741b1535316e0ad10ce7c04c0834acdf1df7b3e89",
+  "report_sha256": "aff6b94c7e6f983a7c940e7741b1535316e0ad10ce7c04c0834acdf1df7b3e89",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "46834334c8c2f48b3afa27e88700d4e211a5aed18a50c00727c229bff37fa6a7",
+    "contribution.json": "2a87211809e51b914d47ee574a4d5f73a799a45c3895e88d25b7c6a30041dba8",
+    "official_metadata.json": "e07fd3047683d3c8c36eb4614fd35e16e995acaf24005262d90d215adf0b7916",
+    "official_metadata_api.json": "0eafd8744f078bba10fb7fc78841de944240c81f71ef6f1aa364538555ba3159",
+    "official_prompt.txt": "1ac03e751f87ca668c3d1e8d30971d3ad2cf37f424bcdcb59414d5ced274d58b",
+    "official_prompt_api.json": "fcddf42c57708d354b99b2ea8930cc6c6f3de807f3fb4024648278680f0ed884",
+    "prior_attempts/TOP-30006887-A1.html": "d7794ed17ddba3673294ca93b641e29bda10be285731ccc0926fbeb6c3e611d3",
+    "prior_attempts/TOP-30006887-A1.json": "3afbd5315a0f4b5bae7785712b47c47f2fccd2d434d729d04706738cab53fdee",
+    "prior_attempts/TOP-30006887-A1.txt": "93744344f345c754aa69ca21771c1848596f4c1660d05ca4d7cc0b9877381220",
+    "prior_attempts/TOP-30006887-A2.html": "3f6e6ea69690aa9eb22cc7ad02b0a93d5e136364c562f4837f2b9d328bcd8a81",
+    "prior_attempts/TOP-30006887-A2.json": "5fe6a75abf6b42f97b1b9779203ac6e71fed323bc2f186d5831336b87d55cb63",
+    "prior_attempts/TOP-30006887-A2.txt": "bd06b82421dc4e7b80465886566afde709697ed81bd3a4552507f4da9fe7ac93",
+    "report.md": "aff6b94c7e6f983a7c940e7741b1535316e0ad10ce7c04c0834acdf1df7b3e89",
+    "source_notes.md": "a5f72dadd59bf030a376fcdb2c9c127cf0c5a37d24f3dfd53e5b4acea3291e2c"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:30:35.977622+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Reread complete final corrected report aff6b94c7e6f983a7c940e7741b1535316e0ad10ce7c04c0834acdf1df7b3e89: minimal kappa=-infinity explicitly P2 or geometrically ruled. Author record and source-notes current hashes checked.",
+    "Checked rational/elliptic entire-curve obstructions, minimality before classification, all kappa values, smooth general elliptic fiber, kappa0 four types and finite-etaIe covers. Projective K3 cover satisfies actual rational-curve theorem.",
+    "Checked kappa2 yields big K, cone theorem nefness, positive square, strict Hodge-index inequality for numerically nonzero irreducible curve, arithmetic-genus adjunction and delta normalization forcing smooth rational curve. Nakai\u2013Moishezon hypotheses all hold.",
+    "Read both full priorA1/A2 bodies: prior conditional big-surface step is completed here by classification/K3 input; unrestricted nonprojective Kahler result remains unverified and unclaimed."
+  ],
+  "sources": [
+    "Beauville, actual177-page official original Asterisque54(1978) PDF https://smf.emath.fr/system/files/filepdf/AST_1978__54__R1_0.pdf : ChaptersVII\u2013IX, TheoremVIII.2 printed120\u2013121, ListeVI.20 printed112\u2013113, Enriques etale K3 double cover discussion printed134\u2013135, elliptic classification ChapterIX.",
+    "Bogomolov\u2013Hassett\u2013Tschinkel, actual19-page primary author PDF dated20July2009 https://math.nyu.edu/~tschinke/papers/yuri/09k3infinitecurves/rankone5.pdf : Section3 Theorem8 printed5 exact complex projective K3 existence.",
+    "Diverio, actual46-page primary author exposition arXiv2011.11379v2,15Dec2020 https://arxiv.org/pdf/2011.11379 : projective cone-nefness discussion and Lemma5.1 printed26."
+  ],
+  "limitations": [
+    "Source/proof-only; no programs, zero executions and no formal verification.",
+    "Deep credited theorem proofs are not fully independently reconstructed; exact source statements and the report deductions were checked."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

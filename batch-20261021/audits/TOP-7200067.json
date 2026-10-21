@@ -1,0 +1,33 @@
+{
+  "handle": "TOP-7200067",
+  "reviewer": "/root/hundred_topology",
+  "author": "/root/hundred_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T19:00:31.654640+00:00",
+  "checked_report_sha256": "4d0d35c86bb240c161dafb18373c53a0dd311132da490223b42d855b7711f2dc",
+  "checked_source_notes_sha256": "9339681cbc738e151b0f022eafeb915834776bc7b979598672a4214d939f6399",
+  "checked_contribution_sha256": "49e695c9fc062364e2d65d6b1e47eaee0fdb6335a9040534d49e2586b51582d3",
+  "programhashes": {},
+  "program_hashes": {},
+  "actualchecks": [
+    "Read literal prompt already recordinggamma9=2 and full report/notes; no priors. Matchedv2Theorem1/Corollary1 counts2,237,251,040 perfect/7,338,582 extreme lattices and computer-assisted preprint status.",
+    "Independently checked D8index2,E8index2superlattice/covol1,minnorm\u00b22, integer112plus half128roots; Lambda9blockdet1, layer k0/\u00b11/|k|\u22652 norms and240+32=272minimal vectors.",
+    "Checked Hermite denominator covol^(2/9) versus Gramdet^(1/9), direct lower bound versus exhaustive upper theorem, and no nonlattice/all-other-dimensions conclusion.",
+    "Confirmed exact prompt bytes and decoded metadata content against retained fresh API wrappers and current author-record hashes; source-only, zero program executions."
+  ],
+  "primary_sources_actually_read": [
+    "DutourSikiric\u2013vanWoerden arXiv2508.20719v2 displayed7February2026, fresh Theorem1/Corollary1,\u00a72.1Example1/\u00a72.2det conventions and data paragraph, turn1481view0."
+  ],
+  "checked_files_sha256": {
+    "official_metadata_api.json": "48cda0c96232a3060b1025cd5b0eaff5d9de91acfac17e6b5c470d51c24c58ca",
+    "official_metadata.json": "723bc4ed008fd85ca6f9ee8a3edaa979a83a7461e3cbedcd96beeb6e07e7f3f7",
+    "report.md": "4d0d35c86bb240c161dafb18373c53a0dd311132da490223b42d855b7711f2dc",
+    "source_notes.md": "9339681cbc738e151b0f022eafeb915834776bc7b979598672a4214d939f6399",
+    "author_record.json": "54be08f9b59e2f5e4c414d0a223595a00a90709173085c3c93d06290211ac397",
+    "official_prompt_api.json": "26c8dafe811a75c5f5567b466b4f5352e93e6a1a846a86c86ebeb1f0af320d41",
+    "contribution.json": "49e695c9fc062364e2d65d6b1e47eaee0fdb6335a9040534d49e2586b51582d3",
+    "official_prompt.txt": "841b4ba6e85ab43ac3b3687d1bc3233798945f3718e50f7a24c7c2b8912d1f30"
+  },
+  "limitations": "Independent LLM review of prose, proof and inspected primary-source passages; not formal verification or human/editorial acceptance. No program exists or was executed. No150GBclassification download/rerun or independent enumeration certificate audit claimed."
+}

@@ -1,0 +1,69 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3226",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "fde71c3c87dda8d9bb64a2886071550473c7e82ce8a1c2bddddd5d954cab25df",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "fde71c3c87dda8d9bb64a2886071550473c7e82ce8a1c2bddddd5d954cab25df",
+    "source_notes.md": "d9da67f414ac160bccc5a1a69dc3b6f178e7e0c656eb7e344a4d1d927afc5c85",
+    "author_record.json": "c460b4237f6fcfd60dbc1a99307878c6261b209202e04783a74b4b710eee6e8f",
+    "contribution.json": "27c04f5732b9ab2934861c1c07e406fc81999f345a818c9359ab8d156a242304",
+    "official_prompt.txt": "b010c4618f23681d3332b3bb506654b7b1325452803f8339c57b7bb88ea8a218",
+    "official_prompt_api.json": "ce22b9e8c960f082d79f510ae5f34e7f43e13564ac5eefaa05882e9219d820ec",
+    "official_metadata.json": "e54fd1d363a5009aa60451d1357a729934122b058f7f914c61e69829cb78c7f1",
+    "official_metadata_api.json": "61728c8a3eb64beb6bddf1efa96bdba651bdafed5c3dc98615e66468cd644769",
+    "prior_attempts/attempt-1.txt": "353c783787631e7d458b607f3de4b2b92a25caa3aefa7ecf7ee3aa44f5bef3bc",
+    "prior_attempts/attempt-1_api.json": "c23de2ba9db77d5de15abc59f6271faa376d1ef3db3c131a5a577678c2cd9124",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "ccd087e8c5a5a293c991712fdac8c8f51d0843a7cd0f4bd373922bda99f0cfe0"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked King–Reed Theorem 1.6 for ordinary coloring of all claw-free graphs; the stronger local three-cliqued theorem is not substituted. The source masthead is arXiv1212.3036v1 (13 December 2012), irrespective of a later internal rendered date.",
+    "Independently checked the α≤2 deduction: induced χ-critical reduction, triangle-free complement components, complete-join additivity, criticality of each component complement, and Gallai n_i≥2h_i−1 including singleton components. Neighborhood independence yields w_i≥Δ(F_i)≥δ(F_i); selecting a minimum-degree component recovers exactly s−1 units, giving Δ(H)+1+ω(H)≥2χ(H)−1 and the correct global ceiling.",
+    "The full prior equal-clique C5[K_t] family and critical constraints are properly distinguished. The proof adds the entire independence-at-most-two class, while the credited literature theorem supplies all claw-free graphs. Neither claims the arbitrary-graph or list-coloring conjecture.",
+    "Identified the erroneous Stehlík page range in the frozen report. Root preserved the old author bytes and corrected the citation to JCTB89(2003),189–194, DOI10.1016/S0095-8956(03)00069-8. Reread the amended complete report and author record and revalidated every author-bound input hash before this PASS."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1212.3036",
+      "version": "arXiv1212.3036v1, 13 December 2012",
+      "locators": "Theorem 1.6, all claw-free graphs; Theorem 1.7 distinguished.",
+      "retrieval_refs": [
+        "turn1831view1",
+        "turn1835view0"
+      ],
+      "access": "Full primary PDF theorem and structural framework read; entire deep proof not independently certified."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0095895603000698",
+      "version": "Stehlík, Critical graphs with connected complements, JCTB89(2003),189–194",
+      "locators": "Primary publisher abstract states Gallai critical-complement order theorem.",
+      "retrieval_refs": [
+        "turn1831view2",
+        "turn1835search0"
+      ],
+      "access": "Direct open returned403; primary publisher search abstract confirmed exact theorem and corrected publication pages. Full article proof not read."
+    }
+  ],
+  "distinct_significant_scope": "Credited full claw-free literature resolution, with an explicit complete independence-at-most-two deduction handling complement joins and rounding, beyond the retained C5[K_t] family; imported Gallai theorem and source access boundary stated.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:32:04.911287+00:00"
+}

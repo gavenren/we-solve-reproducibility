@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006924",
+  "canonical_problem_id": "prb_36bcdab2c93d4cfdaaa1fd5d5963e276",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "f60bc796e00e544f7c83311e2748bf71273e5280e68f7d40d81993c0a130bd1e",
+  "report_sha256": "f60bc796e00e544f7c83311e2748bf71273e5280e68f7d40d81993c0a130bd1e",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "b7a649a48eb187b7e5bcdf1b33f63e6c86f99611f3d104137345ecce7a003a2f",
+    "contribution.json": "193e8d1520c6952fa29eaa591ccf44573421f7d0a0c71bc5167c5fb3af8c7b51",
+    "official_metadata.json": "6ef7c2d9ba0668fb02049bea2b8e34d258951fad82f3bf8bbbd078c8dd4d91ce",
+    "official_metadata_api.json": "26e9d9a747295d3e766ef6407033ebe718b127041aff271ad68704da70ad58c8",
+    "official_prompt.txt": "91dc18f1832edb1536c348af5a60cd4043b71e3c3544da21b243cdb53b74d1d2",
+    "official_prompt_api.json": "dac99296889f161cb48f94f89307dfaea500643422ba819b3233719e8f498902",
+    "prior_attempts/TOP-30006924-A1.html": "c82dec377372486a142188c95d0196bdb8fda2e576f526a3ddbd07de073930b4",
+    "prior_attempts/TOP-30006924-A1.json": "2e0bc95deca825255e6d131a4f200ad8b5364044b347eaa123605e9e4ad295d1",
+    "prior_attempts/TOP-30006924-A1.txt": "890ea5a3eee1598ac229df7ac98cd4caf434213befafd014fab32b2f9a7ecf6f",
+    "prior_attempts/TOP-30006924-A2.html": "d94625e47341d7bce36e2e84495c637b4f7467452ecddaba6dc791d623157958",
+    "prior_attempts/TOP-30006924-A2.json": "3c26c52653228335f15d02e6900110ebef5aa63640e59e2c7447920d40237a0b",
+    "prior_attempts/TOP-30006924-A2.txt": "f1f6a2d11d9524af3362c07b38ea00d5221a51e53eb32fd613f33ab38b28c19f",
+    "report.md": "f60bc796e00e544f7c83311e2748bf71273e5280e68f7d40d81993c0a130bd1e",
+    "source_notes.md": "447a689931c09638d12364b6fb63a8d9c882fdb6c2d2e9d836e0c5142b7be4c2"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:25:25.561492+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked finitely generated support reduction for arbitrary discrete groups, inverse-word Hamming error, fixed-point trace limit, block norm bound C and normalized d|V| trace. Approximate permutations need not be homomorphisms.",
+    "Checked integer characteristic-coefficient product including zero matrix, weak spectral convergence, small-positive-eigenvalue bound, relative interval Portmanteau argument and convergence of omitted zero mass.",
+    "Checked continuous truncated logarithm minus zero-atom contribution, bounded negative part and monotone convergence; only nonnegative inequality, not determinant convergence, follows.",
+    "Read complete A1/A2 bodies: full sofic approximation extends the prior exact finite-quotient proof; any actual negative counterexample must be nonsofic, with no certification of the prior claimed example."
+  ],
+  "sources": [
+    "Elek\u2013Szabo, actual primary20-page arXivmath/0408400v2,7Oct2014 PDF https://arxiv.org/pdf/math/0408400 : Section6, Proposition6.1 printed17, Lemmas6.2\u20136.4 and Theorem5 printed18."
+  ],
+  "limitations": [
+    "Source/proof-only with no programs: zero executions, no formal verification.",
+    "PASS checks the stated restricted contribution and exact imported hypotheses; it does not certify the unrestricted research problem.",
+    "No finite matrix computations or Lean files were executed; the analytic limit argument and direct permutation proof were checked mathematically."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

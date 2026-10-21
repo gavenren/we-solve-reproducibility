@@ -1,0 +1,33 @@
+{
+  "handle": "TOP-3800019",
+  "reviewer": "/root/hundred_topology",
+  "author": "/root/hundred_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T18:58:40.518627+00:00",
+  "checked_report_sha256": "9ffd034049c09a939724776f2dc344226adc419fa0a585e8e2afdc235c01b42a",
+  "checked_source_notes_sha256": "0905345c56b882b8491d9039183e662d808bb8fca7c5c921b4b00c45c7016986",
+  "checked_contribution_sha256": "10b2ef1c656b4e900ee419d7ff835fd98f3fe8d23017dd1728ecef372500de60",
+  "programhashes": {},
+  "program_hashes": {},
+  "actualchecks": [
+    "Read literal rational-bit exact-uniform sampling/counting prompt, full report/notes; no priors. Verified hull cyclic-order lemma by Jordan separation and unique reversal/rotation representative.",
+    "Checked permutation \u00d7 weak composition bijection, count k!binomial(n\u22121,k), exact nonadjacent crossing test under general position and polynomial rational-bit arithmetic.",
+    "Checked streaming integer size, exact two-pass sampling, positive polygonization via radial ordering, rejection probability\u22651/2 with N1 separately, expected complexity XP not FPT/unrestricted polynomial.",
+    "Confirmed exact prompt bytes and decoded metadata content against retained fresh API wrappers and current author-record hashes; source-only, zero program executions."
+  ],
+  "primary_sources_actually_read": [
+    "Erickson primary randompoly.html, freshly read full historical note turn1453view3; algorithm deductions checked directly."
+  ],
+  "checked_files_sha256": {
+    "official_metadata_api.json": "9380d09d4a223256c80b41e618ec90b5fdb63e08f3cc24d3e0ea5bf149588b23",
+    "official_metadata.json": "dc529cf16a3f71a467b8214c8f21f79e7623a1c05781f134411f97b7933cb563",
+    "report.md": "9ffd034049c09a939724776f2dc344226adc419fa0a585e8e2afdc235c01b42a",
+    "source_notes.md": "0905345c56b882b8491d9039183e662d808bb8fca7c5c921b4b00c45c7016986",
+    "author_record.json": "16dc2532e3076f7d0379f22c7561fe48ce8112e80bb394e7f0a5cf625b69da10",
+    "official_prompt_api.json": "186869c35cdfd3bc9c8341b895c5a9561cb5ec0a5fcb877e5ba2abf1d2e0ca37",
+    "contribution.json": "10b2ef1c656b4e900ee419d7ff835fd98f3fe8d23017dd1728ecef372500de60",
+    "official_prompt.txt": "a25512e90933433a371a789b36f9e1b2e4d2f2cbe7ef67126a3edf72480dd3ee"
+  },
+  "limitations": "Independent LLM review of prose, proof and inspected primary-source passages; not formal verification or human/editorial acceptance. No program exists or was executed. No implementation, timing or contemporary unrestricted complexity frontier inferred."
+}

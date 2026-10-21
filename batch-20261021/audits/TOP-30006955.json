@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006955",
+  "canonical_problem_id": "prb_9f668cbf340a4517a610fb637d8a0ffd",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "801e07ecdb8321668b7659326ee10f600fab0b15686b0fcbb890dbcbc7107156",
+  "report_sha256": "801e07ecdb8321668b7659326ee10f600fab0b15686b0fcbb890dbcbc7107156",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "6030df4b845ce84061fac9185767046d7ecd9a60de2cffcb67ac61d13c01a08f",
+    "contribution.json": "31d1c698a0fc07c0d0932b232ce03ea4b46105c381f92acba2cfd9dd7fc3adcb",
+    "official_metadata.json": "0c84f0981c83213a0cf49ae6c8387d3ace7212f3ae86799842332b76eb1f5d46",
+    "official_metadata_api.json": "46c3c025cd123b6fcb3ffd15aa9b9763dd7906a27152a49ef88a47b8c964b928",
+    "official_prompt.txt": "ef9464cfb957d7dfeff3782eb63c7593fe8bbb177c7ebf3e71a6b3816eb741e7",
+    "official_prompt_api.json": "b62c3be0d4469006da0dc0167f24e2f3ed499526e6c3938edfc97f8596505b8f",
+    "prior_attempts/TOP-30006955-A1.html": "9f720d376e3938cdabe36a957dd542a8975257068e139f0f43dbcf015192c6ae",
+    "prior_attempts/TOP-30006955-A1.json": "24a819d2faacce3645a306940d167ed3a64112dcacd66ba7edb389620991decb",
+    "prior_attempts/TOP-30006955-A1.txt": "052698cab85a553ebb4834c30e3c90d40bbf155864a1efd5c50a3abbf5cc41b5",
+    "report.md": "801e07ecdb8321668b7659326ee10f600fab0b15686b0fcbb890dbcbc7107156",
+    "source_notes.md": "80f43b0fe88143631254112008ca16761559205052c85ef7a39860b9949ca6ef"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:25:25.594641+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked tensor KL basis and structure constants, actual attainment of bounded integer degree maxima, nonzero leading coefficient products and distinguished-set equality from nonnegative coordinate gaps.",
+    "Checked coordinatewise based preorders/cells, each property P1\u2013P14 including parabolic products and equal-total-a with comparability forcing coordinate equalities.",
+    "Checked genuine independent-variable P15: occurrence forces y_i<=LR w_i in either sum; lack of comparability forces both coordinate sums zero; otherwise P4 and total equality yield all coordinate equal-a hypotheses. Finite sums factor correctly.",
+    "Read full priorA1 including Boolean two-variable argument and finite-ball limitation; arbitrary-weight noncommuting infinite affine factors and tensor proof add distinct scope."
+  ],
+  "sources": [
+    "Lusztig, actual primary141-page arXivmath/0208154v2,10June2014 PDF https://arxiv.org/pdf/math/0208154 : Section13.2 printed55,13.6 and full fixed Conjectures14.2 printed58, including exact two-variable P15.",
+    "Guilhot\u2013Parkinson, actual39-page primary author manuscript https://www.maths.usyd.edu.au/u/pubs/publist/preprints/2017/guilhot-14.pdf : abstract, Sections8\u20139, especially9.3/Theorem9.5 for P15.",
+    "Guilhot\u2013Parkinson, actual64-page published original Algebraic Combinatorics2(2019),969\u20131031 https://www.numdam.org/item/10.5802/alco.75.pdf : Section7, Corollary7.11 and Theorem7.13 conclude full P1\u2013P15 for all allowed parameters."
+  ],
+  "limitations": [
+    "Source/proof-only with no programs: zero executions, no formal verification.",
+    "PASS checks the stated restricted contribution and exact imported hypotheses; it does not certify the unrestricted research problem.",
+    "Long factor proofs and their imported representation-theoretic inputs were not fully reconstructed; this audit checks theorem scope and the separately supplied product argument."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

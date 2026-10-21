@@ -1,0 +1,76 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Significant problem-specific literature synthesis for the exact endpoint-fixed binary model. The report reconstructs the distinct-factor orbit/prime-root reduction, closes its proper-power loophole for binary constant-one polynomials, derives exact parity-dependent linear-factor probabilities, and explains the intersection of unconditional linear-degree exclusion with the conditional one-large-factor theorem. The unconditional probability-one target is explicitly left open; the imported conditional theorem and sharper asymptotic are credited rather than claimed as new.",
+  "actual_checks": [
+    "Read the complete literal n>=2 prompt, both retained API wrappers, exact metadata, retrieval, full report/source notes/contribution and author record. The canonical identity and zero listed earlier contributions agree. Both decoded GitHub contents and reconstructed Git blob SHAs are checked; no original checker is attached.",
+    "Checked the conditioning exactly: iid uniform binary coefficients conditioned on a0!=0 force a0=1 and leave n-1 independent uniform interior coefficients. BSKK Theorem1(b) supplies a fixed positive lower bound, not a limit1. Its Theorem2 applies with H=3 and epsilon=1/2; PDF page3 visually confirms H>=3 and the >theta*n divisor-degree conclusion. The report explicitly restricts this to nonconstant divisors.",
+    "If all distinct rational factors coincide, monicity and Gauss's lemma give F=g^m with g monic integral and g(0)=+-1. For m>=2 the first nonconstant coefficient has absolute value at least2, and its degree is below n; thus a binary F cannot be a proper power. This justifies R(F)=1 iff irreducible and Pr(reducible)<=E R-1.",
+    "Verified Burnside on the set of distinct roots of the squarefree part, its Galois orbits corresponding to distinct rational irreducible factors, and the Frobenius root count outside finitely many bad primes. Chebotarev gives the fixed-polynomial prime average, with repeated factors removed only for the root set. At fixed n the finite sample permits averaging; no exchange with n->infinity or unsupported uniform estimate is used.",
+    "Expanded the Horner recursion: X_(n-1)=a^(n-1)+xi_(n-1)*a^(n-2)+...+xi_1, so aX_(n-1)+1=F_n(a), including a=0. Exact uniform 1/p evaluation is properly rejected as an unproved mixing assumption.",
+    "Re-derived both parity probabilities. For n=2m the zero event O-E=2 is a Bin(2m-1,1/2) count at m+1, giving choose(2m-1,m+1)/2^(2m-1); for n=2m+1 it is equality of two independent Bin(m,1/2) variables, giving choose(2m,m)/2^(2m). The out-of-range convention gives t2=0; t3=1/2 and t4=1/8 also agree directly. Stirling yields sqrt(2/(pi*n)) in both parities. T+1 is proper for every n>=2, so this is a valid unconditional reducibility lower bound.",
+    "Checked BV Theorem2(1)'s independence, equal interior law, bounded coefficients and strict squared-l2 mass hypothesis: 1/2<1-1/4. Its root-field RH assumptions differ from the stronger compositum assumptions of part2; only part1 is used. Its cyclotomic remainder has degree<=K sqrt(n), and constant1 excludes a T power.",
+    "On the intersection with the unconditional small-divisor event, a nonconstant Phi is forbidden for K sqrt(n)<=theta*n. The union bound requires no independence and gives n^(-c)+exp(-c1 sqrt(n)/log(n)), conditionally tending to0. Constants and sufficiently-large-n restrictions are retained, not converted to explicit all-degree estimates.",
+    "BV Corollary4 and its proof on printed pages44-45 match the exact fixed-endpoint binary model and yield the credited sqrt(2/(pi*n))+O(1/n) reducibility law under the stated Dedekind-RH hypotheses. The report does not claim independent proof of all higher-cyclotomic estimates or a new unconditional result."
+  ],
+  "prior_comparison": "The complete current official prompt says None yet, and the decoded canonical metadata has contributions=[]. No earlier body is listed or retained for TOP-146. Its canonical identity is distinct from the earlier424 exclusion inventory and other active claims. The retired TOP-11 significance rejection remains historical evidence and is not counted as an active contribution.",
+  "primary_sources": [
+    {
+      "source": "Bary-Soroker, Koukoulopoulos and Kozma, Irreducibility of random polynomials: general measures",
+      "version": "Concrete author PDF dated May24,2023,65 pages; compared with arXiv:2007.14567v3 header2Jun2023/internal5Jun2023",
+      "url": "https://dms.umontreal.ca/~koukoulo/documents/publications/irreducible.pdf",
+      "locators": "Definition of Upsilon and Theorem1(b), printed page2; Theorem2 and its conditioning/support/maximum-atom hypotheses, printed page3; page3 visually inspected to disambiguate >= symbols.",
+      "actual_access": "Both concrete PDFs opened. Introductory model and exact theorem statements read; no claim of independently auditing all65 pages. The May24 PDF used by the author was independently opened and its date and relevant statements matched."
+    },
+    {
+      "source": "Breuillard and Varju, Irreducibility of random polynomials of large degree",
+      "version": "arXiv:1810.13360v2,16Oct2019,50 pages; Acta Mathematica223(2019)195-249",
+      "url": "https://arxiv.org/pdf/1810.13360",
+      "locators": "Theorems1/2, printed pages2-3; Corollary4, page4; Section1.3 and Theorem8, pages6-8; Section9.2 and Corollary4 proof, pages44-45.",
+      "actual_access": "PDF opened and precise cited statements, endpoint remarks, fixed-polynomial root-count discussion and Corollary4 proof discussion read. The prime-average form in the report follows the same Chebotarev/Burnside mechanism; no quantitative uniformity is inferred from the fixed-polynomial limit."
+    },
+    {
+      "source": "Weizmann Institute of Science institutional primary publication record",
+      "url": "https://weizmann.elsevierpure.com/en/publications/irreducibility-of-random-polynomials-general-measures/",
+      "locators": "Publication metadata",
+      "actual_access": "Opened to confirm Inventiones Mathematicae233(3),September2023,1041-1120 and DOI10.1007/s00222-023-01193-6; technical theorem checks use the actual author PDFs."
+    }
+  ],
+  "required_corrections": [],
+  "limitations": [
+    "Literature report with conditional conclusions; not a full solution to the unconditional target. The elementary reductions are checked directly, while the deep random-polynomial estimates, Chebotarev and imported uniform bounds are credited inputs.",
+    "Source-only: zero original program runs and zero imported large computations rerun. Retrieval/integrity bookkeeping is not scientific execution evidence.",
+    "Primary source retrieval responses are retained in coordination/qualified_number_first_half_primary_12.json through _18.json; dynamically rendered HTML date discrepancies are not used to assign the concrete PDF versions.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-146",
+  "reviewer": "/root/sol_ultra_numbers",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "3123cf6a0ccd98cb350f3b83e41026ce9c23cab0712f80c845b22c6f5d2975df",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "3123cf6a0ccd98cb350f3b83e41026ce9c23cab0712f80c845b22c6f5d2975df",
+    "source_notes.md": "48d6711ff8b4bad83e51e4ebca01428c9c845ae5e54f81c542be6a5f22d84b91",
+    "author_record.json": "59d56e3f546e3664d7ca92c2127a41279f5d799287f4b87a374192da239454ea",
+    "official_prompt.txt": "fa792f64f32d2efb1e617cac3979b7060dcc0ce859687fb11b21c4c0265eeb2f",
+    "official_prompt_api.json": "e10f8275c058bf36df1fb3a570940a793b13152f02e9fa60471ebbdd9c1593eb",
+    "official_metadata.json": "cd352e20e58cf4e79006152c797af4cc4b1016eefa08923f939d2106f5f7e2ef",
+    "official_metadata_api.json": "04a1f4e84e12d745abfa6564d3a48d504ec1aca3fff3bf108e1a106303977e6e",
+    "contribution.json": "8a41e389bc31de1151624c8b8ace27a52829d0f8830c7772945a66740e5b826e",
+    "retrieval.json": "b90e7ce1d985f3783490d9369953b66b0dc01eac09c7253bd1fe0352b23f0bc4"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_numbers_first_half_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:37:34.042680+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

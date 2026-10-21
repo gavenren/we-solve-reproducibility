@@ -1,0 +1,52 @@
+{
+  "handle": "TOP-1",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "545b4b6ad06f717cb693acc64007b807a763ab35376b8b0d95839273bc56ba0e",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "d811a96b10930806c40944c1e78d195f56fca9a62e32c2261c74208ce0370a96",
+    "contribution.json": "e5a7ffb43548b5763a46d6b20d18af4452e4b8a43bf9875b2f8fbe637ab06868",
+    "official_metadata.json": "bf5f1797b642843302481710af62fd03165a153a0a0830d016e4718a1177efa2",
+    "official_metadata_api.json": "025ebfd5b464d9bce1521e9945d3491d0f56879c93ae64c8a7a643789be21f16",
+    "official_problem.json": "bf5f1797b642843302481710af62fd03165a153a0a0830d016e4718a1177efa2",
+    "official_problem_api.json": "025ebfd5b464d9bce1521e9945d3491d0f56879c93ae64c8a7a643789be21f16",
+    "official_prompt.txt": "0ebdd10e386e1ff3cdfaf78c77154ea7a855b6d2a50b683b34017a584fd5672e",
+    "official_prompt_api.json": "b6e3042776f1bb24d9de83531fa1d6cfea95c144eaaf034197e6d22f652d3214",
+    "prior_attempts/TOP-1-A1.tex": "b53fddcd6c70aecc153932bd523d35c0fa7cf89b9c6e4d262179d28ec904c6c8",
+    "prior_attempts/TOP-1-A1_api.json": "44548250a4b39804c2424d1456342feef5cc37b5d2d6f62f473824930c93fcc0",
+    "prior_attempts/TOP-1-A1_manuscript_api.json": "6248f259c27a357f8e80d0c3e3b77bbf9b8d93eb422e8ce1591165a8b58ad958",
+    "prior_attempts/TOP-1-A2.tex": "6ef910843e70200d56ad7648930acf3be590ef8e9f91b34240d148cccefca111",
+    "prior_attempts/TOP-1-A2_api.json": "a45fbc3deeb7a50d42b2cd22b7e5fbc158aa07137bdfb14dbc1993ae0fc1232e",
+    "prior_attempts/TOP-1-A2_manuscript_api.json": "b8ec4f2f26d1f28c84421fa21429a5480a69683a9cc19b7e8a786e00dac6c178",
+    "prior_attempts/TOP-3395-A1.tex": "bc96d82558df55852d6201f130f730fc595ba6999ad5804e2eb2ec4355aae407",
+    "prior_attempts/TOP-3395-A1_api.json": "7667d9541c67a16e8435a6fafdb2fbb01aa8fed5490ea4ffa19f374a903719f8",
+    "prior_attempts/TOP-3395-A1_manuscript_api.json": "4a99daeb0f0b7969019efa991b1a7dd1426ddfba8596d8453350aa3016877f3d",
+    "report.md": "545b4b6ad06f717cb693acc64007b807a763ab35376b8b0d95839273bc56ba0e",
+    "source_notes.md": "8931f4eee1522805820b9e6f8321fbe8c1e5cab6c4717a317718fdf4deb5f3f9",
+    "verification.json": "a20d9f250815d26cc990ceea919ea32afb250096d96548730061715bd439f565"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:22:07.623067+00:00",
+  "actual_checks": [
+    "Read exact official P-vs-NP prompt and all three retained prior bodies(A1,A2 and alias TOP-3395-A1). Verified incidence-decomposition coverage/connectedness validation and the explicit distinction from primal width and clause arity.",
+    "Checked the exact state invariant: s(c) counts only satisfied literals of variables forgotten below. Introduced clauses cannot have forgotten neighbors below; forgetting variables ORs contributions, and forgetting clauses checks both saved and still-bag contributions. Every clause neighbor is then accounted for by decomposition connectedness.",
+    "At joins, shared variable assignments agree, forgotten sets are disjoint and clause bits OR exactly; child witnesses combine in both directions. Empty root accepts iff all clauses satisfied; backpointers reconstruct a direct-checkable assignment. Empty clauses/tautologies/repeats are handled.",
+    "Verified2^(t+1) states, join pairs<=2^|V|4^|C|<=4^(t+1), polynomial encoding/backpointer costs and t=O(log L) supplied-decomposition consequence. No decomposition for arbitrary formulas or global P=NP claim; source/proof-only zero runs."
+  ],
+  "primary_sources": [
+    "Samer-Szeider,cs/0610174v2,21Feb2007, primary arXiv abstract https://arxiv.org/abs/cs/0610174, incidence #SAT fixed-parameter theorem; scope read and credited. The report supplies its complete decision-state proof, not an unseen theorem number. Retained coordination/qualified_algorithms_primary_retrieval_04.json."
+  ],
+  "prior_work_distinction": "Adds a complete clause-width-independent incidence-treewidth algorithm and exact joins, distinct from all three prior affine-summary/rank/projection investigations. This is substantive structural tractability, not a finite SAT experiment.",
+  "scope_assessment": "Given a CNF formula and a verified nice tree decomposition of its variable–clause incidence graph of width t with b bags, satisfiability and one witness are computed in O(b·4^(t+1)·poly(L)) bit time, where L is the full formula/decomposition encoding. Clause width is unrestricted. This is an explicit structural subclass, not a uniform polynomial bound for all NP verifiers.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

@@ -1,0 +1,53 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3135",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "b7497d33fbca6fe5d03e6f22350d53814052b240cd990e64b4b6e5288adc68e5",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "b7497d33fbca6fe5d03e6f22350d53814052b240cd990e64b4b6e5288adc68e5",
+    "source_notes.md": "457f6dd6914ed1a6fb10aaff5c7d0c65beb26fb18bef38f9e4717ed892e57cc8",
+    "author_record.json": "9b03d58cfb4eb423d956b65d93370dc850028c2988e4ffe04d0783bc65f52f69",
+    "contribution.json": "c3fdb48bd9112619c8beb6105c571be9e0101297b7bdf751f0c16e82e4fdf9fe",
+    "official_prompt.txt": "077e602a73ee7f437818ebf1315a4e76072ce371d6855568c0ccc7d116f418ad",
+    "official_prompt_api.json": "b4b0a869d8201f4c9c895fd6028364952390949595eaf0686073dd0c48eb3208",
+    "official_metadata.json": "ce23f8bbfe3ad69e4424349bd508e81f6c6fcbea9ace56a9ffff4dd69078efe4",
+    "official_metadata_api.json": "417b21f49fb6ef298aa505dfdf6761a67bbe08d5b634eff809182dd57f9488c7",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked the fixed-H step-graphon conversion, including complement diagonal blocks e/n and collision loss 2*binomial(h,2)/n. The resulting finite inequality implies precisely the prompt liminf.",
+    "Checked conditional integration and both Jensen inequalities for independent-set books, qe edge count, and both chromatic-number inequalities. Connectivity amplification is correctly credited separately and the singleton boundary is avoided."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/html/2207.09427v2",
+      "version": "v2, 13 June 2023",
+      "locators": "Theorem 1.1, Lemma 2.1, Theorem 2.2; lines 37–67",
+      "retrieval_refs": [
+        "turn1735view0"
+      ],
+      "access": "Primary HTML theorem statements and relevant arguments read; no need to certify the entire deep construction."
+    }
+  ],
+  "distinct_significant_scope": "No prior contribution; the arbitrary-chromatic/connectivity theorem is reported with a complete conversion to the prompt injective normalization and preservation mechanism.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:24:21.179675+00:00"
+}

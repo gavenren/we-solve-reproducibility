@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006873",
+  "canonical_problem_id": "prb_00a87dd65bc943438053eaf0878dabe7",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "82630b9812b7d6de88b50e3ddec0d550dc7b526230736778d4492e278326d6d4",
+  "report_sha256": "82630b9812b7d6de88b50e3ddec0d550dc7b526230736778d4492e278326d6d4",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "c2df80b4fe6b09801b6c5a1c4a688c7099be21042435c1450594c58d984969cb",
+    "contribution.json": "a4c3dde16fef328ace137d588a00da629d3e21e6a0de671adcf40fe9dbeda573",
+    "official_metadata.json": "17798ae3b310a1a78d775a8ee6dff17f448f69461ae9bea5fdcfc2f2af34c411",
+    "official_metadata_api.json": "1e06423de2096db09f02e57fd9f455ca9908bed2c181ac5ce9f5f449cdd849e4",
+    "official_prompt.txt": "039c09719978d7d7f5ea1d6d5846c85a459293e112f40bccc44c902e442798ea",
+    "official_prompt_api.json": "1e0282c17a4a26d19b583d9fe4060fb4992bebc5ccd142349556919b8b561681",
+    "prior_attempt_1.html": "bf1899e6c213d3ad741ef323950e57c3d0c64c5ee30e0005667d7d9178ecc252",
+    "prior_attempt_1.txt": "fe44a0ebd348077a4a7bca8e4a450da8a0a20d046e7c906086264f7d36783ace",
+    "prior_attempt_1_api.json": "1e4a65bac31749da631cdbed5159eed6ef96ef0693a9ff1e7718a29af5288d38",
+    "prior_attempt_2.html": "9f7917189f132ea7f44098e0f26d25f8903ffb248b3c507de5003d1c12a3f977",
+    "prior_attempt_2.txt": "81c877d2454eeb4fd5f2808a4720689d0e1bb09985723a7d9ef65257db78acd7",
+    "prior_attempt_2_api.json": "c822beba7e4e3f654853dc4d5152e6e3d247d71c84f4cedc75abe26ca1f3cfbf",
+    "report.md": "82630b9812b7d6de88b50e3ddec0d550dc7b526230736778d4492e278326d6d4",
+    "source_notes.md": "ffdc2bd145f578be04c2326bbacee250c8fe4f564ac2a2981630a24c6e75fe07"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:10:18.417983+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read both full earlier exploratory/unverified-global bodies; new report provides full planar theorem/equality and global entropy mechanism beyond common-unconditional cases.",
+    "Checked exact cone-volume probability normalization, weighted entropy application at M=Wlambda, necessary surface-area contact property, zero integral and correct direction to the volume conclusion.",
+    "Independently checked contact justification via compactness of defining directions and unique normal at surface-a.e. boundary point. Endpoints lambda=0,1 correctly excluded from interior equality alternatives."
+  ],
+  "sources": [
+    "Opened B\u00f6r\u00f6czky\u2013Lutwak\u2013Yang\u2013Zhang author manuscript25Feb2013, Theorems1.3\u20131.4 and Lemma3.2 proof framework: https://math.nyu.edu/~yangd/papers/LBMI.pdf (turn1566view4,turn1586view4\u20135)."
+  ],
+  "limitations": [
+    "Planar entropy theorem and complete equality classification are imported primary results, not independently reproved in full. Direct Wulff/contact transfer is checked, with no all-dimensional or exact-stability claim."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

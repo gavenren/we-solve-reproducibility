@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30003654",
+  "canonical_problem_id": "prb_67986c611ca74ec5b2b76a28a2813e97",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "9eb7191fd8531fb5fe08e632e7bf8983f5f504dc87a5e7bf08d72c8d18bc0358",
+  "report_sha256": "9eb7191fd8531fb5fe08e632e7bf8983f5f504dc87a5e7bf08d72c8d18bc0358",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "ab79ed7fd6a5db4b9a71de3a21c317fc1bccfb813f59e7e4ae854ac22a4c7f7b",
+    "contribution.json": "89adf00ae7a70e9c562f71ddba7377680faa0c7adaedcf007795271490378e87",
+    "official_metadata.json": "0bb220fbf418de884bd20b01fde20838bc591ebbdd04cbdbfd90ef4a4f6d97c5",
+    "official_metadata_api.json": "f634a86b8c0e69e8118d2a918896802ce72ac9fdd1ecc2a73076118cd71d7907",
+    "official_prompt.txt": "8455643586e6a6a9481af40e3c762de652b6d2c30f9b70d915a576df1fbcc63b",
+    "official_prompt_api.json": "c12aa26a0ec62f344d328ad4424c5c57780e77e6d688ddc90322c71e3fbf3946",
+    "prior_attempt_1.html": "c8177aeb0f2b9ce9e566a0a83181aac9df329bc0f7b230b49c90ae81b88d19b4",
+    "prior_attempt_1.txt": "5b9fb9d1504210db9c2116941cc10cee6c793dbd6e5ce09dfb4f5bddc3b4dda1",
+    "prior_attempt_1_api.json": "1cfad1861648c1ec5b50e487d8f76399623dd8592d4bc35d92284f14895b9367",
+    "report.md": "9eb7191fd8531fb5fe08e632e7bf8983f5f504dc87a5e7bf08d72c8d18bc0358",
+    "source_notes.md": "9c8ef20ff27b21e8f162bf7d85b6a73cd4a1397ba80f1f81effe8fb5eb2480f8"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:07:57.448580+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read full prior repeated-factor obstruction, closure/coefficient divergence and projection-invariant linear-constraint argument; new scope is squarefree irreducible h and exact matrix conditioning.",
+    "Reread corrected symmetric positive-definite A hypothesis and author hashes. Verified derivative-at-zero obstruction for all multiplier degrees/smooth multipliers and irreducibility over R with k>=2 even with extra free variables.",
+    "Independently completed square, checked c<=0 exclusion, exact b^T A^-1 b/(4delta) minimum constant correction and restriction of this optimality to constant multipliers."
+  ],
+  "sources": [
+    "Exact retained source-limited official prompt/API wrappers and full prior CS-707-A1 body. No missing Oberwolfach identity is invented."
+  ],
+  "limitations": [
+    "The omitted ambient cone/identity is supplied as an explicit chosen model, so this is not a refutation of every possible source formulation. Mathematical proof is self-contained and does not certify general copositive optimization."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

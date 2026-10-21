@@ -1,0 +1,55 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2753",
+  "canonical_problem_id": "prb_2d39b59eef4f4d7cb849aa749e482198",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:14:09.348909+00:00",
+  "checked_report_sha256": "042295129a1453cf895ae3ea69d9b89d8224ecaf7f20dc1b8455763cf776e292",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "b4ef067201ba57c253dafb1e322f55fbc0f38c041bc014e89df100ed96f31b8b",
+    "contribution.json": "4bb82e0b487f58acec6a4edaa3c3c046b737ca906f6acb1c873f4971210fc8cb",
+    "official_metadata.json": "ffe187c4a7accefeefafa773e368bc969a98ad31c310cffebeac7d0c7f32d017",
+    "official_metadata_api.json": "e7fbcf99ea13e4184a42925012e6abe801f17ef36a651b81ad659ce5defb8996",
+    "official_prompt.txt": "30c5766c2973872b4db0ecfeb5fcdca858e00e90815d1292e221dcb811855b05",
+    "official_prompt_api.json": "2f6fda6ee6817b08fec999b846f4d0419ef5b2df80a0f621176dcca6236c233f",
+    "report.md": "042295129a1453cf895ae3ea69d9b89d8224ecaf7f20dc1b8455763cf776e292",
+    "source_notes.md": "b519af517a2d30e3e832503f0029b491e3b1fcd38c2b7464f629657aecb016ed"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Read the full exact report, literal Torelli finite-presentation prompt and records; no prior contributions are listed. Checked that genus thresholds 5 and 6 have different conclusions.",
+    "Checked the finite-presentation implication by attaching only cells of dimension at least 3 to the finite presentation complex. H2(G;Z) is a quotient of a subgroup of finite free C2, hence finitely generated; rational finite dimension follows. No converse is asserted.",
+    "Compared every partition in the closed-surface rational H2/H^2 representation calculation, distinguished rational cohomology cup products from group relators, and retained integral H2 and g=3,4 limitations."
+  ],
+  "primary_source_checks": [
+    "Minahan–Putman arXiv:2504.00211v1 (31 March 2025), Theorems A and B and Remarks 1.1–1.2, primary PDF pp.1–2. Version header verified at line 107; Theorem B g≥5 finite dimensional and g≥6 algebraic, unresolved integral finite generation at lines 174–182. Primary retrieval turn1615view3, turn1620view2, retained evidence _01/_03. Imported representation theorem remains credited."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Precisely reports Minahan–Putman's 2025 preprint: rational H₂ is finite-dimensional for g≥5 and algebraic for g≥6, with the closed-surface H² calculation at g≥6. Explains exactly which finite-presentation obstruction this removes and which integral and relation-theoretic gaps remain.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

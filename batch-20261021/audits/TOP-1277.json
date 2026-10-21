@@ -1,0 +1,59 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Substantive conditional result: a rigorous inequality closes the specific fixed-positive-interval versus cumulative-PCC formulation gap left explicit by the earlier manuscript. Its density-one conclusion and deep unconditional imported analytic input are accurately disclosed.",
+  "actual_checks": [
+    "Compared literal prompt intervals0<a<b, multiplicity convention and sign of ordinate difference with definitions of Q_T; reversing ordered pairs preserves the positive count. S_T=sum over distinct ordinates of m_gamma^2 equals source same-ordinate pair count, including off-line horizontal symmetry.",
+    "Read source equation6.2 and its range lambda<=sqrt(L), log correction and absolute error; no RH/PCC enters the analytic input. For each fixed lambda the range eventually applies; Riemann-von Mangoldt normalizes TL/N(T)->1.",
+    "An atom at any fixed positive endpoint is bounded by enclosing intervals then limsup_T followed by width->0. Thus Q(u)-Q(epsilon) has the asserted limit for fixed positive endpoints. Nonnegative Fatou gives the lower bound on the full triangular integral without assuming control of Q(epsilon) near zero.",
+    "Combining a lower liminf integral with the unconditional identity gives the upper limsup S/N. The constant part cancels exactly and 2 integral_0^lambda (1-v/lambda)sinc(pi v)^2 ->1 by integrability and dominated convergence. The O-error is used as an absolute upper envelope tending to0; T is taken first at fixed parameters, then epsilon->0, lambda->infinity.",
+    "For m>=2, m<=m(m-1), so exceptional zero copies <=S-N=o(N). A singleton group is simple and must be critical by functional equation/conjugation. This proves simultaneous density one and leaves a possible density-zero exceptional set."
+  ],
+  "prior_comparison": "Read the complete prior Fourier manuscript, including positive positive-Fourier perturbations and the stronger full-measure sufficient package. It explicitly does not recover the zero atom from positive intervals and supplies none of the Fatou/unconditional-average proof above.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/html/2503.15449v4",
+      "version": "v4; arXiv header30March2026, manuscript24August2026, both retained",
+      "locators": "Sections4–8, Propositions1–2, equation6.2, horizontal convention and Theorems1–2 proof",
+      "access": "Independently opened full primary HTML and read exact statements and indicated proofs. Unconditional Selberg/Fujii moment theorem is imported, not independently reproved."
+    }
+  ],
+  "required_corrections": [],
+  "limitations": [
+    "No proof of PCC, all-zero RH, universal simplicity or consecutive-gap law; possible density-zero exceptional zeros remain.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-1277",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "497ac15f482a3a548643740e9715fd633fe96482bd70f609f11646c46f2ab2e5",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "497ac15f482a3a548643740e9715fd633fe96482bd70f609f11646c46f2ab2e5",
+    "source_notes.md": "f50e53ab2aa55a4705b05853a0fe76763311394b14b1e8f4cefb8a176e56e352",
+    "author_record.json": "0808a4a616f8bee28663075d278dad92fcd2a483261d98ef531e12b954a89594",
+    "official_prompt.txt": "41b8924efdedbe633b3e817b45dab5b7c90ede849ae76e474770ccb1a420ea85",
+    "official_prompt_api.json": "0f5ca27140db8288a9edf81762fef473e90b37dd4da14f9b71466d6ef72e986d",
+    "official_metadata.json": "6d16ef6adc00bc4543419d183023d9f45f54c26732b119a9f5cf892c2132b0d8",
+    "official_metadata_api.json": "0ea1da6e1e0a8ff2c8a6651bcb7b0d26f9edbbc0da0b63be460178e57d5c810b",
+    "contribution.json": "3c5966624b9330f9f152374ad0dedadabc4a4e5aa16918c82ccd1b2ce6d5fe84",
+    "retrieval.json": "1921317813ad920b4736c5ada7b49f3039e4aab90ba0cf74bb9a0aeff69453bb",
+    "prior_attempts.json": "4af09f700afe436375bceca87b2bcfc9793d9477985a1c82e015769cdbd4dfea",
+    "prior_attempt_01_api.json": "178420fec2b171a1c329357f89dab7ca08b0e6ed6149f6f6ace8c34bfbb743ca",
+    "prior_attempt_01_text.txt": "62be191734e27104369ed4945c200af2050b8920ab26672bab5b69ab5538cb7c"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_algorithms_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:35:47.702755+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

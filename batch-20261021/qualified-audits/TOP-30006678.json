@@ -1,0 +1,50 @@
+{
+  "handle": "TOP-30006678",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "2964e6c888ae41420d5646d94066299c143a99625541fde44357c2b586afe8c6",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "52960714156169869f4dc96735456d36fdd27af718de58671684e744612af897",
+    "contribution.json": "b117979a0b14e22632902e8efd811418c8e6e594a2011ab8943979bfe27f841a",
+    "official_metadata.json": "86648dee89c482b2f9892abeb019913430d4919d3a9f6fc269f65079a708359a",
+    "official_metadata_api.json": "479c2de5e71596dff7e179bc22c663a4a5f0363705a219835e1aaacd70d0801f",
+    "official_problem.json": "86648dee89c482b2f9892abeb019913430d4919d3a9f6fc269f65079a708359a",
+    "official_problem_api.json": "479c2de5e71596dff7e179bc22c663a4a5f0363705a219835e1aaacd70d0801f",
+    "official_prompt.txt": "f5b8ad11ab692c63ba7c18e0440093ab33eb7a8b0ec820d143557eb967500cf5",
+    "official_prompt_api.json": "f41c3b48a4e1f1d5f439e65d3f56c0f5a5bdff5ad58c5907b4850d3943dc3a59",
+    "prior_attempts/TOP-30006678-A1.tex": "b9be843952c1042fb0b6b461b4220faab0307b8844e71dc3a36db7d6cdaa7dfc",
+    "prior_attempts/TOP-30006678-A1_api.json": "0639fb7340315133eadccaaca7c48022d24bc7f75bb260b92110fb4beb2ef0ea",
+    "prior_attempts/TOP-30006678-A1_manuscript_api.json": "17c65a07b833cdab392072aad53a77f9a73af3e88e5df2adc260697499b751d7",
+    "prior_attempts/TOP-30006678-A2.tex": "5b5dc4d205e12d21da35ac3930690ccaacb9ae2a6c0b83826bc0faf24ac0406b",
+    "prior_attempts/TOP-30006678-A2_api.json": "b5249fd58081af0509af8dfc91ff5c1502ed650f1662e10c52680af1612b867e",
+    "prior_attempts/TOP-30006678-A2_manuscript_api.json": "acc30b8735a9e926eeb914751fd55f48d2d8ddde3041bb6d01961fe895194427",
+    "report.md": "2964e6c888ae41420d5646d94066299c143a99625541fde44357c2b586afe8c6",
+    "source_notes.md": "9df58fb1dfc02622c255c6586b2fae5380475587bbb60832dc9235225fc14e7f",
+    "verification.json": "a20d9f250815d26cc990ceea919ea32afb250096d96548730061715bd439f565"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:22:07.634732+00:00",
+  "actual_checks": [
+    "Read exact nonuniform all-node circuit prompt and both full earlier manuscripts. Kannan institutional primary abstract explicitly states forall fixed k exists Lk in Sigma2 intersect Pi2 outside O(n^k) circuits. Preserved fixed-exponent/language ordering, constants and finitely many exceptional lengths.",
+    "Distinguished class containment in P/poly from one common class-wide exponent. A polynomial reduction of degree a composes to a language-dependent exponent ak; completeness alone does not provide a common bound. Uniform circuit-generation lower bounds are not nonuniform size lower bounds.",
+    "Read Fortnow-Santhanam-Williams Theorem10 and its NP pseudo-simulation/truth-checking proof. For each fixed query exponent q, existence of a common NP polynomial bound is equivalent to some common P^NP[n^q] bound; the source gives qk^2 in its convention. Unrestricted P^NP and one NP language outside all polynomials are not inferred.",
+    "Imported deep Kannan proof was not independently reconstructed or falsely claimed accessible. No execution, class separation or latest-frontier optimality assertion."
+  ],
+  "primary_sources": [
+    "Kannan,MIT-LCS-TM-205,October1981,primary institutional abstract https://dspace.mit.edu/entities/publication/ad059c80-ec46-408e-918a-3f5cee2242d1, intersection/fixed-exponent theorem explicitly checked; original full proof not read.",
+    "Fortnow-Santhanam-Williams,Fixed-Polynomial Size Circuit Bounds,author PDF https://people.csail.mit.edu/rrw/circuit.pdf, Theorems8,10,PDFpp2-4 and adjoining proof freshly read. Retained04.json and04_followup.json."
+  ],
+  "prior_work_distinction": "Supplies the much stronger credited low-hierarchy frontier and nontrivial bounded-query translation absent from both prior counting/PSPACE diagonalization reports, with substantive quantifier and circuit-model analysis.",
+  "scope_assessment": "Precisely credited Kannan theorem: for every fixed k there is a language in Sigma2^P intersect Pi2^P with no O(n^k)-size Boolean circuits. Also explains the distinct fixed-class polynomial bound and the published bounded-query oracle translation. This does not place the lower-bound language in NP or give one language outside P/poly.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

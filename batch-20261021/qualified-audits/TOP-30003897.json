@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30003897",
+  "canonical_problem_id": "prb_d6122f7d68ba4860a052db7b8d131d36",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "89cdea8cf7b2a34d13d483326e0520a631cd79022db3cae7e22154d61cce42ea",
+  "report_sha256": "89cdea8cf7b2a34d13d483326e0520a631cd79022db3cae7e22154d61cce42ea",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "3623a6157e59d71e601a197fa17855d1a0e84533c9ce3d37dbb0bdedb664cd3c",
+    "contribution.json": "2f61e4ad5f234aeadbaba84ecae4a38fcf1505d1f596dfe05aa6e415b9b6d0a1",
+    "official_metadata.json": "5e925e782571836f7c13935808302b9d6b76603554a1022be019f982d38dae95",
+    "official_metadata_api.json": "eb7081140d3d740741488b0640339ef2be329f21bd7b6b0501d435eb39bb7353",
+    "official_prompt.txt": "959a6500da75b7c579c3c4c2b699b43f7690bddb819381e29e07d5f6b2db3e79",
+    "official_prompt_api.json": "8256bc01cea5a3bb07519565e257070aaf591d20b69d74d4c9fac0526c094c90",
+    "prior_attempts/TOP-30003897-A1.html": "4f7a7dc23966f9a9ba0105e32677903ed582665c13abc8b924f3ea7219b5fd3c",
+    "prior_attempts/TOP-30003897-A1.json": "11929842276f1a4eb5b63684920dfa918f3b3788151eacd23932439fe8dcc270",
+    "prior_attempts/TOP-30003897-A1.txt": "6c7238bf7893d093d2f48f761719d0474b983001fa833b7d18e6de2fc0d7ecfb",
+    "report.md": "89cdea8cf7b2a34d13d483326e0520a631cd79022db3cae7e22154d61cce42ea",
+    "source_notes.md": "920484d2768472d50bbdc55005c68038eb96817c3f294a21757910f58218609e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:27:21.577921+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked source theorem covers every smooth curve on arbitrary K3, not merely Picard-rank-one or general linear-system member.",
+    "Checked canonical Koszul duality indices, Green\u2013Lazarsfeld nonvanishing and positive-p equivalence; genus3 plane-quartic p0 defect remains explicitly separate from standard target.",
+    "Checked ample-section exact sequences for q1 using H1(O)=0 and q>=2 using Kodaira vanishing, section-ring quotient, regular linear element Tor vanishing and minimality after quotient. Wider nonample scope remains source theorem.",
+    "Read complete priorA1: low-genus complete intersections/generic warning/p0 diagnostic do not include unbounded-genus arbitrary-Picard K3 theorem."
+  ],
+  "sources": [
+    "Aprodu\u2013Farkas, actual primary arXiv0911.5310v3,23June2010 HTML https://arxiv.org/html/0911.5310v3 : Introduction/Theorems1.1\u20131.2, Section3 comparison-curve linear growth and Section5 higher Clifford dimension."
+  ],
+  "limitations": [
+    "Source/proof-only; no programs, zero checker executions and no formal verification.",
+    "Deep cited theorem proofs are imported with exact scope checked, not fully reconstructed analytically or categorically."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

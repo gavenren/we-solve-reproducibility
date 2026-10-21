@@ -1,0 +1,54 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2773",
+  "canonical_problem_id": "prb_e0dac5da95c24e1ab3b63351f4d80bcd",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:15:13.350363+00:00",
+  "checked_report_sha256": "04c2c32ca888bc8a553a7ca43aac4b27d29bccc39d9897101ca640df4ef42f77",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "81081cdd4fbc4786633b44eaeda5f4c696e4e8a41efc870cd8d956ca5e2953ad",
+    "contribution.json": "d06182fcc80cc6fdda36973f1317c2a83d1886759d9c60718d4dd8d305317231",
+    "official_metadata.json": "2defc6a281232dc8d60fa22080cc3f6330a93c0696e959f1368fcf6a338d73c5",
+    "official_metadata_api.json": "081bae1a0c53ae96adcfffd125c3b3d5f959b54d39aab9b2d4ef016f022835a8",
+    "official_prompt.txt": "f4e5bc675fcacb7665a27144501c81b49809b530964fd43227e4772b5d69e7ff",
+    "official_prompt_api.json": "7ccc7173e3f164e51665cb58b6c52815a386d35384faf3ead026eb3254c1bef9",
+    "report.md": "04c2c32ca888bc8a553a7ca43aac4b27d29bccc39d9897101ca640df4ef42f77",
+    "source_notes.md": "92f408d81d0be5f5b8d30b70196be005cc6316abcf21f6e80507441b36bbe595"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Read full literal injective-monodromy/unbranched-multisection prompt and report/source records; no prior attempt listed. Checked all fiber/base genera g,h≥2 and injectivity after the capping map rather than just before it.",
+    "Checked the section construction: lifted relation is isotopic to identity rel boundary, collar adjustment allows a product cap disk bundle, centers give a smooth degree-one unbranched section with normal Euler class zero. Since Diff0 of a closed genus≥2 surface is contractible, monodromy specifies the bundle; irreducibility does not prohibit preserving an inessential disk. Arbitrary monodromies and higher-degree existence remain outside scope."
+  ],
+  "primary_source_checks": [
+    "Baykur–Margalit author-hosted IndecomposableSurfaceBundles.pdf, §3.4 gives B_(2g+1)→Mod(S_g^1)→Mod(S_g) with boundary capping and §4.1 Steps 5–6 prove injectivity and irreducibility of the displayed composite. Primary PDF pp.11–16, turn1634view4, turn1637view1, turn1640view2/6, evidence _04/_05/_06. The construction theorem is imported; the cap-disk deduction is independently checked."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Baykur–Margalit's explicit injective irreducible monodromies for every fiber genus g≥2 and base genus h≥2 lift to the one-boundary mapping class group, and therefore their bundles have an unbranched degree-one multisection with trivial normal bundle. The lifting-to-section deduction is supplied. Arbitrary injective monodromy is not covered.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

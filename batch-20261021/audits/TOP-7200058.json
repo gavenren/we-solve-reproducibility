@@ -1,0 +1,33 @@
+{
+  "handle": "TOP-7200058",
+  "reviewer": "/root/hundred_topology",
+  "author": "/root/hundred_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T19:00:31.653316+00:00",
+  "checked_report_sha256": "f5ef89334139ae6af47466340739895f4810c052dce353416a8a05ba43232d85",
+  "checked_source_notes_sha256": "8bc97784161c0dde9d923ef588ec5934faf6d4d04aa537707fd96f5b720909f4",
+  "checked_contribution_sha256": "66cb0415b8f6f3d5f8781efcb9f30e1716c6eb840cbe4662784d8b1905be1be5",
+  "programhashes": {},
+  "program_hashes": {},
+  "actualchecks": [
+    "Read literal infinite positive closed tripod-ray prompt, full report/notes; no priors. Checked disjointness iff2strict same-direction coordinate comparisons by all coordinate-equality cases.",
+    "Checked s\u00b3 construction in[s\u00b2]\u00b3 for one/two/three index differences, lexicographic digit domination and injectivity for F(nm)\u2265F(n)F(m).",
+    "Checked colored graph projection injective, increasing color matchings induced by opposite inequality contradiction for cross edge, nonconverse and nontransitive3cycle. No stronger exponent record inferred.",
+    "Confirmed exact prompt bytes and decoded metadata content against retained fresh API wrappers and current author-record hashes; source-only, zero program executions."
+  ],
+  "primary_sources_actually_read": [
+    "Aronov etal arXiv1706.10193v3 \u00a74.3 tripod definition/2-comparability/induced-matchings discussion, fresh turn1479view1/turn1480view0."
+  ],
+  "checked_files_sha256": {
+    "official_metadata_api.json": "f8a41004e6ed17c9fe4cd320337eda1534943425e04e4387ec308378a78393ce",
+    "official_metadata.json": "edf4fe76669be591ec36afbffcc9a0e5838691a5c5eba84c8a0400f734599067",
+    "report.md": "f5ef89334139ae6af47466340739895f4810c052dce353416a8a05ba43232d85",
+    "source_notes.md": "8bc97784161c0dde9d923ef588ec5934faf6d4d04aa537707fd96f5b720909f4",
+    "author_record.json": "a6688c43dc1ab9204815fa28efccf590d53959dedcc39c414ec4188ac41399cc",
+    "official_prompt_api.json": "627c68f32dbb3632caa23249dbf978fc22c8f6b0648cfe8dea6ac4b07bd13429",
+    "contribution.json": "66cb0415b8f6f3d5f8781efcb9f30e1716c6eb840cbe4662784d8b1905be1be5",
+    "official_prompt.txt": "aaa04bfe4df8e45aca977bd121b1620227ddcc5e04c45ba2e5fdf4f7f1240156"
+  },
+  "limitations": "Independent LLM review of prose, proof and inspected primary-source passages; not formal verification or human/editorial acceptance. No program exists or was executed. Own exact constructions and reduction checked; imported historical higher lower bounds not used as new evidence."
+}

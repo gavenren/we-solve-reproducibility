@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30007127",
+  "canonical_problem_id": "prb_1f1cb30c38484d9381900f5d57ad9f49",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "9031bfede1d704f6b430eef217a4c566dcea1f6f70ca8fce70cc67e2eb809b1e",
+  "report_sha256": "9031bfede1d704f6b430eef217a4c566dcea1f6f70ca8fce70cc67e2eb809b1e",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "3afc0d42df83b16aa5ad21f51b3408c36c6952011ef2b29fa4e17852ed3f6fb9",
+    "contribution.json": "87e91772b4ec44363ba4b235459f89ba55b26bbf379f8f7e223977fda9cb1e43",
+    "official_metadata.json": "ad220f05beac26fc698d2bd52185aec2f916e152113ca74f27ba77087763d2cc",
+    "official_metadata_api.json": "5640f4955b0f9d1535e87c6e52d98af585e509e6e309f8b6e556cb31c10efed1",
+    "official_prompt.txt": "458b18afcedf6fa5180cba59666f58f5c0ea70466deaf3614d841abf92570811",
+    "official_prompt_api.json": "8b41a9b485397f5217c3b227da46c3227a02ba0d4ca15050e0160a1938603077",
+    "prior_attempt_1.html": "f07ebf708c9ce1187be9f627b8e16d8de00e2950848e597893a852cadfddde26",
+    "prior_attempt_1.txt": "f1b1def67bfa0e39015d087b8a3cf8e393512f863362f08e50d3417aa0c52e17",
+    "prior_attempt_1_api.json": "a875bc47170acc6dba61046df1cdb46a9b7a81c7ae67b176ec2ca7322773d280",
+    "prior_attempt_2.html": "261a7c0db42df35d5ad1ac04bf04a472238c27f8db52f0570d85d17a7652774b",
+    "prior_attempt_2.txt": "1abc62ca2172c034823008e943c02abb4e99b852c1de01c6eba5f96f4afbbb4a",
+    "prior_attempt_2_api.json": "05698a3c854279a08b953121fe301d4c6c10083271e7f3035c14a81a5e1aa8ff",
+    "report.md": "9031bfede1d704f6b430eef217a4c566dcea1f6f70ca8fce70cc67e2eb809b1e",
+    "source_notes.md": "590e3587547e7b2d02df20294b7bf1232b98351581c50c4f98a1fccd910b1aa1"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:15:31.224333+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked Theorem1.3 in the actual primary v2: full-dimensional polytopes with at most n+2 vertices, no symmetry, lattice density O(n(log n)^(1+log_2 e)). Read both full retained prior summaries; neither is treated as an independently verified universal n log n theorem. The source-backed nonsymmetric subclass, explicit transfer and recursion constitute distinct literature scope.",
+    "Reread the final correction distinguishing Lemma4.2 exactly d+2 vertices from simplex initial/later bases. The source treats simplices through affine anti-blocking normalization; its ordinary-cylinder step gives the same volume loss. For a standard simplex the base at the optimal height remains a smaller simplex, and affine base changes extend by identity on existing interval factors, so no recursive hypothesis is lost.",
+    "Checked the density transfer direction: a C-inscribed lattice cover also covers P but its P-density is multiplied by |P|/|C|; taking infima gives the displayed inequality. Iterating ordinary cylinders gives product loss over i=n-k,...,n-1 bounded by e^k, not an omitted exponential factor.",
+    "Checked Rogers cylinder hypotheses n sufficiently large and n>k>log_2(log n)+4 against Lemma2.1. The least admissible k is O(log log n)<n eventually; its bracket is O(n), (1+1/n)^n is bounded, 2^k=O(log n), and e^k=O((log n)^(log_2 e)), giving exactly the claimed exponent. The finite set of smaller dimensions has a uniform bound after affine normalization/standard body covering bounds, so it can be absorbed in the absolute constant.",
+    "Checked ordinary convex cylinders versus the source's more general cylinders, and distinguished the paper's anti-blocking, locally anti-blocking and reflection-symmetry hypotheses. The report does not merge their different logarithmic powers or assert an arbitrary-body first-power logarithmic theorem."
+  ],
+  "sources": [
+    "Schymura-Wang-Xue, arXiv:2505.07369v2,3June2025, actual10-page primary PDF independently reopened as turn1625view1; Theorem1.3 p3, equation(1) p2, Rogers Lemma2.1 p3 (turn1627view0/2), Lemma4.2 and Section4 proof pp7-8 (turn1627view1,turn1639view1), and simplex/anti-blocking treatment at Section4 opening plus Theorem1.1 ordinary-cylinder construction."
+  ],
+  "limitations": [
+    "The nontrivial cylinder-existence and Rogers covering results are credited imported inputs, checked for statement, hypotheses and proof pathway rather than rederived from the original1959 source or formally verified. No universal n log n theorem or current-best claim is certified. Source-only: no program and zero runs."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-7200003",
+  "canonical_problem_id": "prb_8a19dbd153c84a0ba79d68029b34db5c",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "0329e6672218bf165182c615186cdad308ed23bf9ff5b5ffd0afab113e13e5f1",
+  "report_sha256": "0329e6672218bf165182c615186cdad308ed23bf9ff5b5ffd0afab113e13e5f1",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "9e3d42687d1c97fd2d8c37e356d97258bd620193c19864a3c60130db12e944e2",
+    "contribution.json": "133e8ecdd7b563575cdf884580627cf07e57e12e02210e09e085b8335f7eccfb",
+    "official_metadata.json": "05c271a4814695aef968c37a848c2558013573911e341a70ca4fcdd23770f4bf",
+    "official_metadata_api.json": "cc217848ac58406b1a5072b7fedeb3f0524644124821d00225279214f2a79eff",
+    "official_prompt.txt": "544bda073d72db6d85850c4ab5f0aef0d5291fc3118d7ed6e8668b30c612eeb4",
+    "official_prompt_api.json": "bb71544c28656f6bf41d33bbebee58a1f101b7827aebfc797b95482b517fe21b",
+    "prior_attempts/TOP-7200003-A1.html": "737b22592ef51ac835f61191a9059251b59d4328813b3f326922a22af7eeafc0",
+    "prior_attempts/TOP-7200003-A1.json": "1c925660cd1efc1c77013da47578cd16f271a1ff010e4f08c994d365bed58d50",
+    "prior_attempts/TOP-7200003-A1.txt": "95c26959f422ffcae6d1cfa4df505f00e5ffa7506ed3039a4344094dc4859b80",
+    "report.md": "0329e6672218bf165182c615186cdad308ed23bf9ff5b5ffd0afab113e13e5f1",
+    "source_notes.md": "a1e39b54154fbc1e14c8080a83e8f816e60fe492942228de71ddabb4b041028c"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:27:21.539725+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked group GL_q is split and defined over the Pruefer base R as required, hence totally isotropic including rank1; vector-bundle frame torsors are Zariski locally trivial.",
+    "Checked zero-section identification of descended Q, nonconstant ranks via idempotent components, rank0 and polynomial dimension0.",
+    "Checked filtered-colimit descent of all idempotent coefficients and identities at a common later stage, without transition injectivity. Smooth/essentially smooth algebras over arbitrary DVRs fit, but arbitrary ramified regular local rings need not.",
+    "Read full priorA1 including its abstract-only Guo\u2013Liu mention and formal/cancellation diagnostics; present exact theorem application and ind-smooth all-variable scope are substantial additions."
+  ],
+  "sources": [
+    "Guo\u2013Liu, actual primary arXiv2503.10163v1 HTML https://arxiv.org/html/2503.10163v1 : Theorem1.8=4.1, Example1.4 and group-base requirement. Header13March2025/internal Date24Aug2026 discrepancy retained; preprint status only.",
+    "Cesnavicius, primary author survey arXiv2201.06424v4,5May2025 header/internal29March2023, https://arxiv.org/html/2201.06424v4 : Section2.1.2(7) older excellent-Henselian proof warning."
+  ],
+  "limitations": [
+    "Source/proof-only; no programs, zero checker executions and no formal verification.",
+    "Deep cited theorem proofs are imported with exact scope checked, not fully reconstructed analytically or categorically."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

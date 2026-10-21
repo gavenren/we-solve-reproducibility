@@ -1,61 +1,82 @@
 {
   "handle": "TOP-30006960",
-  "reviewer": "/root/hundred_graphs",
+  "reviewer": "/root/sol_ultra_algorithms",
   "author_agent": "/root/hundred_algorithms",
   "verdict": "PASS",
-  "reviewed_at_utc": "2026-10-21T18:29:28.690294+00:00",
   "checked_report_sha256": "a37f70fbd7ebe6f82cd18cc5297e6a6f86caf263fec99b209aae556912d775d6",
   "program_sha256": {
     "verify.py": "8da7563b57be46c0402df8c8a4a60c121b44a8b9e6224d1ba766ff87ce17bfd9"
   },
-  "program_hashes": {
-    "verify.py": "8da7563b57be46c0402df8c8a4a60c121b44a8b9e6224d1ba766ff87ce17bfd9"
-  },
-  "checked_files": {
-    "official_prompt.txt": "361a967e606b12bd463cd86b3f8618a8d35b08249f6b2685f710c8965e1210aa",
-    "official_prompt_api.json": "765d01fad3acdfbcb849b36f6481ff1b473c6fc46483b798e123b8cc9d247570",
+  "checked_files_sha256": {
+    "author_record.json": "cd2821fdd93e1a20edcfedb419433f05f4b8fba6b4bfd71fd10bcf3e4d35d9af",
+    "contribution.json": "6df83ebe2f3e3600043a8b38eff99bb3450341b704f800c6a7bdd9bb92b367a1",
     "official_metadata.json": "5c1a704d4f83303a478271c59923e2a6ce043eff692b1e399b41b7448724a5ab",
     "official_metadata_api.json": "d543dbdfd53943d84dd677629f740dcfa2ddfe056749cc0dfee86e897dc656db",
+    "official_problem.json": "5c1a704d4f83303a478271c59923e2a6ce043eff692b1e399b41b7448724a5ab",
+    "official_problem_api.json": "d543dbdfd53943d84dd677629f740dcfa2ddfe056749cc0dfee86e897dc656db",
+    "official_prompt.txt": "361a967e606b12bd463cd86b3f8618a8d35b08249f6b2685f710c8965e1210aa",
+    "official_prompt_api.json": "765d01fad3acdfbcb849b36f6481ff1b473c6fc46483b798e123b8cc9d247570",
+    "prior_attempts/TOP-30006960-A1.tex": "d699a2bd9ec80c30b2eca52c698251daa1e4628c28cf4dd7865c6bf95112286e",
+    "prior_attempts/TOP-30006960-A1_api.json": "844912b7ea5853bcce205c128ac0172cb45cee164d4fe88c78a2a6cf1bf77164",
+    "prior_attempts/TOP-30006960-A1_manuscript_api.json": "a946fc166e501d92355dea5da020e466a02ef0f4f12104e2955a89a11582e107",
+    "report.md": "a37f70fbd7ebe6f82cd18cc5297e6a6f86caf263fec99b209aae556912d775d6",
     "source_notes.md": "3eca5cdee19c261277eed0eed32461349ff8cdfd228e5396ec667c34183e6a8e",
-    "contribution.json": "6df83ebe2f3e3600043a8b38eff99bb3450341b704f800c6a7bdd9bb92b367a1",
-    "author_record.json": "61de30af88d80c5fad6eb6d379d0e15d5b7075016ffa8a87655a501dd964e398"
+    "verification.json": "88026e4275637f81208f4051be6030132c536d39e7d7d40d9e301105b64ff446",
+    "verification_stdout.txt": "afb6b9abd553c3a4dbfe88f3b55b38f9656d04e36d4eb33d1e4dbc7ceae742b5",
+    "verify.py": "8da7563b57be46c0402df8c8a4a60c121b44a8b9e6224d1ba766ff87ce17bfd9"
   },
-  "prior_attempts": [
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:17:58.844510+00:00",
+  "actual_checks": [
+    "Read exact prompt, full A1 manuscript, source notes and metadata. Proved both directions of the interval-prefix witness test, with empty columns, zero rows and endpoint intervals covered.",
+    "Checked O(n^2) preprocessing, n(kappa+n) interval tests and output writes, logarithmic endpoint/count lengths, streaming prefix space and supplied-permutation alignment. Per-column n^o(1) runs implies near-quadratic time; alternating columns can force cubic time.",
+    "Verified the separating family A=J-I and B_kj=[k<=j]: all row/column types distinct, kappa=n and total witness mass (n-1)n(n+1)/2. This is a parameter comparison, not an unrestricted hardness assertion.",
+    "Read the entire original checker and ran its direct existential-product oracle in an isolated copy: exhaustive dimensions0-3, fixed-seed additional cases and structured examples passed. -O explicitly refused."
+  ],
+  "primary_sources": [
+    "Exact official prompt and retained API byte wrappers define the Boolean product and exclude tensor algorithms. The interval algorithm is proved directly and imports no external theorem."
+  ],
+  "prior_work_distinction": "The interval-run parameter handles families with cubic witness mass and all distinct types, beyond A1 witness-sensitive and equal-type algorithms. This is meaningful restricted structural scope with fully paid preprocessing, not an unrestricted solution.",
+  "scope_assessment": "For Boolean n×n matrices and a given common row order for B, let κ be the total number of maximal one-runs in its columns. Full Boolean multiplication is deterministic in O(n²+nκ) logarithmic-word operations and O((n²+nκ)log(n+2)) bit time. In particular at most n^o(1) runs per column gives near-quadratic time on this subclass.",
+  "required_corrections": [],
+  "execution": [
     {
-      "path": "prior_attempts/TOP-30006960-A1.tex",
-      "sha256": "d699a2bd9ec80c30b2eca52c698251daa1e4628c28cf4dd7865c6bf95112286e",
-      "read_in_full": true
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "8da7563b57be46c0402df8c8a4a60c121b44a8b9e6224d1ba766ff87ce17bfd9",
+      "exit_code": 0,
+      "stdout_path": "qualified_execution/verify_normal.stdout.txt",
+      "stdout_sha256": "afb6b9abd553c3a4dbfe88f3b55b38f9656d04e36d4eb33d1e4dbc7ceae742b5",
+      "stderr_path": "qualified_execution/verify_normal.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_behavior": "finite verification pass"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "-O",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "8da7563b57be46c0402df8c8a4a60c121b44a8b9e6224d1ba766ff87ce17bfd9",
+      "exit_code": 1,
+      "stdout_path": "qualified_execution/verify_optimized.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_path": "qualified_execution/verify_optimized.stderr.txt",
+      "stderr_sha256": "23ff69732e5bb83d5eae3a85250131f8c26300d16c38d74839ebb4045f04cf99",
+      "expected_behavior": "explicit optimization refusal"
     }
   ],
-  "checks": [
-    "Checked both directions of prefix interval tests, empty/boundary runs and output-inclusive O(n²+nκ) preprocessing/testing cost.",
-    "Checked row-at-a-time O(n+κ) auxiliary words, logarithmic bit simulation and common supplied permutation without a free best-order search.",
-    "Checked all-distinct J−I/triangular family: κ=n and witness mass (n−1)n(n+1)/2; alternating columns permit Θ(n²) runs and cubic time.",
-    "Read retained A1 in full: Four Russians, witness enumeration and equal-type bounds differ from this run parameter. No external theorem is required.",
-    "Official literal prompt/API bytes, Git blob SHA, decoded canonical metadata/selection/author and current author report/program hashes agree."
-  ],
-  "primary_sources_independently_checked": [],
-  "runs": [
-    {
-      "evidence": "independent_execution_graphs.json",
-      "sha256": "bb30f5896e55efd5231e06c8104db01144910bac0db406bfe1e6021837462071",
-      "normal_result": {
-        "status": "PASS",
-        "matrix_pairs_checked": 262495,
-        "exhaustive_dimensions": [
-          0,
-          1,
-          2,
-          3
-        ],
-        "additional_structured_dimensions": [
-          2,
-          5,
-          20
-        ]
-      },
-      "optimized_refused": true
-    }
-  ],
-  "limitations": "Independent LLM mathematical review, not formal proof or human review. Finite diagnostics verify only their enumerated ranges, not asymptotic claims. Deep source theorems were checked at listed statements/proof portions, not fully reproved or mechanically certified."
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
 }

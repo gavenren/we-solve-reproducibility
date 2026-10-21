@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006782",
+  "canonical_problem_id": "prb_982854c27e33439eadf4c21d2769d2b8",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "6f2a9f37eee4cf3aebb67e4ae55fcbb6e8c1da3cd23e1ef7a0c0b88522065f61",
+  "report_sha256": "6f2a9f37eee4cf3aebb67e4ae55fcbb6e8c1da3cd23e1ef7a0c0b88522065f61",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "53854f827be7b26091e2ea5805843add553ed0b924a75bd411a5feff1dc90298",
+    "contribution.json": "e8e5b045ebe3b1a0e68dfbc5d1e17290548a6e8e5bb37b4ce0ead640ee6913eb",
+    "official_metadata.json": "a3387c34db74483a5ac7ac26a3d8b09ec8d1a3a23b0f72fb1d22d0aac9ab0db1",
+    "official_metadata_api.json": "26556640cf69d61f14757c0d419c31b4ee15c60a49ee0977dd480e7c51609252",
+    "official_prompt.txt": "8da0b06d9e21e98d465f1b31021c2bf87167c131a79636c7891ed9ad1509e8e8",
+    "official_prompt_api.json": "bfbdf5671ff9fb71da32288a6a8796739a2afa12f72bb3c11f4dbc1b89855b6e",
+    "prior_attempts/TOP-30006782-A1.html": "8008cf557fc4a812a6a22b3c3fc574d516ceb5644ff81d6a3b95b6f0b4362aa4",
+    "prior_attempts/TOP-30006782-A1.json": "91eb6f79b72cc83812ed85faa1eeb4d5ac33c85f8a9596645f97dc983b597be2",
+    "prior_attempts/TOP-30006782-A1.txt": "6da6a2e53e7baa85e8493c960bd8ab9a5f5e11ae70727c8f6566573ad9e89401",
+    "prior_attempts/TOP-30006782-A2.html": "ddd3839988bada08864da19d81bad7cc03a8d15e7aacc9b583fb323370d7579a",
+    "prior_attempts/TOP-30006782-A2.json": "8f13c04b9e12ede07646cc3f5537dd5dc0b128751d0fe213079a86efe2c789e2",
+    "prior_attempts/TOP-30006782-A2.txt": "affb5003b47da87e70d5769b44d48f114c6783c74b991856cbea7f91280bd2d2",
+    "report.md": "6f2a9f37eee4cf3aebb67e4ae55fcbb6e8c1da3cd23e1ef7a0c0b88522065f61",
+    "source_notes.md": "a6ea245b1a6fd6a27664a5b2549ff3032797d98c51abc2c65736c1455f3481cc"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:24:23.293677+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Reread corrected exact_scope in contribution.json and author_record.json: the known abelian-motive route is distinct from the sufficient product-of-curves domination route. Report hash remains 6f2a9f37eee4cf3aebb67e4ae55fcbb6e8c1da3cd23e1ef7a0c0b88522065f61.",
+    "Checked arbitrary direct-summand closure for mixed even/odd motives, tensor/dual/Tate closure, the degree-normalized graph-correspondence splitting for a generically finite morphism, and the separately credited finite-dimensionality of abelian varieties.",
+    "Checked partition multiplicities, quotient averaging idempotent 1/(product a_i!) sum Gamma_sigma, the n-l(lambda) Lefschetz twist, all n including zero, n=2 decomposition and finite products.",
+    "Read both prior bodies: their conditional parity/nilpotence and unverified pg=0 claims do not supply this unconditional all-n curve-generated/abelian-surface family."
+  ],
+  "sources": [
+    "Guletskii\u2013Pedrini, primary math/0303170v1 (13 March 2003 arXiv header; internal later date), Section3 closure discussion and Theorem11, actually accessed full23-page PDF https://arxiv.org/pdf/math/0303170.",
+    "de Cataldo\u2013Migliorini, original published J.Algebra251 (2002),824\u2013848, actually accessed25-page author PDF https://www.math.stonybrook.edu/~mde/MyPublishedPapers/MotiveHilbSchJournOfAlg.pdf ; Sections2,4.3, Theorem6.2.1 printed846 and Remarks6.2.2\u20134.",
+    "Andre, Bourbaki929/Asterisque299(2005), actually accessed32-page official Numdam PDF https://www.numdam.org/item/SB_2003-2004__46__115_0.pdf : Theorem2.8 printed124 and Lemma3.7 printed128 confirm credited framework; exposition is distinguished from original Kimura source."
+  ],
+  "limitations": [
+    "Source/proof-only: no program exists and zero checker executions were performed.",
+    "This is an independent mathematical reading, not a formal proof verification or certification of every argument in imported deep theorems.",
+    "Original Kimura Springer article retrieval failed; closure and curve statements were checked in the accessed primary Guletskii\u2013Pedrini paper, with the official Andre exposition as corroboration. Deep decomposition/finite-dimensionality results are imported, not re-proved."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

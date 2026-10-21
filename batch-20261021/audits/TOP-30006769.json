@@ -1,0 +1,45 @@
+{
+  "handle": "TOP-30006769",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "94a4666972f63d699d441304067f6445a4d37a1a4e43acab285bf7c9ff7c1120",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "0cf7ea454ba9de85c3910fb72cf9713db41726cbd50352b40b9a31e449a40297",
+    "contribution.json": "33e816186be2f88f59ed7b73701b1db3264cc8487d6ce7baefd3c7df44542817",
+    "official_metadata.json": "3b5ce2bc440c32a4599f293f47e261281d3ebaa509aa0223a55b0d6448c02337",
+    "official_metadata_api.json": "cb9d1e56c5611f3758265be2a8cc4986f9a3930aa8277f1fc9fc6a8a820fbb3d",
+    "official_problem.json": "3b5ce2bc440c32a4599f293f47e261281d3ebaa509aa0223a55b0d6448c02337",
+    "official_problem_api.json": "cb9d1e56c5611f3758265be2a8cc4986f9a3930aa8277f1fc9fc6a8a820fbb3d",
+    "official_prompt.txt": "f1562ebb37c4674a83a42fff055ed7ee3c043d492242e981ba8f7fe483e7f18e",
+    "official_prompt_api.json": "ba7c9f919c5c066eb501c0961d06929e25d0f1bd0ddee14732ea1d0429100004",
+    "prior_attempts/TOP-30006769-A1.tex": "b677428d50e69109d39115cb296d5f3728311c902d01817fc09474fb8fa8ccaa",
+    "prior_attempts/TOP-30006769-A1_api.json": "7ba6c3bcf1a864daa07f99cedae465636318c25a1b0dd26121f66d4a2bd96b00",
+    "prior_attempts/TOP-30006769-A1_manuscript_api.json": "bc23c893fe049ff85eda85dd17e681978339f6ad33784ca52caf2ce32db0205b",
+    "report.md": "94a4666972f63d699d441304067f6445a4d37a1a4e43acab285bf7c9ff7c1120",
+    "source_notes.md": "e10ad5becff3e922f5d945819ac7708463a567c3db83249ed8df9948612b87a2",
+    "verification.json": "1e142d62a0912a01f07f1690f480e2617a0175ac783deff39da580373e05ae4e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:30:13.954655+00:00",
+  "actual_checks": [
+    "Read literal all-Karp-complete-set polynomial isomorphism prompt, full prior and complete current inputs. Primary dated theorem explicitly supplies both uniform AC0 directions; Section3 says all reductions are many-one, so NP closure under uniformTC0 follows by polynomial computation plus verifier.",
+    "Checked bijection on all binary strings and polynomial variable-output length encoding. DLOGTIME uniform circuits are polynomial-time constructible/evaluable in either direction, hence actual uniform polynomial-time maps. Hardwired nonuniform circuits would not suffice.",
+    "Restriction is completeness under simple uniform reductions, not AC0 membership. Gap/superprojection/isomorphism stages and uniformity issue are accurately distinguished; no upgrade of arbitrary Karp completeness or full conjecture proof is inferred. Deep imported construction not independently certified; zero runs."
+  ],
+  "primary_sources": [
+    "Agrawal,The Isomorphism Conjecture for Constant Depth Reductions,6March2010 primary19-page author manuscript https://cse.iitk.ac.in/users/manindra/isomorphism/ac0-uniform-iso-jcss.pdf,abstract,Sections1-3 exact theorem,three stages,output-length conventions and many-one definition freshly read. Retained09.json,09_final.json."
+  ],
+  "prior_work_distinction": "Prior effective Cantor-Bernstein argument assumes reversible embeddings. New report adds a genuine credited uniform isomorphism theorem for a substantial complete-set subclass and proves exact sequential uniform implication.",
+  "scope_assessment": "Agrawal’s uniform constant-depth isomorphism theorem implies the Berman–Hartmanis conclusion for NP languages complete under DLOGTIME-uniform AC⁰ many-one reductions. Both the bijection and its inverse are polynomial-time computable. Completeness merely under arbitrary polynomial-time reductions is not covered.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

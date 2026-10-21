@@ -1,0 +1,48 @@
+{
+  "handle": "TOP-30006685",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "d26bbf5db92ed249a819b5a7e88a07811d639e826b0a6bdef300075bbed662ec",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "882c88d87582355187941e0622c3e57e9d6b89e02d8ca0b3947205805f2c2d81",
+    "contribution.json": "8dfa1bdd843db041dc1af86ea4692752740252e4fe3c21c132d0bf7821671fe7",
+    "official_metadata.json": "a5efadaa17a8b8ae03906f548ff470489d44501261711f4a6e75f7ca3210b60e",
+    "official_metadata_api.json": "8c06e6fcc1eb78013c1be5f45ef7f27e8c9ecc2f96505e0d7cd67c6a11d08d09",
+    "official_problem.json": "a5efadaa17a8b8ae03906f548ff470489d44501261711f4a6e75f7ca3210b60e",
+    "official_problem_api.json": "8c06e6fcc1eb78013c1be5f45ef7f27e8c9ecc2f96505e0d7cd67c6a11d08d09",
+    "official_prompt.txt": "be9a2fec6c5769b9b2c21c29b5a4d6bba2d21f40abd91bee6ffd007512f539b9",
+    "official_prompt_api.json": "63d42c62b6ce8e6987b8f7b1f56407212da761bfd9d42cc37a09a8d1c3ae025d",
+    "prior_attempts/TOP-30006685-A1.tex": "d1b72a85e1b14bc5c3cab962209c6a60c44bc87f4984be65fcff0f7b7f3c3f31",
+    "prior_attempts/TOP-30006685-A1_api.json": "15518321e5d2f8628a0007bd7c65172e87c4b0c4f38b366dc8f8cdefc6bef721",
+    "prior_attempts/TOP-30006685-A1_manuscript_api.json": "aff4eaa92950f169784610dfabed48aae9a6b93d5b59a1858b9b0d63fcc98ee9",
+    "prior_attempts/TOP-30006685-A2.tex": "7a1a5761dfed1398b79dd416621e20908cd31edaddf8d4fcae176a67909e217b",
+    "prior_attempts/TOP-30006685-A2_api.json": "b3a9e0b865a00d4e52d31164f8bfa5f1a2c34ca5ba54f27ce621d1cb893661be",
+    "prior_attempts/TOP-30006685-A2_manuscript_api.json": "c5edec4c94d32f87ea8f2d66cfcecd713cccf1ac880616aa0c88362dc2b06c16",
+    "report.md": "d26bbf5db92ed249a819b5a7e88a07811d639e826b0a6bdef300075bbed662ec",
+    "source_notes.md": "74fc6d9ab30026cf25facbb9583c13fb97686fe3b5ced3b45292b32a74d12f6d",
+    "verification.json": "1e142d62a0912a01f07f1690f480e2617a0175ac783deff39da580373e05ae4e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:29:06.335102+00:00",
+  "actual_checks": [
+    "Read exact logspace-uniform NC/P prompt, both complete priors and all current scientific inputs. Reconstructed block adjugate identity and coefficient convolution for det(zI-A), including n=1 and empty sums; signs differ consistently from source det(A-zI). No division or characteristic assumption is used.",
+    "Checked rectangular Toeplitz product dimensions and upper-left zero padding. Independently powering all needed trailing matrices is polynomial size/O(log^2 n) arithmetic depth, as is balanced C-product. Parallel cofactors supply adjugate; overF2 inverse equals adjugate exactly on nonsingular inputs.",
+    "Gate labels use finitely many logarithmic counters, giving explicit uniformity. Integer intermediate coefficient/path bounds are polynomial in total encoded input bit length; padded binary addition/multiplication replaces each arithmetic gate in polylog depth and polynomial size. Singular rank is not inferred and general NC=P is not claimed. No program execution."
+  ],
+  "primary_sources": [
+    "Berkowitz,On computing the determinant in small parallel time using a small number of processors,IPL18(1984),147-150,full four-page primary scan at Waterloo freshly read,Claims1-4/Theorem5 and signs. Exact DOI10.1016/0020-0190(84)90018-8. Retained08_proof.json."
+  ],
+  "prior_work_distinction": "Both priors compose supplied affine/finite-state/carry transitions. Current reconstructs recursively defined characteristic coefficients into a division-free explicit parallel product and pays integer bit costs, a substantive different linear-algebra subclass.",
+  "scope_assessment": "For matrices over F₂, reconstruct polynomial-size logspace-uniform Boolean circuits of depth O(log²n) for characteristic polynomial, determinant and adjugate; nonsingular systems can consequently be solved in the same depth. For binary integer matrices, explicitly charged arithmetic yields polynomial-size polylogarithmic-depth uniform Boolean circuits. This significant linear-algebra subclass does not establish NC=P.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

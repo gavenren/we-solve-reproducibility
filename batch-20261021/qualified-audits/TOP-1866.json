@@ -1,0 +1,62 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-1866",
+  "canonical_problem_id": "prb_516c39b7fd484581bab3a031ecd24752",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:29:35.019680+00:00",
+  "checked_report_sha256": "ccbcec2f5b6079b1d3280f412b9d46ec5a6690e1ceadbdf82b7f801a7d62f32c",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "2fbeb30b92fcfdb44295d84eddb7c61ba8b50ae207e74768bbb8b1d445e19e60",
+    "contribution.json": "a0e78c477c3bf05869117a88422ddf8673aacc6d68760c20cc0fed3de420d6fb",
+    "official_metadata.json": "7c47723a34a19526c80b0e3644523b77d1f709eccae9e816c05d6a3ee82d4d6c",
+    "official_metadata_api.json": "3398b6cd32f4dfe804fd7af9b3d2654977cdc3bd3ad828c9272ea08ea6973a82",
+    "official_prompt.txt": "1a69f429a72744101ea23fac7d09e2fc5b9740a4b780ec61b974d09bfe76bce3",
+    "official_prompt_api.json": "405627942a5ae6384e6b3352ad652f3b33975de0d1501beeaa7a4979100974d7",
+    "report.md": "ccbcec2f5b6079b1d3280f412b9d46ec5a6690e1ceadbdf82b7f801a7d62f32c",
+    "retrieval.json": "99fc99ce4119e1f33b9e4e710e3862f9d1b2160fed3a2da766ba6c733ef239e8",
+    "source_notes.md": "b5d0cbe9f0ec221e00e14ab6ecdd7a8dfef3ef3e953b8981e2c1b638f78e1804"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8e2e73deea8ce21484c848e54e05f8b9387a4301ec9675a929422d53b3d7f61c"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact prompt, source/meta wrappers, report, source notes and author/contribution records read. Official metadata lists no priors. The scope is a significant exact conditional route to exponent one, with the full Korselt criterion and analytic hypothesis boundaries, correctly labeled literature report rather than unconditional resolution.",
+    "Heath-Brown least-prime hypothesis has uniform constants in residue and modulus, of form P(a,m)<=K*m*(log m)^A. Source theorem loss (2+o(1))*loglogloglog X/logloglog X tends to zero; trivial upper count bound squeezes the logarithmic exponent to one. Strict versus nonstrict cutoffs differ at most one, negligible because the lower count grows at least a positive power eventually.",
+    "Checked every step of Korselt proof: CRT unit 1+p modulo p^2 disproves repeated prime factors via n-1=-1 mod p; lifted primitive generators force p-1|n-1. Converse uses square-freeness and CRT. The all-integer a^n=a version follows prime-by-prime. Products of at least two distinct primes p=dk+1 with d|L and n=1 mod kL meet the criterion.",
+    "A fixed Linnik power m^L, L>1, does not imply an almost-linear logarithmic-power bound; no GRH-to-hypothesis implication is asserted. The report separates exponent-one counting from positive density and keeps dated introductory bounds distinct from a current-best survey."
+  ],
+  "primary_source_checks": [
+    "Wright, A conditional density for Carmichael numbers, Bull. Australian Math. Soc. 101 (2020), 379–388, DOI 10.1017/S000497271900145X, actual Cambridge primary publisher PDF read: Section 3 Heath-Brown hypothesis and Theorem 3.1, source construction Section 4 and Sections 5–7 context. Exact exponent/hypothesis text retained qualified_number_second_half_primary_01.json through _03.json (turn1803view1). Difficult counting theorem remains credited; elementary criterion/limit deductions independently checked."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Published Wright conditional exponent-one theorem under a uniform almost-linear least-prime-in-progression hypothesis; full log-limit deduction, Korselt proof and product-one construction verification, with strict-count convention and positive-density distinction. No unconditional resolution.",
+    "listed_prior_count": 0,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

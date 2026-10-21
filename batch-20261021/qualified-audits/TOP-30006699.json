@@ -1,0 +1,84 @@
+{
+  "handle": "TOP-30006699",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "6b54dde8a0432de6ce66162e722a15be5b45c401eccac9a7598ccb171fd04e1b",
+  "program_sha256": {
+    "verify.py": "139b30bb11baa88ca6246b43a87b3daf95b192650ee237600b749820ddf51e91"
+  },
+  "checked_files_sha256": {
+    "author_record.json": "56daedd5e1e44a400c5f61e614bdf16ddba2f916f034bb352e4a3a9d8743eaae",
+    "contribution.json": "79156b6a7f978cbdcc1507bd23aaeb3a3a36029a4dfbf6083a0821218f79de94",
+    "official_metadata.json": "d21a669c91b96827ebe349aff56a65409cbd07b05d327c6a4a71fca785920773",
+    "official_metadata_api.json": "4291822b255861d1a74c4be02c685c0e081b6defce502ce27d78b110fc2c0afe",
+    "official_problem.json": "d21a669c91b96827ebe349aff56a65409cbd07b05d327c6a4a71fca785920773",
+    "official_problem_api.json": "4291822b255861d1a74c4be02c685c0e081b6defce502ce27d78b110fc2c0afe",
+    "official_prompt.txt": "587d325c91848fc9f0a168dcdb50b8cc2c56b2131f79565d2e1ad936e1ab9721",
+    "official_prompt_api.json": "5eded8b1252b44bfc1c8e3bbcfb179ee89624a7c104da9af8ad6d3f6d88be00b",
+    "prior_attempts/TOP-30006699-A1.tex": "dd1f3c6918ebe9203d40cddea260dc8bd0319af4627f9245fbd06a7b17c5d860",
+    "prior_attempts/TOP-30006699-A1_api.json": "9952543d9db551079f1b5833281159b896f011d85a277374f0f1816d5641aa30",
+    "prior_attempts/TOP-30006699-A1_manuscript_api.json": "283bcb2b498cd835fb6dbae9b99529d4d61b34ea45407a2e16ffc3c7e3b0bddb",
+    "prior_attempts/TOP-30006699-A2.tex": "5a61b6e526fce240ba20cd4afbb69b08d4674812344373379765da998cfe9c72",
+    "prior_attempts/TOP-30006699-A2_api.json": "8bd9e369df83f03dfeeec798bd125057aa1b3eeaf72a09084da4ebff8fb07b6d",
+    "prior_attempts/TOP-30006699-A2_manuscript_api.json": "5f71d06728eccc4e371a6e3a833e41a23b716cc2237132a25843cb1b875b6731",
+    "report.md": "6b54dde8a0432de6ce66162e722a15be5b45c401eccac9a7598ccb171fd04e1b",
+    "source_notes.md": "da8536e0c0b97993abf69eebb837fbc24fdc5d9f1310910dd27d81ba487819b0",
+    "verification.json": "df5c98e8b67363e61ee9fe8f3bae6528de5a29a30d4cb34a8e9e1485ea91368a",
+    "verification_stdout.txt": "9c50aabb136427dc55e272df59ad077b8b691947ec5350f1dcf017b8f3fb8a1c",
+    "verify.py": "139b30bb11baa88ca6246b43a87b3daf95b192650ee237600b749820ddf51e91"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:26:36.014963+00:00",
+  "actual_checks": [
+    "Read full exact determinant-complexity prompt, both complete prior manuscripts and every current scientific input. Reconstructed subset DAG, source-sink identification, unit loops and row sign. Every cycle cover has one n-cycle through the identified vertex; its remaining cycles are loops and its monomial corresponds bijectively to a permutation.",
+    "Checked n=1 separately, arbitrary characteristic formal identity, absence of ambiguous parallel variable arcs, sparse arc count n*2^(n-1)+(2^n-1)-1, address bit cost and dense output cost. Exponential matrix dimension never becomes a polynomial permanent algorithm.",
+    "Read complete original verify.py before running isolated normal and -O copies. Exact symbolic coefficients for n<=3 and618 numerical identities through n=6 passed; optimized execution refused with exit1. Source/output hashes and logs retained. Finite checks supplement the arbitrary-n proof."
+  ],
+  "primary_sources": [
+    "Grenet primary author URL https://membres-ljk.imag.fr/Bruno.Grenet/publis/Gre11.pdf returned404 in this independent retrieval; do not claim fresh full primary Grenet access. Established2^n-1 attribution corroborated in primary Buergisser-Ikenmeyer-Panova,No occurrence obstructions,9Mar2017,Introduction,p2,https://www3.math.tu-berlin.de/algebra/work/nooccobs.pdf. The explicit new exposition is self-contained and independently checked. Retained06.json,06_details.json."
+  ],
+  "prior_work_distinction": "A1 derives Hessian/shared higher-jet obstructions and A2 summarizes a claimed cubic lower bound. Neither gives the complete exponential upper-witness matrix or cycle-cover/sign proof supplied here.",
+  "scope_assessment": "Explicitly reconstructs the established Grenet upper bound dc(per_n)<=2^n-1 by a fully specified subset-graph matrix and exact cycle-cover/sign proof. Entries are0,1 and signed input variables; sparse and dense output costs are accounted for. This exact upper witness neither proves nor disproves superpolynomial determinantal complexity.",
+  "required_corrections": [],
+  "execution": [
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "139b30bb11baa88ca6246b43a87b3daf95b192650ee237600b749820ddf51e91",
+      "exit_code": 0,
+      "stdout_path": "qualified_execution/verify_normal.stdout.txt",
+      "stdout_sha256": "9c50aabb136427dc55e272df59ad077b8b691947ec5350f1dcf017b8f3fb8a1c",
+      "stderr_path": "qualified_execution/verify_normal.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_behavior": "finite verification pass"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "-O",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "139b30bb11baa88ca6246b43a87b3daf95b192650ee237600b749820ddf51e91",
+      "exit_code": 1,
+      "stdout_path": "qualified_execution/verify_optimized.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_path": "qualified_execution/verify_optimized.stderr.txt",
+      "stderr_sha256": "17b5e6e4389d1e7774eb77206901ae99ac3b1524350864bf43c12657d6576966",
+      "expected_behavior": "explicit optimization refusal"
+    }
+  ],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

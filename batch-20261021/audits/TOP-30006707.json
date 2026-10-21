@@ -1,0 +1,82 @@
+{
+  "handle": "TOP-30006707",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "860a0f57e7c9f8d6bfcd3e7ddca90a4f22926651aba84d36de81920aa1430489",
+  "program_sha256": {
+    "verify.py": "6afb489db23c4a0c2a440bd49ac22e793c1c794732481d1dc912092fc7b29b30"
+  },
+  "checked_files_sha256": {
+    "author_record.json": "24b891155ee9d79c7fe8c261a0b9b57fcedefc6164dac94392a749b0cdd69917",
+    "contribution.json": "2a34bc64ef068601a9655e2a2cc71ffb9ed8c9fc42625c40753b8f44e01dccd4",
+    "official_metadata.json": "074d79a39ef22ca0ac3efef5f467ff26e0420168c5151387a7d2169b70ae6f21",
+    "official_metadata_api.json": "a9509d1761c72e7816984ab497890c0a0614be0d5baa91e222319efbf389c4fc",
+    "official_problem.json": "074d79a39ef22ca0ac3efef5f467ff26e0420168c5151387a7d2169b70ae6f21",
+    "official_problem_api.json": "a9509d1761c72e7816984ab497890c0a0614be0d5baa91e222319efbf389c4fc",
+    "official_prompt.txt": "b8edf54e163c1bf50571da36889306ad80d34a12c2c2fab4d864fe4b7b571477",
+    "official_prompt_api.json": "e5c7020bafad1657f31bb58440c23cb5349fa376471f8bdd9e46c981cdcc0b8d",
+    "prior_attempts/TOP-30006707-A1.tex": "4be87495f9f62a4d0751c1b26d86ecef6437486c8641756237d0878341931065",
+    "prior_attempts/TOP-30006707-A1_api.json": "568657e557431d6fb2982b70ced53d935c08af800d0ba0e7ef1860bb3c27f6ca",
+    "prior_attempts/TOP-30006707-A1_manuscript_api.json": "be1c8101f3231d02c4f40077382e9a78e97b738f4f7c528828677cae006af5d4",
+    "report.md": "860a0f57e7c9f8d6bfcd3e7ddca90a4f22926651aba84d36de81920aa1430489",
+    "source_notes.md": "0a932452cb8d429483d529a2a563aaca1c8e93aed6e95c7308bc905163488a28",
+    "verification.json": "01aeb4359fd8a4910d8b6962d181d098b882dc488253cb8dd1ab1933de61ad63",
+    "verification_stdout.txt": "d9980285bcf9f4817c9851a73ea835abd161a8a1cd26028a7e70b899e32faaa7",
+    "verify.py": "6afb489db23c4a0c2a440bd49ac22e793c1c794732481d1dc912092fc7b29b30"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:29:06.392884+00:00",
+  "actual_checks": [
+    "Read exact uniform-P versus nonuniform formula prompt, full prior and all current inputs. Checked conjugation of every5-cycle, reverse/inverse programs and alpha*P^-1 complement absorption into first instruction under declared product order.",
+    "Explicit a=(12345),b=(13542) commutator is a5-cycle. AND concatenates P,Q,P^-1,Q^-1 and vanishes when either false; conjugation supplies desired output. OR via complements preserves4^d length accounting; circuit sharing is charged by copying.",
+    "Fixed-width map composition has constant Boolean circuit cost, so balanced multiplication gives depthO(log length), polynomial size. Together with standard prompt balancing/unfolding this gives exact nonuniform characterization; read-once/ordered/smaller-width bounds would be insufficient.",
+    "Read full compiler checker then executed isolated normal/-O copies:432 compiled formulas,5088 truth-table comparisons and all24 output5-cycles passed; optimization explicitly refused. Finite tests supplement the all-depth induction."
+  ],
+  "primary_sources": [
+    "Barrington,Bounded-width polynomial-size branching programs recognize exactly those languages in NC1,STOC1986 five-page primary paper at cited UMN archive; Theorems1-2,Lemmas1-3 and exact commutator proof freshly read. Journal1989 DOI is distinguished from inspected conference version. Retained08_proof.json."
+  ],
+  "prior_work_distinction": "A1 constructs tiny hard seeds and an unproved composition-depth route. Current complete group-program equivalence offers a precise substantive different lower-bound reformulation, with established priority credited.",
+  "scope_assessment": "The classical nonuniform NC¹ = polynomial-length width-five permutation-program characterization is reconstructed, including both simulations. Therefore a uniformly P-computable family separates P from the prompt’s nonuniform formulas exactly when it requires superpolynomial length in this specific width-five model.",
+  "required_corrections": [],
+  "execution": [
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "6afb489db23c4a0c2a440bd49ac22e793c1c794732481d1dc912092fc7b29b30",
+      "exit_code": 0,
+      "stdout_path": "qualified_execution/verify_normal.stdout.txt",
+      "stdout_sha256": "d9980285bcf9f4817c9851a73ea835abd161a8a1cd26028a7e70b899e32faaa7",
+      "stderr_path": "qualified_execution/verify_normal.stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_behavior": "finite verification pass"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "-O",
+        "verify.py"
+      ],
+      "cwd": "isolated temporary copy",
+      "source_path": "verify.py",
+      "source_sha256": "6afb489db23c4a0c2a440bd49ac22e793c1c794732481d1dc912092fc7b29b30",
+      "exit_code": 1,
+      "stdout_path": "qualified_execution/verify_optimized.stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_path": "qualified_execution/verify_optimized.stderr.txt",
+      "stderr_sha256": "3e502175c4174d50a06ab0b7861bc67749a20e7955f0a834f5bf52124c64f76f",
+      "expected_behavior": "explicit optimization refusal"
+    }
+  ],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

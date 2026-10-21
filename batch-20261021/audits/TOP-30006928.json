@@ -1,0 +1,66 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-30006928",
+  "canonical_problem_id": "prb_0c20bd83a18a469dae4bb527a1640ac7",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:37:14.531464+00:00",
+  "checked_report_sha256": "11fc0284f2a17fd3000273894dfad1ed55f19b94dacbacbd156284e2b0463e94",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "2c8f16bb196ee86356fa1a6dc74dda17cbb5986e221b871316fd53397095e718",
+    "contribution.json": "9b69be68c7483d9147b49df25fd990d0d8470f5d6aee17c673a5f8cf9f62e761",
+    "official_metadata.json": "e4707fc98ffc80c2ff07274f95fe85bb9035690bd5d0728cb33652863bdcd393",
+    "official_metadata_api.json": "59b7fa6f6e0613da9c85d8b68e430214860ea4ee5e24f1b5864a2081ea2c6c0f",
+    "official_prompt.txt": "d7e2db74b41c96329c5c88d36a55e7f8d5c55879ca8789c8e5ce9ba45064ace1",
+    "official_prompt_api.json": "a43af379d3aa3d0298e5012e7be47c3cca33e8bf2aaa206be092c3d5f21323d9",
+    "prior_attempt_01_api.json": "1499d5ad2188b4d617020d0fbdc7b295022d7965b6cda1bfaaa16ea7b5b0606c",
+    "prior_attempt_01_text.txt": "d9bffb7fcdbffc65658b45586981d990675db50ae5d1d8dcb82c20080ba3855c",
+    "prior_attempts.json": "3653da5332e67ac2307d6a04f89f788caef16969de83734590ff7c9db175afbd",
+    "report.md": "11fc0284f2a17fd3000273894dfad1ed55f19b94dacbacbd156284e2b0463e94",
+    "retrieval.json": "e7a107ee1f20b0e031f62e78c35eaa8c8e0cb8e693f802d90ab6b958e427e840",
+    "source_notes.md": "42dc0b1f4b653f0be590de70f0c29150986d57602ecde5ea77833f3358261110"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8abd348b18f67b61cb97e7fa72eeb990a89587d29cbab694915ecac22cb2ece3"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact report, literal prompt, provenance/source records and full earlier integer-family/discriminant-search contribution read. The complete all-prime-power/all-modulus local theorem with a proof at singular prime 3 is a distinct substantive congruence classification, explicitly classical with no novelty or global representation claim.",
+    "Cauchy–Davenport is proved over the prime field using a total-degree coefficient formula. If |A|+|B|>p direct intersection proves full sumset; otherwise the binomial coefficient at degree |A|+|B|-2<p is nonzero. Product Lagrange functionals at that total degree kill every monomial except the exact pair of threshold exponents, so the vanishing contradiction is valid.",
+    "Cube-image cardinality is p or (p+2)/3; two sumset applications give every residue for p!=3. Target zero uses (1,-1,0) to retain a unit coordinate, including p=2. Ordinary Hensel digit correction uses invertible 3x^2 and preserves the unit.",
+    "At 3, precisely residues 0,+/-1,+/-2,+/-3 occur modulo 9, all with a unit-coordinate choice. For a>=2, x -> x+t3^(a-1) changes its cube by t x^2 3^a modulo 3^(a+1); the other terms have valuations 2a-1 and 3a-3, both >=a+1 even at a=2. Hence all higher lifts work and coordinate updates are Cauchy despite not keeping each earlier coordinate residue unchanged at its old index. CRT applied separately to three coordinates proves all-modulus sufficiency; m=9 gives necessity.",
+    "The p-adic/real points are local, with the triple allowed to depend on modulus. Success at every modulus does not supply one ordinary integral triple or infinitude. No integral Hasse principle or height bound is inferred."
+  ],
+  "primary_source_checks": [
+    "Alon, author-hosted Combinatorial Nullstellensatz full primary PDF, Theorems 1.1/1.2 and initial proof checked. Balandraud, arXiv:1702.06419v1 (21 February 2017), Theorem 1 and coefficient-formula discussion checked; PDF text extraction uses a strict greater-than glyph for the standard nonstrict theorem, so the independent direct proof and Alon source fix the convention. Browning–Glas–Wang, arXiv:2402.07146v1 (11 February 2024), introduction and Theorem 1.1 checked for context only: function-field and Ratios-Conjecture restrictions are not promoted to an integer theorem. Retrieval 25."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Partial result",
+    "exact_scope": "Complete classical congruence theorem: an integer is a sum of three cubes modulo every positive modulus iff it avoids4,5mod9; full finite-field, every-prime-power, special3-adic and CRT proofs. This proves local solubility only, not an exact integer representation or infinitude.",
+    "listed_prior_count": 1,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

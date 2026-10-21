@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006971",
+  "canonical_problem_id": "prb_24c111004d55425086c1590b7bd68ed4",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "361ea6b4c5eb4ed5edec8c7ab1d048176b631ee171a725331631a442344e6be2",
+  "report_sha256": "361ea6b4c5eb4ed5edec8c7ab1d048176b631ee171a725331631a442344e6be2",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "7424a84d30ccf4e3e411cf44f409e2a2510b7f426ca510c845520554338465dc",
+    "contribution.json": "844e7744d834df04e6c1f53156b31aa76910e8c5cb001a43c3db52a436eff233",
+    "official_metadata.json": "4e3095ce0b1e1607ab774476d7bc0e1445ac9943d562f120a5be0c95667b985c",
+    "official_metadata_api.json": "68148925fd2b90f08936979e57b765b6c99b6d4d645ee4a8aece703fdb52c1eb",
+    "official_prompt.txt": "a5c12ed35b071663f80508ea59ead04895adff56267e1f0b076a9dc5b2815922",
+    "official_prompt_api.json": "3dd5c6a9b3384b15cf750f376393027bc556c00f480ac9bf51b59deeb45dacfd",
+    "prior_attempts/TOP-30006971-A1.html": "70252c528ab4d06fe76532a6898bfd106d95d71284474efeee3950c31f20c20c",
+    "prior_attempts/TOP-30006971-A1.json": "9950feab76f18882e6cc1977a2cde5b46694f10cc1968cbbc53985e56640100c",
+    "prior_attempts/TOP-30006971-A1.txt": "88cbeacb5e7742747cd392c81bc7a0bbd61b7a6b9b3b499160a4fab7555baf05",
+    "report.md": "361ea6b4c5eb4ed5edec8c7ab1d048176b631ee171a725331631a442344e6be2",
+    "source_notes.md": "52abea6b136cb2acd350d1b598a20faa65b129137aae7baa814159505f05f010"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:25:25.633241+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Reread final report hash361ea6b4c5eb4ed5edec8c7ab1d048176b631ee171a725331631a442344e6be2 including corrected display delimiter.",
+    "Checked averaging for arbitrary nonabelian P, A=C direct-sum [A,P], character restriction/inverse via T and actual semidirect character formula.",
+    "Checked single weight orbit, irreducibility of inertia weight space and dimension index times inertia degree; the algebraic-integer orthogonality argument gives degree dividing p-group order. All p-prime irreducibles are precisely stated linear pairs.",
+    "Checked N_G(P)=C times P without assuming P abelian, its prime-to-p irreducibles, full single-map Galois equivariance and D8 inversion-action example. Read entire priorA1: its common-eigenvector argument assumes abelianP; current inertia proof removes that substantive restriction."
+  ],
+  "sources": [
+    "Ruhstorfer\u2013Schaeffer Fry, actual18-page primary arXiv2211.14237v2,20May2025 PDF https://arxiv.org/pdf/2211.14237 : introduction exact H_p definition/global conjecture and CorollaryB. Source prime-two theorem is context only."
+  ],
+  "limitations": [
+    "Source/proof-only with no programs: zero executions, no formal verification.",
+    "PASS checks the stated restricted contribution and exact imported hypotheses; it does not certify the unrestricted research problem.",
+    "The all-prime family proof is directly checked; no general or blockwise McKay\u2013Navarro assertion, character-table software or all-group classification theorem is used."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

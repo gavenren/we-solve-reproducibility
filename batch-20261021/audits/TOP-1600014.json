@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-1600014",
+  "canonical_problem_id": "prb_8bf59eb9c08f4fae82b1ac4361bc656a",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "874685f60d1bdd48d49fbc19c002d527f600e2004e40e9ec26155fb0b3544dcb",
+  "report_sha256": "874685f60d1bdd48d49fbc19c002d527f600e2004e40e9ec26155fb0b3544dcb",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "0879eea3844ad894b17eccf0ef2504bf027c9c26eb31bd4de634b979727334b1",
+    "contribution.json": "d2b1881ce3537960154836d5aa92cd447ac7f5be030ac3cb00d076b35faa0bed",
+    "official_metadata.json": "ff5ae2c581bf61fd8cedc433adda593294665648de662201e347aa99720ec9a1",
+    "official_metadata_api.json": "cd50425c4e79ce3581d3587658516c70b512d3e66849f5db2d2e673f1637f28f",
+    "official_prompt.txt": "c082df509cf455d36885b3d64524bc10ff4f02b6320c648ac432eed10e9fc768",
+    "official_prompt_api.json": "dae55917fd424ec0d0cf24afab3ea821001531596f42943361bd6903bd70632a",
+    "report.md": "874685f60d1bdd48d49fbc19c002d527f600e2004e40e9ec26155fb0b3544dcb",
+    "source_notes.md": "3a50ca5b60931b93a061c8cbe3a7391cf15c22d7e12915f2085ab29af869ca3c"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:24:23.331693+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked exact symmetric-circulant versus periodic autocorrelation equivalence, Fourier inversion and nonnegative spectral filters, row-sum squares and parity.",
+    "Independently checked every index in the odd n to 2n construction: shift s=(n+1)/2 gives 2s=1 mod n, symmetry of odd positions, even-shift autocorrelation doubling, and odd-shift pair cancellation.",
+    "Checked n=1, restriction to odd input, and failure of an unsupported converse. Source order35 nonexistence/order70 existence is credited rather than an independently repeated enumeration. No earlier contribution is retained."
+  ],
+  "sources": [
+    "Bright\u2013Kotsireas\u2013Ganesh, arXiv1804.01172v2,14May2019, full30-page PDF actually accessed through https://arxiv.org/pdf/1804.01172 (version-specific URL failed): definitions in Section2; Theorem17 printed8 and full appendix proof printed30; introduction records even-order existence through70."
+  ],
+  "limitations": [
+    "Source/proof-only: no program exists and zero checker executions were performed.",
+    "This is an independent mathematical reading, not a formal proof verification or certification of every argument in imported deep theorems.",
+    "No SAT/CAS search or independent verification of published exhaustive nonexistence35 computation was performed."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

@@ -1,0 +1,62 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3263",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "4df5e6c827294f1b6117185fe7ed2fdf2c846989014976f208d47a7e4075b0a6",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "4df5e6c827294f1b6117185fe7ed2fdf2c846989014976f208d47a7e4075b0a6",
+    "source_notes.md": "af61db594ac5eed619389de1faed964372bfb78fb0cd3eaf337403eec376cbe1",
+    "author_record.json": "3af0dccadf8f022c0c17dc9023eee92213cd03b9aacb045082f1ee24af7ede75",
+    "contribution.json": "82c7e1a8656b82635438fc0d79d4c22ffc3559beca8ad86ff99203ad6374eafb",
+    "official_prompt.txt": "714a85024b2e9357d5884b799e7f5c8e96c8e5210822a52a501c2e47944d3589",
+    "official_prompt_api.json": "a7906dcf4203ff8d3408b69a2dfd271c75a4cdd75aa31a105426c2c8781529c1",
+    "official_metadata.json": "18b07334dcfc81593dd9700909ef66537c9f9a3c2db0a57363cf541a29f78fb8",
+    "official_metadata_api.json": "73091b8b125cd44f4bad4ef81fac3e60784654147cabc4d8b15923fd902f723d",
+    "prior_attempts/attempt-1.txt": "815be593c2bb93745e89ee58626da2a7aa3e7fdb6de32968c0e99f6f257297f0",
+    "prior_attempts/attempt-1_api.json": "ed875a2f0f20dc7d1218fb95d08804a83f21ea777de05b674d98945da04b0957",
+    "prior_attempts/attempt-2.txt": "6ed82fed92b3f874a7fde015c2fafeba49f222684e50d0a7b4f8c19983528996",
+    "prior_attempts/attempt-2_api.json": "ea1343c6b7acbc5fbd143dc3accee4c6c39c48627f8697329fac3547850dfcfb",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "b99c3a054948396767a3914332e80bb2f930237fed3163d0e4f078945770f6e6"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Independently checked the entire prime-field Cauchy–Davenport proof, including the large-sum pigeonhole case, polynomial degree, nonzero binomial coefficient modulo p, nonzero Lagrange denominators, and total-degree argument covering all admissible monomials in the coefficient identity.",
+    "For A=S∪{0} and h=ceil(p/r), iterated sumset growth is valid from (h−1)≥1. If no positive sum of at most h nonzero steps vanishes, (h−1)A and −S are disjoint; the saturated p alternative is impossible, otherwise p≥1+hr contradicts hr≥p.",
+    "Checked extraction of a shortest positive consecutive zero-sum subwalk: repeated internal partial sums would provide a shorter positive closed subwalk; absence of zero steps excludes loops. Thus the result is a simple directed cycle, permits digons, and covers p=2,r=1.",
+    "The arbitrary nonzero connection set on a prime cyclic group extends the prior interval circulants. Primality is explicitly confined to the polynomial coefficient step; the broader finite-group Hamidoune theorem is credited separately. The other retained prior is an unverified second-neighborhood solution summary, not a premise or full outdegree-only CH proof."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/math/0603469",
+      "version": "arXiv:math/0603469v1,20 March2006, Nathanson exposition",
+      "locators": "Section4 Cayley definition and Theorem7 attributed to Hamidoune for all finite groups. Source closed-walk convention distinguished from prompt simple cycle via report extraction.",
+      "retrieval_refs": [
+        "turn1855view2",
+        "turn1859view1",
+        "turn1863view1"
+      ],
+      "access": "Primary version, exact theorem, proof and Cayley conventions read; narrower report additive proof independently checked."
+    }
+  ],
+  "distinct_significant_scope": "Complete additive proof for every nonzero connection set on every prime cyclic group, with all polynomial and simple-cycle steps supplied, beyond the retained interval family. Classical broader group theorem and unverified prior claim are appropriately separated.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:32:53.330662+00:00"
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006217",
+  "canonical_problem_id": "prb_ed6b1e1c4ea34788b9c8550fae32ed8a",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "25907cf120e6a4d7123458e1cc59e596790ad3f58893d1545694036f1b47b1a7",
+  "report_sha256": "25907cf120e6a4d7123458e1cc59e596790ad3f58893d1545694036f1b47b1a7",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "51aeabba843d8935f5881d2346f37b3d03e38630d9d7a4455f559529d4f6ef1f",
+    "contribution.json": "1e0bac01a10caae955c262e13d5fac371361b6be415da1dadd34bbadfb20f58e",
+    "official_metadata.json": "ca194a43eb46ad30c35fa60ab608c110a41635c1b77b2a1b17b5e174512512aa",
+    "official_metadata_api.json": "8eaa08837e861a90c519c0ab42495e2a096459478ea4525d3600a3baf6279041",
+    "official_prompt.txt": "e13f9991d56ac118f5dce6cc3a6021c8b4caa79ae5089ab6d1093dfa6517c8ed",
+    "official_prompt_api.json": "0e630131d66fd3d6ee13a28f43815f5a3e3f9fbf5a1699735e55fb4636cbaec8",
+    "prior_attempt_1.html": "5a1f403e9efea9b19e7e2c584d7ba862eb7c70ffbe4b5182910e32ba48662973",
+    "prior_attempt_1.txt": "d7bd1e6544f48a347e5e05eb6197cd90b1a2cbd3c0d7f4dbc1a35bc5790290a9",
+    "prior_attempt_1_api.json": "92ba5848a96aba83d3e458a984df1fcd2f2b086dcf01b0fcf3b2d9ef2e3df984",
+    "prior_attempt_2.html": "ba423baead92ad0b721accc3ac13e2832c42189f3e7c18336ea8e0912da54337",
+    "prior_attempt_2.txt": "7ffe15151ae894dd8c63843c6172b9d651d7d6a2d1328b711efdd51add475a03",
+    "prior_attempt_2_api.json": "27d5b5da2a26f0f6e5dc2eace3d514c091a5cacfd89334ebe02e62e97c077652",
+    "report.md": "25907cf120e6a4d7123458e1cc59e596790ad3f58893d1545694036f1b47b1a7",
+    "source_notes.md": "525933f197fdcd33bd477474a4fdc2def2daca0ca3ccdfb2046943bb3d2b3164"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:10:18.350239+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read both complete one-dimensional alias/canonical prior bodies; univariate hinge cancellation is credited, while arbitrary-dimensional unrestricted product lower bound is distinct.",
+    "Independently checked positive/negative hinge construction, strictly distinct accumulated gradients and exact product region counts, including affine/zero-count cases.",
+    "Verified mandatory bend on each entire positive grid hyperplane against arbitrary convex CPWL competitors, convexity of maximal affine domains, inability to cross grid boxes and finite-cover lower bound. Checked output-sensitive rational construction."
+  ],
+  "sources": [
+    "Opened Brandenburg\u2013Grillo\u2013Hertrich2410.04907v2,4Jun2026, Problem1.1 and Section1.1 global versus compatible-complex restriction: https://arxiv.org/pdf/2410.04907 (turn1574view0)."
+  ],
+  "limitations": [
+    "The separable global proof was directly checked; no general unknown-complex minimality algorithm or full38-page theorem audit is claimed."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

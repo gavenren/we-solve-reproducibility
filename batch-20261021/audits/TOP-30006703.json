@@ -1,0 +1,45 @@
+{
+  "handle": "TOP-30006703",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "ba4e4b0c7a73ddd2638bf68b28d4e638fc3761d0cd218d9e52fb4283b75137fa",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "8ab383d360b416598995fc6865af59014a3abb073bb9a3c98973791527c987d8",
+    "contribution.json": "0b0b7044abbe5b14e74807bcebeeb94de28342095e25bce2f11e8e4d2ade080d",
+    "official_metadata.json": "9ca86c8bb4bb371ab50e91b10fb53d266b6c2e6e5dfb83d72d67842ae249dcd1",
+    "official_metadata_api.json": "d9af5b534797ebab41b268662951047ace4b824739fcfd4e67469f31181c5649",
+    "official_problem.json": "9ca86c8bb4bb371ab50e91b10fb53d266b6c2e6e5dfb83d72d67842ae249dcd1",
+    "official_problem_api.json": "d9af5b534797ebab41b268662951047ace4b824739fcfd4e67469f31181c5649",
+    "official_prompt.txt": "63fd498d994885a631e571460650debe59c39495624874da2f7f1824a77f2824",
+    "official_prompt_api.json": "dc42bb2a7ef4013013e46b3317b05f3c396de194b61819fa70ca763f86a64a03",
+    "prior_attempts/TOP-30006703-A1.tex": "49c083a843892fc9f9cdde7caf618127e4c2c734bcce37a75b6ddf6fc536c320",
+    "prior_attempts/TOP-30006703-A1_api.json": "2d0c3a569254025c09457a621efe4a4d3b26baac21a7aeaa662977ba4e171156",
+    "prior_attempts/TOP-30006703-A1_manuscript_api.json": "aec217ccc410ba325d50c37844013f082b77689571abd539ea8d3cb497a9c163",
+    "report.md": "ba4e4b0c7a73ddd2638bf68b28d4e638fc3761d0cd218d9e52fb4283b75137fa",
+    "source_notes.md": "c087d4d997e564e468baa0618780c0bff22d7be5bcabd8e4a6b8b637f77123b9",
+    "verification.json": "24ad7eb7c9b0b8557053938600ce5b9bbe54f9995fb065c1ab92f21966d7faec"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:26:35.991512+00:00",
+  "actual_checks": [
+    "Read full exact prompt, metadata, wrapper bindings, complete earlier manuscript and current report/source/author files. Checked fixed depth, modulus and quasipolynomial exponent order against primary v1 Theorems1.1-1.3 and Definitions2.1-2.2/Theorems2.4-2.5.",
+    "Verified why weak AND closure plus counting-SAT suffices where the typical-class SAT theorem cannot be substituted. The subexponential-size algorithm contains every fixed quasipolynomial size after weakening epsilon. All-input evaluation alone does not supply a faster SAT decision. Coefficient-encoding qualification retained.",
+    "Credited imported lower-bound machinery is not independently reproved. Restricted ACC composed with THR/SYM does not imply unrestricted NEXP outside P/poly. No attached checker and zero executions."
+  ],
+  "primary_sources": [
+    "Ryan Williams,New algorithms and lower bounds for circuits with linear threshold gates,arXiv1401.2444v1,10Jan2014 masthead/13Jan2014 manuscript. Primary23-page PDF https://arxiv.org/pdf/1401.2444 freshly opened; precise theorem/closure passages read. Retained06.json,06_details.json."
+  ],
+  "prior_work_distinction": "A1 audits fixed-exponent diagonalization, padding and ordinary ACC. Current report explains the strictly stronger bottom-threshold quasipolynomial frontier and the essential counting/weak-closure bridge, with precise model limitations.",
+  "scope_assessment": "Williams arXiv1401.2444v1 Theorem1.3: NEXP has no nonuniform quasipolynomial-size ACC composed with a bottom layer of arbitrary threshold gates; the analogous ACC composed with symmetric gates is also stated. Exact counting-SAT/weak-AND-closure hypotheses are explained. This stronger restricted-class frontier is not NEXP outside unrestricted P/poly.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

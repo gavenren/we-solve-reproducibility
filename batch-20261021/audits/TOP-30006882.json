@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30006882",
+  "canonical_problem_id": "prb_926ef7eb4b434fa783aa0e2708bc6fd7",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "dade246effc67a930ae2b13071c92f017eac0295d6033a89354d287d10a2f71f",
+  "report_sha256": "dade246effc67a930ae2b13071c92f017eac0295d6033a89354d287d10a2f71f",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "3532f1422cf31a9c1ff125608d135dedc97686529dcf1f68d4522d9d4b77d313",
+    "contribution.json": "a37c11fc5aa3a67ec9a7b5dcb2937c0d3b23df229c749b93c6360dce8a5f43f2",
+    "official_metadata.json": "e88d20dc1d641c4a86562a54795b16b140cd93a58bf038af58585dcb3e67112a",
+    "official_metadata_api.json": "8d79195f87b28a156e255eb21eaa5cacefb06b13c44556dc5fb3f3331b7f1adb",
+    "official_prompt.txt": "74eff085ffe41b8d6ff173ffe78e9eceb0307640c1e9a4b27c59b0cb402070c3",
+    "official_prompt_api.json": "308b54b0240960767bc03b7cab38f880e52a9b26425c413f8003578395426e78",
+    "prior_attempt_1.html": "6f4f84c090de6b87431e906889f49c24d6f46275a23e479e2705f620f1b28aa4",
+    "prior_attempt_1.txt": "bdfd6c3d0907a5500ee5129cb60308be53f3c1d6434b316f183e4cbb7675f85c",
+    "prior_attempt_1_api.json": "7fa993b0f38b49bc89bfdc6c14a4f71480a8116dff6429f216306b29dbf8a4d3",
+    "prior_attempt_2.html": "605f5981c0160e9b075604b1ea61311225e47554525e2f87e9d25726d3cc664a",
+    "prior_attempt_2.txt": "73efb3643c4fdab8276018e3605c654189d3441ac64fa3a879a443b3d23d98e8",
+    "prior_attempt_2_api.json": "1201c89def0cda666dc0257372c3f39a03aa1a88507b654c486d99cbc003be20",
+    "report.md": "dade246effc67a930ae2b13071c92f017eac0295d6033a89354d287d10a2f71f",
+    "source_notes.md": "1a298cb6e1258bce150f12a3daa5caee8bd3fa3dea1ebfd98946fd095ca94aea"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:10:18.452871+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read both full earlier exploratory/global-claim manuscripts; the n+1-generator theorem is distinct from their model calculations and local-extremizer discussion.",
+    "Checked Proposition6.1 exact hypotheses/equality and Lemmas6.3\u20136.4 coordinate-transfer RS movements, affinely equivalent endpoints, reduction of positive coordinates and compact affine parametrization.",
+    "Verified cube moment value1/sqrt12 and displayed simplex/cube2n-power ratio; comparison does not extend the zonotope bound beyond its generator restriction."
+  ],
+  "sources": [
+    "Opened Kipp2407.01353v2,27May2025, Section6 Proposition6.1/Lemmas6.2\u20136.4 pp13\u201315: https://arxiv.org/pdf/2407.01353 (turn1586view0,turn1587view0\u20131)."
+  ],
+  "limitations": [
+    "RS strict-convexity theorem is imported via the checked primary proof. Underlying Campi\u2013Colesanti\u2013Gronchi article and full analytic input were not independently verified; no global simplex theorem is certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

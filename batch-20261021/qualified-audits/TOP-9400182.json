@@ -1,0 +1,63 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-9400182",
+  "canonical_problem_id": "prb_eec9b14df88742d19cebceaa7b381d01",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:34:22.369780+00:00",
+  "checked_report_sha256": "8fc9f67301a95a6c1ce7417c2075bbfb4e456d3b96249e451d3cc6a0cb745d79",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "febda2da68a0f3ff17653580c4a55762d93f297b1fa9fcc606e5b1410d48146b",
+    "contribution.json": "277665fac0cc1eab358d9f9629c38739635b4753593699cffaea49f286dd4510",
+    "official_metadata.json": "d3c09528c5d4dfdaade47544251d523a6769ec4264b9ca71978478bee8e6f8c1",
+    "official_metadata_api.json": "96adb3ba3e578d1ab8b9ab8cfacfc792df8be5ab8215e317eeeca311a8f3e5cb",
+    "official_prompt.txt": "aba3fb44e30e93cceb7756a51bbcd2ba427bf2af4a3b231e6d96e5c19ba4c8c0",
+    "official_prompt_api.json": "f9985e472a7f931d05ed9b029c97aabe75d35e2de8bfc891095edd0451c5ae71",
+    "report.md": "8fc9f67301a95a6c1ce7417c2075bbfb4e456d3b96249e451d3cc6a0cb745d79",
+    "retrieval.json": "19772d290a975c3def22db4218c168e2e37759b4e32381efbe0c7657a86c878a",
+    "source_notes.md": "3cca30f0b20d502a4aa0cc92ff79ff9da2ae133efefa1386ecbb0397340c7ccc"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8abd348b18f67b61cb97e7fa72eeb990a89587d29cbab694915ecac22cb2ece3"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact report, literal prompt and all provenance/source records read; metadata lists no prior contributions. The report addresses the integral/root-of-unity issue and a precise split-prime smoothed theorem rather than claiming that away-from-two localization alone solves the literal statement.",
+    "F totally real, H/F finite abelian CM, S containing infinite/ramified places, T disjoint with the stated torsion-killing condition, and p outside S union T splitting completely are all carried into DKSW Theorem 1.1. The prime-to-T unit congruences, absolute values away from p and every character valuation identity match the source.",
+    "The convention chi(Theta)=L_S,T(0,chi^-1) implies ord_(sigma^-1 P)(u) equals the sigma coefficient of Theta; Fourier inversion gives the exact P^Theta ideal relation. Complex absolute values one force u*j(u)=1, so the antiunit property follows with the correct action.",
+    "Localization kills exactly the two-primary obstruction, so an away-from-two class-group annihilation statement cannot be silently lifted integrally. If j b=-b, replacing beta by beta/j(beta) doubles the ideal exponent. The source integral theorem includes the needed stronger two-adic divisibility (and the degree-one Stickelberger case); no division by 2 without that input is made. The report does not independently establish equivalence of every unsmoothed ideal/root-extension formulation."
+  ],
+  "primary_source_checks": [
+    "Nomura, arXiv:1307.1279v1 (4 July 2013), Conjecture 1.2 checked in full primary PDF. Dasgupta–Kakde, arXiv:2010.00657v3 (5 September 2022), Theorems 1.2–1.4 and explicit away-from-two limitation checked. Dasgupta–Kakde–Silliman–Wang, arXiv:2310.16399v1 (25 October 2023; internal 26 October), full Theorem 1.1 and Section 2.2 Theorem 2.4/proof of 1.1 checked in primary PDF. Retrievals 12,13,15–18.",
+    "Current primary arXiv abstract still displays only v1 with no journal reference (retrieval 17); the author publication list search result describes the work as a preprint (retrieval 18), while direct author-list open timed out. Integral theorem is explicitly credited to this preprint and not represented as an independent verification of its entire 56-page proof."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Literature report distinguishing published odd-primary theorem from the four-author integral preprint; precise smoothed split-prime unit statement, character/ideal normalization proof, and exact localization and anti-unit factor-of-two obstructions. No new full proof or independent audit of all preprint arguments.",
+    "listed_prior_count": 0,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

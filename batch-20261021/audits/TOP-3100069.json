@@ -1,0 +1,67 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-3100069",
+  "canonical_problem_id": "prb_69e4ff453ade412bb5730835e93a4674",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:31:13.405361+00:00",
+  "checked_report_sha256": "e0e3ed2c475d3191c5b76532ec775dd8e169066e9a4c5c39916507725662928a",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "368af06d5f193057b382997deec07a3cca870f845e6433134c10cfa00c0a8036",
+    "contribution.json": "99d372ca9c34eaf86ace70a7812ed05a0970a334348e6c74f94c3249ac4e20df",
+    "official_metadata.json": "61e63b90d6583d903f11b4d5f0cc50d227705fb71428169fd9ac7e2dcba89ae5",
+    "official_metadata_api.json": "b0b6cf49877241c45f67d2aac943e6dde9e6f240ed8dc2a38a02b522a4b90d24",
+    "official_prompt.txt": "c494cbf819ad002e2300603d45cfcfea9eba321f384b410d4adc4787ee61643a",
+    "official_prompt_api.json": "7f64e9da93ed6e092fd0735bd455b5030dc5445936b9bad6604f5c2a7f42de03",
+    "prior_attempt_01_api.json": "018b6244a31b350262b959640a5f2a15d508ded8a3726eb61e2f19258261c5d1",
+    "prior_attempt_01_text.txt": "f106f30f99b98844ed6a24dd2b93ee948534b3f66806017440ba137930966f29",
+    "prior_attempt_02_api.json": "0e72ecc72c6c5be174d6036dd0cabad5ffa141dc11931b2c5e4b1778226a6981",
+    "prior_attempt_02_text.txt": "0ab73905677e2ceac3d9871f73be2a6a0f2f9bee13c45a35c2e70810757ed784",
+    "prior_attempts.json": "85dec9800a9f073e13ba1cbea2fd47d8854bbb8be9e6c348908da74c30105e86",
+    "report.md": "e0e3ed2c475d3191c5b76532ec775dd8e169066e9a4c5c39916507725662928a",
+    "retrieval.json": "a913756c919e47e735dfb19dcd796b445cf4bce25a02cf631df01202ffd75e82",
+    "source_notes.md": "d76aac83d5feefbc5aa76030c8c4a300fb79c2fe7160dc751332726c4bd620e0"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "800ec6892172883dc31875bc4103acafc7e24704c3fc02c67e2e5e3965d0f430"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full prompt, source/meta/API/provenance, report and both entire prior bodies read. Earlier Burgess/smooth-number/CRT unboundedness and an unverified zero-free announcement do not provide exact finite-pattern density laws or the arbitrary-growing-threshold density-one conclusion. Partial scope remains distinct from every-prime Vinogradov.",
+    "Least nonresidue is a prime below p: if composite, both smaller factors are residues and so is their product. With fixed first k primes, modulus 8*product odd q_j handles the supplement for 2 and reciprocity signs: fix the mod8 class first, so p mod4 is fixed; exactly half the nonzero classes at each odd q_j give each sign. CRT then yields precisely 2^-k of reduced classes for every sign pattern.",
+    "Fixed-modulus PNT in progressions converts the finite class count to relative natural prime density 2^-k, excluding finitely many p dividing M. Prior plus and final minus signs characterize n_p=q_k; all-plus up to Y characterizes n_p>Y, giving 2^-pi(Y). Each value and each fixed tail have positive density, without an unjustified mean/expectation limit.",
+    "For any h(p)->infinity, fix Y first and take limsup_X of the exceptional proportion, bounded by 2^-pi(Y); only afterward let Y->infinity. No growing-modulus PNT is used. This proves density-one subpower bounds, even arbitrary slowly growing h, while allowing an infinite density-zero exceptional set; no uniform all-prime C_epsilon follows."
+  ],
+  "primary_source_checks": [
+    "Kedlaya, author-hosted Analytic Number Theory notes, Chapter 4 Section 4.4, Theorem 4.12, https://kskedlaya.org/ant/chap-primes-in-ap.html, actual fixed-modulus asymptotic pi(x;N,m)~x/(phi(N)log x) and coprimality context read (qualified_number_second_half_primary_08.json through _10.json, turn1844view2). This is natural prime density, stronger than Dirichlet density alone, and has no required uniformity in increasing modulus. The classical PNT is credited; finite reciprocity pattern and limit deductions are independently checked."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Partial result",
+    "exact_scope": "Complete unconditional fixed-cutoff distribution law for the least quadratic nonresidue: each prime q is its value on a set of primes of relative natural density2^(-π(q)); proves n_p≤h(p) on a density-one set for every h→∞, and positive-density unbounded tails. Does not give a uniform bound over every prime.",
+    "listed_prior_count": 2,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "handle": "TOP-30007490",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "6d71d4221b90c80b189d8dbaa20571355c85341fbff11d5886c009ab6f09f4e2",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "19bfad915ff83eb9b42626447d84b032b774d355c9ac7d6e56f446ab4d235ff1",
+    "contribution.json": "39165f5605130d802783769a2ad6943c7fd8f26e5a6a7c5d700b636ad746aeee",
+    "official_metadata.json": "63dc4fd5eb1fddc03caf5c09ba20a1943da75ed34e52b4a8fbbeb8c3ff6f933c",
+    "official_metadata_api.json": "7e996019e0d75fc437d82c2531cb628acafc7a00ff64638bbba7fd49a8115dd2",
+    "official_problem.json": "63dc4fd5eb1fddc03caf5c09ba20a1943da75ed34e52b4a8fbbeb8c3ff6f933c",
+    "official_problem_api.json": "7e996019e0d75fc437d82c2531cb628acafc7a00ff64638bbba7fd49a8115dd2",
+    "official_prompt.txt": "90fdc565efeca9a5e09082804d0436b62484c25d0f852a3e0980a9fac518065b",
+    "official_prompt_api.json": "8c8259997f2307cde0c76d93e65613f129c7b5d84e6a370a13db271b667f1a4f",
+    "prior_attempts/TOP-30007490-A1.tex": "4913d052f70baf709285c9955e2bad410f9652a10d02dc3410e3f6e09a4b7e37",
+    "prior_attempts/TOP-30007490-A1_api.json": "cbd881bdc88af8c9c1fb115d9f4a90f6e5a612c6c606eaa3bbf0656982ab1245",
+    "prior_attempts/TOP-30007490-A1_manuscript_api.json": "8e91e029402b81619213b94b88abe40281c434e471c34e0408fe3a01007214d4",
+    "report.md": "6d71d4221b90c80b189d8dbaa20571355c85341fbff11d5886c009ab6f09f4e2",
+    "source_notes.md": "6355fa3852ad4b744e71d95e19abd337de5710f4f37d00041fd79fc9713b7bb9",
+    "verification.json": "a20d9f250815d26cc990ceea919ea32afb250096d96548730061715bd439f565"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:19:12.083615+00:00",
+  "actual_checks": [
+    "Read full official bit-algorithm prompt and A1 general-metric claim summary. Verified ideal marking cache coalescence at completed phase boundaries, at most k misses per phase and the clean/stale symmetry bound. Consecutive-phase union yields an offline lower bound of ell; overlap counts any offline miss at most twice. Final partial phases obey the same restricted sums.",
+    "Checked dyadic index floor(qU/2^b), each probability discrepancy<=2^-b and total variation<=q/2^b<=1/(8(t+1)^2). The random-bit budget is deterministically bounded by O(log k+log(t+1)); there is no rejection tail.",
+    "Verified phasewise maximal coupling: first disagreement probability<=sum delta_t; discrepancy per phase<=k faults; completed phases reset both caches identically. Summable error is<k/8 for any horizon. Multiplication by Delta and initial k faults fit2kDelta additive allowance. Common initial k-point configuration, oblivious sequence and uniform positive rational distances remain explicit.",
+    "Explicit cache/mark scans, rational-distance verification and bounded integer arithmetic meet worst-case polynomial work in L+log(t+1), for every random string. Source/proof-only; no executions."
+  ],
+  "primary_sources": [
+    "Fiat et al., Competitive Paging Algorithms,Journal of Algorithms12(1991),685-699, author PDF https://www.cs.cmu.edu/~sleator/papers/competitive-paging.pdf, Theorem1 and phase proof PDFpp4-6; freshly read. Classical2Hk theorem credited; bounded-bit perturbation proof checked independently. Retained coordination/qualified_algorithms_primary_retrieval_02.json."
+  ],
+  "prior_work_distinction": "A1 summarizes an unverified arbitrary-metric result. This proves a uniform-metric subclass with a fully bounded per-request fair-bit implementation and horizon-free error control, adding meaningful implementation scope beyond stating classical marking.",
+  "scope_assessment": "For every finite uniform rational metric of distance Δ>0 and 2≤k<n, a single randomized bit algorithm uses polynomial preprocessing and worst-case polynomial work per request in L+log(t+1), and has expected cost≤2Hk·OPT+2kΔ for every finite oblivious sequence from a common initial k-point configuration. This satisfies the prompt on uniform metrics, not arbitrary finite metrics.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

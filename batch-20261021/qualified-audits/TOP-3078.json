@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-3078",
+  "canonical_problem_id": "prb_8bb6db85ba924cd4b8155ccaf30ef830",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "566b0a16402f47a1f62b4d1af374cde0fff78f8c00a0437232ea1cc640c71610",
+  "report_sha256": "566b0a16402f47a1f62b4d1af374cde0fff78f8c00a0437232ea1cc640c71610",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "029ffb14f7b97575cd70ba072cc87ddbef22fdf3a834dd2154a9ea9b476f6250",
+    "contribution.json": "552141220dc239637b03a835a14dc0a6ecad8d2d12dde1938981a58505bd4496",
+    "official_metadata.json": "8739604d1d0da13c1e2a76f371f85d6bcce93959922816266859fa11b3639ef8",
+    "official_metadata_api.json": "dea9969888f1251b6178cbdd8f9c121f7b9c2a88b940889e960318d4831f72cd",
+    "official_prompt.txt": "dee12d18a079cc7cbb822b2acc38d7a697f22030f0fdeca929735288d1dfd38b",
+    "official_prompt_api.json": "36ca0b72e0f018108baeb31ffac270edb95f7fa25b93e36c153fadb46e9b3e75",
+    "prior_attempt_1.html": "167dda00602e603930318e564def7e3adc2e8884ad1d1a518c4cfb01345077e2",
+    "prior_attempt_1.txt": "d3a040997ad2812a1203d6317074ac6ccb42c57b5cad73ddebbff6393032fae3",
+    "prior_attempt_1_api.json": "39245cf759323143b2bc188e66caacd867f1b11dc7cce0b8a8081d919d2c3293",
+    "report.md": "566b0a16402f47a1f62b4d1af374cde0fff78f8c00a0437232ea1cc640c71610",
+    "source_notes.md": "ab27b4d3239a9c002bb38f22bdc754a73a2251addd924b1dd6974cf4cc269436"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:03:13.142092+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Compared full earlier determinant/T(3) manuscript. The arbitrary-vertex product inequality and four-dimensional block amplification are additional substantial all-dimensional scope.",
+    "Independently checked order-simplex shuffle triangulation, boundary ties, affine transport, disjoint product interiors and absence of face-to-face requirement.",
+    "Checked normalized submultiplicativity and n=4q+r formula with r=0,1,2,3, including n=1,2,3; verified parity corner separation, even demicube cross-polytope remainder, eight nonincident facets and sixteen-piece construction."
+  ],
+  "sources": [
+    "Opened original Open Problem Garden problem discussion lines27\u201340 for unrestricted definition and four-dimensional construction; https://www.openproblemgarden.org/op/simplexity_of_the_cube (turn1508view3).",
+    "Opened Glazyrin arXiv0910.4200 PDF displaying v2,23Dec2012, Introduction pp1\u20133, including explicit additional-vertex limitation. https://arxiv.org/pdf/0910.4200 (turn1510view3)."
+  ],
+  "limitations": [
+    "Haiman\u2019s full original paper and Smith\u2019s publisher article were not retrieved in this audit. The product inequality is checked directly and no Smith lower bound is imported.",
+    "Exact T(4) optimality is a credited source input; the needed upper bound16 is supported by the displayed construction. No general optimality or T=T* claim is certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

@@ -1,0 +1,65 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-30002380",
+  "canonical_problem_id": "prb_6e57360f52854c1ca5082130610dcad0",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:34:22.376733+00:00",
+  "checked_report_sha256": "644335d8df16460d5790d2ae219f22d7441415d6f47f671b7e82ce5a6759baaf",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "ad1e5770dad6a8fa81be7e275d18bbf76d667563de6a81a4668ee56259d2d581",
+    "contribution.json": "25bdc1cde58e6578227165967b9033a0f59440c782a1f2fac95775168da18f9d",
+    "official_metadata.json": "b72d98a35c571c55fd68234fa82bb92ee263cb320d8c38a66a99fe777772f2f7",
+    "official_metadata_api.json": "c71e8df03d8d0069a12581fa14066ad025740d031a325fbcfdfd3fc9982201b6",
+    "official_prompt.txt": "da80af3c897eafd478352fb05024ce842738000855a13c4847bc646bdadd3c0a",
+    "official_prompt_api.json": "284b280fb8dabd1aff7fc42cd49548a7a91ecd362230d8e84d466ce62e3d31f7",
+    "prior_attempt_01_api.json": "e908495c78e039e1945a93be8ff5c293c1f11aee7f04c4e232d2cde4e59f0b3c",
+    "prior_attempt_01_text.txt": "a9d7256040ec53d3b86add4544000f376513a857c4ae9d4d91db02c9e7cc6f29",
+    "prior_attempts.json": "4e1bb3b4f0e32f37ae98f0de7cce3e38b9c086dcce296a8cc09cfb6c7706261e",
+    "report.md": "644335d8df16460d5790d2ae219f22d7441415d6f47f671b7e82ce5a6759baaf",
+    "retrieval.json": "6e0e03db4987b8c4cc749ef7cb929230cb548188dd9b785492d626d74aead31c",
+    "source_notes.md": "c1950b79b3369eaacf49c2f71506b37246e9af75c9084d05d8376ad63a30d341"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8abd348b18f67b61cb97e7fa72eeb990a89587d29cbab694915ecac22cb2ece3"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact report, literal prompt, provenance/source records and full transvection-criterion prior read. The new contribution uses the current image dichotomy for a Frobenius certificate and exact isogeny field degree; it differs from the prior abstract transvection sufficient condition.",
+    "Furio–Lombardo v2 Theorem 1.5 gives exactly GL_2 or the full nonsplit normalizer for non-CM rational elliptic curves and p>37. Theorem 1.6 excludes the index-three proper subgroup; merely containment would not suffice for the orbit conclusion, and the report explicitly uses equality.",
+    "For nonsplit Cartan matrices (a,epsilon*b;b,a), discriminant is 4 epsilon b^2, hence zero or nonsquare; matrices in the outer coset have trace zero. Thus a good Frobenius with nonzero trace and nonzero square discriminant excludes the normalizer and certifies surjectivity by the dichotomy. No finite search bound or universal existence of such a certificate is claimed.",
+    "Both possible full groups contain F_(p^2)^* acting transitively on P^1(F_p); every cyclic subgroup of E[p] therefore has orbit p+1. Its stabilizer fixed field has degree p+1 and quotient isogeny descent gives an isogeny there. Any K-defined cyclic p-isogeny has a G_K-stable kernel, so its minimal line field lies in K and p+1 divides [K:Q], even for non-Galois K. This is the degree of a kernel line rather than of a chosen nonzero torsion point. The full normalizer alternative and Serre uniformity remain unresolved."
+  ],
+  "primary_source_checks": [
+    "Furio–Lombardo, arXiv:2305.17780v2 (25 November 2025), exact Theorems 1.5–1.7, matrix definitions and exception discussion checked in full primary PDF; actual arXiv abstract confirms current v2 date. Retrievals 12,14,17. Author publication-list search results retrieved, but direct list open timed out; no journal-publication certification is asserted. Deep image classification remains credited."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Furio–Lombardo's exact large-prime image dichotomy, with a proved single-Frobenius surjectivity certificate and exact minimal p-isogeny field degree p+1 for every non-CM rational elliptic curve when p>37; no uniform exclusion of the full nonsplit normalizer.",
+    "listed_prior_count": 1,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

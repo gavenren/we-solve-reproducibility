@@ -1,0 +1,57 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Credited substantial large-prime-factor approximation with a complete small-root/cofactor interpretation, distinct from prior two-almost-prime extraction. Literature report never drops the residual cofactor or asserts prime-value infinitude.",
+  "actual_checks": [
+    "Checked Pascadi v3 Theorem 1: P+(n²+1)>n^1.3 infinitely often, explicitly unconditional. Conditional larger exponents in neighboring discussion are not used.",
+    "For each large n in that sequence, m=(n²+1)/p<2n^0.7. Two factors >n^1.3, or a square of such a prime, would force n²+1>n^2.6, impossible eventually. Thus the large factor is unique, exponent one and coprime to m.",
+    "p>n>1 and p|(n²+1) imply a nonzero root of −1 of exact order four; hence p=1 mod4. Rearrangement gives n<p^(10/13), and a finite set of p would bound n, contradicting infinitude.",
+    "Verified smaller root r(p)<=n and the concrete composite 145=5·29 illustrates that the cofactor need not be one. No intersection of the Iwaniec and Pascadi infinite sequences is assumed."
+  ],
+  "prior_comparison": "Complete earlier body read. It gives local square-root counts, sieve-level bounds, bounded-weight Liouville extraction and an almost-prime parity gap. Large-factor magnitude and root-size consequences are additional.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/html/2404.04239v3",
+      "version": "2404.04239v3, 15 January 2026",
+      "locators": "Theorem 1 and following unconditional-versus-Selberg discussion",
+      "retrieval": "coordination/qualified_number_first_half_primary_03.json; _04.json"
+    }
+  ],
+  "limitations": [
+    "The source's deep sieve/numerical integrations were not reproduced. No current-optimal exponent certification is made.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-47",
+  "reviewer": "/root/sol_ultra_numbers",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "4ac5b104674dc1dd520e1e0e899cfa1497592c2eb0d7a843315bff7061097a49",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "4ac5b104674dc1dd520e1e0e899cfa1497592c2eb0d7a843315bff7061097a49",
+    "source_notes.md": "a0be7d53fd86e9c7379c8081b6b527c4f1bae481f8660fe2d5c68837037a88f3",
+    "author_record.json": "1746ca9bbafbd4bed849389059d398c648da68201c149c7f77027072e6ca542e",
+    "official_prompt.txt": "2a7b5e989cf1ed36739fe89f9746c8b5b1f04a840b069aafd2324ab20f44e3d2",
+    "official_prompt_api.json": "73855ff2ca3832d1f2bb3875eb31db26833efe0a8b58a8fff7d45c1b54a0d0bf",
+    "official_metadata.json": "a010a43e6656f64efef29ed5b781494a7d696e98ffc7cc87d508bb18ccdfb34c",
+    "official_metadata_api.json": "27762cdcba4d33c72c04f50385108a9edb38f73113e45b06be95f8b54c2d645b",
+    "contribution.json": "0e6afbc03a73290189ef997bce2a0635ddcd0fcc490484ce00e5ef57b24aeda4",
+    "retrieval.json": "b4dcb01622c3b57da55f1d5ff07f9165f8e05e21f13fce5dfb6b769d73def35b",
+    "prior_attempts.json": "2dcbac3efafca9bd326cae7516faa98018525c9f9f9d861e805886af71a36825",
+    "prior_attempt_01_api.json": "8da47beb985ed10d52e10e73fe376fa6337152d9c5659d61fe1ba451b7358524",
+    "prior_attempt_01_text.txt": "d3bfcb12454b613a1910bdf1a4acdc672c14e92530a712264f816e96f830adb5"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_numbers_first_half_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:30:57.528147+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

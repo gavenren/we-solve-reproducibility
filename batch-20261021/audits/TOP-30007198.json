@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30007198",
+  "canonical_problem_id": "prb_e27734841a3b408e9372afc1720fd24c",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "4f0a020a19e9cf4f1b441d3082b4ddb0a0db726fb38126250bfb0045dfe2a9a5",
+  "report_sha256": "4f0a020a19e9cf4f1b441d3082b4ddb0a0db726fb38126250bfb0045dfe2a9a5",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "1f552a1f26396ebbd2c88545762c8918970911031a34a166291fccc42a9e3857",
+    "contribution.json": "004baa1a6b382c8d1283057192f2ef6d36ca43479a06136c349e59da87e4eaf7",
+    "official_metadata.json": "f01a190d7b7311f79d0bc7d6fba9024057684a27b494ee1ad6006d055147e1e3",
+    "official_metadata_api.json": "914097a6dfa6092d27bd07d76cd66be960df172249d9775809b62c90ae871a59",
+    "official_prompt.txt": "84d7ec7a003752e6f6d9d41d045b31174a0f2adfa7e0788fa84ab140f81e7887",
+    "official_prompt_api.json": "1b49bbef84b8750ef8499b67ece6a18fae8fee1b24682d3ea8786de959553899",
+    "prior_attempts/TOP-30007198-A1.html": "43a9c75342bc89090544255e558cb7dabee5e3220e0f5f322918f75215f87a9f",
+    "prior_attempts/TOP-30007198-A1.json": "02ec6812308da1da24c4db5c9f5b116840d908ca32db2b684f2562d25f69f1bf",
+    "prior_attempts/TOP-30007198-A1.txt": "49b80cfff8be25e01715db2680b282e10f7df9b6fd0855602bc18e6ce71bb102",
+    "report.md": "4f0a020a19e9cf4f1b441d3082b4ddb0a0db726fb38126250bfb0045dfe2a9a5",
+    "source_notes.md": "780397c172f0c6ecfe972b49d362101a70e3760010b81d06c3c758971f6199e5"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:28:31.477182+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked full-row-rank rectangular system admits nonsingular minor, unused variables can be1, and a reduced-system solution supplies the original simultaneous solution and original universal coefficient injectivity.",
+    "Checked ambient connected compact Lie group U(d), degree det(D)^d, primitive exterior cohomology argument, inversion signs and coefficient translations homotopic to identity.",
+    "Checked representation-wise quotient maps separate every nonidentity coefficient; a set of witness representations suffices for arbitrary-cardinality groups. Residually finite groups detected via finite regular permutation representations.",
+    "Read complete priorA1 and its explicit nonsingular-system formal-scope exclusion; prior arbitrary-group claim not used."
+  ],
+  "sources": [
+    "Gerstenhaber\u2013Rothaus, original author-uploaded PNAS48(1962),1531\u20131533 full article text actually accessed at https://www.researchgate.net/publication/7189139_THE_SOLUTION_OF_SETS_OF_EQUATIONS_IN_GROUPS : Theorem1 and primitive-cohomology proof, Theorems2\u20133; PMC full endpoint bot-gated."
+  ],
+  "limitations": [
+    "Source/proof-only: no program exists; zero executions and no formal verification.",
+    "Deep theorem proof is credited and its exact hypotheses checked; full analytic/diagrammatic proof is not independently reconstructed."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

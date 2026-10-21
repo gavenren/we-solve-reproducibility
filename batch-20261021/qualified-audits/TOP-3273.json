@@ -1,0 +1,92 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3273",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "f55eebd2d1a328388aac15ce54d7d526a2cd6046cf2b95b10482549c2446d0a6",
+  "program_sha256": {
+    "verify.py": "3ed24b0d3ba0eb3532d8e3e1fd70253f496ec516432353b7ceeb5293706af56a"
+  },
+  "checked_files_sha256": {
+    "report.md": "f55eebd2d1a328388aac15ce54d7d526a2cd6046cf2b95b10482549c2446d0a6",
+    "source_notes.md": "460d3ba025aec1f0e6592af0847659c87712782741a41d64e4858f2c9dd732e3",
+    "author_record.json": "c147163d70e8ed33ee843ee977da9ca9b36859cd6f4368a9209ee4285f8ec141",
+    "contribution.json": "cade817470e415cf98fd806a29fe9f848b56744f569fa172458acd2bbec84706",
+    "official_prompt.txt": "8fc1926500e5f35bf74969ae23df10c4d437e5c425a19bc1743e069a542a69b9",
+    "official_prompt_api.json": "5c697dce52263d78394142aa3df3e64d9a19c0ab613acec15d2989ae371528d5",
+    "official_metadata.json": "e2cd8ebe07fa042a76607fa8d558b692a411c5425c0b4598fb143d6eacd6800a",
+    "official_metadata_api.json": "b8a3d7b3e833200d4e9c6913295d49e5e63d5020b15bbf9fe1d33fc5cdb7bc6d",
+    "prior_attempts/attempt-1.txt": "42def73e40a2dcd724ab9281de40245f2e130eb7b99e372c4c45dca5d9c724a4",
+    "prior_attempts/attempt-1_api.json": "3cfe3dec8bed65f379f2797dffbb9140ab8c36af8a738c0f183cb62f8d1718a7",
+    "verify.py": "3ed24b0d3ba0eb3532d8e3e1fd70253f496ec516432353b7ceeb5293706af56a",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "verification.json": "c6775ae3c7ae9098a6e98effa8c6819c546c11a5e4c3cb830541f0ebc8b6c5b6"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked all layer arcs, 5f-2 count, absence of digons, face-insertion supergraph and strong-connectivity induction.",
+    "Checked the injective zero-layer charging: a0<=a2+c gives every feedback set size at least f. Removing all x_i leaves exactly the displayed directed path. For f>=3 the strict 3/5 contradiction and limiting 1/2 obstruction follow.",
+    "Read the earlier seven-vertex/disjoint-union proof. The arbitrary odd-order strongly connected chain supplies a distinct stronger obstruction.",
+    "Inspected every line of verify.py, including the independent subset source-removal recurrence, all-subset triangle-hitting search, reachability, face and induced-witness checks. Actually ran the exact source normally and with -O in a temporary copy: PASS for f=1..8, 174760 subsets; -O refused before checking."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1504.06726",
+      "version": "arXiv v2; rendered internal document date 10 July 2018 is not the arXiv revision date",
+      "locators": "Theorem 1 and complete digirth construction, PDF page 2",
+      "retrieval_refs": [
+        "turn1736view1",
+        "turn1744view0"
+      ],
+      "access": "Primary PDF theorem/construction read; versioned URL disabled, cached unversioned primary retrieved."
+    }
+  ],
+  "distinct_significant_scope": "Uniform strongly connected family at every odd order with exact acyclic number approaching half order, beyond the earlier disconnected 4/7 family.",
+  "actual_program_executions": [
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "verify.py"
+      ],
+      "isolated_copy": true,
+      "source_path": "verify.py",
+      "source_sha256": "3ed24b0d3ba0eb3532d8e3e1fd70253f496ec516432353b7ceeb5293706af56a",
+      "exit_code": 0,
+      "stdout_path": "qualified_execution/normal_stdout.txt",
+      "stdout_sha256": "e3e5a021096d8df955945ccf0f276e9a962553710287e297f23e9552c0f7ab59",
+      "stderr_path": "qualified_execution/normal_stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+        "-O",
+        "verify.py"
+      ],
+      "isolated_copy": true,
+      "source_path": "verify.py",
+      "source_sha256": "3ed24b0d3ba0eb3532d8e3e1fd70253f496ec516432353b7ceeb5293706af56a",
+      "exit_code": 1,
+      "stdout_path": "qualified_execution/optimized_stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_path": "qualified_execution/optimized_stderr.txt",
+      "stderr_sha256": "7aad8e2f1520adb91cd2ea39f45601756da12a546d23f3ca7652c80d0a3d2138"
+    }
+  ],
+  "actual_program_run_count": 2,
+  "execution_scope": "Both original source and all finite checks inspected; independent isolated normal and -O refusal runs retained. No infinite claim follows from the finite run.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:24:21.189535+00:00"
+}

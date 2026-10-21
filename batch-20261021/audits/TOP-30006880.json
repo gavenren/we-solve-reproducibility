@@ -1,0 +1,46 @@
+{
+  "handle": "TOP-30006880",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "09f567442f8d8542114be701e0c2b267130f5a2cfebfc219aca8a253b4a21662",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "598f534a0d806032942d1ad7291b65b981c9f47502bad274305bcfc9b74a5b48",
+    "contribution.json": "268668120a357a0c2802ade7de70911464c12d452f09053bebfef3a0b7768a9f",
+    "official_metadata.json": "75beb1633e05c965a7809adfffa427b57869fdbfe4f8a1fff6172348b826992c",
+    "official_metadata_api.json": "bfc0b03669eb639a88652d7dba6c0e2436664c26a4806d5b21b04077a79c4aa7",
+    "official_problem.json": "75beb1633e05c965a7809adfffa427b57869fdbfe4f8a1fff6172348b826992c",
+    "official_problem_api.json": "bfc0b03669eb639a88652d7dba6c0e2436664c26a4806d5b21b04077a79c4aa7",
+    "official_prompt.txt": "be411cd9299c2937c4c8036acfb62ce3790e6a93d894e5609762bbb01a44fd11",
+    "official_prompt_api.json": "99733972890f9b45b5f44eede53eaf37104fb5c0b5af7b1e20c3e5beba535d99",
+    "prior_attempts/TOP-30006880-A1.tex": "c0d973ac0e4fcb1bbd1c2b570f1e74be0f95da7b5c69a4570d0fd6ee264690f6",
+    "prior_attempts/TOP-30006880-A1_api.json": "2f87325a70d004c4282de5644a580c645fc631120f9a6068efa667b7e7c36eb3",
+    "prior_attempts/TOP-30006880-A1_manuscript_api.json": "9ca1a8ca6b7b1b122e551ef5d4fb0df49bdc0c315ec4d278a7eb44ca6d0c77a1",
+    "report.md": "09f567442f8d8542114be701e0c2b267130f5a2cfebfc219aca8a253b4a21662",
+    "source_notes.md": "4d3670c0e00eacc460f129ddc1e0bde865854214c7ca91215085b0133a081ac9",
+    "verification.json": "1e142d62a0912a01f07f1690f480e2617a0175ac783deff39da580373e05ae4e"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:30:13.995267+00:00",
+  "actual_checks": [
+    "Read literal efficient-translator p-optimal target, complete prior and current self-contained proof. Canonical SAT versus bounded-negation-proof pair is disjoint by soundness, both sides NP under unary proof bound, malformed encodings rejected.",
+    "Cook verifier/tableau construction yields polynomial formula phi_x satisfiable exactly forx inA without exponential circuit unfolding. CompetitorQ uses acceptedB witnesses to output notphi_x and embedsP on another branch for surjectivity; disjointness makes all outputs tautologies.",
+    "Simulation gives existential polynomial proof bound uniform inx for each fixed pair. h(x) prints phi_x and a dominating unary polynomial and never searches for witnesses/translations. Thus optimal proof length already suffices; efficient translator assumption is stronger.",
+    "No converse, universal sound-system enumeration, existence claim or proof-search algorithm is inferred. Classic association with Razborov is cautiously sourced; full argument checked directly. Zero program executions."
+  ],
+  "primary_sources": [
+    "Razborov,On provably disjoint NP-pairs,ECCC TR94-006 and BRICS RS94-36(1994),fresh primary abstracts at cited ECCC/BRICS pages. Abstract covers theory-representable pairs; no assertion of freshly checking a numbered full-paper general implication. Current entire consequence independently verified from definitions. Retained09.json,09_details.json."
+  ],
+  "prior_work_distinction": "A1 studies finite/cofinal sound-system combinations and simulation notions. New canonical pair and complete-pair reduction give a distinct substantial necessary consequence with explicit NP encoding and unary length accounting.",
+  "scope_assessment": "A complete self-contained proof shows that existence of a p-optimal Cook–Reckhow tautology system implies existence of a polynomial-many-one complete disjoint NP pair. The same implication already follows from proof-length optimality. This necessary consequence does not prove that such a system or pair exists.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

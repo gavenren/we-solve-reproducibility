@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-2537",
+  "canonical_problem_id": "prb_3ba141e761d042a9b8163c468b57161c",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "4fcff78415cf29fb2dba36784e55c342c41cfb9059ea60492a6df252c7885a9f",
+  "report_sha256": "4fcff78415cf29fb2dba36784e55c342c41cfb9059ea60492a6df252c7885a9f",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "8800868b85fee547abb6f2b65f7e8a36688c1076583fa624789bc99a7b35c964",
+    "contribution.json": "345b94635aba19c78c6e536e115ef34405a1ff4911c25c02ee14c942d3a0d2c3",
+    "official_metadata.json": "34690c49954d5353560294a9d2d8ab8ec32280df470bef01a5b3f9084c80182c",
+    "official_metadata_api.json": "71a68231153cda2be09cbbc533f0d333589d2aa903e4cc7db993302415b65977",
+    "official_prompt.txt": "f83deaa7a2f6c9941cf6dbe9ada1beab8e91c0b823b4df7f130db69eda587417",
+    "official_prompt_api.json": "5f80bb629c930859a6123c404c450fdf68a0e447758b29597dea0a68fd2b1eed",
+    "report.md": "4fcff78415cf29fb2dba36784e55c342c41cfb9059ea60492a6df252c7885a9f",
+    "source_notes.md": "93fc370cde1a2893e0262424ddedb7256406fa003baecd78167ccb24f8cdb326"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:18:37.328132+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Independently checked PSL2(q) natural projective action is2-transitive using all translations in an infinity stabilizer, and each nonidentity nonscalar2x2 transformation fixes at most two lines. The center quotient order isq(q\u00b2-1)/gcd(2,q-1).",
+    "Checked both orbit-counting moments with the full identity contribution m and ordered-pair contributionm(m-1). Subtraction givesn1=q\u00b2-1, thenn0=N/2-q(q-1)/2 and exactly1/2-d/(2(q+1)). Evenq>=4 gives>=2/5; oddq>=5 gives>=1/3, both above89/325. The excluded nonsimpleq3 and cyclic simple regular cases are correctly distinguished.",
+    "Checked coset containment direction: H<=K implies derangements forG/K remain derangements forG/H, yielding all Borel-subgroup refinements. Passing to maximal overgroups gives the exact universal primitive reduction; simple-group coset faithfulness is justified. No priors; exact uniform formula and refinement class are substantive restricted scope.",
+    "Checked credited BF theorem is a non-strict sharp89/325 bound with primitive/simple and soluble-stabilizer hypotheses; no universal maximal-stabilizer coverage is inferred from it."
+  ],
+  "sources": [
+    "Burness-Fusari, actual58-page author PDF dated2Sep2024, independently opened turn1673view3, Theorem4 printed3/Remark5 and equality case turn1676view4; requested screenshot printed3 as turn1678view3/turn1681view0. The text extraction reads > although the equality clause identifies the non-strict theorem; no strict bound is used.",
+    "Notebook actual arXiv:1401.0300v49,20Oct2026, Problem21.28 printed183; exact official prompt/metadata retained. WordPress update3 not accessible here."
+  ],
+  "limitations": [
+    "Deep BF theorem is credited context, not reconstructed; the projective-line moments and refinement argument are independently checked. No program, execution, enumeration or formal verification."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

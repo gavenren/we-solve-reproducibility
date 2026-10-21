@@ -1,0 +1,64 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "A credited unrestricted cubic bracket and fixed-degree codimension theorem with explicit independent-zero and linear-restriction consequences. Literature report preserves strict threshold convention and does not infer a numerical general-degree bound.",
+  "actual_checks": [
+    "Checked indexed Heath-Brown Theorem 1 has all integral cubic forms in n>=14 variables without nonsingularity/local-solubility hypotheses; LSZ introduction independently corroborates 14 sufficient and 10 necessary. Prompt n>nu yields nu(3)<=13.",
+    "Independently checked prior lower obstruction: irreducibility mod p makes nonzero block norm valuation divisible by d; weighted blocks p^j have distinct valuation residues, so a unique least term cannot cancel. Thus the nine-variable cubic gives nu(3)>=9, credited to prior.",
+    "LSZ Theorem 1.1 gives strict codimension <A(d)s^B(d) for odd forms over a number field. Fixed degree precedes polynomial dependence on number s; no bound on growth of A(d) is obtained by setting s=1.",
+    "Span W of actual rational zeros is Zariski closed and contains their closure, so dim W>n−C. A basis can be selected from the zero set and denominator clearing preserves independence, but their whole span need not consist of zeros.",
+    "Restriction to a rational codimension-r subspace leaves zero or homogeneous odd forms; if n−r>C, source existence gives a nonzero rational/integral solution. Even-degree extensions are not transferred to Q."
+  ],
+  "prior_comparison": "Complete prior body read. It supplies the norm-form d² obstruction and explicit nine-variable cubic plus real-versus-rational warning; these are credited rather than resubmitted. New content includes cubic upper bracket, full geometric theorem and independent-point/constraint deductions.",
+  "primary_sources": [
+    {
+      "url": "https://ora.ox.ac.uk/objects/uuid%3A3f95ec95-3e87-4a7e-8f61-1705d494199c/files/m456215f8a1725bd427d34b4556d28a9a",
+      "version": "Heath-Brown, Inventiones 170 (2007), 199–230",
+      "locators": "Indexed institutional Theorem 1",
+      "retrieval": "coordination/qualified_number_first_half_primary_07.json; _08.json; _11.json"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2512.00697",
+      "version": "2512.00697v1, 30 November 2025",
+      "locators": "Introduction; Theorems 1.1/1.3/1.4",
+      "retrieval": "coordination/qualified_number_first_half_primary_05.json; _11.json"
+    }
+  ],
+  "limitations": [
+    "Direct original Heath-Brown PDF retrieval failed; indexed primary theorem and modern primary corroboration were actually read. Neither deep full proof is claimed independently reproved; no original computation attached or run.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-150",
+  "reviewer": "/root/sol_ultra_numbers",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "15cd3fcd4cf392c91f8cdaf790623bb2666706bcfb2708c598aac0217c627405",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "15cd3fcd4cf392c91f8cdaf790623bb2666706bcfb2708c598aac0217c627405",
+    "source_notes.md": "70586d6d1f217db919ea10554d7ffd107f4caaddca5a0c3b605aea5b3faefd2d",
+    "author_record.json": "15266d17450d5778eaab19cffe0248638b6ef7be10f9875a89e1fb280ef81698",
+    "official_prompt.txt": "3f4a77a33c127a2320839e6b2c5ba407db3a253d80ce737401633effadfa3b6a",
+    "official_prompt_api.json": "ee0abe66a1fd89f9646e1af70dbfd9edf058569d19ac9b79a8f75440773587fd",
+    "official_metadata.json": "fd7e1262eb8580de905146c4e9e16a08ac3086df6d43ec59a3945132fad61803",
+    "official_metadata_api.json": "f640908091ce4f85b1b3bce736f8625b2ab0915399a60af291d1e66e2a2dc8be",
+    "contribution.json": "da44dfe8691d3587487a565d8898f0aee82234feee3b5c2bc3807d736e55b201",
+    "retrieval.json": "729bcc46580a7e54a9197c2ce2de8402bccdb1b7e8b5d73f540dfeff82152dd9",
+    "prior_attempts.json": "df92451775fe66a9c73a2c04bd8f1a1427acc23409119243e0b33536ad3b56f8",
+    "prior_attempt_01_api.json": "02cb2f321c8b2f846df2394d43183b9218ea98268fd3128d8487b4e04fdd6d98",
+    "prior_attempt_01_text.txt": "17cf31984ad622f524212eacae6147b1b3fb2a9c52d8b6b2c73d0b16635c5f73"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_numbers_first_half_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:32:56.305349+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

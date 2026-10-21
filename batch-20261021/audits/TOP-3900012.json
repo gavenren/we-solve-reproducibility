@@ -1,0 +1,35 @@
+{
+  "handle": "TOP-3900012",
+  "reviewer": "/root/hundred_topology",
+  "author": "/root/hundred_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T18:58:40.520926+00:00",
+  "checked_report_sha256": "98b957a3605a6f3da3c66a2542e148a8db79dc4dbe170de378a6d1d64eb43683",
+  "checked_source_notes_sha256": "0ad33c03fc411a23f0c973cc46175bbe2e492682698195e1d7c2ff441f30841c",
+  "checked_contribution_sha256": "8ad9fb2dc72e3104935a5768044d46f9a54527f6346897ed82ca1733e8db5e6a",
+  "programhashes": {},
+  "program_hashes": {},
+  "actualchecks": [
+    "Read ten-rational-quantity prompt, full report/notes; no priors. Verified altitudes equivalence, rational isosceles coordinates, exact two-median equations and quartic product reduction with denominator scaling.",
+    "Matched quartic nonexistence to primary Lemma3.1 (positive variables, nondegenerate), and fixed-angle theorem to up-to-similarity scope including separate right-angle treatment.",
+    "Checked finite union angle consequence, no effective/uniform nonexistence overclaim. Recomputed73,51,26 area420 and nonrational median square3796 between consecutive squares.",
+    "Confirmed exact prompt bytes and decoded metadata content against retained fresh API wrappers and current author-record hashes; source-only, zero program executions."
+  ],
+  "primary_sources_actually_read": [
+    "Makhul arXiv2009.00654v2, fresh theorem1.2/Lemma3.1 and descent beginning read turn1453view1.",
+    "Makhul arXiv1910.06888v1 Theorem1.1, \u00a72 Faltings statement and \u00a73 case split, fresh turn1453view2.",
+    "Eppstein/Rathbun original q-triangle.html correspondence, fresh turn1453view4."
+  ],
+  "checked_files_sha256": {
+    "official_metadata_api.json": "6284bd0522ad894c9001f0ecd3dadc6c1fa07348a7a984d6fe5e56c0dc42bdfc",
+    "official_metadata.json": "d3d7cbc80fc2747bccaab733ccca110fc3bd6de34053a56d44b52b6353affbe1",
+    "report.md": "98b957a3605a6f3da3c66a2542e148a8db79dc4dbe170de378a6d1d64eb43683",
+    "source_notes.md": "0ad33c03fc411a23f0c973cc46175bbe2e492682698195e1d7c2ff441f30841c",
+    "author_record.json": "2fe287f15377e8b6eeb4357fdc4c7b3efe9f72efb5ab3c31bddcb9b8b40ee2da",
+    "official_prompt_api.json": "08e22daf62e21dd61ec7746b218931512b12ffee618abba10a3cb73be5df7d26",
+    "contribution.json": "8ad9fb2dc72e3104935a5768044d46f9a54527f6346897ed82ca1733e8db5e6a",
+    "official_prompt.txt": "3673cadb863cac88c9a14ba48bf3eae4efffe6d3b487e8502856b2e0aeac5218"
+  },
+  "limitations": "Independent LLM review of prose, proof and inspected primary-source passages; not formal verification or human/editorial acceptance. No program exists or was executed. Imported descent and higher-genus finiteness theorem credited; no claim of new general perfect-triangle obstruction."
+}

@@ -1,0 +1,49 @@
+{
+  "handle": "TOP-30006679",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "1288d2523206c4e1e825564d38183b9263d602f9db6473f9779e82d0f32278f0",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "59a5634ef9b5f2371d7d5f6f3e575663e53a26939ef465a5a1db442a81690e31",
+    "contribution.json": "0a887f62d94c1f35a7037a6d8fba9c664b8b67246557baf1dbb18f25d63e95bd",
+    "official_metadata.json": "3ca4f11dcfe4a4d4e3ee50eb1009d536e04cfd66a6597aba8ce2e82edbe947d5",
+    "official_metadata_api.json": "15ed455765ce430c8a1140b8a07cc7e98573b376f98bb1186da859401b569ed6",
+    "official_problem.json": "3ca4f11dcfe4a4d4e3ee50eb1009d536e04cfd66a6597aba8ce2e82edbe947d5",
+    "official_problem_api.json": "15ed455765ce430c8a1140b8a07cc7e98573b376f98bb1186da859401b569ed6",
+    "official_prompt.txt": "eeb0f5e5f96dc87fb1bd597a5fbbee7aeeb8d1029f4bea3a4beacbdab164e613",
+    "official_prompt_api.json": "bcfa442bf8eba6c01849217a4b534790b8e5c63e072567771a03882af1be478c",
+    "prior_attempts/TOP-30006679-A1.tex": "541bb65bc533761edb21d730685bb9a1ff3864621d294d314fd1c9905af8dccc",
+    "prior_attempts/TOP-30006679-A1_api.json": "a2021d2b0efd16c701c221d29a18b3fdf1c0657738a69cd07325ba3843eb827a",
+    "prior_attempts/TOP-30006679-A1_manuscript_api.json": "14877e7bdba5b448e5ab48f8516c45e4ce983e78d274bfa4427ac6f9f3fe2856",
+    "prior_attempts/TOP-30006679-A2.tex": "44cf92927f87f9c0d959b436fe7f2e7563bae207321287cbdda670293eee58c6",
+    "prior_attempts/TOP-30006679-A2_api.json": "fdd50e0cf502e61fb937feb01806b5a06ebbef011b8b8dc2b05a0c61afba5983",
+    "prior_attempts/TOP-30006679-A2_manuscript_api.json": "46823f306d12fc3e558ea4fc077309f7b49939f19a5fff1d3192f94d692f9e84",
+    "report.md": "1288d2523206c4e1e825564d38183b9263d602f9db6473f9779e82d0f32278f0",
+    "source_notes.md": "f50936474213569b6cc73fd2952cdbb18a97676e2a85d9636b00cc3109eae5eb",
+    "verification.json": "a20d9f250815d26cc990ceea919ea32afb250096d96548730061715bd439f565"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:22:07.644927+00:00",
+  "actual_checks": [
+    "Read literal existential-proof-system prompt and both full prior manuscripts. Reconstructed semantic unsatisfiability of the same nonfunctional pigeonhole CNF and exact variable/clause/literal counts.",
+    "Checked primary Buss-Pitassi Theorems3 and4: polynomial ordinary DAG resolution at m>=2^sqrt(n log n), tree-like lower bound2^n for every m>n. The normal-form theorem is not promoted to a universal proof system.",
+    "Verified explicit encoding L=Theta(m^2 n log(mn+2)), chosen rounded m and ignored-extra-pigeons upper bound. Inversion gives n=Theta((log L)^2/log log L), hence a truly superpolynomial but not exponential-in-L tree lower bound. Polynomial clause-width/identifier overhead preserves the separation.",
+    "DAG checking is polynomial in proof encoding; sharing versus tree restriction supplies no lower bound against every Cook-Reckhow system and no NP/coNP separation. Historical further-research status is not imported as current fact. Source-only zero executions."
+  ],
+  "primary_sources": [
+    "Buss-Pitassi,Resolution and the Weak Pigeonhole Principle,primary8-page PDF https://www.cs.umd.edu/users/gasarch/TOPICS/resolution/busspit.pdf, definition and exact Theorems1,3,4 with adjoining proofs PDFpp4-6 freshly read. Later1997 reference note identifies retained version. Retained04.json and04_followup.json."
+  ],
+  "prior_work_distinction": "Adds a precise same-formula, same-rule tree/DAG separation and its full input-bit conversion, distinct from prior Boolean-ring/parity/tailored-system diagnostics. Credited literature report with substantial problem-specific quantifier analysis.",
+  "scope_assessment": "A precisely credited Buss–Pitassi separation on the same explicit pigeonhole family: polynomial-size DAG resolution proofs coexist with tree-like proofs of superpolynomial encoded length. Exact input-size conversion is supplied. This is a lower bound for a specified calculus, not NP!=coNP or a lower bound for every Cook–Reckhow system.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

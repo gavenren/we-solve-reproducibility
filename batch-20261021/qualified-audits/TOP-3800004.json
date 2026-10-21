@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-3800004",
+  "canonical_problem_id": "prb_faa31ff4f0aa497c989a21857a9a45a5",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "9cf0593a3144c33b61258c59d1b317fda223ef6b0c707823e786796f641f0ad9",
+  "report_sha256": "9cf0593a3144c33b61258c59d1b317fda223ef6b0c707823e786796f641f0ad9",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "f17663118f03f516692dbed7478ccd0818daed7964d91a1bf0ad46d9c2e740bb",
+    "contribution.json": "0fcb8fe0d3e274132ed88b95034eb440fd5e0887369e9ed388b376a74d6886de",
+    "official_metadata.json": "b2ccca46db164947fd8b7ccfffd187819f85b6d6a2901ffd63b3843020e64182",
+    "official_metadata_api.json": "64ae60faf5d5923e84abcfc83489ddad24f206cdbf29c18da514b6b25f9f308a",
+    "official_prompt.txt": "ad95b1fe432050263ead9853ed9cdf8473a62c8108c29f8613032219178dc15b",
+    "official_prompt_api.json": "6857bb3591d8827c12406ba6ca87daae534c066b85fbaef69744d3f659bb664c",
+    "report.md": "9cf0593a3144c33b61258c59d1b317fda223ef6b0c707823e786796f641f0ad9",
+    "source_notes.md": "9222c63d1c54c9c77bc8d7163d54788a1afbb368a18de7337619f92c878b054b"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:05:09.197240+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "No earlier contributions. Verified unique join-face decomposition via supporting functionals and multiplication including empty/whole faces.",
+    "Recomputed dimension3r-1, exact vertex/facet equality, F=product(2m_j+2)-2, balanced odd/even five-dimensional formulas, minimum n=6 example(6,15,20,15,6), and convention difference62 versus64.",
+    "Literature scope is credited known construction with full face polynomial and exact balancing; no new join construction or exact extremal M5 is claimed. Fixed dimension4 is explicitly separate."
+  ],
+  "sources": [
+    "Opened Erickson original Faces of Intricate Polytopes note25May2000: https://jeffe.cs.illinois.edu/open/intricate.html (turn1538view0,turn1540view2), exact Eppstein construction and UBT comparison."
+  ],
+  "limitations": [
+    "Upper bound theorem order is imported through the primary problem-author note and not independently reproved from McMullen\u2019s original paper. No claim of current optimal bounds in dimension4 is certified."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

@@ -1,0 +1,56 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-30006095",
+  "canonical_problem_id": "prb_e4f197176102459b987cd2987cf7e9df",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:24:49.549739+00:00",
+  "checked_report_sha256": "371a1c9f4d881c296ecd483a1d4c757a2d72783cbca5faf99c61086303bff392",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "3fa5ff9500286700941b925e352917d8137c6eac2a383e1bdd46f5fde4aae9da",
+    "contribution.json": "b2de8960855a1ab14a972885f31fd0f0c51cb4243c3d63f94eb4b292ebd36c77",
+    "official_metadata.json": "4ae2ec32004e71522cdb594fe787aedf68afb43cb17373e85d0bb7b37c7152da",
+    "official_metadata_api.json": "bd50e6c74b7789c8f08e7e203e8124f067dc92e7d1dfe57e1f9c5f6580a33701",
+    "official_prompt.txt": "a853be9a69248c9df9589e3526d1ce38b6e8cc244af4b4019796b698c01f177d",
+    "official_prompt_api.json": "737c0d80a89fcfda6b038241e59dbe8ccb9cf2765656f17e82a1c23983f1032f",
+    "prior_1_api.json": "4b2d862681a054497800a1c972cbfdf7399d10e1ef1c72bc824782dcbda65116",
+    "report.md": "371a1c9f4d881c296ecd483a1d4c757a2d72783cbca5faf99c61086303bff392",
+    "source_notes.md": "8d18951aec9af5845062e777869e0736e00c51393ef12edd3c8aad272efea20d"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Complete literal prompt, API/meta/source/author records, report and earlier announcement read. The new scope is a rigorous prime-7 obstruction in the exact Smith–Toda BP-module sense. The earlier prime-1009/all-heights claim is not accepted or adjudicated.",
+    "Nave Definition 1.1 is finite BP_* module BP*/(p,v1,...,vk) with first powers, not a quotient by arbitrary periodic powers and not a ring assumption. Theorem 1.3 with p=7 gives V(4) nonexistent and V(3), if it exists, not a ring spectrum. For p=11 the forbidden index is 6, so no blanket larger-prime V(4) nonexistence follows.",
+    "Theorem 1.2 yields a necessary cofiber using potentially different V(k-1) models. Failure of a self-map on a chosen model would not prove the general obstruction. Checked source permanence/differential Theorems 1.4–1.5 and proof of 1.3: it compares maps of spectral sequences at height p-1, without assuming a ring Leibniz rule for V(k-1)."
+  ],
+  "primary_source_checks": [
+    "Nave, Annals Math. 171 (2010), 491–509, DOI 10.4007/annals.2010.171.491, actual publisher primary PDF https://annals.math.princeton.edu/wp-content/uploads/annals-v171-n1-p10-p.pdf. Definition 1.1, Theorems 1.2–1.5 and proof of 1.3 read; exact module/cofiber and non-self-map qualification in qualified_topology_primary_retrieval_27.json (turn1752view5), theorem/obstruction in _24.json (turn1732view3). Deep homotopy fixed-point calculations are credited imports."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Nave's published theorem rules out V(4) at p=7 in the precise BP-module sense and rules out a ring structure on V(3) there if it exists. The theorem's height/prime dependence and cofiber hypotheses are checked; existence at larger primes and the earlier p=1009 announcement are not certified.",
+    "official_prior_count": 1,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "reviewer": "/root/sol_ultra_graphs",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-1404",
+  "verdict": "PASS",
+  "claim_type": "Literature report",
+  "checked_report_sha256": "4596708c1f7af17efec83c7e3d12fbf3ee0fcc1b21f8ef73280e9fc8569ec981",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "4596708c1f7af17efec83c7e3d12fbf3ee0fcc1b21f8ef73280e9fc8569ec981",
+    "source_notes.md": "6c6d5d6837feebc96d913290072e76fbb43cbe52169768075c8283c0017878c5",
+    "author_record.json": "f1a15191f02e78e18429f5413191761dea74dba38063101e9addc6a1827d0900",
+    "contribution.json": "d19114a6c0b9b26e55702c7b8c3f6d2b0f7739f508e4554ada5d0b56da48bbd3",
+    "official_prompt.txt": "b79d3f04399004be21e03b32f8f54e0a922aff66332e3a692ddd0007a896a0ae",
+    "official_prompt_api.json": "b7f84dfd21b937c87838238844cdd584aa2ea98f390a8c75c3fa06fbfb305483",
+    "official_metadata.json": "0af3a58eab1b16c40ad0d4c2790d717fd7b3db77b7a27a93bc8e1eb67144be7c",
+    "official_metadata_api.json": "e5da68707c6442dffef441b7e52f3d6819d74291005982bbf3c3395e76651cbd",
+    "prior_attempts/attempt-1.txt": "927767c2f3394bfc0b0733c0b376e7206ca709b4aea5d4e7b14e7c8888847e4e",
+    "prior_attempts/attempt-1_api.json": "3ccd5c6dab3fc6a30122f7cc7aa8ff373a6fe6bb99f31d317b492fd93b6dc135",
+    "prior_attempts/attempt-2.txt": "704a1cc06188896e8852877181073f3caf44fae468c374443319822682ddb83c",
+    "prior_attempts/attempt-2_api.json": "950afbb50550c0ff14f8c2f1af6faf355094b30539cbd6a240f528ec6eb5983f",
+    "LICENSES.md": "f1fc8e869454570474a7e1ac896bd17ba5bf1b36d35c279e5eade5303a5b408e",
+    "retrieval_record.json": "c348d2e9035a52b0a89f7a915dcdb13748f3bb8d6e2a62788fd90ca9c04facdb"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model and reasoning_effort; exact serving revision/time budget unknown.",
+    "record": "coordination/qualified_verifier_graphs_dispatch.json",
+    "record_sha256": "2cdfd386ce12cfe4fa11616f450283e6199804bc575381c0e8dbf73753d506fd",
+    "historical_authors_or_reviewers_reconfigured": false
+  },
+  "actual_checks": [
+    "Read the exact official prompt, canonical metadata and retained API wrappers, complete report, source notes, contribution metadata, author record, and every retained earlier contribution body. Wrapper payloads match the retained prompt/metadata; all author-bound input hashes were checked.",
+    "Confirmed active graphs claim/canonical identity and disjointness from the 424 earlier completed records and their aliases. Reviewed claim category, quantifiers, hypotheses, boundary cases, source credit, and contribution beyond earlier attempts.",
+    "Checked weighted treewidth-two primary theorem, contracting normalization, optimized Lemma 4.2 factor, and separation from the special factor-two and terminal-relative factor-28 statements.",
+    "Checked symmetrization preserves L1 distortion, the two cut cases yielding B<=2C-(1-beta)A, and the matching explicit cut embedding. Boundary n=2, parity values and limiting 3/2 lower constant all follow.",
+    "Read both prior bodies: cactus isometry/K2,3 lower bound and unverified broader claim summary. Entire weighted K4-minor-free theorem and exact all-K2,n calibration add substantive scope; no broader claim is imported."
+  ],
+  "primary_sources": [
+    {
+      "url": "https://people.eecs.berkeley.edu/~sinclair/cuts.pdf",
+      "version": "22 October 2002 author revision",
+      "locators": "Theorem 4.1, Lemma 4.2, Corollary 4.5, comparison Lemma 4.4/Theorem 4.6",
+      "retrieval_refs": [
+        "turn1762view0",
+        "turn1764view2",
+        "turn1764view3"
+      ],
+      "access": "Primary statements and normalization read. OCR splits letters, but formulas/constants and distinct scopes are identifiable."
+    }
+  ],
+  "distinct_significant_scope": "A known weighted minor-closed class theorem plus complete exact distortion of all unit K2,n, exceeding the earlier cactus and one-example deductions.",
+  "actual_program_executions": [],
+  "actual_program_run_count": 0,
+  "execution_scope": "Source-only: no program attached or executed for this report.",
+  "limitations": "Independent LLM mathematical/source review, not a human review, formal proof certification, novelty priority or editorial acceptance. Deep credited theorems are checked as imported inputs, not independently reproved. No third-party computations were rerun.",
+  "reviewed_at_utc": "2026-10-21T19:25:25.493421+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30003058",
+  "canonical_problem_id": "prb_8b89bc64ef974402a75f365b089f2be7",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "c66c09addc9b3cf1a74008f83c71e2e5e968ac051b397c1cbff21576533e088c",
+  "report_sha256": "c66c09addc9b3cf1a74008f83c71e2e5e968ac051b397c1cbff21576533e088c",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "bd35e157f79352325b2df310c5c655ede1073655466a9d981c10c17e356c0f84",
+    "contribution.json": "7e08fe77aa80a41cc3db45a5eb9cfbbef882c8fd15cfc1fd86840aff20467864",
+    "official_metadata.json": "2b7d1b6bb003939c6d93bee02816848a1fb65355ea60e0bfe46e618ca0faf028",
+    "official_metadata_api.json": "c7e5510ebb4db0782cf3a5a4a64206a5de2557121152027ecd6e6b3677769711",
+    "official_prompt.txt": "06d42fb18213b6ae7d20afd2ec435bedcfc3ef58e1ebafdd1b87afb1149209bd",
+    "official_prompt_api.json": "77e7e57c2846457761fbd67bf16bbb1d6804296e0f3918153e7c007f36008171",
+    "prior_attempts/TOP-30003058-A1.html": "5f22c2b642b140cd57899f88ba4e7b366156b0bdde494ca523cf26c20354dff3",
+    "prior_attempts/TOP-30003058-A1.json": "aee2d66e556562bce377fb8aa18418b3a2e97d2bfac42be604639334fbe77efb",
+    "prior_attempts/TOP-30003058-A1.txt": "7f86a3875a9b92f5d81bb8dbc42bb524b184a04a5c9eadb0890387f8e9742abd",
+    "report.md": "c66c09addc9b3cf1a74008f83c71e2e5e968ac051b397c1cbff21576533e088c",
+    "source_notes.md": "d328f37347e40b3c06cb14643e667886fd6baa99b96caccfc1c9f3d42334e6d8"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:21:46.386205+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read the complete earlier finite-defect/integral OpenAI claims and their unverified caveats. The present classical normal-defect case plus finite cocycle-parameter proof is distinct and does not assume global Donovan finiteness.",
+    "Checked normal-defect structure source gives Morita equivalent twisted O[D semidirect I(B)] with cocycle inflated from the inertial quotient; residue-field reduction gives the stated k-algebra theorem. Inertial quotient is p-prime and embeds in Aut(D) via the Schur-Zassenhaus lift, so m<=A=|Aut(D)|. Nontrivial twists and arbitrary actions are retained.",
+    "Independently multiplied the normalized2-cocycle identity over x: alpha(g,h)^m beta(gh)=beta(g)beta(h), with x->hx permuting E. Algebraic closedness supplies cochain gamma with gamma1=1, and the displayed inverse-coboundary convention makes alpha prime take values inmu_m. Since p does not divide m, there are exactlym such roots, hence at mostm^(m\u00b2) functions and cocycle classes. Cohomologous twisted algebras differ by basis rescaling.",
+    "Checked finite multiplication-table/action counts and coarse sum overm<=A ofm^(2m\u00b2)A^m. D=1 givesA=1 and the single defect-zero Morita class. Bounded representative dimension alone is not used to assert algebra finiteness over an infinite field; original blocks may be matrix enlargements. General nonnormal and integral coefficient scopes remain excluded."
+  ],
+  "sources": [
+    "Sambale, Blocks of Finite Groups and Their Invariants, actual227-page author-hosted monograph independently opened turn1718view0; inertial quotient/Schur-Zassenhaus context printed17 and Theorem1.20 credited to Kuelshammer printed18 as turn1720view0. The actual original1985 article was not retrieved."
+  ],
+  "limitations": [
+    "The block-theoretic normal-defect Morita theorem is imported through the checked author monograph, not fully re-proved or formally verified. The scalar-twist finiteness and overcount are directly checked. No programs/runs."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

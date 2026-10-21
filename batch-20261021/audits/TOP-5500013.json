@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-5500013",
+  "canonical_problem_id": "prb_0109c40233ac46e7913e12bbc513c88a",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "483eee5f72b55d371ec88a427e02a68e82bfc069b76b1f10e4c501ad62fb74bf",
+  "report_sha256": "483eee5f72b55d371ec88a427e02a68e82bfc069b76b1f10e4c501ad62fb74bf",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "2f40b16e0b27bc44790a7e29c80843bb13a00a66a0b054f441846997f1db9866",
+    "contribution.json": "709bfc448176d9843669d7d488db9b60fd64606b2143bd99853593f166c7e687",
+    "official_metadata.json": "1c53a51486df219ced6d6aaa2ffde6c5147df650ffa0152e4dd2bf3f722725ac",
+    "official_metadata_api.json": "8fb41e06c706c94cbc94ba4acedc9276b63a2e1f6749fc66789730b7b649ea71",
+    "official_prompt.txt": "047a89b9408a02f33049e5a296eae68d808ca625c43f9ca77cf2f450237f41b4",
+    "official_prompt_api.json": "e4c35358b1aa8a51469e6d3825c8d77da85b3651dce2fd6f15c6be786687fd18",
+    "prior_attempt_1.html": "43aa2e5e6be038d1857d7d366b47e4e48b18c979071abdf1d9373e089514d4e3",
+    "prior_attempt_1.txt": "577f6d28dc373c1c86e9edced4c118af8356e4f3bebaa8aedc315c63e78a769d",
+    "prior_attempt_1_api.json": "992ce33d60dfe676a536fbcb75c47320ba08e9e4768e61c4b28e8d86345138e7",
+    "report.md": "483eee5f72b55d371ec88a427e02a68e82bfc069b76b1f10e4c501ad62fb74bf",
+    "source_notes.md": "f4d8400883d705e22de4b5d8c77854e389170e0a5bb5d74336c005243de12014"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:13:05.425960+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked the promised structured input against the exact arbitrary-complex prompt: the planar subdivision and column-specific ordered affine lists are additional hypotheses, with full face-to-face boundary complexity and an O(n)-size representation expressly required.",
+    "Checked the data structure: a linear-space planar locator returns one base cell, followed by binary search in that one cell's height list. Strict ordering throughout each base interior is the needed premise; evaluating an affine height is constant real arithmetic. Total records are O(|B|+sum k_B)=O(n) and query tests O(log n)+O(log(k_B+1))=O(log n).",
+    "Checked boundary cases: continuous height inequalities become weak at the base boundary, so lower-bound/equality search produces an incident closed cell; only one incident base cell is needed. Top/bottom and exterior flags cover finite-domain queries. A refinement cannot copy all height lists freely; the report correctly requires O(n) total refined list size and does not form a general projected arrangement.",
+    "Checked preprocessing/model qualifications and the rational arithmetic remark: O(n log n) is conservative with embedded planar adjacency and ordered lists, not a claim of arbitrary planar projection or unrestricted linear triangulation time. The earlier complete slab/hierarchy report was read; the present planar, independently sloping, column-dependent class is materially broader."
+  ],
+  "sources": [
+    "D. Kirkpatrick, Optimal Search in Planar Subdivisions, SIAM J. Comput.12(1)(1983),28-35, primary 8-page paper independently opened as turn1614view1/turn1617view4; abstract and hierarchy/representation discussion. TOPP Problem13 independently opened as turn1617view0, https://topp.openproblem.net/p13."
+  ],
+  "limitations": [
+    "The planar hierarchy theorem is an attributed imported algorithm, checked for the stated space/query and representation assumptions rather than reimplemented. No general 3D result is inferred. Source-only with zero runs."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

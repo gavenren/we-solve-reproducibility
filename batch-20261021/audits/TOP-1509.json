@@ -1,0 +1,69 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-1509",
+  "canonical_problem_id": "prb_1cb888dae6d8418ea6edbf4a2caeaa3e",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:29:35.007521+00:00",
+  "checked_report_sha256": "ab379f4235773c45d7d6365b37788fff12afa398fd66300ea267875611e048fa",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "d45a60cad1486a5cde2500fbca8aeaada843373bbd0933847970192ba32e8641",
+    "contribution.json": "cd0e6afc781f522c7bfcdadf663c8a48e7c8556c2bebabe2bfb7a62cdd602086",
+    "official_metadata.json": "8a537b9ad63a4aac9afd890b84638ea9ec3259581aed5cb1da46b22ca4413a6d",
+    "official_metadata_api.json": "a6eec6eb56706b8e72be53ad694265e521ae1a22171629f43f791e2d89eb072b",
+    "official_prompt.txt": "097306e38e762f9f7f2087632967e8888fe492ca0bd8e00619ba996689a8c8c2",
+    "official_prompt_api.json": "8db8f0bd60725b2653030375b06a523bb4699f26ffc448c3a6a0a1ef3918a03a",
+    "prior_attempt_01_api.json": "9897dd936d4af6375727977389e1cbbccf458bd0494bbae67b88b59690222acb",
+    "prior_attempt_01_text.txt": "df0ed62fde0f02990a24726e9b692c3f259e62e13e28eb9d481f263564f41025",
+    "prior_attempt_02_api.json": "28b69402b4fe613a616c94f73b72aadd360e2c1eee0a2ffc84d4c3bdeb9a32dc",
+    "prior_attempt_02_text.txt": "9a18c2b583f1dc14c6074fb00c942e7aac17b905fd0cf35c9c098fbb34336cb2",
+    "prior_attempt_03_api.json": "89c3bfddf825348c6e8036b543ae8b46188d3bec44189880ecdf8145c6660363",
+    "prior_attempt_03_text.txt": "ce5829b79a9e1266bad7c65d5b36d47bc3473f729880c369e06808541b66309b",
+    "prior_attempts.json": "5e703e53d2593d07a28a16524fa03648c0009a48decef966502cb828df60d086",
+    "report.md": "ab379f4235773c45d7d6365b37788fff12afa398fd66300ea267875611e048fa",
+    "retrieval.json": "6b5a12f8bf9b4d6ae14757815906391ebc367daa175ca4d0f15796d1b51177bd",
+    "source_notes.md": "ed1e9d401c5646a3a191121d6915c77f2d7494fd4bd32d5f7e1b99b27039cbf4"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "8e2e73deea8ce21484c848e54e05f8b9387a4301ec9675a929422d53b3d7f61c"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full exact prompt, report, source notes, author/contribution records, API/meta wrappers and all three full prior scientific bodies read. Prior derivative/relative-variation and determinant/Wronskian reports do not include the present published exceptional-zero correlation consequence. New 2026 announcements are treated as unverified source data, not premises.",
+    "Negating a conductor-uniform positive rescaled gap produces eta_j=((1-beta_j)log q_j)^(-1)->infinity. Finite bounded-conductor characters have nonzero analytic L-values at 1, hence a common positive neighborhood; therefore take q_j->infinity. With epsilon0=1/2, x_j=q_j^22 satisfies q_j^21<=x_j<=q_j^sqrt(eta_j) eventually, eta_j>=484.",
+    "For each fixed positive even h, shifts 1 and h+1 are distinct positive integers. The singular-series local factors are computed correctly, including factor 2 at the prime 2 and finite correction factors at odd prime divisors of h; the remaining product is positive by summable deficits.",
+    "Proper prime powers number O_h(sqrt(x)log(2x)); their Mangoldt-weighted contribution is O_h(sqrt(x)log^3(2x))=o(x). The remaining prime-pair count is bounded below by S_h*x/(2log^2(x+h+1)) along x_j and tends to infinity. The fixed-h threshold need not be uniform for growing h. Contrapositive finitely many twins implies a uniform zero gap has the correct direction; infinite twins do not imply it."
+  ],
+  "primary_source_checks": [
+    "Tao–Teravainen, The Hardy–Littlewood–Chowla conjecture in the presence of a Siegel zero, arXiv:2109.06291v2, 6 June 2022, actual primary https://arxiv.org/pdf/2109.06291, Definition 1.4, Theorem 1.6 and Corollary 1.8(i) read. Exact eta>=10, exponent 41/2+epsilon0 through sqrt(eta), and error (log eta)^(-1/20) checked in retained qualified_number_second_half_primary_01.json through _03.json (turn1803view0). Deep correlation estimate credited; no reproof or finite-zero computation claimed."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Checks the published Tao–Teräväinen exceptional-zero correlation theorem and proves that failure of the prompt's uniform real-zero gap implies infinitely many prime pairs at every fixed positive even gap, with a positive lower count along explicit conductor scales. Gives the precise contrapositive conditional zero-exclusion result and removes prime-power contamination.",
+    "listed_prior_count": 3,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

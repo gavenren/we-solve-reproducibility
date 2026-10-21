@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-10000062",
+  "canonical_problem_id": "prb_e57294682ce2492db4ef00900db3a224",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "checked_report_sha256": "3a96425f8f23128aaa4ee1113811a78a0766ddb8816d8fd00311447424bad125",
+  "report_sha256": "3a96425f8f23128aaa4ee1113811a78a0766ddb8816d8fd00311447424bad125",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "14a95715b07af371d32e45a27079c341ec1dcacb86ff46ad56459b43b9bc98dc",
+    "contribution.json": "8ea3df3f3e2b6b7756181caba7af6f177bb3de970d004a13921063f4addb06dc",
+    "official_metadata.json": "ee27226e1c0f59dcf0569ea8964084f9fadd05dd85fd8a8e9540d327479905e5",
+    "official_metadata_api.json": "e96ee24b9b2ba2bf5ac556f953ad67dcb1c9e1606efb17d847d0e10b379f2b70",
+    "official_prompt.txt": "a764b7f1240c5a45ec91aa61dd1e05594313956bac2799686bb1a18fddac94f4",
+    "official_prompt_api.json": "055d70585cc11fc1db51bf193701070aad07bbe1f28fa2ae6a855b481e98e382",
+    "report.md": "3a96425f8f23128aaa4ee1113811a78a0766ddb8816d8fd00311447424bad125",
+    "source_notes.md": "80d01ba54ef1d355fbece11d019a8153b786ff59b3cc153974d823d5f6159372"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:06:47.408144+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "No earlier contributions. Independently checked angle-sum q*alpha=2pi, Euclideanq=6 and hyperbolicq>=7, and uniqueness of an equilateral neighbor across a geodesic edge.",
+    "Verified compact-path dual connectedness, unique global propagation, reflected-complex coincidence and triangle transitivity of the three-side-reflection group.",
+    "Checked discreteness using a small identity neighborhood and finite triangle stabilizer; proof does not wrongly assume an equilateral triangle is a reflection chamber for oddq. Compact orbit cover proves cocompactness."
+  ],
+  "sources": [
+    "Exact retained official prompt and canonical/API wrappers; proof invokes no inaccessible external classification."
+  ],
+  "limitations": [
+    "Archived/current Benjamini manuscripts were inaccessible/404 to the author and not retrieved here. The result is only for congruent equilateral geodesic triangulations; prompt local homogeneity does not imply this extra hypothesis."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

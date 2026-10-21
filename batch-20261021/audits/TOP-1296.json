@@ -1,0 +1,59 @@
+{
+  "verdict": "PASS",
+  "scope_assessment": "Substantive quantified literature reconstruction: a concrete infinite smooth-modulus regime, the compatible-residue obstruction and exact EH/GEH implication/consequence map distinguish it from the prior height-maximal/energy analysis. Imported sieve/distribution theorems are not presented as new solutions.",
+  "actual_checks": [
+    "Independently read actual1407.4897v4 PDF22Dec2014 definitions and exact Theorem2.5. With omega=.01,delta=.005 the condition is6+.9=6.9<7 and1/2+2omega=.52. Moduli are squarefree with all prime factors<=x^.005; one primitive class modP_I projects to each modulus, uniform in that one class. Source subpower Q convention includes the stated Q<=x^.52.",
+    "The prompt has all moduli, independent reduced-class maxima and height maxima with y/phi(q). The source has dyadic discrepancy centered at the reduced-class average; current report explicitly tracks all three missing restrictions. Sup of sum<=sum of sup, and shared prime factors can make independent maximizing classes incompatible.",
+    "Read GEH's divisor-bounded convolutions, polynomial-scale supports and Siegel-Walfisz condition, and Proposition2.7 GEH=>EH with Vaughan-identity proof sketch. No converse is asserted. Checked H1<=12 under EH alltheta<1 and<=6 under GEH, versus unconditional246; sufficient alltheta family is not called necessary.",
+    "Since eventual prime gaps are positive even integers, finite liminf<=12 forces infinitely many among2,4,6,8,10,12 and one fixed value infinitely often; similarly2,4,6 underGEH. No selection of gap2 is licensed.",
+    "Admissible triples must share parity; within diameter<6, three distinct same-parity integers translate to0,2,4, covering mod3. Triple0,2,6 misses a class modulo2 and3, and its3 entries cannot cover any prime>3. Thus minimal diameter6 is proved independently, without importing a twin-prime conclusion."
+  ],
+  "prior_comparison": "Read complete prior A1: sum1/phi(q), monotonicity height bracketing, complete endpoint-family equivalence with exponent slack, character Parseval/energy concentration and stronger hypothetical moduluswise bounds. It describes restricted beyond-half work generally but does not give the exact MPZ parameter regime and compatible-class/EH-GEH map here.",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1407.4897",
+      "version": "Actual header1407.4897v4,22December2014",
+      "locators": "Theorems1.3–1.4,Definition2.1,Claims2.2,2.4,2.6,Theorems2.3,2.5,Proposition2.7,§3 admissible triples",
+      "access": "Full80-page primary PDF opened; exact statements, relevant definitions and implication proof sketch independently read. Full deep sieve/distribution proofs not independently reproved."
+    }
+  ],
+  "required_corrections": [],
+  "limitations": [
+    "No unrestricted EH/GEH theorem, twin-prime proof, new distribution exponent or current best-record claim.",
+    "No deep imported theorem is claimed independently reproved; no formal proof, human review, novelty, editorial acceptance or public write is claimed."
+  ],
+  "handle": "TOP-1296",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_numbers",
+  "checked_report_sha256": "eea482c6b327cba063d87c3d7a8bec067cc4fd376be0b4720000ab2db4fe2f23",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "report.md": "eea482c6b327cba063d87c3d7a8bec067cc4fd376be0b4720000ab2db4fe2f23",
+    "source_notes.md": "c21c8c0385477c683b5e12ed2c8ea3c16c5e1b404aa6717ef41d7bcaea5ee536",
+    "author_record.json": "763411237271b2e2fd0d7087dbfd2bcd74d0b499f4c3795cdfbc3fcc345ed341",
+    "official_prompt.txt": "a62968db1787fb05724ad0a0bf558496b7de9dda53b5f57f79d37b4d24709b14",
+    "official_prompt_api.json": "b48f9750021d7eba6c0b9d63d9f9111832724088610d10893383a8e4599757f1",
+    "official_metadata.json": "3772d719c5396b1c3252d7212531acf57bcfecbc511b7ef21e1bd4cc43f58347",
+    "official_metadata_api.json": "45deb7aaa6874c55b89fdf58e6581fa9240a986d21ce8495dfc77175efd0b157",
+    "contribution.json": "01c718b6c435f095d51f61ef427b76b8135622ef3d11b258ac204e76ec1a9c1d",
+    "retrieval.json": "016e958dff18eca1ef3637da3736eeaf1bc828172dc05669ad5957c6fa366140",
+    "prior_attempts.json": "b28df179860b296a72da985410cf53788397ed1aa6da1c0fbe6bdaa257313930",
+    "prior_attempt_01_api.json": "f1996bcae237581d4112f9a0900d6e1fdea9e0018dbbedd14a4c9976494b1966",
+    "prior_attempt_01_text.txt": "15cc96b1198a817f8d3f1ba7257eb6174b0609454068c56b3f5f38974bb25dae"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": "Successful explicit collaboration.spawn_agent dispatch selecting gpt-6.1-sol and ultra; exact serving revision and time budget are not exposed. No historical author/reviewer settings are reassigned.",
+  "dispatch_record": "coordination/qualified_verifier_algorithms_dispatch.json",
+  "reviewed_utc": "2026-10-21T19:37:44.240975+00:00",
+  "input_integrity": "Both retained API wrappers decoded and compared exactly; Git blob SHAs reconstructed; author scientific hashes matched; all retained prior wrappers and full bodies bound.",
+  "program_runs": [],
+  "execution_coverage": {
+    "original_programs": 0,
+    "normal_runs": 0,
+    "optimization_refusal_runs": 0,
+    "reason": "Source/proof-only report. No original checker attached; no scientific program run."
+  }
+}

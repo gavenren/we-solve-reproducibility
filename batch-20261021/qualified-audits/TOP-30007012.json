@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30007012",
+  "canonical_problem_id": "prb_5f6120f1628f49ab83312be62f39bad4",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "5fd8f44e568dadff2c7724ddfa0eeac203da34eb90ccd9ab646d395102c9b159",
+  "report_sha256": "5fd8f44e568dadff2c7724ddfa0eeac203da34eb90ccd9ab646d395102c9b159",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "1ee803ec146d4792174ad2db9cab81fcd5dddfe770751ac554b52fbfa872302f",
+    "contribution.json": "ca7e0955244dd1144c3d3a6c30222ecb5cef9907c9ffadd5e67960df6a25e9f3",
+    "official_metadata.json": "f28a5374fe0083b2ef18bccf637b7a53f80f0ecf694e7e0b6b083f0f75c11f18",
+    "official_metadata_api.json": "122d8b6c724bc83d5dcb8af92f39b3d77c663e4acb232952f0324072909e9c82",
+    "official_prompt.txt": "a73dcacfd9a475cf2874017467b48cac3397573c2c797ba2e305e0a43b3e4b85",
+    "official_prompt_api.json": "2a42d6b284b01abfd17ba0ddde67d7503b1c099eb66539f98443f5ddbc54cc7a",
+    "prior_attempts/TOP-30007012-A1.html": "453805c0ddd5802a85067675822a5d475733ec1f60c6e32927290946f9a00b9e",
+    "prior_attempts/TOP-30007012-A1.json": "67091ee0739170c1132390783f647a7ee38ba01d6aad3fa6bf8a6d4c20b05ac6",
+    "prior_attempts/TOP-30007012-A1.txt": "14d712e7d1933997becc80fd263698e33ebd6eb9e2a81edd683c6ceadeda4cce",
+    "report.md": "5fd8f44e568dadff2c7724ddfa0eeac203da34eb90ccd9ab646d395102c9b159",
+    "source_notes.md": "787a4a37d6766b473753a4ca4106cc2cc0adc50725fdc1154b87165364d3845f"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:20:54.254588+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Read the complete earlier all-pg0 OpenAI claim and its unverified status. The credited classical full kappa<2 range with integral kernel argument is distinct significant literature scope and does not adopt the claimed general-type result.",
+    "Checked the actual primary statement is smooth projective complex surfacespg0 withkappa<2, and Remark1 gives one fixed integerN annihilating allT(S). A divisible group with a uniform annihilator is zero; element-dependent torsion or divisibility alone would not suffice.",
+    "Independently checked divisibility ofA0 using a smooth ample curve through the finite zero-cycle support and Pic0(C). Kernel divisibility additionally uses N-torsion surjectivity: Lefschetz surjectivity onH1 lattices modulo torsion gives surjectivity on AlbaneseN-torsion, realized by Pic0(C)[N] cycles. Correcting any Nth rooty by a torsion cyclec with the same Albanese image givesy-c inT andN(y-c)=z. No false general kernel-of-divisible-groups argument is made.",
+    "Checked classification/elliptic-Jacobian transfer is explicitly credited as the substantial source input, with squared multisection-degree annihilator andq0/q1 cases. Albanese surjectivity follows from the ample-curve Jacobian; q0 then killsA0 and a complex point splits degree integrally. Enriques topological torsion is not confused withCH0 torsion."
+  ],
+  "sources": [
+    "Bloch-Kas-Lieberman, CompositioMath33(1976),135-145, actual original12-page primary PDF independently opened turn1705view4; introduction/Remark1/Proposition1 pp135-137 and elliptic-Jacobian reduction pp138-139 as turn1709view1/turn1714view2. OCR drops inequality signs; context clearly separates kappa<2 from general type."
+  ],
+  "limitations": [
+    "Classification-dependent uniform-annihilator geometry is imported with checked source statement and transfer, not independently re-proved in full or formally verified. Integral divisibility/torsion-correction logic was checked directly. No programs/runs."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}

@@ -1,0 +1,33 @@
+{
+  "handle": "TOP-10000004",
+  "reviewer": "/root/hundred_topology",
+  "author": "/root/hundred_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T19:00:31.657221+00:00",
+  "checked_report_sha256": "9001af4179b728b0a6346f937c7efe8d384968a6199485da63df011c5228868b",
+  "checked_source_notes_sha256": "19775770726b57622e25ff42d8ac9fc4d428711ffd590c644e6b42bae0b1f4b6",
+  "checked_contribution_sha256": "960ee7d758ce3e6e168f3be6190594aa07dc56321c81c18e9bd2c57d34dcd0a6",
+  "programhashes": {},
+  "program_hashes": {},
+  "actualchecks": [
+    "Read literal all metric-isometries prompt, full report/notes; no priors. Verified affine-span exception, unique Euclidean extension of finite-set metric symmetry and fixed sphere center, faithful orthogonal group reduction.",
+    "Independently checked pole-orbit double count, k2/3 cases, reciprocal classification and normality preservation of unique axial exceptions; bound|G|\u2264120 outside exceptionaltwo-plane orbits.",
+    "Checked icosahedron coordinates, transitive12-vertex action, fivefold stabilizer/order60 and inversion extension120; generic orbit size120. Verified even-sign-change squared-projection equations forceab=ac=bc=0, and cyclic permutations then exclude two parallel circles. This proves sharp120for literal reflection-allowing definition, without attributing error to inaccessible original convention.",
+    "Confirmed exact prompt bytes and decoded metadata content against retained fresh API wrappers and current author-record hashes; source-only, zero program executions."
+  ],
+  "primary_sources_actually_read": [
+    "Zappa\u2013Dykeman\u2013Twarock primary IUCrarticle \u00a71, fresh turn1481view1: Iorder60andIhorder120 distinction. Main classification bound and attainability proof independently checked in report."
+  ],
+  "checked_files_sha256": {
+    "official_metadata_api.json": "2e56b7d428c6c819d801643514099a475c7109fa550eae12a8ce4fe4733ae4d7",
+    "official_metadata.json": "b24f8b6b055eb7e733af252d410834511f55ab1233bbd204ca815d829241d89f",
+    "report.md": "9001af4179b728b0a6346f937c7efe8d384968a6199485da63df011c5228868b",
+    "source_notes.md": "19775770726b57622e25ff42d8ac9fc4d428711ffd590c644e6b42bae0b1f4b6",
+    "author_record.json": "69a0f55e4ffd9058c16ea0e330f4184e4c995ce84c6e9fb077d16dd8682520dc",
+    "official_prompt_api.json": "15206d5b80d3edc29a7d29f5c58aed65b1bb2815750c6a906faf26e12c21da72",
+    "contribution.json": "960ee7d758ce3e6e168f3be6190594aa07dc56321c81c18e9bd2c57d34dcd0a6",
+    "official_prompt.txt": "67abba1d10a2a7143e6aca90a9af83dc1bb0bde903c866b4ea0f4220cbd8c4f7"
+  },
+  "limitations": "Independent LLM review of prose, proof and inspected primary-source passages; not formal verification or human/editorial acceptance. No program exists or was executed. Full-solution audit concerns the literal supplied formulation. Original archived Benjamini wording inaccessible and not certified; no runtime/numeric group computation claimed."
+}

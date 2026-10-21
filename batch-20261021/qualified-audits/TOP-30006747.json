@@ -1,0 +1,48 @@
+{
+  "handle": "TOP-30006747",
+  "reviewer": "/root/sol_ultra_algorithms",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "checked_report_sha256": "912fcb829dd74dc9e4a953b9b4ecefccfe73e4743c2aaa69dc643753024e5ddb",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "9d59f301a5c889201eda4056135356161dd7e38b25c97d4a75bbb12c83c29fa9",
+    "contribution.json": "5de50841a692ff11fdfcd7962f5588a80475cc48957708294965b18783ffdf5b",
+    "official_metadata.json": "09c7e8cb0dab02cf3809d170e5eb6ecbb876f81b8e803c55342aafb0f2bfa530",
+    "official_metadata_api.json": "986631bc5b9ef7bcbba451345f582b20307f4629b93479285c11114fc589fd96",
+    "official_problem.json": "09c7e8cb0dab02cf3809d170e5eb6ecbb876f81b8e803c55342aafb0f2bfa530",
+    "official_problem_api.json": "986631bc5b9ef7bcbba451345f582b20307f4629b93479285c11114fc589fd96",
+    "official_prompt.txt": "b00ec4be4721bd9fefb83f12508452e5e08006a675b7be243e03cb9e08b09e34",
+    "official_prompt_api.json": "c86a649c2966dd723aab8416f61159103a6beb094ebe6b1dab65963c6e7964cf",
+    "prior_attempts/TOP-30006747-A1.tex": "e4d0f34366a77c2ac5d78212484781feb948708d0674cebdcb89abb9f87c74a4",
+    "prior_attempts/TOP-30006747-A1_api.json": "0a33346274b389cf94a12b4855cdfd551ff9c365bc266d9ca35e61abc455bed3",
+    "prior_attempts/TOP-30006747-A1_manuscript_api.json": "472c145af315bffbb876e81cb383271fb2816b5328cdd79d1085e3b9f1f0e3cf",
+    "prior_attempts/TOP-30006747-A2.tex": "360df4b70f99250142954cd65dd23fe8ef350daf36f40bcd91cf55178f2f9754",
+    "prior_attempts/TOP-30006747-A2_api.json": "f3ac0843bff51e5dfc8790dc8420b73471e2401e5f0e986ade04b6cbae78c6d2",
+    "prior_attempts/TOP-30006747-A2_manuscript_api.json": "438d25fffe1e19e8918969d36e53d0e6b503cce444859c28e76df5dd05026856",
+    "report.md": "912fcb829dd74dc9e4a953b9b4ecefccfe73e4743c2aaa69dc643753024e5ddb",
+    "source_notes.md": "1b0cb3f410ae67a45886bd6feeebd0b8951f6838e0e648d3122d4eccbb9f18d6",
+    "verification.json": "24ad7eb7c9b0b8557053938600ce5b9bbe54f9995fb065c1ab92f21966d7faec"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "actual_time_budget": "unknown",
+  "provenance": "New independent dispatch selected model gpt-6.1-sol and reasoning_effort ultra; dispatch receipt in coordination/qualified_verifier_dispatches.json. These selected settings describe this review only, not historical authors or prior reviewers.",
+  "reviewed_at_utc": "2026-10-21T19:26:36.041002+00:00",
+  "actual_checks": [
+    "Read exact arbitrary-binary-basis omega(n) circuit target, both full earlier bodies and complete current report. Primary published seven-page extended abstract explicitly states the credited near-cubic DeMorgan formula lower bound for explicit AC0; it is not represented as a proof of unrestricted circuit hardness.",
+    "Independently verified the Khrapchenko protocol partition: Bob chooses at OR,Alice at AND; each leaf rectangle has a fixed differing coordinate and its distance-one edges form a matching. Cauchy-Schwarz yields |E|^2/(|A||B|). Parity yields n^2 leaves, attained by balanced XOR expansion at powers of two.",
+    "Checked n-1 arbitrary-binary-gate parity upper bound and dependency graph lower bound: all n essential inputs connect to the output, so n+s-1<=2s. n=1 has zero gates. Fanout/basis changes prevent the formula inference. Source-only zero executions."
+  ],
+  "primary_sources": [
+    "Filmus-Meir-Tal,Shrinkage Under Random Projections,and Cubic Formula Lower Bounds for AC0,ITCS2021,DOI10.4230/LIPIcs.ITCS.2021.89,published seven-page extended abstract at https://drops.dagstuhl.de/storage/00lipics/lipics-vol185-itcs2021/LIPIcs.ITCS.2021.89/LIPIcs.ITCS.2021.89.pdf,abstract and formula conventions freshly checked; deep cubic proof credited rather than independently reproved."
+  ],
+  "prior_work_distinction": "A1 offers a conditional hard-block direct sum and A2 summarizes depth-three claims. Current report adds a precise stronger formula frontier plus complete quantitative communication/edge proof and sharp parity comparison.",
+  "scope_assessment": "Credits the Filmus–Meir–Tal2021 tilde-Omega(n^3) De Morgan formula lower bound for an explicit AC0 family, and proves the Khrapchenko edge bound with parity application L(parity)>=n^2 versus unrestricted B2 circuit size exactly n-1. These restricted-model results do not yield the literal omega(n) general-circuit lower bound.",
+  "required_corrections": [],
+  "execution": [],
+  "execution_limits": "All original attached checkers were read before execution. Normal and -O runs use isolated temporary copies; output logs retained. Finite diagnostics do not establish unrestricted or asymptotic claims. No imported massive computation, Lean or formal proof was run.",
+  "official_input_checks": "Exact prompt wrapper bytes and Git blob SHA verified; metadata wrappers decoded and compared; canonical ID checked against active claim and 424 prior exclusions; all retained prior manuscript bytes matched wrappers.",
+  "scientific_limits": "Independent mathematical/source review, not human review, formal certification, historical novelty certification or editorial acceptance."
+}

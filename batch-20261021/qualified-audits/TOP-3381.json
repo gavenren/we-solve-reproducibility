@@ -1,0 +1,63 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_numbers",
+  "handle": "TOP-3381",
+  "canonical_problem_id": "prb_da4aa6d6b98e486f8913911230b481ec",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:31:13.386725+00:00",
+  "checked_report_sha256": "bcb888fa1512e3c8b20b642826200d10a0562b1a562891f13309c86fe19cdc4e",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "2bf0cc42f9261891cf4b1d023ee5c0934b8f80a0fd3d43b3c0b07d3e7390df5a",
+    "contribution.json": "1f72e1bef2e1ef98863e93a384c9647d9d999daf38d8ccec476ed926a04bbe89",
+    "official_metadata.json": "bd95ecf582821ee5812bb383d20107d9ff284c0ee655fd5c4e869f42835e7c11",
+    "official_metadata_api.json": "84f2c65a48a4a2fbc64fef3b091950e72309af0bf51fcb2ba1d33894b187db34",
+    "official_prompt.txt": "6108f6fb415605904a43674c86683862f145640c312338b4be9a8e5d5b870027",
+    "official_prompt_api.json": "8f6caa7e0b5e1809c3cf8cf0f50b9010fd4423cd3e369603ae887d0bc4584925",
+    "report.md": "bcb888fa1512e3c8b20b642826200d10a0562b1a562891f13309c86fe19cdc4e",
+    "retrieval.json": "a2b734688775195d5b2bed33707e305e1c93d06e138c7ee41a06d93034416c4f",
+    "source_notes.md": "172725b70fe0a6ad36621df811457bea11ea57075f50e4d8ab0e3049d30b4952"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit gpt-6.1-sol / ultra agent dispatch; same selected configuration persists for root-assigned disjoint number-theory second half. Historical settings are not relabeled.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d",
+    "assignment": "coordination/qualified_number_review_assignments.json",
+    "assignment_sha256": "800ec6892172883dc31875bc4103acafc7e24704c3fc02c67e2e5e3965d0f430"
+  },
+  "frozen_author_evidence": {
+    "initial_manifest": "number_theory_author_manifest.json",
+    "initial_manifest_sha256": "923f5ea2dc06ba7ccb100ea120a78f051502c606668c3e2ba84ea83ca27f5eaf",
+    "exact_reviewed_source_inventory": "coordination/qualified_number_second_half_input_inventory.json"
+  },
+  "actual_checks": [
+    "Full literal prompt, API/meta, report/source/provenance records read; no prior listed. Imported square-free infinite-family obstruction plus CRT reconstruction, uncovered progression and exact radical-reduction failure are significant literature content. The arbitrary odd-prime-power problem remains unresolved.",
+    "Every residue class modulo square-free q_i fixes exactly its prime-divisor coordinates under CRT modulo Q. q_i>1 ensures nonempty support; square-freeness and distinct moduli ensure distinct supports. Absent odd-prime coordinates below the largest divisor can be freely adjoined to all hyperplanes, preserving covering and support distinctness, so the exact consecutive-odd-prime geometric theorem applies.",
+    "A missed residue mod Q gives the entire progression and density at least 1/Q, dependent on the family. Replacing by radicals enlarges classes but can collapse different moduli such as 3 and 9; differing residues cannot be dropped. Thus it loses the source distinctness hypothesis.",
+    "The second theorem concerns Q=lcm moduli: 2|Q or 9|Q or 15|Q. In an odd putative cover, some modulus must have repeated prime factor, and 9 or 15 divides Q. A 3-factor in one modulus and a 5-factor in another suffice for 15|Q; no single 15-divisible modulus or sufficiency is asserted."
+  ],
+  "primary_source_checks": [
+    "Balister–Bollobas–Morris–Sahasrabudhe–Tiba, arXiv:1901.11465v1, 31 January 2019, https://arxiv.org/pdf/1901.11465, Theorems 1.1–1.2 and exact hyperplane/parallel definitions read (qualified_number_second_half_primary_07.json/_09.json, turn1840view0, turn1843view1). Primary arXiv renders the stated v1, distinct from publication metadata ANT 15 (2021), 609–626.",
+    "Same authors, arXiv:1811.03547v1, 8 November 2018, https://arxiv.org/pdf/1811.03547, exact Theorem 1.4 and following lcm-versus-single-modulus caveat read (_10.json, turn1844view0). Deep distortion sieve remains credited and not independently rerun/reproved."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Literature report",
+    "exact_scope": "Precisely credited nonexistence of distinct odd square-free covering systems, CRT transport including absent prime coordinates, uncovered progression/density bound, radical-collapse obstruction, and necessary period divisibility by nine or fifteen for any remaining odd cover. Arbitrary odd moduli remain unresolved.",
+    "listed_prior_count": 0,
+    "comparison": "Every listed retained full scientific prior body read and compared; canonical ID and aliases checked against earlier 424 exclusions. Contribution scope is significant and distinct within its stated category."
+  },
+  "actual_program_executions": [],
+  "execution_coverage": {
+    "original_program_count": 0,
+    "actual_verifier_runs": 0,
+    "scope": "Source/proof-only; zero attached original programs and zero mathematical program runs."
+  },
+  "limitations": [
+    "Deep cited theorems are credited imports. The review checks exact hypotheses, applications and the supplied deductions rather than independently reproving those entire theorems.",
+    "No human or formal proof verification, novelty, publication or editorial acceptance is asserted."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "reviewer": "/root/sol_ultra_topology",
+  "author_agent": "/root/hundred_topology",
+  "handle": "TOP-2757",
+  "canonical_problem_id": "prb_f089d5d3ca6041bab3abcd80a5dac2a2",
+  "verdict": "PASS",
+  "reviewed_utc": "2026-10-21T19:14:09.386148+00:00",
+  "checked_report_sha256": "ea62675377e6006e538000f94dde9300629599746121f8d8da0efa59fef5cab1",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "b49b6e3a11e6e159fb08bd666eedce3c8cffb373aae95d121fd41778dee383e9",
+    "contribution.json": "b182778224136af2893f7a2508861a418ff5f728877ea7e789426290a1e3ab34",
+    "official_metadata.json": "25d6361f6b2e73f6042c2951f42fdafe63ce3063fb42bb65c05e2ad2458b9cb5",
+    "official_metadata_api.json": "c0509763aa0991864c0f00371977b1f3c8cd759c4ffaa183e676c2f4bff4117a",
+    "official_prompt.txt": "bd84e85ee4dcc2c7fb32e01d9abad8a20840ec45513a3c37e35be7c74bf8f5e4",
+    "official_prompt_api.json": "f28c166561f011d3f34c63028bbfd8cc4ed57c9837dde15f0a0e067f3574fbd3",
+    "report.md": "ea62675377e6006e538000f94dde9300629599746121f8d8da0efa59fef5cab1",
+    "source_notes.md": "a7f3cde0eb65c81ecc5e8a8a2b6bcf657b64a04a3d3540848a85ff6321f4f6e0"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "time_budget": "unknown",
+  "configuration_provenance": {
+    "basis": "Successful explicit collaboration.spawn_agent dispatch selecting model gpt-6.1-sol and reasoning_effort ultra; no historical configuration reassignment.",
+    "dispatch_record": "coordination/qualified_verifier_topology_dispatch.json",
+    "dispatch_sha256": "a93171687e796628b39df3bdfe677dd81c1eb5c21158929805a9b2ceb7f6bb8d"
+  },
+  "actual_checks": [
+    "Read the literal all-arcs homogeneous-presentation problem and all report/source/metadata records; no earlier contributions are listed. Verified relation validity by conjugation of positive half twists.",
+    "Checked completeness independently: disjoint chain arcs give Artin commutation; consecutive arcs give the three-strand braid relation through c=h_a(b), h_b(c)=a. Thus the Artin section exists and q∘s=id.",
+    "Checked the missing-surjectivity risk: any puncture-joining arc is an image of a chain arc; the defining relation provides both positive and negative conjugation formulas, hence all Q generators lie in the image. n=2 leaves a single arc class and Z. Group cancellation is permitted and no monoid embedding or normal form is inferred."
+  ],
+  "primary_source_checks": [
+    "Birman–Ko–Lee arXiv:math/9712211v2 (7 April 1998), Introduction equations (1)–(2), primary PDF p.1, lines 15–19, directly gives the precise Artin presentation used. Retrieved primary turn1615view1; evidence _01. The infinite all-arcs completeness proof is in this report and was independently checked, rather than importing the finite-band monoid theorem."
+  ],
+  "scope_and_distinctness": {
+    "claim_type": "Partial result",
+    "exact_scope": "A complete group presentation on all isotopy classes of puncture-joining arcs, with the single geometric rule x_a x_b=x_{h_a(b)} x_a. Validity and completeness are proved using the classical Artin presentation. No embedding theorem or algorithmic normal form for the associated positive monoid is claimed.",
+    "official_prior_count": 0,
+    "comparison": "All listed retained prior contribution bodies read when present; no earlier contribution is listed when count is zero. Active canonical ID and aliases checked against prior_exclusions.json; no overlap. Significant problem-specific scope, not new discovery or editorial acceptance."
+  },
+  "execution": {
+    "original_programs": 0,
+    "actual_program_runs": 0,
+    "commands": [],
+    "exit_codes": [],
+    "logs": [],
+    "reason": "Source/proof-only contribution; no original checker exists. Reviewer provenance serialization and hashing are not mathematical experiments."
+  },
+  "limitations": [
+    "Deep cited theorems are imported and credited; this review checks their stated hypotheses, exact application and the supplied deductions, not independent reproving of their entire proofs.",
+    "No human review, formal verification, novelty, public submission or editorial acceptance is asserted."
+  ]
+}

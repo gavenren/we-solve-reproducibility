@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "handle": "TOP-30007199",
+  "canonical_problem_id": "prb_2f0a613f3ab04c9780f8b12119ceb253",
+  "reviewer": "/root/sol_ultra_geometry",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "3ca8ec071a7408244c130c02e44a114f5f77532b660883efcd3104b49a4e46b3",
+  "report_sha256": "3ca8ec071a7408244c130c02e44a114f5f77532b660883efcd3104b49a4e46b3",
+  "program_sha256": {},
+  "checked_files_sha256": {
+    "author_record.json": "4996d3584b055857b1a5a7331c0fc74474d3221e66bcf2dcbaf3526a7d83912e",
+    "contribution.json": "a074c03212545c038cd74790ff74b8115160aa75aea30ea082bbb6e3c07f7a77",
+    "official_metadata.json": "3f49fb469e4e342491d32ddee512ae8d9a20c2d23e8134912bb1f41946c7da84",
+    "official_metadata_api.json": "cc6a48448a8460389417770bf8daa54345da6245cc6891591bee209958940725",
+    "official_prompt.txt": "06c33f0977f04f814f64f2bdd6b44bfca00e76274ec1a48efbec1e5e0640d403",
+    "official_prompt_api.json": "cead23d013110ab57cde5deacf2c391fa11ebfd9526b04103d8e70850ddb4cfc",
+    "prior_attempts/TOP-30007199-A1.html": "58cb80aacfaa656bc7b642e5eab8933b0ed9bc561c16256d55af4bf443b98bfe",
+    "prior_attempts/TOP-30007199-A1.json": "16692f8695d9a0bd863e363ed891889bbe07bdb015400f8c4016afc25a14bdc6",
+    "prior_attempts/TOP-30007199-A1.txt": "18c1356b55f0036c17e5aec49b44ada26694f87297c1c590f31983062a1decdb",
+    "report.md": "3ca8ec071a7408244c130c02e44a114f5f77532b660883efcd3104b49a4e46b3",
+    "source_notes.md": "ab6562e1432612b28429a430125af2e0705bc6f1b342a6ea7878fc4074253084"
+  },
+  "configured_model": "gpt-6.1-sol",
+  "configured_reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "configuration_provenance": "explicit collaboration.spawn_agent configuration; see root dispatch receipt",
+  "reviewed_at_utc": "2026-10-21T19:28:31.525310+00:00",
+  "checks": [
+    "Active claim, canonical identity and all aliases checked against the 424-completed canonical exclusion records.",
+    "Read exact prompt, retained metadata/API wrappers, source notes, contribution, author hashes, and all retained earlier contribution bodies.",
+    "official_prompt_api.json content equals official_prompt.txt",
+    "official_metadata_api.json content equals official_metadata.json",
+    "Checked EFW Theorem1.1 exact finitely-generated group quasi-isometric-to-Sol input and dependency on PartI.",
+    "Checked positive-trace hyperbolic monodromy diagonalization/lattice cocompactness; negative trace handled by index2 square. Polycyclic subnormal series needs only immediate-successor normality.",
+    "Checked proper cocompact action orbit lemma, finite-index/commensurability quasi-isometries and transitivity.",
+    "Checked finite normal kernel centralizer finite index, kernel Z(F) finite abelian, image subgroup of polycyclic quotient and cyclic-series subgroup/extension closure. Read full priorA1 general-recognition claim without adopting it."
+  ],
+  "sources": [
+    "Eskin\u2013Fisher\u2013Whyte, actual47-page primary arXiv0706.0940v2,21June2012 PDF https://arxiv.org/pdf/0706.0940 : introduction/Theorem1.1 and Section2 PartI dependencies.",
+    "AnnalsMath177(2013),869\u2013910 primary publisher record https://annals.math.princeton.edu/2013/177-3/p02 confirms published theorem."
+  ],
+  "limitations": [
+    "Source/proof-only: no program exists; zero executions and no formal verification.",
+    "Deep theorem proof is credited and its exact hypotheses checked; full analytic/diagrammatic proof is not independently reconstructed."
+  ],
+  "actual_program_executions": [],
+  "execution_count": 0,
+  "formal_verification": false
+}
