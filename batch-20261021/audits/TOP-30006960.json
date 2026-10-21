@@ -1,0 +1,61 @@
+{
+  "handle": "TOP-30006960",
+  "reviewer": "/root/hundred_graphs",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T18:29:28.690294+00:00",
+  "checked_report_sha256": "a37f70fbd7ebe6f82cd18cc5297e6a6f86caf263fec99b209aae556912d775d6",
+  "program_sha256": {
+    "verify.py": "8da7563b57be46c0402df8c8a4a60c121b44a8b9e6224d1ba766ff87ce17bfd9"
+  },
+  "program_hashes": {
+    "verify.py": "8da7563b57be46c0402df8c8a4a60c121b44a8b9e6224d1ba766ff87ce17bfd9"
+  },
+  "checked_files": {
+    "official_prompt.txt": "361a967e606b12bd463cd86b3f8618a8d35b08249f6b2685f710c8965e1210aa",
+    "official_prompt_api.json": "765d01fad3acdfbcb849b36f6481ff1b473c6fc46483b798e123b8cc9d247570",
+    "official_metadata.json": "5c1a704d4f83303a478271c59923e2a6ce043eff692b1e399b41b7448724a5ab",
+    "official_metadata_api.json": "d543dbdfd53943d84dd677629f740dcfa2ddfe056749cc0dfee86e897dc656db",
+    "source_notes.md": "3eca5cdee19c261277eed0eed32461349ff8cdfd228e5396ec667c34183e6a8e",
+    "contribution.json": "6df83ebe2f3e3600043a8b38eff99bb3450341b704f800c6a7bdd9bb92b367a1",
+    "author_record.json": "61de30af88d80c5fad6eb6d379d0e15d5b7075016ffa8a87655a501dd964e398"
+  },
+  "prior_attempts": [
+    {
+      "path": "prior_attempts/TOP-30006960-A1.tex",
+      "sha256": "d699a2bd9ec80c30b2eca52c698251daa1e4628c28cf4dd7865c6bf95112286e",
+      "read_in_full": true
+    }
+  ],
+  "checks": [
+    "Checked both directions of prefix interval tests, empty/boundary runs and output-inclusive O(n²+nκ) preprocessing/testing cost.",
+    "Checked row-at-a-time O(n+κ) auxiliary words, logarithmic bit simulation and common supplied permutation without a free best-order search.",
+    "Checked all-distinct J−I/triangular family: κ=n and witness mass (n−1)n(n+1)/2; alternating columns permit Θ(n²) runs and cubic time.",
+    "Read retained A1 in full: Four Russians, witness enumeration and equal-type bounds differ from this run parameter. No external theorem is required.",
+    "Official literal prompt/API bytes, Git blob SHA, decoded canonical metadata/selection/author and current author report/program hashes agree."
+  ],
+  "primary_sources_independently_checked": [],
+  "runs": [
+    {
+      "evidence": "independent_execution_graphs.json",
+      "sha256": "bb30f5896e55efd5231e06c8104db01144910bac0db406bfe1e6021837462071",
+      "normal_result": {
+        "status": "PASS",
+        "matrix_pairs_checked": 262495,
+        "exhaustive_dimensions": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "additional_structured_dimensions": [
+          2,
+          5,
+          20
+        ]
+      },
+      "optimized_refused": true
+    }
+  ],
+  "limitations": "Independent LLM mathematical review, not formal proof or human review. Finite diagnostics verify only their enumerated ranges, not asymptotic claims. Deep source theorems were checked at listed statements/proof portions, not fully reproved or mechanically certified."
+}

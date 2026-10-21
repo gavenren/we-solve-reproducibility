@@ -1,0 +1,29 @@
+{
+  "handle": "TOP-2512",
+  "reviewer": "/root/hundred_numbers",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "3bb61afb8a7896a9262d0fe51aae24a53bd2d5d8bcb1a705b9fe5105262901c7",
+  "program_sha256": {},
+  "source_only": true,
+  "actual_runs": [],
+  "checked_file_sha256": {
+    "report.md": "3bb61afb8a7896a9262d0fe51aae24a53bd2d5d8bcb1a705b9fe5105262901c7",
+    "source_notes.md": "8e22b9b7c88bb91e3134d12c0e2de8d75a3c3bdb9d6f66eb0b86d1d928ddeb17",
+    "contribution.json": "52224f7e102008c3a1688d270a9fcb5390c4d9dbf177848714d2d9a6e35e478d",
+    "author_record.json": "32797f908cec7c575cfaa2f3fcf2596a10712e9d1d18a214e04e739eca4fd97d",
+    "official_prompt.txt": "e7a37faadad52cdff626ccf3f48df814df42194d2b093a09cd4ad5fdcdc1fdbb",
+    "official_metadata.json": "858b41a0f7ac49b89cdaaba11e5a365d41f7992588b9e16c9ed1301dff0beb46",
+    "official_prompt_api.json": "9e2f3acb48cf1d7d571aaeae21de720207e420bf64e2fe5ed7d3f64552fceed3",
+    "official_metadata_api.json": "efddcc2dd940a2772bcaee55deb9b750fcf3bcca49453bfb6b7089e30ef9bcaf"
+  },
+  "actual_checks": [
+    "Read full prompt, report, notes, contribution and author record; no earlier contributions listed.",
+    "Re-derived exact prime-order expectation and why every nontrivial finite intersection has a prime-order element.",
+    "Checked semiregular subgroup orders<=n, cycle type p^(n/p), centralizer p^t*t!, safe factor2 for A_n, and random conjugator drawn from the actual ambient group.",
+    "Checked r_n, exact14! comparison, ratio expression, e<3 inequality and decreasing upper bound for all n>=14; all-degree proof rather than enumeration.",
+    "Independently read Notebookv49 Problem21.3 printed178 including asymptotic part(a) and degree20 counterexample. Report only claims semiregular subclass."
+  ],
+  "limitations": "Independent LLM mathematical/source review, not formal proof or editorial acceptance. No program exists for these reports and no execution is claimed. Source retrieval limitations are explicitly recorded.",
+  "review_date": "2026-10-21"
+}

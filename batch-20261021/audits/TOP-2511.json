@@ -1,0 +1,29 @@
+{
+  "handle": "TOP-2511",
+  "reviewer": "/root/hundred_numbers",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "a5cf3215f7f83c0cd3bd2368b5849a724e8e5b5a5c6292e28ff2d470a003f343",
+  "program_sha256": {},
+  "source_only": true,
+  "actual_runs": [],
+  "checked_file_sha256": {
+    "report.md": "a5cf3215f7f83c0cd3bd2368b5849a724e8e5b5a5c6292e28ff2d470a003f343",
+    "source_notes.md": "06d3a07b5a0bae8be7d04aa4bbce9b550ff04f2a310fb8b084777ca5b647b066",
+    "contribution.json": "0ef2d63744b3ca412a4842408696efdd158e31b872e144784e769b0f0534ced1",
+    "author_record.json": "0e363ab1a9ce996518f5a6e04ac8533b98abb7d4aef66fed9fe76e42c4b9e05b",
+    "official_prompt.txt": "5ad0a17123679f962be4086d94f9b0910c99469c85b43b8b60b1848af5e544e1",
+    "official_metadata.json": "978fe8c1cc79ce802887329e9e1391939ea02963316c51d573fd6fb06761b0c4",
+    "official_prompt_api.json": "b303424dd9606ff88150d12556334b0d71d2c4db1a4f782482966c1b0170d136",
+    "official_metadata_api.json": "0fb9facb525ffac7137b3564ab23fa2fcb1351adea79da329334212953b02524"
+  },
+  "actual_checks": [
+    "Read full prompt, report, notes, contribution and author record; no earlier contributions are listed.",
+    "Checked both directions of order-class Hall inequalities, identical neighborhoods, augmenting-path proof and integral transport compression.",
+    "Re-derived A5 counts1,15,20,24 and why identity uniqueness/order divisibility force exactly those counts in G.",
+    "Checked normal-subgroup branches: a3/5-element forces size30 then at least45elements; otherwise exponent2 gives N=C2 or C2^2 and a commuting5-element creates order10.",
+    "Independently read Notebookv49 Problem21.2 printed178 and Hall publisher record1935,s1-10,26–30,DOI10.1112/jlms/s1-10.37.26. Hall full text not claimed; own matching proof checked."
+  ],
+  "limitations": "Independent LLM mathematical/source review, not formal proof or editorial acceptance. No program exists for these reports and no execution is claimed. Source retrieval limitations are explicitly recorded.",
+  "review_date": "2026-10-21"
+}

@@ -1,0 +1,29 @@
+{
+  "handle": "TOP-2516",
+  "reviewer": "/root/hundred_numbers",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "35951f2c3327d5e204b04b8ec7277e54b9ae34e45dba792d72ceeb33f8c5f03e",
+  "program_sha256": {},
+  "source_only": true,
+  "actual_runs": [],
+  "checked_file_sha256": {
+    "report.md": "35951f2c3327d5e204b04b8ec7277e54b9ae34e45dba792d72ceeb33f8c5f03e",
+    "source_notes.md": "37dcc50c243de81c8ab342063c96636dc12d50606d1a1a72401bcbffebe41f65",
+    "contribution.json": "c981bfef1c7bc7017bc57532e434dcffd8f1735eb842c587ebf71ddd6b54c25c",
+    "author_record.json": "68154b409a7bb2e373faa9124018d4798f6ca53d314253dec5990b6ff6e7a3ee",
+    "official_prompt.txt": "1503fc3fafac4046286250e384f70e293223bafb29bf591548a68ef26e570c77",
+    "official_metadata.json": "551cf56b37eb2b4627cc09165c85d3e3b5e816ebb88519cc99fdb09dd03c6fff",
+    "official_prompt_api.json": "454494a31f048a0fd81739ea79128890b798adb21698cadb160109c491ababa0",
+    "official_metadata_api.json": "286211840a2fac8068a6dec835c99cefea2530987dd1474d3afd66341735b57a"
+  },
+  "actual_checks": [
+    "Read full prompt, report, notes, contribution and author record; no earlier contributions listed.",
+    "Checked semidirect multiplication, identity/inverse, additive law and both coordinates of left-brace identity without right distributivity.",
+    "Re-derived lambda additivity/composition and the identity-set bijective cocycle for R_(a,b).",
+    "Checked left translation (h.u)(t)=u(h^-1 t), wreath action and iterated split abelian extensions. Separate Sylow structures do not supply a compatible split extension.",
+    "Independently read Notebookv49 Problem21.7 printed179 and Cedo–Jespers–Okninski1205.3587v1 Section9 printed27–28, brace-automorphism restriction, Rump attribution and Corollary9.1."
+  ],
+  "limitations": "Independent LLM mathematical/source review, not formal proof or editorial acceptance. No program exists for these reports and no execution is claimed. Source retrieval limitations are explicitly recorded.",
+  "review_date": "2026-10-21"
+}

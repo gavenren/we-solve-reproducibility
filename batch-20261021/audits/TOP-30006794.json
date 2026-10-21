@@ -1,0 +1,39 @@
+{
+  "handle": "TOP-30006794",
+  "reviewer": "/root/hundred_graphs",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T18:29:28.682606+00:00",
+  "checked_report_sha256": "4785bcc148113c2c22a5973478ca5152e7dc2fc6832a12d4e9fee0dd5a7fac9a",
+  "program_sha256": {},
+  "program_hashes": {},
+  "checked_files": {
+    "official_prompt.txt": "cfe833111bd4dc8ead61c3215831149444c0f9ba4adac835d6b038e20878efd6",
+    "official_prompt_api.json": "f5665e2120a03275b50e05d72b4f3fb52367b592933b16b7a1271c0e07164f4c",
+    "official_metadata.json": "f832cb6b070d41226632a5f07f16a919957f6022e7454baad9e65b46cec10b7a",
+    "official_metadata_api.json": "bdc0e77ea1b5363942da2ae78455504d20649365cd0f8c9711727e8511865923",
+    "source_notes.md": "f8ac9518b1e742167290a89de69173afee07921ff4914ae28a6f157a7a6d9726",
+    "contribution.json": "0260c267334ce5ab251fb9daa890a3e090a73dd5afbc7f28233c22711caca9e3",
+    "author_record.json": "08d1ed49de229a412ebf9292cd367838cf5314360e0cdc0d3a89ec09fb8af64d"
+  },
+  "prior_attempts": [
+    {
+      "path": "prior_attempts/TOP-30006794-A1.tex",
+      "sha256": "9b49f28fac37c4ea0d73ef8cf001afd84356fc4e9cd44ef6f3f6a59eac532504",
+      "read_in_full": true
+    }
+  ],
+  "checks": [
+    "Checked orthonormal nonempty-fiber support, uniform-prior cyclic averaging, covariance normalization and character orthogonality for arbitrary composite N.",
+    "PSD principal minors give the1/N entry bound; the rank-one seed and outside-support extension attain it. Cauchy–Schwarz yields min(1,2^t/N); N=1, t=0 and zero-label boundaries hold.",
+    "Read retained A1 in full: it has an achievable fiber-compression formula; this report supplies the matching bound against every fixed-label measurement. No oracle-query bound or efficient circuit is inferred.",
+    "Freshly read Bacon–Childs–van Dam actual v2/26Apr2005 PDF, Section4 equations18–24 and Section5 equation27/Theorem2. Unversioned PDF resolved to v2 after versioned URL failed. Author bibliography independently confirms CJTCS2006 article2.",
+    "Official literal prompt/API bytes, Git blob SHA, decoded canonical metadata/selection/author and current author report/program hashes agree."
+  ],
+  "primary_sources_independently_checked": [
+    "https://arxiv.org/pdf/quant-ph/0501044",
+    "https://www.cs.umd.edu/~amchilds/papers/"
+  ],
+  "runs": [],
+  "limitations": "Independent LLM mathematical review, not formal proof or human review. Finite diagnostics verify only their enumerated ranges, not asymptotic claims. Deep source theorems were checked at listed statements/proof portions, not fully reproved or mechanically certified."
+}

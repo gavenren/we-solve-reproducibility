@@ -1,0 +1,32 @@
+{
+  "handle": "TOP-1866",
+  "reviewer": "/root/hundred_algebra",
+  "author_agent": "/root/hundred_numbers",
+  "verdict": "PASS",
+  "checked_report_sha256": "ccbcec2f5b6079b1d3280f412b9d46ec5a6690e1ceadbdf82b7f801a7d62f32c",
+  "program_sha256": {},
+  "source_only": true,
+  "actual_runs": [],
+  "checked_file_sha256": {
+    "report.md": "ccbcec2f5b6079b1d3280f412b9d46ec5a6690e1ceadbdf82b7f801a7d62f32c",
+    "source_notes.md": "b5d0cbe9f0ec221e00e14ab6ecdd7a8dfef3ef3e953b8981e2c1b638f78e1804",
+    "contribution.json": "a0e78c477c3bf05869117a88422ddf8673aacc6d68760c20cc0fed3de420d6fb",
+    "author_record.json": "2fbeb30b92fcfdb44295d84eddb7c61ba8b50ae207e74768bbb8b1d445e19e60",
+    "official_prompt.txt": "1a69f429a72744101ea23fac7d09e2fc5b9740a4b780ec61b974d09bfe76bce3",
+    "official_metadata.json": "7c47723a34a19526c80b0e3644523b77d1f709eccae9e816c05d6a3ee82d4d6c",
+    "official_prompt_api.json": "405627942a5ae6384e6b3352ad652f3b33975de0d1501beeaa7a4979100974d7",
+    "official_metadata_api.json": "3398b6cd32f4dfe804fd7af9b3d2654977cdc3bd3ad828c9272ea08ea6973a82"
+  },
+  "actual_checks": [
+    "Read literal prompt, whole report, source notes, contribution/metadata and author record; no prior attempt listed.",
+    "Independently opened publisher full Wright2020 PDF, printed382 Theorem3.1 and preceding uniform least-prime hypothesis. Checked fixed constants independent of reduced residue/modulus, exact nested logarithms and conditional status.",
+    "Checked Korselt equivalence, including CRT construction of a unit1+p modp^2 for a square divisor, p-1 divisibility and the converse; compositeness is explicit.",
+    "Re-derived product-one construction for distinct p=dk+1 with d|L and at least two factors; checked p-1|kL|n-1. Verified exponent-one log squeeze and at-most-one difference between strict/inclusive counting. No positive-density/Linnik/GRH substitution claimed.",
+    "Verified current author report hash, canonical metadata identity, exact retained API prompt bytes and decoded metadata; no program attached or executed."
+  ],
+  "checked_primary_sources": [
+    "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E732DD46A7CF3D0EE22BB21D16D72645/S000497271900145Xa.pdf/conditional_density_for_carmichael_numbers.pdf"
+  ],
+  "limitations": "Independent LLM mathematical and source review, not formal verification or editorial acceptance. Deep credited theorems checked at exact stated hypotheses, not reproved. No program exists or execution is claimed. Actual runtime settings/version/time unknown.",
+  "review_date": "2026-10-21"
+}

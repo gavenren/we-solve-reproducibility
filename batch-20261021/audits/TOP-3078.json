@@ -1,0 +1,39 @@
+{
+  "handle": "TOP-3078",
+  "reviewer": "/root/hundred_topology",
+  "author": "/root/hundred_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T18:52:31.149490+00:00",
+  "checked_report_sha256": "566b0a16402f47a1f62b4d1af374cde0fff78f8c00a0437232ea1cc640c71610",
+  "checked_source_notes_sha256": "ab27b4d3239a9c002bb38f22bdc754a73a2251addd924b1dd6974cf4cc269436",
+  "checked_contribution_sha256": "552141220dc239637b03a835a14dc0a6ecad8d2d12dde1938981a58505bd4496",
+  "programhashes": {},
+  "program_hashes": {},
+  "actualchecks": [
+    "Read literal unrestricted-T definition, full report/source notes, metadata and the complete prior manuscript, including its lower bound and T(3)=5 proof.",
+    "Freshly read problem-author Open Problem Garden page: T versus T*, parity-cut 4-cube construction, Haiman attribution. Fresh0910.4200v2 introduction confirms corner-only scope; no such lower bound is used for arbitrary vertices.",
+    "Checked interleaving triangulation of simplex products via order-simplex coordinates, coverage with ties, disjoint full-dimensional interiors, and compatibility with non-face-to-face dissections.",
+    "Checked normalization by factorial, four-block product and r=3 factor5/6. For 4-cube checked parity corners disjoint, even demicube cross-polytope and eight facets opposite a fixed vertex producing eight4-simplices. No optimality/new-record inference from cited inputs.",
+    "Prior attempt does not contain unrestricted product inequality or four-dimensional amplification.",
+    "Confirmed exact prompt bytes and decoded metadata content against retained fresh API wrappers and current author-record hashes; source-only, zero program executions."
+  ],
+  "primary_sources_actually_read": [
+    "https://www.openproblemgarden.org/op/simplexity_of_the_cube \u2014 original discussion lines27\u201340 and bibliography, fresh21October2026",
+    "https://arxiv.org/pdf/0910.4200 \u2014 v2, introduction pp1\u20133, fresh21October2026"
+  ],
+  "checked_files_sha256": {
+    "official_metadata_api.json": "dea9969888f1251b6178cbdd8f9c121f7b9c2a88b940889e960318d4831f72cd",
+    "official_metadata.json": "8739604d1d0da13c1e2a76f371f85d6bcce93959922816266859fa11b3639ef8",
+    "report.md": "566b0a16402f47a1f62b4d1af374cde0fff78f8c00a0437232ea1cc640c71610",
+    "prior_attempt_1.html": "167dda00602e603930318e564def7e3adc2e8884ad1d1a518c4cfb01345077e2",
+    "source_notes.md": "ab27b4d3239a9c002bb38f22bdc754a73a2251addd924b1dd6974cf4cc269436",
+    "author_record.json": "029ffb14f7b97575cd70ba072cc87ddbef22fdf3a834dd2154a9ea9b476f6250",
+    "prior_attempt_1.txt": "d3a040997ad2812a1203d6317074ac6ccb42c57b5cad73ddebbff6393032fae3",
+    "official_prompt_api.json": "36ca0b72e0f018108baeb31ffac270edb95f7fa25b93e36c153fadb46e9b3e75",
+    "contribution.json": "552141220dc239637b03a835a14dc0a6ecad8d2d12dde1938981a58505bd4496",
+    "official_prompt.txt": "dee12d18a079cc7cbb822b2acc38d7a697f22030f0fdeca929735288d1dfd38b",
+    "prior_attempt_1_api.json": "39245cf759323143b2bc188e66caacd867f1b11dc7cce0b8a8081d919d2c3293"
+  },
+  "limitations": "Independent LLM review of prose, proof and inspected primary-source passages; not formal verification or human/editorial acceptance. No program exists or was executed. PASS is for the supplied construction. No unverified full Haiman/Smith text is treated as read; no new optimality claim is accepted."
+}

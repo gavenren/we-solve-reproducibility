@@ -1,0 +1,54 @@
+{
+  "handle": "TOP-30006762",
+  "reviewer": "/root/hundred_graphs",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T18:29:28.678892+00:00",
+  "checked_report_sha256": "b7c6742633fdf6d45d441445ae9430e94d517a9afebf31780366c083978c4dda",
+  "program_sha256": {
+    "verify.py": "314930f3c9b9becfc8cf066fdfef17478b54cacc5e73fa59958c83a596557a49"
+  },
+  "program_hashes": {
+    "verify.py": "314930f3c9b9becfc8cf066fdfef17478b54cacc5e73fa59958c83a596557a49"
+  },
+  "checked_files": {
+    "official_prompt.txt": "b5e45777c3bddd673a9ad20a918d4aac82859439a5dc283cdf89e66a718786c4",
+    "official_prompt_api.json": "fbc48660f9bfe0513c8cf5511cff29ed0fbdd37b92d5d46e145eb2393003a1cd",
+    "official_metadata.json": "c4d82f72a61efdc7ad238afbc4b0e1d534295a7fabf735544397d0ab10d6ee14",
+    "official_metadata_api.json": "9105faa2611b07ce5ef5f87a992c84bbeb224a11b5247fb1296e5af365f1434a",
+    "source_notes.md": "67d8b190431be83391d8faa9e99bbdf4ddbd41ab538f578571ec8329ba3f15a5",
+    "contribution.json": "1db26658feb6f13f1710457999b32eb5de8f991b20976f352d4fa977ec63ad74",
+    "author_record.json": "ebcda4f807fea488982172311774bdef518ad028147f8a3a779d6e759f69e61f"
+  },
+  "prior_attempts": [
+    {
+      "path": "prior_attempts/TOP-30006762-A1.tex",
+      "sha256": "9ba1a99ebf6cd89f0b45573d0a02ccfc9f3e82d8bb72e0e5966ae9dc7da09f54",
+      "read_in_full": true
+    }
+  ],
+  "checks": [
+    "Checked carry-free beta>n^3 extraction at exponent3U and exact correction C−3R+2z; repeated patterns and the all-equal zero intersection have the stated multiplicities.",
+    "Packed bit length O((U+1)log(n+2)), sorting/merging and n≤2U+1 give the announced conservative bit bound. Dense U=n^3 is explicitly outside the subquadratic conclusion.",
+    "Read retained A1 in full: its unproved StreamConv prefix reporter is not assumed or implemented by this coefficient algorithm.",
+    "Freshly checked Harvey–van der Hoeven publisher abstract: binary multitape O(KlogK) multiplication; this deep theorem is credited, not reproved.",
+    "Official literal prompt/API bytes, Git blob SHA, decoded canonical metadata/selection/author and current author report/program hashes agree."
+  ],
+  "primary_sources_independently_checked": [
+    "https://annals.math.princeton.edu/2021/193-2/p04"
+  ],
+  "runs": [
+    {
+      "evidence": "independent_execution_graphs.json",
+      "sha256": "4c9f57cfb60c2b61261df124d6552028ca16ce4cc45caddaccca964868936350",
+      "normal_result": {
+        "status": "PASS",
+        "all_subsets_checked": 2048,
+        "independent_oracle": "enumeration of unordered 3-element subsets",
+        "large_gap_case": true
+      },
+      "optimized_refused": true
+    }
+  ],
+  "limitations": "Independent LLM mathematical review, not formal proof or human review. Finite diagnostics verify only their enumerated ranges, not asymptotic claims. Deep source theorems were checked at listed statements/proof portions, not fully reproved or mechanically certified."
+}

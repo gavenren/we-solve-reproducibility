@@ -1,0 +1,57 @@
+{
+  "handle": "TOP-30006848",
+  "reviewer": "/root/hundred_graphs",
+  "author_agent": "/root/hundred_algorithms",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T18:29:28.686839+00:00",
+  "checked_report_sha256": "c85ac51955885571b1fce91d74246060f4baaa91675b6294d5af7129dbd9c781",
+  "program_sha256": {
+    "verify.py": "443dbb1480fc044fa537ef883444e08e125a94976c5ce5952d2f52e5e61c2c20"
+  },
+  "program_hashes": {
+    "verify.py": "443dbb1480fc044fa537ef883444e08e125a94976c5ce5952d2f52e5e61c2c20"
+  },
+  "checked_files": {
+    "official_prompt.txt": "44822e696cbfbd76c9711295524728ee6c9ed8955e9dc7f672aac4726f93edee",
+    "official_prompt_api.json": "1bc04f919e3a14352b5fdae89a5fabe67f06139298a567fa8f5db3309096932e",
+    "official_metadata.json": "c97ecd925a7499772422a8d5fd98fd5148d6e94ba7e8a81aeac68e01c6d17f7d",
+    "official_metadata_api.json": "399cbcf754267c3aedfd62f818472aa211b35894d6708ac7d87bde1121d2a0eb",
+    "source_notes.md": "453f073864464f3d44522ea0a7652490b67969e112f7e006eb1fc3ad3b65c3bf",
+    "contribution.json": "ac62be0e4168e892069f350cd582aee0d99e1d7ff81ac235ccb341be22a131c2",
+    "author_record.json": "2f3d7ff8f5d5b4c52fdd444c17dcce0672af73b76ad953275c356cfd743ad092"
+  },
+  "prior_attempts": [
+    {
+      "path": "prior_attempts/TOP-30006848-A1.tex",
+      "sha256": "3613b8a6395775f95a1d6596ba160326b4c62cdc0bfbd7e555be680a81c01958",
+      "read_in_full": true
+    }
+  ],
+  "checks": [
+    "Checked all three fixed-weight splay steps and unit charge; reciprocal-square recency weights remain fixed during each splay.",
+    "After splaying, only root weight increases, every proper subtree excludes it, and total weight is invariant; recency reassignment cannot increase potential.",
+    "Checked W<2, accessed weight1/t^2, constants6log2(t)+5 and initial allowance n+2log2(n!)≤n+2nlog2n, including n=1 and empty sequences.",
+    "Read retained A1 in full: it explicitly leaves moving weights uncharged; this credited theorem addresses that gap. Pointer costs and dynamic-optimality limitations are explicit.",
+    "Freshly read Sleator–Tarjan author-hosted original PDF Section2/Lemma1 and Theorem4/proof, pages6–8: matching reciprocal-square reassignment and nonincreasing potential.",
+    "Official literal prompt/API bytes, Git blob SHA, decoded canonical metadata/selection/author and current author report/program hashes agree."
+  ],
+  "primary_sources_independently_checked": [
+    "https://www.cs.cmu.edu/~sleator/papers/self-adjusting.pdf"
+  ],
+  "runs": [
+    {
+      "evidence": "independent_execution_graphs.json",
+      "sha256": "ca9e91110754debe059d3a665bff8735a1ceff0c9783afa07b18b104084cbc8a",
+      "normal_result": {
+        "status": "PASS",
+        "all_BST_shapes_through_n": 4,
+        "sequence_lengths_through": 4,
+        "sequences": 5446,
+        "accesses_checked": 19864,
+        "arithmetic": "exact Fraction; no floating logs"
+      },
+      "optimized_refused": true
+    }
+  ],
+  "limitations": "Independent LLM mathematical review, not formal proof or human review. Finite diagnostics verify only their enumerated ranges, not asymptotic claims. Deep source theorems were checked at listed statements/proof portions, not fully reproved or mechanically certified."
+}

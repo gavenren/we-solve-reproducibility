@@ -1,0 +1,29 @@
+{
+  "handle": "TOP-2535",
+  "reviewer": "/root/hundred_numbers",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "6fb23c77085110aeb2d6df2d4654b4e325f65f2d988dbed16ab44efd011661f7",
+  "program_sha256": {},
+  "source_only": true,
+  "actual_runs": [],
+  "checked_file_sha256": {
+    "report.md": "6fb23c77085110aeb2d6df2d4654b4e325f65f2d988dbed16ab44efd011661f7",
+    "source_notes.md": "46ffa206f7b0c4b4d84abae6cca5cd574b796599b4787c0276fd051fcbab948c",
+    "contribution.json": "384aa7d141171c8cd8d6104228ae88e04aa09109fcf863b3ebeaea0f1f337443",
+    "author_record.json": "8497d87697f7b8b2cb4949dba2cdf7e46e87f4273c180499f104513d66aaf5e9",
+    "official_prompt.txt": "17a2d5a2611a6084f77c816bdf986f5dd85efc243280c322a8b0b1c946bbd0c1",
+    "official_metadata.json": "98a6f4644eacf3bb2826051c413314d4982d015d3f278c1fdd590fc5d6279cc6",
+    "official_prompt_api.json": "b0330331ac86b96ef1bcf4ff22b3a080f3f73af9604895ec16740366ce889652",
+    "official_metadata_api.json": "734df379c34212c3d15acc3808821aa5b69b574c57f0fc7dd86c1ef4e27c7997"
+  },
+  "actual_checks": [
+    "Read full prompt, report, notes, contribution and author record; no earlier contributions listed.",
+    "Checked coprimality makes each A_p unique normal Sylow, with singleton intersection family.",
+    "Re-derived arbitrary prechosen Sylow expression P^b, b in A; projection proves P intersect P^a=1, and a,b commute to give one witness for all prime families.",
+    "Checked both quaternion matrices over F5 square to -I, anticommute, generate eight distinct elements, and fix no nonzero vector; diagonal copies preserve this for every r>=1.",
+    "Independently read Notebookv49 Problem21.26 printed182, with inclusion-minimal and single-conjugator quantifiers. Claimed scope remains the coprime abelian fixed-point-free class."
+  ],
+  "limitations": "Independent LLM mathematical/source review, not formal proof or editorial acceptance. No program exists for these reports and no execution is claimed. Source retrieval limitations are explicitly recorded.",
+  "review_date": "2026-10-21"
+}

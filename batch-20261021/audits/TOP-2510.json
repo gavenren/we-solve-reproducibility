@@ -1,0 +1,29 @@
+{
+  "handle": "TOP-2510",
+  "reviewer": "/root/hundred_numbers",
+  "author_agent": "/root/hundred_algebra",
+  "verdict": "PASS",
+  "checked_report_sha256": "81add4f395a069f435a7a236345a5ac61240136c846228d8f81ef1b6d2ae0ff5",
+  "program_sha256": {},
+  "source_only": true,
+  "actual_runs": [],
+  "checked_file_sha256": {
+    "report.md": "81add4f395a069f435a7a236345a5ac61240136c846228d8f81ef1b6d2ae0ff5",
+    "source_notes.md": "6bb5069c93ab92f51532fb839f71ba38d3a867ba6c89f7def6048ad82fd9ccfb",
+    "contribution.json": "d33b1b440b7d9532baea2f3afa3b6cdbbcfe85dc162c474ee08e2e45afe7b19e",
+    "author_record.json": "f60646f7d1f6c23c9740f4e36d95e672109a2be698af209d29f4edbff7c19475",
+    "official_prompt.txt": "1f34f2385b21b6a3a06f68435f7955d913e05b1c3adf4b0a25a8fcb37da9c4c7",
+    "official_metadata.json": "490d3c41b3acadfcc0361c5e5504cf1481759b2c9f5df3c7ac0ec2aa1d569303",
+    "official_prompt_api.json": "3802e4fb8757df651b8353358583ab0e0a70922390426943b35de404ccab8453",
+    "official_metadata_api.json": "5e2712d2b9b65554415c83d1f24d81ac32db0146978303c79f10313992134812"
+  },
+  "actual_checks": [
+    "Read full prompt, report, notes, contribution and author record; metadata and prompt list no earlier contributions.",
+    "Re-derived all four-translate identities with t,gt,ht,ght in I, including reversed factors yielding gh=hg; checked strict >3/4 and proper-kernel index bound.",
+    "Checked all six square-one D8 elements and the cyclic group of order2^(v2(n)+1) witness for every n, including1.",
+    "Independently opened Bors arXiv1606.00635v1 Proposition2.1 and complete proof; arbitrary-automorphism threshold matches the credited classical input.",
+    "Independently read Notebook arXiv1401.0300, header v49,20October2026, printed178 Problem21.1. October-update3 URL and pinnedv47 access failed; no claim to read those exact PDF bytes."
+  ],
+  "limitations": "Independent LLM mathematical/source review, not formal proof or editorial acceptance. No program exists for these reports and no execution is claimed. Source retrieval limitations are explicitly recorded.",
+  "review_date": "2026-10-21"
+}

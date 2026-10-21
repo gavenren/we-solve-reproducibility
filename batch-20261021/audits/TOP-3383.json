@@ -1,0 +1,33 @@
+{
+  "handle": "TOP-3383",
+  "reviewer": "/root/hundred_algebra",
+  "author_agent": "/root/hundred_numbers",
+  "verdict": "PASS",
+  "checked_report_sha256": "c84d7d44236734c103da1fee76894d9978b28abf31e58bd40f6b96241c11e416",
+  "program_sha256": {},
+  "source_only": true,
+  "actual_runs": [],
+  "checked_file_sha256": {
+    "report.md": "c84d7d44236734c103da1fee76894d9978b28abf31e58bd40f6b96241c11e416",
+    "source_notes.md": "553615c49f67685cafe56b6eea1a7e1fcc0cce5b6d176cba086d9bfc1bd62e37",
+    "contribution.json": "49efb3110c2a78b3a805a6ee0627a1e76f7e553a97ccf67c0d1e72e5ac91ba40",
+    "author_record.json": "4b8b38a51b25996b76e8ef65b7e4068b76be32086a44c56c4f6984e0c5efb612",
+    "official_prompt.txt": "7eb23bdebb0c20508d9a4c998bedc567eaf435dac39119cdaf7cbf86a4e11a9a",
+    "official_metadata.json": "1210cd5958857b34d03ca722ab3f9b9dbef7ce8819bcb1810c804c13305d8ac2",
+    "official_prompt_api.json": "fbf6d343f46f95cd1771e0eaa46c68e6817386b47f16571c048c7786b3c73789",
+    "official_metadata_api.json": "ceb8ef8adfa03d010bf16955c5acad7ba190271e1e23feed497d9c98d2a474d5"
+  },
+  "actual_checks": [
+    "Read literal105/1155 prompt, full report/notes/metadata/author record; no earlier attempt listed.",
+    "Re-derived floor-difference valuation identity, both implications of digit bound, exact count with leading zeros, formal infinite product coefficient finiteness, and O(X^(log2/log3)) sparsity. Checked zero-density does not imply finiteness.",
+    "Independently opened original1975 institute-hosted Erd\u0151s/Graham/Ruzsa/Straus scan Section2 printed84: digit restriction and two-prime consequence; confirmed odd-prime correction against explicit evenness for2. Did not rely on ambiguous OCR general auxiliary formula.",
+    "Independently opened arXiv2201.11274v2 HTML and current PDF, Theorem1: r>=1,0<epsilon<1/(20r^2), distinct p_i>=c0(r,epsilon), infinitely many n and exact low-valuation bound. Checked fixedsmallprime and valuationzero gaps; no inference by intersecting infinite sets.",
+    "Verified current author report hash, canonical metadata identity, exact retained API prompt bytes and decoded metadata; no program attached or executed."
+  ],
+  "checked_primary_sources": [
+    "https://static.renyi.hu/~p_erdos/1975-27.pdf",
+    "https://arxiv.org/html/2201.11274v2"
+  ],
+  "limitations": "Independent LLM mathematical and source review, not formal verification or editorial acceptance. Deep credited theorems checked at exact stated hypotheses, not reproved. No program exists or execution is claimed. Actual runtime settings/version/time unknown.",
+  "review_date": "2026-10-21"
+}

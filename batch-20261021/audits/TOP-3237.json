@@ -1,0 +1,36 @@
+{
+  "verdict": "PASS",
+  "reviewer": "/root/hundred_algorithms",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3237",
+  "checked_report_sha256": "d071e44067cd48d15cb0d6efc88795bd58505855a2171d832369dac52583ba22",
+  "programhashes": {},
+  "checked_files_sha256": {
+    "report.md": "d071e44067cd48d15cb0d6efc88795bd58505855a2171d832369dac52583ba22",
+    "source_notes.md": "6e4bb5e349fe462044c6d1f553ea81210d80ee8fb9aedda600cec060e96bb284",
+    "contribution.json": "1d68ae80daee278a0d95958c289ef4c6de43ebc25618b3613781422e085cffa2",
+    "official_prompt.txt": "9b91be7107ac1b61f185d2385ffb292a87bd0f2fbd978716f35cce25a1e7f6d7",
+    "official_metadata.json": "bb479fceb8230f1245304adef5d755a084b23534e532bcccf73a41f7db3718c4",
+    "official_prompt_api.json": "a59972cd7c6c6b0389dc1318de47b56361e31e1c2e70dded59bdc41e3c05415e",
+    "official_metadata_api.json": "6107ee27784c2ee615d4d7b3839e539850455a295c0025c0aac2b585eec51d80"
+  },
+  "checked_prior_files_sha256": {
+    "prior_attempts/attempt-1.txt": "654d9f4eccb21175470721595b9a8912255e94b671649a406ee16efc100d1cc6",
+    "prior_attempts/attempt-1_api.json": "5d159e491fa7062250ec35873f795721b94f8199d08eb1b5bd8ed63ecbeca852",
+    "prior_attempts/attempt-2.txt": "efa3124e3f066ecf86ff86e93051f7ce699137b249d0e6f5e02017e01a72e977",
+    "prior_attempts/attempt-2_api.json": "e20ae5408c56cd3b550606e754bb85e08188aba45a289dd557a0286af0a5bb42"
+  },
+  "checked_references": [
+    "https://arxiv.org/pdf/1812.01534v2"
+  ],
+  "actualchecks": [
+    "Read literal ceiling-version statement, full report, metadata and source notes, and both complete retained earlier mathematical attempts. The proposed local list/DP scope is absent from their finite critical-graph/Mycielski and claim-summary scopes.",
+    "Independently opened Davies\u2013de Joannis de Verclos\u2013Kang\u2013Pirot arXiv1812.01534v2 (16 April 2020), exact Theorems1 and8 and cover definitions. The degree floor is (192 log Delta)^(2/epsilon), and the maximum of the two local budgets is retained.",
+    "Checked the minimum-degree corollary using monotonicity of d/log d for d>e and the source floor; no evaluation at degrees zero or one is needed.",
+    "Checked the core-peeling deduction: the surviving core has maximum degree tending to infinity if nonempty, its local floor is no larger than the original floor, and its source budgets fit q=ceil((1+epsilon)Delta/log Delta).",
+    "Restoring peeled vertices is valid for DP coloring because a colored neighbor forbids at most one list element. The argument claims only a sufficiently-large threshold and preserves the literal ceiling target."
+  ],
+  "execution_evidence": null,
+  "limitations": "Independent LLM mathematical/source/code review, not human, editorial or formal proof certification. Source-only reports had no execution; the finite checker does not prove an unbounded theorem.",
+  "reviewed_at_utc": "2026-10-21T18:30:48.476600+00:00"
+}

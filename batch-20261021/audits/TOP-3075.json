@@ -1,0 +1,37 @@
+{
+  "handle": "TOP-3075",
+  "reviewer": "/root/hundred_topology",
+  "author": "/root/hundred_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T18:52:31.145174+00:00",
+  "checked_report_sha256": "f486cf9131980b89e4b80fa89716210146e97e8c587a0d02d520e42754394d1c",
+  "checked_source_notes_sha256": "5f9bc48a013935f88b0b897578717dbe762c78638dec68cfdfad87e9396ccbfd",
+  "checked_contribution_sha256": "4a84987fc5bd687c95084fbcd03ea8683e31ff278da16b6aa715088f8dd6db7a",
+  "programhashes": {},
+  "program_hashes": {},
+  "actualchecks": [
+    "Read the complete literal prompt, full current report, source notes, metadata and retained complete prior-attempt manuscript.",
+    "Fresh primary0710.0328v1 \u00a74.1/Proposition7: checked unique d+2 arrangement combinatorics, two simplices and other simplex products. Checked \u00a74.2 Proposition8's specified cyclic arrangement and cubical count, not an assertion about all arrangements.",
+    "Independently checked graph-product distance additivity, d=1 boundary, bounded-cell denominator, binomial-ratio product and product(1\u2212a)>=1\u2212sum(a) with n>=2d. Checked explicit epsilon threshold and existence-versus-universal-upper-bound direction.",
+    "Prior attempt only supplies planar incidence accounting; the all-dimensional classification and quantitative cyclic bound add different scope.",
+    "Confirmed exact prompt bytes and decoded metadata content against retained fresh API wrappers and current author-record hashes; source-only, zero program executions."
+  ],
+  "primary_sources_actually_read": [
+    "https://arxiv.org/pdf/0710.0328 \u2014 v1, \u00a74.1 Proposition7 and \u00a74.2 Proposition8, fresh21October2026"
+  ],
+  "checked_files_sha256": {
+    "official_metadata_api.json": "5115be35c36f8985e0c7fc1b308f99647286bbacd0ad65cb726c52b1ffb9d072",
+    "official_metadata.json": "7bdce76817fd9e2bfccff905e9d5edcaa1c96333f644125fed7464aa36073115",
+    "report.md": "f486cf9131980b89e4b80fa89716210146e97e8c587a0d02d520e42754394d1c",
+    "prior_attempt_1.html": "5cf78a44ecd547f87e2939a9d22dc05eb4b39b68631eb20dbb13fbed016f5dac",
+    "source_notes.md": "5f9bc48a013935f88b0b897578717dbe762c78638dec68cfdfad87e9396ccbfd",
+    "author_record.json": "c4215bf42b3b3777471ba58f022f61b4f5ec4c3891375acacba364b33eb6fdd7",
+    "prior_attempt_1.txt": "334a0a2011dff9f0519f1520a98b5250c12a83c4ea85efef74f72c19f873f8f3",
+    "official_prompt_api.json": "7d917f4ab819eeaa237112f6c25fb5d81fd15654c6bc5b0feae230e1b0530e4b",
+    "contribution.json": "4a84987fc5bd687c95084fbcd03ea8683e31ff278da16b6aa715088f8dd6db7a",
+    "official_prompt.txt": "85550462eb86351a1346f37cbe1b8d990e528a59557245d12613934432aa09a7",
+    "prior_attempt_1_api.json": "404d7e68cb605986d52d3c6d1ac8bdcb736d4b246d74f8b2f61d5e3348f194ff"
+  },
+  "limitations": "Independent LLM review of prose, proof and inspected primary-source passages; not formal verification or human/editorial acceptance. No program exists or was executed. PASS is for the claimed benchmarks and deductions; the imported arrangement classification is not independently formally proved."
+}

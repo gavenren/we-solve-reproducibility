@@ -1,0 +1,36 @@
+{
+  "verdict": "PASS",
+  "reviewer": "/root/hundred_algorithms",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3273",
+  "checked_report_sha256": "f55eebd2d1a328388aac15ce54d7d526a2cd6046cf2b95b10482549c2446d0a6",
+  "programhashes": {
+    "verify.py": "3ed24b0d3ba0eb3532d8e3e1fd70253f496ec516432353b7ceeb5293706af56a"
+  },
+  "checked_files_sha256": {
+    "report.md": "f55eebd2d1a328388aac15ce54d7d526a2cd6046cf2b95b10482549c2446d0a6",
+    "source_notes.md": "460d3ba025aec1f0e6592af0847659c87712782741a41d64e4858f2c9dd732e3",
+    "contribution.json": "cade817470e415cf98fd806a29fe9f848b56744f569fa172458acd2bbec84706",
+    "official_prompt.txt": "8fc1926500e5f35bf74969ae23df10c4d437e5c425a19bc1743e069a542a69b9",
+    "official_metadata.json": "e2cd8ebe07fa042a76607fa8d558b692a411c5425c0b4598fb143d6eacd6800a",
+    "official_prompt_api.json": "5c697dce52263d78394142aa3df3e64d9a19c0ab613acec15d2989ae371528d5",
+    "official_metadata_api.json": "b8a3d7b3e833200d4e9c6913295d49e5e63d5020b15bbf9fe1d33fc5cdb7bc6d"
+  },
+  "checked_prior_files_sha256": {
+    "prior_attempts/attempt-1.txt": "42def73e40a2dcd724ab9281de40245f2e130eb7b99e372c4c45dca5d9c724a4",
+    "prior_attempts/attempt-1_api.json": "3cfe3dec8bed65f379f2797dffbb9140ab8c36af8a738c0f183cb62f8d1718a7"
+  },
+  "checked_references": [
+    "https://arxiv.org/pdf/1504.06726v2"
+  ],
+  "actualchecks": [
+    "Read exact planar-oriented-graph prompt, all report/source/metadata files, and the complete mathematical text of the earlier seven-vertex and disconnected4/7 contribution. The new scope retains strong connectivity and gives an arbitrary-size ratio tending to1/2.",
+    "Independently opened Knauer\u2013Valicov\u2013Wenger arXiv1504.06726v2, Theorem1 and construction; the report gives proper established-result credit.",
+    "Checked all five arcs per added layer, absence of opposite arcs, the triangular-face supergraph embedding, and the strong-connectivity induction.",
+    "Checked feedback lower bound: every zero layer has a distinct predecessor of weight two, except zero layer0 which charges z; this gives a0<=a2+c and deletion size>=f. Deleting all x_i leaves precisely a directed path.",
+    "Inspected the entire original verify.py, including independent all-subset DAG/source recurrence, triangle-hitting search, face-insertion certificate, reachability, witness checks and -O guard. Independently ran it normally and with -O; normal PASS for f=1..8 and174760 subsets, optimized execution refused."
+  ],
+  "execution_evidence": "independent_verification_algorithms.json",
+  "limitations": "Independent LLM mathematical/source/code review, not human, editorial or formal proof certification. Source-only reports had no execution; the finite checker does not prove an unbounded theorem.",
+  "reviewed_at_utc": "2026-10-21T18:30:48.479435+00:00"
+}

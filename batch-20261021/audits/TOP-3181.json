@@ -1,0 +1,36 @@
+{
+  "verdict": "PASS",
+  "reviewer": "/root/hundred_algorithms",
+  "author_agent": "/root/hundred_graphs",
+  "handle": "TOP-3181",
+  "checked_report_sha256": "b1296884ec900e8503cc47a357a5dc23223f6313756b004a94c5d004a6bf5407",
+  "programhashes": {},
+  "checked_files_sha256": {
+    "report.md": "b1296884ec900e8503cc47a357a5dc23223f6313756b004a94c5d004a6bf5407",
+    "source_notes.md": "758a9254065d8d9ce9c0aebc566f172b103016ac499171cdc5bd1fa13a3d2ccc",
+    "contribution.json": "507277fdb89b2efa6fe130a04326ab74dcf670230f37a0ff935a76969d2e97c6",
+    "official_prompt.txt": "d919b26fa52fbe62ab90cb9bfab27ae5d171406e95099b86a8b5677ab6814aff",
+    "official_metadata.json": "58f9ff41cb762d48b94a74c27b80bead9300934635398ed70a6db1f4d17e23bf",
+    "official_prompt_api.json": "b38c58664360bc7509256a37d7f9e6f3b52f899ea7a26f404260f92527f4e6ec",
+    "official_metadata_api.json": "c6fc26f9720834b57654c787bd686e799884d7efb90350bda60d436e1b059e55"
+  },
+  "checked_prior_files_sha256": {
+    "prior_attempts/attempt-1.txt": "9e9132f04ea514775c3c0ae2f41bf0e8c5e439435ac27f96e2aee7e5c3273847",
+    "prior_attempts/attempt-1_api.json": "164e9bbd0e83f0f4fa4ffd5e007c18f56f10f7454384b786e4804ccc38b109ac"
+  },
+  "checked_references": [
+    "https://kam.mff.cuni.cz/~fink/publications/kreweras1.pdf",
+    "https://kam.mff.cuni.cz/~fink/publications/kreweras2.pdf",
+    "https://arxiv.org/html/2401.01769v2"
+  ],
+  "actualchecks": [
+    "Read literal arbitrary-cube-matching question, complete report, metadata/source notes and the full retained earlier attempt. The prior coordinate-direction construction and small examples do not contain this complete-host induction or linear-forest conclusion.",
+    "Independently opened Fink original primary PDFs kreweras1.pdf and kreweras2.pdf; checked the complete-host perfect-matching theorem, nonperfect matching linear-forest lemma, and recursive gluing.",
+    "Independently opened arXiv2401.01769v2 (16 April 2025), exact Theorems5\u20137, to check that cycle versus Hamilton-cycle and complete-host versus cube-host distinctions are maintained.",
+    "Checked the induction parity: crossing endpoints are even and nonempty after selecting a crossing coordinate; the artificial matchings are on complete half-cube hosts. Deleting the artificial edges gives endpoint-paired paths, and replacement through crossing matching yields one spanning cycle.",
+    "Checked that the added complement is a perfect cube matching; for a nonperfect prescribed matching, acyclicity and degree at most two give exactly2^(d-1)-m path components. No assumption that every matching extends to a perfect cube matching is used."
+  ],
+  "execution_evidence": null,
+  "limitations": "Independent LLM mathematical/source/code review, not human, editorial or formal proof certification. Source-only reports had no execution; the finite checker does not prove an unbounded theorem.",
+  "reviewed_at_utc": "2026-10-21T18:30:48.481957+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "handle": "TOP-3092",
+  "reviewer": "/root/hundred_topology",
+  "author": "/root/hundred_geometry",
+  "author_agent": "/root/hundred_geometry",
+  "verdict": "PASS",
+  "reviewed_at_utc": "2026-10-21T18:52:31.152526+00:00",
+  "checked_report_sha256": "94980cfa761c956a04bd78fc955506fe1bea8f96457358f9d7cbf762e2d79944",
+  "checked_source_notes_sha256": "67aa99d53fc8e15d3f9a1e81aff2b81781bde29ed5408c0f211df08bb1c9c5f7",
+  "checked_contribution_sha256": "7a670e3184311b8dff67ad51c065770a209f3991d5de73f60582926aff74c0a2",
+  "programhashes": {},
+  "program_hashes": {},
+  "actualchecks": [
+    "Read literal flip-graph definition and unboundedness question, complete prior manuscript, full corrected current report, corrected source notes and contribution metadata.",
+    "Fresh primary1811.08972v2: inspected five-coordinate definitions, Propositions2/4/5/6/7, case exhaustion and final proof. Identified that c(T) is defined modulo3ceil(log_alpha n), while final display uses ceil(3log_alpha n).",
+    "Requested and reread author correction: final report now uses safe321\u00b7[3ceil(log_alpha n)]\u00b72\u00b72\u00b7chi(A_(2alpha\u22121)), hence11556ceil(log_3 n), and explicitly records source-internal ceiling discrepancy. No PASS assigned to superseded smaller-bound bytes.",
+    "Checked alpha3 gives A5=C5 and multiplier321\u00b73\u00b72\u00b72\u00b73=11556. Checked necessary hypothetical-q bound n>=3^(q/11556\u22121). Checked upper bound does not imply unbounded chromatic number and polygon size differs from dimension.",
+    "Prior manuscript cites big-O abstract but does not give the precise proof dependencies or corrected palette constant.",
+    "Confirmed exact prompt bytes and decoded metadata content against retained fresh API wrappers and current author-record hashes; source-only, zero program executions."
+  ],
+  "primary_sources_actually_read": [
+    "https://arxiv.org/pdf/1811.08972 \u2014 v2,20February2025, printedp4 modulus before Proposition4, Propositions2/4/5/6/7 and equation3/p11 proof, fresh21October2026"
+  ],
+  "checked_files_sha256": {
+    "official_metadata_api.json": "5b7f3f566a186fda1af77c6a241aa933a05691047e1aadc23c298ea5dc622424",
+    "official_metadata.json": "49049607c314d640a5bb60a3087f8a1cdc583676bc7ca59d112589bbea8b4ea5",
+    "report.md": "94980cfa761c956a04bd78fc955506fe1bea8f96457358f9d7cbf762e2d79944",
+    "prior_attempt_1.html": "d57f6f89d68551472a1f82fa5d311b6134de70c93638a6e81a9d1f1df737452e",
+    "source_notes.md": "67aa99d53fc8e15d3f9a1e81aff2b81781bde29ed5408c0f211df08bb1c9c5f7",
+    "author_record.json": "829d0eeecadac983b77fc9330a664db8949ef6aefad3f5c4a7280c8d2f606539",
+    "prior_attempt_1.txt": "461c80c0f1a65c8255cc960d2f77358539fd9962f52f9b979bea2e463974b458",
+    "official_prompt_api.json": "316dbdd466128f8b0d4f651b29d367ce7d1d9f35bea7831b25eb158acb405f60",
+    "contribution.json": "7a670e3184311b8dff67ad51c065770a209f3991d5de73f60582926aff74c0a2",
+    "official_prompt.txt": "8cbdca875f48e98124b50d04ee67f40204e03f8da4b5c4218fe91eb1a45898bb",
+    "prior_attempt_1_api.json": "cc5ed3b2665b150d373bb6552d427aff60585bf2608352c0722d08a98dec6cbe"
+  },
+  "limitations": "Independent LLM review of prose, proof and inspected primary-source passages; not formal verification or human/editorial acceptance. No program exists or was executed. PASS is bound only to corrected94980cfa\u2026 report, with the safe palette ceiling; no formal proof verification or new lower bound is claimed."
+}
