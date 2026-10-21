@@ -1,0 +1,97 @@
+{
+  "batch": "300additional-contributions-requested2026-10-21",
+  "status": "first4reviewed reproduction programs only; research batch remains in progress",
+  "program_count": 4,
+  "license": "Apache-2.0",
+  "model_attribution": "GPT-6.1 Sol / Ultra, explicitly user-specified; exact runtime configuration unknown",
+  "entries": [
+    {
+      "handle": "TOP-30006762",
+      "path": "batch-20261021/TOP-30006762/verify.py",
+      "sha256": "314930f3c9b9becfc8cf066fdfef17478b54cacc5e73fa59958c83a596557a49",
+      "author": "/root/hundred_algorithms",
+      "independent_reviewer": "/root/hundred_graphs",
+      "report_sha256": "b7c6742633fdf6d45d441445ae9430e94d517a9afebf31780366c083978c4dda",
+      "scope": "For distinct integers S⊆[−U,U], exact 3SUM decision and the number of unordered distinct zero-sum triples are computable deterministically in O((n+U+1) log²(n+U+2)) bit time using fast integer multiplication. This is subquadratic for U=O(n^(2−ε)), for fixed ε>0; it does not handle the prompt’s U=n³ worst case.",
+      "verification_summary": "Actual Python3 checker PASS; exact independent finite oracle and -O refusal recorded in verification.json. Carry-freeness and all repeated-element inclusion–exclusion cases proved.",
+      "root_run": {
+        "reviewer": "/root",
+        "program": "verify.py",
+        "program_sha256": "314930f3c9b9becfc8cf066fdfef17478b54cacc5e73fa59958c83a596557a49",
+        "report_sha256": "b7c6742633fdf6d45d441445ae9430e94d517a9afebf31780366c083978c4dda",
+        "exit_code": 0,
+        "stdout_log": "root_verification.log",
+        "log_sha256": "a30c3fa8f16dea92e88dc55aae1644dde912a78c81c13912432f68a59d7d17cb",
+        "elapsed_seconds": 0.06083920899982331,
+        "python_optimization_disabled": true,
+        "verification": "actual independent root execution of original program"
+      }
+    },
+    {
+      "handle": "TOP-30006848",
+      "path": "batch-20261021/TOP-30006848/verify.py",
+      "sha256": "443dbb1480fc044fa537ef883444e08e125a94976c5ce5952d2f52e5e61c2c20",
+      "author": "/root/hundred_algorithms",
+      "independent_reviewer": "/root/hundred_graphs",
+      "report_sha256": "c85ac51955885571b1fce91d74246060f4baaa91675b6294d5af7129dbd9c781",
+      "scope": "For n≥1 fixed keys and m accesses, let tᵢ be the accessed key’s move-to-front recency rank before access i, starting from any fixed ordering. In the one-plus-rotations convention, total splay cost≤Σᵢ(6log₂tᵢ+5)+2nlog₂n+n. This credited classical temporal-locality theorem has explicit initialization and is not dynamic optimality.",
+      "verification_summary": "Actual Python3 checker PASS; exact independent finite oracle and -O refusal recorded in verification.json. Complete proof and boundary/pointer accounting supplied.",
+      "root_run": {
+        "reviewer": "/root",
+        "program": "verify.py",
+        "program_sha256": "443dbb1480fc044fa537ef883444e08e125a94976c5ce5952d2f52e5e61c2c20",
+        "report_sha256": "c85ac51955885571b1fce91d74246060f4baaa91675b6294d5af7129dbd9c781",
+        "exit_code": 0,
+        "stdout_log": "root_verification.log",
+        "log_sha256": "2847c26f76233a24f07611d32fbd5825db340a79e014e5e5e053598d6eb03395",
+        "elapsed_seconds": 1.0565082089997304,
+        "python_optimization_disabled": true,
+        "verification": "actual independent root execution of original program"
+      }
+    },
+    {
+      "handle": "TOP-30006960",
+      "path": "batch-20261021/TOP-30006960/verify.py",
+      "sha256": "8da7563b57be46c0402df8c8a4a60c121b44a8b9e6224d1ba766ff87ce17bfd9",
+      "author": "/root/hundred_algorithms",
+      "independent_reviewer": "/root/hundred_graphs",
+      "report_sha256": "a37f70fbd7ebe6f82cd18cc5297e6a6f86caf263fec99b209aae556912d775d6",
+      "scope": "For Boolean n×n matrices and a given common row order for B, let κ be the total number of maximal one-runs in its columns. Full Boolean multiplication is deterministic in O(n²+nκ) logarithmic-word operations and O((n²+nκ)log(n+2)) bit time. In particular at most n^o(1) runs per column gives near-quadratic time on this subclass.",
+      "verification_summary": "Actual Python3 checker PASS; exact independent finite oracle and -O refusal recorded in verification.json. Complete correctness, word/bit/space proof and separating family supplied.",
+      "root_run": {
+        "reviewer": "/root",
+        "program": "verify.py",
+        "program_sha256": "8da7563b57be46c0402df8c8a4a60c121b44a8b9e6224d1ba766ff87ce17bfd9",
+        "report_sha256": "a37f70fbd7ebe6f82cd18cc5297e6a6f86caf263fec99b209aae556912d775d6",
+        "exit_code": 0,
+        "stdout_log": "root_verification.log",
+        "log_sha256": "afb6b9abd553c3a4dbfe88f3b55b38f9656d04e36d4eb33d1e4dbc7ceae742b5",
+        "elapsed_seconds": 2.6408618339992245,
+        "python_optimization_disabled": true,
+        "verification": "actual independent root execution of original program"
+      }
+    },
+    {
+      "handle": "TOP-3273",
+      "path": "batch-20261021/TOP-3273/verify.py",
+      "sha256": "3ed24b0d3ba0eb3532d8e3e1fd70253f496ec516432353b7ceeb5293706af56a",
+      "author": "/root/hundred_graphs",
+      "independent_reviewer": "/root/hundred_algorithms",
+      "report_sha256": "f55eebd2d1a328388aac15ce54d7d526a2cd6046cf2b95b10482549c2446d0a6",
+      "scope": "For every f>=1, an explicit strongly connected planar oriented graph on2f+1 vertices has maximum induced acyclic-set size exactly f+1; the3n/5 assertion fails at every odd n>=7 and no universal fraction>1/2 is possible. Known Knauer–Valicov–Wenger construction, fully proved, with no new disproof priority.",
+      "verification_summary": "Original verify.py actually passed f=1..8, n=3..17,174760 vertex subsets; face-insertion/strong-connectivity/triangle-hitting checks; -O guard rejected. Universal f proof is symbolic; finite enumeration does not establish it.",
+      "root_run": {
+        "reviewer": "/root",
+        "program": "verify.py",
+        "program_sha256": "3ed24b0d3ba0eb3532d8e3e1fd70253f496ec516432353b7ceeb5293706af56a",
+        "report_sha256": "f55eebd2d1a328388aac15ce54d7d526a2cd6046cf2b95b10482549c2446d0a6",
+        "exit_code": 0,
+        "stdout_log": "root_verification.log",
+        "log_sha256": "e3e5a021096d8df955945ccf0f276e9a962553710287e297f23e9552c0f7ab59",
+        "elapsed_seconds": 0.22228808299769298,
+        "python_optimization_disabled": true,
+        "verification": "actual independent root execution"
+      }
+    }
+  ]
+}
