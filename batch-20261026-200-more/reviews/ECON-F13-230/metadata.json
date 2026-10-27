@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F13-230",
+  "problem_id": "prb_fdcce55f90fa4796a663184f371a2d1d",
+  "contribution_handle": "ECON-F13-230-A1",
+  "contribution_id": "con_bfe22532d45d4799a8d98f74587a4ce5",
+  "revision_id": "rev_e2a636517c1f4793a24d65c612c4ab5f",
+  "source_path": "problems/fd/prb_fdcce55f90fa4796a663184f371a2d1d/contributions/con_bfe22532d45d4799a8d98f74587a4ce5/files/F13-230.tex",
+  "source_sha256": "de04fe0eb736f3fc87e0543ed720a6ed2d0dc3388467209e1ccb80ab9ec6dda8",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/fd/prb_fdcce55f90fa4796a663184f371a2d1d/contributions/con_bfe22532d45d4799a8d98f74587a4ce5/files/F13-230.tex",
+  "title": "Sharp welfare bounds when reversal duration is known only through its mean",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite uncertain restriction duration with fixed per-period adaptation cost and no sunk costs.",
+  "significance": "Extends geometric reversal to arbitrary bounded duration and derives sharp welfare bounds at a fixed mean, with explicit extremizing duration laws.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-C78-225",
+  "title": "Exhaustive independent order-three census and an improved certified block lower bound",
+  "finding": "Reproduced",
+  "checked_scope": "All strict complete n=3 profiles modulo receiver relabeling; exact serial execution states; block lower bound for all n.",
+  "significance": "Independently enumerates 7,776 canonical profiles, certifies Nmax(3)=15 with full histogram and witness, and replaces the manuscript's two-agent block family by the optimized 2/3-block bound.",
+  "problem_id": "prb_a5e2ba456cc9417b97f7f7ee32556e75",
+  "contribution_handle": "ECON-C78-225-A1",
+  "contribution_id": "con_443e4c45f6c14be1810a781e6912a1db",
+  "revision_id": "rev_66d2cb9a882e4071b84d82ce634136d3",
+  "source_path": "problems/a5/prb_a5e2ba456cc9417b97f7f7ee32556e75/contributions/con_443e4c45f6c14be1810a781e6912a1db/files/C78-225.tex",
+  "source_sha256": "d474395b9ad7a477797879ba26ec41cef6fde09f300a433b596a8c7659576258",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/a5/prb_a5e2ba456cc9417b97f7f7ee32556e75/contributions/con_443e4c45f6c14be1810a781e6912a1db/files/C78-225.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

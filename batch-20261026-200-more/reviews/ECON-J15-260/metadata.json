@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J15-260",
+  "problem_id": "prb_aa95031fbdb247f48e2f2838d4251a0e",
+  "contribution_handle": "ECON-J15-260-A1",
+  "contribution_id": "con_0ab8869c11824e5086e3b117576749bc",
+  "revision_id": "rev_d94a736c0a7846ab82d9e5c5627fb0fd",
+  "source_path": "problems/aa/prb_aa95031fbdb247f48e2f2838d4251a0e/contributions/con_0ab8869c11824e5086e3b117576749bc/files/J15-260.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/aa/prb_aa95031fbdb247f48e2f2838d4251a0e/contributions/con_0ab8869c11824e5086e3b117576749bc/files/J15-260.tex",
+  "title": "One wealth instrument identifies the two-state transition at three horizons",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript and YAML; independent extension proved in report.",
+  "significance": "Derives exact identification from one excluded instrument and distinguishes full-state identification from wealth-only identification up to similarity.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "fcd7193d0dc988426b74d3b735b0d56ed3cf5b8ff3fcdbb8c3eb3f2eb06849d1"
+}

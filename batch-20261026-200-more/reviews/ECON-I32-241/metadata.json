@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I32-241",
+  "problem_id": "prb_25d6e4d59d5b49efb127e4b75960f4fe",
+  "contribution_handle": "ECON-I32-241-A1",
+  "contribution_id": "con_c7c3fd401873457d91b86f06f56b2bc5",
+  "revision_id": "rev_810874aff8b54c988e67407856d7fc0f",
+  "source_path": "problems/25/prb_25d6e4d59d5b49efb127e4b75960f4fe/contributions/con_c7c3fd401873457d91b86f06f56b2bc5/files/I32-241.tex",
+  "source_sha256": "8e17cbdc1bd0437bf5d948069cb0f99feecd691b44eedc1eea1d16eb3de25571",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/25/prb_25d6e4d59d5b49efb127e4b75960f4fe/contributions/con_c7c3fd401873457d91b86f06f56b2bc5/files/I32-241.tex",
+  "title": "Sharp finite-horizon robustness and the escape condition needed for mean-time stability",
+  "finding": "Supports the claim",
+  "checked_scope": "Homogeneous finite-state intervention kernel; total-variation robustness of recovery probabilities and mean hitting times.",
+  "significance": "Strengthens T\u03b7 to sharp 1\u2212(1\u2212\u03b7)^T and proves a mean-escape-time perturbation theorem under explicit uniform recovery probability.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

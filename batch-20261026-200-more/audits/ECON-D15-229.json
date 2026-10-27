@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-D15-229",
+  "checked_scope": "Full source and review, heterogeneous linear habit population-mean moment extension.",
+  "checks_performed": [
+    "Read exact full manuscript, YAML, report and provenance; canonical IDs checked.",
+    "Independently iterated heterogeneous recursion, checked cancellation with correlated initial habits and integrable expectations.",
+    "Verified gamma-weighted measure construction, Cauchy\u2013Schwarz log convexity, equality and null-set characterization.",
+    "Recomputed homogeneous/mixture moments 1, 1/4, 1/16 versus 1/8; verified all-lag binomial identities.",
+    "Verified uniqueness of finite measure from polynomial density on [0,1], and identification limited to weighted persistence law."
+  ],
+  "significance": "Supplies exact variance interpretation and higher moment restrictions detecting heterogeneous persistence missed by two probes.",
+  "contribution_handle": "ECON-D15-229-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "1ffa77b36c6c0d538fc022c3a714e4cf697600e9a73c0ce3201e0b679315cf47",
+  "source_sha256": "0dfaeed3555e591f963b8b021a64fbbfbc23c9d5e21ece0b5b3f9bd9b32e1587",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

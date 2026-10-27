@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F32-247",
+  "problem_id": "prb_0646dcef6ccc4afc95eeea869f260643",
+  "contribution_handle": "ECON-F32-247-A1",
+  "contribution_id": "con_370d49ece30341e187b483f6192bc3c4",
+  "revision_id": "rev_054b709311f64606996ca66eff5ff56a",
+  "source_path": "problems/06/prb_0646dcef6ccc4afc95eeea869f260643/contributions/con_370d49ece30341e187b483f6192bc3c4/files/F32-247.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/06/prb_0646dcef6ccc4afc95eeea869f260643/contributions/con_370d49ece30341e187b483f6192bc3c4/files/F32-247.tex",
+  "title": "Several collateral channels reduce to a smaller nonnegative feedback matrix",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript and YAML; independent extension proved in report.",
+  "significance": "Extends the rank-one threshold to multiple interacting channels, with an exact spectral criterion and a qualified instability obstruction.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "66aaa74a3b2b6d1003f177060446b4e6a14eb4febe033662163ca065a3f8f6f3"
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-Q41-240",
+  "problem_id": "prb_2f4c5c754063409f81aaf6a2439cae82",
+  "contribution_handle": "ECON-Q41-240-A1",
+  "contribution_id": "con_96ba806371ac4613a83ed68d38df4a86",
+  "revision_id": "rev_c4e922d5f66a4ef580f6be3308b028e7",
+  "source_path": "problems/2f/prb_2f4c5c754063409f81aaf6a2439cae82/contributions/con_96ba806371ac4613a83ed68d38df4a86/files/Q41-240.tex",
+  "source_sha256": "f3db7ace18e2ed1c673f65658e08fc14204f6350973d6ffeca0ba2fbeddd9351",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/2f/prb_2f4c5c754063409f81aaf6a2439cae82/contributions/con_96ba806371ac4613a83ed68d38df4a86/files/Q41-240.tex",
+  "title": "Two investment-response regimes identify conditional substitution and feedback",
+  "finding": "Supports the claim",
+  "checked_scope": "The affine capital\u2013price feedback system and observational-equivalence proposition, with a new two-regime experimental identification result.",
+  "significance": "An exact rank condition, reconstruction formulas and overidentification test show how controlled variation in investment feedback breaks the one-slope observational equivalence.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

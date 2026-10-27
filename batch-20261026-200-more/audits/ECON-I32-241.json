@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-I32-241",
+  "contribution_handle": "ECON-I32-241-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "f2a00597f8fbe9b19008ecd7597a13cd45c29284e5a2d04de66a6314833a7314",
+  "source_sha256": "8e17cbdc1bd0437bf5d948069cb0f99feecd691b44eedc1eea1d16eb3de25571",
+  "checked_scope": "Row-TV perturbations of finite-state homogeneous kernels; finite hitting horizons and \u03b4-separated mean escape times.",
+  "checks_performed": [
+    "Read full report, manuscript and contribution YAML; matched canonical IDs and pinned source URL.",
+    "Checked maximal coupling path-agreement product and two-state equality example for 1\u2212(1\u2212\u03b7)^T.",
+    "Derived substochastic resolvent norm 1/\u03b4, span-TV inequality \u03b7/\u03b4, \u03b7/\u03b4\u00b2 Bellman perturbation, and near-sharp two-state asymptotics."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "No computation claimed or needed for these analytic extensions."
+  ],
+  "significance": "Strictly sharpens finite-horizon robustness and states a quantitative extra condition sufficient for mean-time stability."
+}

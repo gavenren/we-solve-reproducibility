@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-C23-226",
+  "problem_id": "prb_3a0977fb2b5f404ab9ef0b98651b91de",
+  "contribution_handle": "ECON-C23-226-A1",
+  "contribution_id": "con_0f1e4827aa0d42a1b9bd94f8ac285c90",
+  "revision_id": "rev_f37c505634f946c486b974061ee3db53",
+  "source_path": "problems/3a/prb_3a0977fb2b5f404ab9ef0b98651b91de/contributions/con_0f1e4827aa0d42a1b9bd94f8ac285c90/files/C23-226.tex",
+  "source_sha256": "e134278f2d593aaa77c930f1088c719d5afe99f475c77c2dc42909398bf5a7ba",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/3a/prb_3a0977fb2b5f404ab9ef0b98651b91de/contributions/con_0f1e4827aa0d42a1b9bd94f8ac285c90/files/C23-226.tex",
+  "title": "Variance-optimal assignment for the integrated derivative target",
+  "finding": "Supports the claim",
+  "checked_scope": "Integration-by-parts proposition and unknown-density remainder; efficient variance and optimal design in an exogenous dominated submodel",
+  "significance": "Derives the efficient residual score and solves the optimal assignment-density problem, including nonattainment and overlap-constrained design.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

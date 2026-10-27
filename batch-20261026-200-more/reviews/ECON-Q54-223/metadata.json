@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-Q54-223",
+  "problem_id": "prb_4c3d2be1b3e94ced84ed7f9d56553e26",
+  "contribution_handle": "ECON-Q54-223-A1",
+  "contribution_id": "con_0d74d0cc94b74c3da4a70079b7f0e507",
+  "revision_id": "rev_d1317da63f50421c921a076d3d22308f",
+  "source_path": "problems/4c/prb_4c3d2be1b3e94ced84ed7f9d56553e26/contributions/con_0d74d0cc94b74c3da4a70079b7f0e507/files/Q54-223.tex",
+  "source_sha256": "4a2a8ba1e3c849085f8e2bfb86fd979b92f11b93104bc93f45ba93d40f5e339c",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/4c/prb_4c3d2be1b3e94ced84ed7f9d56553e26/contributions/con_0d74d0cc94b74c3da4a70079b7f0e507/files/Q54-223.tex",
+  "title": "Sharp finite-horizon joint-kernel certificate by survival coupling",
+  "finding": "Supports the claim",
+  "checked_scope": "The uniform approximation theorem in the paragraph \u2018A dynamic approximation guarantee\u2019, restricted to identical costs (epsilon=0).",
+  "significance": "A sharp nonquadratic error bound for finite rectangular models with identical costs, attained by a two-state absorbing construction.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

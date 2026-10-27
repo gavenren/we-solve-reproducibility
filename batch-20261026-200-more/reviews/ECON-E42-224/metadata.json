@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E42-224",
+  "problem_id": "prb_3809f82bb5dd4009b870b06a93dbf3e5",
+  "contribution_handle": "ECON-E42-224-A1",
+  "contribution_id": "con_f657b92b6a284c36bc8f140e6cc92faa",
+  "revision_id": "rev_961898bba58f4f9faa1a3ceef88e41e8",
+  "source_path": "problems/38/prb_3809f82bb5dd4009b870b06a93dbf3e5/contributions/con_f657b92b6a284c36bc8f140e6cc92faa/files/E42-224.tex",
+  "source_sha256": "717a031170084a39dfb7df6db55c50ab6b57be5dc377227d257478f6069d13de",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/38/prb_3809f82bb5dd4009b870b06a93dbf3e5/contributions/con_f657b92b6a284c36bc8f140e6cc92faa/files/E42-224.tex",
+  "title": "Global remuneration pass-through bounds, including clipped household choices",
+  "finding": "Supports the claim",
+  "checked_scope": "Ordinary funding equilibrium; finite CBDC-remuneration comparative statics with fixed caps and replacement fraction.",
+  "significance": "Proves sharp distribution-free finite pass-through and deposit-outflow bounds without differentiability or interior-choice assumptions.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

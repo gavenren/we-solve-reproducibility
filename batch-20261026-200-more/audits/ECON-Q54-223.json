@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-Q54-223",
+  "checked_scope": "Full manuscript and revised review; sharp identical-cost rectangular robust-kernel finite-horizon certificate.",
+  "checks_performed": [
+    "Read full source/YAML and original then revised report; independently recomputed binary dependence example and original TV error recurrence.",
+    "Verified globally preselected deterministic own-history nature strategies make maximal coupling admissible for nonconvex ambiguity sets.",
+    "Checked disagreement induction, stage/terminal indexing, supremum direction, optimal-value comparison and regret inequality.",
+    "Verified two-state absorbing example attains all bound terms and \u03b4=0, \u03b4=1, H=1 boundaries.",
+    "Rechecked final bytes and READY hash after author clarification."
+  ],
+  "changes_made": [
+    "Author revised coupling argument at auditor's request to preselect own-history strategies and avoid hidden paired-history dependence."
+  ],
+  "significance": "Sharp saturation certificate improves the linear/quadratic union-bound relaxation and is attained by an irreversible two-state process.",
+  "contribution_handle": "ECON-Q54-223-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "7bbbe488adc50f06ad073c9760d692f3b1f82a281ff231f016cb72adb0d89138",
+  "source_sha256": "4a2a8ba1e3c849085f8e2bfb86fd979b92f11b93104bc93f45ba93d40f5e339c",
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

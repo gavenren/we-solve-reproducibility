@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-E32-231",
+  "contribution_handle": "ECON-E32-231-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "72cec6f5bc96c22edd988458c1f57d9c20e86893e01e6bfb0d7d3c88d9943726",
+  "source_sha256": "05dd4eafd87b60def8bb8fbaf640cebef4d1b1529d8d1cb00edaf63b51166b27",
+  "checked_scope": "Full source/YAML and report; sharp attribution under one aggregate reversal budget, optional stratum caps, and numerical example.",
+  "checks_performed": [
+    "Recomputed four binary cells and verified t_z=a_z+x_z makes reversal mass R_min+weighted x.",
+    "Proved feasibility, both endpoints and every intermediate value using the proportional slack construction; checked zero slack and inconsistent budget cases.",
+    "Recomputed L=0.3,B=0.5,R_min=0.3 and upper endpoint0.35; verified added local-cap formula and scope limitation on equilibrium embedding."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Derives the exact identified interval and feasibility threshold under a global cross-world reversal budget, including allocation of reversal slack across strata."
+}

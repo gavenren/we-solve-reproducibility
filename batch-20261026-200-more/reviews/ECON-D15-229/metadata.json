@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D15-229",
+  "problem_id": "prb_37af8a70ab14472cb2bbaa5b8ffa0c65",
+  "contribution_handle": "ECON-D15-229-A1",
+  "contribution_id": "con_788e983a79f746dc94d7862ef9195d35",
+  "revision_id": "rev_5465971fb3b14484a904df20541126e9",
+  "source_path": "problems/37/prb_37af8a70ab14472cb2bbaa5b8ffa0c65/contributions/con_788e983a79f746dc94d7862ef9195d35/files/D15-229.tex",
+  "source_sha256": "0dfaeed3555e591f963b8b021a64fbbfbc23c9d5e21ece0b5b3f9bd9b32e1587",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/37/prb_37af8a70ab14472cb2bbaa5b8ffa0c65/contributions/con_788e983a79f746dc94d7862ef9195d35/files/D15-229.tex",
+  "title": "Pulse-response moment restrictions detect heterogeneous habit persistence",
+  "finding": "Supports the claim",
+  "checked_scope": "The normalized experiment and identification theorem, extended only to randomized cohorts with heterogeneous linear habit parameters and mean pulse contrasts.",
+  "significance": "Sharp moment inequalities and an exact equality characterization distinguish homogeneous persistence from latent parameter mixtures using three or more separated probes.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

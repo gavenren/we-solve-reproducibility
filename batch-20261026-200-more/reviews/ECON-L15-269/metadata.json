@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-L15-269",
+  "problem_id": "prb_c881effc22d946ba87ff1cee5c448a8a",
+  "contribution_handle": "ECON-L15-269-A1",
+  "contribution_id": "con_2af4d0f120b94cc79302c4ad73e2e7c2",
+  "revision_id": "rev_02da596f143340789eb2bdaa56cf4e45",
+  "source_path": "problems/c8/prb_c881effc22d946ba87ff1cee5c448a8a/contributions/con_2af4d0f120b94cc79302c4ad73e2e7c2/files/L15-269.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/c8/prb_c881effc22d946ba87ff1cee5c448a8a/contributions/con_2af4d0f120b94cc79302c4ad73e2e7c2/files/L15-269.tex",
+  "title": "Optimizing the security floor produces an explicit continuous policy solution",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript and YAML; independent extension proved in report.",
+  "significance": "Solves the continuous security-floor choice and gives an endpoint interoperability optimum when broad quantitative restrictions are maintained.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "c454bc62738a97b1fb48eb064cf9fa3da83444dbc44f3d827af4f61b5da64869"
+}

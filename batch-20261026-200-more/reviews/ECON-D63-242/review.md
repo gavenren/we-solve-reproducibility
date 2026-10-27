@@ -1,0 +1,21 @@
+# Mixed EF1 for arbitrary signed rescalings of a common two-level utility
+
+The manuscript proves mixed EF1 for u_i=c_i v with all c_i>0, and then for u_i=−c_i v with all c_i>0. It explicitly excludes assigning opposite signs to different agents, saying this would reverse preferences and invalidate the transfer argument. A closer inspection shows that the same auxiliary allocation works simultaneously for both signs. This supplies a strictly broader positive subclass, without assuming monotonicity or additive utilities.
+
+Precisely, let v:2^M→{0,1} satisfy v(∅)=0. For arbitrary real coefficients a_i, including positive, negative and zero coefficients in the same instance, there exists a complete allocation satisfying the source's mixed EF1 definition for u_i(S)=a_i v(S). In fact every envious positive-coefficient agent is cured by deleting any item from the envied bundle, and every envious negative-coefficient agent is cured by deleting any item from its own bundle.
+
+Construct the allocation using exactly the source's auxiliary optimization: maximize the number K of bundles with v-value one and, among maximizers, minimize their total cardinality L. This objective counts v-values rather than actual agent utilities. It remains a legitimate finite auxiliary objective when coefficients have mixed signs.
+
+The essential structural statement is the following. If this allocation contains at least one zero-valued bundle, every item deletion from every one-valued bundle leaves value zero. To prove it, choose any one-valued donor A_j, any zero-valued recipient A_i, and any g∈A_j. Suppose v(A_j\{g})=1. Transfer g to i. The donor stays one-valued. If v(A_i∪{g})=1, K increases by one, contradicting maximality. If v(A_i∪{g})=0, K stays fixed and L decreases by one, contradicting secondary minimality. The argument uses no sign assumption on a_i or a_j. Also A_j is nonempty because v(∅)=0, so a deletion really is available.
+
+Now examine an arbitrary ordered pair (i,j). If a_i=0, all bundles are indifferent to i. If a_i>0, envy is possible only when v(A_i)=0 and v(A_j)=1. The structural statement gives v(A_j\{g})=0 for every g∈A_j, so u_i(A_i)=u_i(A_j\{g})=0. This is the source's second EF1 alternative. If a_i<0, envy is possible only when v(A_i)=1 and v(A_j)=0. Every deletion from A_i then has v-value zero and raises its value to zero, exactly the value assigned by i to A_j. This is the third alternative. When all allocated bundles share the same v-value there is no envy for any coefficient sign, so the structural statement is not needed.
+
+Thus opposite ordinal preferences between agents create no difficulty: the same binary labeling of allocated bundles supplies the correct deletion on opposite sides of the envy comparison. The transfer used to establish the labeling need not be a Pareto improvement and was never required to be one.
+
+This extension includes agents who regard the same nonmonotone bundle event as desirable, undesirable, or irrelevant. For example v can indicate odd cardinality, containment of a designated pair, or an arbitrary listed family of bundles; different signs can be assigned freely. The construction remains exponential by allocation enumeration. It makes no efficiency or polynomial-query claim.
+
+The conclusion corrects only the stated scope limitation, not the valid positive and negative theorems themselves. It still relies crucially on one common binary bundle function. Arbitrary agent-specific dichotomous functions, or common functions with three or more values, are outside this proof, as is the general catalogue existence problem.
+
+Source: [ECON-D63-242-A1, pinned manuscript](https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/c2/prb_c284be7f2edf419293119afe72e875a3/contributions/con_ed47ce69de9045a4887ab09c36222039/files/D63-242.tex), canonical revision `rev_eb0f22516ca441a2bd3647c338d20630`. The complete manuscript and contribution YAML were read. External references are not independently certified. This review does not resolve the wider catalogue problem.
+
+Original review prose: CC BY 4.0. Author: `/root/new200_e`; model: `gpt-6.1-sol`; reasoning effort: `ultra`. Exact serving build and time budget unknown. No human or formal verification is claimed.

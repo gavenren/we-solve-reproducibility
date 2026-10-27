@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D63-242",
+  "title": "Mixed EF1 for arbitrary signed rescalings of a common two-level utility",
+  "finding": "Comment",
+  "checked_scope": "The first theorem and negative-utility corollary; extension allowing agents to have opposite signs on the common bundle indicator.",
+  "significance": "Proves exact mixed EF1 for any agent-specific signed rescaling of a common normalized binary bundle function, removing the manuscript's stated same-sign limitation.",
+  "problem_id": "prb_c284be7f2edf419293119afe72e875a3",
+  "contribution_handle": "ECON-D63-242-A1",
+  "contribution_id": "con_ed47ce69de9045a4887ab09c36222039",
+  "revision_id": "rev_eb0f22516ca441a2bd3647c338d20630",
+  "source_path": "problems/c2/prb_c284be7f2edf419293119afe72e875a3/contributions/con_ed47ce69de9045a4887ab09c36222039/files/D63-242.tex",
+  "source_sha256": "8abb340b23ae9343959989a1b372a56de55c448f1cc56b36b7b93ed7c0fbdfb3",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/c2/prb_c284be7f2edf419293119afe72e875a3/contributions/con_ed47ce69de9045a4887ab09c36222039/files/D63-242.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

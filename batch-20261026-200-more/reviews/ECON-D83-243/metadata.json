@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D83-243",
+  "problem_id": "prb_85aee806427640bf9dd7c32dd68c6ab7",
+  "contribution_handle": "ECON-D83-243-A1",
+  "contribution_id": "con_69f34bcf3750438abb35781dad3058e2",
+  "revision_id": "rev_c2dfde02f55f4b1da2bb0e15f803f7f5",
+  "source_path": "problems/85/prb_85aee806427640bf9dd7c32dd68c6ab7/contributions/con_69f34bcf3750438abb35781dad3058e2/files/D83-243.tex",
+  "source_sha256": "0145632379b69255ef2845d39e6907f2292204e5dafc47322cb1a72568d50522",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/85/prb_85aee806427640bf9dd7c32dd68c6ab7/contributions/con_69f34bcf3750438abb35781dad3058e2/files/D83-243.tex",
+  "title": "Exact robust persuasion value under an interval of acquisition costs",
+  "finding": "Supports the claim",
+  "checked_scope": "Two-state costly-acquisition example; robust extension to an unknown common learning cost",
+  "significance": "Derives an exact robust continuation payoff and sender supremum, proving nonattainment under cost ambiguity and distinguishing messagewise from common-cost minimization.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

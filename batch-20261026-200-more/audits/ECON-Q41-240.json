@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-Q41-240",
+  "checked_scope": "Full source and review; identification and admissibility of stable two-regime affine CES response.",
+  "checks_performed": [
+    "Read full manuscript/YAML/report and independently checked original CES ratio and local denominator algebra.",
+    "Inverted y_j=1/s\u2212a1\u03b7_j; solved two-point line and confirmed both identification formulas and b>0 condition.",
+    "Checked sufficiency by D_j=s/\u03b6_j>0, local logistic interior feasibility and adjustable intercepts.",
+    "Verified multi-regime collinearity and complementarity signs, equal-slope boundary, and unknown-chi observational equivalence family.",
+    "Checked scope distinction between exogenous relative-price experiments and statutory-wedge responses."
+  ],
+  "significance": "Gives necessary and sufficient two-regime rank/positivity conditions to break the manuscript's single-regime equivalence and a precise remaining confounding family.",
+  "contribution_handle": "ECON-Q41-240-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "9318ecb2c910aee0411c336d65841933ad50911cfd1ec377b51fcd17e9430fbc",
+  "source_sha256": "f3db7ace18e2ed1c673f65658e08fc14204f6350973d6ffeca0ba2fbeddd9351",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

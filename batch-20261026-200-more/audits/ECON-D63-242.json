@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-D63-242",
+  "contribution_handle": "ECON-D63-242-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "c36c8f321e5ff5f2dd7a78d4c1a68f3756434348b8ffde91d08a084527ee8562",
+  "source_sha256": "8abb340b23ae9343959989a1b372a56de55c448f1cc56b36b7b93ed7c0fbdfb3",
+  "checked_scope": "Full source/YAML and report; simultaneous mixed EF1 for arbitrary signed real multiples of a common normalized binary bundle utility.",
+  "checks_performed": [
+    "Independently checked lexicographic K/L transfer argument is a statement only about common binary labels, independent of actual coefficient signs.",
+    "Checked every ordered pair for positive, negative and zero coefficients, nonempty deletion availability, and equal-label allocations.",
+    "Compared against source's explicit opposite-sign exclusion; extension correctly changes scope without claiming general arbitrary utility existence."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Proves exact mixed EF1 for any agent-specific signed rescaling of a common normalized binary bundle function, removing the manuscript's stated same-sign limitation."
+}

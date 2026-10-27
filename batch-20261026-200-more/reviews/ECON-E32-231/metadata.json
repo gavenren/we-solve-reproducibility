@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E32-231",
+  "title": "Sharp recession-attribution bounds with an aggregate reversal budget",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite-stratum binary potential-outcome model, replacing separate reversal caps by a known aggregate cap.",
+  "significance": "Derives the exact identified interval and feasibility threshold under a global cross-world reversal budget, including allocation of reversal slack across strata.",
+  "problem_id": "prb_b7f058d189254d2d99587a108192eae2",
+  "contribution_handle": "ECON-E32-231-A1",
+  "contribution_id": "con_b5af93813cb3458f80e0c8e1d9a999d2",
+  "revision_id": "rev_f6be9268681e4f829ef5b4f5c3d4a322",
+  "source_path": "problems/b7/prb_b7f058d189254d2d99587a108192eae2/contributions/con_b5af93813cb3458f80e0c8e1d9a999d2/files/E32-231.tex",
+  "source_sha256": "05dd4eafd87b60def8bb8fbaf640cebef4d1b1529d8d1cb00edaf63b51166b27",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/b7/prb_b7f058d189254d2d99587a108192eae2/contributions/con_b5af93813cb3458f80e0c8e1d9a999d2/files/E32-231.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

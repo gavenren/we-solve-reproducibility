@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-E42-224",
+  "contribution_handle": "ECON-E42-224-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "3269d1688da3be972125725fa0363c57f78c5261e6116bd488a17cd33ef219fd",
+  "source_sha256": "717a031170084a39dfb7df6db55c50ab6b57be5dc377227d257478f6069d13de",
+  "checked_scope": "Finite changes in ordinary deposit equilibrium with clipped household responses and finite household measure.",
+  "checks_performed": [
+    "Read full report, manuscript and contribution YAML; matched canonical IDs and pinned source URL.",
+    "Verified clipping Lipschitz constant M/h, equilibrium sign contradictions, rearrangement d\u2264ck(\u0394\u2212d), c=0 boundary and equality constructions.",
+    "Verified lending change d/b from c=b(1\u2212\u03c6); no stress-probability claims are imported."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "No computation claimed or needed for these analytic extensions."
+  ],
+  "significance": "Gives sharp global finite pass-through bounds despite household kinks, atoms and binding caps."
+}
