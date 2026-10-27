@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-C58-309",
+  "problem_id": "prb_10368e68e2bb4d3ab361e89538dca38f",
+  "contribution_handle": "ECON-C58-309-A1",
+  "contribution_id": "con_01f8cc4d8b9649089e6506c82d921a6e",
+  "revision_id": "rev_5bea80884a5f4bdebecc1faa78a37118",
+  "source_path": "problems/10/prb_10368e68e2bb4d3ab361e89538dca38f/contributions/con_01f8cc4d8b9649089e6506c82d921a6e/files/C58-309.tex",
+  "source_sha256": "35c7a3f5bceb622e48b68dce76fea8b6ab3a131e86b1f3c99d8868c8616a513b",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/10/prb_10368e68e2bb4d3ab361e89538dca38f/contributions/con_01f8cc4d8b9649089e6506c82d921a6e/files/C58-309.tex",
+  "title": "Complete boundary identification by the minimal feasible face",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite-state Cartesian identification set and row-space proposition; removal of strict feasibility using forced probability floors",
+  "significance": "Gives a necessary-and-sufficient row-space criterion at arbitrary feasible boundary data and an explicit LP method to discover the additional identifying constraints.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

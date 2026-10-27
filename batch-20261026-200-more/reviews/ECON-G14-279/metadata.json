@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G14-279",
+  "problem_id": "prb_b1a1e1be22ec4aec92f94a8561a8a32b",
+  "contribution_handle": "ECON-G14-279-A1",
+  "contribution_id": "con_7bc3c9f384f44eb3bb59404d8a7a7d90",
+  "revision_id": "rev_aeca5d9065f9410da65029e1ecd565ea",
+  "source_path": "problems/b1/prb_b1a1e1be22ec4aec92f94a8561a8a32b/contributions/con_7bc3c9f384f44eb3bb59404d8a7a7d90/files/G14-279.tex",
+  "source_sha256": "0121acd2f7fc3037f217a7babd116ef92f433b0fb819cbd6847afda4bcdfc7bb",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/b1/prb_b1a1e1be22ec4aec92f94a8561a8a32b/contributions/con_7bc3c9f384f44eb3bb59404d8a7a7d90/files/G14-279.tex",
+  "title": "Independent AI vendors restore information through an exact capacity allocation",
+  "finding": "Supports the claim",
+  "checked_scope": "The competitive Gaussian information benchmark, extended to finitely many conditionally independent vendor error components and a fixed total capacity budget.",
+  "significance": "A concave allocation characterization and exact identical-vendor formula quantify how vendor diversification changes the optimal adoption share.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G12-290",
+  "problem_id": "prb_f24658c1c3f14380b9ea18b9abd01b1f",
+  "contribution_handle": "ECON-G12-290-A1",
+  "contribution_id": "con_16678c4588e2484d9fa9318c10f7a9c9",
+  "revision_id": "rev_49bc099556ed4daaa3d7bf1b1d4d2bb8",
+  "source_path": "problems/f2/prb_f24658c1c3f14380b9ea18b9abd01b1f/contributions/con_16678c4588e2484d9fa9318c10f7a9c9/files/G12-290.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/f2/prb_f24658c1c3f14380b9ea18b9abd01b1f/contributions/con_16678c4588e2484d9fa9318c10f7a9c9/files/G12-290.tex",
+  "title": "A payoff-span criterion exactly characterizes kernel-moment identification",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Generalizes the hidden pricing-kernel direction to finite-state markets and proves a necessary-and-sufficient payoff-span identification condition.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "f76591331e24cd14c898a934996d19b3886c4d9444795ed309ed37882a5954f1"
+}

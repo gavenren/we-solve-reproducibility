@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-G14-279",
+  "checked_scope": "Independent Gaussian vendor diversification and concave capacity allocation.",
+  "checks_performed": [
+    "Read full manuscript/YAML/report.",
+    "Derived additive posterior precision under stipulated conditional independence.",
+    "Verified KKT inactive and human-input conditions, strict uniqueness, identical-vendor Jensen reduction and clipped total-share formula.",
+    "Recomputed example precision 5/4 versus 2 and endpoint/multiple-vendor limits; checked independent-error caveat."
+  ],
+  "significance": "Adds exact multi-vendor allocation and demonstrates capacity-diversification intervention reversing a one-vendor limitation.",
+  "contribution_handle": "ECON-G14-279-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "1ec4dfe7ee2bee43a4c1aec9eca9b0016fe7c0f5027b0f7db6dc619d8a476708",
+  "source_sha256": "0121acd2f7fc3037f217a7babd116ef92f433b0fb819cbd6847afda4bcdfc7bb",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

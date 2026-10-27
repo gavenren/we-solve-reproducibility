@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-O18-297",
+  "problem_id": "prb_b6c985be7e2b45819b3ee97d6ad540aa",
+  "contribution_handle": "ECON-O18-297-A1",
+  "contribution_id": "con_92ee28185bbb47549488c46d6d9d869e",
+  "revision_id": "rev_835c80d2211f4fda8aa1b6c024f8f397",
+  "source_path": "problems/b6/prb_b6c985be7e2b45819b3ee97d6ad540aa/contributions/con_92ee28185bbb47549488c46d6d9d869e/files/O18-297.tex",
+  "source_sha256": "c5b20a9ca56a38dc722f3802bd89aa6c9baf17f844b0e768fdb97947fc830e92",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/b6/prb_b6c985be7e2b45819b3ee97d6ad540aa/contributions/con_92ee28185bbb47549488c46d6d9d869e/files/O18-297.tex",
+  "title": "An exact Pareto-financing frontier with heterogeneous expenditure shares",
+  "finding": "Supports the claim",
+  "checked_scope": "Competitive electrification equilibrium and equivalent variation; extension to household-specific Cobb\u2013Douglas shares and endogenous nonnegative tax allocation",
+  "significance": "Characterizes exactly when the project can be financed without any household losing, and constructs positive aggregate equivalent variation with no feasible Pareto-improving financing rule.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-O33-286",
+  "problem_id": "prb_83b22937127646f9b8fb5200a468d3f8",
+  "contribution_handle": "ECON-O33-286-A1",
+  "contribution_id": "con_b3945f25768c4e7d8d19e76e448d1291",
+  "revision_id": "rev_60f7146c80084a9ca33527e61474bdc1",
+  "source_path": "problems/83/prb_83b22937127646f9b8fb5200a468d3f8/contributions/con_b3945f25768c4e7d8d19e76e448d1291/files/O33-286.tex",
+  "source_sha256": "99cd5abfa579c31ecea037fca3760a866e8c71f4d72aa034ec4f811314b0a5fd",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/83/prb_83b22937127646f9b8fb5200a468d3f8/contributions/con_b3945f25768c4e7d8d19e76e448d1291/files/O33-286.tex",
+  "title": "A strict welfare-optimal adoption cap under unequal factor ownership",
+  "finding": "Supports the claim",
+  "checked_scope": "Endogenous-adoption and household-incidence formulas; log welfare with labor-share welfare weights",
+  "significance": "Proves welfare equals output gains minus a strictly convex ownership-divergence penalty, implying a unique welfare-optimal cutoff strictly below the output-maximizing cutoff when ownership differs.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

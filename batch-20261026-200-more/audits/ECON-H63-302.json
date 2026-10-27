@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-H63-302",
+  "checked_scope": "Fixed finite survival matrix infinite-horizon risk and recurrent-class characterization.",
+  "checks_performed": [
+    "Read full manuscript/YAML/report.",
+    "Verified cemetery-chain construction and date-zero indexing against r1.",
+    "Checked safe recurrent-class decomposition, transient inverse and maximal bounded harmonic solution.",
+    "Proved equivalence of no safe classes, spectral radius below one and certain eventual default.",
+    "Checked survival-date counting conventions and block-hazard geometric convergence bound, preserving fixed model index."
+  ],
+  "significance": "Gives exact long-horizon graph/resolvent characterization and a usable truncation certificate beyond finite-horizon recursion.",
+  "contribution_handle": "ECON-H63-302-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "8f21945adca9a0494b439a1687809e288584cc72ee223254027083b6f76604a9",
+  "source_sha256": "239e355638a91ae4998eaf8a552e46170c00ae4e6deeaa7ec4e61a51f9c90c42",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

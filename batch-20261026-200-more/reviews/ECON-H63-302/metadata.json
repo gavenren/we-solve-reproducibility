@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-H63-302",
+  "problem_id": "prb_126472f7519b4cfbba58d7b4433662eb",
+  "contribution_handle": "ECON-H63-302-A1",
+  "contribution_id": "con_52ab433965964b318ba77d30cf8522d3",
+  "revision_id": "rev_6b698d8935eb44609606d7a033df6602",
+  "source_path": "problems/12/prb_126472f7519b4cfbba58d7b4433662eb/contributions/con_52ab433965964b318ba77d30cf8522d3/files/H63-302.tex",
+  "source_sha256": "239e355638a91ae4998eaf8a552e46170c00ae4e6deeaa7ec4e61a51f9c90c42",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/12/prb_126472f7519b4cfbba58d7b4433662eb/contributions/con_52ab433965964b318ba77d30cf8522d3/files/H63-302.tex",
+  "title": "Infinite-horizon default risk is determined by safe recurrent classes",
+  "finding": "Supports the claim",
+  "checked_scope": "The exact finite-state fixed-equilibrium survival recursion, extended to infinite horizons using the directed graph of the substochastic survival matrix.",
+  "significance": "An exact safe-class reduction and finite linear system characterize eventual default, including cases where all finite-horizon capacities vanish in the limit.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

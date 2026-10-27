@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-H22-278",
+  "contribution_handle": "ECON-H22-278-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "53a0f8eb292d94702dd03954395eac24d09a07a6640e3828e3303fe583376e23",
+  "source_sha256": "1ee59703d909c115d13d78c0bbfa1a233ee0dd623f3400d5a9f22b62869c0241",
+  "checked_scope": "Primitive sign classification of formal-to-informal welfare jump.",
+  "checks_performed": [
+    "Replaced F using profit equality and independently factored J.",
+    "Solved critical fixed-cost threshold and checked all three enforcement regions and strict boundaries.",
+    "Recomputed both examples exactly and confirmed source admissibility.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Complete primitive sign regions resolve the welfare ambiguity of the source's switch expression."
+}

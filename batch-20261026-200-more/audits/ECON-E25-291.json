@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-E25-291",
+  "checked_scope": "Elastic labor-supply symmetric Cournot extension and real welfare comparison.",
+  "checks_performed": [
+    "Read complete manuscript including concavity proof, YAML and review.",
+    "Derived wage condition, labor-market exponent T and unique positive clearing solution.",
+    "Checked product utility/labor disutility consistency, cartel best-response sufficiency and labor-share cancellation.",
+    "Verified conduct elasticities, welfare derivative, \u03bd\u21920 fixed-supply limit and \u03b1=1 case."
+  ],
+  "significance": "Shows invariant labor-share response alongside altered output and welfare effects, explicitly revealing closure dependence.",
+  "contribution_handle": "ECON-E25-291-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "eff1844600ad3111a861c8c81d1bda5ae9a4df6e063081569a30c0226a8aea6d",
+  "source_sha256": "ff8c23bf042af15af81b4c4dcc88a250d5bd08a4b1612bb49362861be7bd9627",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

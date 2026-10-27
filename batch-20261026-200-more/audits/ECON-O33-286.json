@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-O33-286",
+  "contribution_handle": "ECON-O33-286-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "3fcb5515a3d96530867efc0d7d9bfaa5c5767b74f0f4ab3c35c0ce91cf134584",
+  "source_sha256": "99cd5abfa579c31ecea037fca3760a866e8c71f4d72aa034ec4f811314b0a5fd",
+  "checked_scope": "Welfare-optimal adoption cap under labor-share welfare weights and unequal fixed capital ownership.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently, including equilibrium cutoff selection.",
+    "Recomputed discrepancy D and its first/second derivatives; verified D'(0)=0 and strict convexity iff ownership differs.",
+    "Checked H' monotonicity without differentiating productivity a, unique welfare root below output optimum and capability-expansion boundary.",
+    "Verified two-group derivative and exact sign bounds at one-quarter and one-half.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Unique normative adoption frontier explicitly separates output gains from ownership-distribution penalties."
+}

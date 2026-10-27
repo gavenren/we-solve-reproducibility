@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-H11-300",
+  "contribution_handle": "ECON-H11-300-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "631280e02ecb95f09f04446456be7803232e729580e36b9dcf92d9f9231f8f13",
+  "source_sha256": "7eb82cfae51fab976cc82608b11e4afe94fc480b51a5855d1e82894b3846977b",
+  "checked_scope": "Selector-robust n-office initial cascade and separate persistence condition.",
+  "checks_performed": [
+    "Proved induction of forced investments for every mixed equilibrium.",
+    "Checked failed-cascade pure profile provides necessary obstruction including equality cases.",
+    "Verified two-office reduction, asymmetric chain example and additional persistence assumption.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Necessary-and-sufficient network cascade criterion for all Nash outcomes, with correct strict thresholds."
+}

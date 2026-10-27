@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-H22-278",
+  "problem_id": "prb_70dbd8333c0f4672b5cde4c2647028e9",
+  "contribution_handle": "ECON-H22-278-A1",
+  "contribution_id": "con_97e6705d065a4cc9b3bbff2e9742eccb",
+  "revision_id": "rev_0aaa6442c9484b57bbebd46689d69fe2",
+  "source_path": "problems/70/prb_70dbd8333c0f4672b5cde4c2647028e9/contributions/con_97e6705d065a4cc9b3bbff2e9742eccb/files/H22-278.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/70/prb_70dbd8333c0f4672b5cde4c2647028e9/contributions/con_97e6705d065a4cc9b3bbff2e9742eccb/files/H22-278.tex",
+  "title": "The formal-to-informal welfare jump has a complete sign classification",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Factors the source's discontinuous welfare jump and derives exact enforcement/compliance regions with positive and negative switches.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "1ee59703d909c115d13d78c0bbfa1a233ee0dd623f3400d5a9f22b62869c0241"
+}
