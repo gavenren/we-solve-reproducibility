@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-D02-416",
+  "checked_scope": "Binary log-score information compression identity and comparison to Brier penalty.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Derived entropy-risk difference and expected binary KL identity using tower property.",
+    "Checked endpoint p_H=0,1 forced agreement, finite risks and zero-loss equivalence.",
+    "Verified lower quadratic bound via KL second derivative and upper via log inequality; recomputed V=.16 and KL\u2248.3681 example."
+  ],
+  "significance": "Quantifies information discarded by summaries under another proper score and identifies when risk measures are comparable.",
+  "contribution_handle": "ECON-D02-416-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "fb8b3707ffe5d131d2060b7b94cc1a36890943bc8549834f6fa0d98899f35746",
+  "source_sha256": "5319f59c3ee08bfeacf2ce7076d44d633b6818e22cf94ed5c3547a1d76286a6b",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

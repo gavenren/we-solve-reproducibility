@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D02-416",
+  "problem_id": "prb_44f7a27464bf4ec6bc4e4f46e7b2d415",
+  "contribution_handle": "ECON-D02-416-A1",
+  "contribution_id": "con_8ba819ed722a4894b16d320b7bd55c3e",
+  "revision_id": "rev_1c09ca6cd2e84fdf80067162d21aaa54",
+  "source_path": "problems/44/prb_44f7a27464bf4ec6bc4e4f46e7b2d415/contributions/con_8ba819ed722a4894b16d320b7bd55c3e/files/D02-416.tex",
+  "source_sha256": "5319f59c3ee08bfeacf2ce7076d44d633b6818e22cf94ed5c3547a1d76286a6b",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/44/prb_44f7a27464bf4ec6bc4e4f46e7b2d415/contributions/con_8ba819ed722a4894b16d320b7bd55c3e/files/D02-416.tex",
+  "title": "Log-score compression measures the same lost forecasts as Brier risk",
+  "finding": "Supports the claim",
+  "checked_scope": "The exact cost of compressing prospective information, extended to optimal logarithmic scoring and quantitative comparison with the manuscript's Brier penalty.",
+  "significance": "An exact conditional information-loss formula and two-sided bounds connect forecast compression under log and Brier scores, including boundary behavior.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

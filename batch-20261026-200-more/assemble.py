@@ -30,11 +30,14 @@ def issue_links(body, document_path, base):
         label,destination=match.group(1),match.group(2)
         if urlsplit(destination).scheme or destination.startswith('#'):
             return match.group(0)
+        # Bracketed mathematics followed by parentheses is not an artifact link.
+        if not (destination.startswith(('./','../','checks/','reviews/')) or re.search(r'\.(?:py|json|md|txt|csv|tex)(?:#.*)?$',destination)):
+            return match.group(0)
         relative=posixpath.normpath(posixpath.join(posixpath.dirname(document_path),destination))
         assert not relative.startswith('../') and not relative.startswith('/'),destination
         assert (ROOT/relative.split('#',1)[0]).is_file(),f'Broken evidence link: {destination}'
         return f'[{label}]({base}/{relative})'
-    return re.sub(r'\[([^\]]+)\]\(([^)]+)\)',replace,body)
+    return re.sub(r'(?<!\\)\[([^\]\n]+)\]\(([^)\n]+)\)',replace,body)
 
 def main():
     parser = argparse.ArgumentParser()

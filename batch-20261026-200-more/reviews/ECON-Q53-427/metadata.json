@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-Q53-427",
+  "problem_id": "prb_0b0b42dd76784269adeaf2ef4499f031",
+  "contribution_handle": "ECON-Q53-427-A1",
+  "contribution_id": "con_6dd33c889d9d475e8b95a3fa74630817",
+  "revision_id": "rev_d9bfdd8e4f174223a7b547cb1de6ff55",
+  "source_path": "problems/0b/prb_0b0b42dd76784269adeaf2ef4499f031/contributions/con_6dd33c889d9d475e8b95a3fa74630817/files/Q53-427.tex",
+  "source_sha256": "f98f24d70edb2a424a31a6fa354ab96927f1526d139cf8fb279316efe549109e",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/0b/prb_0b0b42dd76784269adeaf2ef4499f031/contributions/con_6dd33c889d9d475e8b95a3fa74630817/files/Q53-427.tex",
+  "title": "The complete ambient-health equivalence family has unbounded welfare losses",
+  "finding": "Supports the claim",
+  "checked_scope": "The scalar quadratic endogenous-avoidance model and its ambient-health nonidentification example, extended to the complete positive-parameter equivalence family.",
+  "significance": "A full parametrization proves that perfect ambient-health data can leave welfare effects without any finite upper bound, and gives exact bounds from avoidance-fraction information.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

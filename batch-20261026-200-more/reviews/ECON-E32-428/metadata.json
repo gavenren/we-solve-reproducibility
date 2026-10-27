@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E32-428",
+  "problem_id": "prb_2bbf7e6456b14eabae6bffc532356acc",
+  "contribution_handle": "ECON-E32-428-A1",
+  "contribution_id": "con_dc00f067181c4a92a7fc2e1de615e395",
+  "revision_id": "rev_9c3e1352a2554194a07cc5d5a900f6f3",
+  "source_path": "problems/2b/prb_2bbf7e6456b14eabae6bffc532356acc/contributions/con_dc00f067181c4a92a7fc2e1de615e395/files/E32-428.tex",
+  "source_sha256": "29e33066b31bbdd61bb24b4395c95088c7a243774babe9d32ca5c29a7b8fd529",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/2b/prb_2bbf7e6456b14eabae6bffc532356acc/contributions/con_dc00f067181c4a92a7fc2e1de615e395/files/E32-428.tex",
+  "title": "Uniform discounted response-error certificates for slowly changing states",
+  "finding": "Supports the claim",
+  "checked_scope": "Action-independent slow-state path, uniformly stable matrix family, and discounted cumulative impulse responses.",
+  "significance": "Sums the source's noncommutative finite-horizon freezing errors into a finite cumulative certificate and proves its cubic persistence dependence is locally sharp.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

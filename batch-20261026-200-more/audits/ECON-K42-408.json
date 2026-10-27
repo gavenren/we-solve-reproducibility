@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-K42-408",
+  "checked_scope": "Joint always-survivor mean/effect region under monotone survival and observed outcome-vector law.",
+  "checks_performed": [
+    "Read exact full manuscript/YAML/report.",
+    "Verified conditional membership-weight necessity and latent-atom splitting construction preserving observed joint laws.",
+    "Checked convex compactness via weak-star L\u221e compactness and finite bounded moments.",
+    "Derived support function via top-index quantile selection for arbitrary signed contrast and recomputed two-point example."
+  ],
+  "significance": "Enforces common survivor membership across outcomes and can identify a welfare index despite wide individual coordinate intervals.",
+  "contribution_handle": "ECON-K42-408-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "34a2bda37c3dc4bcd401638be9a102f91bbca6a46231611f290f994cb123cbd5",
+  "source_sha256": "b2c5f2e03d9645378e9e8db67e5958e1eb0c0071252603e876f9d5eb8eb8a6ab",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

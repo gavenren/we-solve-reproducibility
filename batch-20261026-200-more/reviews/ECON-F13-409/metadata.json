@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F13-409",
+  "problem_id": "prb_18f422b007644129af41d6a279cec319",
+  "contribution_handle": "ECON-F13-409-A1",
+  "contribution_id": "con_27a9604639014be690e6d7dadc58204b",
+  "revision_id": "rev_fc5de02487964b29b0eb16e25f32ae83",
+  "source_path": "problems/18/prb_18f422b007644129af41d6a279cec319/contributions/con_27a9604639014be690e6d7dadc58204b/files/F13-409.tex",
+  "source_sha256": "06005b55d365929256a8f10e15178168c6ec7efa7036c84846db1d9ac22f72f7",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/18/prb_18f422b007644129af41d6a279cec319/contributions/con_27a9604639014be690e6d7dadc58204b/files/F13-409.tex",
+  "title": "A computable Lyapunov certificate for nonnormal multi-sector persistence",
+  "finding": "Supports the claim",
+  "checked_scope": "Stable finite-dimensional linear capacity approximation with uniformly bounded disturbances.",
+  "significance": "Turns Schur stability into an explicit weighted-norm error bound while retaining the potentially large conversion back to physical units.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J62-418",
+  "problem_id": "prb_75111ce66fd643d6abf279615e7305bd",
+  "contribution_handle": "ECON-J62-418-A1",
+  "contribution_id": "con_e0bf477b5d07436bb5160b8f5ffef3e3",
+  "revision_id": "rev_1a899eb729804ae6acf5c7c46e5391de",
+  "source_path": "problems/75/prb_75111ce66fd643d6abf279615e7305bd/contributions/con_e0bf477b5d07436bb5160b8f5ffef3e3/files/J62-418.tex",
+  "source_sha256": "c564fac5525b650d169f68b5ee162f4a3a2770ba0acaff08e6a36deef6daf841",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/75/prb_75111ce66fd643d6abf279615e7305bd/contributions/con_e0bf477b5d07436bb5160b8f5ffef3e3/files/J62-418.tex",
+  "title": "Full diagonal outcome distributions preserve the sharp missing-cell mean rectangle under monotonicity",
+  "finding": "Supports the claim",
+  "checked_scope": "Bounded two-program potential outcomes with individual coordinatewise monotonicity and known complete diagonal marginal distributions.",
+  "significance": "Resolves a richer-data sharpness case: stochastic dominance is the exact compatibility condition, and the source's mean rectangle remains attainable even with both diagonal laws fixed.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

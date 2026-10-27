@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-K42-408",
+  "problem_id": "prb_fb284c799df146198877472ee951dc7e",
+  "contribution_handle": "ECON-K42-408-A1",
+  "contribution_id": "con_0a481c4bea974c3fa9c5893e383d95b4",
+  "revision_id": "rev_4dcb821d0e78400997ffd37cbcebec93",
+  "source_path": "problems/fb/prb_fb284c799df146198877472ee951dc7e/contributions/con_0a481c4bea974c3fa9c5893e383d95b4/files/K42-408.tex",
+  "source_sha256": "b2c5f2e03d9645378e9e8db67e5958e1eb0c0071252603e876f9d5eb8eb8a6ab",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/fb/prb_fb284c799df146198877472ee951dc7e/contributions/con_0a481c4bea974c3fa9c5893e383d95b4/files/K42-408.tex",
+  "title": "A joint trimmed-mean region enforces common survivor membership",
+  "finding": "Supports the claim",
+  "checked_scope": "The monotone-survival bounds, extended from one outcome to a vector of jointly observed bounded outcomes with one common always-survivor stratum.",
+  "significance": "An exact convex region and support-function formula characterize joint survivor-effect bounds and expose impossible combinations of marginal endpoints.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}
