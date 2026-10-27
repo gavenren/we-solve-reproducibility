@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F16-522",
+  "title": "Sharp origin-cohort earnings bounds from unlinked destination distributions and migration counts",
+  "finding": "Supports the claim",
+  "checked_scope": "A fixed complete baseline population, known origin\u2013destination counts, and observed destination earnings distributions at the evaluation date.",
+  "significance": "Derives sharp trimmed-distribution bounds for each initial-origin cohort mean without an individual linked panel, and sharp treatment contrasts under unrestricted cross-regime coupling.",
+  "problem_id": "prb_86bf86d5a0de4a63a74c3b7f1be1a4ff",
+  "contribution_handle": "ECON-F16-522-A1",
+  "contribution_id": "con_afd09b6a8eb741d4b4e1bae7a1b1ffb0",
+  "revision_id": "rev_1ad6e8c3c9a34038b15548038fa51b92",
+  "source_path": "problems/86/prb_86bf86d5a0de4a63a74c3b7f1be1a4ff/contributions/con_afd09b6a8eb741d4b4e1bae7a1b1ffb0/files/F16-522.tex",
+  "source_sha256": "427462af0acb6a7ed16fc325882f1e8154a112528696bbae1a74a850bd1a325c",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/86/prb_86bf86d5a0de4a63a74c3b7f1be1a4ff/contributions/con_afd09b6a8eb741d4b4e1bae7a1b1ffb0/files/F16-522.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

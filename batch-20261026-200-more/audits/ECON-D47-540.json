@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-D47-540",
+  "contribution_handle": "ECON-D47-540-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "e9909c9a71f3eeacfd3c960e5f3c071557ae3e72f923198cbb726d087f7bb295",
+  "source_sha256": "4f588e6de9f2d73f943f44763c285ef494ff41da2a623c054673ace64ac6f989",
+  "checked_scope": "Low-degree off-design interpolation and exact deterministic error radius.",
+  "checks_performed": [
+    "Reordered finite-difference sums and derived alternating partial-binomial coefficients.",
+    "Verified sharp box support function and invertible low-order parametrization attainment.",
+    "Recomputed d1,d2 formulas and amplification7 at k3 /17 at k4.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Exact high-coverage prediction error accounts for shared low-order cell observations."
+}

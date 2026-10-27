@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-L26-546",
+  "contribution_handle": "ECON-L26-546-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "2287e1e54de5784e92fdf0e9c7db9e02970a414afc1ac56517486d9f727527c6",
+  "source_sha256": "6e01047750b7818fe6f9d94372bec4e672793582a454893c9e09f2945e1bc6ea",
+  "checked_scope": "Global coverage optimum and fixed setup participation.",
+  "checks_performed": [
+    "Checked piecewise optimized supervision derivatives and branch joins.",
+    "Verified all zero-capacity/low-A/m<=0/full-coverage cases and interior stationary branch condition.",
+    "Derived simplified peak value and recomputed source numerical scale and surplus.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Complete global continuous policy solution extends a conditional-supervision result and one example."
+}

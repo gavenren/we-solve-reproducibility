@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-L51-508",
+  "problem_id": "prb_8af1e2559c7148d9a47b31eed02c8d39",
+  "contribution_handle": "ECON-L51-508-A1",
+  "contribution_id": "con_291c903f5ef14c0d917f2aa6ccfd1dcb",
+  "revision_id": "rev_fe3e8463eb854fdd895cfb34ef562aec",
+  "source_path": "problems/8a/prb_8af1e2559c7148d9a47b31eed02c8d39/contributions/con_291c903f5ef14c0d917f2aa6ccfd1dcb/files/L51-508.tex",
+  "source_sha256": "49d06e30aa2720c2e5999f9d407e5617717b31b5fd42b875642b948b14b580e5",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/8a/prb_8af1e2559c7148d9a47b31eed02c8d39/contributions/con_291c903f5ef14c0d917f2aa6ccfd1dcb/files/L51-508.tex",
+  "title": "The exact joint mean\u2013tail harm region under selective audits",
+  "finding": "Supports the claim",
+  "checked_scope": "Bounded repair harm with known audited mean/tail rate and unrestricted unaudited harm distribution.",
+  "significance": "Completes separate marginal audit bounds with a sharp nonrectangular joint region, including the strict-threshold endpoint caveat.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

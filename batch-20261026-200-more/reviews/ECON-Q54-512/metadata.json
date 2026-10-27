@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-Q54-512",
+  "problem_id": "prb_e1018133d1ac4b929547c7859c7b734a",
+  "contribution_handle": "ECON-Q54-512-A1",
+  "contribution_id": "con_4372ef5b68444a75bea8326234101cc1",
+  "revision_id": "rev_b72ed4f8a32c414598d3b5b3a192223b",
+  "source_path": "problems/e1/prb_e1018133d1ac4b929547c7859c7b734a/contributions/con_4372ef5b68444a75bea8326234101cc1/files/Q54-512.tex",
+  "source_sha256": "9a9bc9e3c2a7d20eaebc1cb3badc68969db31925de2457638db30bc811c6512f",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/e1/prb_e1018133d1ac4b929547c7859c7b734a/contributions/con_4372ef5b68444a75bea8326234101cc1/files/Q54-512.tex",
+  "title": "Experimental support design from exact worst-case transport width",
+  "finding": "Supports the claim",
+  "checked_scope": "Lipschitz transport envelopes; finite experimental-location selection and expected extrapolation-width reduction",
+  "significance": "Derives the exact worst-case uncertainty width as weighted distance to experimental support and proves a greedy reduction guarantee for adding support locations.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

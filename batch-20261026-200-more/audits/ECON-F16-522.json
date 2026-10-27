@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-F16-522",
+  "contribution_handle": "ECON-F16-522-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "0a0a7141c8a5245707e52b220812e78c2b779db678a28666addc3d5c5591a42f",
+  "source_sha256": "427462af0acb6a7ed16fc325882f1e8154a112528696bbae1a74a850bd1a325c",
+  "checked_scope": "Full source/YAML/report; origin-specific earnings quantile bounds from destination distributions and known migration counts.",
+  "checks_performed": [
+    "Derived each destination's lower/upper subpopulation sums and normalized by baseline origin size.",
+    "Checked complete compatible allocation sharpness, atom/count caveat and independent destination extremizers.",
+    "Verified coordinate bounds need not be jointly attainable and cross-regime subtraction is sharp only under stated absence of additional links."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Derives sharp trimmed-distribution bounds for each initial-origin cohort mean without an individual linked panel, and sharp treatment contrasts under unrestricted cross-regime coupling."
+}

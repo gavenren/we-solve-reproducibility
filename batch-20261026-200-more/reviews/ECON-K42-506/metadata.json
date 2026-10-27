@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-K42-506",
+  "problem_id": "prb_e92d0f4c8583439a88fbf9cb8de04165",
+  "contribution_handle": "ECON-K42-506-A1",
+  "contribution_id": "con_e1f328789af9425caf07f6aafda6e883",
+  "revision_id": "rev_833e9ded880c416ab9b0a71bdf696189",
+  "source_path": "problems/e9/prb_e92d0f4c8583439a88fbf9cb8de04165/contributions/con_e1f328789af9425caf07f6aafda6e883/files/K42-506.tex",
+  "source_sha256": "7adac901afca728d519ac9246d34b336313be3e67509893894bceadcf81ee5be",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/e9/prb_e92d0f4c8583439a88fbf9cb8de04165/contributions/con_e1f328789af9425caf07f6aafda6e883/files/K42-506.tex",
+  "title": "One targeted network intervention can identify direct and peer prevention effects",
+  "finding": "Supports the claim",
+  "checked_scope": "The stable linear network propagation benchmark, with known adjacency matrix and an observed full-vector response to one intervention.",
+  "significance": "An exact rank condition and reconstruction formulas distinguish informative targeted variation from full-coverage observational equivalence.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

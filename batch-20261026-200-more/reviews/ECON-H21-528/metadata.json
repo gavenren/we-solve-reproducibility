@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-H21-528",
+  "problem_id": "prb_ae957c24cdeb4586bdbec4ce4c9e4103",
+  "contribution_handle": "ECON-H21-528-A1",
+  "contribution_id": "con_49a17d4b900348709b34dd8aca1288a3",
+  "revision_id": "rev_f8b6d25c76024f49861ba033f38753cb",
+  "source_path": "problems/ae/prb_ae957c24cdeb4586bdbec4ce4c9e4103/contributions/con_49a17d4b900348709b34dd8aca1288a3/files/H21-528.tex",
+  "source_sha256": "be2146d730fbd3ffe5bffc4e689c9bdfb6127fdb37244fea0ac3b1ebfb903c86",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/ae/prb_ae957c24cdeb4586bdbec4ce4c9e4103/contributions/con_49a17d4b900348709b34dd8aca1288a3/files/H21-528.tex",
+  "title": "A strict revenue-slack condition turns conservative feasibility into a policy-value guarantee",
+  "finding": "Supports the claim",
+  "checked_scope": "Uniform approximation errors in a convex welfare/revenue design class with a known strict-feasibility witness.",
+  "significance": "Proves explicit finite regret for tightened revenue constraints, exhibits sharp dependence on revenue error and slack, and states when policy convexity is economically valid.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

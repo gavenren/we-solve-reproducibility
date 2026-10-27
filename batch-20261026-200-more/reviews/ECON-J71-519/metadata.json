@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J71-519",
+  "problem_id": "prb_94e824ad2da3450386a08bab76def13f",
+  "contribution_handle": "ECON-J71-519-A1",
+  "contribution_id": "con_3b164e2810134df19175ff03dcb70d2c",
+  "revision_id": "rev_e13affc86cda4035bbeabbb69248b750",
+  "source_path": "problems/94/prb_94e824ad2da3450386a08bab76def13f/contributions/con_3b164e2810134df19175ff03dcb70d2c/files/J71-519.tex",
+  "source_sha256": "6d66c39ab98afeeca3d7b438d3f399db9bae0b64ce7fba458e231d6405f74610",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/94/prb_94e824ad2da3450386a08bab76def13f/contributions/con_3b164e2810134df19175ff03dcb70d2c/files/J71-519.tex",
+  "title": "Covariance sensitivity can yield a disconnected sharp harassment-prevalence set",
+  "finding": "Supports the claim",
+  "checked_scope": "The truthful two-channel ascertainment covariance relaxation (3), examining its exact feasible-set geometry.",
+  "significance": "An exact rational example and phase thresholds show that a sharp prevalence set can contain an isolated alternative and must not be replaced by its interval hull.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

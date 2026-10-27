@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-O38-542",
+  "problem_id": "prb_94b26bf1942f4b40ab577258bddbb0de",
+  "contribution_handle": "ECON-O38-542-A1",
+  "contribution_id": "con_3b8fae680f3e40bba66c73364cd75c47",
+  "revision_id": "rev_dc025f69cf404b7b838c4116a10490a4",
+  "source_path": "problems/94/prb_94b26bf1942f4b40ab577258bddbb0de/contributions/con_3b8fae680f3e40bba66c73364cd75c47/files/O38-542.tex",
+  "source_sha256": "1f4fcba7d3bc9893a9149e4c866e665fa814a0352464a655c33489ec56748ece",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/94/prb_94b26bf1942f4b40ab577258bddbb0de/contributions/con_3b8fae680f3e40bba66c73364cd75c47/files/O38-542.tex",
+  "title": "Optimal access intensity has a concave resource-value frontier even when gap closure reverses",
+  "finding": "Supports the claim",
+  "checked_scope": "Continuous common package intensity in the source's logarithmic research-input model.",
+  "significance": "Derives exact net marginal benefits and an intensity optimization rule, while constructing nonmonotone gap closure under increasing access.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

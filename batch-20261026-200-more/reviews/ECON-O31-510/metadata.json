@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-O31-510",
+  "title": "Entrant demand for research inputs creates at most one incumbent-innovation hump",
+  "finding": "Supports the claim",
+  "checked_scope": "The source's unique research-input equilibrium for all \u03bb\u22650 with \u03c8>0, including \u03c7\u22650; comparison to \u03c8=0.",
+  "significance": "Proves a global single-peak theorem and an exact initial-sign criterion, replacing local reversal examples by a full response-shape characterization.",
+  "problem_id": "prb_acdf35ac3782414fa267bc11942e30c5",
+  "contribution_handle": "ECON-O31-510-A1",
+  "contribution_id": "con_c407b0da8b7b447e8829aba175692306",
+  "revision_id": "rev_e0f8794d5f9844e69c1afc5cc26de0a6",
+  "source_path": "problems/ac/prb_acdf35ac3782414fa267bc11942e30c5/contributions/con_c407b0da8b7b447e8829aba175692306/files/O31-510.tex",
+  "source_sha256": "68b9f9350e3070a5ae0b8a81bf9febe35ccd626e3f5fe53e28ce41a939d4aba8",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/ac/prb_acdf35ac3782414fa267bc11942e30c5/contributions/con_c407b0da8b7b447e8829aba175692306/files/O31-510.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

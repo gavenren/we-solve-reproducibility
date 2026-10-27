@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-H21-528",
+  "contribution_handle": "ECON-H21-528-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "1deca32068ccf3329779461c94731f89cb8d795f694c34a56f8757e1562dfe6d",
+  "source_sha256": "be2146d730fbd3ffe5bffc4e689c9bdfb6127fdb37244fea0ac3b1ebfb903c86",
+  "checked_scope": "Compact convex policy class with concave true welfare/revenue, strict revenue-slack witness and uniform approximation errors.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Checked conservative true feasibility, \u03bb=2\u03b5_R/s mixture feasibility, estimated-optimality error 2\u03b5_W and concavity welfare loss.",
+    "Verified exact sharp linear example, \u03b5_R=0/slack-equality cases, estimated-global-optimum requirement and expected-policy-lottery interpretation.",
+    "Independently refetched pinned GitHub YAML/manuscript; exact saved bytes match returned Git blob SHAs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Adds a rigorous quantitative near-optimality theorem where conservative revenue feasibility alone was insufficient."
+}

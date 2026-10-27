@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-H63-443",
+  "problem_id": "prb_18ae4f6977e44f4a841c4e9ab56ea58d",
+  "contribution_handle": "ECON-H63-443-A1",
+  "contribution_id": "con_46e077ae8dd14ed6b938b5fbabf71ae0",
+  "revision_id": "rev_755f2f721b1e402c8cc3a040dd78bfdd",
+  "source_path": "problems/18/prb_18ae4f6977e44f4a841c4e9ab56ea58d/contributions/con_46e077ae8dd14ed6b938b5fbabf71ae0/files/H63-443.tex",
+  "source_sha256": "7015c600f29dd82cee16150ed78ff9f401f67fe14dee6be287000abb6c273571",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/18/prb_18ae4f6977e44f4a841c4e9ab56ea58d/contributions/con_46e077ae8dd14ed6b938b5fbabf71ae0/files/H63-443.tex",
+  "title": "Joint reserve and maturity choice reveals a cheapest-insurance frontier",
+  "finding": "Supports the claim",
+  "checked_scope": "Joint reserve and maturity optimization in the source's quadratic liquidity benchmark after adding an explicit positive reserve carrying cost.",
+  "significance": "Solves the two-instrument problem exactly, characterizes all ties and corners, and identifies how the source's fixed-reserve comparative static changes when reserve finance is optimized.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

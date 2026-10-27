@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-R31-548",
+  "problem_id": "prb_183279cb30674eda8ca4c422a506ff57",
+  "contribution_handle": "ECON-R31-548-A1",
+  "contribution_id": "con_c2089531418b47b58772b32a8f865103",
+  "revision_id": "rev_af5e6a756ca5444eb9efce52571ea262",
+  "source_path": "problems/18/prb_183279cb30674eda8ca4c422a506ff57/contributions/con_c2089531418b47b58772b32a8f865103/files/R31-548.tex",
+  "source_sha256": "a6626586b26a548184533862c3e74f2fe1273fc931d0f869b5c90ed2401e6d0a",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/18/prb_183279cb30674eda8ca4c422a506ff57/contributions/con_c2089531418b47b58772b32a8f865103/files/R31-548.tex",
+  "title": "Completion-lag probabilities are identified by second differences, with sharp continuation bands",
+  "finding": "Supports the claim",
+  "checked_scope": "Constant additional permit flow, invariant nonnegative lag probabilities, and known isolated stock-building response.",
+  "significance": "Characterizes exactly which stock-response profiles fit the pipeline, recovers observed lag masses and derives sharp future bounds under unobserved long lags/noncompletion.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

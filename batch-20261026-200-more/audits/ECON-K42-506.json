@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-K42-506",
+  "checked_scope": "Two-parameter network prevention response identification from one full-vector intervention.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Derived x=bz+\u03b3Ax, projection formulas and rank/sufficiency residual distinction.",
+    "Checked local null-direction family with strict margins and adjusted unobserved baseline a.",
+    "Recomputed two-node targeted ratio and full-coverage row-stochastic observational-equivalence family."
+  ],
+  "significance": "Specifies when untreated-node spillovers separate direct prevention from peer propagation.",
+  "contribution_handle": "ECON-K42-506-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "4a79b348353ed25b0b9dd71c2df1dc99a2d12c9b610f56d483aad7a23c7a80b8",
+  "source_sha256": "7adac901afca728d519ac9246d34b336313be3e67509893894bceadcf81ee5be",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

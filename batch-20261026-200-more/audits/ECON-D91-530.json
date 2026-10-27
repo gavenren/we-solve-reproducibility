@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-D91-530",
+  "contribution_handle": "ECON-D91-530-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "f8057b3d4206b1e8eb406366d5d1b7c1566c52c3dee813c841ac00de0fce10aa",
+  "source_sha256": "8bb44af75d1b581757d4cdb96e365a6b360f4d3601ba4213b2093563ae95bbfc",
+  "checked_scope": "Minimax convex linear pooling under bounded simultaneous coefficient drift and independent estimation noise.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently; checked unrestricted versus clipped prediction-risk scope.",
+    "Derived attained worst-case bias at common-sign drift endpoints and verified coefficient-interior condition.",
+    "Recomputed two-domain optimum/risk and multi-domain KKT active-set equations.",
+    "Checked positive denominator by Cauchy-Schwarz, excluded-domain conditions and inverse-variance zero-drift boundary.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Exact robust weighting rule optimizes the source's portability bias-variance diagnostic in a declared estimator class."
+}

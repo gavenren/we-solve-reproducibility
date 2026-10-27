@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-O31-510",
+  "contribution_handle": "ECON-O31-510-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "b277f5e06e9f84061510778e8b24a449def2cf0da5d3a2f2853ed1674802337f",
+  "source_sha256": "68b9f9350e3070a5ae0b8a81bf9febe35ccd626e3f5fe53e28ce41a939d4aba8",
+  "checked_scope": "Full source/YAML/report; global single-peak or decreasing equilibrium research path and psi=0 comparison.",
+  "checks_performed": [
+    "Differentiated N along equilibrium and verified forced linear ODE with positive integrating factor.",
+    "Checked at-most-one positive-to-negative crossing and baseline equality case.",
+    "Verified global upper bound forces r\u21920 when psi>0, hence a crossing exists after positive initial slope; checked b0 and psi0 boundaries."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Proves a global single-peak theorem and an exact initial-sign criterion, replacing local reversal examples by a full response-shape characterization."
+}

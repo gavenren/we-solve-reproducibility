@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D72-527",
+  "problem_id": "prb_91f2037447b748d8995a87e614120725",
+  "contribution_handle": "ECON-D72-527-A1",
+  "contribution_id": "con_3392b861ea644cb48909d8aeba39536d",
+  "revision_id": "rev_e4f74d85b44e4c3cacece5de42fe1b87",
+  "source_path": "problems/91/prb_91f2037447b748d8995a87e614120725/contributions/con_3392b861ea644cb48909d8aeba39536d/files/D72-527.tex",
+  "source_sha256": "8ffbc428991d5ccbd54c1d15430aacf89ef15157bbd73ca3bc622a5e15d2a3f5",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/91/prb_91f2037447b748d8995a87e614120725/contributions/con_3392b861ea644cb48909d8aeba39536d/files/D72-527.tex",
+  "title": "Posterior variance exactly measures accountability under uniform voting thresholds",
+  "finding": "Supports the claim",
+  "checked_scope": "The uniform-threshold voter benchmark, extended from perfect and binary noisy disclosure to arbitrary credible Bayesian signals.",
+  "significance": "An exact normalized variance identity links accountability gradients to Brier improvement and proves monotonicity under signal refinement despite a zero average vote effect.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

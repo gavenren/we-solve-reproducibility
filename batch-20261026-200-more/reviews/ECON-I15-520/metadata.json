@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I15-520",
+  "problem_id": "prb_a6c8a8351f4d462aa6ab670b4c1489c5",
+  "contribution_handle": "ECON-I15-520-A1",
+  "contribution_id": "con_74a40be15ad04a499b7a0ddf3552bf0f",
+  "revision_id": "rev_00eab7f466f940cbb00c67293c7bd635",
+  "source_path": "problems/a6/prb_a6c8a8351f4d462aa6ab670b4c1489c5/contributions/con_74a40be15ad04a499b7a0ddf3552bf0f/files/I15-520.tex",
+  "source_sha256": "601eadf4f2fda10346928c2f6e0405f3952c4c0dcc03fd74a3c77800cdfba1f5",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/a6/prb_a6c8a8351f4d462aa6ab670b4c1489c5/contributions/con_74a40be15ad04a499b7a0ddf3552bf0f/files/I15-520.tex",
+  "title": "Exact minimax testing power for absorbing traps versus rare switching",
+  "finding": "Supports the claim",
+  "checked_scope": "Fully observed two-state post-offer Markov panel with common initial law and independent switches.",
+  "significance": "Computes exact data-law distance, uniformly most powerful tests and the precise transition-count requirement under a positive switching separation.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

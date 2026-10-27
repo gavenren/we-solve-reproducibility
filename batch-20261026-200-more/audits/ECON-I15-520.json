@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-I15-520",
+  "contribution_handle": "ECON-I15-520-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "199f6e258183fd13593cb396bc3b34853174f064b7d0b2d9a20d9841b939a856",
+  "source_sha256": "601eadf4f2fda10346928c2f6e0405f3952c4c0dcc03fd74a3c77800cdfba1f5",
+  "checked_scope": "Fully observed independent two-state panels with symmetric switching and common initial/offer law.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Verified exact no-switch mixture decomposition and mutually singular switched-panel remainder.",
+    "Derived size-constrained optimal power, simultaneously optimal reject-on-switch test, logarithmic transition-count condition and pointwise/uniform distinction.",
+    "Independently refetched pinned GitHub YAML/manuscript; exact saved bytes match returned Git blob SHAs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Exact minimax finite-data frontier sharpens the manuscript\u2019s rare-switching impossibility bound."
+}

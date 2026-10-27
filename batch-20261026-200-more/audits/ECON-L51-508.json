@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-L51-508",
+  "contribution_handle": "ECON-L51-508-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "69a7e688df192398dadbe9a3c028cef4d9bccf72af0917dc4ede77f399077ca8",
+  "source_sha256": "49d06e30aa2720c2e5999f9d407e5617717b31b5fd42b875642b948b14b580e5",
+  "checked_scope": "A bounded common harm law with strict tail threshold and unrestricted selective auditing.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Verified strict lower mean edge ct<m for t>0, closed upper chord, t=0/1 and audited-fraction boundaries.",
+    "Checked two-point attainment and all examples; confirmed preservation of the full audited law and distinction between attainable and limiting lower boundary.",
+    "Independently refetched pinned GitHub YAML/manuscript; exact saved bytes match returned Git blob SHAs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Exact joint mean/tail harm set replaces incompatible separate marginal endpoint combinations."
+}

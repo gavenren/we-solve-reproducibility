@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-H63-443",
+  "contribution_handle": "ECON-H63-443-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "8e1377ecb6b21526ce7372391c8895f55822592324c2a28ce91b63bff38a3be0",
+  "source_sha256": "7015c600f29dd82cee16150ed78ff9f401f67fe14dee6be287000abb6c273571",
+  "checked_scope": "Full exact manuscript/YAML and jointly chosen reserves/maturity frontier.",
+  "checks_performed": "Verified no excess insurance, cheapest-instrument split, strictly convex total coverage, threshold and minimum cost, ties and both numerical carrying-cost examples.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Solves the reserve carrying-cost extension and distinguishes costless principal from real financing charges."
+}

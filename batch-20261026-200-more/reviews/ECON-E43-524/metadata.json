@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E43-524",
+  "problem_id": "prb_135d99d8482041efba61a010d0064473",
+  "contribution_handle": "ECON-E43-524-A1",
+  "contribution_id": "con_a906203da6314c01bb447158e2d25e66",
+  "revision_id": "rev_7e073f72467149ed9f070a361cb78055",
+  "source_path": "problems/13/prb_135d99d8482041efba61a010d0064473/contributions/con_a906203da6314c01bb447158e2d25e66/files/E43-524.tex",
+  "source_sha256": "fef32e41466e7d8938800a904b99381db2cca12f86203d867278a8200666cd38",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/13/prb_135d99d8482041efba61a010d0064473/contributions/con_a906203da6314c01bb447158e2d25e66/files/E43-524.tex",
+  "title": "Irreducible uncertainty survives even infinite retrospective smoothing",
+  "finding": "Supports the claim",
+  "checked_scope": "Known-parameter scalar random-walk filter; exact infinite-future smoothing variance and its steady-state limit",
+  "significance": "Derives the exact two-sided limiting smoothing variance QR/sqrt(Q\u00b2+4QR), proving a positive uncertainty floor even after all future observations.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

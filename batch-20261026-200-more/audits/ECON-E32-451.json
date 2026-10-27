@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-E32-451",
+  "contribution_handle": "ECON-E32-451-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "15e1830d8c756e3dfe1f2ea4ffe9b6f25a8e62cfb2dd5a3346b66b6324a318e8",
+  "source_sha256": "1db0e1f625f042d5d44adb5fcee2f095a5aac3e8c9f78eb8b5a69f13fbc62582",
+  "checked_scope": "Full exact manuscript/YAML and weighted timing of permanent repair.",
+  "checks_performed": "Expanded timing residual square and cancellation, checked pseudoinverse aggregate optimizer/range feasibility, finite-horizon uniqueness, equal-cost 1/T decay and discounted timing interpretation.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Exact instrument/time separation exposes zero infimum across unrestricted repair horizons under pure quadratic costs."
+}

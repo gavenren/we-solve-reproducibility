@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-M54-529",
+  "title": "Exact overlap requirements and exponential sample size for full remote-work policies",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite assignment-vector experiments with bounded fixed-cohort outcomes and no response restrictions beyond the observed support.",
+  "significance": "Quantifies sharp off-policy mean bounds under incomplete support and proves an exponential information lower bound for learning an all-remote endpoint from independent worker randomization.",
+  "problem_id": "prb_579a68a745984754bd0f458d3014ee0c",
+  "contribution_handle": "ECON-M54-529-A1",
+  "contribution_id": "con_0a8834626ffa42f8879d151d294ce93e",
+  "revision_id": "rev_d5670b8e022441bb8723d2fa965b06aa",
+  "source_path": "problems/57/prb_579a68a745984754bd0f458d3014ee0c/contributions/con_0a8834626ffa42f8879d151d294ce93e/files/M54-529.tex",
+  "source_sha256": "b2386bf87299cee618ce3e049f430d22d68ce18d8095d83a0cda88b63de151e5",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/57/prb_579a68a745984754bd0f458d3014ee0c/contributions/con_0a8834626ffa42f8879d151d294ce93e/files/M54-529.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

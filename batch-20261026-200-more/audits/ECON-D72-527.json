@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-D72-527",
+  "checked_scope": "Bayesian posterior-variance accountability identity under uniform voting thresholds.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Verified martingale average-vote null and covariance conditioning in both directions.",
+    "Derived normalized variance contrast, Brier improvement and zero/full-information equality cases.",
+    "Checked refinement monotonicity, binary symmetric-signal variance formula and \u03c0=.5/accuracy endpoints."
+  ],
+  "significance": "Quantifies directed accountability despite average vote nulls and links it exactly to predictive information.",
+  "contribution_handle": "ECON-D72-527-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "e00086defd0b947cec497937b09b47032311f8972308dbf647df2292223dcf91",
+  "source_sha256": "8ffbc428991d5ccbd54c1d15430aacf89ef15157bbd73ca3bc622a5e15d2a3f5",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

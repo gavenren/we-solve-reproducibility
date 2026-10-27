@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-I22-533",
+  "contribution_handle": "ECON-I22-533-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "b9348a1d7aff5f232b993ea658f32f7facc56f9d09352606a6f37913b5df1a7d",
+  "source_sha256": "c2d1640be8a152d97f92bc338e6d44de4f0787cc52eca6b245144a652515468e",
+  "checked_scope": "Known-curvature coefficient-error allocation regret.",
+  "checks_performed": [
+    "Verified quadratic optimality expansion, common-shift cancellation and completion of square.",
+    "Checked weighted-average minimizing shift, optimizer Lipschitz inequality and interior sharpness.",
+    "Confirmed binding-capacity validity and zero regret for common coefficient error.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Sharp quadratic regret certificate discounts irrelevant common coefficient error."
+}

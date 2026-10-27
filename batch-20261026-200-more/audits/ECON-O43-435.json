@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-O43-435",
+  "contribution_handle": "ECON-O43-435-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "8fb508f8bb006f1204b3e5ec7574b5e058affce9917f74e30548662869235427",
+  "source_sha256": "ecb00aecc004b6346d985f561f6c69ce5b84956e03f176cf0774d4a01929cc8b",
+  "checked_scope": "Full exact manuscript/YAML and multi-instrument direct-channel sensitivity.",
+  "checks_performed": "Checked vector moment necessity/sufficiency, zonotope membership and support separation, nonsingular coordinate intersections, singular covariance and explicit incompatible intervals.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Sharp joint exclusion sensitivity retains cross-instrument restrictions and can refute individually feasible models."
+}

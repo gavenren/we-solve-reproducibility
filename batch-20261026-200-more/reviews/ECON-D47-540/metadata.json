@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D47-540",
+  "problem_id": "prb_80e1f3dc25d141cbac73e7c690253593",
+  "contribution_handle": "ECON-D47-540-A1",
+  "contribution_id": "con_98b4478e1f6a455dbfa45fa2ed85e82a",
+  "revision_id": "rev_78061790c3b548fa84d316878d01eee5",
+  "source_path": "problems/80/prb_80e1f3dc25d141cbac73e7c690253593/contributions/con_98b4478e1f6a455dbfa45fa2ed85e82a/files/D47-540.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/80/prb_80e1f3dc25d141cbac73e7c690253593/contributions/con_98b4478e1f6a455dbfa45fa2ed85e82a/files/D47-540.tex",
+  "title": "Low-order factorial recovery has an exact off-design noise amplification factor",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Derives a closed-form direct interpolation formula and sharp error radius for unobserved high-coverage bundles under the degree restriction.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "4f588e6de9f2d73f943f44763c285ef494ff41da2a623c054673ace64ac6f989"
+}

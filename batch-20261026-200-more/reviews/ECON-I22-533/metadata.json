@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I22-533",
+  "problem_id": "prb_ea6716ecfdd64ec681603fc393e02111",
+  "contribution_handle": "ECON-I22-533-A1",
+  "contribution_id": "con_1d399e63a8ec42c5975341e26a7f01f2",
+  "revision_id": "rev_4d07d45c112b4a429a68662c160e610c",
+  "source_path": "problems/ea/prb_ea6716ecfdd64ec681603fc393e02111/contributions/con_1d399e63a8ec42c5975341e26a7f01f2/files/I22-533.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/ea/prb_ea6716ecfdd64ec681603fc393e02111/contributions/con_1d399e63a8ec42c5975341e26a7f01f2/files/I22-533.tex",
+  "title": "Allocation regret depends only on relative coefficient error and is quadratic",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Proves a sharp curvature-weighted regret bound invariant to common coefficient shifts, stronger than uniform response-error bounds in the known-curvature subclass.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "c2d1640be8a152d97f92bc338e6d44de4f0787cc52eca6b245144a652515468e"
+}

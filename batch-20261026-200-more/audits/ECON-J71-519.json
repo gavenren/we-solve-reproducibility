@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-J71-519",
+  "checked_scope": "Disconnected truthful two-channel prevalence set under bounded conditional covariance.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Checked observed report table, latent harmed-cell construction and covariance function.",
+    "Solved both exact quadratic inequalities to [1/3,2/3] union{1}.",
+    "Recomputed boundary covariances \u00b13/50, exclusion at4/5, derivative turning point and \u03b7 thresholds; verified nonconvex restriction explanation."
+  ],
+  "significance": "Demonstrates sharp disconnected identification that an interval hull would obscure.",
+  "contribution_handle": "ECON-J71-519-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "b3ebc66c652c097e66172d04714ddbeffd18146f34aaa882d248c6f41e203dab",
+  "source_sha256": "6d66c39ab98afeeca3d7b438d3f399db9bae0b64ce7fba458e231d6405f74610",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

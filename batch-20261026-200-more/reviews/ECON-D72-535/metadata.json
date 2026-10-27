@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D72-535",
+  "problem_id": "prb_9ce4ac0f1faf4899b46d79a9797d28e9",
+  "contribution_handle": "ECON-D72-535-A1",
+  "contribution_id": "con_55f3754d510846ab9c56b93189250ef8",
+  "revision_id": "rev_298f6d59465a45379a6da48273025dc8",
+  "source_path": "problems/9c/prb_9ce4ac0f1faf4899b46d79a9797d28e9/contributions/con_55f3754d510846ab9c56b93189250ef8/files/D72-535.tex",
+  "source_sha256": "a29687c31cd594f99ee533f681ad5b02235a62ad9cea832fda3c18a7840de5e2",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/9c/prb_9ce4ac0f1faf4899b46d79a9797d28e9/contributions/con_55f3754d510846ab9c56b93189250ef8/files/D72-535.tex",
+  "title": "Exact many-component attribution geometry from endpoint-only policy experiments",
+  "finding": "Supports the claim",
+  "checked_scope": "m feasible binary policy components with bounded vote-share means and optional component monotonicity.",
+  "significance": "Derives a sharp zonotope/support-function representation of all joint Shapley allocations and a sharp simplex under monotonicity.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

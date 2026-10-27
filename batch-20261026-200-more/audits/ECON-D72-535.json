@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-D72-535",
+  "contribution_handle": "ECON-D72-535-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "b89ccd47504c72cfcdc88fb61d48d75387f5be7444fb3053bd6cfdcf72c62bc6",
+  "source_sha256": "a29687c31cd594f99ee533f681ad5b02235a62ad9cea832fda3c18a7840de5e2",
+  "checked_scope": "m feasible policy-component coalitions with endpoint-only bounded outcome means, unrestricted or monotone hybrids.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Counted positive/negative coalition coefficients by implementation permutations and verified zero-sum segment directions.",
+    "Checked independent-cell binary-uniform sharpness, contrast support function, monotone additive simplex realization and \u0394=0/m=2 boundaries.",
+    "Independently refetched pinned GitHub YAML/manuscript; exact saved bytes match returned Git blob SHAs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Exact many-component joint Shapley zonotope and a sharp monotone-simplex reduction."
+}

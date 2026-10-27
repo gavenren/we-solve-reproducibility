@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D91-530",
+  "problem_id": "prb_61efffe1dc2848b891f431b13fe3d4b2",
+  "contribution_handle": "ECON-D91-530-A1",
+  "contribution_id": "con_bb707d2da131456394cf144f5cdb3f30",
+  "revision_id": "rev_70de4f837f1a4552830467da2f32f27f",
+  "source_path": "problems/61/prb_61efffe1dc2848b891f431b13fe3d4b2/contributions/con_bb707d2da131456394cf144f5cdb3f30/files/D91-530.tex",
+  "source_sha256": "8bb44af75d1b581757d4cdb96e365a6b360f4d3601ba4213b2093563ae95bbfc",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/61/prb_61efffe1dc2848b891f431b13fe3d4b2/contributions/con_bb707d2da131456394cf144f5cdb3f30/files/D91-530.tex",
+  "title": "Exact minimax pooling weights under bounded cross-domain coefficient drift",
+  "finding": "Supports the claim",
+  "checked_scope": "Fixed-design shrinkage coefficient estimation and target prediction; optimal convex linear pooling with bounded domain drift",
+  "significance": "Solves the variance-portability tradeoff by a strictly convex quadratic program, including an explicit two-domain formula and active-set weights for multiple domains.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}
