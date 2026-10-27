@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-E43-556",
+  "contribution_handle": "ECON-E43-556-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "6c6910d5d6068c4782f70bcf40fe2216254ccdb7e2ec16c3471aaf91f6a7ae49",
+  "source_sha256": "21390bee465119783f551f95e4391ede88db3f06e4bd7cdf9abef25a51821c14",
+  "checked_scope": "Full exact manuscript/YAML and unknown-persistence Gaussian covariance recovery.",
+  "checks_performed": "Expanded Hankel determinant, solved recurrence S/P and component weights, checked root/label sufficiency, Gaussian whole-law claim and exact numeric example.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Four-lag recovery identifies unknown transitions up to economically meaningful label ambiguity."
+}

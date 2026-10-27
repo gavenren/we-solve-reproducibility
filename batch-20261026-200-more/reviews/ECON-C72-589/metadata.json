@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-C72-589",
+  "title": "Near-maximum search gives a vanishing-regret benchmark on fine payoff grids",
+  "finding": "Supports the claim",
+  "checked_scope": "A newly specified threshold search-and-uniform-fallback algorithm for iid uniform rational payoff grids with growing resolution.",
+  "significance": "Derives exact stopping/fallback formulas and an O(sqrt(log n)/n) expected-regret guarantee with O(n\u00b2/log n) expected inspected pairs when the grid has at least n levels.",
+  "problem_id": "prb_f69cd3d1ad6746aea1a95dec7f7e31d7",
+  "contribution_handle": "ECON-C72-589-A1",
+  "contribution_id": "con_6dc25833b6fa4f5a9901e7778645d27f",
+  "revision_id": "rev_3643a178175944db81a3ea41fbabebba",
+  "source_path": "problems/f6/prb_f69cd3d1ad6746aea1a95dec7f7e31d7/contributions/con_6dc25833b6fa4f5a9901e7778645d27f/files/C72-589.tex",
+  "source_sha256": "852eca6463924cefaee354c625ff09704587b161085bd294d87641cd6d833b8f",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/f6/prb_f69cd3d1ad6746aea1a95dec7f7e31d7/contributions/con_6dc25833b6fa4f5a9901e7778645d27f/files/C72-589.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

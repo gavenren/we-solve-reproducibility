@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J41-611",
+  "problem_id": "prb_e7034a59e1f24a8f8a21e93e6ec6f6c7",
+  "contribution_handle": "ECON-J41-611-A1",
+  "contribution_id": "con_a8131b4f0b6c43b49d15d03f45f533ee",
+  "revision_id": "rev_c6af0fb68d7b4a819ed81ec41ebeed12",
+  "source_path": "problems/e7/prb_e7034a59e1f24a8f8a21e93e6ec6f6c7/contributions/con_a8131b4f0b6c43b49d15d03f45f533ee/files/J41-611.tex",
+  "source_sha256": "80cf793b0bb6697efde3dc95c0f7df49a897fa1a54dffe708c3940041d85a9ca",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/e7/prb_e7034a59e1f24a8f8a21e93e6ec6f6c7/contributions/con_a8131b4f0b6c43b49d15d03f45f533ee/files/J41-611.tex",
+  "title": "Homogeneous contract thresholds can become multiple cohort sign reversals under latent hazard heterogeneity",
+  "finding": "Supports the claim",
+  "checked_scope": "One-period temporary contract with no external offers, type-specific conversion and unchanged within-type postcontract search hazards.",
+  "significance": "Constructs an exact positive\u2013negative\u2013positive aggregate employment-effect sequence even though every type has a constant postcontract effect sign.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

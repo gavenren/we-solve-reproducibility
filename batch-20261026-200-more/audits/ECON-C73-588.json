@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-C73-588",
+  "contribution_handle": "ECON-C73-588-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "90c22fd52f52822710a524e7e131be2233d41e3c82cfab67e7eb0c02b6c05440",
+  "source_sha256": "83e9f4963cf2411825ea0331e3a7982e5f7cc2c5e5e56b46c67267fa39f016b2",
+  "checked_scope": "iid observable agreement indicators, run length w\u22651 and starting-date revision target.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Verified transient streak matrix, N>n survival indexing and R\u2264H exponent H+w.",
+    "Solved waiting-time recurrence with geometric block tail justification, w=1/p boundaries and equal-marginal perfectly dependent counterexample.",
+    "Independently refetched pinned GitHub YAML/manuscript; exact saved bytes match returned Git blob SHAs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Exact observable revision-window distribution and mean demonstrate the need for temporal dependence information."
+}

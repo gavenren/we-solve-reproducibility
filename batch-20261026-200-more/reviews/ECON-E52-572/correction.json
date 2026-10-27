@@ -1,0 +1,5 @@
+{
+  "old_document_sha256": "8bda2b4e42dc712cf9351a0bd44a64891996c45fb08c1785d9637f9caa2abfdf",
+  "new_document_sha256": "21d8c9f19f9af1400b532750be5d5fcceb4f1bd30089998f29dafbe57782cb9a",
+  "reason": "Independent verifier found endpoint curvature atoms unobservable and converse required finite convex extension beyond shock support."
+}

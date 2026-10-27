@@ -1,6 +1,6 @@
 # 200 more WeSolve contributions — 26 October 2026
 
-181 original scoped mathematical reviews independently checked. 90 GitHub issue submissions recorded. Editorial acceptance is not claimed.
+200 original scoped mathematical reviews independently checked. 102 GitHub issue submissions recorded. Editorial acceptance is not claimed.
 
 Each review identifies an exact upstream revision, gives a substantive independent derivation, extension, sharpness example or computational check, and states its limits. A supporting review is not a solution of the wider catalogue problem.
 
@@ -19,8 +19,12 @@ Upstream snapshot: [`bd5218964aa5efa77ac062e3600b8cfe70df528c`](https://github.c
 | ECON-C23-226 | [Variance-optimal assignment for the integrated derivative target](reviews/ECON-C23-226/review.md) · [audit](audits/ECON-C23-226.json) | [#686](https://github.com/We-Solve/research/issues/686) |
 | ECON-C58-309 | [Complete boundary identification by the minimal feasible face](reviews/ECON-C58-309/review.md) · [audit](audits/ECON-C58-309.json) | [#710](https://github.com/We-Solve/research/issues/710) |
 | ECON-C58-320 | [Sharp norm-ball price ambiguity and its interaction with strict positivity](reviews/ECON-C58-320/review.md) · [audit](audits/ECON-C58-320.json) | [#746](https://github.com/We-Solve/research/issues/746) |
-| ECON-C72-620 | [Fixed-label strategic symmetry can be recognized without a supplied witness](reviews/ECON-C72-620/review.md) · [audit](audits/ECON-C72-620.json) | Checked; not yet recorded as submitted |
-| ECON-C73-606 | [A direct incentive-margin audit gives sharper credible-learning guarantees](reviews/ECON-C73-606/review.md) · [audit](audits/ECON-C73-606.json) | Checked; not yet recorded as submitted |
+| ECON-C72-589 | [Near-maximum search gives a vanishing-regret benchmark on fine payoff grids](reviews/ECON-C72-589/review.md) · [audit](audits/ECON-C72-589.json) | Checked; not yet recorded as submitted |
+| ECON-C72-620 | [Fixed-label strategic symmetry can be recognized without a supplied witness](reviews/ECON-C72-620/review.md) · [audit](audits/ECON-C72-620.json) | [#771](https://github.com/We-Solve/research/issues/771) |
+| ECON-C73-564 | [Sharp eventual-selection bounds when commitment speeds are heterogeneous](reviews/ECON-C73-564/review.md) · [audit](audits/ECON-C73-564.json) | Checked; not yet recorded as submitted |
+| ECON-C73-588 | [Exact run-window revision distributions require temporal dependence information](reviews/ECON-C73-588/review.md) · [audit](audits/ECON-C73-588.json) | Checked; not yet recorded as submitted |
+| ECON-C73-597 | [Entropy score Brownian motion has no omega-limit point with four positive actions](reviews/ECON-C73-597/review.md) · [audit](audits/ECON-C73-597.json) | Checked; not yet recorded as submitted |
+| ECON-C73-606 | [A direct incentive-margin audit gives sharper credible-learning guarantees](reviews/ECON-C73-606/review.md) · [audit](audits/ECON-C73-606.json) | [#772](https://github.com/We-Solve/research/issues/772) |
 | ECON-C78-225 | [Exhaustive independent order-three census and an improved certified block lower bound](reviews/ECON-C78-225/review.md) · [audit](audits/ECON-C78-225.json) | [#687](https://github.com/We-Solve/research/issues/687) |
 | ECON-C78-227 | [A three-agent boundary for sequential consent under correlated costs](reviews/ECON-C78-227/review.md) · [audit](audits/ECON-C78-227.json) | [#698](https://github.com/We-Solve/research/issues/698) |
 | ECON-C78-338 | [A conflict-graph characterization for correlated two-applicant lotteries](reviews/ECON-C78-338/review.md) · [audit](audits/ECON-C78-338.json) | [#734](https://github.com/We-Solve/research/issues/734) |
@@ -32,19 +36,19 @@ Upstream snapshot: [`bd5218964aa5efa77ac062e3600b8cfe70df528c`](https://github.c
 | ECON-D63-242 | [Mixed EF1 for arbitrary signed rescalings of a common two-level utility](reviews/ECON-D63-242/review.md) · [audit](audits/ECON-D63-242.json) | [#689](https://github.com/We-Solve/research/issues/689) |
 | ECON-D72-413 | [Sharp population polarization bounds for binary scores with common known marginals](reviews/ECON-D72-413/review.md) · [audit](audits/ECON-D72-413.json) | [#760](https://github.com/We-Solve/research/issues/760) |
 | ECON-D72-449 | [Repeated independent proxies identify reporting distortions without a known error law](reviews/ECON-D72-449/review.md) · [audit](audits/ECON-D72-449.json) | [#761](https://github.com/We-Solve/research/issues/761) |
-| ECON-D72-476 | [Backward support-function computation for the joint erosion-output region](reviews/ECON-D72-476/review.md) · [audit](audits/ECON-D72-476.json) | Checked; not yet recorded as submitted |
+| ECON-D72-476 | [Backward support-function computation for the joint erosion-output region](reviews/ECON-D72-476/review.md) · [audit](audits/ECON-D72-476.json) | [#773](https://github.com/We-Solve/research/issues/773) |
 | ECON-D72-527 | [Posterior variance exactly measures accountability under uniform voting thresholds](reviews/ECON-D72-527/review.md) · [audit](audits/ECON-D72-527.json) | [#762](https://github.com/We-Solve/research/issues/762) |
 | ECON-D72-535 | [Exact many-component attribution geometry from endpoint-only policy experiments](reviews/ECON-D72-535/review.md) · [audit](audits/ECON-D72-535.json) | [#763](https://github.com/We-Solve/research/issues/763) |
-| ECON-D72-545 | [Finite forgiveness restores recurrent clientelism after false alarms](reviews/ECON-D72-545/review.md) · [audit](audits/ECON-D72-545.json) | Checked; not yet recorded as submitted |
+| ECON-D72-545 | [Finite forgiveness restores recurrent clientelism after false alarms](reviews/ECON-D72-545/review.md) · [audit](audits/ECON-D72-545.json) | [#774](https://github.com/We-Solve/research/issues/774) |
 | ECON-D82-308 | [Global optimality of the worked example's item-pricing revenue](reviews/ECON-D82-308/review.md) · [audit](audits/ECON-D82-308.json) | [#722](https://github.com/We-Solve/research/issues/722) |
 | ECON-D83-243 | [Exact robust persuasion value under an interval of acquisition costs](reviews/ECON-D83-243/review.md) · [audit](audits/ECON-D83-243.json) | [#690](https://github.com/We-Solve/research/issues/690) |
 | ECON-D83-459 | [Partial personalization can trigger a discontinuous monopoly-price jump](reviews/ECON-D83-459/review.md) · [audit](audits/ECON-D83-459.json) | [#764](https://github.com/We-Solve/research/issues/764) |
 | ECON-D83-480 | [Two-menu ambiguity has an exact minimax-regret lottery](reviews/ECON-D83-480/review.md) · [audit](audits/ECON-D83-480.json) | [#765](https://github.com/We-Solve/research/issues/765) |
-| ECON-D84-559 | [A full precision-response curve identifies the attentive-weighted variance law](reviews/ECON-D84-559/review.md) · [audit](audits/ECON-D84-559.json) | Checked; not yet recorded as submitted |
+| ECON-D84-559 | [A full precision-response curve identifies the attentive-weighted variance law](reviews/ECON-D84-559/review.md) · [audit](audits/ECON-D84-559.json) | [#775](https://github.com/We-Solve/research/issues/775) |
 | ECON-D91-530 | [Exact minimax pooling weights under bounded cross-domain coefficient drift](reviews/ECON-D91-530/review.md) · [audit](audits/ECON-D91-530.json) | [#766](https://github.com/We-Solve/research/issues/766) |
 | ECON-E25-291 | [Elastic labor supply preserves the share formula but changes real conduct effects](reviews/ECON-E25-291/review.md) · [audit](audits/ECON-E25-291.json) | [#711](https://github.com/We-Solve/research/issues/711) |
 | ECON-E31-439 | [Boundary point identification and cone-restricted stability without full instrument rank](reviews/ECON-E31-439/review.md) · [audit](audits/ECON-E31-439.json) | [#747](https://github.com/We-Solve/research/issues/747) |
-| ECON-E31-576 | [Gaussian curvature identifies a hidden hinge and its measurement variances](reviews/ECON-E31-576/review.md) · [audit](audits/ECON-E31-576.json) | Checked; not yet recorded as submitted |
+| ECON-E31-576 | [Gaussian curvature identifies a hidden hinge and its measurement variances](reviews/ECON-E31-576/review.md) · [audit](audits/ECON-E31-576.json) | [#776](https://github.com/We-Solve/research/issues/776) |
 | ECON-E32-231 | [Sharp recession-attribution bounds with an aggregate reversal budget](reviews/ECON-E32-231/review.md) · [audit](audits/ECON-E32-231.json) | [#691](https://github.com/We-Solve/research/issues/691) |
 | ECON-E32-428 | [Uniform discounted response-error certificates for slowly changing states](reviews/ECON-E32-428/review.md) · [audit](audits/ECON-E32-428.json) | [#736](https://github.com/We-Solve/research/issues/736) |
 | ECON-E32-451 | [Exact temporal allocation of least-cost permanent repair](reviews/ECON-E32-451/review.md) · [audit](audits/ECON-E32-451.json) | [#767](https://github.com/We-Solve/research/issues/767) |
@@ -53,12 +57,15 @@ Upstream snapshot: [`bd5218964aa5efa77ac062e3600b8cfe70df528c`](https://github.c
 | ECON-E42-224 | [Global remuneration pass-through bounds, including clipped household choices](reviews/ECON-E42-224/review.md) · [audit](audits/ECON-E42-224.json) | [#692](https://github.com/We-Solve/research/issues/692) |
 | ECON-E42-470 | [Exact settlement feasibility requires every holder-subset coverage inequality](reviews/ECON-E42-470/review.md) · [audit](audits/ECON-E42-470.json) | [#769](https://github.com/We-Solve/research/issues/769) |
 | ECON-E43-463 | [World integration yields a debt-weighted harmonic natural rate and exact creditor thresholds](reviews/ECON-E43-463/review.md) · [audit](audits/ECON-E43-463.json) | [#770](https://github.com/We-Solve/research/issues/770) |
-| ECON-E43-524 | [Irreducible uncertainty survives even infinite retrospective smoothing](reviews/ECON-E43-524/review.md) · [audit](audits/ECON-E43-524.json) | Checked; not yet recorded as submitted |
+| ECON-E43-524 | [Irreducible uncertainty survives even infinite retrospective smoothing](reviews/ECON-E43-524/review.md) · [audit](audits/ECON-E43-524.json) | [#777](https://github.com/We-Solve/research/issues/777) |
+| ECON-E43-556 | [Unknown persistence can be recovered from four autocovariances up to economic labels](reviews/ECON-E43-556/review.md) · [audit](audits/ECON-E43-556.json) | Checked; not yet recorded as submitted |
 | ECON-E52-261 | [Mean-and-support uncertainty gives sharp inflation-target bounds](reviews/ECON-E52-261/review.md) · [audit](audits/ECON-E52-261.json) | [#699](https://github.com/We-Solve/research/issues/699) |
 | ECON-E52-316 | [Least-favorable beliefs and an exact minimax value for the terminal policy rule](reviews/ECON-E52-316/review.md) · [audit](audits/ECON-E52-316.json) | [#737](https://github.com/We-Solve/research/issues/737) |
+| ECON-E52-572 | [Finite-shock asymmetry identifies symmetrized curvature, including reserve kinks](reviews/ECON-E52-572/review.md) · [audit](audits/ECON-E52-572.json) | Checked; not yet recorded as submitted |
 | ECON-E62-411 | [Global transfer reallocation after a mean-preserving spread of income risk](reviews/ECON-E62-411/review.md) · [audit](audits/ECON-E62-411.json) | [#749](https://github.com/We-Solve/research/issues/749) |
-| ECON-E62-543 | [Exact geometry of the weak-relevance-safe multiplier confidence set](reviews/ECON-E62-543/review.md) · [audit](audits/ECON-E62-543.json) | Checked; not yet recorded as submitted |
-| ECON-E62-552 | [Sharp population-multiplier bounds from a local complier ratio](reviews/ECON-E62-552/review.md) · [audit](audits/ECON-E62-552.json) | Checked; not yet recorded as submitted |
+| ECON-E62-543 | [Exact geometry of the weak-relevance-safe multiplier confidence set](reviews/ECON-E62-543/review.md) · [audit](audits/ECON-E62-543.json) | [#778](https://github.com/We-Solve/research/issues/778) |
+| ECON-E62-552 | [Sharp population-multiplier bounds from a local complier ratio](reviews/ECON-E62-552/review.md) · [audit](audits/ECON-E62-552.json) | [#779](https://github.com/We-Solve/research/issues/779) |
+| ECON-E62-583 | [Stable risk adjustment identifies the direction and sharp size bounds of credibility revisions](reviews/ECON-E62-583/review.md) · [audit](audits/ECON-E62-583.json) | Checked; not yet recorded as submitted |
 | ECON-F12-265 | [Sharp enforcement-welfare bounds with bounded investment costs](reviews/ECON-F12-265/review.md) · [audit](audits/ECON-F12-265.json) | [#700](https://github.com/We-Solve/research/issues/700) |
 | ECON-F12-267 | [Exact productivity directions and sharper nonlinear network error certificates](reviews/ECON-F12-267/review.md) · [audit](audits/ECON-F12-267.json) | [#701](https://github.com/We-Solve/research/issues/701) |
 | ECON-F13-228 | [Policy comparisons have a sharp exposure-dependent identification threshold](reviews/ECON-F13-228/review.md) · [audit](audits/ECON-F13-228.json) | [#682](https://github.com/We-Solve/research/issues/682) |
@@ -68,12 +75,12 @@ Upstream snapshot: [`bd5218964aa5efa77ac062e3600b8cfe70df528c`](https://github.c
 | ECON-F13-409 | [A computable Lyapunov certificate for nonnormal multi-sector persistence](reviews/ECON-F13-409/review.md) · [audit](audits/ECON-F13-409.json) | [#738](https://github.com/We-Solve/research/issues/738) |
 | ECON-F13-419 | [Three response observations identify both adjustment speeds up to their unavoidable swap](reviews/ECON-F13-419/review.md) · [audit](audits/ECON-F13-419.json) | [#751](https://github.com/We-Solve/research/issues/751) |
 | ECON-F13-420 | [A complete robust sourcing solution for an interior baseline](reviews/ECON-F13-420/review.md) · [audit](audits/ECON-F13-420.json) | [#752](https://github.com/We-Solve/research/issues/752) |
-| ECON-F13-565 | [An entire capacity-response curve identifies the tariff posterior and tests convex order](reviews/ECON-F13-565/review.md) · [audit](audits/ECON-F13-565.json) | Checked; not yet recorded as submitted |
+| ECON-F13-565 | [An entire capacity-response curve identifies the tariff posterior and tests convex order](reviews/ECON-F13-565/review.md) · [audit](audits/ECON-F13-565.json) | [#780](https://github.com/We-Solve/research/issues/780) |
 | ECON-F16-250 | [Sharp compensation-budget bounds from marginal trade-income channels](reviews/ECON-F16-250/review.md) · [audit](audits/ECON-F16-250.json) | [#702](https://github.com/We-Solve/research/issues/702) |
 | ECON-F16-277 | [Dual certificates and a scalar inner solver for the minimum compensation budget](reviews/ECON-F16-277/review.md) · [audit](audits/ECON-F16-277.json) | [#739](https://github.com/We-Solve/research/issues/739) |
-| ECON-F16-522 | [Sharp origin-cohort earnings bounds from unlinked destination distributions and migration counts](reviews/ECON-F16-522/review.md) · [audit](audits/ECON-F16-522.json) | Checked; not yet recorded as submitted |
+| ECON-F16-522 | [Sharp origin-cohort earnings bounds from unlinked destination distributions and migration counts](reviews/ECON-F16-522/review.md) · [audit](audits/ECON-F16-522.json) | [#781](https://github.com/We-Solve/research/issues/781) |
 | ECON-F18-222 | [Exact compensation frontier with clipped Nash policies](reviews/ECON-F18-222/review.md) · [audit](audits/ECON-F18-222.json) | [#683](https://github.com/We-Solve/research/issues/683) |
-| ECON-F18-493 | [Global welfare cancels tariff terms of trade and gives an exact optimal charge](reviews/ECON-F18-493/review.md) · [audit](audits/ECON-F18-493.json) | Checked; not yet recorded as submitted |
+| ECON-F18-493 | [Global welfare cancels tariff terms of trade and gives an exact optimal charge](reviews/ECON-F18-493/review.md) · [audit](audits/ECON-F18-493.json) | [#782](https://github.com/We-Solve/research/issues/782) |
 | ECON-F22-536 | [Global cohort-income and origin-output optima need not select the same migration rate](reviews/ECON-F22-536/review.md) · [audit](audits/ECON-F22-536.json) | Checked; not yet recorded as submitted |
 | ECON-F23-498 | [The entire joint encouragement-compliance type distribution is identified](reviews/ECON-F23-498/review.md) · [audit](audits/ECON-F23-498.json) | Checked; not yet recorded as submitted |
 | ECON-F23-525 | [Rich endpoint distributions can identify the sign of controlled ownership effects](reviews/ECON-F23-525/review.md) · [audit](audits/ECON-F23-525.json) | Checked; not yet recorded as submitted |
@@ -118,6 +125,7 @@ Upstream snapshot: [`bd5218964aa5efa77ac062e3600b8cfe70df528c`](https://github.c
 | ECON-I11-486 | [Sharp longitudinal health-completion bounds under bounded annual changes](reviews/ECON-I11-486/review.md) · [audit](audits/ECON-I11-486.json) | Checked; not yet recorded as submitted |
 | ECON-I11-526 | [A coalition merger prices every insurer-value interaction by its internal multiplicity](reviews/ECON-I11-526/review.md) · [audit](audits/ECON-I11-526.json) | Checked; not yet recorded as submitted |
 | ECON-I11-577 | [General travel-cost distributions yield an exact congestion correction to individual offer effects](reviews/ECON-I11-577/review.md) · [audit](audits/ECON-I11-577.json) | Checked; not yet recorded as submitted |
+| ECON-I11-618 | [Sparse capacity-feasible experiments identify all forest offer coefficients](reviews/ECON-I11-618/review.md) · [audit](audits/ECON-I11-618.json) | Checked; not yet recorded as submitted |
 | ECON-I13-450 | [Robust network benefits can lose submodularity, while policy randomization helps](reviews/ECON-I13-450/review.md) · [audit](audits/ECON-I13-450.json) | Checked; not yet recorded as submitted |
 | ECON-I13-462 | [One initial lottery between two deterministic care policies suffices](reviews/ECON-I13-462/review.md) · [audit](audits/ECON-I13-462.json) | Checked; not yet recorded as submitted |
 | ECON-I14-603 | [A structural-shock correlation bound gives an exact additional income-effect interval](reviews/ECON-I14-603/review.md) · [audit](audits/ECON-I14-603.json) | Checked; not yet recorded as submitted |
@@ -126,7 +134,9 @@ Upstream snapshot: [`bd5218964aa5efa77ac062e3600b8cfe70df528c`](https://github.c
 | ECON-I18-236 | [Removing regularity by ironing virtual readiness costs](reviews/ECON-I18-236/review.md) · [audit](audits/ECON-I18-236.json) | [#685](https://github.com/We-Solve/research/issues/685) |
 | ECON-I18-263 | [Exact budget feasibility and a scalar reduction of the antibiotic contract frontier](reviews/ECON-I18-263/review.md) · [audit](audits/ECON-I18-263.json) | [#709](https://github.com/We-Solve/research/issues/709) |
 | ECON-I18-484 | [The subset dynamic program also solves optimal partial coverage](reviews/ECON-I18-484/review.md) · [audit](audits/ECON-I18-484.json) | Checked; not yet recorded as submitted |
+| ECON-I21-591 | [An exact joint durability polytope with a common bounded-outcome baseline](reviews/ECON-I21-591/review.md) · [audit](audits/ECON-I21-591.json) | Checked; not yet recorded as submitted |
 | ECON-I22-533 | [Allocation regret depends only on relative coefficient error and is quadratic](reviews/ECON-I22-533/review.md) · [audit](audits/ECON-I22-533.json) | Checked; not yet recorded as submitted |
+| ECON-I25-601 | [Cubic coverage activation at the supervision-efficiency threshold](reviews/ECON-I25-601/review.md) · [audit](audits/ECON-I25-601.json) | Checked; not yet recorded as submitted |
 | ECON-I26-514 | [The exact joint transport-sensitivity region for four Shapley mechanisms](reviews/ECON-I26-514/review.md) · [audit](audits/ECON-I26-514.json) | Checked; not yet recorded as submitted |
 | ECON-I32-241 | [Sharp finite-horizon robustness and the escape condition needed for mean-time stability](reviews/ECON-I32-241/review.md) · [audit](audits/ECON-I32-241.json) | [#696](https://github.com/We-Solve/research/issues/696) |
 | ECON-I38-454 | [Optimal saturation support is an exact binomial coverage problem](reviews/ECON-I38-454/review.md) · [audit](audits/ECON-I38-454.json) | [#755](https://github.com/We-Solve/research/issues/755) |
@@ -140,14 +150,18 @@ Upstream snapshot: [`bd5218964aa5efa77ac062e3600b8cfe70df528c`](https://github.c
 | ECON-J22-544 | [Exact surplus incidence of safety improvements with general labor supply](reviews/ECON-J22-544/review.md) · [audit](audits/ECON-J22-544.json) | Checked; not yet recorded as submitted |
 | ECON-J24-515 | [Sharp recovery-rate bounds and a two-horizon identification design](reviews/ECON-J24-515/review.md) · [audit](audits/ECON-J24-515.json) | Checked; not yet recorded as submitted |
 | ECON-J24-585 | [Direct offer-contrast concentration improves the retraining decision certificate](reviews/ECON-J24-585/review.md) · [audit](audits/ECON-J24-585.json) | Checked; not yet recorded as submitted |
+| ECON-J24-590 | [Optimal randomized follow-up of leavers under a fieldwork budget](reviews/ECON-J24-590/review.md) · [audit](audits/ECON-J24-590.json) | Checked; not yet recorded as submitted |
 | ECON-J31-410 | [Sharp joint numerical-error geometry for Shapley attribution with exact endpoints](reviews/ECON-J31-410/review.md) · [audit](audits/ECON-J31-410.json) | [#756](https://github.com/We-Solve/research/issues/756) |
 | ECON-J31-440 | [A scalar projection formula for minimum inequality and an exact partition form for maximum inequality](reviews/ECON-J31-440/review.md) · [audit](audits/ECON-J31-440.json) | Checked; not yet recorded as submitted |
+| ECON-J41-611 | [Homogeneous contract thresholds can become multiple cohort sign reversals under latent hazard heterogeneity](reviews/ECON-J41-611/review.md) · [audit](audits/ECON-J41-611.json) | Checked; not yet recorded as submitted |
+| ECON-J42-574 | [Global optimality with positive recruitment costs requires an exact operating-profit bound](reviews/ECON-J42-574/review.md) · [audit](audits/ECON-J42-574.json) | Checked; not yet recorded as submitted |
 | ECON-J46-550 | [A sharp mixing-sensitive perturbation bound for the lifetime policy contrast](reviews/ECON-J46-550/review.md) · [audit](audits/ECON-J46-550.json) | Checked; not yet recorded as submitted |
 | ECON-J52-253 | [Wages increase monotonically with bargaining power in the stated investment model](reviews/ECON-J52-253/review.md) · [audit](audits/ECON-J52-253.json) | [#718](https://github.com/We-Solve/research/issues/718) |
 | ECON-J61-503 | [An exact positive-series formula for cumulative native wage losses](reviews/ECON-J61-503/review.md) · [audit](audits/ECON-J61-503.json) | Checked; not yet recorded as submitted |
 | ECON-J62-418 | [Full diagonal outcome distributions preserve the sharp missing-cell mean rectangle under monotonicity](reviews/ECON-J62-418/review.md) · [audit](audits/ECON-J62-418.json) | [#742](https://github.com/We-Solve/research/issues/742) |
 | ECON-J62-441 | [Predictive coefficients for arbitrarily many noisy ancestors](reviews/ECON-J62-441/review.md) · [audit](audits/ECON-J62-441.json) | Checked; not yet recorded as submitted |
 | ECON-J62-497 | [Sharp signed-movement bounds when connectedness does not increase for every child](reviews/ECON-J62-497/review.md) · [audit](audits/ECON-J62-497.json) | Checked; not yet recorded as submitted |
+| ECON-J62-562 | [Exact worker-weighted enforcement and why greater worker weight weakly lowers the optimum](reviews/ECON-J62-562/review.md) · [audit](audits/ECON-J62-562.json) | Checked; not yet recorded as submitted |
 | ECON-J64-349 | [Matching-level regret and a sharp robust assignment certificate](reviews/ECON-J64-349/review.md) · [audit](audits/ECON-J64-349.json) | [#743](https://github.com/We-Solve/research/issues/743) |
 | ECON-J65-312 | [Asset heterogeneity increases grouped log-insurance benefits and has variance bounds](reviews/ECON-J65-312/review.md) · [audit](audits/ECON-J65-312.json) | [#731](https://github.com/We-Solve/research/issues/731) |
 | ECON-J71-519 | [Covariance sensitivity can yield a disconnected sharp harassment-prevalence set](reviews/ECON-J71-519/review.md) · [audit](audits/ECON-J71-519.json) | Checked; not yet recorded as submitted |
@@ -160,6 +174,7 @@ Upstream snapshot: [`bd5218964aa5efa77ac062e3600b8cfe70df528c`](https://github.c
 | ECON-L17-432 | [A single equilibrium joining access-fee entry and upstream investment](reviews/ECON-L17-432/review.md) · [audit](audits/ECON-L17-432.json) | [#757](https://github.com/We-Solve/research/issues/757) |
 | ECON-L26-436 | [Sharp joint error bounds for four-block Shapley attribution with known endpoints](reviews/ECON-L26-436/review.md) · [audit](audits/ECON-L26-436.json) | Checked; not yet recorded as submitted |
 | ECON-L26-546 | [The supervision model has an exact global coverage and setup-cost solution](reviews/ECON-L26-546/review.md) · [audit](audits/ECON-L26-546.json) | Checked; not yet recorded as submitted |
+| ECON-L40-616 | [Sharp all-period restoration probabilities from full path marginals](reviews/ECON-L40-616/review.md) · [audit](audits/ECON-L40-616.json) | Checked; not yet recorded as submitted |
 | ECON-L41-333 | [Asymmetric research costs can reverse aggregate responses to a positive merger complement](reviews/ECON-L41-333/review.md) · [audit](audits/ECON-L41-333.json) | Checked; not yet recorded as submitted |
 | ECON-L41-475 | [All-order ownership interactions and the exact entry-saturation sign boundary](reviews/ECON-L41-475/review.md) · [audit](audits/ECON-L41-475.json) | Checked; not yet recorded as submitted |
 | ECON-L42-541 | [A capped fixed fee gives an exact continuum between linear pricing and integration](reviews/ECON-L42-541/review.md) · [audit](audits/ECON-L42-541.json) | Checked; not yet recorded as submitted |
@@ -168,10 +183,12 @@ Upstream snapshot: [`bd5218964aa5efa77ac062e3600b8cfe70df528c`](https://github.c
 | ECON-L74-446 | [A bound on survival-monotonicity violations yields exact productivity intervals](reviews/ECON-L74-446/review.md) · [audit](audits/ECON-L74-446.json) | Checked; not yet recorded as submitted |
 | ECON-L84-438 | [False-positive certification changes both incentive rents and market duration](reviews/ECON-L84-438/review.md) · [audit](audits/ECON-L84-438.json) | Checked; not yet recorded as submitted |
 | ECON-L94-483 | [A finite cycle certificate for permanent-service cash solvency](reviews/ECON-L94-483/review.md) · [audit](audits/ECON-L94-483.json) | Checked; not yet recorded as submitted |
+| ECON-L94-579 | [Optimal allocation of a limited prepaid-electricity bridge budget](reviews/ECON-L94-579/review.md) · [audit](audits/ECON-L94-579.json) | Checked; not yet recorded as submitted |
 | ECON-L95-457 | [Exact implementation with nonnegative connection fees and a disconnected feasible-usage example](reviews/ECON-L95-457/review.md) · [audit](audits/ECON-L95-457.json) | Checked; not yet recorded as submitted |
 | ECON-M12-580 | [The complete one-worker identified set for average within-firm binary quantiles](reviews/ECON-M12-580/review.md) · [audit](audits/ECON-M12-580.json) | Checked; not yet recorded as submitted |
 | ECON-M54-529 | [Exact overlap requirements and exponential sample size for full remote-work policies](reviews/ECON-M54-529/review.md) · [audit](audits/ECON-M54-529.json) | Checked; not yet recorded as submitted |
 | ECON-O14-274 | [Sharp capacity and intervention bounds from observed service employment and output](reviews/ECON-O14-274/review.md) · [audit](audits/ECON-O14-274.json) | [#720](https://github.com/We-Solve/research/issues/720) |
+| ECON-O17-612 | [A temporary registration grant has an exact option-value threshold](reviews/ECON-O17-612/review.md) · [audit](audits/ECON-O17-612.json) | Checked; not yet recorded as submitted |
 | ECON-O18-297 | [An exact Pareto-financing frontier with heterogeneous expenditure shares](reviews/ECON-O18-297/review.md) · [audit](audits/ECON-O18-297.json) | [#721](https://github.com/We-Solve/research/issues/721) |
 | ECON-O31-510 | [Entrant demand for research inputs creates at most one incumbent-innovation hump](reviews/ECON-O31-510/review.md) · [audit](audits/ECON-O31-510.json) | Checked; not yet recorded as submitted |
 | ECON-O32-593 | [Cheapest completed-flow costs make scientific productivity unimodal](reviews/ECON-O32-593/review.md) · [audit](audits/ECON-O32-593.json) | Checked; not yet recorded as submitted |
@@ -181,6 +198,7 @@ Upstream snapshot: [`bd5218964aa5efa77ac062e3600b8cfe70df528c`](https://github.c
 | ECON-O38-542 | [Optimal access intensity has a concave resource-value frontier even when gap closure reverses](reviews/ECON-O38-542/review.md) · [audit](audits/ECON-O38-542.json) | Checked; not yet recorded as submitted |
 | ECON-O41-563 | [Optimal finite-horizon research timing and the curvature boundary](reviews/ECON-O41-563/review.md) · [audit](audits/ECON-O41-563.json) | Checked; not yet recorded as submitted |
 | ECON-O43-435 | [Sharp multi-instrument exclusion sensitivity and joint incompatibility tests](reviews/ECON-O43-435/review.md) · [audit](audits/ECON-O43-435.json) | Checked; not yet recorded as submitted |
+| ECON-O47-596 | [An exact common-depreciation solution for the first nontrivial capital-growth bound](reviews/ECON-O47-596/review.md) · [audit](audits/ECON-O47-596.json) | Checked; not yet recorded as submitted |
 | ECON-Q16-348 | [Least-favorable benefit mixtures characterize the robust research allocation](reviews/ECON-Q16-348/review.md) · [audit](audits/ECON-Q16-348.json) | Checked; not yet recorded as submitted |
 | ECON-Q16-490 | [Exact cessation-time transforms and discounted adoption profits](reviews/ECON-Q16-490/review.md) · [audit](audits/ECON-Q16-490.json) | Checked; not yet recorded as submitted |
 | ECON-Q23-350 | [A multi-region coordination frontier for global avoided clearing](reviews/ECON-Q23-350/review.md) · [audit](audits/ECON-Q23-350.json) | Checked; not yet recorded as submitted |
@@ -189,6 +207,7 @@ Upstream snapshot: [`bd5218964aa5efa77ac062e3600b8cfe70df528c`](https://github.c
 | ECON-Q53-427 | [The complete ambient-health equivalence family has unbounded welfare losses](reviews/ECON-Q53-427/review.md) · [audit](audits/ECON-Q53-427.json) | Checked; not yet recorded as submitted |
 | ECON-Q54-223 | [Sharp finite-horizon joint-kernel certificate by survival coupling](reviews/ECON-Q54-223/review.md) · [audit](audits/ECON-Q54-223.json) | Checked; not yet recorded as submitted |
 | ECON-Q54-512 | [Experimental support design from exact worst-case transport width](reviews/ECON-Q54-512/review.md) · [audit](audits/ECON-Q54-512.json) | Checked; not yet recorded as submitted |
+| ECON-Q54-602 | [Fair weather-index insurance can overinsure adapted farmers](reviews/ECON-Q54-602/review.md) · [audit](audits/ECON-Q54-602.json) | Checked; not yet recorded as submitted |
 | ECON-Q57-292 | [Almost-sure compensability can coexist with infinite expected compensation near the ecological boundary](reviews/ECON-Q57-292/review.md) · [audit](audits/ECON-Q57-292.json) | Checked; not yet recorded as submitted |
 | ECON-Q58-273 | [A fixed cheapest majority and an explicit water-filling durability frontier](reviews/ECON-Q58-273/review.md) · [audit](audits/ECON-Q58-273.json) | Checked; not yet recorded as submitted |
 | ECON-R23-315 | [Sharp finite-reform mobility gains from a local scarcity value and curvature bounds](reviews/ECON-R23-315/review.md) · [audit](audits/ECON-R23-315.json) | Checked; not yet recorded as submitted |

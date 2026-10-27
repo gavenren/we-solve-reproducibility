@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E43-556",
+  "problem_id": "prb_b31220dd17134ff58aaac65685fb2c8f",
+  "contribution_handle": "ECON-E43-556-A1",
+  "contribution_id": "con_e7c73428661e4007ba89e51c44a0ebe1",
+  "revision_id": "rev_8ac18c72ac7340cdb0c74f55de7b8417",
+  "source_path": "problems/b3/prb_b31220dd17134ff58aaac65685fb2c8f/contributions/con_e7c73428661e4007ba89e51c44a0ebe1/files/E43-556.tex",
+  "source_sha256": "21390bee465119783f551f95e4391ede88db3f06e4bd7cdf9abef25a51821c14",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/b3/prb_b31220dd17134ff58aaac65685fb2c8f/contributions/con_e7c73428661e4007ba89e51c44a0ebe1/files/E43-556.tex",
+  "title": "Unknown persistence can be recovered from four autocovariances up to economic labels",
+  "finding": "Supports the claim",
+  "checked_scope": "Population identification of the source's two independent stationary Gaussian AR(1) components when both persistence coefficients are unknown and distinct.",
+  "significance": "Derives explicit Prony-type recovery from lags zero through three and proves the remaining label-switching ambiguity, separating statistical component recovery from naming the neutral rate.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

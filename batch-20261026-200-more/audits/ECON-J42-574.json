@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-J42-574",
+  "contribution_handle": "ECON-J42-574-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "344fcd5cd11f03f7276b73461ef9a6bc21b71c01c4b8e349f4bb13db410e97da",
+  "source_sha256": "11b48f6df78bbced8d8c11cef2670f79a3e786761b693b5fdc9bd827e4f47a26",
+  "checked_scope": "Full exact manuscript/YAML and positive recruitment-cost global wage optimum.",
+  "checks_performed": "Re-derived stationary profit and participation threshold, derivative F and strict concavity/two-root shape, zero/infinite limits, a=0/h=0 cases and inferred-productivity derivative.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Exact operating-profit condition upgrades a stationary flow identity to a global optimum construction."
+}

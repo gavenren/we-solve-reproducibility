@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J62-562",
+  "title": "Exact worker-weighted enforcement and why greater worker weight weakly lowers the optimum",
+  "finding": "Supports the claim",
+  "checked_scope": "The source's two-date portable-training game with worker welfare weight t\u22651 relative to unit owner weight.",
+  "significance": "Solves the distributionally weighted policy objective and proves optimal enforcement is nonincreasing in worker weight, with endpoint/corner treatment.",
+  "problem_id": "prb_5adff52b9ef8487e869759c185e8c2be",
+  "contribution_handle": "ECON-J62-562-A1",
+  "contribution_id": "con_800920b127704d7aaf013fff2b34777e",
+  "revision_id": "rev_114bb6993b1d41958403d977ca11f44a",
+  "source_path": "problems/5a/prb_5adff52b9ef8487e869759c185e8c2be/contributions/con_800920b127704d7aaf013fff2b34777e/files/J62-562.tex",
+  "source_sha256": "214719f02a363c96f203bb71e2f47e3c3a67cd4067d75a6ce3132ef77e2698f4",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/5a/prb_5adff52b9ef8487e869759c185e8c2be/contributions/con_800920b127704d7aaf013fff2b34777e/files/J62-562.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

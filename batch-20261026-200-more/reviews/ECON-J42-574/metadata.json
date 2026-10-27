@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J42-574",
+  "problem_id": "prb_20ad6203eaad46fd8c789522586c2092",
+  "contribution_handle": "ECON-J42-574-A1",
+  "contribution_id": "con_c8a48949e4334cc88144d09ed0cf22b4",
+  "revision_id": "rev_cfbca6d1b5904ec9ba9f16af2bb57978",
+  "source_path": "problems/20/prb_20ad6203eaad46fd8c789522586c2092/contributions/con_c8a48949e4334cc88144d09ed0cf22b4/files/J42-574.tex",
+  "source_sha256": "11b48f6df78bbced8d8c11cef2670f79a3e786761b693b5fdc9bd827e4f47a26",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/20/prb_20ad6203eaad46fd8c789522586c2092/contributions/con_c8a48949e4334cc88144d09ed0cf22b4/files/J42-574.tex",
+  "title": "Global optimality with positive recruitment costs requires an exact operating-profit bound",
+  "finding": "Supports the claim",
+  "checked_scope": "Constant-elasticity recruitment/separation construction with a known positive recruit resource cost and an explicit zero-profit nonoperation option.",
+  "significance": "Extends the source's sharp construction beyond zero recruitment cost and proves the necessary/sufficient global operating condition, preserving full optimization rather than relying on a first-order condition.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

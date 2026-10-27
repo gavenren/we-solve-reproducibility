@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-O47-596",
+  "contribution_handle": "ECON-O47-596-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "5a41f3e6be273f43bce7db401416533044df28679614ac7674e7d9c41412334b",
+  "source_sha256": "52a588c5800f9c7ae642e7b95514e3c79aed0c5fc724f42b598477bcd1d708ae",
+  "checked_scope": "Two-date capital growth with one common retention/depreciation parameter on a compact positive-stock interval.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Derived R(a)=a+J1/(aK0+J0), derivatives, projected interior minimum and endpoint maximum.",
+    "Checked exact example stocks/ratios, connected log-image sharpness, J1=0 and \u03b7=0 cases and common-parameter warning for multi-period profiles.",
+    "Independently refetched pinned GitHub YAML/manuscript; exact saved bytes match returned Git blob SHAs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Solves a sharp common-depreciation capital-growth interval with an interior extremum missed by endpoint-only reasoning."
+}

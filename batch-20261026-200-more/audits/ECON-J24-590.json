@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-J24-590",
+  "contribution_handle": "ECON-J24-590-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "75a235c80834a43eb7eccd41efdc781106326bcb7e6ffd23c357819bf0a0178d",
+  "source_sha256": "14d0add05e64b64392fc0b425fabd1d80fe1c257dc66f4628201c6529a360763",
+  "checked_scope": "Residualized randomized leaver-follow-up score and variance-optimal stratum collection probabilities under expected cost and positivity floor.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently, retaining randomized collection conditional on arm/stratum/leaver status.",
+    "Verified score unbiasedness conditional on full record and exact law-of-total-variance decomposition.",
+    "Checked oracle residualization minimizes second moment and distinguishes raw inverse-weighted design.",
+    "Derived clipped square-root allocation, budget-binding/strict-convexity uniqueness, multiplier existence and corner plateau qualification.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Optimizes a practical follow-up design that preserves full-cohort identification with minimal sampling variance."
+}

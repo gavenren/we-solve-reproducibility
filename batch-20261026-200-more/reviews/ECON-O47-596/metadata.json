@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-O47-596",
+  "problem_id": "prb_2f941af98e7f4cdb9e17e10761bed0b4",
+  "contribution_handle": "ECON-O47-596-A1",
+  "contribution_id": "con_30063727ca5f4d968dd8068875128c6b",
+  "revision_id": "rev_53e8b51e82fc4e6aba7c0b136ea9e00c",
+  "source_path": "problems/2f/prb_2f941af98e7f4cdb9e17e10761bed0b4/contributions/con_30063727ca5f4d968dd8068875128c6b/files/O47-596.tex",
+  "source_sha256": "52a588c5800f9c7ae642e7b95514e3c79aed0c5fc724f42b598477bcd1d708ae",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/2f/prb_2f941af98e7f4cdb9e17e10761bed0b4/contributions/con_30063727ca5f4d968dd8068875128c6b/files/O47-596.tex",
+  "title": "An exact common-depreciation solution for the first nontrivial capital-growth bound",
+  "finding": "Supports the claim",
+  "checked_scope": "Two investment dates, known initial intangible stock and investments, uncertain common depreciation.",
+  "significance": "Solves the stock-growth ratio analytically and constructs an interior extremum despite monotone stock-level bounds, preventing invalid endpoint pairing in productivity residuals.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E62-583",
+  "problem_id": "prb_46e4ff9c0827475c94bd52adde684892",
+  "contribution_handle": "ECON-E62-583-A1",
+  "contribution_id": "con_49c7e6d5033243ec9af0fa89d0bf0392",
+  "revision_id": "rev_271d8a5b2583492bb83dea9b6a8b6789",
+  "source_path": "problems/46/prb_46e4ff9c0827475c94bd52adde684892/contributions/con_49c7e6d5033243ec9af0fa89d0bf0392/files/E62-583.tex",
+  "source_sha256": "09d3960347f6c0b6acfe026232856f69a9c991eadb61e78811603863bbc01bdc",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/46/prb_46e4ff9c0827475c94bd52adde684892/contributions/con_49c7e6d5033243ec9af0fa89d0bf0392/files/E62-583.tex",
+  "title": "Stable risk adjustment identifies the direction and sharp size bounds of credibility revisions",
+  "finding": "Supports the claim",
+  "checked_scope": "Two-announcement extension of the source's binary sovereign-pricing benchmark with a common relative state pricing kernel.",
+  "significance": "Derives the exact common-kernel revision curve, identifies the sign despite unidentified credibility levels, and computes the sharp maximum probability change and bounded-kernel extrema.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

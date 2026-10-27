@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-O17-612",
+  "contribution_handle": "ECON-O17-612-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "92ec3918190cfe3f441231c50f089fd5ec6ea3195b4a32ef10a59228b24e6a39",
+  "source_sha256": "e29c624ad3b81bc5e8a6f9a3cd55738af274eb11d123e5536c3a360af30cd92c",
+  "checked_scope": "Full source/YAML/report; temporary date-zero registration grant threshold, option value, shape and permanent-fee comparison.",
+  "checks_performed": [
+    "Recomputed Vwait maximizer max(1,T*) and exact grant difference D_T.",
+    "Verified convex nonincreasing threshold, immediate-registration zero set, x\u21930 limit C and local date1 formula.",
+    "Checked permanent fee reduction shifts timing threshold only by(1\u2212delta)S and all liquidity/private-value limitations."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Derives the minimal immediate grant needed to accelerate each firm, proves its convex decreasing productivity profile, and separates a deadline grant from a permanent registration-fee subsidy."
+}

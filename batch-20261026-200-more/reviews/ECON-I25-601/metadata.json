@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I25-601",
+  "problem_id": "prb_20fc5d761dce420bb32275b2e6044bac",
+  "contribution_handle": "ECON-I25-601-A1",
+  "contribution_id": "con_4c47f53a94374b91a3bfa697a7a33c01",
+  "revision_id": "rev_e84f60bc4ad04cdebf8cd2b046bf4e11",
+  "source_path": "problems/20/prb_20fc5d761dce420bb32275b2e6044bac/contributions/con_4c47f53a94374b91a3bfa697a7a33c01/files/I25-601.tex",
+  "source_sha256": "67872d42fa59270e3d2b8e326838af1ccc6367435248b7fa68163a6da95c39e8",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/20/prb_20fc5d761dce420bb32275b2e6044bac/contributions/con_4c47f53a94374b91a3bfa697a7a33c01/files/I25-601.tex",
+  "title": "Cubic coverage activation at the supervision-efficiency threshold",
+  "finding": "Supports the claim",
+  "checked_scope": "Unique optimal coverage-supervision model; asymptotics immediately above the positive-program threshold",
+  "significance": "Derives a nontrivial critical law: optimal capacity grows quadratically and coverage cubically above the activation threshold, with the capacity-to-coverage ratio diverging.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

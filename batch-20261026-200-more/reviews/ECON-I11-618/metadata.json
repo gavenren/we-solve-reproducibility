@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I11-618",
+  "problem_id": "prb_6163dd3140e243d9927dd4aaa28cd028",
+  "contribution_handle": "ECON-I11-618-A1",
+  "contribution_id": "con_4989e3b28bb2488ab5a1ffcc6aee2a30",
+  "revision_id": "rev_68b48130acb842478e360a678834833d",
+  "source_path": "problems/61/prb_6163dd3140e243d9927dd4aaa28cd028/contributions/con_4989e3b28bb2488ab5a1ffcc6aee2a30/files/I11-618.tex",
+  "source_sha256": "716f84d0a57655d10b64e46369c9574a0219381af6002b0f50a218880dfcc813",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/61/prb_6163dd3140e243d9927dd4aaa28cd028/contributions/con_4989e3b28bb2488ab5a1ffcc6aee2a30/files/I11-618.tex",
+  "title": "Sparse capacity-feasible experiments identify all forest offer coefficients",
+  "finding": "Supports the claim",
+  "checked_scope": "Alternative randomized research design for the source's known-forest pairwise offer model that respects the deployment count cap whenever K is at least two.",
+  "significance": "Identifies the full coefficient array with exactly n+|E|+1 feasible assignment arms, proves conditional-mean minimality, and propagates simultaneous arm errors into allocation regret.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

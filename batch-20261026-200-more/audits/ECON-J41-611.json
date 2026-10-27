@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-J41-611",
+  "contribution_handle": "ECON-J41-611-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "fe011abfe43993bbf2e202362acc3d84cfb6fe993409df8457f7d2ba545f599f",
+  "source_sha256": "80cf793b0bb6697efde3dc95c0f7df49a897fa1a54dffe708c3940041d85a9ca",
+  "checked_scope": "Three persistent search-hazard types, one-period lock-in, no outside offers and unchanged postcontract type hazards.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Derived within-type (1\u2212p)^(t\u22121)(q\u2212p) effect directly from survival laws.",
+    "Recomputed all rational dates1/2/5/6 signs and eventual dominance of the slowest-decaying positive type; verified fixed baseline weights and probability restrictions.",
+    "Independently refetched pinned GitHub YAML/manuscript; exact saved bytes match returned Git blob SHAs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Constructs two cohort sign reversals without any type\u2019s effect changing sign or search technology improving."
+}

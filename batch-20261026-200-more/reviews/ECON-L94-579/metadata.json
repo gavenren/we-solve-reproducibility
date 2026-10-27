@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-L94-579",
+  "title": "Optimal allocation of a limited prepaid-electricity bridge budget",
+  "finding": "Supports the claim",
+  "checked_scope": "Heterogeneous initially liquidity-constrained households under fixed prepaid tariffs and the source's repayable bridge technology.",
+  "significance": "Solves the aggregate bridge allocation with a common shadow price, gives exact marginal-benefit ranking and a concave budget-value frontier while preserving repayment and generation-cost accounting.",
+  "problem_id": "prb_6b3f279b904541c7b98b4057017c553b",
+  "contribution_handle": "ECON-L94-579-A1",
+  "contribution_id": "con_e2f71c5d27404958917bdadfba1872a1",
+  "revision_id": "rev_d0cb376fcc3c45faa5837ab1228fdd4a",
+  "source_path": "problems/6b/prb_6b3f279b904541c7b98b4057017c553b/contributions/con_e2f71c5d27404958917bdadfba1872a1/files/L94-579.tex",
+  "source_sha256": "dd49e2a6d6f669b0032cf234af6c4561386e711be74d4dd24b8208cf4824a631",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/6b/prb_6b3f279b904541c7b98b4057017c553b/contributions/con_e2f71c5d27404958917bdadfba1872a1/files/L94-579.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

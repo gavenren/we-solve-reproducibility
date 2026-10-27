@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-L40-616",
+  "problem_id": "prb_94cf4748105a4261a5d907ab3611fbd0",
+  "contribution_handle": "ECON-L40-616-A1",
+  "contribution_id": "con_b08fb6ebf7fb4522856f788438b95035",
+  "revision_id": "rev_95a55595913d41d493ce909413aa18f1",
+  "source_path": "problems/94/prb_94cf4748105a4261a5d907ab3611fbd0/contributions/con_b08fb6ebf7fb4522856f788438b95035/files/L40-616.tex",
+  "source_sha256": "04c7ab14f8a71d12a0d3ae6c0fbd3bfcd87b6b333c1fcc0408a5fb9844534896",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/94/prb_94cf4748105a4261a5d907ab3611fbd0/contributions/con_b08fb6ebf7fb4522856f788438b95035/files/L40-616.tex",
+  "title": "Sharp all-period restoration probabilities from full path marginals",
+  "finding": "Supports the claim",
+  "checked_scope": "Restoration-probability identification boundary; finite outcome-path supports and arbitrary tolerance compatibility relation",
+  "significance": "Extends binary restoration bounds to arbitrary finite paths through two exact max-flow/deficiency formulas, proving sharpness and recovering the source's binary expression.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

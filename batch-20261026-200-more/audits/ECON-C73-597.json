@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-C73-597",
+  "contribution_handle": "ECON-C73-597-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "0477890b7eff397d79faa46e71c8ce8b2c07b2c2a4dfff6397d9afcf6047ec5a",
+  "source_sha256": "99908332ccffd578b3161aa767982ea761e1ec57122110bb343aadfb704caf92",
+  "checked_scope": "Full source/YAML/report; entropy Brownian score dynamics with constant payoffs and nondegenerate covariance.",
+  "checks_performed": [
+    "Checked inferior-action exponential drift elimination using Brownian/t limit.",
+    "Verified each four-best-action log-ratio covariance is positive definite and3D transience excludes simultaneous probabilities\u2265epsilon eventually.",
+    "Checked finite-subset/countable-epsilon omega argument, unique-best convergence,2/3-best recurrence and larger-tie containment-only scope."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Strengthens boundary containment to the two-dimensional simplex skeleton for arbitrarily many tied best actions, and extends the zero-payoff calculation to fixed unequal payoffs."
+}

@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-E62-583",
+  "contribution_handle": "ECON-E62-583-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "f6c5ded9b0a96eb63a1894608ad96fcc59912ee42540786ed200333fd3c43417",
+  "source_sha256": "09d3960347f6c0b6acfe026232856f69a9c991eadb61e78811603863bbc01bdc",
+  "checked_scope": "Full exact manuscript/YAML and stable relative-risk credibility revisions.",
+  "checks_performed": "Checked odds inversion common-r curve, positive sign, derivative/unimodal maximum, open zero bound, restricted-r endpoints and positive-kernel sharpness construction.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Sharp joint credibility-change region identifies direction while bounding magnitude under a substantive stable risk-adjustment exclusion."
+}

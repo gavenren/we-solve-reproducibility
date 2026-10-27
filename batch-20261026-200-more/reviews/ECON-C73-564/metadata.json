@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-C73-564",
+  "problem_id": "prb_c7087fcc13aa4d88b2100a4120e73bcb",
+  "contribution_handle": "ECON-C73-564-A1",
+  "contribution_id": "con_a9bb069109bd41ddb1250291a5d897ff",
+  "revision_id": "rev_39c55f4841f24b12ba40f3659d3eec8a",
+  "source_path": "problems/c7/prb_c7087fcc13aa4d88b2100a4120e73bcb/contributions/con_a9bb069109bd41ddb1250291a5d897ff/files/C73-564.tex",
+  "source_sha256": "95cf8376dbc7c866340108837a1695ac748c05a53ae64bb7608db40c6d4b0c62",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/c7/prb_c7087fcc13aa4d88b2100a4120e73bcb/contributions/con_a9bb069109bd41ddb1250291a5d897ff/files/C73-564.tex",
+  "title": "Sharp eventual-selection bounds when commitment speeds are heterogeneous",
+  "finding": "Supports the claim",
+  "checked_scope": "Extension of the source's empirical-profile timing model to an arbitrary distribution of positive commitment hazards within one equilibrium-destined group.",
+  "significance": "Shows two-horizon homogeneous inversion identifies the minimum possible eventual mass and derives the complete sharp eventual-selection interval under speed heterogeneity.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

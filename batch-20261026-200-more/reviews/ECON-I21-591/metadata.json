@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I21-591",
+  "problem_id": "prb_a9c216bfe7654ac49ed3e886ee724786",
+  "contribution_handle": "ECON-I21-591-A1",
+  "contribution_id": "con_cc269e6c263c4cf3a66d51c7aa4c27e1",
+  "revision_id": "rev_4db9d4e5c3f24c28b6b890e82f3d1d14",
+  "source_path": "problems/a9/prb_a9c216bfe7654ac49ed3e886ee724786/contributions/con_cc269e6c263c4cf3a66d51c7aa4c27e1/files/I21-591.tex",
+  "source_sha256": "433858bf95f54b6ad4db0ccc2d906280825c64e6dcfd0fea0cf749f89bb5850a",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/a9/prb_a9c216bfe7654ac49ed3e886ee724786/contributions/con_cc269e6c263c4cf3a66d51c7aa4c27e1/files/I21-591.tex",
+  "title": "An exact joint durability polytope with a common bounded-outcome baseline",
+  "finding": "Supports the claim",
+  "checked_scope": "Two active tutor-arm six-month mean effects under the source's common persistence parameter and bounded deviation restriction.",
+  "significance": "Characterizes the sharp joint delayed-effect region, adding the essential common-baseline range restriction and proving constructive future-outcome realizability.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

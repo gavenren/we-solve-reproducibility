@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-C73-597",
+  "title": "Entropy score Brownian motion has no omega-limit point with four positive actions",
+  "finding": "Supports the claim",
+  "checked_scope": "One-player entropy FTRL with fixed action payoffs and constant nondegenerate score Brownian noise; interior initialization.",
+  "significance": "Strengthens boundary containment to the two-dimensional simplex skeleton for arbitrarily many tied best actions, and extends the zero-payoff calculation to fixed unequal payoffs.",
+  "problem_id": "prb_2d15bc49241744deb9229548476532a7",
+  "contribution_handle": "ECON-C73-597-A1",
+  "contribution_id": "con_31035f004fc841f0b3927f96cdc74b6b",
+  "revision_id": "rev_d7688cac0f584b759c934f3613ef782f",
+  "source_path": "problems/2d/prb_2d15bc49241744deb9229548476532a7/contributions/con_31035f004fc841f0b3927f96cdc74b6b/files/C73-597.tex",
+  "source_sha256": "99908332ccffd578b3161aa767982ea761e1ec57122110bb343aadfb704caf92",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/2d/prb_2d15bc49241744deb9229548476532a7/contributions/con_31035f004fc841f0b3927f96cdc74b6b/files/C73-597.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

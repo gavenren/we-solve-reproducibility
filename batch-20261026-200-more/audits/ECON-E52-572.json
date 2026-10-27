@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-E52-572",
+  "contribution_handle": "ECON-E52-572-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "21d8c9f19f9af1400b532750be5d5fcceb4f1bd30089998f29dafbe57782cb9a",
+  "source_sha256": "1a9321f8133a02f6ce0196ba7e3e3b1c8b41c284929044a7ca21f8492533cb16",
+  "checked_scope": "Full source/YAML and corrected final report; convex curvature-measure identity, interior radial identification and extension-qualified profile converse.",
+  "checks_performed": [
+    "Verified hinge integral for smooth and atomic curvature, including atom at zero and cancellation of affine terms.",
+    "Checked right-derivative recovery of radial measure on[0,A), side-label nonidentification and invisibility of atoms at\u00b1A.",
+    "Requested and rechecked explicit endpoint nonidentification plus finite convex nondecreasing extension condition in converse; final bytes match corrected READY."
+  ],
+  "changes_made": [
+    "Author narrowed radial curvature identification to [0,A), explicitly excluded atoms at +/-A, and imposed a finite convex nondecreasing extension beyond A in the converse, following independent audit."
+  ],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Extends the smooth curvature identity to a curvature measure and characterizes exactly what a whole asymmetry profile identifies and which left\u2013right threshold ambiguity remains."
+}

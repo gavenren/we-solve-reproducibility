@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-C73-564",
+  "contribution_handle": "ECON-C73-564-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "a20ac4ce1d80b44e331b1c3bb83fb0df6f18948c1e8495e408060cf90d303621",
+  "source_sha256": "95cf8376dbc7c866340108837a1695ac748c05a53ae64bb7608db40c6d4b0c62",
+  "checked_scope": "Full exact manuscript/YAML and heterogeneous positive commitment hazards.",
+  "checks_performed": "Checked first/two-horizon moment equations, variance lower mass bound, compatibility cases, explicit two-point positive hazard realization and numerical moments, common-mass limitation.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Sharp eventual-selection mass interval quantifies what homogeneous-hazard inversion omits."
+}

@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-I11-618",
+  "contribution_handle": "ECON-I11-618-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "8847152e5de6c0bcc7f5e79dcc484f5f1c0ec6bde2f07068dea586f4728c7c17",
+  "source_sha256": "716f84d0a57655d10b64e46369c9574a0219381af6002b0f50a218880dfcc813",
+  "checked_scope": "Full exact manuscript/YAML and hard-capacity sparse experimental identification.",
+  "checks_performed": "Checked empty/singleton/edge inversion, all arms cap<=2, rank lower bound and full-law equivalence, K<=1 decision sufficiency, coefficient radii and forest regret propagation.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Minimal-arm capacity-feasible experiment removes the source research-capacity requirement within the pairwise model."
+}

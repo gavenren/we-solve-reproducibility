@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-L94-579",
+  "contribution_handle": "ECON-L94-579-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "e3b9b2470dbfd396634735a8b921db786208c6c5b31a7ec0184bad3aa7ecbf64",
+  "source_sha256": "dd49e2a6d6f669b0032cf234af6c4561386e711be74d4dd24b8208cf4824a631",
+  "checked_scope": "Full source/YAML/report; limited aggregate bridge-principal allocation across heterogeneous prepaid households.",
+  "checks_performed": [
+    "Derived objective curvature\u22121/p_i\u00b2, interior marginal condition and clipped bridge formula.",
+    "Checked scalar multiplier existence/nonuniqueness versus unique allocation, B0 and slack-budget cases.",
+    "Recomputed scarcity-ranking example and concavity/nondecrease of budget-value frontier; principal/real-cost accounting sound."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Solves the aggregate bridge allocation with a common shadow price, gives exact marginal-benefit ranking and a concave budget-value frontier while preserving repayment and generation-cost accounting."
+}

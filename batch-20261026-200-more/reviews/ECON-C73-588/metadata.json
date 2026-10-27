@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-C73-588",
+  "problem_id": "prb_b5d1a6810d3a42f2934b8dc94eab5e88",
+  "contribution_handle": "ECON-C73-588-A1",
+  "contribution_id": "con_43026d08fa86427697697b71a74514d2",
+  "revision_id": "rev_de10302139e6430697be843278d0a525",
+  "source_path": "problems/b5/prb_b5d1a6810d3a42f2934b8dc94eab5e88/contributions/con_43026d08fa86427697697b71a74514d2/files/C73-588.tex",
+  "source_sha256": "83e9f4963cf2411825ea0331e3a7982e5f7cc2c5e5e56b46c67267fa39f016b2",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/b5/prb_b5d1a6810d3a42f2934b8dc94eab5e88/contributions/con_43026d08fa86427697697b71a74514d2/files/C73-588.tex",
+  "title": "Exact run-window revision distributions require temporal dependence information",
+  "finding": "Supports the claim",
+  "checked_scope": "Observable consecutive-belief criterion under an explicit independent-round success benchmark.",
+  "significance": "Derives exact finite-horizon run-window probabilities and mean starting date, and proves that identical marginal belief-criterion rates do not identify either.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

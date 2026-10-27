@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-Q54-602",
+  "problem_id": "prb_908b897637e24cc09279dc38fddba408",
+  "contribution_handle": "ECON-Q54-602-A1",
+  "contribution_id": "con_694a5274c4a2468ab1be10b5fde1f384",
+  "revision_id": "rev_73ffae74c6904cef8283631803ddd3d3",
+  "source_path": "problems/90/prb_908b897637e24cc09279dc38fddba408/contributions/con_694a5274c4a2468ab1be10b5fde1f384/files/Q54-602.tex",
+  "source_sha256": "6d2273cfde592a90e4035d269b3ca0901b944f1b75db39be0848172e546fb15b",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/90/prb_908b897637e24cc09279dc38fddba408/contributions/con_694a5274c4a2468ab1be10b5fde1f384/files/Q54-602.tex",
+  "title": "Fair weather-index insurance can overinsure adapted farmers",
+  "finding": "Supports the claim",
+  "checked_scope": "Separate fixed weather-index contract extension of the source's CARA farmer model, with correct beliefs and fair premium independent of realized adaptation losses.",
+  "significance": "Derives the exact adoption threshold, proves overinsurance can reverse monotone coverage welfare for adapters, and solves joint coverage/adaptation choice.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

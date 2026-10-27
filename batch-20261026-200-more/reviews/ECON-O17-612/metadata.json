@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-O17-612",
+  "title": "A temporary registration grant has an exact option-value threshold",
+  "finding": "Supports the claim",
+  "checked_scope": "The source's deterministic growing-productivity registration model with an unanticipated grant paid only for registration at date zero.",
+  "significance": "Derives the minimal immediate grant needed to accelerate each firm, proves its convex decreasing productivity profile, and separates a deadline grant from a permanent registration-fee subsidy.",
+  "problem_id": "prb_db2942aecf7544faba3576effe9c85c7",
+  "contribution_handle": "ECON-O17-612-A1",
+  "contribution_id": "con_fd718e3e1bcc445ea2160183f11ef9e1",
+  "revision_id": "rev_e8b2ee421664415cb0e5f55519aad8a1",
+  "source_path": "problems/db/prb_db2942aecf7544faba3576effe9c85c7/contributions/con_fd718e3e1bcc445ea2160183f11ef9e1/files/O17-612.tex",
+  "source_sha256": "e29c624ad3b81bc5e8a6f9a3cd55738af274eb11d123e5536c3a360af30cd92c",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/db/prb_db2942aecf7544faba3576effe9c85c7/contributions/con_fd718e3e1bcc445ea2160183f11ef9e1/files/O17-612.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}
