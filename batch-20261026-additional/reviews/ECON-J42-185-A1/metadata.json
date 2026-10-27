@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-J42-185-A1",
+  "problem_id": "prb_3590da7499a24bcc9aab47d89c0b05b9",
+  "contribution_handle": "ECON-J42-185-A1",
+  "contribution_id": "con_467f4442c296441db8e2628f7499d6f2",
+  "revision_id": "rev_610a7900686f44f9b0735eb5b84efac0",
+  "source_path": "problems/35/prb_3590da7499a24bcc9aab47d89c0b05b9/contributions/con_467f4442c296441db8e2628f7499d6f2/files/J42-185.tex",
+  "source_sha256": "d6bd09405ec100cab31eca6e6873c4e488d0375f331b806f65d5a263a44a6a58",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/35/prb_3590da7499a24bcc9aab47d89c0b05b9/contributions/con_467f4442c296441db8e2628f7499d6f2/files/J42-185.tex",
+  "title": "Independent observational-equivalence check and a known-output refinement",
+  "finding": "Supports the claim",
+  "checked_scope": "Baseline/competitive labor equilibrium, retention, rectangular sharp bounds and wage/employment response inversion; independently constructs equal-baseline/equal-passthrough models with different wage gains and derives sharp bounds on the known-K compatibility curve.",
+  "author": "/root/reviews_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

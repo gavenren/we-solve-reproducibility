@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-D47-174-A1",
+  "problem_id": "prb_60bdfdcbbee84a5692b684546f829142",
+  "contribution_handle": "ECON-D47-174-A1",
+  "contribution_id": "con_6480d3adb78a432a812d94f4167098ab",
+  "revision_id": "rev_650c4fa9c47a43a782c1ca1399ef522c",
+  "source_path": "problems/60/prb_60bdfdcbbee84a5692b684546f829142/contributions/con_6480d3adb78a432a812d94f4167098ab/files/D47-174.tex",
+  "source_sha256": "4759ead8c659328f340063dd4069640b19ba70d5cc5f9d45fe3a8d279a92f785",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/60/prb_60bdfdcbbee84a5692b684546f829142/contributions/con_6480d3adb78a432a812d94f4167098ab/files/D47-174.tex",
+  "title": "An extremal graph attains the reservation bound without an individual-rationality loss",
+  "finding": "Supports the claim",
+  "checked_scope": "Reservation theorem and its 1/K ratio; distinction between reservation and individual rationality; weighted obstruction; two-type accounting. Provides a tight graph family for every cycle cap K.",
+  "author": "/root/reviews_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

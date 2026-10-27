@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-Q54-163",
+  "contribution_handle": "ECON-Q54-163-A1",
+  "reviewer": "/root/reviews_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "2f1133df1d85bab9d097917f823aa559962fa1ca6a8bc1c9cdae8ad9f07561a6",
+  "source_sha256": "82ed20ca3673b8fda6dee29e5f660267f0f6bbb13b61c9b45e29f51c3e30ff18",
+  "checked_scope": "Finite convolution and pulse-to-step reduction; Unrestricted tail nonidentification; Sharp independent-box joint set and universal certificates; Exact persistent-path existence recursion and incompatible-marginal example; Weather-only observational equivalence counterexample Full contribution YAML and manuscript read; every additional result and example independently checked.",
+  "checks_performed": [
+    "Verified saved manuscript Git blob SHA against a fresh GitHub fetch at pinned commit bd5218964aa5efa77ac062e3600b8cfe70df528c; independently recomputed source SHA256 and matched metadata; checked IDs and revision.",
+    "Rederived pulse-to-step cumulative sum, unrestricted-tail inverse construction and box extrema under finite invariant linear response.",
+    "Proved reachable persistence values form exact intervals by Minkowski addition and corridor intersection; reconstructed the backward predecessor step.",
+    "Checked the epsilon=1, psi1 in [-2,2], psi2=3 example: every separate band intersects the corridor but no joint persistent path exists.",
+    "Verified existential growth loss uses each lower endpoint <= -2 epsilon, universal growth loss uses each upper endpoint <= -2 epsilon.",
+    "Checked arbitrary permanent response sequences remain observationally invisible under weather-only interventions with climate coordinate zero."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External bibliography and priority claims not independently audited; substantive proofs checked directly against the exact contribution manuscript.",
+    "Independent AI mathematical audit and finite numerical supplements; no formal proof verification or independent human proof audit.",
+    "Approval is confined to the stated restricted source model and new review results, without empirical or complete open-problem resolution."
+  ],
+  "significance": "Exact linear-time interval reachability and backward witness construction for existence of a persistent response; explicit incompatible-marginal example."
+}

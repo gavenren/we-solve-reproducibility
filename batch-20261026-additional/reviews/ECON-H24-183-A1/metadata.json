@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-H24-183-A1",
+  "problem_id": "prb_d9ee126843624b42bd48f43646cfd7a9",
+  "contribution_handle": "ECON-H24-183-A1",
+  "contribution_id": "con_3f1489411d2a445487d31578b6c6f6f4",
+  "revision_id": "rev_1520032f90904a4e9a27e7cd223b08c3",
+  "source_path": "problems/d9/prb_d9ee126843624b42bd48f43646cfd7a9/contributions/con_3f1489411d2a445487d31578b6c6f6f4/files/H24-183.tex",
+  "source_sha256": "396b56df44397e776d0407251238b724b2ee5aba204c679280911fcc4d9cb524",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/d9/prb_d9ee126843624b42bd48f43646cfd7a9/contributions/con_3f1489411d2a445487d31578b6c6f6f4/files/H24-183.tex",
+  "title": "Independent check of timing neutrality and hidden-transfer sharpness",
+  "finding": "Supports the claim",
+  "checked_scope": "Gift optimum, cohort slope/revenue accounting, d=1 harmonization, and hidden-transfer sharpness; independently derives a d<1 failure of the harmonization operation and the exact hidden-slope interval with an added aggregate-transfer mean in a two-point example.",
+  "author": "/root/reviews_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-D73-170-A1",
+  "problem_id": "prb_c737e18279494187a1ed75cd73e3fcd1",
+  "contribution_handle": "ECON-D73-170-A1",
+  "contribution_id": "con_475fd59d414a4af0aab3111f613ac8f7",
+  "revision_id": "rev_4b23e71ca76d41689f6c2557ec432234",
+  "source_path": "problems/c7/prb_c737e18279494187a1ed75cd73e3fcd1/contributions/con_475fd59d414a4af0aab3111f613ac8f7/files/D73-170.tex",
+  "source_sha256": "ecc049a87bf86bd564e4bfcfa2f2985b4e23bcfea94bcc76f3cf05d92152f684",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/c7/prb_c737e18279494187a1ed75cd73e3fcd1/contributions/con_475fd59d414a4af0aab3111f613ac8f7/files/D73-170.tex",
+  "title": "Exact regret under the anchored audit box and a decision-rule separation",
+  "finding": "Supports the claim",
+  "checked_scope": "Strategic effort/gaming calculation; audit sharpness and factorial interaction interval; robust policy choice and regret inequality. Derives the exact deterministic minimax-regret criterion for the same product identified set.",
+  "author": "/root/reviews_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-H11-187",
+  "contribution_handle": "ECON-H11-187-A1",
+  "source_sha256": "d366add77fd150bf0405f446d60ca09b4bffd893a4dd2e7e8052570a7f53e1a5",
+  "document_sha256": "78a363dbc31338f873dc5a3e086f6c9c1bbab4c42d3b523a51ecbf93ead99586",
+  "reviewer": "/root/reviews_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "checked_scope": "Sequential equilibrium and comparative statics; conditional pathwise safety theorem; new exact oversight cap/service thresholds and opposite interim-service rankings for two fully safe reform orders.",
+  "checks_performed": [
+    "Read complete pinned manuscript, YAML metadata and final review; distinguished pathwise safeguard from terminal expected constraints.",
+    "Derived min{k,1/a}<=r iff k<=r or a>=1/r for positive r, and verified the claimed unsafe-capacity-first configuration under safe endpoints.",
+    "Solved the positive-service inequality independently, checked impossibility at q*>=wk for finite oversight, and verified interior-regime consistency.",
+    "Recomputed interim outputs 9/8 versus 9/16 and 1/110 versus 81/100 and checked appropriation caps at all relevant states.",
+    "Inspected and reran check_c.py; service-ranking assertions passed.",
+    "Recomputed actual source and final-review SHA256 and confirmed metadata IDs/revision."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External research references cited by the source were not independently retrieved or verified; this audit checks the pinned manuscript and review mathematics.",
+    "AI mathematical review and finite checks only; no formal proof-assistant verification or human verification.",
+    "Approval is limited to the stated restricted model and does not certify empirical applicability, novelty or resolution of the original open problem."
+  ],
+  "significance": "Exact service-and-safety implementation thresholds plus examples proving safety sequencing dominance does not rank interim service."
+}

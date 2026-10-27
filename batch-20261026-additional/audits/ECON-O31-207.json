@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-O31-207",
+  "contribution_handle": "ECON-O31-207-A1",
+  "reviewer": "/root/reviews_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "8482e96d22fc63e9e27c52c02ac3276b2b4a17fdc1cc370f6207cf71775acfd7",
+  "source_sha256": "54688e635c6630327c7dcaae7dec921030e21ec223f8c750cddc17a5260606c2",
+  "checked_scope": "Source one-experiment welfare and capture/budget proposition; every new posterior, mean-variance formula, sharp envelope, attainable range, optimality threshold and numerical example.",
+  "checks_performed": [
+    "Read complete pinned manuscript and exploration metadata; checked the two-period welfare and grant/capture accounting.",
+    "Derived Bernoulli posterior means from the first two prior moments; verified both information-value branches, endpoint means, sharp mean-fixed envelope, attainable intermediate values and strict optimality thresholds.",
+    "Exact rational arithmetic on 300 seeded four-point priors independently confirmed the mean-variance information formula, including boundary and no-crossing cases; checked the source 0.9/0.1 example exactly.",
+    "Verified actual manuscript SHA256 and Git blob SHA against saved metadata; checked pinned path, contribution/revision IDs and final report scope."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External bibliography and literature-priority claims were not independently verified.",
+    "No formal verification or human expert verification is claimed.",
+    "Support is limited to the explicitly stated model and observation/representation scheme; it does not resolve the original open problem."
+  ],
+  "significance": "Sharp mean-variance information-value formula and complete feasibility boundary for selecting a lower-mean experiment after one Bernoulli signal."
+}

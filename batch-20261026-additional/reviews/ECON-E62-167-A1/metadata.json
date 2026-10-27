@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-E62-167-A1",
+  "problem_id": "prb_902bce6e56404e09871c605ce1734dfb",
+  "contribution_handle": "ECON-E62-167-A1",
+  "contribution_id": "con_9c719e656a57457ead5881818fadb225",
+  "revision_id": "rev_ce735a77a4914167aae40c8096cec113",
+  "source_path": "problems/90/prb_902bce6e56404e09871c605ce1734dfb/contributions/con_9c719e656a57457ead5881818fadb225/files/E62-167.tex",
+  "source_sha256": "c46085d81688a3592fe4ecae0c30851272d0936228263ae077b473529b93859c",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/90/prb_902bce6e56404e09871c605ce1734dfb/contributions/con_9c719e656a57457ead5881818fadb225/files/E62-167.tex",
+  "title": "A constructive monitoring-budget multiplier and exact sensitivity check",
+  "finding": "Supports the claim",
+  "checked_scope": "One-period concealment incentive constraint; clipped statewise optimum; administrative-budget feasibility and multiplier characterization. Adds finite constructive multiplier existence and local budget sensitivity.",
+  "author": "/root/reviews_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

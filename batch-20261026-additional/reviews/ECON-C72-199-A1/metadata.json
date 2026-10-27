@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-C72-199-A1",
+  "problem_id": "prb_3dfc7665fcac4b5e92c5300ab46a3cd2",
+  "contribution_handle": "ECON-C72-199-A1",
+  "contribution_id": "con_a81beacc02274959afbc690780820867",
+  "revision_id": "rev_d02fad8ebac243a19ad66ca0e97eeefa",
+  "source_path": "problems/3d/prb_3dfc7665fcac4b5e92c5300ab46a3cd2/contributions/con_a81beacc02274959afbc690780820867/files/C72-199.tex",
+  "source_sha256": "ad6bdd0835fec0e1f82d70324953217d89e9a673b6226bda4eda1c7530c95c04",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/3d/prb_3dfc7665fcac4b5e92c5300ab46a3cd2/contributions/con_a81beacc02274959afbc690780820867/files/C72-199.tex",
+  "title": "Dual centering certificates and sharpness of the structural regret factor",
+  "finding": "Supports the claim",
+  "checked_scope": "Strategic shifts, zero-sum structural regret certificate, fallback and constant-list grid complexity; independently derives the balanced-matrix centering dual, exact 2x2 centering and a sharp regret example, and checks 200 rational games with exact arithmetic.",
+  "author": "/root/reviews_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

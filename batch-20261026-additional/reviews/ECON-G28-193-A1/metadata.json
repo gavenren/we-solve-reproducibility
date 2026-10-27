@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-G28-193-A1",
+  "problem_id": "prb_d2bc49a5f5a84824bb3cda42d0b9743a",
+  "contribution_handle": "ECON-G28-193-A1",
+  "contribution_id": "con_76310058ef604c3e84a51d768716b4df",
+  "revision_id": "rev_cbded9645c814965af22be5be7da175d",
+  "source_path": "problems/d2/prb_d2bc49a5f5a84824bb3cda42d0b9743a/contributions/con_76310058ef604c3e84a51d768716b4df/files/G28-193.tex",
+  "source_sha256": "bedca3840a78aebd8123fa12749cda5d0ec0a44fa2311b5ca4f16ed5337e1b3b",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/d2/prb_d2bc49a5f5a84824bb3cda42d0b9743a/contributions/con_76310058ef604c3e84a51d768716b4df/files/G28-193.tex",
+  "title": "A solvent-before-sale example and exact liquidity-solvency thresholds",
+  "finding": "Supports the claim",
+  "checked_scope": "Selected clearing branch, holdings and loss accounting, all displayed interaction derivatives and positive-sign example; independently derives pre-sale-solvent/post-sale-insolvent stress thresholds and the nonincreasing-density sufficient condition for a negative interaction.",
+  "author": "/root/reviews_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D47-174",
+  "contribution_handle": "ECON-D47-174-A1",
+  "reviewer": "/root/reviews_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "070a45d8d761d055d290789292cf6a9865f410fced85f26ebf772dd3ff2a5826",
+  "source_sha256": "4759ead8c659328f340063dd4069640b19ba70d5cc5f9d45fe3a8d279a92f785",
+  "checked_scope": "Reservation theorem and its 1/K ratio; distinction between reservation and individual rationality; weighted obstruction; two-type accounting. Provides a tight graph family for every cycle cap K. Full contribution YAML and manuscript read; every additional result and example independently checked.",
+  "checks_performed": [
+    "Verified saved manuscript Git blob SHA against a fresh GitHub fetch at pinned commit bd5218964aa5efa77ac062e3600b8cfe70df528c; independently recomputed source SHA256 and matched metadata; checked IDs and revision.",
+    "Rederived the source reservation deletion bound, common-failure expectation factor, weighted obstruction and two-type count identities.",
+    "Checked every graph edge in the K-parameter tightness family and proved only the internal 2-cycle and two designated K-cycles are simple cycles.",
+    "Checked reservation covers 2, pooled optimum covers 2K, both finer and ratio inequalities are equalities, and pooled allocation is individually rational for every center.",
+    "Independently enumerated simple cycles and all cycle packings for K=2..8 in checks/reviews_a_audit_b_checks.py; every case had exactly the three asserted cycles and pooled count 2K.",
+    "Verified reservation lock-in is distinct from general individual-rationality loss and no strategic truthfulness conclusion is made."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External bibliography and priority claims not independently audited; substantive proofs checked directly against the exact contribution manuscript.",
+    "Independent AI mathematical audit and finite numerical supplements; no formal proof verification or independent human proof audit.",
+    "Approval is confined to the stated restricted source model and new review results, without empirical or complete open-problem resolution."
+  ],
+  "significance": "Every-K extremal compatibility graph proves the reservation ratio is sharp even when the pooled optimum meets all center outside options."
+}

@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-D82-205-A1",
+  "problem_id": "prb_23331cf511e049ef9d5da0485ad969e1",
+  "contribution_handle": "ECON-D82-205-A1",
+  "contribution_id": "con_aba209ddb6ef4b06ba8ebc4cedd14f85",
+  "revision_id": "rev_aa339c65a60a42dfba04a7e776cf6a37",
+  "source_path": "problems/23/prb_23331cf511e049ef9d5da0485ad969e1/contributions/con_aba209ddb6ef4b06ba8ebc4cedd14f85/files/D82-205.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/23/prb_23331cf511e049ef9d5da0485ad969e1/contributions/con_aba209ddb6ef4b06ba8ebc4cedd14f85/files/D82-205.tex",
+  "source_blob_sha": "af83d8d6f7b46d387aece07562ede868c0f22da8",
+  "repository_commit": "bd5218964aa5efa77ac062e3600b8cfe70df528c",
+  "title": "An independent one-state reduction and switching certificate for deterministic sensing",
+  "finding": "Supports the claim",
+  "checked_scope": "Deterministic-device receiver square completion; sender moment objective and attainment; exact elimination of one sender state and first-variation switching conditions. Observation-dependent devices remain outside scope.",
+  "author": "/root/reviews_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "ecb7ef85ba18d97f4212285e2f2d71a3a91b60bee052a12da0d0071f5952c9f5"
+}

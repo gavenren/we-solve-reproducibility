@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-L42-195",
+  "contribution_handle": "ECON-L42-195-A1",
+  "source_sha256": "77940ead2eb64da8881e1b8c7233385f501ef2257497f7d15ebc5794f71b07a7",
+  "document_sha256": "02a06200bf51735dd447ed9d97651ad2a7b0e95724304738eaad65f0b83d1eaf",
+  "reviewer": "/root/reviews_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "checked_scope": "Selected nonexclusive and exclusive subgame outcomes, total-resource welfare threshold and audit-rectangle sharpness; new fixed-alternative-selector classification, equality case and robust versus selector-dependent exclusion.",
+  "checks_performed": [
+    "Read complete pinned manuscript, YAML metadata and final review; kept fixed continuation selector and pre-entry transfer restrictions explicit.",
+    "Verified entrant entry iff t>cE+F and complete zero-profit incumbent continuation-maximizer interval (cE+F,v].",
+    "Derived highest accepted exclusive tariff p, exclusive profit p-cI+s and all three cutoff cases against the nonexclusive zero payoff.",
+    "Set a=d-F and independently checked robustness for s>=a and selector dependence for 0<s<a, including the open lower price endpoint.",
+    "Recomputed p=8 and p=10 example profits -1 and 1 and exclusion welfare -3; verified resource-cost signs and transfer cancellation.",
+    "Inspected and reran check_c.py; selector checks passed. Recomputed source/final-review hashes and metadata IDs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External research references cited by the source were not independently retrieved or verified; this audit checks the pinned manuscript and review mathematics.",
+    "AI mathematical review and finite checks only; no formal proof-assistant verification or human verification.",
+    "Approval is limited to the stated restricted model and does not certify empirical applicability, novelty or resolution of the original open problem."
+  ],
+  "significance": "A complete fixed-selector robustness classification explains when the source's welfare-improving versus welfare-reducing exclusion persists across admissible continuation prices."
+}

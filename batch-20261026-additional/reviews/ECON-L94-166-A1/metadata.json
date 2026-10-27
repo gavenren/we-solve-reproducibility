@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-L94-166-A1",
+  "problem_id": "prb_0afa49671938424d9c88a5806c8fd231",
+  "contribution_handle": "ECON-L94-166-A1",
+  "contribution_id": "con_21cfd9c57032456a8f14a00fb09a6ffd",
+  "revision_id": "rev_deb9e89320ea44148acc62d9bdec7b08",
+  "source_path": "problems/0a/prb_0afa49671938424d9c88a5806c8fd231/contributions/con_21cfd9c57032456a8f14a00fb09a6ffd/files/L94-166.tex",
+  "source_sha256": "f03234e3dd79e99857a0d82c218a994a567f93e772dff9dd19d815a39d6ffee8",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/0a/prb_0afa49671938424d9c88a5806c8fd231/contributions/con_21cfd9c57032456a8f14a00fb09a6ffd/files/L94-166.tex",
+  "title": "An exact multi-interval loss characterization strengthens the storage diagnostic",
+  "finding": "Supports the claim",
+  "checked_scope": "Ideal cyclic storage adequacy theorem; unserved-energy lower bounds; chronological dependence example. Derives an exact deterministic minimum-loss formula from a time-expanded flow network.",
+  "author": "/root/reviews_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

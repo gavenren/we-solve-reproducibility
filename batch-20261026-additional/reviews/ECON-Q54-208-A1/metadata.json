@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-Q54-208-A1",
+  "problem_id": "prb_f9287cde8abb4535b7c7be909ee94b6c",
+  "contribution_handle": "ECON-Q54-208-A1",
+  "contribution_id": "con_9813457870d24df38deb33a7bdb8f71c",
+  "revision_id": "rev_c90617e03b8945d2ae06cdc39d3dc267",
+  "source_path": "problems/f9/prb_f9287cde8abb4535b7c7be909ee94b6c/contributions/con_9813457870d24df38deb33a7bdb8f71c/files/Q54-208.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/f9/prb_f9287cde8abb4535b7c7be909ee94b6c/contributions/con_9813457870d24df38deb33a7bdb8f71c/files/Q54-208.tex",
+  "source_blob_sha": "36a078357a6642759d060537fca917078ce878a6",
+  "repository_commit": "bd5218964aa5efa77ac062e3600b8cfe70df528c",
+  "title": "Global response bounds and an explicit certificate for projection-set width",
+  "finding": "Supports the claim",
+  "checked_scope": "The static two-location endogenous-wage equilibrium, baseline observational equivalence, exact identified migration set, global bounds on its width, and post-shock slope identification.",
+  "author": "/root/reviews_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "d7a47b6086118cf1f26bc7890082fa15ae578c5b97fe36b55f71c3fd87b725ce"
+}

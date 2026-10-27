@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-D72-197-A1",
+  "problem_id": "prb_501ef2e2a8bd49a8b1382faba5e515d3",
+  "contribution_handle": "ECON-D72-197-A1",
+  "contribution_id": "con_d144960ab09a454a8e1f7f8e037d34ad",
+  "revision_id": "rev_536fca4211534d7a901d6ec5fcb57520",
+  "source_path": "problems/50/prb_501ef2e2a8bd49a8b1382faba5e515d3/contributions/con_d144960ab09a454a8e1f7f8e037d34ad/files/D72-197.tex",
+  "source_sha256": "580ae37d0d3154719aa208b1147170fc00d4755c0c1be61f7ebb3eb407a5547f",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/50/prb_501ef2e2a8bd49a8b1382faba5e515d3/contributions/con_d144960ab09a454a8e1f7f8e037d34ad/files/D72-197.tex",
+  "title": "Sharp product sensitivity and the exact mediation set in the binary example",
+  "finding": "Supports the claim",
+  "checked_scope": "Sequential live-kernel identification, accumulated TV outer bound and binary mediation counterexample; proves sharp product sensitivity and contrast bounds, and the exact [0,1] mediation identified set for the displayed observed law.",
+  "author": "/root/reviews_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

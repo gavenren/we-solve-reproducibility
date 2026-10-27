@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-C63-209-A1",
+  "problem_id": "prb_5407dcc1268b4f939393c72ac8436fc2",
+  "contribution_handle": "ECON-C63-209-A1",
+  "contribution_id": "con_6bd33f554e66461e8f1203ea1e9e0a02",
+  "revision_id": "rev_419ef00f956c4101abdda9b5515c9f31",
+  "source_path": "problems/54/prb_5407dcc1268b4f939393c72ac8436fc2/contributions/con_6bd33f554e66461e8f1203ea1e9e0a02/files/C63-209.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/54/prb_5407dcc1268b4f939393c72ac8436fc2/contributions/con_6bd33f554e66461e8f1203ea1e9e0a02/files/C63-209.tex",
+  "source_blob_sha": "6167f6fb5ae844197a6a971285c1ac1528df2347",
+  "repository_commit": "bd5218964aa5efa77ac062e3600b8cfe70df528c",
+  "title": "Exponential algebraic degree in the manuscript's scalar equilibrium family",
+  "finding": "Supports the claim",
+  "checked_scope": "Scalar demand and clearing derivation; active-set representation and irrational example; a polynomially encoded all-active subclass with equilibrium price degree 2^(m-1). No FIXP-hardness conclusion.",
+  "author": "/root/reviews_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "fc1b7584afc3d3506c00a866beabe4763895e2709ffb64a07ec8e9b257eb12ab"
+}

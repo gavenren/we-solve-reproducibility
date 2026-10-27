@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-Q54-163-A1",
+  "problem_id": "prb_bb1daf28b3b349e095f259a34cd4f6fb",
+  "contribution_handle": "ECON-Q54-163-A1",
+  "contribution_id": "con_e2e5dadb6af349a492a39daa2d4aef54",
+  "revision_id": "rev_741d8eec06074f378df581a51832489f",
+  "source_path": "problems/bb/prb_bb1daf28b3b349e095f259a34cd4f6fb/contributions/con_e2e5dadb6af349a492a39daa2d4aef54/files/Q54-163.tex",
+  "source_sha256": "82ed20ca3673b8fda6dee29e5f660267f0f6bbb13b61c9b45e29f51c3e30ff18",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/bb/prb_bb1daf28b3b349e095f259a34cd4f6fb/contributions/con_e2e5dadb6af349a492a39daa2d4aef54/files/Q54-163.tex",
+  "title": "Exact joint feasibility check for finite-horizon climate persistence",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite convolution and pulse-to-step reduction; Unrestricted tail nonidentification; Sharp independent-box joint set and universal certificates; Exact persistent-path existence recursion and incompatible-marginal example; Weather-only observational equivalence counterexample",
+  "author": "/root/reviews_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "authoring_agents": [
+    {
+      "agent": "/root/reviews_b/climate_checks",
+      "role": "drafted review and verified source hashes"
+    },
+    {
+      "agent": "/root/reviews_b",
+      "role": "assigned work and reviewed integration"
+    }
+  ]
+}

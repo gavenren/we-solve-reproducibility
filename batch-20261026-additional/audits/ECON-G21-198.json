@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-G21-198",
+  "contribution_handle": "ECON-G21-198-A1",
+  "source_sha256": "9c0763d37840c775a03d73afc460e469d481f279b7bd0fdd519d9608b6b52366",
+  "document_sha256": "22f95702f92722c442b597591f3f46e277b315c33dd5126f8802cf23d0f0af9f",
+  "reviewer": "/root/reviews_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "checked_scope": "Break-even payments, original concave-utility ordering and homogeneous formation; new complete stop-loss certificate and exact CARA meeting-cost frontier with a feasible interior numerical example.",
+  "checks_performed": [
+    "Read complete pinned manuscript, YAML metadata and final review; retained enforceable insurance, homogeneous matching and lender-contract complexity scope.",
+    "Recomputed equal repayment expectations and distinguished own-success repayment probability q(1-q) from post-sharing mixed-state probability 2q(1-q).",
+    "Verified ordering 0<=a<b1<c<d1, equality of residual means and each of the five stop-loss difference pieces for all real thresholds.",
+    "Derived CARA expected-utility square, handled the negative utility sign, and solved the membership inequality for the exact stated m* formula.",
+    "Checked logarithm positivity, h0>0, strict utility monotonicity in meeting cost and payment-feasible-domain caveat; independently confirmed m*=0.20292098876383202 and ceiling 0.55.",
+    "Inspected and reran check_c.py; stop-loss/CARA assertions passed. Recomputed source/final-review hashes and metadata IDs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External research references cited by the source were not independently retrieved or verified; this audit checks the pinned manuscript and review mathematics.",
+    "AI mathematical review and finite checks only; no formal proof-assistant verification or human verification.",
+    "Approval is limited to the stated restricted model and does not certify empirical applicability, novelty or resolution of the original open problem."
+  ],
+  "significance": "A utility-independent convex-order certificate and a closed-form participation/formation transition for a fully admissible strictly concave utility family."
+}

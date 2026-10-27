@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-G28-193",
+  "contribution_handle": "ECON-G28-193-A1",
+  "source_sha256": "bedca3840a78aebd8123fa12749cda5d0ec0a44fa2311b5ca4f16ed5337e1b3b",
+  "document_sha256": "44524ae3bcd5b47908c133ee051bcee0e449bcbfcf07f16715aab66daaf7966d",
+  "reviewer": "/root/reviews_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "checked_scope": "Selected fire-sale branch, holdings, bank/resource-loss distinction and all interaction derivatives; new solvent-before-sale stress interval, exact withdrawal thresholds and nonincreasing-density sufficient condition.",
+  "checks_performed": [
+    "Read complete pinned manuscript, YAML metadata and final review; retained insured-withdrawal minimum-sale selector and fixed-duration scope.",
+    "Independently differentiated the quadratic clearing relation and E=E0-alpha*z^2, checking F'', Ek, El and Ekl and welfare interaction signs.",
+    "Derived z_solv=sqrt(E0/alpha), x_solv=v*sqrt(E0/alpha)-E0 and the fold condition; recomputed w_solv=1/3 and w_fold=2/5.",
+    "Checked all intermediate lower-branch sales lie between 1/4 and 1/2, below holdings 7/8, with positive prices and post-sale negative equity.",
+    "Recomputed the source positive-sign example bracket 13*h(E)/36 and threshold 16/(13*h(E)); checked h'<=0 implies negative interaction.",
+    "Inspected and reran check_c.py; stress checks passed. Recomputed source/final-review hashes and metadata IDs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External research references cited by the source were not independently retrieved or verified; this audit checks the pinned manuscript and review mathematics.",
+    "AI mathematical review and finite checks only; no formal proof-assistant verification or human verification.",
+    "Approval is limited to the stated restricted model and does not certify empirical applicability, novelty or resolution of the original open problem."
+  ],
+  "significance": "A strict liquid-but-insolvent interval starting from positive pre-sale equity, and an exact sufficient density condition ruling out positive regulatory interaction."
+}

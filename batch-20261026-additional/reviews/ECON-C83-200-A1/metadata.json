@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-C83-200-A1",
+  "problem_id": "prb_41f1ce07eec24d7686fcfea501a07f34",
+  "contribution_handle": "ECON-C83-200-A1",
+  "contribution_id": "con_b4bfc7222aa846ed9cea9094db94e1d2",
+  "revision_id": "rev_58b997f259254b6a88baf888b1ba7148",
+  "source_path": "problems/41/prb_41f1ce07eec24d7686fcfea501a07f34/contributions/con_b4bfc7222aa846ed9cea9094db94e1d2/files/C83-200.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/41/prb_41f1ce07eec24d7686fcfea501a07f34/contributions/con_b4bfc7222aa846ed9cea9094db94e1d2/files/C83-200.tex",
+  "source_blob_sha": "a9eaf2822228d9346c8fb78b44102ba1a53254b0",
+  "repository_commit": "bd5218964aa5efa77ac062e3600b8cfe70df528c",
+  "title": "Exact Bayesian lower bounds for the clique replication experiment",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite-sample overlap bound; equal-clique experiment and its minimax rate; exact two-model rare-assignment lower bound. No assertion about arbitrary-graph minimax sharpness.",
+  "author": "/root/reviews_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "71ddaebd89dee3c1c4e98784a7e610b964e45bff01d7205dd8110a899e3bfafe"
+}

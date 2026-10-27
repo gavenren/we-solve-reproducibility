@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-L42-195-A1",
+  "problem_id": "prb_325b4dd4f43f4274b03c10cf4dffc511",
+  "contribution_handle": "ECON-L42-195-A1",
+  "contribution_id": "con_3afcfdf94fa24022b4d2fa7db979c631",
+  "revision_id": "rev_068c6401c64e453b96fb008143d91095",
+  "source_path": "problems/32/prb_325b4dd4f43f4274b03c10cf4dffc511/contributions/con_3afcfdf94fa24022b4d2fa7db979c631/files/L42-195.tex",
+  "source_sha256": "77940ead2eb64da8881e1b8c7233385f501ef2257497f7d15ebc5794f71b07a7",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/32/prb_325b4dd4f43f4274b03c10cf4dffc511/contributions/con_3afcfdf94fa24022b4d2fa7db979c631/files/L42-195.tex",
+  "title": "Exact dependence of exclusion on the continuation-price selector",
+  "finding": "Supports the claim",
+  "checked_scope": "Selected nonexclusive and exclusive equilibrium, welfare and audit-rectangle sharpness; independently classifies exclusivity and welfare robustness over fixed alternative continuation-price selectors, including threshold equality and exact examples.",
+  "author": "/root/reviews_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-C72-199",
+  "contribution_handle": "ECON-C72-199-A1",
+  "source_sha256": "ad6bdd0835fec0e1f82d70324953217d89e9a673b6226bda4eda1c7530c95c04",
+  "document_sha256": "faed03d4ad822b0f702605ae3cfef221e1ce1b2232ec9118bb450f4d53bcaef7",
+  "reviewer": "/root/reviews_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "checked_scope": "Strategic centering, structural regret, fallback and fixed-list grid; new balanced-matrix exact LP dual, closed-form 2x2 centering, sharp arbitrary-surrogate-equilibrium regret example and 200 exact rational checks.",
+  "checks_performed": [
+    "Read complete pinned manuscript, YAML metadata and final review; retained absence of a universal sub-third claim and fixed-list complexity boundary.",
+    "Independently derived the centering dual from signed residual multipliers, including row/column balance, l1<=1 and nonnegative-epsilon constraint.",
+    "Verified 2x2 primal construction C=[[s,-s],[-s,s]] and alternating-sum dual lower bound abs(delta)/4.",
+    "Recomputed A=B diagonal 5/8 off-diagonal 3/8 example: epsilon*=1/4, H constant -1/2, off-diagonal original regret exactly 1/4.",
+    "Inspected exact rational zero-sum solver and all 200 deterministic-seed game checks in check_c.py; reran entire checker including sharp-factor assertions successfully.",
+    "Checked fallback regret inequalities and coefficient-grid contraction/complexity restriction; recomputed actual source and final-review hashes and metadata IDs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External research references cited by the source were not independently retrieved or verified; this audit checks the pinned manuscript and review mathematics.",
+    "AI mathematical review and finite checks only; no formal proof-assistant verification or human verification.",
+    "Approval is limited to the stated restricted model and does not certify empirical applicability, novelty or resolution of the original open problem."
+  ],
+  "significance": "An exact dual certificate plus a tight structural-regret example and independent finite rational verification, without claiming progress on the unrestricted universal approximation constant."
+}

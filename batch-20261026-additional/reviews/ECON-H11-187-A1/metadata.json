@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-H11-187-A1",
+  "problem_id": "prb_bcd9ea7b9cb248f597b56fba82aca2f5",
+  "contribution_handle": "ECON-H11-187-A1",
+  "contribution_id": "con_35ce12d49f954d2dae1fbe4662cabc33",
+  "revision_id": "rev_89e8220458f64a759094bc02b2dfafee",
+  "source_path": "problems/bc/prb_bcd9ea7b9cb248f597b56fba82aca2f5/contributions/con_35ce12d49f954d2dae1fbe4662cabc33/files/H11-187.tex",
+  "source_sha256": "d366add77fd150bf0405f446d60ca09b4bffd893a4dd2e7e8052570a7f53e1a5",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/bc/prb_bcd9ea7b9cb248f597b56fba82aca2f5/contributions/con_35ce12d49f954d2dae1fbe4662cabc33/files/H11-187.tex",
+  "title": "Exact oversight requirements and the boundary of sequencing dominance",
+  "finding": "Supports the claim",
+  "checked_scope": "Backward-induction equilibrium and conditional pathwise sequencing theorem; derives exact cap and positive-service oversight requirements and checks two safe reform pairs with opposite interim-service rankings.",
+  "author": "/root/reviews_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

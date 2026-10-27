@@ -1,0 +1,25 @@
+{
+  "handle": "ECON-D82-205",
+  "contribution_handle": "ECON-D82-205-A1",
+  "reviewer": "/root/reviews_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "698c69c75f599a550a386b3a2a8b5a01f7f6dac171415f64291f2697dc03b55b",
+  "source_sha256": "ecb7ef85ba18d97f4212285e2f2d71a3a91b60bee052a12da0d0071f5952c9f5",
+  "checked_scope": "Source deterministic filtering square completion and sender moment objective/attainment; every scalar-reduction, adjoint, asymptotic, endpoint and necessary-switching assertion. Standard filtering identity is checked for consistency, not independently reproved.",
+  "checks_performed": [
+    "Read complete pinned manuscript and exploration metadata; checked Riccati signs, receiver square completion, residual variance coefficient and deterministic-device limitation.",
+    "Independently added the variance equations, integrated the deterministic adjoint identity, and verified the scalar reduction coefficient chi=2gZ-gamma*K^2.",
+    "Checked near-terminal asymptotics, free-sensing endpoint cases, proportional receiver/sender weights via substitution Z=eta*K, the adjoint first variation and the fact that switching is necessary only.",
+    "Checked compactness/weak-star product passage and measurable square-root implementation within deterministic schedules.",
+    "Verified actual manuscript SHA256 and Git blob SHA against saved metadata; checked pinned path, contribution/revision IDs and final report scope."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External bibliography and literature-priority claims were not independently verified.",
+    "No formal verification or human expert verification is claimed.",
+    "Support is limited to the explicitly stated model and observation/representation scheme; it does not resolve the original open problem."
+  ],
+  "significance": "Exact elimination of the sender variance state, with a scalar control objective, endpoint checks and necessary switching certificate."
+}

@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-L52-201-A1",
+  "problem_id": "prb_5eeb0a20f47c466abad6d9f6c1cf165f",
+  "contribution_handle": "ECON-L52-201-A1",
+  "contribution_id": "con_3460964e5b114402bd45a49b72720c59",
+  "revision_id": "rev_bbf9e142cbb7490c84d5776f0e6bd6fb",
+  "source_path": "problems/5e/prb_5eeb0a20f47c466abad6d9f6c1cf165f/contributions/con_3460964e5b114402bd45a49b72720c59/files/L52-201.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/5e/prb_5eeb0a20f47c466abad6d9f6c1cf165f/contributions/con_3460964e5b114402bd45a49b72720c59/files/L52-201.tex",
+  "source_blob_sha": "e2b21f0e370773577469c617b578619d57408dcb",
+  "repository_commit": "bd5218964aa5efa77ac062e3600b8cfe70df528c",
+  "title": "Boundary welfare losses and a sharp welfare-safety test in the subsidy benchmark",
+  "finding": "Supports the claim",
+  "checked_scope": "The two-country quadratic benchmark, including clipped Nash/cooperative policies, boundary welfare losses, and national welfare relative to no policy. No empirical or unrestricted industrial-policy claim.",
+  "author": "/root/reviews_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "76ca1881af43c43aee93d2780c42747c7ff32b203ba24b19d32c8c31d4acb9ad"
+}

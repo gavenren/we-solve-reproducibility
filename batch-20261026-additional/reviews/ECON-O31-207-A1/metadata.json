@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-O31-207-A1",
+  "problem_id": "prb_128a758b24d147c1ac5e4e8a79751e28",
+  "contribution_handle": "ECON-O31-207-A1",
+  "contribution_id": "con_71c3e0a2d1b04faab7033202a501066c",
+  "revision_id": "rev_fb4555c5f1fd49a591a9b67da31ab4a4",
+  "source_path": "problems/12/prb_128a758b24d147c1ac5e4e8a79751e28/contributions/con_71c3e0a2d1b04faab7033202a501066c/files/O31-207.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/12/prb_128a758b24d147c1ac5e4e8a79751e28/contributions/con_71c3e0a2d1b04faab7033202a501066c/files/O31-207.tex",
+  "source_blob_sha": "40f047fcc74aa06c9e4c456c1f8e45ec5aa82aad",
+  "repository_commit": "bd5218964aa5efa77ac062e3600b8cfe70df528c",
+  "title": "A sharp mean-variance characterization of the one-experiment learning value",
+  "finding": "Supports the claim",
+  "checked_scope": "The two-period common-prior Bernoulli experiment, exact posterior calculation, sharp attainable information-value bounds, and the stated grant/capture implementation inequality. Private-quality screening remains outside scope.",
+  "author": "/root/reviews_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "54688e635c6630327c7dcaae7dec921030e21ec223f8c750cddc17a5260606c2"
+}

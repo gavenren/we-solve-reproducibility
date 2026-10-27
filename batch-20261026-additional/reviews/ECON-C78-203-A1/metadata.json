@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-C78-203-A1",
+  "problem_id": "prb_52c3575c108f4617af1653043ece98b8",
+  "contribution_handle": "ECON-C78-203-A1",
+  "contribution_id": "con_5480eaeb5874412a878bd567488e43b0",
+  "revision_id": "rev_4dded74e5016462384b5830220c86b77",
+  "source_path": "problems/52/prb_52c3575c108f4617af1653043ece98b8/contributions/con_5480eaeb5874412a878bd567488e43b0/files/C78-203.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/52/prb_52c3575c108f4617af1653043ece98b8/contributions/con_5480eaeb5874412a878bd567488e43b0/files/C78-203.tex",
+  "source_blob_sha": "ccd9e920a9efa7a548fe21f0a19bb4894ce639f9",
+  "repository_commit": "bd5218964aa5efa77ac062e3600b8cfe70df528c",
+  "title": "Exhaustive independent verification of the serial lemma and frontier recurrence",
+  "finding": "Reproduced",
+  "checked_scope": "Serial characterization under a strict common partner priority; frontier dynamic programming; cardinality and lexicographic reward optimization. Exhaustive finite verification covers all 17,576 three-by-three acceptable weak-order instances.",
+  "author": "/root/reviews_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "fdc7d1cbe3fabacfde7f6d1086cd57bb673a71dbc13dea1de1fa2fb95e590c52"
+}

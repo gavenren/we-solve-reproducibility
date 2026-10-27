@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-C62-182-A1",
+  "problem_id": "prb_5a86eaea5acb4b7c80a5f661a27e2070",
+  "contribution_handle": "ECON-C62-182-A1",
+  "contribution_id": "con_bf6cb18f052c4244ba41010bd931c45d",
+  "revision_id": "rev_205aa818f47940faaf2796eaeda97b51",
+  "source_path": "problems/5a/prb_5a86eaea5acb4b7c80a5f661a27e2070/contributions/con_bf6cb18f052c4244ba41010bd931c45d/files/C62-182.tex",
+  "source_sha256": "a44d2aa27d089abc6e36d62e6f9518974507eba52e05148a4c16c6e7bd283f0d",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/5a/prb_5a86eaea5acb4b7c80a5f661a27e2070/contributions/con_bf6cb18f052c4244ba41010bd931c45d/files/C62-182.tex",
+  "title": "Independent sharpness check for the global small-delay coefficient",
+  "finding": "Supports the claim",
+  "checked_scope": "Theorem 1's convergence estimate and its universal delay coefficient; derivative sufficient conditions; invariant-domain obstruction; scalar spectral calculation. Adds a Walras-compatible rotating-field example, without claiming primitive preference realization.",
+  "author": "/root/reviews_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

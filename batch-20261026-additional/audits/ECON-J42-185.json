@@ -1,0 +1,28 @@
+{
+  "handle": "ECON-J42-185",
+  "contribution_handle": "ECON-J42-185-A1",
+  "source_sha256": "d6bd09405ec100cab31eca6e6873c4e488d0375f331b806f65d5a263a44a6a58",
+  "document_sha256": "c944c5142d1041dfed6e18370ac2dd093f69ad142d33d6d7593fa431eaaa0d3d",
+  "reviewer": "/root/reviews_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "checked_scope": "Baseline monopsony and competitive equilibrium, supply-cap and h=0 boundary, rectangular sharpness and response inversion; new equal-passthrough compatible pair and known-fixed-output compatibility-curve bound.",
+  "checks_performed": [
+    "Read complete pinned manuscript, YAML metadata and final review; retained intervention and observation-scheme scope.",
+    "Recomputed both models' baseline revenue 4, wage passthrough 2/3, distinct wage gains and competitive employment below common cap 3.",
+    "Derived h(e)=1-(1+1/e)/a from known K, reduced 1+eh to (a-1)(e+1)/a, and checked a>1 and strict monotonicity.",
+    "Verified feasible elasticity set on the known-K increasing curve is a closed interval or empty and all gains are attained by compatible primitives.",
+    "Corrected positive fixed output to nonnegative fixed output because model A has K=0; reread corrected sentence.",
+    "Inspected and reran check_c.py and recomputed actual source/final-report SHA256 and metadata IDs."
+  ],
+  "changes_made": [
+    "Changed 'positive fixed output' to 'nonnegative fixed output' in the numerical-equivalence paragraph; model A has K=0."
+  ],
+  "limitations": [
+    "External research references cited by the source were not independently retrieved or verified; this audit checks the pinned manuscript and review mathematics.",
+    "AI mathematical review and finite checks only; no formal proof-assistant verification or human verification.",
+    "Approval is limited to the stated restricted model and does not certify empirical applicability, novelty or resolution of the original open problem."
+  ],
+  "significance": "Two fully specified observationally equivalent wage-response models and exact sharp bounds under an additional known-K observation."
+}

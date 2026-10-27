@@ -1,0 +1,90 @@
+{
+  "storage": {
+    "cases": 24603,
+    "zero_loss_cases": 12248,
+    "exact_cut_vs_max_flow": "all matched",
+    "source_zero_loss_criterion_and_recurrence": "all matched"
+  },
+  "reservation_graph": [
+    {
+      "K": 2,
+      "simple_cycles": 3,
+      "pooled": 4,
+      "reserved": 2
+    },
+    {
+      "K": 3,
+      "simple_cycles": 3,
+      "pooled": 6,
+      "reserved": 2
+    },
+    {
+      "K": 4,
+      "simple_cycles": 3,
+      "pooled": 8,
+      "reserved": 2
+    },
+    {
+      "K": 5,
+      "simple_cycles": 3,
+      "pooled": 10,
+      "reserved": 2
+    },
+    {
+      "K": 6,
+      "simple_cycles": 3,
+      "pooled": 12,
+      "reserved": 2
+    },
+    {
+      "K": 7,
+      "simple_cycles": 3,
+      "pooled": 14,
+      "reserved": 2
+    },
+    {
+      "K": 8,
+      "simple_cycles": 3,
+      "pooled": 16,
+      "reserved": 2
+    }
+  ],
+  "drug_welfare_values": [
+    0,
+    -0.5
+  ],
+  "drug_sharp_range": [
+    -1.5,
+    0.5
+  ],
+  "bureaucracy_exact_regrets": [
+    0.6,
+    0.2
+  ],
+  "nonrectangular_tipping_maxmin_minmax": [
+    0.5,
+    1
+  ],
+  "rotation": [
+    {
+      "omega": 1,
+      "identity_residual": 2.482534153247273e-16,
+      "threshold_ratio": 1.1107207345395917
+    },
+    {
+      "omega": 10,
+      "identity_residual": 1.7798229048217483e-15,
+      "threshold_ratio": 1.0016575608608993
+    },
+    {
+      "omega": 100,
+      "identity_residual": 0.0,
+      "threshold_ratio": 1.0000166657500613
+    },
+    {
+      "omega": 1000,
+      "identity_residual": 1.1368705456184373e-13,
+      "threshold_ratio": 1.0000001666665752
+    }
+  ]
+}

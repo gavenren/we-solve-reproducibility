@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-G21-198-A1",
+  "problem_id": "prb_f6a9f49c546b4156841933a5ca6d3899",
+  "contribution_handle": "ECON-G21-198-A1",
+  "contribution_id": "con_8838f0c098ea474abe90d6144f51fcc9",
+  "revision_id": "rev_4b1b8adb560e4fa08519f49c2a52165e",
+  "source_path": "problems/f6/prb_f6a9f49c546b4156841933a5ca6d3899/contributions/con_8838f0c098ea474abe90d6144f51fcc9/files/G21-198.tex",
+  "source_sha256": "9c0763d37840c775a03d73afc460e469d481f279b7bd0fdd519d9608b6b52366",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/f6/prb_f6a9f49c546b4156841933a5ca6d3899/contributions/con_8838f0c098ea474abe90d6144f51fcc9/files/G21-198.tex",
+  "title": "Convex-order verification and an exact CARA participation frontier",
+  "finding": "Supports the claim",
+  "checked_scope": "Break-even accounting, concave-utility group comparison, meeting-cost participation and homogeneous stable formation; independently derives a stop-loss/convex-order certificate and an exact CARA meeting-cost frontier with a checked interior example.",
+  "author": "/root/reviews_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

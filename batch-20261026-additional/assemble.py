@@ -80,6 +80,8 @@ def main():
     if args.commit:
         base=f'{REPO}/blob/{args.commit}/{PUBLIC}'
         payload=[]
+        snapshot=read(ROOT/'publication_snapshots'/f'{args.commit}.json')
+        frozen={r['handle']:r for r in snapshot['records']}
         old_payload={r['handle']:r for r in read(ROOT/'submission_payload.json')} if (ROOT/'submission_payload.json').exists() else {}
         submitted={r['handle']:r for r in receipts}
         for r in records:
@@ -90,6 +92,9 @@ def main():
                 assert old['body_sha256']==submitted[h]['body_sha256'],f'Submitted body changed: {h}'
                 payload.append(old)
                 continue
+            if h not in frozen:
+                continue
+            assert frozen[h]['document_sha256']==r['document_sha256'],f'Unpublished report bytes: {h}'
             body=(ROOT/r['document_path']).read_text().strip()
             body += f'\n\n**Frozen review and reproducibility files:** [review source]({base}/{r["document_path"]}) · [evidence directory]({REPO}/tree/{args.commit}/{PUBLIC}). Original check programs, where used, are hosted separately there.'
             body += f'\n\n**Independent final check:** [{r["reviewer"]}, explicitly configured GPT-6.1 Sol / Ultra]({base}/{r["audit_path"]}). Reviewed document SHA-256: `{r["document_sha256"]}`. The finding is limited to the scope below; this is not editorial acceptance or human peer review.'

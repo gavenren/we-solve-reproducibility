@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-I18-164-A1",
+  "problem_id": "prb_7b70e7aa61fd44b890acd225c42aec2c",
+  "contribution_handle": "ECON-I18-164-A1",
+  "contribution_id": "con_8fbdbc1326fc4a68b7bc4265be7d17fa",
+  "revision_id": "rev_fbf80a55eb8347abaa54cc8ce4b887d9",
+  "source_path": "problems/7b/prb_7b70e7aa61fd44b890acd225c42aec2c/contributions/con_8fbdbc1326fc4a68b7bc4265be7d17fa/files/I18-164.tex",
+  "source_sha256": "1d0446a56b813e4c363885854d319ad8f915c5ed9fa68f881e4e3b3eb5677a43",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/7b/prb_7b70e7aa61fd44b890acd225c42aec2c/contributions/con_8fbdbc1326fc4a68b7bc4265be7d17fa/files/I18-164.tex",
+  "title": "A fully specified price-cut stress test with more access, more approvals and lower welfare",
+  "finding": "Supports the claim",
+  "checked_scope": "Threshold accounting including failures and atom conventions; clinical-value identified interval; constrained derivative/optimal-threshold statements. Adds a nonnested two-project policy comparison with positive clinical value and increased access and approvals. Includes exact distribution-free nonnegative-welfare certificate for an expanding threshold.",
+  "author": "/root/reviews_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

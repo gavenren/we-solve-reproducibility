@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-I18-164",
+  "contribution_handle": "ECON-I18-164-A1",
+  "reviewer": "/root/reviews_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "f06f7db8235e0c51bbc8246770e5ba41faf096606a4312f938010a16f741902e",
+  "source_sha256": "1d0446a56b813e4c363885854d319ad8f915c5ed9fa68f881e4e3b3eb5677a43",
+  "checked_scope": "Threshold accounting including failures and atom conventions; clinical-value identified interval; constrained derivative/optimal-threshold statements. Adds a nonnested two-project policy comparison with positive clinical value and increased access and approvals. Includes exact distribution-free nonnegative-welfare certificate for an expanding threshold. Full contribution YAML and manuscript read; every additional result and example independently checked.",
+  "checks_performed": [
+    "Verified saved manuscript Git blob SHA against a fresh GitHub fetch at pinned commit bd5218964aa5efa77ac062e3600b8cfe70df528c; independently recomputed source SHA256 and matched metadata; checked IDs and revision.",
+    "Rederived expected surplus with real development costs paid even on failure and reimbursement treated as a domestic transfer.",
+    "Partitioned investment sets for both threshold orderings, preserving zero-cost and threshold atoms.",
+    "Proved expanding-threshold distribution-free sign iff conditions by nonnegative integrands and deterministic-cost necessity examples.",
+    "Independently computed two-project threshold/access/approval changes and welfare 0 to -0.5; benefit-box range [-1.5,0.5]. Numerical arithmetic reproduced in checks/reviews_a_audit_b_checks.py.",
+    "Checked derivative only away from financing kink, nonuniqueness with cost gaps/atoms, and no price-cap implementability conclusion."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External bibliography and priority claims not independently audited; substantive proofs checked directly against the exact contribution manuscript.",
+    "Independent AI mathematical audit and finite numerical supplements; no formal proof verification or independent human proof audit.",
+    "Approval is confined to the stated restricted source model and new review results, without empirical or complete open-problem resolution."
+  ],
+  "significance": "Atom-safe comparison for either threshold ordering, exact uniform sign certificate, and fully specified increased-access/increased-approval welfare reversal."
+}

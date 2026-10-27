@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D73-170",
+  "contribution_handle": "ECON-D73-170-A1",
+  "reviewer": "/root/reviews_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "e263dc32c9e670b8495d5270d3b01eb3b28174347740ab9ec7bda2e4f5196c3e",
+  "source_sha256": "ecc049a87bf86bd564e4bfcfa2f2985b4e23bcfea94bcc76f3cf05d92152f684",
+  "checked_scope": "Strategic effort/gaming calculation; audit sharpness and factorial interaction interval; robust policy choice and regret inequality. Derives the exact deterministic minimax-regret criterion for the same product identified set. Full contribution YAML and manuscript read; every additional result and example independently checked.",
+  "checks_performed": [
+    "Verified saved manuscript Git blob SHA against a fresh GitHub fetch at pinned commit bd5218964aa5efa77ac062e3600b8cfe70df528c; independently recomputed source SHA256 and matched metadata; checked IDs and revision.",
+    "Checked separable official optima, production factorial interaction and the model-specific effect of monitoring on records.",
+    "Reconstructed mean-error audit bounds and sharpness using constant latent qualities, unrestricted pointwise errors and preserved records/signal joint laws.",
+    "Proved exact fixed-policy regret from the sharp cross-policy product set, excluding the chosen policy as its own foregone alternative.",
+    "Checked singleton-menu boundary and explicit two-policy maximin versus minimax-regret separation; endpoint enumeration reproduced regrets 0.6 and 0.2 in checks/reviews_a_audit_b_checks.py.",
+    "Confirmed source regret inequality remains valid and transport claims require their stipulated new-case support restriction."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External bibliography and priority claims not independently audited; substantive proofs checked directly against the exact contribution manuscript.",
+    "Independent AI mathematical audit and finite numerical supplements; no formal proof verification or independent human proof audit.",
+    "Approval is confined to the stated restricted source model and new review results, without empirical or complete open-problem resolution."
+  ],
+  "significance": "Exact deterministic minimax-regret formula for the sharp audit box and an explicit policy-ranking separation from the source maximin objective."
+}

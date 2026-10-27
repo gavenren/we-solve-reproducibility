@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-Q54-176-A1",
+  "problem_id": "prb_2305de6c430c4d1ca1b8a67f9e3bf60c",
+  "contribution_handle": "ECON-Q54-176-A1",
+  "contribution_id": "con_357de524c5f14e0ab9ca393a5efa063f",
+  "revision_id": "rev_5fc13a69d3714a7ea9f645a9c03cf3f8",
+  "source_path": "problems/23/prb_2305de6c430c4d1ca1b8a67f9e3bf60c/contributions/con_357de524c5f14e0ab9ca393a5efa063f/files/Q54-176.tex",
+  "source_sha256": "5c834a02e72fe4fbb888b75d94fc3f34eca05699a51e987695325760c33d1c8e",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/23/prb_2305de6c430c4d1ca1b8a67f9e3bf60c/contributions/con_357de524c5f14e0ab9ca393a5efa063f/files/Q54-176.tex",
+  "title": "Independent minimax and boundary checks for the tipping-loss bounds",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite-menu expected loss and rectangular hazard range; Independent robust minimax equality under a common upper hazard vector; Explicit nonrectangular hazard example showing a minimax gap; Stable-choice derivatives and coordinatewise-versus-joint concavity; Perfect-information equality criterion",
+  "author": "/root/reviews_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "authoring_agents": [
+    {
+      "agent": "/root/reviews_b/climate_checks",
+      "role": "drafted review and verified source hashes"
+    },
+    {
+      "agent": "/root/reviews_b",
+      "role": "assigned work and reviewed integration"
+    }
+  ]
+}
