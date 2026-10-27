@@ -1,0 +1,89 @@
+{
+  "ECON-C21-210": {
+    "checks": [
+      "Read complete manuscript and contribution.yaml; re-fetched both at pinned commit and compared exact text; verified contribution/revision/problem IDs and actual source SHA256.",
+      "Derived conditional expectation of the doubly robust score; checked both nuisance signs and propensity denominators.",
+      "Applied Holder with exponents 4,4,2 and independently computed the rare-event example: R=1_E/3, ||R||2=sqrt(q)/3, product L2 errors=q/4.",
+      "Checked bounded squared-loss factorization and localized second moment; checked coefficient rounding retains l1 radius and uniform approximation 1/n.",
+      "Checked orthonormal Rademacher prediction distances 2ha^2, treated Bernoulli KL order nsa^2, and l1/supremum condition sa<=min(L,1/2)."
+    ],
+    "significance": "An explicit bounded-overlap, independently supplied nuisance counterexample proves that ordinary L2 nuisance error products cannot control the L2 CATE remainder; a valid L4 replacement is derived. This is a substantive boundary check rather than a restatement of the source's supremum sufficient condition."
+  },
+  "ECON-R42-211": {
+    "checks": [
+      "Read complete manuscript and contribution.yaml; re-fetched both at pinned commit, compared exact text and verified IDs/source hash.",
+      "Recomputed responsive-demand surplus, failure-state losses and common-uniform worst-case attainment without exchanging min and max.",
+      "Derived unequal-route robust objective and proved endpoint uniqueness for R>0 and two endpoint optima for R=0.",
+      "Differentiated independent objective; verified derivative sign Q(C-2b)-Rb^2, its monotonicity, endpoint threshold R>=(L-R)p0B and interior positive root.",
+      "Checked R=0 and R=L limits, equality at the threshold, and numerical example x=1.31534156 for L=1,R=.1,p0=.5,B=2."
+    ],
+    "significance": "Exact unequal-route robust and independent allocations, including the sharp threshold at which diversification disappears, extend the source's equal-cost reversal."
+  },
+  "ECON-O34-212": {
+    "checks": [
+      "Read complete manuscript and contribution.yaml; re-fetched both pinned files, compared exact text and verified IDs/source SHA256.",
+      "Recomputed clipped firm demands, unique wage at interior and at A=0,2, research allocation and the welfare quadratic.",
+      "Checked nearest-unconstrained-vertex finite-menu rule and numerical W(1)=1/2,W(2)=-1/2 example.",
+      "Derived elastic-supply clearing Q=A+1-2c(Q), all four derivatives in (B) and displaced share c'/(1+c').",
+      "Recomputed real supply-cost welfare derivative using C'=w and firm conditions; checked the fixed-supply derivative is recovered and the infinite-slope statement is explicitly local."
+    ],
+    "significance": "The interior elastic-supply extension quantifies exactly how much extra incumbent research displaces entrant research and gives the correctly adjusted resource-cost welfare derivative."
+  },
+  "ECON-C78-213": {
+    "checks": [
+      "Read complete manuscript and contribution.yaml; re-fetched both pinned files, compared exact text and verified IDs/source hash.",
+      "Checked iterative forced-pair bijection, terminal path/cycle reduction, unmatched-vertex blocking argument and two alternating stable matchings on each even terminal cycle.",
+      "Derived simultaneous-failure inner minimum sum_{touched} ell_j-|F| and maximization sum of the min(a,r) largest ell_j-1, including empty and multiple-same-cycle failure sets.",
+      "Read and reran author's matching_checks.py: all 2552 connected path/cycle ranking instances through ten vertices passed definition-based stable-set and one-failure budget comparisons.",
+      "Ran supplemental audit_e_by_d.py: four stable matchings on disjoint 4- and 6-cycles plus a fixed edge; 28 at-most-a failure-budget checks for a=1,...,7 agreed with the new formula."
+    ],
+    "significance": "The at-most-a simultaneous non-fixed-failure repair formula is a genuine exact extension, with independent product-structure proof and supplemental disconnected-component checks."
+  },
+  "ECON-D72-216": {
+    "checks": [
+      "Read complete manuscript and contribution.yaml; re-fetched both pinned files, compared exact text and verified IDs/source SHA256.",
+      "Checked selected-purchase threshold, weak equality branch, invariant state interval and affine high-region dynamics.",
+      "Proved sufficiency and necessity of initial suppression strength B_*'>=B_init and withdrawal criterion rho^K B_init<=B_*; insufficient strength causes purchases forever at any duration.",
+      "Checked logarithm inequality reversal and integer ceiling; worst-case rho comparison is conditional on fixed remaining thresholds and adequate suppression.",
+      "Recomputed withdrawal stocks .04 and .81 and sharp omitted-channel difference interval [-ubar,ubar]."
+    ],
+    "significance": "The report derives an exact initial-state strength-duration frontier, distinguishing interventions that fail from inadequate duration from those that cannot work at any duration because suppression is too weak."
+  },
+  "ECON-C78-217": {
+    "checks": [
+      "Read complete manuscript and contribution.yaml; re-fetched both pinned files, compared exact text and verified IDs/source hash.",
+      "Checked individual-partner constraint closure and order convexity imply intervals in the finite stable lattice.",
+      "Derived both newly blocking sets from the adjacent comparisons and noninteraction conditions.",
+      "Proved endpoint comparability equivalences for meet/join closure in an arbitrary lattice, including overlapping/nested interval cases.",
+      "Verified chain intersections have at most two blocks; checked five-chain retained sublattice counterexample and four-element Boolean-lattice interval union.",
+      "Read and reran matching_checks.py: 30000 seeded four-by-four profiles, 12108 with at least two stable matchings, all 435260 admissible changes passed direct discarded-set and endpoint-closure comparisons."
+    ],
+    "significance": "A three-separated-block chain obstruction excludes abstract retained sublattices not excluded by retained-set closure alone; the restricted matching formulas were also independently reproduced across all changes in the stated finite sample."
+  },
+  "ECON-D83-218": {
+    "checks": [
+      "Read complete manuscript and contribution.yaml; re-fetched both pinned files, compared exact text and verified IDs/source hash.",
+      "Reproved necessity A>=0,B<=0 by aggregating receiver obedience at maximal/minimal response messages including possible empty strict groups.",
+      "Checked arbitrary neutral-state responses give upper bound alpha A+beta B<=A and that the pure two-message state allocation attains it.",
+      "Checked constant-response value, empty constructed message groups, full sender indifference and off-path copying; rational operations have polynomial bit complexity.",
+      "Identified and corrected no-indifference scope ambiguity; checked example of one positive strict state with Delta_R=1 and one neutral state with Delta_R=-1 (equal priors) yielding improvement 1/2 over babbling.",
+      "Read and reran binary_cheap_talk_check.py: all 3615 equal-prior profiles through three states passed exact payoff, obedience and rationalizable off-path checks."
+    ],
+    "changes": [
+      "Restricted the one-strict-group-implies-babbling sentence explicitly to the case with no indifferent states, and stated that neutral states can support communication with one strict group.",
+      "Clarified that the zero-mass group in the attainment paragraph is a constructed message group, not a sender-sign group.",
+      "Re-read and checked the corrected endpoint/attainment proof before hashing final bytes."
+    ],
+    "significance": "The report proves the exact receiver optimum for all binary-action games with sender-neutral states using a sharp endpoint allocation; it resolves a boundary expressly excluded by the source, without asserting multi-action progress."
+  },
+  "ECON-J12-220": {
+    "checks": [
+      "Read complete manuscript and contribution.yaml; re-fetched both pinned files, compared exact text and verified IDs/source hash.",
+      "Recomputed fixed-mean variance difference and convex increasing-increments inequality (A); verified inversion exchanges give convex-order extrema.",
+      "Checked pairwise concordant-to-discordant sums are equal-total contractions; symmetric convex sum of pairwise absolute income differences therefore gives the same Gini extrema under fixed positive total income.",
+      "Checked both Gini formulas, labor optimum l=w at all nonnegative wages used, baseline incomes (2,6), crossed incomes (4,4)/(3,10), Gini values 1/4,0,7/26 and difference 1/52.",
+      "Ran supplemental audit_e_by_d.py: 600 three-household sorted-earnings/permutation cases checked variance/cubic/quartic dispersion and positive-mean Gini endpoint bounds using exact integers/Fractions."
+    ],
+    "significance": "The mechanical sorting bounds are extended from variance to convex order and conventional Gini, with full fixed-population/weighting conditions and an independent behavioral nonidentification check."
+  }
+}

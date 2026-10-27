@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-R42-211",
+  "contribution_handle": "ECON-R42-211-A1",
+  "reviewer": "/root/reviews_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "dffcdc9c63276f0ba9a034aee2ae2682a7db9b2ebe0227b6a94e3e35d91f2904",
+  "source_sha256": "87e7ddd6f2853770ee0f30bf0e3c7e62ce514e234b3d7cae2d0dcc32dbb844de",
+  "checked_scope": "Two-route economic loss and investment-independent common-copula attainment; Robust optimum for unequal route surplus costs; Independent optimum and exact diversification threshold with unequal costs; Boundary cases and stated numerical allocation",
+  "checks_performed": [
+    "Read complete manuscript and contribution.yaml; re-fetched both at pinned commit, compared exact text and verified IDs/source hash.",
+    "Recomputed responsive-demand surplus, failure-state losses and common-uniform worst-case attainment without exchanging min and max.",
+    "Derived unequal-route robust objective and proved endpoint uniqueness for R>0 and two endpoint optima for R=0.",
+    "Differentiated independent objective; verified derivative sign Q(C-2b)-Rb^2, its monotonicity, endpoint threshold R>=(L-R)p0B and interior positive root.",
+    "Checked R=0 and R=L limits, equality at the threshold, and numerical example x=1.31534156 for L=1,R=.1,p0=.5,B=2."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External references and literature priority were not independently checked.",
+    "No formal proof-assistant verification or human verification.",
+    "Finite computations verify only their specified instances; general claims rely on the independently checked mathematical arguments.",
+    "The source is an unresolved exploration; approval applies only to the reported restricted claims and explicitly stated extensions."
+  ],
+  "significance": "Exact unequal-route robust and independent allocations, including the sharp threshold at which diversification disappears, extend the source's equal-cost reversal."
+}

@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D72-216",
+  "contribution_handle": "ECON-D72-216-A1",
+  "reviewer": "/root/reviews_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "8999871bce61ddcc99d077003b2ca0fa8eb35967609968886bddd959fce455d8",
+  "source_sha256": "b0798a04020fb8fe138f4ef7cfe9d462d70000aeb98765d2360a3067c7c97470",
+  "checked_scope": "Selected current purchases, network invariance, withdrawal threshold, duration rounding; Exact initial-state intervention-strength and duration frontier; Conditional worst-case persistence-duration comparison; Two-economy observational equivalence and sharp omitted-channel interval",
+  "checks_performed": [
+    "Read complete manuscript and contribution.yaml; re-fetched both pinned files, compared exact text and verified IDs/source SHA256.",
+    "Checked selected-purchase threshold, weak equality branch, invariant state interval and affine high-region dynamics.",
+    "Proved sufficiency and necessity of initial suppression strength B_*'>=B_init and withdrawal criterion rho^K B_init<=B_*; insufficient strength causes purchases forever at any duration.",
+    "Checked logarithm inequality reversal and integer ceiling; worst-case rho comparison is conditional on fixed remaining thresholds and adequate suppression.",
+    "Recomputed withdrawal stocks .04 and .81 and sharp omitted-channel difference interval [-ubar,ubar]."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External references and literature priority were not independently checked.",
+    "No formal proof-assistant verification or human verification.",
+    "Finite computations verify only their specified instances; general claims rely on the independently checked mathematical arguments.",
+    "The source is an unresolved exploration; approval applies only to the reported restricted claims and explicitly stated extensions."
+  ],
+  "significance": "The report derives an exact initial-state strength-duration frontier, distinguishing interventions that fail from inadequate duration from those that cannot work at any duration because suppression is too weak."
+}

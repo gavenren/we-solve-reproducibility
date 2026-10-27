@@ -1,0 +1,21 @@
+{
+  "handle": "ECON-C78-213-A1",
+  "problem_id": "prb_b56f436088e54110a1e57b27120a461a",
+  "contribution_handle": "ECON-C78-213-A1",
+  "contribution_id": "con_c88bb7e104604a4f97d85172d994b07a",
+  "revision_id": "rev_4a3b1dabd2e640be8372f8112fc2641c",
+  "source_path": "problems/b5/prb_b56f436088e54110a1e57b27120a461a/contributions/con_c88bb7e104604a4f97d85172d994b07a/files/C78-213.tex",
+  "source_sha256": "52a8ea676c4dddf3f43ecd84a23691b6c22d1da2da4ca5eb693a6dcb37b19ff2",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/b5/prb_b56f436088e54110a1e57b27120a461a/contributions/con_c88bb7e104604a4f97d85172d994b07a/files/C78-213.tex",
+  "title": "Independent decomposition checks and a simultaneous-failure extension",
+  "finding": "Supports the claim",
+  "checked_scope": [
+    "Forced-pair reduction including iterative reconstruction",
+    "Directed terminal-cycle stable matching decomposition and one-failure repair formula",
+    "At-most-a non-fixed simultaneous failure formula",
+    "Independent exhaustive connected degree-two instance checks through ten vertices"
+  ],
+  "author": "/root/reviews_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

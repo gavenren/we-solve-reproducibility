@@ -1,0 +1,31 @@
+{
+  "handle": "ECON-D83-218",
+  "contribution_handle": "ECON-D83-218-A1",
+  "reviewer": "/root/reviews_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "954195f78d24ed6bf54cb6269b9b1179b3bf327e1ddf8fd4dbd779b60ab07ffe",
+  "source_sha256": "bcdda02e1b0f8eee75a00b29b1664c654e9f75fe00ac633ee21d4348c7261f2d",
+  "checked_scope": "Strict sender binary-action theorem; Exact binary formula with sender-indifferent states, arbitrary sender mixing, empty groups, and unused messages; Polynomial rational construction with at most two used messages; Finite exact enumeration of 3615 small profiles as a supplemental check",
+  "checks_performed": [
+    "Read complete manuscript and contribution.yaml; re-fetched both pinned files, compared exact text and verified IDs/source hash.",
+    "Reproved necessity A>=0,B<=0 by aggregating receiver obedience at maximal/minimal response messages including possible empty strict groups.",
+    "Checked arbitrary neutral-state responses give upper bound alpha A+beta B<=A and that the pure two-message state allocation attains it.",
+    "Checked constant-response value, empty constructed message groups, full sender indifference and off-path copying; rational operations have polynomial bit complexity.",
+    "Identified and corrected no-indifference scope ambiguity; checked example of one positive strict state with Delta_R=1 and one neutral state with Delta_R=-1 (equal priors) yielding improvement 1/2 over babbling.",
+    "Read and reran binary_cheap_talk_check.py: all 3615 equal-prior profiles through three states passed exact payoff, obedience and rationalizable off-path checks."
+  ],
+  "changes_made": [
+    "Restricted the one-strict-group-implies-babbling sentence explicitly to the case with no indifferent states, and stated that neutral states can support communication with one strict group.",
+    "Clarified that the zero-mass group in the attainment paragraph is a constructed message group, not a sender-sign group.",
+    "Re-read and checked the corrected endpoint/attainment proof before hashing final bytes."
+  ],
+  "limitations": [
+    "External references and literature priority were not independently checked.",
+    "No formal proof-assistant verification or human verification.",
+    "Finite computations verify only their specified instances; general claims rely on the independently checked mathematical arguments.",
+    "The source is an unresolved exploration; approval applies only to the reported restricted claims and explicitly stated extensions."
+  ],
+  "significance": "The report proves the exact receiver optimum for all binary-action games with sender-neutral states using a sharp endpoint allocation; it resolves a boundary expressly excluded by the source, without asserting multi-action progress."
+}

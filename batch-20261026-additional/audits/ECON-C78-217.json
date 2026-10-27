@@ -1,0 +1,27 @@
+{
+  "handle": "ECON-C78-217",
+  "contribution_handle": "ECON-C78-217-A1",
+  "reviewer": "/root/reviews_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "cf8c2186f32199213c8749ad40c0be2c842aeffc3f898a4fb2e3c6f857322739",
+  "source_sha256": "ee8a6a9f9b8e1ae5e7d74b00bc67d264a197eb06a495e57feb54de5ccdfc5ccd",
+  "checked_scope": "Individual-partner constraint intervals and exact local blocking sets; Endpoint meet/join closure tests; Chain obstruction for three separated discarded blocks and abstract Boolean-lattice sharpness example; Direct stability and closure checks on 435260 admissible changes across 12108 sampled four-by-four profiles",
+  "checks_performed": [
+    "Read complete manuscript and contribution.yaml; re-fetched both pinned files, compared exact text and verified IDs/source hash.",
+    "Checked individual-partner constraint closure and order convexity imply intervals in the finite stable lattice.",
+    "Derived both newly blocking sets from the adjacent comparisons and noninteraction conditions.",
+    "Proved endpoint comparability equivalences for meet/join closure in an arbitrary lattice, including overlapping/nested interval cases.",
+    "Verified chain intersections have at most two blocks; checked five-chain retained sublattice counterexample and four-element Boolean-lattice interval union.",
+    "Read and reran matching_checks.py: 30000 seeded four-by-four profiles, 12108 with at least two stable matchings, all 435260 admissible changes passed direct discarded-set and endpoint-closure comparisons."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External references and literature priority were not independently checked.",
+    "No formal proof-assistant verification or human verification.",
+    "Finite computations verify only their specified instances; general claims rely on the independently checked mathematical arguments.",
+    "The source is an unresolved exploration; approval applies only to the reported restricted claims and explicitly stated extensions."
+  ],
+  "significance": "A three-separated-block chain obstruction excludes abstract retained sublattices not excluded by retained-set closure alone; the restricted matching formulas were also independently reproduced across all changes in the stated finite sample."
+}

@@ -1,0 +1,21 @@
+{
+  "handle": "ECON-C78-217-A1",
+  "problem_id": "prb_b17f3d0ebfc042b2a33cc78f55c5f1ed",
+  "contribution_handle": "ECON-C78-217-A1",
+  "contribution_id": "con_8833c80d5e0c42b49810e06a2d81cc0e",
+  "revision_id": "rev_3ba61b98f8e8433e80cf4d24fe9fc500",
+  "source_path": "problems/b1/prb_b17f3d0ebfc042b2a33cc78f55c5f1ed/contributions/con_8833c80d5e0c42b49810e06a2d81cc0e/files/C78-217.tex",
+  "source_sha256": "ee8a6a9f9b8e1ae5e7d74b00bc67d264a197eb06a495e57feb54de5ccdfc5ccd",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/b1/prb_b17f3d0ebfc042b2a33cc78f55c5f1ed/contributions/con_8833c80d5e0c42b49810e06a2d81cc0e/files/C78-217.tex",
+  "title": "Interval verification and a chain obstruction for two adjacent preference changes",
+  "finding": "Supports the claim",
+  "checked_scope": [
+    "Individual-partner constraint intervals and exact local blocking sets",
+    "Endpoint meet/join closure tests",
+    "Chain obstruction for three separated discarded blocks and abstract Boolean-lattice sharpness example",
+    "Direct stability and closure checks on 435260 admissible changes across 12108 sampled four-by-four profiles"
+  ],
+  "author": "/root/reviews_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

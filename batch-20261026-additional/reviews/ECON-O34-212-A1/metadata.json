@@ -1,0 +1,21 @@
+{
+  "handle": "ECON-O34-212-A1",
+  "problem_id": "prb_c11e4f89671b4e8aaf4662ca3a8c9de4",
+  "contribution_handle": "ECON-O34-212-A1",
+  "contribution_id": "con_e5fd013926ea4e3dbb16a7db9fa081cb",
+  "revision_id": "rev_3f97ca425a094dd6956d945914a14d7f",
+  "source_path": "problems/c1/prb_c11e4f89671b4e8aaf4662ca3a8c9de4/contributions/con_e5fd013926ea4e3dbb16a7db9fa081cb/files/O34-212.tex",
+  "source_sha256": "093da397475f4ea41904a1a5db07148259d94072330147e82c3da506c3ae1916",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/c1/prb_c11e4f89671b4e8aaf4662ca3a8c9de4/contributions/con_e5fd013926ea4e3dbb16a7db9fa081cb/files/O34-212.tex",
+  "title": "Scarce-research clearing, welfare accounting, and an elastic-supply boundary",
+  "finding": "Supports the claim",
+  "checked_scope": [
+    "Wage and firm-demand clearing including A=0 and A=2",
+    "Quadratic welfare, continuous optimum, finite-duration nearest-prize rule",
+    "Interior elastic-supply comparative statics and crowding-out fraction",
+    "Elastic-supply real-cost welfare derivative and recovery of the fixed-supply derivative"
+  ],
+  "author": "/root/reviews_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

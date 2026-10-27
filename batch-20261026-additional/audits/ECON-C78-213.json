@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-C78-213",
+  "contribution_handle": "ECON-C78-213-A1",
+  "reviewer": "/root/reviews_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "1f7bb989a36a6b74373c04eb7a3b36b70f028c369a16e2a13f7fa2593cdceae6",
+  "source_sha256": "52a8ea676c4dddf3f43ecd84a23691b6c22d1da2da4ca5eb693a6dcb37b19ff2",
+  "checked_scope": "Forced-pair reduction including iterative reconstruction; Directed terminal-cycle stable matching decomposition and one-failure repair formula; At-most-a non-fixed simultaneous failure formula; Independent exhaustive connected degree-two instance checks through ten vertices",
+  "checks_performed": [
+    "Read complete manuscript and contribution.yaml; re-fetched both pinned files, compared exact text and verified IDs/source hash.",
+    "Checked iterative forced-pair bijection, terminal path/cycle reduction, unmatched-vertex blocking argument and two alternating stable matchings on each even terminal cycle.",
+    "Derived simultaneous-failure inner minimum sum_{touched} ell_j-|F| and maximization sum of the min(a,r) largest ell_j-1, including empty and multiple-same-cycle failure sets.",
+    "Read and reran author's matching_checks.py: all 2552 connected path/cycle ranking instances through ten vertices passed definition-based stable-set and one-failure budget comparisons.",
+    "Ran supplemental audit_e_by_d.py: four stable matchings on disjoint 4- and 6-cycles plus a fixed edge; 28 at-most-a failure-budget checks for a=1,...,7 agreed with the new formula."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External references and literature priority were not independently checked.",
+    "No formal proof-assistant verification or human verification.",
+    "Finite computations verify only their specified instances; general claims rely on the independently checked mathematical arguments.",
+    "The source is an unresolved exploration; approval applies only to the reported restricted claims and explicitly stated extensions."
+  ],
+  "significance": "The at-most-a simultaneous non-fixed-failure repair formula is a genuine exact extension, with independent product-structure proof and supplemental disconnected-component checks."
+}

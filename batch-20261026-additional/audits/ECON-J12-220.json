@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-J12-220",
+  "contribution_handle": "ECON-J12-220-A1",
+  "reviewer": "/root/reviews_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "3e9656abaf2305ea62d5948160e58e2687d1b48f609ddbc1a0cabec478d1d937",
+  "source_sha256": "ec3d29cacde75a0767a8add15339079532c35d6fe6aa10c497821be74c70f785",
+  "checked_scope": "Sharp fixed-cohort variance identity; Convex-order extension for fixed uniform household weights and common equivalence scale; Mechanical Gini extrema under nonnegative incomes and common positive mean; Behavioral labor choices and identical-baseline opposite-Gini-response example",
+  "checks_performed": [
+    "Read complete manuscript and contribution.yaml; re-fetched both pinned files, compared exact text and verified IDs/source hash.",
+    "Recomputed fixed-mean variance difference and convex increasing-increments inequality (A); verified inversion exchanges give convex-order extrema.",
+    "Checked pairwise concordant-to-discordant sums are equal-total contractions; symmetric convex sum of pairwise absolute income differences therefore gives the same Gini extrema under fixed positive total income.",
+    "Checked both Gini formulas, labor optimum l=w at all nonnegative wages used, baseline incomes (2,6), crossed incomes (4,4)/(3,10), Gini values 1/4,0,7/26 and difference 1/52.",
+    "Ran supplemental audit_e_by_d.py: 600 three-household sorted-earnings/permutation cases checked variance/cubic/quartic dispersion and positive-mean Gini endpoint bounds using exact integers/Fractions."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External references and literature priority were not independently checked.",
+    "No formal proof-assistant verification or human verification.",
+    "Finite computations verify only their specified instances; general claims rely on the independently checked mathematical arguments.",
+    "The source is an unresolved exploration; approval applies only to the reported restricted claims and explicitly stated extensions."
+  ],
+  "significance": "The mechanical sorting bounds are extended from variance to convex order and conventional Gini, with full fixed-population/weighting conditions and an independent behavioral nonidentification check."
+}

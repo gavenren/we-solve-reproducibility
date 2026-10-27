@@ -1,0 +1,21 @@
+{
+  "handle": "ECON-R42-211-A1",
+  "problem_id": "prb_7e494f546ec74122884712ae935bb2d1",
+  "contribution_handle": "ECON-R42-211-A1",
+  "contribution_id": "con_ae7b37a95a8847698e1321b71a7d3ffc",
+  "revision_id": "rev_1c942caaf9b24b34bf7cd0dbef4afa35",
+  "source_path": "problems/7e/prb_7e494f546ec74122884712ae935bb2d1/contributions/con_ae7b37a95a8847698e1321b71a7d3ffc/files/R42-211.tex",
+  "source_sha256": "87e7ddd6f2853770ee0f30bf0e3c7e62ce514e234b3d7cae2d0dcc32dbb844de",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/7e/prb_7e494f546ec74122884712ae935bb2d1/contributions/con_ae7b37a95a8847698e1321b71a7d3ffc/files/R42-211.tex",
+  "title": "Unequal-route extension of the robust transport allocation reversal",
+  "finding": "Supports the claim",
+  "checked_scope": [
+    "Two-route economic loss and investment-independent common-copula attainment",
+    "Robust optimum for unequal route surplus costs",
+    "Independent optimum and exact diversification threshold with unequal costs",
+    "Boundary cases and stated numerical allocation"
+  ],
+  "author": "/root/reviews_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

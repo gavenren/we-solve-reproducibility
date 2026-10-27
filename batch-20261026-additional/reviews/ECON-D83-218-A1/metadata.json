@@ -1,0 +1,21 @@
+{
+  "handle": "ECON-D83-218-A1",
+  "problem_id": "prb_7a8a801c07dd45279c28086ed50025f8",
+  "contribution_handle": "ECON-D83-218-A1",
+  "contribution_id": "con_af27b41c339149c08a6a70b6ec9e511b",
+  "revision_id": "rev_4447fdf6be9d4845862c6fc33d6a4ecc",
+  "source_path": "problems/7a/prb_7a8a801c07dd45279c28086ed50025f8/contributions/con_af27b41c339149c08a6a70b6ec9e511b/files/D83-218.tex",
+  "source_sha256": "bcdda02e1b0f8eee75a00b29b1664c654e9f75fe00ac633ee21d4348c7261f2d",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/7a/prb_7a8a801c07dd45279c28086ed50025f8/contributions/con_af27b41c339149c08a6a70b6ec9e511b/files/D83-218.tex",
+  "title": "Exact binary receiver optimization including sender-indifferent states",
+  "finding": "Supports the claim",
+  "checked_scope": [
+    "Strict sender binary-action theorem",
+    "Exact binary formula with sender-indifferent states, arbitrary sender mixing, empty groups, and unused messages",
+    "Polynomial rational construction with at most two used messages",
+    "Finite exact enumeration of 3615 small profiles as a supplemental check"
+  ],
+  "author": "/root/reviews_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

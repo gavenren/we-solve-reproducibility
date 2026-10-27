@@ -1,0 +1,21 @@
+{
+  "handle": "ECON-C21-210-A1",
+  "problem_id": "prb_e348afec5b784339a350a9c923a4b598",
+  "contribution_handle": "ECON-C21-210-A1",
+  "contribution_id": "con_3686292eec2b447591d74743c7eae940",
+  "revision_id": "rev_1ba8f508247346309fe3b829df3eaa1f",
+  "source_path": "problems/e3/prb_e348afec5b784339a350a9c923a4b598/contributions/con_3686292eec2b447591d74743c7eae940/files/C21-210.tex",
+  "source_sha256": "5513ba4cfb31c1c61b58af845ad6913b0581504ec798be8f92eb31cde37544dd",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/e3/prb_e348afec5b784339a350a9c923a4b598/contributions/con_3686292eec2b447591d74743c7eae940/files/C21-210.tex",
+  "title": "Independent risk and nuisance-remainder checks for sparse CATE aggregation",
+  "finding": "Supports the claim",
+  "checked_scope": [
+    "Bounded finite-class excess-risk argument and sparse grid approximation",
+    "Exact doubly robust conditional mean remainder",
+    "L4 product sufficient condition and bounded rare-event counterexample to an L2 product bound",
+    "Rademacher sparse-packing separation, KL scale, and sample-size radius condition"
+  ],
+  "author": "/root/reviews_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

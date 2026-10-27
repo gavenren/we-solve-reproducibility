@@ -1,0 +1,21 @@
+{
+  "handle": "ECON-D72-216-A1",
+  "problem_id": "prb_3c115f95cc604fd893ea850997c27499",
+  "contribution_handle": "ECON-D72-216-A1",
+  "contribution_id": "con_cc0b8dadc4624cdfa926cc29d7d7e12c",
+  "revision_id": "rev_7532a849331340768b529b9729cff97b",
+  "source_path": "problems/3c/prb_3c115f95cc604fd893ea850997c27499/contributions/con_cc0b8dadc4624cdfa926cc29d7d7e12c/files/D72-216.tex",
+  "source_sha256": "b0798a04020fb8fe138f4ef7cfe9d462d70000aeb98765d2360a3067c7c97470",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/3c/prb_3c115f95cc604fd893ea850997c27499/contributions/con_cc0b8dadc4624cdfa926cc29d7d7e12c/files/D72-216.tex",
+  "title": "A sharp intervention-strength and duration frontier for network exit",
+  "finding": "Supports the claim",
+  "checked_scope": [
+    "Selected current purchases, network invariance, withdrawal threshold, duration rounding",
+    "Exact initial-state intervention-strength and duration frontier",
+    "Conditional worst-case persistence-duration comparison",
+    "Two-economy observational equivalence and sharp omitted-channel interval"
+  ],
+  "author": "/root/reviews_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

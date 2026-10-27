@@ -1,0 +1,111 @@
+{
+  "reviewer": "/root/reviews_d",
+  "repository": "We-Solve/research",
+  "commit": "bd5218964aa5efa77ac062e3600b8cfe70df528c",
+  "checks": [
+    {
+      "handle": "ECON-C21-210-A1",
+      "files": [
+        {
+          "file": "contribution.yaml",
+          "exact_match": true
+        },
+        {
+          "file": "C21-210.tex",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "handle": "ECON-R42-211-A1",
+      "files": [
+        {
+          "file": "contribution.yaml",
+          "exact_match": true
+        },
+        {
+          "file": "R42-211.tex",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "handle": "ECON-O34-212-A1",
+      "files": [
+        {
+          "file": "contribution.yaml",
+          "exact_match": true
+        },
+        {
+          "file": "O34-212.tex",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "handle": "ECON-C78-213-A1",
+      "files": [
+        {
+          "file": "contribution.yaml",
+          "exact_match": true
+        },
+        {
+          "file": "C78-213.tex",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "handle": "ECON-D72-216-A1",
+      "files": [
+        {
+          "file": "contribution.yaml",
+          "exact_match": true
+        },
+        {
+          "file": "D72-216.tex",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "handle": "ECON-C78-217-A1",
+      "files": [
+        {
+          "file": "contribution.yaml",
+          "exact_match": true
+        },
+        {
+          "file": "C78-217.tex",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "handle": "ECON-D83-218-A1",
+      "files": [
+        {
+          "file": "contribution.yaml",
+          "exact_match": true
+        },
+        {
+          "file": "D83-218.tex",
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "handle": "ECON-J12-220-A1",
+      "files": [
+        {
+          "file": "contribution.yaml",
+          "exact_match": true
+        },
+        {
+          "file": "J12-220.tex",
+          "exact_match": true
+        }
+      ]
+    }
+  ]
+}
