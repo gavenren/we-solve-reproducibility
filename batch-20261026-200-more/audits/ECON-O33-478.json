@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-O33-478",
+  "contribution_handle": "ECON-O33-478-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "fb7a8cf50188b9b564d56310a5bdfcd3349266cc9a30e7fdfd2964d76144252d",
+  "source_sha256": "fc16959de0e0b732520c04ec0793d970ec53e41480401206d1a8007730a83d04",
+  "checked_scope": "Dated capacity/resource reachability frontier.",
+  "checks_performed": [
+    "Iterated stock recursion and transformed to delivered-stock variables with positive cost ratios.",
+    "Verified global exchange proof, minimum-cost formula and capacity/budget necessity/sufficiency.",
+    "Checked zero target, zero delivery weights, depreciation endpoints and 3-period example.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Complete joint resource/capacity acceleration frontier with exact optimal timing."
+}

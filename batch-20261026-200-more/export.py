@@ -26,6 +26,9 @@ def main():
         copy(name)
     if (ROOT/'readback_verification.json').exists():
         copy('readback_verification.json')
+    for optional in ['provenance_corrections.json','issue_updates.jsonl']:
+        if (ROOT/optional).exists():
+            copy(optional)
     # Only original code/check outputs, never copied source manuscripts or issue histories.
     for path in sorted(ROOT.iterdir()):
         if path.is_file() and (path.name.startswith('check') or path.name.startswith('verify')) and path.suffix in {'.py','.json','.txt','.md'}:
@@ -61,8 +64,9 @@ def main():
         'Original prose and audit records: CC BY 4.0. Original verification code: Apache-2.0. Upstream authors and source revisions are credited in each review. All numerical or finite checks are limited to their recorded domain and do not replace mathematical proof.', '',
         'The assembly script depends on local source snapshots and the deduplication snapshot, which are deliberately not redistributed in this evidence export. The original mathematical check scripts and their recorded outputs are included when present. The contribution prose provides the mathematical arguments independently of code execution.', '']
     if (ROOT/'readback_verification.json').exists():
+        verified_count=json.loads((ROOT/'readback_verification.json').read_text())['verified_issues']
         lines += ['## Submission verification', '',
-            f'All {len(receipts)} recorded issues were read back from GitHub: each title and complete body match the prepared submission. The requested intake/review labels were not applied during creation. An explicit label attempt returned GitHub 403 (Resource not accessible by integration), so labeling requires repository permissions. No editorial acceptance is claimed. See [readback verification](readback_verification.json).', '']
+            f'{verified_count} recorded issues were read back from GitHub: each title and complete body matched the prepared submission at that verification checkpoint. The requested intake/review labels were absent in those readback records. A prior explicit label attempt returned GitHub 403 (Resource not accessible by integration), so labeling requires repository permissions. No editorial acceptance is claimed. See [readback verification](readback_verification.json).', '']
     (OUT/'README.md').write_text('\n'.join(lines))
     sums=[]
     for path in sorted(OUT.rglob('*')):

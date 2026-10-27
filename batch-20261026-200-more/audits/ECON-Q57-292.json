@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read full report/source/YAML; canonical IDs matched.",
     "Verified Y-positive transfer formula and equivalence of negative moments.",
-    "Checked Tonelli tail identity, local MVT equivalence to ecological distance, power-law criterion \u03b3>\u22121/\u03c1 including logarithmic divergence at equality and blow-up constant."
+    "Checked Tonelli tail identity, local MVT equivalence to ecological distance, power-law criterion \u03b3>\u22121/\u03c1 including logarithmic divergence at equality and blow-up constant.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

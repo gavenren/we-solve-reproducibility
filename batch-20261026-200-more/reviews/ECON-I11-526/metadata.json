@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I11-526",
+  "problem_id": "prb_3bf2ef9846b94ec1aa5d6407578dc6b8",
+  "contribution_handle": "ECON-I11-526-A1",
+  "contribution_id": "con_5e3bd239c7294c67843415d3d71ec707",
+  "revision_id": "rev_00d0893518a049c2a19db25762d15cde",
+  "source_path": "problems/3b/prb_3bf2ef9846b94ec1aa5d6407578dc6b8/contributions/con_5e3bd239c7294c67843415d3d71ec707/files/I11-526.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/3b/prb_3bf2ef9846b94ec1aa5d6407578dc6b8/contributions/con_5e3bd239c7294c67843415d3d71ec707/files/I11-526.tex",
+  "title": "A coalition merger prices every insurer-value interaction by its internal multiplicity",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Generalizes the two-hospital bargaining comparison to arbitrary merging coalitions and derives an exact interaction decomposition and overlap-graph special case.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "fb94dd0a61b8cb271c24284d7cb0742f12b3a7fbea47d5e91059b6d8684fedc3"
+}

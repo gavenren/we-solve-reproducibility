@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-D72-413",
+  "contribution_handle": "ECON-D72-413-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "ac9e72a8b887b16dfe056748057b6de9156bc03729ba50fb428451f868411ba9",
+  "source_sha256": "12e1810e5db9ca98df5e98d413bbe7d2bd598ccb6211439c120b154797fc22d5",
+  "checked_scope": "Full exact manuscript/YAML and binary common-marginal population bounds.",
+  "checks_performed": "Expanded ordered pair index into S squared, verified adjacent-lattice affine lower support, exchangeable fixed-total attaining distribution, all marginal means, comonotone lower endpoint and even/odd checks.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Solves joint population coupling exactly with finite-population lattice correction."
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D72-413",
+  "problem_id": "prb_d0c62970727042b093fc1702d0b9af3b",
+  "contribution_handle": "ECON-D72-413-A1",
+  "contribution_id": "con_9eed3d9a64bb439b97cc11144499bc0f",
+  "revision_id": "rev_4e3510c43b9345a8864b2259176ee4fb",
+  "source_path": "problems/d0/prb_d0c62970727042b093fc1702d0b9af3b/contributions/con_9eed3d9a64bb439b97cc11144499bc0f/files/D72-413.tex",
+  "source_sha256": "12e1810e5db9ca98df5e98d413bbe7d2bd598ccb6211439c120b154797fc22d5",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/d0/prb_d0c62970727042b093fc1702d0b9af3b/contributions/con_9eed3d9a64bb439b97cc11144499bc0f/files/D72-413.tex",
+  "title": "Sharp population polarization bounds for binary scores with common known marginals",
+  "finding": "Supports the claim",
+  "checked_scope": "Exact n-person coupling bounds for binary ideological scores sharing a known marginal mean, extending the source's two-person coupling result.",
+  "significance": "Solves the joint-feasibility obstruction for arbitrary n in a substantive binary subclass, including parity/lattice corrections and constructive sharpness.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

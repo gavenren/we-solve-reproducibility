@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-D13-404",
+  "contribution_handle": "ECON-D13-404-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "82d4c76c2a819a2e1504409e7e4bd7ce363fca17a9fe7b6bcec1e39a6e67e412",
+  "source_sha256": "424d24bb8dfcfb0561881be7d5e5bad46f175ab6bd00871975d5c86ecc25e1f3",
+  "checked_scope": "Full exact manuscript/YAML and two-regime common-preference identified set.",
+  "checks_performed": "Checked interior first-order compatibility, all admissible a and weights, consumption ratio, exact utility-change image/open endpoints, labor equality and pure bargaining sign.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Sharp repeated-hours utility-change sets extend one-observation product identification."
+}

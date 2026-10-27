@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-J31-440",
+  "contribution_handle": "ECON-J31-440-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "138dd4666919433b2f8ff3094e7e26a703a9dcc1b6e493592bd2d3a8f1694987",
+  "source_sha256": "73f26803577383a3e5c31c8061248d71ce121a7401c277840de199b1cff18aee",
+  "checked_scope": "Full source/YAML/report; scalar minimum-variance projection and common-interval maximum via weighted subset balance.",
+  "checks_performed": [
+    "Reproved min_e min_t identity, clip optimizer and root mean condition.",
+    "Checked derivative continuity, existence, root uniqueness outside common intersection and sorted-endpoint formula including zero denominator.",
+    "Recomputed endpoint variance=(U\u2212L)\u00b2p(1\u2212p), exact subset-balance equality condition and equal-weight formula."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Replaces the general minimum-variance quadratic program by a one-dimensional projection equation and identifies the weighted maximum's subset-partition structure."
+}

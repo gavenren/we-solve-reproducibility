@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-D83-480",
+  "checked_scope": "Two-complete-menu minimax regret under feasible ex ante lotteries.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Derived regret cases after common baseline subtraction and worst endpoint representation.",
+    "Checked balancing optimizer, unique sign-indeterminate solution, sign-known boundaries and deterministic comparison.",
+    "Recomputed interval[-1/4,3/4] lottery3/4 regret3/16; verified menu-lottery timing and fixed representation restriction."
+  ],
+  "significance": "Converts sharp comparison bounds into a complete explicit robust decision with an attained regret guarantee.",
+  "contribution_handle": "ECON-D83-480-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "648526248afa4684c9d86a3b476efe54c33da46b1d666548ce1f4b1f8a900b22",
+  "source_sha256": "dc14898678293ab8ae9b8b86476010aec55be63f3558ce5be0deda90e3ace10e",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-I18-484",
+  "contribution_handle": "ECON-I18-484-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "ce7c915c633e398174ae3309c7d161b4b485ab4acfa3f9882e3182252f34c259",
+  "source_sha256": "8c21f7f777e7c9a16cf99561263cbd7b96e953321bbaa6458e179323a0f286b8",
+  "checked_scope": "Exact monotone-health partial-coverage optimization via all-subset ordering dynamic program and target-set/cardinality corollaries.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently; verified least fixed-point selector and exact subsidy/administration cost definitions.",
+    "Checked forward construction guarantees target subset and allows costless auxiliary cascade adopters, with cost exactly ordering value.",
+    "Checked reverse ordering of actual adopters, predecessor inclusion, nonnegative spillovers and administration accounting prove V(T)<=C(s).",
+    "Verified both target-set minimum over supersets and first-k prefix cardinality corollaries, plus exponential comparison count.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Solves the source's explicitly remaining known-threshold partial-coverage problem for arbitrary monotone health objectives."
+}

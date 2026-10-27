@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read full report, source and YAML and matched IDs.",
     "Verified supermodular shortfall inequality from convex increments and finite atomic transport swaps preserving marginal masses.",
-    "Checked common/opposite quantile extremizers, convex-mixture sharpness, \u00b11 example and compensation accounting."
+    "Checked common/opposite quantile extremizers, convex-mixture sharpness, \u00b11 example and compensation accounting.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

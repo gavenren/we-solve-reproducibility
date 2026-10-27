@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G12-481",
+  "problem_id": "prb_2e339b4191894789b2a0799ea6eaaa4d",
+  "contribution_handle": "ECON-G12-481-A1",
+  "contribution_id": "con_b9ce04767d164bbea36fd906f9446a1f",
+  "revision_id": "rev_dcf76f1c037b4daf9e492dc7b4b7c71b",
+  "source_path": "problems/2e/prb_2e339b4191894789b2a0799ea6eaaa4d/contributions/con_b9ce04767d164bbea36fd906f9446a1f/files/G12-481.tex",
+  "source_sha256": "625b38319c215719f44a304f8b37fbfcc30bcdef26907ff2275ba2532c651891",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/2e/prb_2e339b4191894789b2a0799ea6eaaa4d/contributions/con_b9ce04767d164bbea36fd906f9446a1f/files/G12-481.tex",
+  "title": "An exact many-producer emissions threshold for green capacity finance",
+  "finding": "Supports the claim",
+  "checked_scope": "Interior n-producer symmetric-cross-substitution Cournot extension with fixed optimal abatement.",
+  "significance": "Derives closed-form competitor-adjusted physical emissions effects and shows how the number and responsiveness of displaced rivals change mitigation feasibility.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

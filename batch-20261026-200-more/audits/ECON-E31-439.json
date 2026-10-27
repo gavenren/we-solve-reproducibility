@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read report/full source/YAML; canonical IDs matched.",
     "Verified exact null-cone uniqueness criterion in both directions and rank-deficient identified example.",
-    "Checked compact restricted-sphere stability constant, estimated-moment residual bound and L1 normalization inequality with \u03b2>0."
+    "Checked compact restricted-sphere stability constant, estimated-moment residual bound and L1 normalization inequality with \u03b2>0.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

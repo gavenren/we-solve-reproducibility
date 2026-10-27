@@ -6,18 +6,25 @@
   "reasoning_effort": "ultra",
   "verdict": "approved_scoped",
   "document_sha256": "65d952f40263ecde826b5d17b52471b57cc11503d2610abbe4bc1a11c9a4792a",
-  "source_sha256": "ebf6a10277a64cd83d3fb63977ed52613ec31e16161c8f53648fc443fad1fa7f",
+  "source_sha256": "89ecb0e07dee1d2e6ad5d7fc05bb9ac8f0d3997aef2caf5806c1ecc3f80d2976",
   "checked_scope": "Exact three-country constant-predictor log variance comparison.",
   "checks_performed": [
     "Derived pair-mixture variance including between-pair term.",
     "Checked strict q<d-e inequality by positive-factor cancellation and hence variance sign.",
     "Verified both h\u21920 and h\u21921 variance-ratio limits and excluded zero-shock ratio.",
-    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes.",
+    "Rechecked exact manuscript bytes after author removed one local extra newline; pinned Git blob SHA1 now verified."
   ],
   "changes_made": [],
   "limitations": [
     "No human or formal verification.",
     "External bibliography and empirical applicability were not independently verified."
   ],
-  "significance": "Strict finite-amplitude variance theorem and two distinct asymptotic ratios sharpen the source finite sums."
+  "significance": "Strict finite-amplitude variance theorem and two distinct asymptotic ratios sharpen the source finite sums.",
+  "source_provenance_correction": {
+    "reason": "Author removed one local extra trailing newline; corrected exact bytes match pinned Git blob. Report bytes unchanged.",
+    "old_source_sha256": "ebf6a10277a64cd83d3fb63977ed52613ec31e16161c8f53648fc443fad1fa7f",
+    "new_source_sha256": "89ecb0e07dee1d2e6ad5d7fc05bb9ac8f0d3997aef2caf5806c1ecc3f80d2976",
+    "verified_git_blob_sha": "da1708e2b02579ded516b2b66926fede2b4add9e"
+  }
 }

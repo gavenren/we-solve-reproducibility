@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-I15-474",
+  "contribution_handle": "ECON-I15-474-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "a0c44d22e8dfb52df9658cdb0fdb0af38cebce7edbf96561e0b0564fad5451ba",
+  "source_sha256": "da8500858027b99d965f6163749ca0b3fe26aea812d46debc39b2b6963aac73b",
+  "checked_scope": "Full source/YAML/report; one-horizon always-survivor mean effect with monotone survival and complete survivor outcome distributions.",
+  "checks_performed": [
+    "Derived always-survivor mass p0 and treated-survivor fraction tau=p0/p1.",
+    "Checked exact lower/upper quantile trimming, atom splitting, complete sharpness coupling preserving both observed laws and interval mixtures.",
+    "Verified p0=p1 collapse, p0=0 undefined target, p1<p0 refutation and distinction from zero-after-death cohort target."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Derives sharp trimmed-distribution bounds for the always-survivor treatment effect and distinguishes that principal-stratum target from the source's full-cohort zero-after-death earnings contrast."
+}

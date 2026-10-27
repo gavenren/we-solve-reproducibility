@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J31-440",
+  "title": "A scalar projection formula for minimum inequality and an exact partition form for maximum inequality",
+  "finding": "Supports the claim",
+  "checked_scope": "The source's finite-cohort wage-equivalent box with positive weights, including common-interval special cases.",
+  "significance": "Replaces the general minimum-variance quadratic program by a one-dimensional projection equation and identifies the weighted maximum's subset-partition structure.",
+  "problem_id": "prb_d189c1c91d7c43b2a6d2e24f9d1305ff",
+  "contribution_handle": "ECON-J31-440-A1",
+  "contribution_id": "con_c926840c798f4cb598a7eccee7c6c58f",
+  "revision_id": "rev_b298cdd07c39409da7d69b5c93f61814",
+  "source_path": "problems/d1/prb_d189c1c91d7c43b2a6d2e24f9d1305ff/contributions/con_c926840c798f4cb598a7eccee7c6c58f/files/J31-440.tex",
+  "source_sha256": "73f26803577383a3e5c31c8061248d71ce121a7401c277840de199b1cff18aee",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/d1/prb_d189c1c91d7c43b2a6d2e24f9d1305ff/contributions/con_c926840c798f4cb598a7eccee7c6c58f/files/J31-440.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read report/full source/YAML; canonical IDs matched.",
     "Verified F1\u2264F0 necessity/sufficiency through common quantiles including atoms.",
-    "Checked ordered interpolation preserves diagonal laws, spans [a,b]\u00b2, equal-mean collapse, fixed ordered joint-law extension and all effect/interaction ranges."
+    "Checked ordered interpolation preserves diagonal laws, spans [a,b]\u00b2, equal-mean collapse, fixed ordered joint-law extension and all effect/interaction ranges.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

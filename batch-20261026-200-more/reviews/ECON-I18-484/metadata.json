@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I18-484",
+  "problem_id": "prb_5cb1fb86d24d493899ac6cc71d5e26f9",
+  "contribution_handle": "ECON-I18-484-A1",
+  "contribution_id": "con_7d7850e5b6b94b05a52b56f035219dab",
+  "revision_id": "rev_9ee874779dc64f4b94efd988dfcd2d33",
+  "source_path": "problems/5c/prb_5cb1fb86d24d493899ac6cc71d5e26f9/contributions/con_7d7850e5b6b94b05a52b56f035219dab/files/I18-484.tex",
+  "source_sha256": "8c21f7f777e7c9a16cf99561263cbd7b96e953321bbaa6458e179323a0f286b8",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/5c/prb_5cb1fb86d24d493899ac6cc71d5e26f9/contributions/con_7d7850e5b6b94b05a52b56f035219dab/files/I18-484.tex",
+  "title": "The subset dynamic program also solves optimal partial coverage",
+  "finding": "Supports the claim",
+  "checked_scope": "Known-threshold least-equilibrium subsidy game and ordering dynamic program; arbitrary known monotone adoption-set health objective",
+  "significance": "Proves an exact global partial-coverage value formula from the same subset DP, including auxiliary adopters, administration costs and target-specific minimum budgets.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

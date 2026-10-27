@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-Q16-490",
+  "problem_id": "prb_4015ed0b2de34537b67f2734d0dcedbf",
+  "contribution_handle": "ECON-Q16-490-A1",
+  "contribution_id": "con_fc56a725f48c449d882912ebbc766f1a",
+  "revision_id": "rev_6b1fe972e27348a389356fe5e1a3aeff",
+  "source_path": "problems/40/prb_4015ed0b2de34537b67f2734d0dcedbf/contributions/con_fc56a725f48c449d882912ebbc766f1a/files/Q16-490.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/40/prb_4015ed0b2de34537b67f2734d0dcedbf/contributions/con_fc56a725f48c449d882912ebbc766f1a/files/Q16-490.tex",
+  "title": "Exact cessation-time transforms and discounted adoption profits",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Derives the first-passage generating function, conditional time-to-cessation under positive returns, and a closed-form infinite-horizon discounted profit value.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "27e2cc3c158854c2f135f337e3bfe7401a500e272ad1e025939c12935ab04ed3"
+}

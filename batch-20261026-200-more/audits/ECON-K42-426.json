@@ -6,18 +6,25 @@
   "reasoning_effort": "ultra",
   "verdict": "approved_scoped",
   "document_sha256": "c222b12e3476b096339248846ce9d7aef8df88f1e25f4ee5b6ba3609cfe71f89",
-  "source_sha256": "d7e11cc5f24e4e0588a660b1f596d74e7f21226bf5086b00eeaf539de10c097b",
+  "source_sha256": "2cecc60b7d529438636516b85faf83c449d5b724ccadedd44a8d4b2f23dc6825",
   "checked_scope": "Joint monotone-reporting incidence-effect interval.",
   "checks_performed": [
     "Verified effective bounds and complete joint-feasibility condition.",
     "Optimized lower corner and upper endpoint/kink candidates; checked connected image sharpness.",
     "Proved falling-report sign certificate, constant-reporting special case and zero-report qualification.",
-    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes.",
+    "Rechecked exact manuscript bytes after author removed one local extra newline; pinned Git blob SHA1 now verified."
   ],
   "changes_made": [],
   "limitations": [
     "No human or formal verification.",
     "External bibliography and empirical applicability were not independently verified."
   ],
-  "significance": "Sharp cross-regime reporting bounds and an identified sign under a testable additional restriction."
+  "significance": "Sharp cross-regime reporting bounds and an identified sign under a testable additional restriction.",
+  "source_provenance_correction": {
+    "reason": "Author removed one local extra trailing newline; corrected exact bytes match pinned Git blob. Report bytes unchanged.",
+    "old_source_sha256": "d7e11cc5f24e4e0588a660b1f596d74e7f21226bf5086b00eeaf539de10c097b",
+    "new_source_sha256": "2cecc60b7d529438636516b85faf83c449d5b724ccadedd44a8d4b2f23dc6825",
+    "verified_git_blob_sha": "eb1d4aa2d0789e65b4498e84ac57de6a4fdc68e9"
+  }
 }

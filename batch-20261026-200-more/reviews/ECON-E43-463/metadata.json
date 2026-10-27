@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E43-463",
+  "problem_id": "prb_47c25d3f8cc84204ab846b499259f4eb",
+  "contribution_handle": "ECON-E43-463-A1",
+  "contribution_id": "con_07efe4a761e540c390ce0efacc5612ea",
+  "revision_id": "rev_8545a01b6153495d8a44d7b40ad0486b",
+  "source_path": "problems/47/prb_47c25d3f8cc84204ab846b499259f4eb/contributions/con_07efe4a761e540c390ce0efacc5612ea/files/E43-463.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/47/prb_47c25d3f8cc84204ab846b499259f4eb/contributions/con_07efe4a761e540c390ce0efacc5612ea/files/E43-463.tex",
+  "title": "World integration yields a debt-weighted harmonic natural rate and exact creditor thresholds",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Derives the harmonic aggregation rule, external-position signs, and an exact country borrowing-limit threshold for switching creditor status.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "aae952e48c49be0ba1120acf066350468762872cb08763b0e2987863fb986ba2"
+}

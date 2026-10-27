@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-E42-470",
+  "contribution_handle": "ECON-E42-470-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "5befbf78bdf7a4b6a193ff3bfd82d4fb0e673c01a5e6e4266e6d8b9574006268",
+  "source_sha256": "f5da91b9ff8a7ae57fe8cee7dcdea7a8ebfed7c8002bcf4a8ddf54116b8e9ac0",
+  "checked_scope": "Finite fractional holder\u2013asset allocation with claim accessibility and unrestricted targeted rescue goods.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Verified necessity of holder-subset capacity inequalities and min-cut characterization with finite M larger than total capacities.",
+    "Recomputed exact maximum payable total and rescue shortfall, empty-set/nonnegative conventions and inaccessible-asset example.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Completes aggregate backing with exact accessibility bottleneck conditions and targeted liquidity rescue amount."
+}

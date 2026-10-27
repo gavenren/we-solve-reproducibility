@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read full report, manuscript and contribution YAML; matched canonical IDs and pinned source URL.",
     "Checked maximal coupling path-agreement product and two-state equality example for 1\u2212(1\u2212\u03b7)^T.",
-    "Derived substochastic resolvent norm 1/\u03b4, span-TV inequality \u03b7/\u03b4, \u03b7/\u03b4\u00b2 Bellman perturbation, and near-sharp two-state asymptotics."
+    "Derived substochastic resolvent norm 1/\u03b4, span-TV inequality \u03b7/\u03b4, \u03b7/\u03b4\u00b2 Bellman perturbation, and near-sharp two-state asymptotics.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

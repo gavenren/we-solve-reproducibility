@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-L41-475",
+  "contribution_handle": "ECON-L41-475-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "dc7c97e74414497f3c731519097cee0097674352fcff23ef77339680d32dd111",
+  "source_sha256": "95192e18d995490b4da99b7f5bb9e79c3b53097b6b42f0eebe5acba8ead46376",
+  "checked_scope": "All-order no-entry ownership interactions and exact entry-saturation nonadditivity sign threshold.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently, including terminal-entry selector and feasible acquisition range.",
+    "Derived alternating reciprocal sum by integral and binomial theorem; evaluated beta integral and checked k=1 reduction.",
+    "Verified subset inversion accumulation and isolated-deal comparison.",
+    "Recomputed saturation effect, real-valued sign threshold, m=N corner and feasibility restrictions.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Complete higher-order interaction formula and entry-floor sign classification strengthen source's aggregate and example results."
+}

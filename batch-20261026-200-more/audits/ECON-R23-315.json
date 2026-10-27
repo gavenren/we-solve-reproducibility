@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read report/full source/YAML; canonical IDs matched.",
     "Integrated curvature bounds, verified positive-part envelope derivative and saturation beyond unconstrained maximum.",
-    "Checked A_L,A_\u03bc integral formulas, quadratic extremizers, extension left of old cap and single subtraction of real costs."
+    "Checked A_L,A_\u03bc integral formulas, quadratic extremizers, extension left of old cap and single subtraction of real costs.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

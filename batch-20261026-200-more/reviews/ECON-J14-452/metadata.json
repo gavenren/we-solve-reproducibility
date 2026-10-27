@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J14-452",
+  "problem_id": "prb_bc1ed7e9f973455b933361342585d325",
+  "contribution_handle": "ECON-J14-452-A1",
+  "contribution_id": "con_388d1ef0177243d7bd3602690cdb7048",
+  "revision_id": "rev_a30e86eb8b694815a485994b5e3add69",
+  "source_path": "problems/bc/prb_bc1ed7e9f973455b933361342585d325/contributions/con_388d1ef0177243d7bd3602690cdb7048/files/J14-452.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/bc/prb_bc1ed7e9f973455b933361342585d325/contributions/con_388d1ef0177243d7bd3602690cdb7048/files/J14-452.tex",
+  "title": "A sharp coupling certificate improves finite-cohort projection error bounds",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Proves an occupancy-coupling error bound with cumulative probability saturation and constructs an absorbing-death model attaining its transition component exactly.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "c506b83d803c688025a12ef49cf6f7c26322fe001c00c275fbc3587ee5254e37"
+}

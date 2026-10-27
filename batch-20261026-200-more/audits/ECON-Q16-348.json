@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read report/full source/YAML; canonical IDs matched.",
     "Checked strict feasible hypograph point, KKT t-stationarity and active-scenario complementary slackness.",
-    "Verified mixed-benefit strict concavity, converse saddle certificate, interior inverse and boundary normal-cone caveat, and nonnegative-prize implementation restrictions."
+    "Verified mixed-benefit strict concavity, converse saddle certificate, interior inverse and boundary normal-cone caveat, and nonnegative-prize implementation restrictions.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

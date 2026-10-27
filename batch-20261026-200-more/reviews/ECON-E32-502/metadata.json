@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E32-502",
+  "problem_id": "prb_53906ac9093245f883f6e6c43f849038",
+  "contribution_handle": "ECON-E32-502-A1",
+  "contribution_id": "con_0bc7f3f21d0c44519dc21b94a0d2197a",
+  "revision_id": "rev_cd96b9931e6a416a8cdb36faeaaaff95",
+  "source_path": "problems/53/prb_53906ac9093245f883f6e6c43f849038/contributions/con_0bc7f3f21d0c44519dc21b94a0d2197a/files/E32-502.tex",
+  "source_sha256": "05be5da745befe57321cba5d32eaf07bdff227a5c59b2e1ed2e62e56e2aade60",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/53/prb_53906ac9093245f883f6e6c43f849038/contributions/con_0bc7f3f21d0c44519dc21b94a0d2197a/files/E32-502.tex",
+  "title": "An exact four-class joint set for a rank-two equal-eigenvalue response matrix",
+  "finding": "Supports the claim",
+  "checked_scope": "Unrestricted common rotations and grouped variance shares; four single-label classes with A_H having spectrum(a,a,0,0)",
+  "significance": "Constructively characterizes the full joint identified set at a higher-rank horizon as the capped simplex, using an elementary planar-vector construction rather than only coordinate bounds.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F18-493",
+  "problem_id": "prb_6607ef2696334fc29d0d00aab252911e",
+  "contribution_handle": "ECON-F18-493-A1",
+  "contribution_id": "con_801e06e16e5d4429b6a9883033ac0a63",
+  "revision_id": "rev_0715f6914b8d406eb0859067fe4567cf",
+  "source_path": "problems/66/prb_6607ef2696334fc29d0d00aab252911e/contributions/con_801e06e16e5d4429b6a9883033ac0a63/files/F18-493.tex",
+  "source_sha256": "b5b5d5c810ff70ad3ca64a86f66146c91bf04df9f7bd24bf81c2261cd166c17f",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/66/prb_6607ef2696334fc29d0d00aab252911e/contributions/con_801e06e16e5d4429b6a9883033ac0a63/files/F18-493.tex",
+  "title": "Global welfare cancels tariff terms of trade and gives an exact optimal charge",
+  "finding": "Supports the claim",
+  "checked_scope": "The interior two-country border-charge equilibrium and domestic equivalent-variation account, extended to equal-weight global welfare with a common climate-damage value.",
+  "significance": "A complete global welfare formula yields a closed-form optimal charge and shows how foreign demand rebound changes the corrective charge even with a correct domestic carbon tax.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

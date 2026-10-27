@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read full report, source and YAML and matched IDs.",
     "Verified required-cost order is fixed by descending unrebated tolerance for every target z.",
-    "Derived water-filling segments, B=0 endpoint, tied tolerances, positive-budget uniqueness and nonincreasing slopes; checked caveat that arbitrary CDF does not preserve concavity."
+    "Derived water-filling segments, B=0 endpoint, tied tolerances, positive-budget uniqueness and nonincreasing slopes; checked caveat that arbitrary CDF does not preserve concavity.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

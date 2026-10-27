@@ -6,18 +6,25 @@
   "reasoning_effort": "ultra",
   "verdict": "approved_scoped",
   "document_sha256": "5c94d50d501514e8ad57cad0a65fb9a66bc430c2f4901fe4b5b4441c23f5e634",
-  "source_sha256": "e7db295c064e80857f36287d06b6f0150653692bfbd47760ef15b6c0aef86793",
+  "source_sha256": "38f8d7c8ecf0724d8f3f87e5a3f305d15fc76f34ccefa6f174c0cb21368095fd",
   "checked_scope": "Common-valuation frontier-set identification and joint wage/employment design.",
   "checks_performed": [
     "Verified all three parameter-interval frontier-set cases and finite-menu degeneracy.",
     "Derived s=N0/w0 and nu=dotN/s-dotw directly from supply.",
     "Checked demand reconstruction, nu=1 exceptional case and incompatible slope condition.",
-    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes.",
+    "Rechecked exact manuscript bytes after author removed one local extra newline; pinned Git blob SHA1 now verified."
   ],
   "changes_made": [],
   "limitations": [
     "No human or formal verification.",
     "External bibliography and empirical applicability were not independently verified."
   ],
-  "significance": "Identifies the frontier from a specified joint causal response and preserves common structural parameter across policies."
+  "significance": "Identifies the frontier from a specified joint causal response and preserves common structural parameter across policies.",
+  "source_provenance_correction": {
+    "reason": "Author removed one local extra trailing newline; corrected exact bytes match pinned Git blob. Report bytes unchanged.",
+    "old_source_sha256": "e7db295c064e80857f36287d06b6f0150653692bfbd47760ef15b6c0aef86793",
+    "new_source_sha256": "38f8d7c8ecf0724d8f3f87e5a3f305d15fc76f34ccefa6f174c0cb21368095fd",
+    "verified_git_blob_sha": "f4bdb06ff85dc33423145857c7bf1d0450d08f18"
+  }
 }

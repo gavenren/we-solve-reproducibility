@@ -1,0 +1,702 @@
+{
+  "verified_issues": 77,
+  "distinct_problems": 77,
+  "all_remote_bodies_match": true,
+  "all_have_intake_and_review_labels": false,
+  "label_limitation": "Issue labels are requested during creation. This integration previously returned GitHub 403 Resource not accessible by integration for explicit labeling; repository labeling permissions are not assumed.",
+  "records": [
+    {
+      "handle": "ECON-D44-238",
+      "number": 681,
+      "url": "https://github.com/We-Solve/research/issues/681",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "7066619b1f3bc0dedb348f70bd02ac6235ea617321b3e25ab986a43455195bd2",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F13-228",
+      "number": 682,
+      "url": "https://github.com/We-Solve/research/issues/682",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "ab0d565a5ce7debf04092ab13216f2a92086e2570b6147e0a9360dca85182eef",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F18-222",
+      "number": 683,
+      "url": "https://github.com/We-Solve/research/issues/683",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "c3285cd2c8ddb3d1fc91e061f428ae21cdb5bc30e24eb964b50c2a844698a5f4",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-G12-221",
+      "number": 684,
+      "url": "https://github.com/We-Solve/research/issues/684",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "4444b406b6077d6b8780dbbee9fe7d073875e35e32175b57cc31eb4f9640024b",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-I18-236",
+      "number": 685,
+      "url": "https://github.com/We-Solve/research/issues/685",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "1303fb0fffa6fdda9ac055d3f0061eed412c814e784154b655be47cfaf617da4",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-C23-226",
+      "number": 686,
+      "url": "https://github.com/We-Solve/research/issues/686",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "b064d47b939a77d0402c69bc79d0332745e9365637f8ef2b4258dcd2f7451947",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-C78-225",
+      "number": 687,
+      "url": "https://github.com/We-Solve/research/issues/687",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "8ddcb642a272336f0d0234584aa647204d44b834f6871990721c946d8b53e3ee",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-D15-229",
+      "number": 688,
+      "url": "https://github.com/We-Solve/research/issues/688",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "705e0e7ffe95068c83a39d065906d343978a3d5e784259e77c7cf0b3169f82ce",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-D63-242",
+      "number": 689,
+      "url": "https://github.com/We-Solve/research/issues/689",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "9c2e7440ec9f3fc8d10555290de1ef54220a67d46c8786c5bd51066d4ab246d5",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-D83-243",
+      "number": 690,
+      "url": "https://github.com/We-Solve/research/issues/690",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "f53304ff23ae55439b690f35c0eaa3e9f02fce9b1d75ff9823caf66c9902779a",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-E32-231",
+      "number": 691,
+      "url": "https://github.com/We-Solve/research/issues/691",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "12e45cf1c5eef5da8b037edce400a0f8b0e3e4e6962a08014ba6a2277e93e44d",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-E42-224",
+      "number": 692,
+      "url": "https://github.com/We-Solve/research/issues/692",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "5e0991902b913b648b4e9185ced770918cc6eae4da47a64f562f2b8617a75809",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F13-230",
+      "number": 693,
+      "url": "https://github.com/We-Solve/research/issues/693",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "a3a0a9bd3b5d2090f8d79acdeabed33d888410edb09e98791b6c53d399f2c3f2",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F32-247",
+      "number": 694,
+      "url": "https://github.com/We-Solve/research/issues/694",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "ae0401f20c3f18098c3ec2e3256211d4d53dac134cc2a2595fa7a410280efdf1",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-G28-235",
+      "number": 695,
+      "url": "https://github.com/We-Solve/research/issues/695",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "b03726e8a62646a0d36aeee11a38499ea546f1be6365d79f34458e8e080a07c7",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-I32-241",
+      "number": 696,
+      "url": "https://github.com/We-Solve/research/issues/696",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "133602fd70d1f142b54fb6a9be4f52a6ebb5ff40e4f89996d0579f6e602f0888",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-J15-260",
+      "number": 697,
+      "url": "https://github.com/We-Solve/research/issues/697",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "a3c1e63deeefe8736effc872280b8332a84360420205ebeb4fb8f8b26366dc67",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-C78-227",
+      "number": 698,
+      "url": "https://github.com/We-Solve/research/issues/698",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "03241ed4cc969d4b45412d785cab919dbf1d1329d738725c151ce4d38b4cb371",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-E52-261",
+      "number": 699,
+      "url": "https://github.com/We-Solve/research/issues/699",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "84e8a7c436bfdfb80dc6f51bc298349447962d46194efb2a3c6ad93463c2a228",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F12-265",
+      "number": 700,
+      "url": "https://github.com/We-Solve/research/issues/700",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "2707709fb100a4e2c4eb4e89f5e852cb2baa071448734416d98ea58fef48ebb7",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F12-267",
+      "number": 701,
+      "url": "https://github.com/We-Solve/research/issues/701",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "7dd88babe5c99ab18768a97c11497b0637f35e2747ceae61372a61ed533c917f",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F16-250",
+      "number": 702,
+      "url": "https://github.com/We-Solve/research/issues/702",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "3c8383ad51e85b23cd8f8768b79c4454524bac7c0514eb2d77ba7f9a02d7d9d1",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-G12-249",
+      "number": 703,
+      "url": "https://github.com/We-Solve/research/issues/703",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "ec75bd2246ba681c9108378fb218bef6347565cb78df8ccd9e056e4adb64dfa7",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-G12-270",
+      "number": 704,
+      "url": "https://github.com/We-Solve/research/issues/704",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "dad71ce464c5cc380497bd98f8a317537063219294e9db5e9cb3e135a5038fb7",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-G14-255",
+      "number": 705,
+      "url": "https://github.com/We-Solve/research/issues/705",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "125a73e3d9f54ed44549469920367df59e78be94ef2ca7fdba6a4d4664fcd5d3",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-G21-258",
+      "number": 706,
+      "url": "https://github.com/We-Solve/research/issues/706",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "45f2f34a612d97d342b6edd57cc579d72199b705889dd7c52edafd3388b0fa39",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-G21-262",
+      "number": 707,
+      "url": "https://github.com/We-Solve/research/issues/707",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "1d620422e6cbc0ba371c5413c082cc4b3d8db8d3e9b820e39752c1f1141b3dbb",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-H22-245",
+      "number": 708,
+      "url": "https://github.com/We-Solve/research/issues/708",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "99eaad847105a990fdf8ee63a22ee44e149d128494f505cd9c9063131bdac1bc",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-I18-263",
+      "number": 709,
+      "url": "https://github.com/We-Solve/research/issues/709",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "40ab5b5878a7324cc3b31e973c1110d7623d66b93d5a3b5e2409d68c7ec696eb",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-C58-309",
+      "number": 710,
+      "url": "https://github.com/We-Solve/research/issues/710",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "aec5e78ab5e0ebcc12cde1d4fd2d80180a7e7bfc2bfd659ff3fe75fcd08d2bbc",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-E25-291",
+      "number": 711,
+      "url": "https://github.com/We-Solve/research/issues/711",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "61cfc4c27a4da60e43ef55d3271d85a7698f90a3133ff87aea48fa1ce558c42d",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-G12-290",
+      "number": 712,
+      "url": "https://github.com/We-Solve/research/issues/712",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "f9da1df73568d0f0be9746edc63c291b14c912cd4d66a2c8f35196ead8b7f33f",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-G14-279",
+      "number": 713,
+      "url": "https://github.com/We-Solve/research/issues/713",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "df2e04814047dfe24b7418f6181404aa5ce96c72e0e43eeed0ca0708a2794b34",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-H11-300",
+      "number": 714,
+      "url": "https://github.com/We-Solve/research/issues/714",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "194782661b744a48490ca6a37cacf965a5493aa11989f3a97d81450c3a80bd20",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-H22-278",
+      "number": 715,
+      "url": "https://github.com/We-Solve/research/issues/715",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "530964d833760f0c380235cb7bc46f8eec4ff0fdba596496bef73d9c840aa1a2",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-H63-302",
+      "number": 716,
+      "url": "https://github.com/We-Solve/research/issues/716",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "ef4363f39c9db842c9da28695a3d1a46f75c32d4c2dadd31dfae96229d050914",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-J13-276",
+      "number": 717,
+      "url": "https://github.com/We-Solve/research/issues/717",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "72ac66d4316a6f66a808c9a5afa1a8a603b547a5eaadb304a65993ff25292bf1",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-J52-253",
+      "number": 718,
+      "url": "https://github.com/We-Solve/research/issues/718",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "725dceba2bd3edc49a0561809359acc8d1440125e5dfac4ca12a0998676d2f3e",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-L15-269",
+      "number": 719,
+      "url": "https://github.com/We-Solve/research/issues/719",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "5b5e1d85ef1132e65b80782556febee7bbd79713430fccedd3b2f91a0be64cb8",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-O14-274",
+      "number": 720,
+      "url": "https://github.com/We-Solve/research/issues/720",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "1bec0ee9ab8ea6107cdfb221249758f0fd990f341ef3be0ae890a52189d3f388",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-O18-297",
+      "number": 721,
+      "url": "https://github.com/We-Solve/research/issues/721",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "ca363c87f753a317be104f10676513ac9e6defc373e3272968aeb753ca03b906",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-D82-308",
+      "number": 722,
+      "url": "https://github.com/We-Solve/research/issues/722",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "22bbe570b5570eb236a3bb16cf6a8f3c304b2eac0352910b5034314202d77f61",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F13-303",
+      "number": 723,
+      "url": "https://github.com/We-Solve/research/issues/723",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "cc79a853bf00ea7478bb6f73387bf0641047a5fad7604805bbde1a62140b7650",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F31-327",
+      "number": 724,
+      "url": "https://github.com/We-Solve/research/issues/724",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "cd4798bf8eb5363d75560bf7dc974378571d5a16a58cc519362e936cdfb8c5ef",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F44-296",
+      "number": 725,
+      "url": "https://github.com/We-Solve/research/issues/725",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "ee7b2d67fc6a4eac1043f019d446237796d35953324e339ac756deaf402673fc",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-G23-281",
+      "number": 726,
+      "url": "https://github.com/We-Solve/research/issues/726",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "2464310d09769338bf1ca4167c585f67ea574fb7e53327cd3e4cc7997762f223",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-G23-313",
+      "number": 727,
+      "url": "https://github.com/We-Solve/research/issues/727",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "abd09443d743a9fe3a96a4d4d4ad7957d9c968d275b14de406c7c433c56ccba0",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-G28-283",
+      "number": 728,
+      "url": "https://github.com/We-Solve/research/issues/728",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "ba52081906df6048cbd0fa685b3eb4a6fee3d41b69294e4217838e07efba02f7",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-H11-328",
+      "number": 729,
+      "url": "https://github.com/We-Solve/research/issues/729",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "a032671bb39530817e31973fd8cdceeee218686fa928c20676c1cedc02290f1a",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-I11-346",
+      "number": 730,
+      "url": "https://github.com/We-Solve/research/issues/730",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "a4533224adb0a6b65ed147834d759ef9b617c03b38c03c59e9e05e9621ec0aa6",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-J65-312",
+      "number": 731,
+      "url": "https://github.com/We-Solve/research/issues/731",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "d6e5d2b5d7e0b2b5bf9fbb7f964704a7a02da31ba7fabc36e202c8d0cd20c17e",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-J88-323",
+      "number": 732,
+      "url": "https://github.com/We-Solve/research/issues/732",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "f8aa8fd603ed4f588e7df24a45b92b8159daa847d4578d4cdb324665a42cefb2",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-L51-345",
+      "number": 733,
+      "url": "https://github.com/We-Solve/research/issues/733",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "29177e820eadb8c762755191f3760b05739c803c615d77e7cdb0ce6c0748ed2d",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-C78-338",
+      "number": 734,
+      "url": "https://github.com/We-Solve/research/issues/734",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "a1cf78c4fe8a568c543c061d920b4429e8f2f96d602a7b586c1fde3e6377003b",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-D02-416",
+      "number": 735,
+      "url": "https://github.com/We-Solve/research/issues/735",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "a6252bf55ec17431482ff3d5f7959d652acd2c4bc5f23acd7ef2de3281fb1b42",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-E32-428",
+      "number": 736,
+      "url": "https://github.com/We-Solve/research/issues/736",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "1d56d18c4fc0848e1ad2236c4e66ddab593847dfdc63ec6b88460e7ee933a008",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-E52-316",
+      "number": 737,
+      "url": "https://github.com/We-Solve/research/issues/737",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "fff8e35634b5f1e24088d5c0ae9109f9ca663903269d18d0376f8e549c5c1804",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F13-409",
+      "number": 738,
+      "url": "https://github.com/We-Solve/research/issues/738",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "8beb348de501f30f9cd825b1991455334355e135b8f727c6acb3b8ff8fae40bb",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F16-277",
+      "number": 739,
+      "url": "https://github.com/We-Solve/research/issues/739",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "c55e18ef84b2403e6d39ac3feac7056fedf4f7e5e94c4e660457b4b3fb08c2d0",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F36-407",
+      "number": 740,
+      "url": "https://github.com/We-Solve/research/issues/740",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "ea7c8da25d17f119acbd9e6cbac6e9d8a55ac0c7c5b7d739c4eb2d4bcce32903",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-G14-317",
+      "number": 741,
+      "url": "https://github.com/We-Solve/research/issues/741",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "70a2a477f49d356a4dc6a26ee71889ff378e5c8c1a63b5a00326044f603abd4d",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-J62-418",
+      "number": 742,
+      "url": "https://github.com/We-Solve/research/issues/742",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "4486a766551a20e1ae9e64105b59703b2b04f30576c37cb1d8d32f25df366eaf",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-J64-349",
+      "number": 743,
+      "url": "https://github.com/We-Solve/research/issues/743",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "61fb2c6b78a4c6e60e25c9cf532a735e1cfe39764832abbee1839225d0787010",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-K42-408",
+      "number": 744,
+      "url": "https://github.com/We-Solve/research/issues/744",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "392c10706e2150689a418a250dee056f480bf1dce0d3c093375f15639b142a84",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-K42-426",
+      "number": 745,
+      "url": "https://github.com/We-Solve/research/issues/745",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "f8e5e9f3dad0aed3bac69bcf93395781db844ac2f046a36030d25ba99a417b92",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-C58-320",
+      "number": 746,
+      "url": "https://github.com/We-Solve/research/issues/746",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "087cbf3cac91fcab702d8452a44f9afd17b59c6caae425a44584edbcc1d7c9d8",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-E31-439",
+      "number": 747,
+      "url": "https://github.com/We-Solve/research/issues/747",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "5777f2c9115eb889839669ea70a760929400fdd0c17d00bf3533da529b6fd3fe",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-E32-456",
+      "number": 748,
+      "url": "https://github.com/We-Solve/research/issues/748",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "b3066a7bbf2154ed43dbf42f7376007d181dfd434442711db4d1ae2b1afb5b8a",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-E62-411",
+      "number": 749,
+      "url": "https://github.com/We-Solve/research/issues/749",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "5abc4084978876017f8a0bab550b224cb59d370348f90d32fed77ed59737e37f",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F13-311",
+      "number": 750,
+      "url": "https://github.com/We-Solve/research/issues/750",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "2e34f72de92735bbd08288cfa7e6e30ea97312cc914b4c18fdd858505ecb17a1",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F13-419",
+      "number": 751,
+      "url": "https://github.com/We-Solve/research/issues/751",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "df2cb8644c06322f0a101243ca90a872ef702cb7669fec33dfd1053666649069",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F13-420",
+      "number": 752,
+      "url": "https://github.com/We-Solve/research/issues/752",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "69588ecd86e2ea37fe87854f323be00654ff2fbb9c92ede98c4976500a9cb64c",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-F51-430",
+      "number": 753,
+      "url": "https://github.com/We-Solve/research/issues/753",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "12f6d75d9d5eb699d9bd64f20fe2c2dc1b95e786fc9074941587c0ea25db74f5",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-H63-344",
+      "number": 754,
+      "url": "https://github.com/We-Solve/research/issues/754",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "46ba8365fd6a61f23e2701b8747a358178b1dff33f3ee669494204502981e02e",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-I38-454",
+      "number": 755,
+      "url": "https://github.com/We-Solve/research/issues/755",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "0f850f617323d151bfec34a4fc2077e27679d25504e8e52002c4eace2fe15e6e",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-J31-410",
+      "number": 756,
+      "url": "https://github.com/We-Solve/research/issues/756",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "048dd14e69b7a2e10c35a754a360139fbfca84b0ba425c44179d518d462ee6bd",
+      "matches_prepared_body": true
+    },
+    {
+      "handle": "ECON-L17-432",
+      "number": 757,
+      "url": "https://github.com/We-Solve/research/issues/757",
+      "state": "open",
+      "labels": [],
+      "body_sha256": "8c1ea51dc26f1da2aaf303635d8f8a229b4f1adfc84cd521de457871cc1fdad0",
+      "matches_prepared_body": true
+    }
+  ]
+}

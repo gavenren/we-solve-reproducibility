@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-Q16-490",
+  "contribution_handle": "ECON-Q16-490-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "983e7ad8022c77c2a65562557d27c92b366078470ae577c7663c4f831c6f9339",
+  "source_sha256": "27e2cc3c158854c2f135f337e3bfe7401a500e272ad1e025939c12935ab04ed3",
+  "checked_scope": "Cessation first-passage transform and discounted profit.",
+  "checks_performed": [
+    "Verified characteristic root, bounded recurrence uniqueness and z\u21921 probability limits.",
+    "Checked exchanged-probability first-passage path likelihood and conditional mean derivative.",
+    "Verified survival-sum discounted profit identity, indexing and fair-boundary infinite-mean caveat.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Exact stopping-time law and discounted profit supplement eventual cessation probabilities."
+}

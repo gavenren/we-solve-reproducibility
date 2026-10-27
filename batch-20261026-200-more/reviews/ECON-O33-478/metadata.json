@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-O33-478",
+  "problem_id": "prb_003a552c5dd640578f1a65d9bd25daa3",
+  "contribution_handle": "ECON-O33-478-A1",
+  "contribution_id": "con_3786f30a77ea4f73b3ac826e33476e00",
+  "revision_id": "rev_95e7bd8a222244a6874f25897e128555",
+  "source_path": "problems/00/prb_003a552c5dd640578f1a65d9bd25daa3/contributions/con_3786f30a77ea4f73b3ac826e33476e00/files/O33-478.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/00/prb_003a552c5dd640578f1a65d9bd25daa3/contributions/con_3786f30a77ea4f73b3ac826e33476e00/files/O33-478.tex",
+  "title": "A dated resource budget turns feasible acceleration into an exact fractional-knapsack frontier",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Adds a total dedicated-resource budget to capacity-constrained intangible accumulation and proves exact minimum-cost reachability with depreciation.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "fc16959de0e0b732520c04ec0793d970ec53e41480401206d1a8007730a83d04"
+}

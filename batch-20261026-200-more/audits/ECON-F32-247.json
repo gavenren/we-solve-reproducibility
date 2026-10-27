@@ -6,18 +6,25 @@
   "reasoning_effort": "ultra",
   "verdict": "approved_scoped",
   "document_sha256": "18d61d7fd81d4c58384deea00d3044d08f98aee197c992f660124677cb43683c",
-  "source_sha256": "66aaa74a3b2b6d1003f177060446b4e6a14eb4febe033662163ca065a3f8f6f3",
+  "source_sha256": "28fdb174b33546e12041f4603bc16af61067d15df72d3e026c249e2828d9454f",
   "checked_scope": "Several-channel nonnegative collateral feedback extension.",
   "checks_performed": [
     "Independently verified Woodbury inverse and necessity right-inverse identity.",
     "Checked weighted-norm spectral proof without irreducibility, Perron excitation obstruction and diag(1,0) exceptional solution.",
     "Checked two-channel zero-diagonal example has Perron root two.",
-    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes.",
+    "Rechecked exact manuscript bytes after author removed one local extra newline; pinned Git blob SHA1 now verified."
   ],
   "changes_made": [],
   "limitations": [
     "No human or formal verification.",
     "External bibliography and empirical applicability were not independently verified."
   ],
-  "significance": "Sharp small-matrix stability equivalence plus excitation-qualified instability; substantive multichannel extension."
+  "significance": "Sharp small-matrix stability equivalence plus excitation-qualified instability; substantive multichannel extension.",
+  "source_provenance_correction": {
+    "reason": "Author removed one local extra trailing newline; corrected exact bytes match pinned Git blob. Report bytes unchanged.",
+    "old_source_sha256": "66aaa74a3b2b6d1003f177060446b4e6a14eb4febe033662163ca065a3f8f6f3",
+    "new_source_sha256": "28fdb174b33546e12041f4603bc16af61067d15df72d3e026c249e2828d9454f",
+    "verified_git_blob_sha": "b9ef452ab62b53ce5f6d9b4d7eda106954f2945a"
+  }
 }

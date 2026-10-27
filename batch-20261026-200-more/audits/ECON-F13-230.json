@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read full report, manuscript and contribution YAML; matched canonical IDs and pinned source URL.",
     "Derived discounted occupation sum (1\u2212\u03b2^D)/(1\u2212\u03b2) and the exact consumption-equivalent transformation.",
-    "Checked lower endpoint chord, concave piecewise-linear upper envelope, neighboring-integer and endpoint extremizers, mixture sharpness, K=0 and \u03bc endpoints."
+    "Checked lower endpoint chord, concave piecewise-linear upper envelope, neighboring-integer and endpoint extremizers, mixture sharpness, K=0 and \u03bc endpoints.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

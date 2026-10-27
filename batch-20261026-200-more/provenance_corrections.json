@@ -1,0 +1,554 @@
+[
+  {
+    "handle": "ECON-F18-222",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": true,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-F18-222/contribution.yaml",
+        "old_sha256": "2647354be40410180707ceafc69e0c14158c77a458a4dc36971b1d6c4091f7a7",
+        "new_sha256": "2cb85e558c7560b5566b2f00bba04e155853ee8a4fe92aaba59576a1c550ac20",
+        "git_blob_sha": "8967a881e72278fe9dd42c7b914ef51fb0bb64db",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-F18-222/manuscript.tex",
+        "old_sha256": "dc81e2a0232ca9532e91c8af2a479a6f7595178891e6aa262da54b8245918e46",
+        "new_sha256": "6e51ca82a6e27e639116078fbb58f8cb07229bdc13dc4817f84cbd1cd43897f7",
+        "git_blob_sha": "54adf911610679e4772b564ccbf7655f3a22c840",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-F13-228",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": true,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-F13-228/contribution.yaml",
+        "old_sha256": "5bcd9d4e0a576fb51faa0854fe9453d08131b1d74413bfdd0a3551ba49f88760",
+        "new_sha256": "bb893e87d3319fc5adc998d36ce041ee3e083f0a9b60d00afc4e83ed5c594a34",
+        "git_blob_sha": "b5e8196221005d17d7810cf42d2d11fa8c0b3cdc",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-F13-228/manuscript.tex",
+        "old_sha256": "f6247ea35c5e4f573ace89ef20dbfb64729a0f2d413f1c2107fba32e9a848496",
+        "new_sha256": "30f4b0705471db7af83ac5cb333e6854c1f80ec1d1880779a4680a50eebe2892",
+        "git_blob_sha": "e5bbbf3057dbec3b0cc4b719e1799af4eaaa336e",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-D44-238",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": true,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-D44-238/contribution.yaml",
+        "old_sha256": "e331ca408bcd37e69f9ca96408bd847532fd90096571bc55d37ded637eaaa32b",
+        "new_sha256": "434e5d352a1f0c7803a30b58b6580be7408f5f4b8a6c65e5596b375a05b76dfb",
+        "git_blob_sha": "5c2243507dfb455e70ed594f92b4ce76f555b6d1",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-D44-238/manuscript.tex",
+        "old_sha256": "306fb6fdc81b05640d1a1c8fd4b46a388dd4a676db029e333d5cd436fd7f7ac3",
+        "new_sha256": "84e481c3c8a33d122c1a56c843ffe858eec83d5760e1cf255454d7746c56db59",
+        "git_blob_sha": "2fc91096c8b19bf458bb9ba3c9d1fed28325e24e",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-F32-247",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": true,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-F32-247/contribution.yaml",
+        "old_sha256": "0c20924e283cacb0ae0d6b6089182b466ff52bb782a36c923f75d9e2d2e70892",
+        "new_sha256": "af60f29acaa89c1d8515b4127e5df5cc41c55bed06664f82b79b183888ff3ed1",
+        "git_blob_sha": "59c72cdbb7a10e26ad47d6f9bcb3924c233b8234",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-F32-247/manuscript.tex",
+        "old_sha256": "66aaa74a3b2b6d1003f177060446b4e6a14eb4febe033662163ca065a3f8f6f3",
+        "new_sha256": "28fdb174b33546e12041f4603bc16af61067d15df72d3e026c249e2828d9454f",
+        "git_blob_sha": "b9ef452ab62b53ce5f6d9b4d7eda106954f2945a",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-J15-260",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": true,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-J15-260/contribution.yaml",
+        "old_sha256": "178cf55805dad2cb7cb75c8b19fe377cf1a1601f2af07eaef5318c3b4c6303df",
+        "new_sha256": "2b5944a6367b2f0fa520c10b1da2aa5608fe2cd5eafe0eb5327af410a5486e95",
+        "git_blob_sha": "8e9d6a34156e8a99b1e0e4702119aeb973c8f433",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-J15-260/manuscript.tex",
+        "old_sha256": "fcd7193d0dc988426b74d3b735b0d56ed3cf5b8ff3fcdbb8c3eb3f2eb06849d1",
+        "new_sha256": "0099274e026e34b7926d993091672aaffbabc2be1fc612ebbd2460d52384c396",
+        "git_blob_sha": "46e0318f429b9478470dbec588d652eac0d68f63",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-L15-269",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": true,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-L15-269/contribution.yaml",
+        "old_sha256": "ec2867224ec3177b0c2db9a217511e2453398f0190b70a52b45d0a966d6b12d5",
+        "new_sha256": "0ec4ace1a646a5e4b63c484937cbba98bab06ff941e78fe99d82cb6f8d4b9d83",
+        "git_blob_sha": "6f1b1c7900dea995a338e7e212c8e5ddad3e2c57",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-L15-269/manuscript.tex",
+        "old_sha256": "c454bc62738a97b1fb48eb064cf9fa3da83444dbc44f3d827af4f61b5da64869",
+        "new_sha256": "8392ea0a5a597e85714e46f1182fad5a8656baa2686ed9bb98a105b3775b6eca",
+        "git_blob_sha": "d3ecb9a9b02c7fc097474452e41a0ecb49ce862d",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-H22-278",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": true,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-H22-278/contribution.yaml",
+        "old_sha256": "c37468f5ed36aafc556557f25df37cad442396875e07a4d52b936462b8119a77",
+        "new_sha256": "80d79d7ef3b3812675e337454d3b428ae5d9c3b695a3cfd44a5fdf255a63ad2a",
+        "git_blob_sha": "235a872c830e0f682110a1dbceab06c7d7d0b6a8",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-H22-278/manuscript.tex",
+        "old_sha256": "1ee59703d909c115d13d78c0bbfa1a233ee0dd623f3400d5a9f22b62869c0241",
+        "new_sha256": "1548e8d237f8186c3c0acd0c17a0d42437e6f65d761e99e88e8535c0947aa5e0",
+        "git_blob_sha": "832c67c3bd617de9e2fcc099b0f40191c142d001",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-G12-290",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": true,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-G12-290/contribution.yaml",
+        "old_sha256": "ae86747bad4be24c7b00c5844c583d5c3f97f17c8e6f772140fd75a2bb9257e3",
+        "new_sha256": "2b2bd072367106622a92e1ad5b166b66ad476cc0cee204e06868a0b925b2037d",
+        "git_blob_sha": "d9c9c9f8112a65c4de4cfd0bec091b20ec87dc5a",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-G12-290/manuscript.tex",
+        "old_sha256": "f76591331e24cd14c898a934996d19b3886c4d9444795ed309ed37882a5954f1",
+        "new_sha256": "6c4c5771ea3be52e1975d7965399673a365747241fa2dd640c957a3e533b9af2",
+        "git_blob_sha": "9a74095c4bf0a5413e0ffb5ea774a0cfe5e30f53",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-H11-300",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": true,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-H11-300/contribution.yaml",
+        "old_sha256": "26eab0eac8b709eb4fc0a229775ee62f4f11fa53d1148ce13922975c1be159b6",
+        "new_sha256": "fccfd4e9dab45191e5010254c79b46246d8c57b39cea3aa6dab5b1f56a8b17dc",
+        "git_blob_sha": "3cb5b400c9ef615d9f784e5a325948b7bdbda32a",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-H11-300/manuscript.tex",
+        "old_sha256": "7eb82cfae51fab976cc82608b11e4afe94fc480b51a5855d1e82894b3846977b",
+        "new_sha256": "4e27122c867ff28a45c3665fd0ed94b08e06e552ec28404fc514d9bfff63ef78",
+        "git_blob_sha": "9d097c03810ecca8556b8d52a916ca47e1cd8514",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-J65-312",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": true,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-J65-312/contribution.yaml",
+        "old_sha256": "5063808c9b43617cfa1a1f2e16dcdfd3227b6a23e27176bd3b8a19557c55e4fc",
+        "new_sha256": "b3ddd1cf4c3a0a349024e8aa7ef17f066122a3e0e66e7841f58f13acc59c4533",
+        "git_blob_sha": "fab64a2a13c0a522f1b9bd067c25b3a8c4745e9f",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-J65-312/manuscript.tex",
+        "old_sha256": "b380a414324c213d2a20deb2de3718838570da82272cc834586bb77b06b3c031",
+        "new_sha256": "8469250a350a432cf079c9f11bea0d93bc0a57ccff7f64bd1373c8dcb9d153c7",
+        "git_blob_sha": "9d6b83c7758d6369288e209398eda73cef654020",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-J88-323",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": true,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-J88-323/contribution.yaml",
+        "old_sha256": "cb5ea85e29b507c0df886c3b80e25e8474242b9944ac48ce04b89ee36a3975bb",
+        "new_sha256": "995b0fbd59600cc7c27bd9390c9e5d6416a5b8f19d56613a90804bfcb0764367",
+        "git_blob_sha": "cddacb38216263049fcdba9598305984518bb8d8",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-J88-323/manuscript.tex",
+        "old_sha256": "e7db295c064e80857f36287d06b6f0150653692bfbd47760ef15b6c0aef86793",
+        "new_sha256": "38f8d7c8ecf0724d8f3f87e5a3f305d15fc76f34ccefa6f174c0cb21368095fd",
+        "git_blob_sha": "f4bdb06ff85dc33423145857c7bf1d0450d08f18",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-L51-345",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": true,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-L51-345/contribution.yaml",
+        "old_sha256": "b9422bc273dd1609a978ff69e48eaf7f38ab471327cae299027bf7681d68f1d8",
+        "new_sha256": "02f3f951e9ce9754da86bceaca6fd915508aeca7317ba7cea8f0e374cbb7c41b",
+        "git_blob_sha": "e457dfa3b9eaa800e52f6551901cb682ef19a08a",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-L51-345/manuscript.tex",
+        "old_sha256": "9254d0c5e5a7d03273731c252162cbfa510bbfb73d6a5f97d25064061b7b60ca",
+        "new_sha256": "43664b91580b1a47f90ad8a1066794b03b456bc8edc1f553e1d25f19367f2436",
+        "git_blob_sha": "fa1b8e338efd23c87adcf5737aa4f2f04e7652e7",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-F36-407",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": true,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-F36-407/contribution.yaml",
+        "old_sha256": "da8085faf6ed15e3cfb0d4f4b316c5504c5e09a7ff39a8034fbc36d2d7a8b030",
+        "new_sha256": "9f194edccbdc2cd568483895e26341cf4d61a03515aeb1a4eceaa9492c14c9c5",
+        "git_blob_sha": "9ff2b2a8a90c89e2dab1637f73f0a9124843d7ef",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-F36-407/manuscript.tex",
+        "old_sha256": "ebf6a10277a64cd83d3fb63977ed52613ec31e16161c8f53648fc443fad1fa7f",
+        "new_sha256": "89ecb0e07dee1d2e6ad5d7fc05bb9ac8f0d3997aef2caf5806c1ecc3f80d2976",
+        "git_blob_sha": "da1708e2b02579ded516b2b66926fede2b4add9e",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-R28-415",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": false,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-R28-415/contribution.yaml",
+        "old_sha256": "686f0c050e38338552373f18bfe1a24e2d18da74c7490dec0544b87afa163a35",
+        "new_sha256": "a3e668bbe4dfd312abf11b121feabf143c8cac5cb4ff8d421dd7a3055acc57a6",
+        "git_blob_sha": "c7e505982129ceb82e695fb778ef06286617dcc4",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-R28-415/manuscript.tex",
+        "old_sha256": "0646895ba8e20b2db3bf9aad4fed0f8bf63136e72cf62ccb5b60fa3f7c12ccd7",
+        "new_sha256": "7c4d2050d575c75694f44edf4ded2f60f3de1c253327a18811f75a93f1041f5d",
+        "git_blob_sha": "161595fe2e509c4e81ca799eeb5f432cf4845410",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-K42-426",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": true,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-K42-426/contribution.yaml",
+        "old_sha256": "9f7427db14f08edef7b4f58e7108344e8aa008226d5e835d905a6a72761a0fcb",
+        "new_sha256": "6b9bc385b0b8b2f81575b79ed44260de4f46159782df0499e7e01d0465f3cc3a",
+        "git_blob_sha": "38e628c4353193e9975a88c1cf34eb1dad070ea9",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-K42-426/manuscript.tex",
+        "old_sha256": "d7e11cc5f24e4e0588a660b1f596d74e7f21226bf5086b00eeaf539de10c097b",
+        "new_sha256": "2cecc60b7d529438636516b85faf83c449d5b724ccadedd44a8d4b2f23dc6825",
+        "git_blob_sha": "eb1d4aa2d0789e65b4498e84ac57de6a4fdc68e9",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-L26-436",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": false,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-L26-436/contribution.yaml",
+        "old_sha256": "243091256df461aea84cacce230b336fb30f5596478d0a34ef700314f9479c0d",
+        "new_sha256": "59d75b9df358d1348cb4893082ea189d04ae93ab0ca2f44cf56fd2920564f5f6",
+        "git_blob_sha": "1edbae4d7237d391cdf6c405073364f6bdd60a4b",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-L26-436/manuscript.tex",
+        "old_sha256": "23a91c97d8fbc91a15724a5b4ac8438548bc2af007e1a56e33422e007dad8c78",
+        "new_sha256": "d36bc0f88c4fe69214224ed45365328cb9c91a19fb67cace2bbb61385be7096a",
+        "git_blob_sha": "6da0b2dcec24bab4e50df241939967e2dd4761e0",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-H22-444",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": false,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-H22-444/contribution.yaml",
+        "old_sha256": "b2dc3cd322f80d7673a616de655f5827fcdb4f9781d87202aad10388745c6708",
+        "new_sha256": "ebaf12295dab29e8692201c8079625445c0d2606f5baab9a43f695be95cb12f2",
+        "git_blob_sha": "fd8173b5aebfe94db4eb1a8303dd35c3b79afcbc",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-H22-444/manuscript.tex",
+        "old_sha256": "d8c3a4b53e22d3010654d71de5c816d286b825eae29863c121909215cd425f5f",
+        "new_sha256": "95ba003acf9cf5ac1b977a71eaa347a27abcdd4fa7fdbfbe790d5e0b035e884f",
+        "git_blob_sha": "3a099cb1554c24af322d9ad3778912030dd75dba",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-J14-452",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": false,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-J14-452/contribution.yaml",
+        "old_sha256": "6dee970e1c57be49f0919c9c85dc03511339a360dd29af0fb582fc61c022bdbb",
+        "new_sha256": "9861d0d9b47514e32855d9edb54149078d70d362f577e62b009c97efb353cf3b",
+        "git_blob_sha": "b9305df0d4895f0cce60e65535827e90c89f9ea1",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-J14-452/manuscript.tex",
+        "old_sha256": "c4ea0cd96cd511a78353db520fa3c910be93dd6546ffcc7d80816cd2139903ed",
+        "new_sha256": "c506b83d803c688025a12ef49cf6f7c26322fe001c00c275fbc3587ee5254e37",
+        "git_blob_sha": "83a2508aab93865b2e8a6c32eb4d35e9c9aeeaa2",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-E43-463",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": false,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-E43-463/contribution.yaml",
+        "old_sha256": "54bf8b2d7c82aba45312149c8c1d603058c79c23a107b66bbfad7e8b5edf5bd2",
+        "new_sha256": "efbe8171ad0eeb114dd03014b91c1076b8889fddf3aa8d85e2cf64503b91bcc2",
+        "git_blob_sha": "4cecade8e7fddb24dbe796ee5f94bd0ff810d873",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-E43-463/manuscript.tex",
+        "old_sha256": "5d31c605156f6765ce6dde0a062a9b1dce3bd0edc535fe49ce6c8bf48cf28aaf",
+        "new_sha256": "aae952e48c49be0ba1120acf066350468762872cb08763b0e2987863fb986ba2",
+        "git_blob_sha": "4fb9656b6d42d2f1f96371615f3c52628198e4b5",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-O33-478",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": false,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-O33-478/contribution.yaml",
+        "old_sha256": "7bd0182dce28f7a48b8175cff7918c03f6193cc9b6e65251e5ebcafbb7cc1e27",
+        "new_sha256": "c6701d7f83de05e2fe7faac45b80871317addd62f0aa050156e31f0a657850d3",
+        "git_blob_sha": "797998fa3b579242cd6bc3448c41beec8d72b521",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-O33-478/manuscript.tex",
+        "old_sha256": "678d490a33abf9433cd0e108f8814a544dd728c70dee33c6c72d8ca551444a5e",
+        "new_sha256": "fc16959de0e0b732520c04ec0793d970ec53e41480401206d1a8007730a83d04",
+        "git_blob_sha": "f06a8f3776bfdaca21195db20a8f4ba8fcadaeb4",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-Q16-490",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": false,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-Q16-490/contribution.yaml",
+        "old_sha256": "9c276d0f620bdedb3a70fcbe28fbf55429b69103a17f26181848e4688e2d2037",
+        "new_sha256": "16a731795a8d54de8437a991e06d71468f558fecdb8b3ef29d8b60b4a0b4fd52",
+        "git_blob_sha": "e76b4060c2a4ebf88b98a8b6c486d2bd03f0486e",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-Q16-490/manuscript.tex",
+        "old_sha256": "47481fdeafe2c2ba8433ba5787d95686735e2b4a12d4fbaeae52384d6646abb3",
+        "new_sha256": "27e2cc3c158854c2f135f337e3bfe7401a500e272ad1e025939c12935ab04ed3",
+        "git_blob_sha": "362669a5b13c80ba669d00bdf0ce43f7b7cde20d",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-R23-505",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": false,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-R23-505/contribution.yaml",
+        "old_sha256": "503dc80d95e7900332d4c0b1d0007638805298f0fbc5c5c8d61b03e666a342d1",
+        "new_sha256": "3ad9b3cadeb167edbc239d2688d90d2162101c236ba1852c17627fdde47b3e4e",
+        "git_blob_sha": "0337a09f2db31583635bec05a9380cb90ae3da13",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-R23-505/manuscript.tex",
+        "old_sha256": "e1d702b168ed681bde9351ddfbc06d5dab4ea9c5de18f7328532bdff82b147be",
+        "new_sha256": "d3bea7fd45205682452d4d224f5b8701e02b4febfdbb7e1592e12b539dbf69fc",
+        "git_blob_sha": "50cd475ee7cc7681305d1b1c97e3b048d5033177",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-J24-515",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": false,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-J24-515/contribution.yaml",
+        "old_sha256": "1a624b0aaf686854c7bd46f26096ecb70d6fe235ea476a0e06df86121c2e8ae7",
+        "new_sha256": "35acff8f7d1c7a07dfb2a9eb518f1e5dc012e18a39947a7e9da9bbcbb46d4d0d",
+        "git_blob_sha": "6a48ea7adbeb7c9ef658f8a7da7238df948326b4",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-J24-515/manuscript.tex",
+        "old_sha256": "2d8ae5b4b9652c11a68e1bb65283be3145e70080af4a52149d4462d51a5ea1dc",
+        "new_sha256": "9576c1c7047aaadb00369c29e82d412cb50eaa8ddb171dac44a9b280a64f5e28",
+        "git_blob_sha": "a399bc1a8ab67a487e6a0c80fddfa66942813f90",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  },
+  {
+    "handle": "ECON-I11-526",
+    "author": "/root/new200_b",
+    "correction": "source_snapshots_only",
+    "report_bytes_changed": false,
+    "already_posted_at_correction_record": false,
+    "files": [
+      {
+        "path": "batch_200_more_20261026/sources/ECON-I11-526/contribution.yaml",
+        "old_sha256": "a882d4e3a83814fc78bd374165ddfa38c61e24a8d93f1b9c18526e58e7767ef2",
+        "new_sha256": "7f4c017701d164c16feb352816f20826b27fa35c2918c58bf35b6a1e057fb222",
+        "git_blob_sha": "3f61ddab696953ffddaab3cdace428784c50a0d5",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      },
+      {
+        "path": "batch_200_more_20261026/sources/ECON-I11-526/manuscript.tex",
+        "old_sha256": "d36bf21a95957762d24b143ac023ec1fc9b7bffc390f8344aa6512d32700121d",
+        "new_sha256": "fb94dd0a61b8cb271c24284d7cb0742f12b3a7fbea47d5e91059b6d8684fedc3",
+        "git_blob_sha": "c669ac1f841144b81d6442e1aee41fc3d1bb5a45",
+        "only_difference": "Removed exactly one extra trailing newline introduced by source snapshot persistence; canonical Git blob SHA now verified."
+      }
+    ]
+  }
+]

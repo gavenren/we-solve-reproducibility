@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E42-470",
+  "problem_id": "prb_e52accb63be94e76882d07c0c63af88f",
+  "contribution_handle": "ECON-E42-470-A1",
+  "contribution_id": "con_33c089a95a7443539e5c20abc259e6e0",
+  "revision_id": "rev_5343436056e64bf6b776cff3ede3a93c",
+  "source_path": "problems/e5/prb_e52accb63be94e76882d07c0c63af88f/contributions/con_33c089a95a7443539e5c20abc259e6e0/files/E42-470.tex",
+  "source_sha256": "f5da91b9ff8a7ae57fe8cee7dcdea7a8ebfed7c8002bcf4a8ddf54116b8e9ac0",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/e5/prb_e52accb63be94e76882d07c0c63af88f/contributions/con_33c089a95a7443539e5c20abc259e6e0/files/E42-470.tex",
+  "title": "Exact settlement feasibility requires every holder-subset coverage inequality",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite enforceable asset-to-holder accessibility graph in the source's exposure-consolidation model.",
+  "significance": "Completes the aggregate necessary condition with a sharp Hall-type subset criterion and exact minimum unrestricted liquidity injection.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

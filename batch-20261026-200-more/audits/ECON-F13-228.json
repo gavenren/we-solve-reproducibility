@@ -6,17 +6,24 @@
   "reasoning_effort": "ultra",
   "verdict": "approved_scoped",
   "document_sha256": "e8a3912e1634663599eb6554379d3a98534a03445af96cfc1074ee411478e580",
-  "source_sha256": "f6247ea35c5e4f573ace89ef20dbfb64729a0f2d413f1c2107fba32e9a848496",
+  "source_sha256": "30f4b0705471db7af83ac5cb333e6854c1f80ec1d1880779a4680a50eebe2892",
   "checked_scope": "Sharp exposure-dependent policy comparison",
   "checks_performed": [
     "Independently integrated gross service surplus and factored exposure change.",
     "Verified common-harm affine identification interval, sign threshold, worst improvement endpoint, b=0 and zero-exposure cases.",
-    "Recomputed numerical interval [-0.055,0.015]; checked YAML canonical IDs, pinned URL and SHA256."
+    "Recomputed numerical interval [-0.055,0.015]; checked YAML canonical IDs, pinned URL and SHA256.",
+    "Rechecked exact manuscript bytes after author removed one local extra newline; pinned Git blob SHA1 now verified."
   ],
   "changes_made": [],
   "limitations": [
     "No human or formal verification.",
     "External bibliography and empirical applicability were not independently verified."
   ],
-  "significance": "Sharp comparison bounds respect a common unknown harm parameter and characterize harmful aggregate entry."
+  "significance": "Sharp comparison bounds respect a common unknown harm parameter and characterize harmful aggregate entry.",
+  "source_provenance_correction": {
+    "reason": "Author removed one local extra trailing newline; corrected exact bytes match pinned Git blob. Report bytes unchanged.",
+    "old_source_sha256": "f6247ea35c5e4f573ace89ef20dbfb64729a0f2d413f1c2107fba32e9a848496",
+    "new_source_sha256": "30f4b0705471db7af83ac5cb333e6854c1f80ec1d1880779a4680a50eebe2892",
+    "verified_git_blob_sha": "e5bbbf3057dbec3b0cc4b719e1799af4eaaa336e"
+  }
 }

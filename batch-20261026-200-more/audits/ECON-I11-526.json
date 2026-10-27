@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-I11-526",
+  "contribution_handle": "ECON-I11-526-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "ec828051e9667e284f26129f438371d0d28561537cdd98f64f42408422184946",
+  "source_sha256": "fb94dd0a61b8cb271c24284d7cb0742f12b3a7fbea47d5e91059b6d8684fedc3",
+  "checked_scope": "General coalition bargaining interaction identity and graph substitutes.",
+  "checks_performed": [
+    "Counted each network-value interaction in separate versus coalition increments.",
+    "Verified signs, internal multiplicity and two-hospital reduction.",
+    "Checked graph incremental positivity, insurer participation before/after and three-member example.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "An exact multihospital merger payment formula isolates internal network interaction weights."
+}

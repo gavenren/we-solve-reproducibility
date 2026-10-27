@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D83-459",
+  "problem_id": "prb_ee17d46c37154b64be52af7924f8158d",
+  "contribution_handle": "ECON-D83-459-A1",
+  "contribution_id": "con_e6c927818b4f4033bdca0d9553c43841",
+  "revision_id": "rev_1d9836a2bd104e99af22efe2c03e4fb4",
+  "source_path": "problems/ee/prb_ee17d46c37154b64be52af7924f8158d/contributions/con_e6c927818b4f4033bdca0d9553c43841/files/D83-459.tex",
+  "source_sha256": "f288c68bc930aa8dda8efe5dda2fd5f33bc1c8d5d426a737d3ca83a83cd1d352",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/ee/prb_ee17d46c37154b64be52af7924f8158d/contributions/con_e6c927818b4f4033bdca0d9553c43841/files/D83-459.tex",
+  "title": "Partial personalization can trigger a discontinuous monopoly-price jump",
+  "finding": "Supports the claim",
+  "checked_scope": "Hard one-inspection two-seller example; endogenous prices under an arbitrary independent personalized rollout fraction",
+  "significance": "Solves the entire mixed-rollout price game and exhibits positive within-market treatment surplus alongside the source's negative full-equilibrium treatment effect.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

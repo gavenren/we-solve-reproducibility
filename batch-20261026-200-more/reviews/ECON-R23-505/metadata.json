@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-R23-505",
+  "problem_id": "prb_ff866b1afdb441b5a7835b83658e5330",
+  "contribution_handle": "ECON-R23-505-A1",
+  "contribution_id": "con_bbe54f58abcd4ae796c8ca013adf93ea",
+  "revision_id": "rev_80604f3392a4408684e29e38cad56e52",
+  "source_path": "problems/ff/prb_ff866b1afdb441b5a7835b83658e5330/contributions/con_bbe54f58abcd4ae796c8ca013adf93ea/files/R23-505.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/ff/prb_ff866b1afdb441b5a7835b83658e5330/contributions/con_bbe54f58abcd4ae796c8ca013adf93ea/files/R23-505.tex",
+  "title": "Known mean social ties yield an exact finite linear program with two-point witnesses",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Derives sharp population welfare bounds from a known mean common-tie distribution and proves every endpoint has a distribution supported on at most two model breakpoints.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "d3bea7fd45205682452d4d224f5b8701e02b4febfdbb7e1592e12b539dbf69fc"
+}

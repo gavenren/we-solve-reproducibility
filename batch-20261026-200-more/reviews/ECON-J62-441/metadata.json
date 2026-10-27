@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J62-441",
+  "problem_id": "prb_09249cd3b69f43cabeb61b434e46dec1",
+  "contribution_handle": "ECON-J62-441-A1",
+  "contribution_id": "con_075a254c67ee4477a1c13bdc82f23437",
+  "revision_id": "rev_cc1c9bcd0a774b8fae0ae216ff728e05",
+  "source_path": "problems/09/prb_09249cd3b69f43cabeb61b434e46dec1/contributions/con_075a254c67ee4477a1c13bdc82f23437/files/J62-441.tex",
+  "source_sha256": "bdd3c2e4678f8281996af65c941f5c4d7256efe21c97bf075d19eddc242c9571",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/09/prb_09249cd3b69f43cabeb61b434e46dec1/contributions/con_075a254c67ee4477a1c13bdc82f23437/files/J62-441.tex",
+  "title": "Predictive coefficients for arbitrarily many noisy ancestors",
+  "finding": "Supports the claim",
+  "checked_scope": "Stationary Gaussian first-order status model with independent proxy noise; finite and stationary multigeneration prediction",
+  "significance": "Derives the full Kalman-recursion coefficients showing every noisy ancestor can predict the next generation despite a latent first-order null, and recovers the manuscript's grandparent formula as a special case.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

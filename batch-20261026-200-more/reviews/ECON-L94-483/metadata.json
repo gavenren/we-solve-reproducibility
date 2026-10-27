@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-L94-483",
+  "title": "A finite cycle certificate for permanent-service cash solvency",
+  "finding": "Supports the claim",
+  "checked_scope": "The source's finite state/action pathwise solvency game with a fixed stationary policy, then existence over stationary policies.",
+  "significance": "Characterizes finite required reserves by absence of reachable negative cash cycles, provides an exact simple-path reserve formula, and proves a universal finite-state reserve bound when operation is viable.",
+  "problem_id": "prb_3622edc1c9ee4484ab91081a364f2e00",
+  "contribution_handle": "ECON-L94-483-A1",
+  "contribution_id": "con_4afbe06aa51e4e8ba9cd67401ad3f596",
+  "revision_id": "rev_72b118efc3e24f13bd18d9ef03775efe",
+  "source_path": "problems/36/prb_3622edc1c9ee4484ab91081a364f2e00/contributions/con_4afbe06aa51e4e8ba9cd67401ad3f596/files/L94-483.tex",
+  "source_sha256": "8f4361a0709c9c8532933d1e3ae3211750b8304342969d07baf40587be1182a1",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/36/prb_3622edc1c9ee4484ab91081a364f2e00/contributions/con_4afbe06aa51e4e8ba9cd67401ad3f596/files/L94-483.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

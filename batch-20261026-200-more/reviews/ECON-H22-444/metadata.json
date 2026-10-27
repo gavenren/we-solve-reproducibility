@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-H22-444",
+  "problem_id": "prb_d2f00ce493b24be3b78e71ce878435b4",
+  "contribution_handle": "ECON-H22-444-A1",
+  "contribution_id": "con_ac485ef1b3ac4c1384f472e12eba63a6",
+  "revision_id": "rev_4310edbe925e4a8ca4820b2f7f2cdbb8",
+  "source_path": "problems/d2/prb_d2f00ce493b24be3b78e71ce878435b4/contributions/con_ac485ef1b3ac4c1384f472e12eba63a6/files/H22-444.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/d2/prb_d2f00ce493b24be3b78e71ce878435b4/contributions/con_ac485ef1b3ac4c1384f472e12eba63a6/files/H22-444.tex",
+  "title": "Endogenous home and haven rates have a unique interior tax-game equilibrium",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Solves a two-government extension of the source's rent-shifting model, proves global Nash uniqueness under a nonbinding common rate cap, and checks resource accounting.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "95ba003acf9cf5ac1b977a71eaa347a27abcdd4fa7fdbfbe790d5e0b035e884f"
+}

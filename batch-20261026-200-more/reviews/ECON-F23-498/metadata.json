@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F23-498",
+  "title": "The entire joint encouragement-compliance type distribution is identified",
+  "finding": "Supports the claim",
+  "checked_scope": "Binary channel-specific monotone take-up under full-cell factorial randomization; first-stage laws only.",
+  "significance": "Recovers all nine joint never/complier/always type probabilities from the observed first-stage law and gives necessary-and-sufficient nonnegative-cell compatibility restrictions.",
+  "problem_id": "prb_6a1a959a90fa4dafa876df0cfa738671",
+  "contribution_handle": "ECON-F23-498-A1",
+  "contribution_id": "con_cd8fdd42179743cb97475dda7bb52331",
+  "revision_id": "rev_12970b59540f47e6bbc00aaea731cf53",
+  "source_path": "problems/6a/prb_6a1a959a90fa4dafa876df0cfa738671/contributions/con_cd8fdd42179743cb97475dda7bb52331/files/F23-498.tex",
+  "source_sha256": "11df52e0cf65b85a84a5f9896827c9c8f40c5331bdf8eb9c87a1b1d464760a93",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/6a/prb_6a1a959a90fa4dafa876df0cfa738671/contributions/con_cd8fdd42179743cb97475dda7bb52331/files/F23-498.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

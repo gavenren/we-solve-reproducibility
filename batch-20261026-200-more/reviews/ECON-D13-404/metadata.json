@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D13-404",
+  "problem_id": "prb_ce5709498edd418ba8999db09546ce70",
+  "contribution_handle": "ECON-D13-404-A1",
+  "contribution_id": "con_dc21e161fcb24c34a0d441f9a74716d1",
+  "revision_id": "rev_a3a706655bb5423dba101902a08fbe58",
+  "source_path": "problems/ce/prb_ce5709498edd418ba8999db09546ce70/contributions/con_dc21e161fcb24c34a0d441f9a74716d1/files/D13-404.tex",
+  "source_sha256": "424d24bb8dfcfb0561881be7d5e5bad46f175ab6bd00871975d5c86ecc25e1f3",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/ce/prb_ce5709498edd418ba8999db09546ce70/contributions/con_dc21e161fcb24c34a0d441f9a74716d1/files/D13-404.tex",
+  "title": "Sharp welfare-change sets from repeated hours observations without consumption data",
+  "finding": "Supports the claim",
+  "checked_scope": "Two interior household equilibria with common log-quadratic labor preference parameter, observed wages and nonlabor income, and unobserved private consumption.",
+  "significance": "Characterizes all observationally compatible preference/weight pairs and the exact utility-change set; under a pure bargaining intervention, hours identify consumption growth but leave welfare magnitude unbounded.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

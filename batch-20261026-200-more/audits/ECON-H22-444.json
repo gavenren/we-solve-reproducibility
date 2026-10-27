@@ -1,0 +1,25 @@
+{
+  "handle": "ECON-H22-444",
+  "contribution_handle": "ECON-H22-444-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "73631360b21afaa37cb1dd67d1bda3cf3b3bc9056ce099512851a4d597e76150",
+  "source_sha256": "95ba003acf9cf5ac1b977a71eaa347a27abcdd4fa7fdbfbe790d5e0b035e884f",
+  "checked_scope": "Endogenous two-government receipt-maximizing tax game.",
+  "checks_performed": [
+    "Verified global piecewise best responses and all zero-rate/full-shifting/capped-rate exclusions.",
+    "Rechecked final author correction explicitly treating t=0<h and h=0<t.",
+    "Solved equilibrium rates, shifted rent and resource loss; independently checked exact pinned Git blob bytes.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [
+    "At auditor request, author added explicit positive-receipt deviations excluding t=0<h and h=0<t, then refreshed READY; final bytes independently rechecked."
+  ],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Unique strategically endogenous home/haven tax rates and consistent resource account extend fixed-rate incidence."
+}

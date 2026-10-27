@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I15-474",
+  "title": "Sharp survivor-average earnings effects under monotone treatment survival",
+  "finding": "Supports the claim",
+  "checked_scope": "One declared follow-up horizon, complete survival ascertainment, bounded outcomes observed for survivors, and individual monotone survival.",
+  "significance": "Derives sharp trimmed-distribution bounds for the always-survivor treatment effect and distinguishes that principal-stratum target from the source's full-cohort zero-after-death earnings contrast.",
+  "problem_id": "prb_ca07e2a0ce074cc9b830c9e3656c15dc",
+  "contribution_handle": "ECON-I15-474-A1",
+  "contribution_id": "con_53395cb74d1e4dc4b8953bca875a5e8d",
+  "revision_id": "rev_16ac4df33be342dfb406a194db1adab4",
+  "source_path": "problems/ca/prb_ca07e2a0ce074cc9b830c9e3656c15dc/contributions/con_53395cb74d1e4dc4b8953bca875a5e8d/files/I15-474.tex",
+  "source_sha256": "da8500858027b99d965f6163749ca0b3fe26aea812d46debc39b2b6963aac73b",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/ca/prb_ca07e2a0ce074cc9b830c9e3656c15dc/contributions/con_53395cb74d1e4dc4b8953bca875a5e8d/files/I15-474.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

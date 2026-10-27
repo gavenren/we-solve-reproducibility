@@ -6,18 +6,25 @@
   "reasoning_effort": "ultra",
   "verdict": "approved_scoped",
   "document_sha256": "aa90349809dd3b6cdd0f0737a5dcba74c6749e3e5f9ce9fdc7c93adc9a50dd80",
-  "source_sha256": "9254d0c5e5a7d03273731c252162cbfa510bbfb73d6a5f97d25064061b7b60ca",
+  "source_sha256": "43664b91580b1a47f90ad8a1066794b03b456bc8edc1f553e1d25f19367f2436",
   "checked_scope": "Known mean missing valuation with signed exposure contrasts.",
   "checks_performed": [
     "Reduced missing contribution to 0<=y<=1 with fixed mass and verified quantile support optimum.",
     "Checked fractional atom selection, endpoint attainment, convex filling and signed-exposure example.",
     "Verified mean-zero/full-ceiling and missing-share/zero-H boundaries.",
-    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes.",
+    "Rechecked exact manuscript bytes after author removed one local extra newline; pinned Git blob SHA1 now verified."
   ],
   "changes_made": [],
   "limitations": [
     "No human or formal verification.",
     "External bibliography and empirical applicability were not independently verified."
   ],
-  "significance": "Sharp quantile welfare bounds add one substantive external moment without imposing missing-at-random."
+  "significance": "Sharp quantile welfare bounds add one substantive external moment without imposing missing-at-random.",
+  "source_provenance_correction": {
+    "reason": "Author removed one local extra trailing newline; corrected exact bytes match pinned Git blob. Report bytes unchanged.",
+    "old_source_sha256": "9254d0c5e5a7d03273731c252162cbfa510bbfb73d6a5f97d25064061b7b60ca",
+    "new_source_sha256": "43664b91580b1a47f90ad8a1066794b03b456bc8edc1f553e1d25f19367f2436",
+    "verified_git_blob_sha": "fa1b8e338efd23c87adcf5737aa4f2f04e7652e7"
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-F23-498",
+  "contribution_handle": "ECON-F23-498-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "e03d2f5bd4bb173d3054374b6f15e5ddf8000647284cd91c1ba25ca4e4e52039",
+  "source_sha256": "11df52e0cf65b85a84a5f9896827c9c8f40c5331bdf8eb9c87a1b1d464760a93",
+  "checked_scope": "Full source/YAML/report; all9 monotone joint take-up type masses and exact first-stage compatibility.",
+  "checks_performed": [
+    "Independently expanded each product of N/C/A type indicators and verified all9 table entries.",
+    "Checked row/column sums and total1, no-cross-channel marginal equalities and nonnegativity necessity.",
+    "Constructed type-distribution sufficiency reproducing all binary pair moments, hence full first-stage laws, without claiming outcome-type identification."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Recovers all nine joint never/complier/always type probabilities from the observed first-stage law and gives necessary-and-sufficient nonnegative-cell compatibility restrictions."
+}

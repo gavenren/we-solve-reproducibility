@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-J62-441",
+  "contribution_handle": "ECON-J62-441-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "6aa41161b7af28ff00f5d8ebdd574cb9e0d99c278057071d877a2889c2bb4e20",
+  "source_sha256": "bdd3c2e4678f8281996af65c941f5c4d7256efe21c97bf075d19eddc242c9571",
+  "checked_scope": "Finite- and infinite-history regression coefficients for noisy Gaussian ancestral status under a first-order latent process.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently and retained abs(rho)<1 and independent Gaussian errors.",
+    "Derived Gaussian posterior-mean/variance recursion and expanded every ancestral coefficient.",
+    "Verified m=1 reduction to source grandparent coefficient and alternating-sign/zero-rho boundaries.",
+    "Recomputed stationary Riccati quadratic, contraction bound and mean-square convergence of infinite predictor.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Exact all-ancestry benchmark shows distant predictive coefficients can arise without higher-order latent transmission."
+}

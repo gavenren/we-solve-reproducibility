@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-H77-422",
+  "problem_id": "prb_7e382267a194403ebc426d297ebb0d78",
+  "contribution_handle": "ECON-H77-422-A1",
+  "contribution_id": "con_8b85f936b5e24d7b8ec3dff0b9442f27",
+  "revision_id": "rev_56bcb41409f8447492396116e51d37f5",
+  "source_path": "problems/7e/prb_7e382267a194403ebc426d297ebb0d78/contributions/con_8b85f936b5e24d7b8ec3dff0b9442f27/files/H77-422.tex",
+  "source_sha256": "746bfebacf3ed8dc1fc9540d60e78f4b89c30c0440666bb864fd1dbd34efc328",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/7e/prb_7e382267a194403ebc426d297ebb0d78/contributions/con_8b85f936b5e24d7b8ec3dff0b9442f27/files/H77-422.tex",
+  "title": "Optimal financing shares minimize the gross grant flow needed for implementation",
+  "finding": "Supports the claim",
+  "checked_scope": "Constitutional financing-share choice in the source's local-grant implementation model, minimizing gross central flows while retaining socially optimal services.",
+  "significance": "Derives a unique water-filling rule and exact two-jurisdiction efficiency comparison for financing shares, while keeping transfers distinct from real welfare costs.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

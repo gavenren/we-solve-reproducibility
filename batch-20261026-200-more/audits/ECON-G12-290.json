@@ -6,18 +6,25 @@
   "reasoning_effort": "ultra",
   "verdict": "approved_scoped",
   "document_sha256": "89753207ec5ef0052b77faf62af24fe40f0ac274f2468cdf8f660e168b14d602",
-  "source_sha256": "f76591331e24cd14c898a934996d19b3886c4d9444795ed309ed37882a5954f1",
+  "source_sha256": "6c4c5771ea3be52e1975d7965399673a365747241fa2dd640c957a3e533b9af2",
   "checked_scope": "Necessary and sufficient finite-state payoff-span criterion.",
   "checks_performed": [
     "Checked sufficiency with redundant payoff representations and weighted projection perturbation necessity.",
     "Verified constant-payoff application state by state, two-state example and synthetic bond.",
     "Checked positive feasibility, finite support and nonnegative compact-closure qualifications.",
-    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes.",
+    "Rechecked exact manuscript bytes after author removed one local extra newline; pinned Git blob SHA1 now verified."
   ],
   "changes_made": [],
   "limitations": [
     "No human or formal verification.",
     "External bibliography and empirical applicability were not independently verified."
   ],
-  "significance": "General exact identification criterion strengthens the source's specific hidden-kernel construction."
+  "significance": "General exact identification criterion strengthens the source's specific hidden-kernel construction.",
+  "source_provenance_correction": {
+    "reason": "Author removed one local extra trailing newline; corrected exact bytes match pinned Git blob. Report bytes unchanged.",
+    "old_source_sha256": "f76591331e24cd14c898a934996d19b3886c4d9444795ed309ed37882a5954f1",
+    "new_source_sha256": "6c4c5771ea3be52e1975d7965399673a365747241fa2dd640c957a3e533b9af2",
+    "verified_git_blob_sha": "9a74095c4bf0a5413e0ffb5ea774a0cfe5e30f53"
+  }
 }

@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-G23-466",
+  "checked_scope": "Outside-creditor loss Lipschitz and convexity under fixed pro-rata network.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Verified residual equity nonnegativity and exact consolidated balance equation.",
+    "Checked ordered equity/payment monotonicity, arbitrary-vector coordinate-minimum argument and sharp constant-one example.",
+    "Proved payment concavity through capped concave iterations; verified convex common-affine-parameter loss and endpoint maximum."
+  ],
+  "significance": "Removes artificial network amplification from the outside-loss error certificate and preserves linked appraisal uncertainty.",
+  "contribution_handle": "ECON-G23-466-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "1ce35df55e4e3e9a733380f1bf24bd5efeec8915ca8a5878304fd710f7afa10d",
+  "source_sha256": "00516210c02b537c65e417ccfbc09158480bad37317c0680644aa20664bceacc",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

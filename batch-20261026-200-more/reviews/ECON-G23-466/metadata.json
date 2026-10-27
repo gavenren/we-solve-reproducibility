@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G23-466",
+  "problem_id": "prb_d0e1fb82ea334a6ca26a381b1def07c0",
+  "contribution_handle": "ECON-G23-466-A1",
+  "contribution_id": "con_e3e058e751dc4de3bd1f922e112c416f",
+  "revision_id": "rev_7629c88a15ad4915b28b527ab5e006c8",
+  "source_path": "problems/d0/prb_d0e1fb82ea334a6ca26a381b1def07c0/contributions/con_e3e058e751dc4de3bd1f922e112c416f/files/G23-466.tex",
+  "source_sha256": "00516210c02b537c65e417ccfbc09158480bad37317c0680644aa20664bceacc",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/d0/prb_d0e1fb82ea334a6ca26a381b1def07c0/contributions/con_e3e058e751dc4de3bd1f922e112c416f/files/G23-466.tex",
+  "title": "External creditor losses have an unamplified asset-error bound",
+  "finding": "Supports the claim",
+  "checked_scope": "The pro-rata creditor-network clearing model and external-loss function, sharpening its asset-sensitivity conclusion and deriving convexity.",
+  "significance": "A conservation-based 1-Lipschitz loss bound and convexity separate internal payment amplification from outside-creditor losses and sharpen common-parameter extrema.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read report/full source/YAML; canonical IDs matched.",
     "Verified convergence and Lyapunov identity P\u2212A\u1d40PA=I, induced P-norm q and Euclidean norm conversion.",
-    "Checked forced-error geometric sum, A=0/h=0 boundaries, Jordan-block transient example and no assertion of a computed matrix."
+    "Checked forced-error geometric sum, A=0/h=0 boundaries, Jordan-block transient example and no assertion of a computed matrix.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

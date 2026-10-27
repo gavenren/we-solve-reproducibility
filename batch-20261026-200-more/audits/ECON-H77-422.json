@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-H77-422",
+  "contribution_handle": "ECON-H77-422-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "5594c8f039ae998fd7f3a472c997d7b059b9d8863b517524a84fb82626d10a8e",
+  "source_sha256": "746bfebacf3ed8dc1fc9540d60e78f4b89c30c0440666bb864fd1dbd34efc328",
+  "checked_scope": "Full exact manuscript/YAML and endogenous financing-share grant-flow frontier.",
+  "checks_performed": "Checked implementing grant substitution, strictly convex reciprocal optimization, existence away from zero, clipped square-root scalar multiplier, two-jurisdiction formula and transfer/welfare distinction.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Unique financing shares minimize gross implementing flow without confusing transfers with real social gains."
+}

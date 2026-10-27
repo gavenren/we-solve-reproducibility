@@ -1,0 +1,27 @@
+{
+  "handle": "ECON-H43-447",
+  "contribution_handle": "ECON-H43-447-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "fddec66f91bd85865dc263fb8274f0f87df0402bf03e6e550bff2b2d55e257ee",
+  "source_sha256": "36d82db5e1ea38acda593b8f19aa6d088e391068ce27e50412097d2374436917",
+  "checked_scope": "Repeated-sample and horizon-uniform randomized project NPV sign certificate.",
+  "checks_performed": [
+    "Checked Hoeffding range and countable union-bound radius; correct.",
+    "Identified mismatch between full lifetime costs in X_T and net-flow omitted-tail condition; requested horizon-consistent C_{j,T}.",
+    "Re-read entire corrected report; verified C_{j,T} truncates maintenance at T, expectation is source\u2019s V^(T), and |net-flow tail|\u2264H\u03b4^(T+1)/(1\u2212\u03b4).",
+    "Verified Hoeffding radius, telescoping error budget over all n,T, and optional-data-dependent sign guarantee on the simultaneous event.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
+  ],
+  "changes_made": [
+    "Requested and author corrected full lifetime C to uniformly bounded horizon-consistent C_{j,T}, with explicit net-tail warning and refreshed metadata/READY."
+  ],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Requires iid projects, known propensity, observed horizon-specific costs and uniform bounds."
+  ],
+  "significance": "Provides a simultaneous, anytime-valid project mean-value sign certificate across sample size and follow-up horizon with consistent net-cost truncation."
+}

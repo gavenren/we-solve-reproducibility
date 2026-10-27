@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D83-459",
+  "contribution_handle": "ECON-D83-459-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "2e480f6e190c8195aaaa00d092bf775690f04325ea0271550e1659f690692a45",
+  "source_sha256": "f288c68bc930aa8dda8efe5dda2fd5f33bc1c8d5d426a737d3ca83a83cd1d352",
+  "checked_scope": "Mixed personalization rollout demand and global price branch switching, treatment-control surplus and equilibrium selection.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently, including hard attention and price-independent ranking assumptions.",
+    "Recomputed mixed masses, both revenue maxima, factorization, rollout threshold and low-branch feasibility threshold.",
+    "Verified strict jump and pure equilibrium correspondence, then read final added mixed-pricing qualification at the tie.",
+    "Recomputed high-branch individual and aggregate consumer surplus and contrasted with endpoint effect.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [
+    "Requested pure-price scope clarification and explicit arbitrary independent mixtures over the two maximizing prices at the rollout threshold; author added and refroze final bytes."
+  ],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Exact endogenous-price phase change explains positive within-market user effects alongside negative full-rollout surplus."
+}

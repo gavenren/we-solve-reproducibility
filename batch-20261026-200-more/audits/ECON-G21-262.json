@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read full report, source and YAML and matched IDs.",
     "Checked impossibility of partial pure equilibria for every k and N\u22652, with \u03bb=0 ties excluded almost surely.",
-    "Recomputed both quadratic branches for \u03bb>1, compared to zero, verified t=(1+\u03bb)\u00b2/2>1+\u03bb, endpoint tie uniqueness, and continuity at \u03bb=1."
+    "Recomputed both quadratic branches for \u03bb>1, compared to zero, verified t=(1+\u03bb)\u00b2/2>1+\u03bb, endpoint tie uniqueness, and continuity at \u03bb=1.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read report/full source/YAML; canonical IDs matched.",
     "Recomputed noncommuting product-error summation and \u03b3/(1\u2212\u03b3\u03c1)\u00b3 series with horizon indexing.",
-    "Verified clipped scalar path satisfies global stability/Lipschitz restrictions and dominated convergence gives the asserted first-order sharpness, including \u03b3=0 boundary."
+    "Verified clipped scalar path satisfies global stability/Lipschitz restrictions and dominated convergence gives the asserted first-order sharpness, including \u03b3=0 boundary.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

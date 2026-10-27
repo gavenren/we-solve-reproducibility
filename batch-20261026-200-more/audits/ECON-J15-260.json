@@ -6,18 +6,25 @@
   "reasoning_effort": "ultra",
   "verdict": "approved_scoped",
   "document_sha256": "37e6507f8911c0d2a9399ab2dad0d3085a1e5e079c91f004c48f724292a7146f",
-  "source_sha256": "fcd7193d0dc988426b74d3b735b0d56ed3cf5b8ff3fcdbb8c3eb3f2eb06849d1",
+  "source_sha256": "0099274e026e34b7926d993091672aaffbabc2be1fc612ebbd2460d52384c396",
   "checked_scope": "One-instrument dynamic identification and wealth-only equivalence.",
   "checks_performed": [
     "Multiplied M e1 and M\u00b2 e1; reconstructed all entries and determinant rank condition.",
     "Expanded h3=r\u00b3+2rab+abc and checked similarity orbit preserves all wealth impulses.",
     "Checked date indexing, positive-feedback assumptions, boundary failure and identified permanent multiplier.",
-    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes.",
+    "Rechecked exact manuscript bytes after author removed one local extra newline; pinned Git blob SHA1 now verified."
   ],
   "changes_made": [],
   "limitations": [
     "No human or formal verification.",
     "External bibliography and empirical applicability were not independently verified."
   ],
-  "significance": "A smaller sufficient experimental design and exact wealth-only nonidentification orbit."
+  "significance": "A smaller sufficient experimental design and exact wealth-only nonidentification orbit.",
+  "source_provenance_correction": {
+    "reason": "Author removed one local extra trailing newline; corrected exact bytes match pinned Git blob. Report bytes unchanged.",
+    "old_source_sha256": "fcd7193d0dc988426b74d3b735b0d56ed3cf5b8ff3fcdbb8c3eb3f2eb06849d1",
+    "new_source_sha256": "0099274e026e34b7926d993091672aaffbabc2be1fc612ebbd2460d52384c396",
+    "verified_git_blob_sha": "46e0318f429b9478470dbec588d652eac0d68f63"
+  }
 }

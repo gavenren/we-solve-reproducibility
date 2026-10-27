@@ -1,0 +1,30 @@
+{
+  "handle": "ECON-L26-436",
+  "contribution_handle": "ECON-L26-436-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "32eee1a576e01ed7547f3cbccb2b3234a093035f2030786d9600f2e4a481f427",
+  "source_sha256": "d36bc0f88c4fe69214224ed45365328cb9c91a19fb67cace2bbb61385be7096a",
+  "checked_scope": "Known-endpoint four-player Shapley joint error certificate.",
+  "checks_performed": [
+    "Derived fixed-coordinate coefficient mass 3/2 after removing known endpoints.",
+    "Enumerated signed support coefficients by coalition size for one- and two-positive patterns, checking totals 3 and 10/3.",
+    "Verified zero-sum restriction, sharp sign-attainment construction and distinction from structural feasibility.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes.",
+    "Rechecked exact manuscript bytes after author removed one local extra newline; pinned Git blob SHA1 now verified."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Sharp l1 and coordinate error bounds retain shared hybrid-value dependence rather than adding marginal ranges.",
+  "source_provenance_correction": {
+    "reason": "Author removed one local extra trailing newline; corrected exact bytes match pinned Git blob. Report bytes unchanged.",
+    "old_source_sha256": "23a91c97d8fbc91a15724a5b4ac8438548bc2af007e1a56e33422e007dad8c78",
+    "new_source_sha256": "d36bc0f88c4fe69214224ed45365328cb9c91a19fb67cace2bbb61385be7096a",
+    "verified_git_blob_sha": "6da0b2dcec24bab4e50df241939967e2dd4761e0"
+  }
+}

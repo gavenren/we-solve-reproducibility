@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read report/full source/YAML; canonical IDs matched.",
     "Verified orthogonal decomposition parameterization and sharp cap optimization, compactness, sign invariance and endpoint cap cases.",
-    "Derived eigenvalues \u00b1sin(t) of qq\u1d40\u2212uu\u1d40, spectral-range trace bound and rank-one projector equality construction."
+    "Derived eigenvalues \u00b1sin(t) of qq\u1d40\u2212uu\u1d40, spectral-range trace bound and rank-one projector equality construction.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

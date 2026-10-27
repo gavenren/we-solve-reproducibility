@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-L95-457",
+  "contribution_handle": "ECON-L95-457-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "02f559241bd0c7834c8e416fa43a315130211133c21ab86662958c551fb3c0e7",
+  "source_sha256": "061d36bbbd5554a6e8df8a033067f9efbe3cc126de3ba3566bb5417e022946a8",
+  "checked_scope": "Full source/YAML/report; all usage boundary/interior cases under nonnegative connection fees and exact subsidy condition.",
+  "checks_performed": [
+    "Derived interior necessary price B'(x), revenue floor xB'(x), concavity participation inequality and affordability equivalence.",
+    "Checked x0 and xmax implementation separately, maximum revenue and provider cost-recovery sufficiency.",
+    "Recomputed disconnected feasible set for B=2x\u2212x\u00b2/2,A1/2 and distinction between attained subsidy and removed allocations."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Characterizes exactly when each allocation survives a ban on connection rebates, preserves the minimum-subsidy formula where feasible, and constructs a nonconvex implementable usage set."
+}

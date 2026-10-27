@@ -6,18 +6,25 @@
   "reasoning_effort": "ultra",
   "verdict": "approved_scoped",
   "document_sha256": "631280e02ecb95f09f04446456be7803232e729580e36b9dcf92d9f9231f8f13",
-  "source_sha256": "7eb82cfae51fab976cc82608b11e4afe94fc480b51a5855d1e82894b3846977b",
+  "source_sha256": "4e27122c867ff28a45c3665fd0ed94b08e06e552ec28404fc514d9bfff63ef78",
   "checked_scope": "Selector-robust n-office initial cascade and separate persistence condition.",
   "checks_performed": [
     "Proved induction of forced investments for every mixed equilibrium.",
     "Checked failed-cascade pure profile provides necessary obstruction including equality cases.",
     "Verified two-office reduction, asymmetric chain example and additional persistence assumption.",
-    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes.",
+    "Rechecked exact manuscript bytes after author removed one local extra newline; pinned Git blob SHA1 now verified."
   ],
   "changes_made": [],
   "limitations": [
     "No human or formal verification.",
     "External bibliography and empirical applicability were not independently verified."
   ],
-  "significance": "Necessary-and-sufficient network cascade criterion for all Nash outcomes, with correct strict thresholds."
+  "significance": "Necessary-and-sufficient network cascade criterion for all Nash outcomes, with correct strict thresholds.",
+  "source_provenance_correction": {
+    "reason": "Author removed one local extra trailing newline; corrected exact bytes match pinned Git blob. Report bytes unchanged.",
+    "old_source_sha256": "7eb82cfae51fab976cc82608b11e4afe94fc480b51a5855d1e82894b3846977b",
+    "new_source_sha256": "4e27122c867ff28a45c3665fd0ed94b08e06e552ec28404fc514d9bfff63ef78",
+    "verified_git_blob_sha": "9d097c03810ecca8556b8d52a916ca47e1cd8514"
+  }
 }

@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read full report/source/YAML; canonical IDs matched.",
     "Implicitly differentiated l=X\u2212hX\u00b2 to confirm g\u2032 and g\u2033, including fold asymptotics.",
-    "Checked Jensen lower law, endpoint-chord upper law, convex mixture attainment, uniform strictness and declared branch/inventory restrictions."
+    "Checked Jensen lower law, endpoint-chord upper law, convex mixture attainment, uniform strictness and declared branch/inventory restrictions.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

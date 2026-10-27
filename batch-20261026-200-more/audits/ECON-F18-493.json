@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-F18-493",
+  "checked_scope": "Equal-country-weight global border-charge welfare and quadratic-administration optimum.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Derived foreign welfare envelope and cancellation of domestic terms-of-trade component.",
+    "Verified preexisting domestic tax term, global mitigation valuation, quadratic welfare coefficient and clipped unique optimum.",
+    "Checked \u03c4=v simplification to v e_F s_F/(b_F+s_F), rebound interpretation and active-import domain caveat."
+  ],
+  "significance": "Adds missing global welfare account and exact corrective charge while separating physical mitigation feasibility.",
+  "contribution_handle": "ECON-F18-493-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "cb77ccc919879b45ed95c4aa5813817a5c9eb4005e653906f7a1822a0cf7e0b1",
+  "source_sha256": "b5b5d5c810ff70ad3ca64a86f66146c91bf04df9f7bd24bf81c2261cd166c17f",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

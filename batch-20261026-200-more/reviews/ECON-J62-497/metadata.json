@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J62-497",
+  "problem_id": "prb_7d09a813bfaf453fb064c9a8381fa5d4",
+  "contribution_handle": "ECON-J62-497-A1",
+  "contribution_id": "con_cceff5cf4867496bab94e82a22d6d295",
+  "revision_id": "rev_b7d50e43c09845d1affd2a1e854dc2c6",
+  "source_path": "problems/7d/prb_7d09a813bfaf453fb064c9a8381fa5d4/contributions/con_cceff5cf4867496bab94e82a22d6d295/files/J62-497.tex",
+  "source_sha256": "265e5e343def32cdbb984b6fd26404a1da54b7ffcf197298a8b7a9dd19472315",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/7d/prb_7d09a813bfaf453fb064c9a8381fa5d4/contributions/con_cceff5cf4867496bab94e82a22d6d295/files/J62-497.tex",
+  "title": "Sharp signed-movement bounds when connectedness does not increase for every child",
+  "finding": "Supports the claim",
+  "checked_scope": "Continuous friendship-share response representation with bounded derivatives and possible backward first-stage movements.",
+  "significance": "Derives exact sharp aggregate bounds quantifying the negative-weight distortion caused by monotonicity violations.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

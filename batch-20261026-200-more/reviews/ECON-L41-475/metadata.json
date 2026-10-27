@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-L41-475",
+  "problem_id": "prb_8b21ae192a7842f3a225f2349995c1f1",
+  "contribution_handle": "ECON-L41-475-A1",
+  "contribution_id": "con_74ef0287feda46498ff5459628937e6b",
+  "revision_id": "rev_0f1f233883e742cea828cbba1a72df99",
+  "source_path": "problems/8b/prb_8b21ae192a7842f3a225f2349995c1f1/contributions/con_74ef0287feda46498ff5459628937e6b/files/L41-475.tex",
+  "source_sha256": "95192e18d995490b4da99b7f5bb9e79c3b53097b6b42f0eebe5acba8ead46376",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/8b/prb_8b21ae192a7842f3a225f2349995c1f1/contributions/con_74ef0287feda46498ff5459628937e6b/files/L41-475.tex",
+  "title": "All-order ownership interactions and the exact entry-saturation sign boundary",
+  "finding": "Supports the claim",
+  "checked_scope": "Cournot serial-acquisition benchmark; higher-order deal interactions and arbitrary entry floor",
+  "significance": "Derives every no-entry factorial interaction in closed form and gives the complete nonadditivity sign frontier after entry saturation.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

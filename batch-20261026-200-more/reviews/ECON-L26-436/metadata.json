@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-L26-436",
+  "problem_id": "prb_cd3398326e204488b90973a96fc38c74",
+  "contribution_handle": "ECON-L26-436-A1",
+  "contribution_id": "con_0b6dc7fb7eb34d91984c95c332a52b65",
+  "revision_id": "rev_5315a70ab64d4779b481c99d683dc4cc",
+  "source_path": "problems/cd/prb_cd3398326e204488b90973a96fc38c74/contributions/con_0b6dc7fb7eb34d91984c95c332a52b65/files/L26-436.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/cd/prb_cd3398326e204488b90973a96fc38c74/contributions/con_0b6dc7fb7eb34d91984c95c332a52b65/files/L26-436.tex",
+  "title": "Sharp joint error bounds for four-block Shapley attribution with known endpoints",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Derives sharp individual and joint l1 attribution-error bounds using exact endpoints and the zero-sum dependence across four block allocations.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "d36bc0f88c4fe69214224ed45365328cb9c91a19fb67cace2bbb61385be7096a"
+}

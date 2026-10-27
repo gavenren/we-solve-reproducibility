@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D72-449",
+  "title": "Repeated independent proxies identify reporting distortions without a known error law",
+  "finding": "Supports the claim",
+  "checked_scope": "The source's calibrated additive proxy model, extended to two repeated proxies with independent errors and a location normalization.",
+  "significance": "Derives joint reporting-distortion identification from observable characteristic-function derivatives when proxy error is unknown, and separately relaxes nonvanishing known-error assumptions to dense nonzero support.",
+  "problem_id": "prb_da1a79d7df04452ea8a9157b3e3f9160",
+  "contribution_handle": "ECON-D72-449-A1",
+  "contribution_id": "con_9a67ce0a7e9a4145a3837dc06e9e4808",
+  "revision_id": "rev_4cdbff13980e401c8a37830b9016b353",
+  "source_path": "problems/da/prb_da1a79d7df04452ea8a9157b3e3f9160/contributions/con_9a67ce0a7e9a4145a3837dc06e9e4808/files/D72-449.tex",
+  "source_sha256": "76db6ccb8a5b1962052b6a87729f270cf2fa3865715c3e4efba2b4fe73c07c15",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/da/prb_da1a79d7df04452ea8a9157b3e3f9160/contributions/con_9a67ce0a7e9a4145a3837dc06e9e4808/files/D72-449.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

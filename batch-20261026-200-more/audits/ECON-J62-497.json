@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-J62-497",
+  "contribution_handle": "ECON-J62-497-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "ac3e1e59343aefd1bf6db7ed7b54f737da38854f4110c60324e051ac71ada5ed",
+  "source_sha256": "265e5e343def32cdbb984b6fd26404a1da54b7ffcf197298a8b7a9dd19472315",
+  "checked_scope": "Share-only bounded outcome response with forward and backward dose movement and \u03c6>0.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Verified oriented-integral decomposition and ratio endpoints after F=\u03c6+D.",
+    "Checked sharp bounded-outcome constructions for 0\u2264l\u2264u\u22641, F+D\u22641, sign reversal and distinction between backward movement and mover fraction.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Quantifies the precise loss of convex-average interpretation when some children\u2019s connectedness falls."
+}

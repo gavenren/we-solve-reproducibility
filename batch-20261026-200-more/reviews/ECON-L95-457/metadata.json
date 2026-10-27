@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-L95-457",
+  "title": "Exact implementation with nonnegative connection fees and a disconnected feasible-usage example",
+  "finding": "Supports the claim",
+  "checked_scope": "Full-information individualized two-part tariffs as in the source, adding the restriction F_i\u22650.",
+  "significance": "Characterizes exactly when each allocation survives a ban on connection rebates, preserves the minimum-subsidy formula where feasible, and constructs a nonconvex implementable usage set.",
+  "problem_id": "prb_93050d4e03bb4ece8478f0b74a961add",
+  "contribution_handle": "ECON-L95-457-A1",
+  "contribution_id": "con_25f95e78b87d4946a5cec164429370d3",
+  "revision_id": "rev_865a79f31dd449acbcb8f54cf027f958",
+  "source_path": "problems/93/prb_93050d4e03bb4ece8478f0b74a961add/contributions/con_25f95e78b87d4946a5cec164429370d3/files/L95-457.tex",
+  "source_sha256": "061d36bbbd5554a6e8df8a033067f9efbe3cc126de3ba3566bb5417e022946a8",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/93/prb_93050d4e03bb4ece8478f0b74a961add/contributions/con_25f95e78b87d4946a5cec164429370d3/files/L95-457.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read full report, manuscript and contribution YAML; matched canonical IDs and pinned source URL.",
     "Verified clipping Lipschitz constant M/h, equilibrium sign contradictions, rearrangement d\u2264ck(\u0394\u2212d), c=0 boundary and equality constructions.",
-    "Verified lending change d/b from c=b(1\u2212\u03c6); no stress-probability claims are imported."
+    "Verified lending change d/b from c=b(1\u2212\u03c6); no stress-probability claims are imported.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

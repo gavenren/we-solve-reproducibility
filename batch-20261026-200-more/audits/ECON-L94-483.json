@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-L94-483",
+  "contribution_handle": "ECON-L94-483-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "69294adcb3e63ee8a443bf8530ab4cc9443b1d688e5e6d08394d8abede40401b",
+  "source_sha256": "8f4361a0709c9c8532933d1e3ae3211750b8304342969d07baf40587be1182a1",
+  "checked_scope": "Full source/YAML/report; fixed stationary-policy negative-cycle certificate, exact finite reserve and existence across stationary policies.",
+  "checks_performed": [
+    "Reproved reachable-negative-cycle impossibility and cycle removal/simplification bound for every finite path.",
+    "Checked exact minimum over simple paths, empty path, m\u22121 edge reserve bound and2-state examples.",
+    "Combined source stationary policy theorem with graph criterion; verified rectangular interval endpoints and common-parameter caveat."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Characterizes finite required reserves by absence of reachable negative cash cycles, provides an exact simple-path reserve formula, and proves a universal finite-state reserve bound when operation is viable."
+}

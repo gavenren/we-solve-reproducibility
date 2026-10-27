@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-I13-450",
+  "contribution_handle": "ECON-I13-450-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "2184063e2a7d5be048fa4a10c5af27e261fc532b037406bedb8cf443c468fe8a",
+  "source_sha256": "c96ccf47da60ae570976765449a85421e0b0239e341e81fc0dd845d3714c8479",
+  "checked_scope": "Failure of robust submodularity and greedy approximation; finite randomized robust regulation LP, dual and support bound.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently; checked every counterexample satisfies fixed-model access assumptions.",
+    "Verified robust minimum violates diminishing returns and admissible greedy tie path has zero benefit versus optimum one.",
+    "Derived finite policy-mixture primal/dual and exact one-half robust lottery value.",
+    "Checked nature timing, expected-welfare qualification and extreme-point support count at most number of models.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Identifies a material robustification failure and supplies exact alternative randomized optimization/certificate."
+}

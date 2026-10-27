@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-G12-481",
+  "contribution_handle": "ECON-G12-481-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "4a42d76180b6842871cd3c1a9a155bc25b4268fbf00cc7e6e3b50f3093de3243",
+  "source_sha256": "625b38319c215719f44a304f8b37fbfcc30bcdef26907ff2275ba2532c651891",
+  "checked_scope": "n fixed Cournot producers with common cross-substitution and interior abatement/quantity responses to a funded concession.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Checked positive definiteness, rank-one inverse by multiplication and exact concession column responses.",
+    "Summed emissions and capacity effects, recovered n=2 threshold, \u03c1=0 sign and identical-rival limiting threshold with explicit interiority caveat.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Exact many-competitor emissions criterion accounts for weighted rival displacement rather than asset labels."
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D83-480",
+  "problem_id": "prb_9bb2f06b375f4e658161a4e4be8c47c4",
+  "contribution_handle": "ECON-D83-480-A1",
+  "contribution_id": "con_99a7801fdc6841e58c6ed80df85d6aa7",
+  "revision_id": "rev_48ed9f3cada84572b395996bfea1aafb",
+  "source_path": "problems/9b/prb_9bb2f06b375f4e658161a4e4be8c47c4/contributions/con_99a7801fdc6841e58c6ed80df85d6aa7/files/D83-480.tex",
+  "source_sha256": "dc14898678293ab8ae9b8b86476010aec55be63f3558ce5be0deda90e3ace10e",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/9b/prb_9bb2f06b375f4e658161a4e4be8c47c4/contributions/con_99a7801fdc6841e58c6ed80df85d6aa7/files/D83-480.tex",
+  "title": "Two-menu ambiguity has an exact minimax-regret lottery",
+  "finding": "Supports the claim",
+  "checked_scope": "The finite representation polytope and sharp welfare interval, extended to ex ante randomization over two complete feasible alternatives under a fixed latent representation.",
+  "significance": "A closed-form regret-optimal lottery uses the joint comparison interval and gives a sharp improvement over deterministic robust choice when rankings reverse.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read full report/source/YAML; canonical IDs matched.",
     "Verified Fr\u00e9chet intersection bounds via success union and nested-outage upper construction.",
-    "Checked consecutive-circle success construction in both total-length regimes, mixtures, fixed p_j counterfactual contrast, equal-p example and boundaries."
+    "Checked consecutive-circle success construction in both total-length regimes, mixtures, fixed p_j counterfactual contrast, equal-p example and boundaries.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

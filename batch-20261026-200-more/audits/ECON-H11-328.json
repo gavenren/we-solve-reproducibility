@@ -11,7 +11,8 @@
   "checks_performed": [
     "Read report/full source/YAML; canonical IDs matched.",
     "Derived weighted-state recursion a_{t+1}=a_t(P\u2218d), substochastic resolvent convergence, and constant-retention special case.",
-    "Recomputed alternating-regime destruction counterexample and derivative \u03b2R E_ij R, with boundary/sign cases and predation constraint interpretation."
+    "Recomputed alternating-regime destruction counterexample and derivative \u03b2R E_ij R, with boundary/sign cases and predation constraint interpretation.",
+    "Independently refetched pinned GitHub YAML and manuscript; exact saved bytes match returned Git blob SHAs."
   ],
   "changes_made": [],
   "limitations": [

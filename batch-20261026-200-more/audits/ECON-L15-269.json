@@ -6,18 +6,25 @@
   "reasoning_effort": "ultra",
   "verdict": "approved_scoped",
   "document_sha256": "c9c815485a728dd51a4301427587f5e29d327bdce48638c7dcd786f90c3babc0",
-  "source_sha256": "c454bc62738a97b1fb48eb064cf9fa3da83444dbc44f3d827af4f61b5da64869",
+  "source_sha256": "8392ea0a5a597e85714e46f1182fad5a8656baa2686ed9bb98a105b3775b6eca",
   "checked_scope": "Optimal security floor and joint continuous policy benchmark.",
   "checks_performed": [
     "Checked implementable effort interval, strictly concave fixed-i security objective and constrained clipping solution.",
     "Verified strict benefit of raising nonbinding floor, portability separation and optimized interoperability convexity.",
     "Recomputed endpoint threshold and nonvacuous parameter restrictions.",
-    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes.",
+    "Rechecked exact manuscript bytes after author removed one local extra newline; pinned Git blob SHA1 now verified."
   ],
   "changes_made": [],
   "limitations": [
     "No human or formal verification.",
     "External bibliography and empirical applicability were not independently verified."
   ],
-  "significance": "Solves continuous floor optimization and a joint endpoint policy threshold beyond finite menu."
+  "significance": "Solves continuous floor optimization and a joint endpoint policy threshold beyond finite menu.",
+  "source_provenance_correction": {
+    "reason": "Author removed one local extra trailing newline; corrected exact bytes match pinned Git blob. Report bytes unchanged.",
+    "old_source_sha256": "c454bc62738a97b1fb48eb064cf9fa3da83444dbc44f3d827af4f61b5da64869",
+    "new_source_sha256": "8392ea0a5a597e85714e46f1182fad5a8656baa2686ed9bb98a105b3775b6eca",
+    "verified_git_blob_sha": "d3ecb9a9b02c7fc097474452e41a0ecb49ce862d"
+  }
 }

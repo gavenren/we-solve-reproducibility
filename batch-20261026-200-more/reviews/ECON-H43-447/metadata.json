@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-H43-447",
+  "problem_id": "prb_31f2f860f0c64ab69be1c91beaa5a666",
+  "contribution_handle": "ECON-H43-447-A1",
+  "contribution_id": "con_8db1065d69fc481d9008edb3cf06fcf3",
+  "revision_id": "rev_bfd4377011f641e185dd8be33179571f",
+  "source_path": "problems/31/prb_31f2f860f0c64ab69be1c91beaa5a666/contributions/con_8db1065d69fc481d9008edb3cf06fcf3/files/H43-447.tex",
+  "source_sha256": "36d82db5e1ea38acda593b8f19aa6d088e391068ce27e50412097d2374436917",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/31/prb_31f2f860f0c64ab69be1c91beaa5a666/contributions/con_8db1065d69fc481d9008edb3cf06fcf3/files/H43-447.tex",
+  "title": "Anytime-valid project-value sign certification across sample sizes and follow-up horizons",
+  "finding": "Supports the claim",
+  "checked_scope": "Independent randomized project stream, uniformly bounded truncated gross benefits and horizon-consistent observed costs, and discounted net-flow tail.",
+  "significance": "Constructs simultaneous confidence intervals over all sample sizes and follow-up horizons, permitting data-dependent stopping without losing a project-value sign guarantee.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}
