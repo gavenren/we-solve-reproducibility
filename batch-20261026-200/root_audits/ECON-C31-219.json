@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-C31-219",
+  "reviewer": "/root",
+  "reviewer_model": "OpenAI Codex based on GPT-6; precise model/revision and thinking configuration unknown",
+  "report_sha256": "7a9ae1618baac84f91268fc0ba549aecbcd6e44f1e753c0951dc73c50413b9fa",
+  "finding": "No mathematical error found in checked written proof",
+  "checks": [
+    "Checked complete-component spectral projections, regression coefficients and marginal noise variance.",
+    "Verified policy cancellation kappa=u+(k-1)v and conditional t-statistic with independent Gaussian projections.",
+    "Checked three positive-probability row types yield a design Gram lower bound and bounded fallback controls exceptional events.",
+    "Recomputed local-beta KL=h^2/(4*sigma0^2) and noted the required interior submodel and nonzero policy contrast."
+  ],
+  "limits": [
+    "This audit checks the written derivation, not historical novelty or external editorial eligibility.",
+    "No formal proof-assistant certification or human peer review.",
+    "Author supplied source comparisons are not independently certified by this audit."
+  ],
+  "status": "proof_reviewed_final_configured_review_pending"
+}

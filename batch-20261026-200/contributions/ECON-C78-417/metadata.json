@@ -1,0 +1,28 @@
+{
+  "problem_id": "prb_bebab9ad35de410e80c3e123755c2ace",
+  "handle": "ECON-C78-417",
+  "title": "Exact compact-indifference stability counting is #P-complete under Turing reductions",
+  "claim": "Partial result",
+  "scope": "Exact stable-refinement count is #P-complete under polynomial-time Turing reductions; rational-threshold comparison is in PP and PP-hard under polynomial-time Turing reductions. Many-one hardness and approximation are not claimed.",
+  "author": "/root/econ_d",
+  "kind": "attempt",
+  "status": "awaiting_independent_review",
+  "verification": {
+    "status": "PASS",
+    "interpolation_graphs": 273,
+    "all_bipartite_graphs_sides_at_most": 3,
+    "graph_filter": "no isolated vertices; isolated cases have zero permanent",
+    "direct_refinement_cases": 11,
+    "direct_refinements_enumerated": 92748,
+    "arithmetic": "exact Python Fraction",
+    "scope": "finite checks; not a proof of hardness"
+  },
+  "prior_contributions_read": [
+    "ECON-C78-417-A1 r1"
+  ],
+  "references": [
+    "https://we-solve.github.io/prompts/ECON-C78-417.txt",
+    "https://we-solve.github.io/contributions/stability-probability-under-compact-indifference/attempt-1/r1/",
+    "https://www.cs.bu.edu/faculty/gacs/courses/cs535/papers/Valiant_permanent.pdf"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "stdout": "{\"status\": \"PASS\", \"instances\": 320, \"applicants\": \"1..4\", \"houses\": \"1..4\", \"uncertain_applicants\": \"1 or 2\", \"seed\": 386373, \"arithmetic\": \"exact rank vectors and fractions\", \"scope\": \"candidate dominance and exact optimum against exhaustive oracle\"}\n",
+  "stderr": "",
+  "seconds": 0.07637190818786621,
+  "sha256": "c1ecff732a542ae1a69d15b76067302f59629658cd594ff2104ec907efd28ff3"
+}

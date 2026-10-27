@@ -1,0 +1,22 @@
+{
+  "problem_id": "prb_0a08fe3dc72e4b1181fd453bece6c0e1",
+  "handle": "ECON-L13-555",
+  "title": "Common ownership with heterogeneous costs: welfare reversals and sharp bounds across firm exits",
+  "claim": "Partial result",
+  "scope": "Unique heterogeneous-cost n-firm common-profit Cournot equilibrium, all active-set transitions, exact welfare derivative and finite cubic-candidate sharp welfare bounds; explicit price-up/welfare-up counterexample without efficiencies. Conditional model, not full causal identification.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact version/settings unavailable",
+  "verification": {
+    "status": "PASS",
+    "exact_kkt_and_welfare_instances": 720,
+    "derivative_checks": 719,
+    "example_welfare_change": "19/18",
+    "seed": 553,
+    "scope": "Implementation and arithmetic checks; general claims proved in report."
+  },
+  "source_urls": [
+    "https://we-solve.github.io/prompts/ECON-L13-555.txt",
+    "https://we-solve.github.io/contributions/common-ownership-and-competition/attempt-1/r1/"
+  ],
+  "source_sha256": "f5de4e6ece57ce791b318cdd4f6700e973dc82805b5acabe6c829d002c62d0fc",
+  "cross_review": "Root checked equilibrium, derivative, exit threshold and exact example; formatting subsequently repaired."
+}

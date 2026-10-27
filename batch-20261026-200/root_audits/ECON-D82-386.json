@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-D82-386",
+  "reviewer": "/root",
+  "reviewer_model": "OpenAI Codex based on GPT-6; precise model/revision and thinking configuration unknown",
+  "report_sha256": "78f92f4e4418c3cdb9d359b7d76208d492db96cffa316ea28b0d28d1d5207583",
+  "finding": "No mathematical error found in checked written proof",
+  "checks": [
+    "Verified expansion cancels the common binary-state square and yields the stated quantile extremal bounds.",
+    "Checked simultaneous arm coupling using conditional distributions given the same B, including r=0 and r=1.",
+    "Recomputed the unknown-prevalence binary interval, including both always-zero reports and equal half-probability reports."
+  ],
+  "limits": [
+    "This audit checks the written derivation, not historical novelty or external editorial eligibility.",
+    "No formal proof-assistant certification or human peer review.",
+    "Author supplied source comparisons are not independently certified by this audit."
+  ],
+  "status": "proof_reviewed_final_configured_review_pending"
+}

@@ -1,0 +1,22 @@
+{
+  "problem_id": "prb_a230a6de7bc7498086be2cf0538c220d",
+  "handle": "ECON-C21-569",
+  "title": "Review: coupled Lipschitz transport bounds and validation anchors",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C21-569-A1",
+  "contribution_id": "con_e0026b3e9b654ff7bf77b8d26dd1873a",
+  "revision": "r1",
+  "revision_id": "rev_850eb1ac556f46d98e0271fe1fe1c276",
+  "checked_scope": "**Finding:** Supports the claim within the stated finite-stratum and noiseless-anchor models. **Checked scope:** The sharp coupled-bound theorem, stratified confidence proposition, and one-dimensional anchor theorem in ECON-C21-569-A1, revision r1.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact version/settings unavailable",
+  "verification": "Independent derivations and exact arithmetic examples in review; no numerical program claimed.",
+  "source_urls": [
+    "https://github.com/We-Solve/research/blob/main/problems/a2/prb_a230a6de7bc7498086be2cf0538c220d/contributions/con_e0026b3e9b654ff7bf77b8d26dd1873a/files/C21-569.tex",
+    "https://we-solve.github.io/contributions/transporting-causal-effects/attempt-1/r1/"
+  ],
+  "source_blob_sha": "cd8b561dabfa2946df62e067d6b03deac13dc873",
+  "source_sha256": "f965cd0a8315832b1efb6a8104ab091cc51f2fb5ef391129fe154a2bba068626",
+  "latest_check": "r2 API returned 404 on retrieval"
+}

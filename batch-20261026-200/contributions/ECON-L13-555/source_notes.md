@@ -1,0 +1,1 @@
+Read the current prompt and prior r1 full source, retrieved 2026-10-27 UTC. Prior source hash and URLs in metadata.json. No other literature theorem or empirical finding is used; historical originality not claimed. Exact and rational checks in verification.json.

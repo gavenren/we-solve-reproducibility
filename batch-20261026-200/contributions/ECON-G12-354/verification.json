@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "stdout": "{\"status\": \"PASS\", \"simplex_points\": 176850, \"denominators\": \"1..100\", \"arithmetic\": \"exact fractions\", \"scope\": \"three-state boundary inequality; not the general continuity theorem\"}\n",
+  "stderr": "",
+  "seconds": 0.6287739276885986,
+  "sha256": "caf4eb36b7f333ecc9526379955148de7ccea14b87983606439249e5d258132e"
+}

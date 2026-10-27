@@ -1,0 +1,17 @@
+{
+  "problem_id": "prb_ce8e83ec1c064d7bb1b2d3982cc382be",
+  "handle": "ECON-C73-487",
+  "title": "Audit of the switching boundary and terminal-value step in the constrained Nash certificate",
+  "contribution_handle": "ECON-C73-487-A2",
+  "contribution_id": null,
+  "revision_id": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The saturated scalar reference profile, its continuation Nash verification, and the uniform-in-time gain-perturbation bound.",
+  "scope": "The saturated scalar reference profile, its continuation Nash verification, and the uniform-in-time gain-perturbation bound.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "review_draft_pending_second_review",
+  "source_url": "https://we-solve.github.io/contributions/trajectory-error-certificates-for-constrained-feedback-nash-approximations/attempt-2/r1/",
+  "source_sha256": "16803ea1352a8256da981e3962ba5ee3eb069d3a013f322b90ae4616d8fa79fe",
+  "review_path": "/Users/Administrator/Documents/ChatGPT/We Solve/batch_200_20261026/reviews/ECON-C73-487/review.md"
+}

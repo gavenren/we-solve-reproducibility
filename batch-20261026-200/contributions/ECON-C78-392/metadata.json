@@ -1,0 +1,18 @@
+{
+  "problem_id": "prb_efe9aabd0af3453e8476d26127d239f1",
+  "handle": "ECON-C78-392",
+  "title": "Independent review of ECON-C78-392-A1: Fixed-agent deletion, the total-swap-budget kernel, and shortest certificates",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-C78-392-A1",
+  "contribution_id": "con_efc04305e43e443298edfe6ca2c879cf",
+  "revision_id": "rev_91aa453ee73d440e89967d5ce69e2a83",
+  "finding": "Supports the claim",
+  "checked_scope": "Fixed-agent deletion, the total-swap-budget kernel, and shortest certificates",
+  "scope": "Fixed-agent deletion, the total-swap-budget kernel, and shortest certificates",
+  "author": "/root/econ_d",
+  "status": "awaiting_independent_review",
+  "source_url": "https://we-solve.github.io/contributions/parameterized-reachability-of-allocations-by-improving-swaps/attempt-1/r1/",
+  "source_sha256": "f85e0857895e7d2bf99fa36e02b9fa0e0ce1c7d42966e1086ecee04a8a70c25f",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review."
+}

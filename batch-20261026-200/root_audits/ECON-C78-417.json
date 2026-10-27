@@ -1,0 +1,20 @@
+{
+  "handle": "ECON-C78-417",
+  "reviewer": "/root",
+  "reviewer_model": "OpenAI Codex based on GPT-6; precise model/revision and thinking configuration unknown",
+  "report_sha256": "56c8d83d6adb89c6f65b3caa83520be14fdd99ac8625ed1949449b8630928120",
+  "finding": "No mathematical error found in checked written proof",
+  "checks": [
+    "Checked every possible blocking pair in the private-partner/challenger realization and conditional tie-priority independence.",
+    "Verified degree-m monomial coefficient counts perfect matchings with no negative quadratic factor selected.",
+    "Checked A(t) zero multiplicity N and that only alpha=k cancels every factor at t=-B-1.",
+    "Verified polynomial-size query markets and polynomial bit lengths; exact probability is distinguished from integer #P count.",
+    "Checked threshold binary search and PP Turing-completeness, without a many-one assertion."
+  ],
+  "limits": [
+    "This audit checks the written derivation, not historical novelty or external editorial eligibility.",
+    "No formal proof-assistant certification or human peer review.",
+    "Author supplied source comparisons are not independently certified by this audit."
+  ],
+  "status": "proof_reviewed_final_configured_review_pending"
+}

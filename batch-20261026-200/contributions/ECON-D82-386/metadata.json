@@ -1,0 +1,13 @@
+{
+  "handle": "ECON-D82-386",
+  "problem_id": "prb_90880f3657ad40a6985a9e2b5a2738ca",
+  "catalog_rank": 390,
+  "title": "Sharp audit-free bounds for latent survey loss under randomized assignment",
+  "claim": "Partial result",
+  "author": "/root/econ_c",
+  "status": "draft_for_independent_review",
+  "verification": "Written proof plus executed scoped checker; independent review pending",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown"
+}

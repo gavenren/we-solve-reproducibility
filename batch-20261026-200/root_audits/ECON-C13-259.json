@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-C13-259",
+  "reviewer": "/root",
+  "reviewer_model": "OpenAI Codex based on GPT-6; precise model/revision and thinking configuration unknown",
+  "report_sha256": "572bd9102cfdfb8eb9b8ea62aae3da7dbfdb014348be7f270ae301a7d9bcfa0e",
+  "finding": "No mathematical error found in checked written proof",
+  "checks": [
+    "Checked the inverse-propensity window variance, truncation regime, and L=0/t=1/saturation boundary cases.",
+    "Recomputed terminal-ramp KL bound q*d^2+q*d^3/L and two independent testing lower bounds.",
+    "Checked stationary-null interval transfer and the 1/80 constant."
+  ],
+  "limits": [
+    "This audit checks the written derivation, not historical novelty or external editorial eligibility.",
+    "No formal proof-assistant certification or human peer review.",
+    "Author supplied source comparisons are not independently certified by this audit."
+  ],
+  "status": "proof_reviewed_final_configured_review_pending"
+}

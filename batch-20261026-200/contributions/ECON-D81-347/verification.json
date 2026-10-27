@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "stdout": "{\"status\": \"PASS\", \"cases\": 63, \"dimensions\": \"2..10\", \"arithmetic\": \"floating point Simpson integration, 10000 panels\", \"scope\": \"sanity check only; not rigorous quadrature or theorem verification\"}\n",
+  "stderr": "",
+  "seconds": 0.08890223503112793,
+  "sha256": "d9a1841f0c7358e7d2db8277bdcca0adcff272b143de384756e64e147b3ae1a4"
+}

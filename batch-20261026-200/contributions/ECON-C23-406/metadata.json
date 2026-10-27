@@ -1,0 +1,18 @@
+{
+  "problem_id": "prb_58f5be82e0be4c25adabd6431bd61c6f",
+  "handle": "ECON-C23-406",
+  "title": "Independent review of ECON-C23-406-A1: One-cohort trend-sensitivity sharpness and simultaneous bounded-panel coverage",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-C23-406-A1",
+  "contribution_id": "con_35d3a7b8426842c6ad15ca983d063af1",
+  "revision_id": "rev_22f001200f584b4cb8bed3dee5580aef",
+  "finding": "Supports the claim",
+  "checked_scope": "One-cohort trend-sensitivity sharpness and simultaneous bounded-panel coverage",
+  "scope": "One-cohort trend-sensitivity sharpness and simultaneous bounded-panel coverage",
+  "author": "/root/econ_d",
+  "status": "awaiting_independent_review",
+  "source_url": "https://we-solve.github.io/contributions/staggered-adoption-with-dynamic-heterogeneous-effects/attempt-1/r1/",
+  "source_sha256": "70636d992c6cf368d6d59a7237df638dc3df7b001244186f94d7bb48eb3ca4b2",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review."
+}

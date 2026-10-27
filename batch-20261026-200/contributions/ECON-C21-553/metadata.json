@@ -1,0 +1,22 @@
+{
+  "problem_id": "prb_9989b54ff3854261950bca61fa269e78",
+  "handle": "ECON-C21-553",
+  "title": "Review: residual validation and cost-aware allocation",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C21-553-A1",
+  "contribution_id": "con_b2e788c1c6c5441bb81464ab19738763",
+  "revision": "r1",
+  "revision_id": "rev_3cfb88407caf459ab4e027bc0a405eb0",
+  "checked_scope": "**Finding:** Supports the claim within the stated model. **Checked scope:** Theorem \u201cValidation removes predictive drift bias,\u201d Proposition \u201cCost-aware validation allocation,\u201d and the unvalidated-support proposition in contribution ECON-C21-553-A1, revision r1.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact version/settings unavailable",
+  "verification": "Independent derivations and exact arithmetic examples in review; no numerical program claimed.",
+  "source_urls": [
+    "https://github.com/We-Solve/research/blob/main/problems/99/prb_9989b54ff3854261950bca61fa269e78/contributions/con_b2e788c1c6c5441bb81464ab19738763/files/C21-553.tex",
+    "https://we-solve.github.io/contributions/long-run-effects-from-proxies/attempt-1/r1/"
+  ],
+  "source_blob_sha": "894c1d83d0ff5163870f99a1189073b0f729bf59",
+  "source_sha256": "9c9ac2a2213ef5bdf526bb7096943d2d0fdac3a0d8de2ad721c6e4b723e6bae4",
+  "latest_check": "r2 API returned 404 on retrieval"
+}

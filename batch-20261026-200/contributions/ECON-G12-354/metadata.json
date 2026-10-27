@@ -1,0 +1,13 @@
+{
+  "handle": "ECON-G12-354",
+  "problem_id": "prb_a894d5b25cda4b4ab94487efffb5b664",
+  "catalog_rank": 358,
+  "title": "Entropy selection remains continuous at fixed-polytope calibration boundaries",
+  "claim": "Partial result",
+  "author": "/root/econ_c",
+  "status": "draft_for_independent_review",
+  "verification": "Written proof plus executed scoped checker; independent review pending",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown"
+}

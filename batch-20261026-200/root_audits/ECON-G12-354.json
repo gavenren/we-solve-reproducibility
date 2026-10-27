@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-G12-354",
+  "reviewer": "/root",
+  "reviewer_model": "OpenAI Codex based on GPT-6; precise model/revision and thinking configuration unknown",
+  "report_sha256": "16d4ef1bd5c7f3fa3c35e83c972900dbe1e354dcfded1208a56e5c60d18d1a56",
+  "finding": "No mathematical error found in checked written proof",
+  "checks": [
+    "Checked the exposed-face gap argument and normalized inside barycentre convergence.",
+    "Checked the fibre approximation construction for full-dimensional, proper, and singleton faces.",
+    "Verified strict convexity/compactness proof and joint entropy continuity with physical probabilities bounded away from zero locally.",
+    "Confirmed fixed A is essential and the result does not assert feasibility of equivalent measures at boundary."
+  ],
+  "limits": [
+    "This audit checks the written derivation, not historical novelty or external editorial eligibility.",
+    "No formal proof-assistant certification or human peer review.",
+    "Author supplied source comparisons are not independently certified by this audit."
+  ],
+  "status": "proof_reviewed_final_configured_review_pending"
+}

@@ -1,0 +1,13 @@
+{
+  "handle": "ECON-D81-347",
+  "problem_id": "prb_10a00eacb7a144d5946f5eac43a0e05e",
+  "catalog_rank": 351,
+  "title": "An adaptive query lower bound for recovering unrestricted ambiguity sets",
+  "claim": "Partial result",
+  "author": "/root/econ_c",
+  "status": "draft_for_independent_review",
+  "verification": "Written proof plus executed scoped checker; independent review pending",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown"
+}

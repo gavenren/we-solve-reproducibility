@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-C31-214",
+  "canonical_problem_id": "prb_5287bdf223e649f6b2b89191b21b2dd6",
+  "problem_id": "prb_5287bdf223e649f6b2b89191b21b2dd6",
+  "title": "Observing a shared transmission bottleneck changes the sparse cascade detection boundary",
+  "problem_title": "Detection limits for rare long-range causal cascades",
+  "claim": "Partial result",
+  "scope": "Matching sparse-cascade separation order sqrt(q log J/m) in a fork with an observed common random gate of probability q, known leaf background b, and one active terminal edge; explicit q-adaptive test and hidden-gate comparison.",
+  "author": "/root/econ_a",
+  "verification_status": "author proof audit and exact finite checker passed; separate review pending",
+  "publication_status": "draft_not_submitted",
+  "model": "OpenAI Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0"
+}

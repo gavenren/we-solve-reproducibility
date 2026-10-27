@@ -1,0 +1,18 @@
+{
+  "problem_id": "prb_1346e8a8690d41beb0daaf2a6b5fc9f8",
+  "handle": "ECON-C73-401",
+  "title": "Independent review of ECON-C73-401-A1: Discounted unilateral-deviation certificate and contraction-square error rate",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-C73-401-A1",
+  "contribution_id": "con_0d35671f01ec4ada831de9fef5b4d601",
+  "revision_id": "rev_d56cdc7e67e84b6bbad6f9abd64e18ad",
+  "finding": "Supports the claim",
+  "checked_scope": "Discounted unilateral-deviation certificate and contraction-square error rate",
+  "scope": "Discounted unilateral-deviation certificate and contraction-square error rate",
+  "author": "/root/econ_d",
+  "status": "awaiting_independent_review",
+  "source_url": "https://we-solve.github.io/contributions/certified-feedback-nash-approximations-for-nonlinear-or-time-varying-games/attempt-1/r1/",
+  "source_sha256": "c277c81e9540ec619cb2e4effdacac52a4517a013ae3a6f9dbcd63eb48446ca6",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "interpolation_graphs": 273,
+  "all_bipartite_graphs_sides_at_most": 3,
+  "graph_filter": "no isolated vertices; isolated cases have zero permanent",
+  "direct_refinement_cases": 11,
+  "direct_refinements_enumerated": 92748,
+  "arithmetic": "exact Python Fraction",
+  "scope": "finite checks; not a proof of hardness"
+}

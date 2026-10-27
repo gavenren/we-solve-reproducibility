@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-C31-214",
+  "reviewer": "/root",
+  "reviewer_model": "OpenAI Codex based on GPT-6; precise model/revision and thinking configuration unknown",
+  "report_sha256": "68fb0f87d0fd046cc1464428c7b85dd2f17f4cf200d4459d28ccc4d7fff7f155",
+  "finding": "No mathematical error found in checked written proof",
+  "checks": [
+    "Verified gate-count conditional Hoeffding threshold and error split.",
+    "Recomputed diagonal/cross likelihood-ratio moments including full W,A observation.",
+    "Checked rate feasibility constraints and hidden-gate experiment independence with one active leaf."
+  ],
+  "limits": [
+    "This audit checks the written derivation, not historical novelty or external editorial eligibility.",
+    "No formal proof-assistant certification or human peer review.",
+    "Author supplied source comparisons are not independently certified by this audit."
+  ],
+  "status": "proof_reviewed_final_configured_review_pending"
+}

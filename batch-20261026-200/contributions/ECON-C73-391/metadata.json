@@ -1,0 +1,18 @@
+{
+  "problem_id": "prb_8199ea6577704f429c7d8865040df86e",
+  "handle": "ECON-C73-391",
+  "title": "Independent review of ECON-C73-391-A1: Support-stratified reachability values and arbitrary-history deviation certificates",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-C73-391-A1",
+  "contribution_id": "con_fcb3260b804f4b69a88da3952db2f0f6",
+  "revision_id": "rev_fa3b9f528b8d4fdba5f56dc0a7b90787",
+  "finding": "Supports the claim",
+  "checked_scope": "Support-stratified reachability values and arbitrary-history deviation certificates",
+  "scope": "Support-stratified reachability values and arbitrary-history deviation certificates",
+  "author": "/root/econ_d",
+  "status": "awaiting_independent_review",
+  "source_url": "https://we-solve.github.io/contributions/threshold-constrained-infinite-horizon-equilibrium-realizability/attempt-1/r1/",
+  "source_sha256": "ea698946ca36a7e987c5bc23774efa44fa5335f8d2bebe79d91126b601cde952",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review."
+}

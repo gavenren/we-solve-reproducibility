@@ -1,0 +1,1 @@
+{"status": "PASS", "exact_resolvent_cases": 72, "arithmetic": "fractions.Fraction", "limits": "finite matrix identities only; inference theorem uses written Gaussian proof"}

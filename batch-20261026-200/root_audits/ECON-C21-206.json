@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-C21-206",
+  "reviewer": "/root",
+  "reviewer_model": "OpenAI Codex based on GPT-6; precise model/revision and thinking configuration unknown",
+  "report_sha256": "51c43543c26c35ebcd3b65824ad5c50eeb87030696a2dd9b44b3c9fbd0ff423c",
+  "finding": "No mathematical error found in checked written proof",
+  "checks": [
+    "Re-derived numerator product bias with f0/f1 and checked ratio is not claimed exactly unbiased.",
+    "Verified deterministic denominator bound and all bounded-mean range constants.",
+    "Checked net extension Lipschitz constants, two target terms, and separate nuisance-training failure probability."
+  ],
+  "limits": [
+    "This audit checks the written derivation, not historical novelty or external editorial eligibility.",
+    "No formal proof-assistant certification or human peer review.",
+    "Author supplied source comparisons are not independently certified by this audit."
+  ],
+  "status": "proof_reviewed_final_configured_review_pending"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "exact_kkt_and_welfare_instances": 720,
+  "derivative_checks": 719,
+  "example_welfare_change": "19/18",
+  "seed": 553,
+  "scope": "Implementation and arithmetic checks; general claims proved in report."
+}

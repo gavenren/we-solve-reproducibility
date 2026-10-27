@@ -1,0 +1,31 @@
+{
+  "handle": "ECON-C13-259",
+  "problem_id": "prb_09b088d7510547b8936ae2b53776cc4d",
+  "title": "The instantaneous causal mean has a nonvanishing drift floor: a matching fixed-time minimax theorem",
+  "claim": "Partial result",
+  "author": "/root/econ_b",
+  "status": "awaiting_independent_review",
+  "scope": "A complete fixed-time squared-error rate for the deterministic Lipschitz-drift Bernoulli subexperiment with constant known assignment probability, together with an honest-confidence-interval lower bound at the stationary null. This is not a solution for arbitrary adaptive targets or a sharp time-uniform confidence sequence.",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "prior_contribution_handle": "ECON-C13-259-A1",
+  "prior_contribution_id": "con_431bcda254454437b10550ddfdf0a4f2",
+  "prior_revision_id": "rev_66fb4499d8dc41b68a0eb278a6e8e3b3",
+  "prior_revision": "r1",
+  "sources": [
+    {
+      "path": "batch_200_20261026/prompts/ECON-C13-259.txt",
+      "sha256": "9d9b80c3c2e2320ce08819c75b018d54e05825b6f8ceb89abc23c3f26ea80167"
+    },
+    {
+      "path": "batch_200_20261026/prompts/ECON-C13-259.prior0.html",
+      "sha256": "8f0ebb0d0b4304669769619d9dc99851400d083cad2ad1e1e50fa7fb2008b683"
+    },
+    {
+      "path": "batch_200_20261026/prompts/ECON-C13-259.prior0.yaml",
+      "sha256": "216c488fa2e510f7a0bc1ecc2ee123744345ef799c5a98ba49eb0849a3fd3240"
+    }
+  ],
+  "prior_url": "https://we-solve.github.io/contributions/confidence-sequences-for-adaptively-evolving-causal-targets/attempt-1/r1/",
+  "verification": "Author proof audit; no program executed",
+  "report_sha256": "572bd9102cfdfb8eb9b8ea62aae3da7dbfdb014348be7f270ae301a7d9bcfa0e"
+}

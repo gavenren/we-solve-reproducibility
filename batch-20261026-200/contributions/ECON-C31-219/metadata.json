@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-C31-219",
+  "canonical_problem_id": "prb_6798a7872c444827b72889d17827dae1",
+  "problem_id": "prb_6798a7872c444827b72889d17827dae1",
+  "title": "Exact policy inference with unknown propagation and one observed outcome per loopless component",
+  "problem_title": "Generalization when observed outcomes depend on unobserved outcomes",
+  "claim": "Partial result",
+  "scope": "Exact conditional policy confidence intervals and matching n^-1 squared-risk order for fixed-size loopless complete-component networks with one observed outcome in each sampled component, unknown propagation/noise, and vanishing sampling fraction.",
+  "author": "/root/econ_a",
+  "verification_status": "author proof audit and exact finite checker passed; separate review pending",
+  "publication_status": "draft_not_submitted",
+  "model": "OpenAI Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0"
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-C21-206",
+  "canonical_problem_id": "prb_49f4195ac17d4f9199b06b601bf739cc",
+  "problem_id": "prb_49f4195ac17d4f9199b06b601bf739cc",
+  "title": "A low-dimensional, doubly robust tilt estimator with an unknown reference distribution",
+  "problem_title": "Causal mediation targets with a high-dimensional mediator",
+  "claim": "Partial result",
+  "scope": "Exact product-bias identity and explicit simultaneous finite-sample error bound for a low-dimensional two-arm tilt estimator with unknown reference normalizer; no covariates, fiber-constant controlled response and bounded density ratio.",
+  "author": "/root/econ_a",
+  "verification_status": "author proof audit and exact finite checker passed; separate review pending",
+  "publication_status": "draft_not_submitted",
+  "model": "OpenAI Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0"
+}

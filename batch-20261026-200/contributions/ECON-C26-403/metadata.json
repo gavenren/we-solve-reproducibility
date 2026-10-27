@@ -1,0 +1,18 @@
+{
+  "problem_id": "prb_bd0d69dfa0cb4478b5f8337bd35f6105",
+  "handle": "ECON-C26-403",
+  "title": "Independent review of ECON-C26-403-A1: Sharp universal-treatment effect, endpoint attainability, and zero-mass strata",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-C26-403-A1",
+  "contribution_id": "con_3c59e22df27a4b6bba0511f454bae3da",
+  "revision_id": "rev_8293d06ffc36427da163509259f5efd9",
+  "finding": "Supports the claim",
+  "checked_scope": "Sharp universal-treatment effect, endpoint attainability, and zero-mass strata",
+  "scope": "Sharp universal-treatment effect, endpoint attainability, and zero-mass strata",
+  "author": "/root/econ_d",
+  "status": "awaiting_independent_review",
+  "source_url": "https://we-solve.github.io/contributions/policy-effects-beyond-iv-compliers/attempt-1/r1/",
+  "source_sha256": "e804309ff67a3a6bad7de7c604e16b18417ae50c9b605fd56d55649e33e97ae7",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review."
+}

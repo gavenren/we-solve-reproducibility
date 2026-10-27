@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "stdout": "{\"status\": \"PASS\", \"known_prevalence_cases\": 8280, \"denominators\": \"1..12\", \"arithmetic\": \"exact fractions\", \"scope\": \"binary-code formulas only\"}\n",
+  "stderr": "",
+  "seconds": 0.42799901962280273,
+  "sha256": "7e8e3afed485d8d0e0924e7530f698fb52531bbac17ad0fb7949aa4958e01606"
+}

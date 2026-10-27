@@ -1,0 +1,13 @@
+{
+  "handle": "ECON-C78-373",
+  "problem_id": "prb_c3300314ca9f417685afdf26118f9e12",
+  "catalog_rank": 377,
+  "title": "Exact rank-maximal probability optimization with few uncertain applicants",
+  "claim": "Partial result",
+  "author": "/root/econ_c",
+  "status": "draft_for_independent_review",
+  "verification": "Written proof plus executed scoped checker; independent review pending",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown"
+}
