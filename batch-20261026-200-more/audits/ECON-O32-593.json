@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-O32-593",
+  "checked_scope": "Discrete convex cheapest completion cost and unimodal scientific productivity.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Verified all integer throughput counts feasible by path deletion and cheapest cost at each count.",
+    "Checked fractional-cycle integral-flow reduction with integer balances/capacities and averaging proof of discrete convexity.",
+    "Derived marginal productivity inequality and monotone D_k recursion, stopping/tie logic and F=0/first completion cases."
+  ],
+  "significance": "Turns fractional productivity optimization into an ordered marginal completion-cost criterion with an exact global stopping rule.",
+  "contribution_handle": "ECON-O32-593-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "3360791c051350e2048a120defda331ac0240397fc7a24226f3a5b73cca8e8d1",
+  "source_sha256": "94addf6f4f24f93ea70ff009a0d9ed1cbfd5f4f94107172b490ff8e64a5f7477",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

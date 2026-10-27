@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J16-592",
+  "problem_id": "prb_ec66f3b172fd431ebece20b4a844a8ab",
+  "contribution_handle": "ECON-J16-592-A1",
+  "contribution_id": "con_74e27bc2f5dc48719739ff73b6361f61",
+  "revision_id": "rev_fa4efa93705141038faa72a2967727a6",
+  "source_path": "problems/ec/prb_ec66f3b172fd431ebece20b4a844a8ab/contributions/con_74e27bc2f5dc48719739ff73b6361f61/files/J16-592.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/ec/prb_ec66f3b172fd431ebece20b4a844a8ab/contributions/con_74e27bc2f5dc48719739ff73b6361f61/files/J16-592.tex",
+  "title": "Monotone fertility identifies sharp interaction bounds for policy-induced births",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Derives sharp principal-stratum birth\u2013policy interaction bounds by jointly trimming the two selected factual outcome distributions and constructing all missing potential outcomes.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "ce55e6e92b10ed34882f0f7bd3e83b3a586cf2c9816cf431be3f0bb0d813b0cc"
+}

@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-J16-592",
+  "contribution_handle": "ECON-J16-592-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "0e1855ce0af6bd812c9ec28e9c44cc51ff0f0537a501e2c770cda107585a5f0f",
+  "source_sha256": "ce55e6e92b10ed34882f0f7bd3e83b3a586cf2c9816cf431be3f0bb0d813b0cc",
+  "checked_scope": "Monotone policy-induced-birth stratum interaction bounds.",
+  "checks_performed": [
+    "Derived always/induced/never birth masses and factual mixture fractions.",
+    "Checked both quantile-trimmed factual components and unconstrained crossed potentials.",
+    "Independently verified joint attainment by arbitrary coupling of selected C margins, completion of other factual cells and endpoint mixtures.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Sharp principal-stratum interaction bounds under monotone fertility, explicitly separated from the cohort target."
+}

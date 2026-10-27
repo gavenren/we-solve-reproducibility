@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-J71-531",
+  "contribution_handle": "ECON-J71-531-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "0373a6b55b3801421b6e1972933b5e8592cdd21ba4d4b37a4eec15e0ce038a3e",
+  "source_sha256": "3fc18b452124724148a3957b0c0d22efc8e008465b261255111d7d69f4451313",
+  "checked_scope": "Full exact manuscript/YAML and imperfect-revelation/taste-drift sensitivity.",
+  "checks_performed": "Checked index inversion, Minkowski interval for belief and drift, joint line segment, constructive cue-level beliefs reproducing all callbacks, numeric and perfect-revelation cases.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Sharp two-mechanism region quantifies separate revelation and preference-stability assumptions."
+}

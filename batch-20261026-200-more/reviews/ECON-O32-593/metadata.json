@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-O32-593",
+  "problem_id": "prb_c2fbbbf0e68e462a8caa799962fe9982",
+  "contribution_handle": "ECON-O32-593-A1",
+  "contribution_id": "con_0ad19332abca4e0d9e18fa62ef41ef2a",
+  "revision_id": "rev_5a6c67fac3fb4b66a98a3bb39ffb55e2",
+  "source_path": "problems/c2/prb_c2fbbbf0e68e462a8caa799962fe9982/contributions/con_0ad19332abca4e0d9e18fa62ef41ef2a/files/O32-593.tex",
+  "source_sha256": "94addf6f4f24f93ea70ff009a0d9ed1cbfd5f4f94107172b490ff8e64a5f7477",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/c2/prb_c2fbbbf0e68e462a8caa799962fe9982/contributions/con_0ad19332abca4e0d9e18fa62ef41ef2a/files/O32-593.tex",
+  "title": "Cheapest completed-flow costs make scientific productivity unimodal",
+  "finding": "Supports the claim",
+  "checked_scope": "The finite acyclic homogeneous-project network and positive-fixed-cost productivity objective, reducing optimization to a discrete marginal-cost stopping rule.",
+  "significance": "A convex minimum-cost completion frontier yields a globally valid throughput stopping criterion and identifies when further discoveries reduce productivity.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

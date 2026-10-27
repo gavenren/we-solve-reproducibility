@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G21-547",
+  "problem_id": "prb_ac991608bea946fcbb8c127052563cbc",
+  "contribution_handle": "ECON-G21-547-A1",
+  "contribution_id": "con_32eda9a9cb8d4e19b28a00170c3733d6",
+  "revision_id": "rev_0cf656ffc84940d3b4cd8dfda8c148ea",
+  "source_path": "problems/ac/prb_ac991608bea946fcbb8c127052563cbc/contributions/con_32eda9a9cb8d4e19b28a00170c3733d6/files/G21-547.tex",
+  "source_sha256": "512948d0b073455fa590130dc10c140ad102e49b10c58a1304cf6e45f6b4a5e3",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/ac/prb_ac991608bea946fcbb8c127052563cbc/contributions/con_32eda9a9cb8d4e19b28a00170c3733d6/files/G21-547.tex",
+  "title": "Expected credit coverage has sharp anonymous-interference envelopes",
+  "finding": "Supports the claim",
+  "checked_scope": "The assignment-law ambiguity example, extended to arbitrary finite market size and outcomes depending on total offers under fixed marginal coverage.",
+  "significance": "Exact convex/concave envelopes quantify all outcomes compatible with a coverage rate and show two-saturation lotteries attain the extremes.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

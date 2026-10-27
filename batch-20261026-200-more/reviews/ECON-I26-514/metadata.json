@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I26-514",
+  "problem_id": "prb_0831cf465f9f426bad3ffc3803f74f77",
+  "contribution_handle": "ECON-I26-514-A1",
+  "contribution_id": "con_1ba319ceddeb4826841e685a34a6a38e",
+  "revision_id": "rev_95ac0f106b8240c1b350864fb8c23a1d",
+  "source_path": "problems/08/prb_0831cf465f9f426bad3ffc3803f74f77/contributions/con_1ba319ceddeb4826841e685a34a6a38e/files/I26-514.tex",
+  "source_sha256": "1a19201baed7e4faed3991673e08a3c65d4140fc504725ba172c2691604bf28f",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/08/prb_0831cf465f9f426bad3ffc3803f74f77/contributions/con_1ba319ceddeb4826841e685a34a6a38e/files/I26-514.tex",
+  "title": "The exact joint transport-sensitivity region for four Shapley mechanisms",
+  "finding": "Supports the claim",
+  "checked_scope": "Joint sensitivity of the four education mechanism allocations to independently bounded modular-intervention mean shifts.",
+  "significance": "Derives a sharp zonotope and support formula, incorporates efficiency dependence, and improves the coordinate radius from 2delta to 3delta/2 when endpoint means are fixed.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

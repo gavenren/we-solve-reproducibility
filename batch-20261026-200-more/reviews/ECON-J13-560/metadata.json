@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J13-560",
+  "problem_id": "prb_9d41e9e50d2d4a9baf7a5a6341a609b1",
+  "contribution_handle": "ECON-J13-560-A1",
+  "contribution_id": "con_4da6b2b20a614d7b8fe3ae272baba544",
+  "revision_id": "rev_f016e9fe992e41d8a53b4f3bd9b785ca",
+  "source_path": "problems/9d/prb_9d41e9e50d2d4a9baf7a5a6341a609b1/contributions/con_4da6b2b20a614d7b8fe3ae272baba544/files/J13-560.tex",
+  "source_sha256": "c1c9067d1607db4f2570a1b0d3f9e1af679cec53819e4d4e01be208dac02af28",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/9d/prb_9d41e9e50d2d4a9baf7a5a6341a609b1/contributions/con_4da6b2b20a614d7b8fe3ae272baba544/files/J13-560.tex",
+  "title": "Optimal history-dependent completion validation minimizes the fertility-score variance",
+  "finding": "Supports the claim",
+  "checked_scope": "Representative arm-specific follow-up with known conditional variance and expected collection-cost budget.",
+  "significance": "Derives exact augmented-score variance and the capped Neyman allocation for scarce completed-fertility follow-up.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

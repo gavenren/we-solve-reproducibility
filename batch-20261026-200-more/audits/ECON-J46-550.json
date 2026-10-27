@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-J46-550",
+  "contribution_handle": "ECON-J46-550-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "2220473c052439ef12044a260d0bb9a897a155bf10f0925780b39a28d56ae077",
+  "source_sha256": "7c357175dbe9b2e5e1c98ce95a72477e3aeb90e49759f9906b557bc7f13543cd",
+  "checked_scope": "Full source/YAML/report; mixing-sensitive lifetime policy-contrast perturbation and sharp two-state example.",
+  "checks_performed": [
+    "Reproved resolvent identity, zero-mass signed-row contraction and span duality bounds.",
+    "Checked factor2 from row-error span and both1\u2212delta*r denominators.",
+    "Verified symmetric two-state equality construction rtilde=r+2e, row TVe and reward-error extension."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Improves the source's generic discount-squared transition-error bound using both kernels' mixing rates and proves the resulting factor-two contrast bound sharp in a two-state model."
+}

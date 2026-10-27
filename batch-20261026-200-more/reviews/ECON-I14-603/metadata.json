@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I14-603",
+  "problem_id": "prb_24c983ffc4ef4850bf341092d4f52a79",
+  "contribution_handle": "ECON-I14-603-A1",
+  "contribution_id": "con_9d318dc0889f4f3599b9a797ca6a393b",
+  "revision_id": "rev_a675e27f46074112b0d7c7fa4e0d4746",
+  "source_path": "problems/24/prb_24c983ffc4ef4850bf341092d4f52a79/contributions/con_9d318dc0889f4f3599b9a797ca6a393b/files/I14-603.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/24/prb_24c983ffc4ef4850bf341092d4f52a79/contributions/con_9d318dc0889f4f3599b9a797ca6a393b/files/I14-603.tex",
+  "title": "A structural-shock correlation bound gives an exact additional income-effect interval",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Derives sharp contemporaneous income-effect bounds from a declared limit on structural innovation correlation, including compatibility and interaction with experiment-based restrictions.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "f9d19b3ccd07066d5702f71e93ddd5ae4776d59dbf7c865beb044e5e3225d7f5"
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-L42-541",
+  "problem_id": "prb_4567f15c9fb34c51a59a616475c25e3d",
+  "contribution_handle": "ECON-L42-541-A1",
+  "contribution_id": "con_1a2f848571864fafb242384230b4d2e7",
+  "revision_id": "rev_d2aa190e127b4b79b137343e52cc7085",
+  "source_path": "problems/45/prb_4567f15c9fb34c51a59a616475c25e3d/contributions/con_1a2f848571864fafb242384230b4d2e7/files/L42-541.tex",
+  "source_sha256": "979b1e70e01c704c30e8e838d667a9a62af930e738481dfe05322c3d561377f1",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/45/prb_4567f15c9fb34c51a59a616475c25e3d/contributions/con_1a2f848571864fafb242384230b4d2e7/files/L42-541.tex",
+  "title": "A capped fixed fee gives an exact continuum between linear pricing and integration",
+  "finding": "Supports the claim",
+  "checked_scope": "The successive-markup and two-part-tariff benchmarks, imposing an explicit nonnegative fixed-fee cap under otherwise identical complete contracting.",
+  "significance": "A global contract solution quantifies how upfront-payment limits preserve double marginalization and exactly when integration retains an additional output benefit.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

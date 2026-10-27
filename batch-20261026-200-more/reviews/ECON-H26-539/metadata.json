@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-H26-539",
+  "problem_id": "prb_f07bd31f221c45ffbb1d32af9ccdb929",
+  "contribution_handle": "ECON-H26-539-A1",
+  "contribution_id": "con_434f8d007d3b41c69138a40e17452ad5",
+  "revision_id": "rev_6a9f8c49f2034662a18c7914247e8060",
+  "source_path": "problems/f0/prb_f07bd31f221c45ffbb1d32af9ccdb929/contributions/con_434f8d007d3b41c69138a40e17452ad5/files/H26-539.tex",
+  "source_sha256": "bdc4b3396728df90a3648b0432ed22a26135099983b4163262c7f2398528285b",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/f0/prb_f07bd31f221c45ffbb1d32af9ccdb929/contributions/con_434f8d007d3b41c69138a40e17452ad5/files/H26-539.tex",
+  "title": "Closed-form sharp mediation bounds using all observed binary cells",
+  "finding": "Supports the claim",
+  "checked_scope": "Full observed message-belief-compliance cell data under monotone beliefs and monotone baseline compliance, without message exclusion.",
+  "significance": "Solves the source's 64-type linear-program target analytically in the two-monotonicity subclass: natural mediation lies exactly between zero and min(belief-complier mass, baseline low-belief noncompliance mass).",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

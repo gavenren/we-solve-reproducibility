@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-F22-536",
+  "contribution_handle": "ECON-F22-536-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "49871ab1da5fb8f299f76f917b52701117f231803191560260739af85eb1b1e5",
+  "source_sha256": "a13f8c61f406ea6f797e53ac2f4336e63f98b41eed8888ebb898f5699cbdce2c",
+  "checked_scope": "Full source/YAML/report; strict concavity, global production/cohort-income optima and unique finite baseline crossing.",
+  "checks_performed": [
+    "Independently derived Q''/Q=\u2212alpha(1\u2212alpha)(k/K+1/L)\u00b2 and endpoint derivative divergence.",
+    "Checked all zero/interior optimum cases, mI>mQ condition, k0 closed form and foreign-income comparative statics.",
+    "Verified finite secant criterion and current-income versus welfare accounting."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Proves strict global concavity, unique cohort-income optimum and exact ordering relative to the origin-production optimum, including a closed-form no-remittance case."
+}

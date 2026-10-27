@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-E31-576",
+  "checked_scope": "Inverse identification of a Gaussian-smoothed latent hinge.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Derived conditional mean and signed Gaussian second derivative.",
+    "Integrated curvature area/center/variance and inverted reliability, latent/noise variances and hinge parameters.",
+    "Verified affine-tail recovery and necessity/sufficiency of bell curvature plus tail conditions.",
+    "Checked negative curvature normalization, c=0 nonidentification and finite-range instability caveats."
+  ],
+  "significance": "Turns a measurement-smoothing counterexample into an exact inverse theorem with explicit shape diagnostics.",
+  "contribution_handle": "ECON-E31-576-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "cb6f25f48103f3b7246aeac26d6ca82dd4583ec448076c2e452583e5e45d9a0a",
+  "source_sha256": "223ad9844fd68e7d9c41b073f59b7a7c01ce7720f2fb36a291230da78c3044d7",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

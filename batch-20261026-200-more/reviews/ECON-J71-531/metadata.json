@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J71-531",
+  "problem_id": "prb_f4197ad3648d460d87daccd506b5685a",
+  "contribution_handle": "ECON-J71-531-A1",
+  "contribution_id": "con_b85d069fb7804ae28725bf86425d3c26",
+  "revision_id": "rev_b24f0722bcc2466d97caef4c764d4ba0",
+  "source_path": "problems/f4/prb_f4197ad3648d460d87daccd506b5685a/contributions/con_b85d069fb7804ae28725bf86425d3c26/files/J71-531.tex",
+  "source_sha256": "3fc18b452124724148a3957b0c0d22efc8e008465b261255111d7d69f4451313",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/f4/prb_f4197ad3648d460d87daccd506b5685a/contributions/con_b85d069fb7804ae28725bf86425d3c26/files/J71-531.tex",
+  "title": "Sharp taste-belief regions with imperfect revelation and bounded preference drift",
+  "finding": "Supports the claim",
+  "checked_scope": "Sensitivity extension of the source's known-index employer model when information does not fully equalize beliefs and the taste parameter may change across regimes.",
+  "significance": "Characterizes the exact joint mechanism set and robust sign conditions, quantifying the separate identifying costs of incomplete belief equalization and taste instability.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

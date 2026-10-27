@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-G21-547",
+  "checked_scope": "Anonymous-interference outcome bounds under fixed equal individual offer marginals.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Checked count-law convex hull necessity and uniform-conditional-recipient sufficiency preserving every marginal.",
+    "Verified at-most-two-count extreme supports, interpolation and convex/concave envelope specializations.",
+    "Derived all-offer complementarity bounds, explicit attaining count laws and n2s.5 example."
+  ],
+  "significance": "Gives sharp assignment-correlation envelopes even with known individual coverage probabilities.",
+  "contribution_handle": "ECON-G21-547-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "1004a5ce2586ba8fb520a72784e38f5d31dad54745bacbb41ab7c3f2145aeeec",
+  "source_sha256": "512948d0b073455fa590130dc10c140ad102e49b10c58a1304cf6e45f6b4a5e3",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

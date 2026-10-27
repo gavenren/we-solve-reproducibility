@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J24-585",
+  "problem_id": "prb_816f254bc8db4cbbbb3f618c6dca5ed4",
+  "contribution_handle": "ECON-J24-585-A1",
+  "contribution_id": "con_a691d3213a214175959693213ca6df6e",
+  "revision_id": "rev_3bf3134767cb4a2b84acc2c6faf23a80",
+  "source_path": "problems/81/prb_816f254bc8db4cbbbb3f618c6dca5ed4/contributions/con_a691d3213a214175959693213ca6df6e/files/J24-585.tex",
+  "source_sha256": "a3b4b79b9568503c3546860a8859efc7201dafc5d8d5575b522f31663e324e1f",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/81/prb_816f254bc8db4cbbbb3f618c6dca5ed4/contributions/con_a691d3213a214175959693213ca6df6e/files/J24-585.tex",
+  "title": "Direct offer-contrast concentration improves the retraining decision certificate",
+  "finding": "Supports the claim",
+  "checked_scope": "The bounded finite-stratum randomized offer experiment, sharpening treatment-effect error radii and optimizing fixed within-stratum sampling allocation.",
+  "significance": "A direct weighted Hoeffding bound replaces triangle radii and yields an exact continuous minimax design allocating sqrt(P) times as many controls as workers per active offer.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

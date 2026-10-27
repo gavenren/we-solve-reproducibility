@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I38-537",
+  "problem_id": "prb_4efef8356ef84784a9a2a50afe03dd4f",
+  "contribution_handle": "ECON-I38-537-A1",
+  "contribution_id": "con_feddaeb772ab4612acde3bd49509a8ec",
+  "revision_id": "rev_87ae2220c23644518cdf987a0b52d20e",
+  "source_path": "problems/4e/prb_4efef8356ef84784a9a2a50afe03dd4f/contributions/con_feddaeb772ab4612acde3bd49509a8ec/files/I38-537.tex",
+  "source_sha256": "f74ceed21b1fc3452569f90ab97bc2dc6ebf0e3065368a7720d9ead0ef18427e",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/4e/prb_4efef8356ef84784a9a2a50afe03dd4f/contributions/con_feddaeb772ab4612acde3bd49509a8ec/files/I38-537.tex",
+  "title": "Capacity-safe dependent lotteries preserve individual treatment probabilities",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite-covariate allocation LP; finite-cohort realization with integer action capacities and a common active-placement resource cost",
+  "significance": "Proves exact decomposition of fractional allocations into capacity-safe joint assignments, clarifying when expected allocation optima can be implemented under hard counts.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

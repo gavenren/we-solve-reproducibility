@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F35-575",
+  "problem_id": "prb_89164c51972d417c94b6f7c6d21608e7",
+  "contribution_handle": "ECON-F35-575-A1",
+  "contribution_id": "con_ed350b7171574e38bbe97401588aa643",
+  "revision_id": "rev_ee823ff56d7040d297a28df47482bcd8",
+  "source_path": "problems/89/prb_89164c51972d417c94b6f7c6d21608e7/contributions/con_ed350b7171574e38bbe97401588aa643/files/F35-575.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/89/prb_89164c51972d417c94b6f7c6d21608e7/contributions/con_ed350b7171574e38bbe97401588aa643/files/F35-575.tex",
+  "title": "Three withdrawal observations identify decay and permanent capacity formation",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Derives exact identification and compatibility tests from post-withdrawal trajectories, plus sharp asymptotic-capacity bounds with only two observations and bounded decay.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "a60906bc896338b56b15987e0d235a02cbbe3840c8ed839de7933add2afe56f2"
+}

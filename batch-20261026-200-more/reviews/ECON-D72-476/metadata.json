@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D72-476",
+  "problem_id": "prb_19871e8793244f5389aee8eca8e1c659",
+  "contribution_handle": "ECON-D72-476-A1",
+  "contribution_id": "con_7c6c3ed1d49943c4bc34c793c60858f5",
+  "revision_id": "rev_3a6748f61c62447ab315fa77d558ad71",
+  "source_path": "problems/19/prb_19871e8793244f5389aee8eca8e1c659/contributions/con_7c6c3ed1d49943c4bc34c793c60858f5/files/D72-476.tex",
+  "source_sha256": "4233c0f0ed1dc79323a853518a289fd08fdde51c118dfeb10b3021ece318a0f9",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/19/prb_19871e8793244f5389aee8eca8e1c659/contributions/con_7c6c3ed1d49943c4bc34c793c60858f5/files/D72-476.tex",
+  "title": "Backward support-function computation for the joint erosion-output region",
+  "finding": "Supports the claim",
+  "checked_scope": "Exact dynamic-programming computation of sharp support values in the source's finite rectangular transition model.",
+  "significance": "Replaces the full occupancy optimization for each joint direction with two backward sequences of rowwise linear programs and proves vertex-row witness attainability.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

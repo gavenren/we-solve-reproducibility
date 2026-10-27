@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E62-552",
+  "problem_id": "prb_2a9e91cf302b41228747c2a0ea05f64a",
+  "contribution_handle": "ECON-E62-552-A1",
+  "contribution_id": "con_11efd7aea6ef49c2880c26015e5daa94",
+  "revision_id": "rev_61cb87b78a7545838baa7a688095e904",
+  "source_path": "problems/2a/prb_2a9e91cf302b41228747c2a0ea05f64a/contributions/con_11efd7aea6ef49c2880c26015e5daa94/files/E62-552.tex",
+  "source_sha256": "97f4cf4d639e40e694685ffd10a9721fc3de1e5a1e84f05c6c454c45625b144e",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/2a/prb_2a9e91cf302b41228747c2a0ea05f64a/contributions/con_11efd7aea6ef49c2880c26015e5daa94/files/E62-552.tex",
+  "title": "Sharp population-multiplier bounds from a local complier ratio",
+  "finding": "Supports the claim",
+  "checked_scope": "Binary fiscal-instrument complier multiplier; partial identification of a population spending ratio from summarized complier information and bounded missing responses",
+  "significance": "Gives exact bounds and a sign-transport certificate quantifying how positive instrument-local multipliers can coexist with negative population multipliers.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

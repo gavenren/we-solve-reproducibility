@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G41-584",
+  "problem_id": "prb_240d3d81850b4b5cb85301f135097d53",
+  "contribution_handle": "ECON-G41-584-A1",
+  "contribution_id": "con_57b888ee9c4a44fab030a982ecaa0c49",
+  "revision_id": "rev_c342b8f71c024c1cabc6d142be019266",
+  "source_path": "problems/24/prb_240d3d81850b4b5cb85301f135097d53/contributions/con_57b888ee9c4a44fab030a982ecaa0c49/files/G41-584.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/24/prb_240d3d81850b4b5cb85301f135097d53/contributions/con_57b888ee9c4a44fab030a982ecaa0c49/files/G41-584.tex",
+  "title": "An imperfect reset still identifies the memory label and its own efficacy",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Proves memory-channel labeling and reset-efficacy identification when an intervention attenuates one exponential channel by an unknown positive amount.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "75a9245893b904b8d1d222be10fbd1a20c37281274eb3ad1f52fb1637fffe2d5"
+}

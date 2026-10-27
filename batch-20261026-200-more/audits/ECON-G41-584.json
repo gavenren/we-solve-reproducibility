@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-G41-584",
+  "contribution_handle": "ECON-G41-584-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "19481f7e1eddd708303e4d89bbfa0594d029adafe8b58baf11f8adfbfdd60212",
+  "source_sha256": "75a9245893b904b8d1d222be10fbd1a20c37281274eb3ad1f52fb1637fffe2d5",
+  "checked_scope": "Partial proportional reset labels exponential persistence mechanisms.",
+  "checks_performed": [
+    "Verified source unordered-root/amplitude inversion and reset two-by-two amplitude reconstruction.",
+    "Checked unique unchanged/reduced amplitude labeling and efficacy formula including complete reset.",
+    "Verified independent difference-profile ratio, example, zero-efficacy and horizon-varying attenuation limitations.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Weaker reset conditions still identify mechanism labels and reset efficacy in a rigorously restricted model."
+}

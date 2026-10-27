@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E31-576",
+  "problem_id": "prb_83c8a0a5d4c14eab8fbdddab99723dc5",
+  "contribution_handle": "ECON-E31-576-A1",
+  "contribution_id": "con_af75c2fa046d41be95540947f23f6992",
+  "revision_id": "rev_497da0c3fe16455d8a9e93e27c956f25",
+  "source_path": "problems/83/prb_83c8a0a5d4c14eab8fbdddab99723dc5/contributions/con_af75c2fa046d41be95540947f23f6992/files/E31-576.tex",
+  "source_sha256": "223ad9844fd68e7d9c41b073f59b7a7c01ce7720f2fb36a291230da78c3044d7",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/83/prb_83c8a0a5d4c14eab8fbdddab99723dc5/contributions/con_af75c2fa046d41be95540947f23f6992/files/E31-576.tex",
+  "title": "Gaussian curvature identifies a hidden hinge and its measurement variances",
+  "finding": "Supports the claim",
+  "checked_scope": "The latent-Gaussian measurement-error smoothing benchmark, generalized to an unknown nonzero hinge coefficient and threshold under the same Gaussian restrictions.",
+  "significance": "A complete inverse characterization recovers latent hinge parameters and both variance components from the exact smoothed conditional mean and observed slack variance.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

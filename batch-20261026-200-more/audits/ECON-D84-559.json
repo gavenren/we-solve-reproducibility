@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-D84-559",
+  "checked_scope": "Full precision-curve identification of attention-weighted prior variance measure.",
+  "checks_performed": [
+    "Read complete manuscript/YAML/report.",
+    "Derived transformed derivative moments (1\u2212x)x^k and checked local differentiation domination.",
+    "Verified finite-measure moment uniqueness on[0,1], recovery off excluded x=1 endpoint and attention mass limit t\u21930.",
+    "Constructed arbitrary inattentive-law completions, checked p=1/p=0 cases and zero-variance invisibility caveat."
+  ],
+  "significance": "Precisely characterizes what richer precision experiments identify beyond the two-slope heterogeneity obstruction.",
+  "contribution_handle": "ECON-D84-559-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "051c6167df39302eeffdc7e06a94791f65f39903881e13fbd7648b011b602f6a",
+  "source_sha256": "cfe4b7e3dae5507e1dd979dccbeb4a2da8fa3a7c8d3a545500552e7b3e7b5687",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

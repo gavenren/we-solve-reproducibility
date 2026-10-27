@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-I38-568",
+  "checked_scope": "Robust targeting budget dual and stratum-wise hull allocation.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Verified shared-baseline robust gains, finite LP primal/dual equality and attainment at B=0.",
+    "Checked complementary optimal-action and budget conditions and converse certificate.",
+    "Verified upper nondecreasing stratum hulls, incremental edge slopes, precedence/tie ordering and one-partial-edge implementation.",
+    "Checked monotone concave piecewise-linear budget value and saturated zero shadow-price case."
+  ],
+  "significance": "Provides an exact operational allocation/frontier algorithm rather than raw gain-cost ratio ranking.",
+  "contribution_handle": "ECON-I38-568-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "6e7bf338557dc3e4dd222cc8cb9389b0927f66830d1e46fe584ed90fc2c8bbd1",
+  "source_sha256": "6f523d805e6c62442311d1afc470c5d8a13cfb1dcdc327d2393fc44a32042605",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-D72-476",
+  "contribution_handle": "ECON-D72-476-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "80e3eabb9b3df02af78234f50e44fc01f3f673235f41ba196cba6fc026b55b72",
+  "source_sha256": "4233c0f0ed1dc79323a853518a289fd08fdde51c118dfeb10b3021ece318a0f9",
+  "checked_scope": "Full exact manuscript/YAML and backward support-function computation.",
+  "checks_performed": "Checked directional terminal reward, maximizing treatment/minimizing baseline recursions, induction upper bound, simultaneous row attainment under rectangularity, vertex witnesses and support-halfspace recovery.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Exact dynamic support solver retains dependence in joint erosion-output region."
+}

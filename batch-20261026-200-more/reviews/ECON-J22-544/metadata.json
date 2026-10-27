@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J22-544",
+  "problem_id": "prb_06c2e4437abb433e83793b253ca9121f",
+  "contribution_handle": "ECON-J22-544-A1",
+  "contribution_id": "con_35242630af5d4cbb81a37f41d1527660",
+  "revision_id": "rev_954bdef8beaa42ba8055b23ea8bf9d1f",
+  "source_path": "problems/06/prb_06c2e4437abb433e83793b253ca9121f/contributions/con_35242630af5d4cbb81a37f41d1527660/files/J22-544.tex",
+  "source_sha256": "ac0b3a1e7e59c65e574b1f02c7abc9bd02dfc4da1d6603b4320d60c9afa345c1",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/06/prb_06c2e4437abb433e83793b253ca9121f/contributions/con_35242630af5d4cbb81a37f41d1527660/files/J22-544.tex",
+  "title": "Exact surplus incidence of safety improvements with general labor supply",
+  "finding": "Supports the claim",
+  "checked_scope": "Competitive labor-market commuting-cost benchmark; differentiable heterogeneous outside opportunities and downward labor demand",
+  "significance": "Derives general wage capture and worker/employer surplus shares, with total welfare gain equal to the integral of employment over the safety-cost reduction.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

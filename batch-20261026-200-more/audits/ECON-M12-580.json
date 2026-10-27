@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-M12-580",
+  "contribution_handle": "ECON-M12-580-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "86c6961649a7b652a8cc6abde9bf5841f6fbd118ef2b1112e3edc8cd17fffe96",
+  "source_sha256": "027090e487965ea602ba155cc31e830d42822d07ae25a768a2dee2b3ed82af9b",
+  "checked_scope": "Complete exact one-worker Bernoulli firm-quantile identified set with threshold-specific endpoint attainment.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently, keeping within-firm superpopulation quantile target distinct from pooled outcome.",
+    "Verified inverse-CDF strict threshold p>1-q and lower/upper mean bounds in every mean regime.",
+    "Checked constructive mixing laws attain every claimed point and strict upper nonattainment for0<mu<=t.",
+    "Verified degenerate means, q=3/4 example [1/3,1], and armwise difference coupling qualification.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Exact interval and open-boundary characterization strengthen source's isolated observational-equivalence examples."
+}

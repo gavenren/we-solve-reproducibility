@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J61-503",
+  "problem_id": "prb_3bdedadfe37045f49d313891523164d6",
+  "contribution_handle": "ECON-J61-503-A1",
+  "contribution_id": "con_442a61b3b3604756b2f1802b2fca37b9",
+  "revision_id": "rev_1a6597dac456418ba2cf69f42b1131b0",
+  "source_path": "problems/3b/prb_3bdedadfe37045f49d313891523164d6/contributions/con_442a61b3b3604756b2f1802b2fca37b9/files/J61-503.tex",
+  "source_sha256": "35006b1af3b0d2579ac51d50de7af75293291f795b89186b67711967259fec77",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/3b/prb_3bdedadfe37045f49d313891523164d6/contributions/con_442a61b3b3604756b2f1802b2fca37b9/files/J61-503.tex",
+  "title": "An exact positive-series formula for cumulative native wage losses",
+  "finding": "Supports the claim",
+  "checked_scope": "Infinite-horizon discounted earnings loss in the source's homogeneous-labor capital-adjustment benchmark.",
+  "significance": "Derives an exact convergent positive series and certified second-order approximation, distinguishing impact share from adjustment speed without a simulated calibration.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

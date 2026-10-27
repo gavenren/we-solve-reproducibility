@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-F13-565",
+  "contribution_handle": "ECON-F13-565-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "4a6406d2fcae3e4df4ef007af74e1580edb3f1201bbb46cd4a8735836dc84513",
+  "source_sha256": "619d8bbe87da118bc68311bcc4bcd9f522e32b4de97825fd08dcdbf45f2a72e8",
+  "checked_scope": "Capacity stop-loss transform inversion and bounded-support convex-order characterization.",
+  "checks_performed": [
+    "Verified one-sided derivative atom conventions and full posterior reconstruction.",
+    "Checked call/put identity with equal means and convex polygonal representation for finite ambient convex functions.",
+    "Verified limited-threshold support, nonquadratic interior mapping and positive marginal-cost corner caveat.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "An exact full-response identification design and distributional-order test extend single-decision nonidentification."
+}

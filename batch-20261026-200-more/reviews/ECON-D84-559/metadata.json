@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D84-559",
+  "problem_id": "prb_73501c1da8b841c79a32cf32fe450af6",
+  "contribution_handle": "ECON-D84-559-A1",
+  "contribution_id": "con_16283327fc944343988ef762c58f32e1",
+  "revision_id": "rev_48dfa1eb22aa442283221ad4f9edea25",
+  "source_path": "problems/73/prb_73501c1da8b841c79a32cf32fe450af6/contributions/con_16283327fc944343988ef762c58f32e1/files/D84-559.tex",
+  "source_sha256": "cfe4b7e3dae5507e1dd979dccbeb4a2da8fa3a7c8d3a545500552e7b3e7b5687",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/73/prb_73501c1da8b841c79a32cf32fe450af6/contributions/con_16283327fc944343988ef762c58f32e1/files/D84-559.tex",
+  "title": "A full precision-response curve identifies the attentive-weighted variance law",
+  "finding": "Supports the claim",
+  "checked_scope": "The heterogeneous Gaussian updating model, replacing two aggregate slopes by a population response curve over all positive likelihood variances.",
+  "significance": "A moment-transform argument identifies average attention and its weighted prior-variance distribution while proving that the full population variance/attention decomposition remains unidentified.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

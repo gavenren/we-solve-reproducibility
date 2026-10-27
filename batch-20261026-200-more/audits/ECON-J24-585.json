@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-J24-585",
+  "checked_scope": "Direct multi-arm offer-contrast concentration and worst-contrast sampling allocation.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Derived weighted Hoeffding squared-range sum and simultaneous JP union bound with shared controls.",
+    "Compared both log factors and square-root radii to original; checked lower-coefficient regret proof.",
+    "Solved continuous n0 allocation, verified sqrt(P) ratio and minimized (1+sqrtP)\u00b2/N; checked integer-design caveat."
+  ],
+  "significance": "Improves both uncertainty and resulting retraining policy certificate without changing estimand.",
+  "contribution_handle": "ECON-J24-585-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "f8260f4a877af70b8d1b0090bf7ddfdfb8e2a0b28ae5862abdb82fe60dce54e8",
+  "source_sha256": "a3b4b79b9568503c3546860a8859efc7201dafc5d8d5575b522f31663e324e1f",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

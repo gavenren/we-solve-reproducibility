@@ -78,6 +78,8 @@ def main():
         doc=path.with_name('review.md')
         data=doc.read_bytes()
         assert len(data)>1500,h
+        assert not [c for c in data if c<32 and c not in (10,13)],f'Control byte in report: {h}'
+        assert b'\r' not in data.replace(b'\r\n',b''),f'Bare carriage return in report: {h}'
         assert not re.search(r'```(?:python|lean|javascript|js|bash|sh)\b',data.decode(),re.I),h
         source_matches=source_hashes.get(m['source_sha256'],[])
         assert source_matches, f'Missing exact source: {h}'

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-R38-534",
+  "problem_id": "prb_30cf786aef414085bb8988aca4518c79",
+  "contribution_handle": "ECON-R38-534-A1",
+  "contribution_id": "con_4b9500fef03b40d0b2980c79e6ec0d11",
+  "revision_id": "rev_a12cf6ff12c9431e9986ecfcd552c7d6",
+  "source_path": "problems/30/prb_30cf786aef414085bb8988aca4518c79/contributions/con_4b9500fef03b40d0b2980c79e6ec0d11/files/R38-534.tex",
+  "source_sha256": "df9f8938dd1235b58ff36465331ef22752168d3d6da89c3ce965d26aeac1fcd5",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/30/prb_30cf786aef414085bb8988aca4518c79/contributions/con_4b9500fef03b40d0b2980c79e6ec0d11/files/R38-534.tex",
+  "title": "A fixed reform budget has an exact optimal transition target",
+  "finding": "Supports the claim",
+  "checked_scope": "The two-state intergenerational Markov illustration, extended to choosing permanent upward-mobility and slippage-prevention improvements under linear costs.",
+  "significance": "A complete finite-budget allocation rule shows when permanent reform should target upward transitions, downward transitions, or any mixture in this restricted persistence model.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

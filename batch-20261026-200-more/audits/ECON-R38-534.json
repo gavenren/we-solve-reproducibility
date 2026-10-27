@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-R38-534",
+  "checked_scope": "Stationary two-state housing transition reform under a linear budget.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Verified stationary ratio, full-budget optimum, feasible interval with B<c1v and cap feasibility.",
+    "Differentiated linear-fractional objective and checked constant-sign threshold c1v\u2212B\u2212c0u.",
+    "Recomputed example budget threshold1/5, equality stationary1/2 and preserved causal-transition caveat."
+  ],
+  "significance": "Solves finite-budget upward versus downward transition reform targeting rather than extrapolating initial-condition persistence.",
+  "contribution_handle": "ECON-R38-534-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "7d4b336f87fe249fdef34130aa594d6ad037da511e622caf25c8f2ea7c5c220b",
+  "source_sha256": "df9f8938dd1235b58ff36465331ef22752168d3d6da89c3ce965d26aeac1fcd5",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

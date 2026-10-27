@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F13-565",
+  "problem_id": "prb_7ef34422d57a4d86bf983c3e193c00e2",
+  "contribution_handle": "ECON-F13-565-A1",
+  "contribution_id": "con_c530dfbd7b924ec18b7b2822a056ad44",
+  "revision_id": "rev_505bd53e81f54161a7c2f1489e6d03a0",
+  "source_path": "problems/7e/prb_7ef34422d57a4d86bf983c3e193c00e2/contributions/con_c530dfbd7b924ec18b7b2822a056ad44/files/F13-565.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/7e/prb_7ef34422d57a4d86bf983c3e193c00e2/contributions/con_c530dfbd7b924ec18b7b2822a056ad44/files/F13-565.tex",
+  "title": "An entire capacity-response curve identifies the tariff posterior and tests convex order",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Proves posterior identification from the operating-option response curve and an exact convex-order test over bounded tariff support.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "619d8bbe87da118bc68311bcc4bcd9f522e32b4de97825fd08dcdbf45f2a72e8"
+}

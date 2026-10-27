@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F22-536",
+  "title": "Global cohort-income and origin-output optima need not select the same migration rate",
+  "finding": "Supports the claim",
+  "checked_scope": "The source's homogeneous one-date Cobb\u2013Douglas origin production model with constant positive foreign net earnings.",
+  "significance": "Proves strict global concavity, unique cohort-income optimum and exact ordering relative to the origin-production optimum, including a closed-form no-remittance case.",
+  "problem_id": "prb_93abc3b550754e5b850dba19e27c5ad8",
+  "contribution_handle": "ECON-F22-536-A1",
+  "contribution_id": "con_2ee5a5714b604c49a742cd4eb06ede42",
+  "revision_id": "rev_37e4a5b45a70411cbb0ed83bdc69fa55",
+  "source_path": "problems/93/prb_93abc3b550754e5b850dba19e27c5ad8/contributions/con_2ee5a5714b604c49a742cd4eb06ede42/files/F22-536.tex",
+  "source_sha256": "a13f8c61f406ea6f797e53ac2f4336e63f98b41eed8888ebb898f5699cbdce2c",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/93/prb_93abc3b550754e5b850dba19e27c5ad8/contributions/con_2ee5a5714b604c49a742cd4eb06ede42/files/F22-536.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

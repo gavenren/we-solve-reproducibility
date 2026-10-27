@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-F23-525",
+  "contribution_handle": "ECON-F23-525-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "40e993f22488f327cee48c8f19a3f56754c357ebfa4825a3cf5ac09d9123be4c",
+  "source_sha256": "5e68cab963793632dd0349405578cd042f82a0c54138631e1926de5456f03f52",
+  "checked_scope": "Full exact manuscript/YAML and distribution-informed ownership/scale bounds.",
+  "checks_performed": "Checked pointwise missing-cell clips, independent lambda interpolation and complete scale functions, joint rectangle and interaction extrema, all binary numerical fractions and mean-only contrast.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Rich endpoint distributions can sign-certify both controlled ownership effects when means alone cannot."
+}

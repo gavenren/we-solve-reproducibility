@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I13-462",
+  "problem_id": "prb_054120a0a16748df8ca752f23a491dbd",
+  "contribution_handle": "ECON-I13-462-A1",
+  "contribution_id": "con_395da907653847b9a7a74f9a93bf3c72",
+  "revision_id": "rev_03f9f065bdb24a0fa4f0ebd315c3dc97",
+  "source_path": "problems/05/prb_054120a0a16748df8ca752f23a491dbd/contributions/con_395da907653847b9a7a74f9a93bf3c72/files/I13-462.tex",
+  "source_sha256": "f5158a56f419d947439b6c013d194ece397a5b5c3759aeb7b3c44c30400ce14b",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/05/prb_054120a0a16748df8ca752f23a491dbd/contributions/con_395da907653847b9a7a74f9a93bf3c72/files/I13-462.tex",
+  "title": "One initial lottery between two deterministic care policies suffices",
+  "finding": "Supports the claim",
+  "checked_scope": "Alternative exact implementation of the source's finite discounted response model with one expected present-value financing constraint.",
+  "significance": "Proves an optimal care policy can be implemented by committing initially to a lottery over at most two deterministic stationary rules, including the expected-finance caveat and sharp necessity.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

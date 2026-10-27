@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-Q23-570",
+  "contribution_handle": "ECON-Q23-570-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "bed14ac9035228f5eee34b87baaf0f720ec7da45bc82f3a3273a14a49c3be054",
+  "source_sha256": "72f31174d7692112a24fda6a8874754ca9ce18169f7424827b60b10bc2369fdf",
+  "checked_scope": "Absorbing geometric forest reversal, bounded growth and constant discounted service/carbon values.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Verified pathwise summation by parts and Y+k=uZ_x+vZ_y.",
+    "Recomputed double-series split using s^max(t,j), covariance kernel, full quadratic variance and s=1/r=0/deterministic-cancellation boundaries.",
+    "Independently refetched pinned GitHub YAML/manuscript; exact saved bytes match returned Git blob SHAs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Adds exact permanence-risk variance to the source\u2019s expected-value forest comparison."
+}

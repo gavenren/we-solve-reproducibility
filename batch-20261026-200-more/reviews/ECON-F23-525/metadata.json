@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F23-525",
+  "problem_id": "prb_7d369a8255fa40f4abc8160b8c002c8a",
+  "contribution_handle": "ECON-F23-525-A1",
+  "contribution_id": "con_2e9a96cd3ede42489918bfae52f6703a",
+  "revision_id": "rev_ccacca55e6694198825989f72bb5928b",
+  "source_path": "problems/7d/prb_7d369a8255fa40f4abc8160b8c002c8a/contributions/con_2e9a96cd3ede42489918bfae52f6703a/files/F23-525.tex",
+  "source_sha256": "5e68cab963793632dd0349405578cd042f82a0c54138631e1926de5456f03f52",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/7d/prb_7d369a8255fa40f4abc8160b8c002c8a/contributions/con_2e9a96cd3ede42489918bfae52f6703a/files/F23-525.tex",
+  "title": "Rich endpoint distributions can identify the sign of controlled ownership effects",
+  "finding": "Supports the claim",
+  "checked_scope": "Sharp distribution-informed missing ownership-scale cell bounds under the source's individual monotonicity and Lipschitz scale restriction.",
+  "significance": "Completes the source's richer-data suggestion with an exact joint rectangle and a binary-endpoint example where distributions establish positive controlled effects although means alone do not.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

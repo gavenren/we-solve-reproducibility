@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-I38-537",
+  "contribution_handle": "ECON-I38-537-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "f8fdd0f0eb7b8a394140e0684e554d31ad4d9bc26d343d9314e704c6a414f186",
+  "source_sha256": "f74ceed21b1fc3452569f90ab97bc2dc6ebf0e3065368a7720d9ead0ef18427e",
+  "checked_scope": "Dependent-lottery implementation preserving individual action marginals under hard treatment and total count capacities.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently, including expected-versus-hard capacity distinction.",
+    "Verified flow-network construction, integer supplies/capacities and assignment interpretation of integral flows.",
+    "Checked corrected fractional-arc cycle proof and finite convex decomposition preserves all marginals.",
+    "Verified common deterministic treatment cost hard-budget condition, two-person independence failure and no-interference welfare qualification.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [
+    "Requested explicit noninteger-flow arc subgraph in integrality proof; author corrected the phrase and refroze final bytes."
+  ],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Closes the finite-cohort hard-capacity implementation gap for a substantive laminar count subclass."
+}

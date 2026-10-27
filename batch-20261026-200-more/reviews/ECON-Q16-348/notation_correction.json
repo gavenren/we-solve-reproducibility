@@ -1,0 +1,6 @@
+{
+  "before_sha256": "639c0027080d180e8bce4047e766ffe5f0b171b78a3df4b5a6cc1f8f45a7bf3e",
+  "after_sha256": "9f7ca671f797938013e9e30c755a9b794986ef609929a9e9456b19bfd78e5d53",
+  "reason": "Replaced 14 escaped backspace ar B sequences with Unicode B combining macron; notation repair only, proof unchanged.",
+  "auditor_notified": "/root/new200_e"
+}

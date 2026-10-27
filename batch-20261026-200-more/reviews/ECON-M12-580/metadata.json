@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-M12-580",
+  "problem_id": "prb_5a61d70bf1c34eb4a705b5471c5194f6",
+  "contribution_handle": "ECON-M12-580-A1",
+  "contribution_id": "con_ede41c233a7e47baa2fca86f608adf6d",
+  "revision_id": "rev_d3a935d6013941d0ae46907e9fff4dc4",
+  "source_path": "problems/5a/prb_5a61d70bf1c34eb4a705b5471c5194f6/contributions/con_ede41c233a7e47baa2fca86f608adf6d/files/M12-580.tex",
+  "source_sha256": "027090e487965ea602ba155cc31e830d42822d07ae25a768a2dee2b3ed82af9b",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/5a/prb_5a61d70bf1c34eb4a705b5471c5194f6/contributions/con_ede41c233a7e47baa2fca86f608adf6d/files/M12-580.tex",
+  "title": "The complete one-worker identified set for average within-firm binary quantiles",
+  "finding": "Supports the claim",
+  "checked_scope": "Bernoulli firm-mixture observation model with one worker sampled per firm; sharp bounds for every quantile and observed pooled success mean",
+  "significance": "Strengthens the source's two-model nonidentification example to a complete sharp identified set, including open endpoints caused by the quantile threshold convention.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

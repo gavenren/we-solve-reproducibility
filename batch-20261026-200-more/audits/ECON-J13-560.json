@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-J13-560",
+  "contribution_handle": "ECON-J13-560-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "3328619848ceea7dd75c4fbd75a5567760380b3e5ffbfa0297d1461c0fc74e6c",
+  "source_sha256": "c1c9067d1607db4f2570a1b0d3f9e1af679cec53819e4d4e01be208dac02af28",
+  "checked_scope": "One randomized arm, oracle conditional remaining-birth mean/variance and independent history-stratified validation.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Derived conditional score variance and total variance without confusing predictable mean with residual uncertainty.",
+    "Checked pointwise capped \u03c3/\u221a(\u03bbc) allocation, multiplier budget existence conditions, integrated global optimality, uniqueness and oracle/floor caveats.",
+    "Independently refetched pinned GitHub YAML/manuscript; exact saved bytes match returned Git blob SHAs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Exact optimal representative completion-follow-up allocation under a collection budget."
+}

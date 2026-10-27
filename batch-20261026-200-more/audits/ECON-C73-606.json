@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-C73-606",
+  "checked_scope": "Direct monitoring incentive-margin concentration, credible forgiveness and calibration allocation.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Derived weighted Bernoulli squared-range sum 1/nD+4/nC and direct two-sided radius.",
+    "Verified selected forgiveness range, true-game equilibrium implication, 2r margin/occupancy regret.",
+    "Solved continuous 2:1 calibration allocation with9/N versus10/N equal counts.",
+    "Checked countable error-spending uniform extension and convergence assumptions."
+  ],
+  "significance": "Reduces conservative separate-endpoint auditing and identifies resource-efficient cooperative/off-path calibration proportions.",
+  "contribution_handle": "ECON-C73-606-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "e590e4ecf200c0a34611049add05bde23ff000efb76a8eaa43477b0a02d3b687",
+  "source_sha256": "e2f95ed73dde0bf9ec24d0c35d94a15d49370694cab506609c64af7b6dbbf5ad",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

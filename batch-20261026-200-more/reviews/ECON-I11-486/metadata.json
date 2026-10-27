@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I11-486",
+  "problem_id": "prb_9c7f348ade4941f2b332eda622b6eaa4",
+  "contribution_handle": "ECON-I11-486-A1",
+  "contribution_id": "con_bd4511545ec743978a2ba6f6f7fe6b86",
+  "revision_id": "rev_3f2b7ce39e724c6dbcef25c9b65ebf31",
+  "source_path": "problems/9c/prb_9c7f348ade4941f2b332eda622b6eaa4/contributions/con_bd4511545ec743978a2ba6f6f7fe6b86/files/I11-486.tex",
+  "source_sha256": "022e188ed9a322e01f1ad5903c76d4b30e18b0ac2fb44ad23c51c99496941d67",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/9c/prb_9c7f348ade4941f2b332eda622b6eaa4/contributions/con_bd4511545ec743978a2ba6f6f7fe6b86/files/I11-486.tex",
+  "title": "Sharp longitudinal health-completion bounds under bounded annual changes",
+  "finding": "Supports the claim",
+  "checked_scope": "Refinement of the source's missing-health welfare bounds using an explicitly supplied Lipschitz restriction on quality indices during life.",
+  "significance": "Constructs simultaneously attainable whole-trajectory completion envelopes and propagates them into sharp net-health-benefit intervals without survivor conditioning.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-C72-620",
+  "problem_id": "prb_b0d3209b3039477eb869f4e89c425a66",
+  "contribution_handle": "ECON-C72-620-A1",
+  "contribution_id": "con_613b01a2d5c0499aa3c9b21cb9bcf488",
+  "revision_id": "rev_e5b96ac791134422857c49a911fb381b",
+  "source_path": "problems/b0/prb_b0d3209b3039477eb869f4e89c425a66/contributions/con_613b01a2d5c0499aa3c9b21cb9bcf488/files/C72-620.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/b0/prb_b0d3209b3039477eb869f4e89c425a66/contributions/con_613b01a2d5c0499aa3c9b21cb9bcf488/files/C72-620.tex",
+  "title": "Fixed-label strategic symmetry can be recognized without a supplied witness",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Provides an exact polynomial rational-arithmetic recognition algorithm for the manuscript's strategic-symmetry promise, reducing witness discovery to one scalar ratio and a tangent semidefiniteness test.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "0f6b6ce0a9bf50f360727896a6e46b4bc2c67bfd1c7f36d3b403ac0cbac3c191"
+}

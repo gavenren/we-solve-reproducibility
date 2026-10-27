@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-D72-545",
+  "contribution_handle": "ECON-D72-545-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "ba6f32147aa3a9b366b065b58eef07d6beea3845abd940eeb1bb447a20872d94",
+  "source_sha256": "a63867364e7acae55a571c750cd7fffc86ab19855e04ed6c7a0df7f84476cf98",
+  "checked_scope": "Full exact manuscript/YAML and finite-forgiveness equilibrium construction.",
+  "checks_performed": "Checked punishment indexing delta^L and deviation delta^(L+1), good-state Bellman denominator, voter threshold algebra, party/voter deviations at every public state, L limit and stationary renewal probability.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Finite punishment yields persistent positive support frequency with an exact incentive-versus-false-alarm frontier."
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I38-568",
+  "problem_id": "prb_08e03ddb31ae411cab9a4348cfc4fdc2",
+  "contribution_handle": "ECON-I38-568-A1",
+  "contribution_id": "con_4233e71e592b4a61894133af75e483a3",
+  "revision_id": "rev_76a840d9ac7843798b48d86cf449eb52",
+  "source_path": "problems/08/prb_08e03ddb31ae411cab9a4348cfc4fdc2/contributions/con_4233e71e592b4a61894133af75e483a3/files/I38-568.tex",
+  "source_sha256": "6f523d805e6c62442311d1afc470c5d8a13cfb1dcdc327d2393fc44a32042605",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/08/prb_08e03ddb31ae411cab9a4348cfc4fdc2/contributions/con_4233e71e592b4a61894133af75e483a3/files/I38-568.tex",
+  "title": "A shadow-price frontier solves the robust displaced-household allocation",
+  "finding": "Supports the claim",
+  "checked_scope": "The sharp missing-outcome robust targeting problem and expected-budget constraint, deriving its exact dual and allocation algorithm.",
+  "significance": "A common resource shadow price and per-stratum gain-cost hulls give an operational exact solution, including which treatment mixtures are necessary.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

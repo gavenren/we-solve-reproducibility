@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-Q23-570",
+  "problem_id": "prb_a02259df784649bab4c4c7909921dda0",
+  "contribution_handle": "ECON-Q23-570-A1",
+  "contribution_id": "con_296460d83a2e4133b5b981e5b469fcea",
+  "revision_id": "rev_9e2f7e6abacc4a68a7041585128c01e1",
+  "source_path": "problems/a0/prb_a02259df784649bab4c4c7909921dda0/contributions/con_296460d83a2e4133b5b981e5b469fcea/files/Q23-570.tex",
+  "source_sha256": "72f31174d7692112a24fda6a8874754ca9ce18169f7424827b60b10bc2369fdf",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/a0/prb_a02259df784649bab4c4c7909921dda0/contributions/con_296460d83a2e4133b5b981e5b469fcea/files/Q23-570.tex",
+  "title": "Exact permanence-risk variance complements expected forest value",
+  "finding": "Supports the claim",
+  "checked_scope": "Absorbing geometric reversal model with constant carbon/noncarbon prices and alive-state maintenance.",
+  "significance": "Derives a closed-form covariance kernel and exact discounted parcel-value variance, making the source's risk-sensitive allocation caveat computable.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

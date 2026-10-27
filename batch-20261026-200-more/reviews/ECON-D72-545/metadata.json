@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D72-545",
+  "problem_id": "prb_b68821ef0ee34326b0e9444c9733f00b",
+  "contribution_handle": "ECON-D72-545-A1",
+  "contribution_id": "con_b98c8f27b4b04e1b9f978bb6ebaecc86",
+  "revision_id": "rev_ecb1a5e329db432582c6e58f9b1e5413",
+  "source_path": "problems/b6/prb_b68821ef0ee34326b0e9444c9733f00b/contributions/con_b98c8f27b4b04e1b9f978bb6ebaecc86/files/D72-545.tex",
+  "source_sha256": "a63867364e7acae55a571c750cd7fffc86ab19855e04ed6c7a0df7f84476cf98",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/b6/prb_b68821ef0ee34326b0e9444c9733f00b/contributions/con_b98c8f27b4b04e1b9f978bb6ebaecc86/files/D72-545.tex",
+  "title": "Finite forgiveness restores recurrent clientelism after false alarms",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite-punishment extension of the source's repeated public-monitoring transfer game with the same timing, signal laws and payoff primitives.",
+  "significance": "Derives the exact forgiveness threshold and stationary support fraction, showing how a finite strategy sustains recurrent support despite false alarms while preserving secrecy impossibility.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

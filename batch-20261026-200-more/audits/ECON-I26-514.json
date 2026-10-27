@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-I26-514",
+  "contribution_handle": "ECON-I26-514-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "6a93bab4ef8eeabe5593f2dbed8a52eb888efacb1162129861d4ae892205ec6e",
+  "source_sha256": "1a19201baed7e4faed3991673e08a3c65d4140fc504725ba172c2691604bf28f",
+  "checked_scope": "Full exact manuscript/YAML and joint transport-error zonotope.",
+  "checks_performed": "Collected every Shapley column coefficient, checked sharp realization of all integrated shifts, support function and efficiency column sums, fixed-endpoint 3delta/2 radius.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Exact joint transport identified set improves coordinate bounds and preserves mechanism efficiency."
+}

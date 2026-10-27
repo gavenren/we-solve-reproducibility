@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-L42-541",
+  "checked_scope": "Upstream two-part pricing with enforceable nonnegative fixed-fee cap.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Derived quantity-domain contracting objective and accepted fee min(cap,Q\u00b2).",
+    "Verified three global-optimum regions, cross-piece difference2(x\u2212D/4)\u00b2, boundaries and nonnegative wholesale price.",
+    "Checked welfare/consumer-surplus remaining-integration-gain formulas and separation from foreclosure economy."
+  ],
+  "significance": "Quantifies exactly when limited fixed fees change surplus division only and when they recover integrated output.",
+  "contribution_handle": "ECON-L42-541-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "872f427f809d7a35063157e3301a99c9210bb66ff66bc5ee0baf3a2707fe3745",
+  "source_sha256": "979b1e70e01c704c30e8e838d667a9a62af930e738481dfe05322c3d561377f1",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F37-573",
+  "problem_id": "prb_2794ac12c0c741a289a68f377ffc22c0",
+  "contribution_handle": "ECON-F37-573-A1",
+  "contribution_id": "con_bc3d17337259495d86cf065309f35f3f",
+  "revision_id": "rev_f2e3a18377d243389183518aa83f3967",
+  "source_path": "problems/27/prb_2794ac12c0c741a289a68f377ffc22c0/contributions/con_bc3d17337259495d86cf065309f35f3f/files/F37-573.tex",
+  "source_sha256": "e7e818bc2c91ce0ea5cc60e7c2b43cf00ce414ee772d634e737e4c869e917bbd",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/27/prb_2794ac12c0c741a289a68f377ffc22c0/contributions/con_bc3d17337259495d86cf065309f35f3f/files/F37-573.tex",
+  "title": "A confidence-safe linear forecast adjustment from observable moments",
+  "finding": "Supports the claim",
+  "checked_scope": "Random-walk squared-loss comparison; independent bounded training sample and moment-robust linear predictor selection",
+  "significance": "Derives a sign-aware robust forecast coefficient that guarantees nonpositive excess risk on a simultaneous training-confidence event, without observing the latent predictable component.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

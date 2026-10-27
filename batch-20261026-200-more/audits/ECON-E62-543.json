@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-E62-543",
+  "contribution_handle": "ECON-E62-543-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "9d824b557f35b2a7b350d99f07f895bffaa35ac226db7cd1acac717f0a1e5bf2",
+  "source_sha256": "6fed549f79497b20481e84f3081191daaad4998a7cf538c467f64019f45618b4",
+  "checked_scope": "Full source/YAML/report; complete geometry and sign classification of the bounded-moment inverted confidence set.",
+  "checks_performed": [
+    "Derived both signed-half-axis inequalities directly.",
+    "Checked bounded interval, two-rays, all-real and boundary one-ray cases including b0 and c0 separation.",
+    "Verified a2/b0/c1 disconnected example, a2/bc1 one-sided example, and exact strict-sign iff condition."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Completely characterizes when the valid confidence set is bounded, all real numbers, one ray or two rays, and gives exact half-line inequalities for constructing it without unsafe ratio division."
+}

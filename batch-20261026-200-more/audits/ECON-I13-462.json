@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-I13-462",
+  "contribution_handle": "ECON-I13-462-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "d00e8dd096df33d513ef30391dc4976e54c722dbb1c41d1f57f72f378e2bb4fd",
+  "source_sha256": "f5158a56f419d947439b6c013d194ece397a5b5c3759aeb7b3c44c30400ce14b",
+  "checked_scope": "Full exact manuscript/YAML and initial-lottery implementation.",
+  "checks_performed": "Verified unconstrained occupation-vertex support count, deterministic stationary completion, convex-hull welfare-cost equivalence, two-weight LP rank argument, budget lottery formula and necessary-randomization example.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Implements financed care by one initial draw of at most two deterministic stationary policies under expected financing."
+}

@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-I11-577",
+  "contribution_handle": "ECON-I11-577-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "09bb1192761c17efb47d2d15c2f13850ec8cbd5b94ca2ff5f716692092db6b88",
+  "source_sha256": "dc48f4e7a1b0507b1494005e61056145fbedae69fd99cc0624f7469258be4133",
+  "checked_scope": "General smooth travel distribution with interior thresholds, nonatomic provider choice and linear congestion.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Verified unique fixed point and implicit n\u2032=\u0394F/(1+\u2113fbar).",
+    "Differentiated travel-integral welfare, independently collected W\u2032\u2212\u03c4 terms, checked uniform and zero-congestion cases and sufficient negative-correction condition.",
+    "Independently refetched pinned GitHub YAML/manuscript; exact saved bytes match returned Git blob SHAs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Exact general-distribution congestion correction separates individual offer effects from rollout marginal welfare."
+}

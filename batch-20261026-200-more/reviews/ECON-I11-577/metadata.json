@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I11-577",
+  "problem_id": "prb_0c9f8d3b7a2742878b811aba9fe76bce",
+  "contribution_handle": "ECON-I11-577-A1",
+  "contribution_id": "con_a49cb12ab19d4d45b7d66f6199cae54a",
+  "revision_id": "rev_c63411b618cd42ddb218be05d5b2beb5",
+  "source_path": "problems/0c/prb_0c9f8d3b7a2742878b811aba9fe76bce/contributions/con_a49cb12ab19d4d45b7d66f6199cae54a/files/I11-577.tex",
+  "source_sha256": "dc48f4e7a1b0507b1494005e61056145fbedae69fd99cc0624f7469258be4133",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/0c/prb_0c9f8d3b7a2742878b811aba9fe76bce/contributions/con_a49cb12ab19d4d45b7d66f6199cae54a/files/I11-577.tex",
+  "title": "General travel-cost distributions yield an exact congestion correction to individual offer effects",
+  "finding": "Supports the claim",
+  "checked_scope": "Smooth heterogeneous travel costs in the source's nonatomic steering/congestion model.",
+  "significance": "Extends the uniform benchmark to arbitrary continuous travel distributions and derives an exact marginal rollout-versus-offer decomposition.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

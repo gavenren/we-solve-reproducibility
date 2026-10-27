@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E62-543",
+  "title": "Exact geometry of the weak-relevance-safe multiplier confidence set",
+  "finding": "Supports the claim",
+  "checked_scope": "The source's finite-sample inverted bounded-moment test at a fixed state and horizon, with positive radius c.",
+  "significance": "Completely characterizes when the valid confidence set is bounded, all real numbers, one ray or two rays, and gives exact half-line inequalities for constructing it without unsafe ratio division.",
+  "problem_id": "prb_ffe53be341114ce69eea672ca6b6e91b",
+  "contribution_handle": "ECON-E62-543-A1",
+  "contribution_id": "con_ee6d3d39ad2b434da4686a3ddaef777b",
+  "revision_id": "rev_932af87ed4574695be25a8f22b62bfdc",
+  "source_path": "problems/ff/prb_ffe53be341114ce69eea672ca6b6e91b/contributions/con_ee6d3d39ad2b434da4686a3ddaef777b/files/E62-543.tex",
+  "source_sha256": "6fed549f79497b20481e84f3081191daaad4998a7cf538c467f64019f45618b4",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/ff/prb_ffe53be341114ce69eea672ca6b6e91b/contributions/con_ee6d3d39ad2b434da4686a3ddaef777b/files/E62-543.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

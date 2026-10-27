@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-H41-557",
+  "problem_id": "prb_a7d3cb3971e34364800c839a442c612c",
+  "contribution_handle": "ECON-H41-557-A1",
+  "contribution_id": "con_0e6997a06acc4a6c8962a9dc46e2c3a8",
+  "revision_id": "rev_0fd0a490d6914a0793f6f4b1e37f0ac1",
+  "source_path": "problems/a7/prb_a7d3cb3971e34364800c839a442c612c/contributions/con_0e6997a06acc4a6c8962a9dc46e2c3a8/files/H41-557.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/a7/prb_a7d3cb3971e34364800c839a442c612c/contributions/con_0e6997a06acc4a6c8962a9dc46e2c3a8/files/H41-557.tex",
+  "title": "Finite Nash behavior does not guarantee a bounded endogenous-identity planner problem",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Derives the exact stronger feedback threshold for bounded aggregate welfare and the unique planner allocation below it, distinguishing equilibrium existence from welfare maximization.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "613d37a18f61f9352e49be57e32ebc066147b31613345732b5e0f6a18af20a08"
+}

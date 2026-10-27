@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-O41-563",
+  "problem_id": "prb_7ca36f5a94e349c3bf6d176fae851337",
+  "contribution_handle": "ECON-O41-563-A1",
+  "contribution_id": "con_1b74c2e9c9c34e44840deb505d11e3ff",
+  "revision_id": "rev_5afff4ec2be34be19a9a833d41f4381c",
+  "source_path": "problems/7c/prb_7ca36f5a94e349c3bf6d176fae851337/contributions/con_1b74c2e9c9c34e44840deb505d11e3ff/files/O41-563.tex",
+  "source_sha256": "921af85ebc6cae76516d51fa8a0274ec6c91b81f9456975fb9f5e86f9d4c9685",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/7c/prb_7ca36f5a94e349c3bf6d176fae851337/contributions/con_1b74c2e9c9c34e44840deb505d11e3ff/files/O41-563.tex",
+  "title": "Optimal finite-horizon research timing and the curvature boundary",
+  "finding": "Supports the claim",
+  "checked_scope": "Knowledge-accumulation integral with obsolescence; deterministic research allocation under a fixed total effort budget",
+  "significance": "Solves the optimal effort path for diminishing research returns and proves nonattainment/unboundedness for linear or increasing returns without a common effort cap.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}
