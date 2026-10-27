@@ -24,6 +24,8 @@ def main():
                 copy(path.relative_to(ROOT))
     for name in ['assemble.py','export.py','manifest.json','AUDIT_INSTRUCTIONS.md','CONFIGURATION.json']:
         copy(name)
+    if (ROOT/'readback_verification.json').exists():
+        copy('readback_verification.json')
     # Only original code/check outputs, never copied source manuscripts or issue histories.
     for path in sorted(ROOT.iterdir()):
         if path.is_file() and (path.name.startswith('check') or path.name.startswith('verify')) and path.suffix in {'.py','.json','.txt','.md'}:
@@ -58,6 +60,9 @@ def main():
     lines += ['', '## Rights and reproducibility', '',
         'Original prose and audit records: CC BY 4.0. Original verification code: Apache-2.0. Upstream authors and source revisions are credited in each review. All numerical or finite checks are limited to their recorded domain and do not replace mathematical proof.', '',
         'The assembly script depends on local source snapshots and the deduplication snapshot, which are deliberately not redistributed in this evidence export. The original mathematical check scripts and their recorded outputs are included when present. The contribution prose provides the mathematical arguments independently of code execution.', '']
+    if (ROOT/'readback_verification.json').exists():
+        lines += ['## Submission verification', '',
+            'All 40 issues were read back from GitHub: each is open and its title and complete body match the prepared submission. The requested intake/review labels were not applied during creation. An explicit label attempt returned GitHub 403 (Resource not accessible by integration), so labeling requires repository permissions. No editorial acceptance is claimed. See [readback verification](readback_verification.json).', '']
     (OUT/'README.md').write_text('\n'.join(lines))
     sums=[]
     for path in sorted(OUT.rglob('*')):
