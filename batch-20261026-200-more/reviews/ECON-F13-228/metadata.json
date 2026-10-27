@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F13-228",
+  "problem_id": "prb_eb4255a67b9a4bb683137b77de8bf2ee",
+  "contribution_handle": "ECON-F13-228-A1",
+  "contribution_id": "con_42bc349b4b59415c93c7f0f6c8028366",
+  "revision_id": "rev_91fc8f34240b40039eb2fe8b569d79d6",
+  "source_path": "problems/eb/prb_eb4255a67b9a4bb683137b77de8bf2ee/contributions/con_42bc349b4b59415c93c7f0f6c8028366/files/F13-228.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/eb/prb_eb4255a67b9a4bb683137b77de8bf2ee/contributions/con_42bc349b4b59415c93c7f0f6c8028366/files/F13-228.tex",
+  "title": "Policy comparisons have a sharp exposure-dependent identification threshold",
+  "finding": "Supports the claim",
+  "checked_scope": "Full manuscript; independent extension stated in the report.",
+  "significance": "Derives a sharp interval for safeguard welfare differences, including a reversal in which harm endpoint gives the worst-case policy improvement.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "f6247ea35c5e4f573ace89ef20dbfb64729a0f2d413f1c2107fba32e9a848496"
+}

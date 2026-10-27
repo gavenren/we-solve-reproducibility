@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I18-236",
+  "problem_id": "prb_d790a8e74e5c4e319d158bff46e0dd1e",
+  "contribution_handle": "ECON-I18-236-A1",
+  "contribution_id": "con_40f6fa7da07d4764afbf6b0f95e88c57",
+  "revision_id": "rev_b3a5b4048a884a96a2d2c761e95703c3",
+  "source_path": "problems/d7/prb_d790a8e74e5c4e319d158bff46e0dd1e/contributions/con_40f6fa7da07d4764afbf6b0f95e88c57/files/I18-236.tex",
+  "source_sha256": "0cd2c1080674998aa87a52b8b65168276937b6567d9e212c3f1a20017ee7f4e7",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/d7/prb_d790a8e74e5c4e319d158bff46e0dd1e/contributions/con_40f6fa7da07d4764afbf6b0f95e88c57/files/I18-236.tex",
+  "title": "Removing regularity by ironing virtual readiness costs",
+  "finding": "Supports the claim",
+  "checked_scope": "Irregular-type extension of the source's single-supplier, verifiable readiness screening model, retaining its welfare boundary, financing loss and bounded allocation.",
+  "significance": "Constructs and proves an optimal truthful readiness contract when the displayed virtual cost is not monotone, with pooling determined by a convex minorant.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

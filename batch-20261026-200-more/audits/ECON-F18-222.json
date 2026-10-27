@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-F18-222",
+  "contribution_handle": "ECON-F18-222-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "a97a1af41c7831838be6b1ba324db063e5f677485c2c315ab64529b3c5f5ca7b",
+  "source_sha256": "dc81e2a0232ca9532e91c8af2a479a6f7595178891e6aa262da54b8245918e46",
+  "checked_scope": "Exact compensation frontier with clipped Nash policies",
+  "checks_performed": [
+    "Independently expanded total welfare difference with actual clipped Nash cost Q/2.",
+    "Completed the square and verified real roots, A_-<=N<=A_+, cap-optimum cases, and unique zero-surplus transfer vector.",
+    "Recomputed symmetric threshold roots 2 and 6; checked YAML canonical IDs, pinned URL, and SHA256."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Sharp global cap threshold with heterogeneous clipped baselines; goes beyond the source numerical example."
+}

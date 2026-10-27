@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-I18-236",
+  "contribution_handle": "ECON-I18-236-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "b7f43dd41aaf4f884e0ef99e822b3e11aade693afd58f215edbcbb814f21c146",
+  "source_sha256": "0cd2c1080674998aa87a52b8b65168276937b6567d9e212c3f1a20017ee7f4e7",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "checked_scope": "Full manuscript/YAML and irregular-type ironing extension of the readiness contract.",
+  "checks_performed": "Re-derived rent Fubini identity and quantile objective, checked lower-convex-envelope orientation and endpoint contact, verified Stieltjes integration by parts sign, monotonicity and implementability, and equality because pooling removes allocation variation wherever envelope gap is positive.",
+  "significance": "Removes virtual-cost regularity with explicit global optimality proof and implementable payments."
+}

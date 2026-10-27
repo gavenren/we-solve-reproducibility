@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F18-222",
+  "problem_id": "prb_74fac30499d745e39764ceefb51b24c9",
+  "contribution_handle": "ECON-F18-222-A1",
+  "contribution_id": "con_eb353d381b8f490c86c4b554831d6870",
+  "revision_id": "rev_b70a89e8b7714b5c833f0b7cd0d264ae",
+  "source_path": "problems/74/prb_74fac30499d745e39764ceefb51b24c9/contributions/con_eb353d381b8f490c86c4b554831d6870/files/F18-222.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/74/prb_74fac30499d745e39764ceefb51b24c9/contributions/con_eb353d381b8f490c86c4b554831d6870/files/F18-222.tex",
+  "title": "Exact compensation frontier with clipped Nash policies",
+  "finding": "Supports the claim",
+  "checked_scope": "Full manuscript; independent extension stated in the report.",
+  "significance": "A closed-form cap participation frontier allowing heterogeneous countries and binding individual Nash bounds.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "dc81e2a0232ca9532e91c8af2a479a6f7595178891e6aa262da54b8245918e46"
+}

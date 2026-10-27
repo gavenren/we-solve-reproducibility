@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D44-238",
+  "problem_id": "prb_8765b81d750d4729971b93d702a9b517",
+  "contribution_handle": "ECON-D44-238-A1",
+  "contribution_id": "con_a11cd088354845cfb7cb89457575e37e",
+  "revision_id": "rev_1eca6253f0854e40ad45f56f7636be5e",
+  "source_path": "problems/87/prb_8765b81d750d4729971b93d702a9b517/contributions/con_a11cd088354845cfb7cb89457575e37e/files/D44-238.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/87/prb_8765b81d750d4729971b93d702a9b517/contributions/con_a11cd088354845cfb7cb89457575e37e/files/D44-238.tex",
+  "title": "One-sided grid coupling doubles the admissible approximation mesh",
+  "finding": "Supports the claim",
+  "checked_scope": "Full manuscript; independent extension stated in the report.",
+  "significance": "Proves an improved menu perturbation bound for coordinatewise rounding and an exact-IC approximation using twice the original mesh.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "306fb6fdc81b05640d1a1c8fd4b46a388dd4a676db029e333d5cd436fd7f7ac3"
+}

@@ -1,0 +1,82 @@
+{
+  "date_local": "2026-10-26",
+  "requested_contributions": 200,
+  "root": {
+    "agent": "/root",
+    "model": "OpenAI Codex (based on GPT-6)",
+    "version": "unknown",
+    "reasoning_effort": "unknown",
+    "time_budget": "unknown",
+    "roles": [
+      "target selection",
+      "provenance and assembly",
+      "authorized publication"
+    ]
+  },
+  "agents": [
+    {
+      "agent": "/root/new200_a",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "ultra",
+      "version": "unknown",
+      "time_budget": "unknown",
+      "configuration_source": "Explicit spawn_agent model and reasoning_effort, fork_turns=none",
+      "author_group": "a",
+      "audits_group": "f"
+    },
+    {
+      "agent": "/root/new200_b",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "ultra",
+      "version": "unknown",
+      "time_budget": "unknown",
+      "configuration_source": "Explicit spawn_agent model and reasoning_effort, fork_turns=none",
+      "author_group": "b",
+      "audits_group": "a"
+    },
+    {
+      "agent": "/root/new200_c",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "ultra",
+      "version": "unknown",
+      "time_budget": "unknown",
+      "configuration_source": "Explicit spawn_agent model and reasoning_effort, fork_turns=none",
+      "author_group": "c",
+      "audits_group": "b"
+    },
+    {
+      "agent": "/root/new200_d",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "ultra",
+      "version": "unknown",
+      "time_budget": "unknown",
+      "configuration_source": "Explicit spawn_agent model and reasoning_effort, fork_turns=none",
+      "author_group": "d",
+      "audits_group": "c"
+    },
+    {
+      "agent": "/root/new200_e",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "ultra",
+      "version": "unknown",
+      "time_budget": "unknown",
+      "configuration_source": "Explicit spawn_agent model and reasoning_effort, fork_turns=none",
+      "author_group": "e",
+      "audits_group": "d"
+    },
+    {
+      "agent": "/root/new200_f",
+      "requested_model": "gpt-6.1-sol",
+      "reasoning_effort": "ultra",
+      "version": "unknown",
+      "time_budget": "unknown",
+      "configuration_source": "Explicit spawn_agent model and reasoning_effort, fork_turns=none",
+      "author_group": "f",
+      "audits_group": "e"
+    }
+  ],
+  "limitations": [
+    "Exact serving versions and durations unknown.",
+    "No human or formal verification or editorial acceptance is claimed."
+  ]
+}

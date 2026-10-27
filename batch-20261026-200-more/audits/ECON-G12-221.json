@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-G12-221",
+  "contribution_handle": "ECON-G12-221-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "df4219802e20e5db5f027b1283f4da30dc81e9da35ddd17cf391ff1eaa3a50ca",
+  "source_sha256": "54711598e7d955bbc513b2a1a03a1a26c5a35c9e6365d7adf70f3d8d9349ef98",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "checked_scope": "Full manuscript/YAML and complete identified-set extension for unrestricted finite CARA-normal economies.",
+  "checks_performed": "Independently derived compatibility q_i=tau_i(mu_i-p), constructed admissible positive risk aversions, checked clearing uniqueness, derived weights and inverse parametrization t_j=Sw_j/alpha, checked all-zero-spread and single-investor cases.",
+  "significance": "Complete identified set and exact coordinate ranges extend the source's three-investor observational-equivalence example."
+}

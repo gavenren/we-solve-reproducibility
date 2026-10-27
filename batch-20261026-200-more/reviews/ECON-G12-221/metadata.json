@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G12-221",
+  "problem_id": "prb_a80ceab2b371496397fb87a70cfffefb",
+  "contribution_handle": "ECON-G12-221-A1",
+  "contribution_id": "con_adddb2faaf8344f7a43d8572773cc4ef",
+  "revision_id": "rev_ede4c20eb3f547c2a22eb91603f0ba4a",
+  "source_path": "problems/a8/prb_a80ceab2b371496397fb87a70cfffefb/contributions/con_adddb2faaf8344f7a43d8572773cc4ef/files/G12-221.tex",
+  "source_sha256": "54711598e7d955bbc513b2a1a03a1a26c5a35c9e6365d7adf70f3d8d9349ef98",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/a8/prb_a80ceab2b371496397fb87a70cfffefb/contributions/con_adddb2faaf8344f7a43d8572773cc4ef/files/G12-221.tex",
+  "title": "Exact identified set for aggregation weights from a single observed portfolio cross-section",
+  "finding": "Supports the claim",
+  "checked_scope": "Unrestricted CARA-normal one-security model; full characterization of response weights conditional on observed means, price and holdings.",
+  "significance": "Characterizes the complete identified set, separating zero-spread investors from observed nonzero-spread traders and proving when weights are point identified.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}
