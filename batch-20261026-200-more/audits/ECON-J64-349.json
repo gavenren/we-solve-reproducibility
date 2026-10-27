@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-J64-349",
+  "contribution_handle": "ECON-J64-349-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "4c58d47717d0dafdf93b2de4ae07198b3a3d5924ac5e57b132db993339724bc6",
+  "source_sha256": "5c46e9093396567c4055de9767b0ec7909b0be2b22ee4b90bc5d6365e94f9609",
+  "checked_scope": "Full source/YAML and report; symmetric-difference matching regret, sharp uniform constant and robust alternating-cycle certificate.",
+  "checks_performed": [
+    "Reproved cancellation of shared edges and perceived-optimality bound.",
+    "Checked identity/cyclic-shift sharpness for every n\u22652, nonnegative common shift and n=1 boundary.",
+    "Verified necessity/sufficiency of exclusive-edge box inequalities using simultaneous disjoint extrema and decomposition into alternating cycles."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Lifts bounded perception errors to aggregate match-surplus guarantees, proves the sharp 2n\u03b5 bound, and gives a necessary-and-sufficient interval-robust certificate for a proposed assignment."
+}

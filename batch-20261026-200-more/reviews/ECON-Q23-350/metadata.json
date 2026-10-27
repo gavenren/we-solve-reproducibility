@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-Q23-350",
+  "problem_id": "prb_3aeccae46cca4d9bae5fd3f9dff6b510",
+  "contribution_handle": "ECON-Q23-350-A1",
+  "contribution_id": "con_fba12f111d2f4550b4c2b34f031bb65c",
+  "revision_id": "rev_e2591f75981c48c888144e5ae0f94c91",
+  "source_path": "problems/3a/prb_3aeccae46cca4d9bae5fd3f9dff6b510/contributions/con_fba12f111d2f4550b4c2b34f031bb65c/files/Q23-350.tex",
+  "source_sha256": "5cbdddf8027b08594d9ee97b2ac7990ed2fac64bd2bf0ebebd1ab9b65afedab2",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/3a/prb_3aeccae46cca4d9bae5fd3f9dff6b510/contributions/con_fba12f111d2f4550b4c2b34f031bb65c/files/Q23-350.tex",
+  "title": "A multi-region coordination frontier for global avoided clearing",
+  "finding": "Supports the claim",
+  "checked_scope": "Linear commodity-market leakage benchmark; simultaneous region-specific supply restrictions and optimal global targeting",
+  "significance": "Derives exact global marginal conservation coefficients and solves a budgeted coordination problem, showing when locally restrictive policies increase global clearing.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

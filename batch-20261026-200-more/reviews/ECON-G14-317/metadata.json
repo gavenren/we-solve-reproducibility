@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G14-317",
+  "problem_id": "prb_7de08e5030b8454398db07410cf2ddcf",
+  "contribution_handle": "ECON-G14-317-A1",
+  "contribution_id": "con_9657dcea2b874ba1a8caa2d561e74848",
+  "revision_id": "rev_b82c02f3ec7f4444b1108302db08b5ea",
+  "source_path": "problems/7d/prb_7de08e5030b8454398db07410cf2ddcf/contributions/con_9657dcea2b874ba1a8caa2d561e74848/files/G14-317.tex",
+  "source_sha256": "189d73cde842048eff472cacfb8a72a07c394500190483dfa602783bd72918f5",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/7d/prb_7de08e5030b8454398db07410cf2ddcf/contributions/con_9657dcea2b874ba1a8caa2d561e74848/files/G14-317.tex",
+  "title": "Exact free-entry rent dissipation in the speed contest",
+  "finding": "Supports the claim",
+  "checked_scope": "Solved speed-investment contest; sequential free entry with a real fixed entry cost",
+  "significance": "Solves all integer entry equilibria and proves almost complete dissipation of the rent once both speed and entry resources are counted.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

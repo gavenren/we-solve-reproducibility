@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-C78-338",
+  "contribution_handle": "ECON-C78-338-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "c7af0bded5683f25c578ffbae2a1e187b51342945bc2f277269f6afffe9775b8",
+  "source_sha256": "3031fda8986bb11b48b7d24db4a14188977c71f4cdccdc29b2db44cfbb30272f",
+  "checked_scope": "Explicit-profile conflict-graph equivalence for disconnected two-applicant components and bipartite min-cut algorithm.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently; verified three component profile types and deterministic event factorization.",
+    "Proved both directions of maximum-weight independent-set equivalence and global matching reconstruction.",
+    "Checked weighted vertex-cover complement, finite-capacity min-cut mapping, M>1 exclusion and rational encoding claims.",
+    "Verified arbitrary graph realization via one component per edge and excluded compact-independent/general-graph scope.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Exact structural reduction yields a polynomial correlated-uncertainty subclass beyond the source's applicant-independence case."
+}

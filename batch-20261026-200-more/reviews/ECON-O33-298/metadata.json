@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-O33-298",
+  "problem_id": "prb_f20f430edb9c42c4b47e512cd6c4cff7",
+  "contribution_handle": "ECON-O33-298-A1",
+  "contribution_id": "con_faa5510821c2472c9635b76a339e0405",
+  "revision_id": "rev_1bc3e7dab96c417da8627289b8a60655",
+  "source_path": "problems/f2/prb_f20f430edb9c42c4b47e512cd6c4cff7/contributions/con_faa5510821c2472c9635b76a339e0405/files/O33-298.tex",
+  "source_sha256": "a72437548228be6b5d752ddee2fda70265505a4384d85420a5e56f199cbf65f6",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/f2/prb_f20f430edb9c42c4b47e512cd6c4cff7/contributions/con_faa5510821c2472c9635b76a339e0405/files/O33-298.tex",
+  "title": "Capacity rents attenuate the task-cost elasticities of aggregate output",
+  "finding": "Supports the claim",
+  "checked_scope": "Envelope and Euler identities in the source's finite-task CES model with positive task capacity bounds and an unsaturated aggregate resource budget.",
+  "significance": "Derives exact cost and capacity elasticities, showing their resource-adjusted aggregation weights sum below one by precisely the capacity-shadow-rent share.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

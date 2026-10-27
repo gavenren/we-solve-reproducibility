@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-K42-426",
+  "contribution_handle": "ECON-K42-426-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "c222b12e3476b096339248846ce9d7aef8df88f1e25f4ee5b6ba3609cfe71f89",
+  "source_sha256": "d7e11cc5f24e4e0588a660b1f596d74e7f21226bf5086b00eeaf539de10c097b",
+  "checked_scope": "Joint monotone-reporting incidence-effect interval.",
+  "checks_performed": [
+    "Verified effective bounds and complete joint-feasibility condition.",
+    "Optimized lower corner and upper endpoint/kink candidates; checked connected image sharpness.",
+    "Proved falling-report sign certificate, constant-reporting special case and zero-report qualification.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Sharp cross-regime reporting bounds and an identified sign under a testable additional restriction."
+}

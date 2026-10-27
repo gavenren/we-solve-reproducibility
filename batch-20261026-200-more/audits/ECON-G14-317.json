@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-G14-317",
+  "contribution_handle": "ECON-G14-317-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "86b6626b1cd0f42d9f5d31a255106626b0730d6ccd1565b12f8a52ca40f6fafb",
+  "source_sha256": "189d73cde842048eff472cacfb8a72a07c394500190483dfa602783bd72918f5",
+  "checked_scope": "Two-stage speed-contest free-entry equilibrium counts and exact real-resource dissipation bounds.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently; confirmed symmetric continuation equilibrium restriction.",
+    "Checked sole-entrant zero-effort continuation, both entry-deviation inequalities and empty-count boundary.",
+    "Derived floor/square-root count characterization including integer indifference and finite-pool qualification.",
+    "Recomputed dissipation bracket, residual-rent order and positive-cost limiting argument without asserting finite equilibrium at zero cost.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Completes the missing entry module with exact integer equilibria and sharper full-dissipation rate."
+}

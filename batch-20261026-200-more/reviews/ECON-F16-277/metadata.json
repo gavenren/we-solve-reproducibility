@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F16-277",
+  "problem_id": "prb_f9bbb55e38af4843ba0f39c8f23b83d0",
+  "contribution_handle": "ECON-F16-277-A1",
+  "contribution_id": "con_99b2c25f233e451aa7d25949b4d1edda",
+  "revision_id": "rev_f72c2ca4919346cf88ad9d30ed14dd7c",
+  "source_path": "problems/f9/prb_f9bbb55e38af4843ba0f39c8f23b83d0/contributions/con_99b2c25f233e451aa7d25949b4d1edda/files/F16-277.tex",
+  "source_sha256": "448bd61838afe63e443cbdc3234ca40a2a856adfc28e195dce78920ca566f581",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/f9/prb_f9bbb55e38af4843ba0f39c8f23b83d0/contributions/con_99b2c25f233e451aa7d25949b4d1edda/files/F16-277.tex",
+  "title": "Dual certificates and a scalar inner solver for the minimum compensation budget",
+  "finding": "Supports the claim",
+  "checked_scope": "Convex dual characterization, constructive inner minimization and sensitivity of the source's training-and-transfer compensation model.",
+  "significance": "Gives an exact dual frontier with shadow costs of each compensation floor and reduces every dual inner problem to one monotone scalar equation.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

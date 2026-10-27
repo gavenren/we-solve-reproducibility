@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-L41-333",
+  "title": "Asymmetric research costs can reverse aggregate responses to a positive merger complement",
+  "finding": "Supports the claim",
+  "checked_scope": "A two-firm heterogeneous-cost extension of the source's one-state research game, with unique interior Nash and merged outcomes.",
+  "significance": "Derives the asymmetric equilibrium formulas and a strict-concavity counterexample where increasing a positive cross-firm innovation benefit lowers total merged research.",
+  "problem_id": "prb_4d9ca43ceb744c4cb14defbb70e8eb29",
+  "contribution_handle": "ECON-L41-333-A1",
+  "contribution_id": "con_1864b2f3814b4cdc9c7e4972541638b1",
+  "revision_id": "rev_c207f4fc67214503810d62e121dc62a9",
+  "source_path": "problems/4d/prb_4d9ca43ceb744c4cb14defbb70e8eb29/contributions/con_1864b2f3814b4cdc9c7e4972541638b1/files/L41-333.tex",
+  "source_sha256": "15594f9aa6790587baeb2eaa77712036b46ff76164745e40e2e80c689619b0e6",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/4d/prb_4d9ca43ceb744c4cb14defbb70e8eb29/contributions/con_1864b2f3814b4cdc9c7e4972541638b1/files/L41-333.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F36-407",
+  "problem_id": "prb_84d40a55e23245e788c04f5ad601f4ab",
+  "contribution_handle": "ECON-F36-407-A1",
+  "contribution_id": "con_1396849dcdf44ff2a46c8979373537b9",
+  "revision_id": "rev_a569e333e19d4cdc9c7f35e0a2f1d9f2",
+  "source_path": "problems/84/prb_84d40a55e23245e788c04f5ad601f4ab/contributions/con_1396849dcdf44ff2a46c8979373537b9/files/F36-407.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/84/prb_84d40a55e23245e788c04f5ad601f4ab/contributions/con_1396849dcdf44ff2a46c8979373537b9/files/F36-407.tex",
+  "title": "Complete-market sharing strictly lowers the stated three-country log variance",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Proves strict log-variance reduction for every shock amplitude, an explicit pair-mixture formula, and small/large-amplitude variance-ratio limits.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "ebf6a10277a64cd83d3fb63977ed52613ec31e16161c8f53648fc443fad1fa7f"
+}

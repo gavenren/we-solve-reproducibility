@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E52-316",
+  "title": "Least-favorable beliefs and an exact minimax value for the terminal policy rule",
+  "finding": "Supports the claim",
+  "checked_scope": "One-date robust quadratic decision with conditional mean interval, common variance and no rate bound or smoothing.",
+  "significance": "Constructs a least-favorable endpoint-mixture model and a saddle point, deriving the exact piecewise robust value and explaining when nature uses one mean versus an interior mixture.",
+  "problem_id": "prb_718d36ed2f4e4a0d92e31f51a96c052d",
+  "contribution_handle": "ECON-E52-316-A1",
+  "contribution_id": "con_178786a9842c403081068bc38944e16f",
+  "revision_id": "rev_fe4eabc7cc9f4b64985f788106ecc516",
+  "source_path": "problems/71/prb_718d36ed2f4e4a0d92e31f51a96c052d/contributions/con_178786a9842c403081068bc38944e16f/files/E52-316.tex",
+  "source_sha256": "0cc3f5152f6edb304932d09167bd735338299b58436314a0a1aa94ca2d0f951a",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/71/prb_718d36ed2f4e4a0d92e31f51a96c052d/contributions/con_178786a9842c403081068bc38944e16f/files/E52-316.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

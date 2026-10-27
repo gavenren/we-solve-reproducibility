@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-R28-415",
+  "problem_id": "prb_b74603aa1bdf487aada4200119b943d8",
+  "contribution_handle": "ECON-R28-415-A1",
+  "contribution_id": "con_a14c69b2b9f046b3bc2069b20d886d2d",
+  "revision_id": "rev_c62d32a6bb574cb3a903e76df2792acb",
+  "source_path": "problems/b7/prb_b74603aa1bdf487aada4200119b943d8/contributions/con_a14c69b2b9f046b3bc2069b20d886d2d/files/R28-415.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/b7/prb_b74603aa1bdf487aada4200119b943d8/contributions/con_a14c69b2b9f046b3bc2069b20d886d2d/files/R28-415.tex",
+  "title": "Minimax-regret scaling has an exact solution over all bounded-slope supply extensions",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Solves worst-case regret for scaling beyond pilot support over the full absolutely-continuous slope class, distinguishing it from worst-case welfare optimization.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "0646895ba8e20b2db3bf9aad4fed0f8bf63136e72cf62ccb5b60fa3f7c12ccd7"
+}

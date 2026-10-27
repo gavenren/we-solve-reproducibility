@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-R58-287",
+  "problem_id": "prb_9e0fa4ceb644498393d5864bb773fe5f",
+  "contribution_handle": "ECON-R58-287-A1",
+  "contribution_id": "con_6bb05e0cc1e94bf1ab8590fe6590c261",
+  "revision_id": "rev_1301c9d2f122473d92e6a73eafe8101f",
+  "source_path": "problems/9e/prb_9e0fa4ceb644498393d5864bb773fe5f/contributions/con_6bb05e0cc1e94bf1ab8590fe6590c261/files/R58-287.tex",
+  "source_sha256": "7d0d8a17d7aed37530497c186b71f7cc95fac3e48f8c3ece1008b255f8d1fd38",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/9e/prb_9e0fa4ceb644498393d5864bb773fe5f/contributions/con_6bb05e0cc1e94bf1ab8590fe6590c261/files/R58-287.tex",
+  "title": "Exact minimax-regret subsidy under the sharp spatial welfare interval",
+  "finding": "Supports the claim",
+  "checked_scope": "Policy choice under the source's identified agglomeration interval when national welfare is strictly concave in the subsidy.",
+  "significance": "Solves minimax regret for the entire sharp identified welfare family, including boundary-constrained oracle policies and an explicit interior regret formula.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

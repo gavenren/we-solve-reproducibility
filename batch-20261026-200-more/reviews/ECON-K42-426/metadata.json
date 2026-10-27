@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-K42-426",
+  "problem_id": "prb_63ef76dc456e497980be4e23f50ea328",
+  "contribution_handle": "ECON-K42-426-A1",
+  "contribution_id": "con_d661ee40c2014759bec8a9d9fad04dd0",
+  "revision_id": "rev_963b12c7ebd44cb1b81c61f86350ef48",
+  "source_path": "problems/63/prb_63ef76dc456e497980be4e23f50ea328/contributions/con_d661ee40c2014759bec8a9d9fad04dd0/files/K42-426.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/63/prb_63ef76dc456e497980be4e23f50ea328/contributions/con_d661ee40c2014759bec8a9d9fad04dd0/files/K42-426.tex",
+  "title": "Monotone reporting yields sharp joint bounds and a sign certificate",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Derives exact joint effect bounds under nondecreasing reporting, with a finite candidate formula and an exact common-reporting special case.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "d7e11cc5f24e4e0588a660b1f596d74e7f21226bf5086b00eeaf539de10c097b"
+}

@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-L41-333",
+  "contribution_handle": "ECON-L41-333-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "8e4b12be0a4038c7a4a9bfb928f095e0556b9018bc29178da905aed8c1ef096e",
+  "source_sha256": "15594f9aa6790587baeb2eaa77712036b46ff76164745e40e2e80c689619b0e6",
+  "checked_scope": "Full source/YAML and report; heterogeneous quadratic research equilibrium and complement-response reversal.",
+  "checks_performed": [
+    "Derived both linear systems and determinant restrictions; checked strict concavity of potential/joint objective proves unique box behavior.",
+    "Recomputed derivative(c1\u22122g)/(c1c2\u22124g\u00b2), compatible negative sign and numerical efforts at h1=0 and0.05.",
+    "Verified all example efforts interior, symmetric result unchanged and extension concerns aggregate research rather than welfare."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Derives the asymmetric equilibrium formulas and a strict-concavity counterexample where increasing a positive cross-firm innovation benefit lowers total merged research."
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J64-349",
+  "title": "Matching-level regret and a sharp robust assignment certificate",
+  "finding": "Supports the claim",
+  "checked_scope": "A fixed balanced worker\u2013firm assignment market with uncertain net social match values, separate from individual job-choice regret.",
+  "significance": "Lifts bounded perception errors to aggregate match-surplus guarantees, proves the sharp 2n\u03b5 bound, and gives a necessary-and-sufficient interval-robust certificate for a proposed assignment.",
+  "problem_id": "prb_2c634de7011040deb8c9979aba3f841e",
+  "contribution_handle": "ECON-J64-349-A1",
+  "contribution_id": "con_568844949705435c93ab2a91a85146c2",
+  "revision_id": "rev_eabfc227a4044650b920e9ec143c02a5",
+  "source_path": "problems/2c/prb_2c634de7011040deb8c9979aba3f841e/contributions/con_568844949705435c93ab2a91a85146c2/files/J64-349.tex",
+  "source_sha256": "5c46e9093396567c4055de9767b0ec7909b0be2b22ee4b90bc5d6365e94f9609",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/2c/prb_2c634de7011040deb8c9979aba3f841e/contributions/con_568844949705435c93ab2a91a85146c2/files/J64-349.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

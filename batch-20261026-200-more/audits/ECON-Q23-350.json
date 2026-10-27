@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-Q23-350",
+  "contribution_handle": "ECON-Q23-350-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "e326a363a20e11c6c9b7f4038383abeab3a827f3ef556e3944b810095b4a06f4",
+  "source_sha256": "5cbdddf8027b08594d9ee97b2ac7990ed2fac64bd2bf0ebebd1ab9b65afedab2",
+  "checked_scope": "Multi-region linear commodity equilibrium, global avoided-clearing coefficients and budget-optimal coordinated restrictions.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently; checked positivity-domain and fixed-intensity restrictions.",
+    "Derived full market-clearing price/quantity responses and global marginal coefficients m_i.",
+    "Verified generalized leakage ratio and sign equivalence when denominator positive.",
+    "Checked exchange optimality of ordered benefit-cost allocation, ties/unused budget and equal-intensity inelastic-demand boundary.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Extends leakage accounting into an exact global policy-allocation frontier with rebound-adjusted targeting."
+}

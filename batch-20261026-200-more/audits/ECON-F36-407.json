@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-F36-407",
+  "contribution_handle": "ECON-F36-407-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "65d952f40263ecde826b5d17b52471b57cc11503d2610abbe4bc1a11c9a4792a",
+  "source_sha256": "ebf6a10277a64cd83d3fb63977ed52613ec31e16161c8f53648fc443fad1fa7f",
+  "checked_scope": "Exact three-country constant-predictor log variance comparison.",
+  "checks_performed": [
+    "Derived pair-mixture variance including between-pair term.",
+    "Checked strict q<d-e inequality by positive-factor cancellation and hence variance sign.",
+    "Verified both h\u21920 and h\u21921 variance-ratio limits and excluded zero-shock ratio.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Strict finite-amplitude variance theorem and two distinct asymptotic ratios sharpen the source finite sums."
+}

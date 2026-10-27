@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-F16-277",
+  "contribution_handle": "ECON-F16-277-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "9b2ac337d600e1ebee9811fe6c69c82acd9698f7e80fd5aeb2d00b3160044efd",
+  "source_sha256": "448bd61838afe63e443cbdc3234ca40a2a856adfc28e195dce78920ca566f581",
+  "checked_scope": "Full exact manuscript/YAML, dual budget certificate and scalar inner minimization.",
+  "checks_performed": "Expanded positive-part dual, checked convex-concave compact domains and strong duality, derived coordinate stationarity and strictly increasing scalar root equation including zero multipliers, verified subgradient/l1 sensitivity.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Exact global optimality certificates and one-dimensional inner solver improve implementability of the compensation frontier."
+}
