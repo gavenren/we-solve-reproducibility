@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-I38-454",
+  "checked_scope": "Optimal supported saturation levels for missing-exposure uncertainty.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Verified unique level j=k+d identification and disjoint exposure support.",
+    "Derived combined cell mass using Pascal identity and exact binomial missing width.",
+    "Checked top-k exchange proof, mode/tie formula, weighted multi-target extension and q=0,1 cases.",
+    "Recomputed n10 q.5 integer counts 252,210 and widths772/1024,352/1024."
+  ],
+  "significance": "Turns support uncertainty into an exact pilot-design problem rather than extrapolating unobserved exposure cells.",
+  "contribution_handle": "ECON-I38-454-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "aad120811608e1829e2718b6c1215de8b3227411773a092c51116abbb21c45f8",
+  "source_sha256": "5c82cfdcfe97792919320c99f9b3b1c5724c57f806ab804960c567bd591263c9",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

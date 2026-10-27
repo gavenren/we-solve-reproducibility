@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E31-439",
+  "problem_id": "prb_15c233de8808409d8ee46ebff6578983",
+  "contribution_handle": "ECON-E31-439-A1",
+  "contribution_id": "con_30d3febba2a849f1bc7f180c43f48640",
+  "revision_id": "rev_965b964eeb1e4c08ae6d64269314360b",
+  "source_path": "problems/15/prb_15c233de8808409d8ee46ebff6578983/contributions/con_30d3febba2a849f1bc7f180c43f48640/files/E31-439.tex",
+  "source_sha256": "0f371666ba270ea223be78a19b553fc722918b02fdc6779647a23f265a1e84ee",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/15/prb_15c233de8808409d8ee46ebff6578983/contributions/con_30d3febba2a849f1bc7f180c43f48640/files/E31-439.tex",
+  "title": "Boundary point identification and cone-restricted stability without full instrument rank",
+  "finding": "Supports the claim",
+  "checked_scope": "Nonnegative firm-pricing loadings under the source's linear IV moment restrictions.",
+  "significance": "Gives necessary/sufficient boundary uniqueness criterion, an explicit positive-beta rank-deficient identification example, and deterministic cone-restricted error bounds.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

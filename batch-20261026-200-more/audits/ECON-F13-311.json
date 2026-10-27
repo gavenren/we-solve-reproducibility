@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-F13-311",
+  "contribution_handle": "ECON-F13-311-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "0d299331f75f06a5b37d01b27f0857d77835b3f64e988e8c0a71226d0404894f",
+  "source_sha256": "e29b2338f9933ccb40023ed7387d5720d01aeb90404134843e2ed71f2fe4fb06",
+  "checked_scope": "Full exact manuscript/YAML and global mandate optimum.",
+  "checks_performed": "Expanded welfare rational quadratic, checked necessity for both signs of c, derivative N and its monotonicity, rationalized positive root, entry constraint and zero-output boundary cases.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Converts local learning threshold into necessary/sufficient global criterion and unique closed-form optimum."
+}

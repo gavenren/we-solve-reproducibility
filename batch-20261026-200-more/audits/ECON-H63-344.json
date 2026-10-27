@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-H63-344",
+  "contribution_handle": "ECON-H63-344-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "40f20139e172582558e870ab8af9d7aecbb90f039d27dac1ed371d2dfd2b696e",
+  "source_sha256": "cd1579b4497e3f94be18c7a1824d59a1ffc2ffdb08b33b83daf8c07b0cc8c793",
+  "checked_scope": "Full exact manuscript/YAML and premium comparative-static boundary example.",
+  "checks_performed": "Differentiated marginal utility in premium, checked adoption threshold, both exact optimal-spread calculations, IC/payment/consumption feasibility, fixed-funding identities and lower welfare under larger spread.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Exact boundary counterexample distinguishes contract spread from insurance welfare without asserting a source error."
+}

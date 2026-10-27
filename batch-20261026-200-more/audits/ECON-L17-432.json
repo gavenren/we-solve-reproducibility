@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-L17-432",
+  "contribution_handle": "ECON-L17-432-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "31f2a35f54ebd9712d6fc7d9132bb89fe41f9d091f4104231a7bd6ec5c22b69c",
+  "source_sha256": "8cc82bbb22dceef330c137bd2641414d2a65eb9153d1aebcf165537209cc5c87",
+  "checked_scope": "Integrated uniform-access-fee entry and endogenous upstream capability model, welfare comparisons and subsidy implementation.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently and checked extension combines both source margins in one declared economy.",
+    "Solved fee revenue and developer capability stages, including q=0 boundary and irrelevant fees above q.",
+    "Recomputed downstream integrals, proprietary/open/efficient welfare, both nested welfare-loss components and capability-matched gain.",
+    "Verified capability payment implementation and fiscal-transfer accounting; retained zero open-capture assumption.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "A coherent joint equilibrium closes the source's modular-comparison gap and proves an exact sustained-regime reversal."
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F51-430",
+  "title": "Sharp sanction-compliance sensitivity bounds under bounded selection odds",
+  "finding": "Supports the claim",
+  "checked_scope": "Binary compliance potential outcomes with consistency and a finite odds-ratio sensitivity restriction; optional individual monotone response.",
+  "significance": "Interpolates sharply between the source's unrestricted-assignment interval and the unconfounded mean contrast, including exact compatibility and tightening under monotone response.",
+  "problem_id": "prb_28ccf09dda0d4c9fb2d7d326aee2157d",
+  "contribution_handle": "ECON-F51-430-A1",
+  "contribution_id": "con_b42be528d729463cbefb266e0b5ee3cd",
+  "revision_id": "rev_0a5a1f9917234dff992b1f619b961195",
+  "source_path": "problems/28/prb_28ccf09dda0d4c9fb2d7d326aee2157d/contributions/con_b42be528d729463cbefb266e0b5ee3cd/files/F51-430.tex",
+  "source_sha256": "8413ccfc59580edc9a6b20737e857611904d78dfa27c6415d76c740937343622",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/28/prb_28ccf09dda0d4c9fb2d7d326aee2157d/contributions/con_b42be528d729463cbefb266e0b5ee3cd/files/F51-430.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

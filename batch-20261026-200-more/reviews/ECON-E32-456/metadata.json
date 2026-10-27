@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E32-456",
+  "problem_id": "prb_02426b194d0c40849a0d1b8527128bd7",
+  "contribution_handle": "ECON-E32-456-A1",
+  "contribution_id": "con_58c0cc13b0104705b2762fa1863b44cb",
+  "revision_id": "rev_822bdc7fc639480d83b7b6149389b482",
+  "source_path": "problems/02/prb_02426b194d0c40849a0d1b8527128bd7/contributions/con_58c0cc13b0104705b2762fa1863b44cb/files/E32-456.tex",
+  "source_sha256": "3b0e5163502abf4f98bab4d643e693139ed4915a5e540efe6ef10f980795f62e",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/02/prb_02426b194d0c40849a0d1b8527128bd7/contributions/con_58c0cc13b0104705b2762fa1863b44cb/files/E32-456.tex",
+  "title": "Sharp variance-share bounds with imperfectly excluded proxy directions",
+  "finding": "Supports the claim",
+  "checked_scope": "A single structural shock direction restricted to a known angular neighborhood of an observed proxy direction.",
+  "significance": "Derives an exact spherical-cap optimization, a computable one-dimensional trust-region representation, and a sharp universal share-error bound for proxy contamination.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

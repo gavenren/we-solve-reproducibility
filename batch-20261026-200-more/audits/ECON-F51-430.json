@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-F51-430",
+  "contribution_handle": "ECON-F51-430-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "0c0afd9f69605816837992aff0cc8d94a228e3a2f87d368d7e0e4e6b7be7770b",
+  "source_sha256": "8413ccfc59580edc9a6b20737e857611904d78dfa27c6415d76c740937343622",
+  "checked_scope": "Full source/YAML and report; bounded exposure-odds selection sensitivity for binary potential compliance with optional monotonicity.",
+  "checks_performed": [
+    "Solved both2x2 odds-ratio inequalities and recovered missing-mean intervals.",
+    "Checked linear effect extrema, conditional binary coupling sharpness and all intermediate points.",
+    "Verified Gamma1 and infinite-Gamma limits, nesting, monotonicity interval intersections and nested-uniform construction."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Interpolates sharply between the source's unrestricted-assignment interval and the unconfounded mean contrast, including exact compatibility and tightening under monotone response."
+}

@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-L74-446",
+  "checked_scope": "Exact principal-stratum productivity sensitivity to bounded harmed-survival mass.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Derived all four stratum masses and feasible overlap interval, including rejection condition.",
+    "Verified two-sided trimming sharpness construction, interval nesting as overlap shrinks and zero-overlap caveat.",
+    "Recomputed example overlap .5, trimming 5/6 and 5/8; checked recovery of monotone case."
+  ],
+  "significance": "Replaces invalid one-sided trimming after monotonicity failures with exact nested sensitivity intervals.",
+  "contribution_handle": "ECON-L74-446-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "036322e45e7a9b232bf08bf015cf4c36a555d2e1e60e1ce3cdaa4f3d9adbc938",
+  "source_sha256": "7ff7036f4bce05a542f973c2fea90c500719dfc0699ff39ecb26e35b69b2b7ad",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

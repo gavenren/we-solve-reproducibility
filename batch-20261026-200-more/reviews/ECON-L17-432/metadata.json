@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-L17-432",
+  "problem_id": "prb_354b11a549ba45449b7f8d61a6db2416",
+  "contribution_handle": "ECON-L17-432-A1",
+  "contribution_id": "con_ae7371f92be44876b1b7d936d7bd5942",
+  "revision_id": "rev_e530db67c08b40f9828a81d9aa6d4f5e",
+  "source_path": "problems/35/prb_354b11a549ba45449b7f8d61a6db2416/contributions/con_ae7371f92be44876b1b7d936d7bd5942/files/L17-432.tex",
+  "source_sha256": "8cc82bbb22dceef330c137bd2641414d2a65eb9153d1aebcf165537209cc5c87",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/35/prb_354b11a549ba45449b7f8d61a6db2416/contributions/con_ae7371f92be44876b1b7d936d7bd5942/files/L17-432.tex",
+  "title": "A single equilibrium joining access-fee entry and upstream investment",
+  "finding": "Supports the claim",
+  "checked_scope": "Access-fee entry model and endogenous-capability reversal; integrated uniform-project model with endogenous fee and capability",
+  "significance": "Solves one common two-stage economy incorporating both entry distortion and upstream investment, quantifying the reversal and the precise welfare loss relative to the efficient open allocation.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

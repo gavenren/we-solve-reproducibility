@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J31-410",
+  "title": "Sharp joint numerical-error geometry for Shapley attribution with exact endpoints",
+  "finding": "Supports the claim",
+  "checked_scope": "A fixed K-input structural corner model, exact baseline/full endpoints, and independent uniform error bounds on proper hybrid evaluations.",
+  "significance": "Improves the coordinate error constant to 2(1\u22121/K)\u03b5 and derives the exact support function of the joint zero-sum attribution error set.",
+  "problem_id": "prb_1b2389814f384d35bdeea459202dc25c",
+  "contribution_handle": "ECON-J31-410-A1",
+  "contribution_id": "con_ce7025d3281e41ad947748c8c233f4af",
+  "revision_id": "rev_2e13977f5a044a00a3875a10730ea7ab",
+  "source_path": "problems/1b/prb_1b2389814f384d35bdeea459202dc25c/contributions/con_ce7025d3281e41ad947748c8c233f4af/files/J31-410.tex",
+  "source_sha256": "c6f21f1363a7e92efd596f624609d26671b3e0c8b72d4c3fe4b2b5cdf164cb3c",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/1b/prb_1b2389814f384d35bdeea459202dc25c/contributions/con_ce7025d3281e41ad947748c8c233f4af/files/J31-410.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

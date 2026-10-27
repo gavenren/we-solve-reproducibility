@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-H63-344",
+  "problem_id": "prb_400e08b5067748318657d93e7e12563e",
+  "contribution_handle": "ECON-H63-344-A1",
+  "contribution_id": "con_379c0c5ac80945918337d4aef35d65f1",
+  "revision_id": "rev_677e1c452cc54ec0804819517201d1ae",
+  "source_path": "problems/40/prb_400e08b5067748318657d93e7e12563e/contributions/con_379c0c5ac80945918337d4aef35d65f1/files/H63-344.tex",
+  "source_sha256": "cd1579b4497e3f94be18c7a1824d59a1ffc2ffdb08b33b83daf8c07b0cc8c793",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/40/prb_400e08b5067748318657d93e7e12563e/contributions/con_379c0c5ac80945918337d4aef35d65f1/files/H63-344.tex",
+  "title": "A larger indexation spread can accompany a higher pricing premium",
+  "finding": "Supports the claim",
+  "checked_scope": "Comparative statics and exact boundary example in the source's two-state log-utility sovereign contract family with nonnegative repayments.",
+  "significance": "Shows that a pricing premium can increase the optimal spread by relaxing the low-payment boundary, despite reducing interior insurance incentives; supplies exact admissible contracts and welfare comparison.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

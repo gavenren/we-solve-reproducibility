@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-J31-410",
+  "contribution_handle": "ECON-J31-410-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "f39f79cfe8f04fb1fb738b6548f586d0b356415042429b113095a2c7a935975c",
+  "source_sha256": "c6f21f1363a7e92efd596f624609d26671b3e0c8b72d4c3fe4b2b5cdf164cb3c",
+  "checked_scope": "Full source/YAML and report; exact-endpoint Shapley numerical-error cube image and sharp contrast support function.",
+  "checks_performed": [
+    "Collected coefficients of every proper subset in each Shapley coordinate and verified binomial identities.",
+    "Checked exact constant2(1\u22121/K), independently attainable signs and K1/K2 boundaries.",
+    "Derived arbitrary contrast support function, zero-sum hyperplane, zonotope image and nonuniform-bound extension; sharpness appropriately conditioned on independent hybrid errors."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Improves the coordinate error constant to 2(1\u22121/K)\u03b5 and derives the exact support function of the joint zero-sum attribution error set."
+}

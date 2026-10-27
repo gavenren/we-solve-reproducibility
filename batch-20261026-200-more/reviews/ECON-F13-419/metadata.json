@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F13-419",
+  "title": "Three response observations identify both adjustment speeds up to their unavoidable swap",
+  "finding": "Supports the claim",
+  "checked_scope": "Exact population retail responses in the source's two-stage geometric index model with \u03b7>0.",
+  "significance": "Proves finite-horizon identification of the unordered inventory/pricing speeds and long-run pass-through from the first three response levels, and supplies an all-horizon recurrence test.",
+  "problem_id": "prb_7476d2be8fc04a1896a7bea8c853b362",
+  "contribution_handle": "ECON-F13-419-A1",
+  "contribution_id": "con_7ed9e4d549b640b5872e88c56bfa331a",
+  "revision_id": "rev_8d647630b25e4540a83ddfaebcc88d4f",
+  "source_path": "problems/74/prb_7476d2be8fc04a1896a7bea8c853b362/contributions/con_7ed9e4d549b640b5872e88c56bfa331a/files/F13-419.tex",
+  "source_sha256": "53d75d4b6c5e2900e455de86e918a43bf36fa61af38f4de0258e7ee26e6438b9",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/74/prb_7476d2be8fc04a1896a7bea8c853b362/contributions/con_7ed9e4d549b640b5872e88c56bfa331a/files/F13-419.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

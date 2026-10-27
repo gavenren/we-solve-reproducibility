@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-E31-439",
+  "contribution_handle": "ECON-E31-439-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "804604313e0b16b52ac3c2000d5485e5c0a4de5a6a46021a6db871c11688152e",
+  "source_sha256": "0f371666ba270ea223be78a19b553fc722918b02fdc6779647a23f265a1e84ee",
+  "checked_scope": "Nonnegative coefficient moment model at a feasible boundary point and deterministic fit perturbations.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Verified exact null-cone uniqueness criterion in both directions and rank-deficient identified example.",
+    "Checked compact restricted-sphere stability constant, estimated-moment residual bound and L1 normalization inequality with \u03b2>0."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Completes boundary identification and proves cone-restricted stability even when the unrestricted singular value is zero."
+}

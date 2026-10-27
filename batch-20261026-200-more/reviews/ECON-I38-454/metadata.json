@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I38-454",
+  "problem_id": "prb_013e0b4fa3ed42e5a1db0f7a47afb12c",
+  "contribution_handle": "ECON-I38-454-A1",
+  "contribution_id": "con_fec17ef76b50439784474bdfb9440f2f",
+  "revision_id": "rev_bf81efecd4e441768437b1abac259e87",
+  "source_path": "problems/01/prb_013e0b4fa3ed42e5a1db0f7a47afb12c/contributions/con_fec17ef76b50439784474bdfb9440f2f/files/I38-454.tex",
+  "source_sha256": "5c82cfdcfe97792919320c99f9b3b1c5724c57f806ab804960c567bd591263c9",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/01/prb_013e0b4fa3ed42e5a1db0f7a47afb12c/contributions/con_fec17ef76b50439784474bdfb9440f2f/files/I38-454.tex",
+  "title": "Optimal saturation support is an exact binomial coverage problem",
+  "finding": "Supports the claim",
+  "checked_scope": "The anonymous-exposure saturation design and sharp missing-cell bounds, extended to choosing which total-recipient levels the pilot supports.",
+  "significance": "A binomial identity converts worst-case extrapolation width into missing assignment mass and yields an exact optimal finite-support design for a fixed target scale.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

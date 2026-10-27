@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-L84-438",
+  "problem_id": "prb_fd1c4bdc22b541d3aaccd59e6e89330b",
+  "contribution_handle": "ECON-L84-438-A1",
+  "contribution_id": "con_12995723d1cc4ff5bf2847f84c73286a",
+  "revision_id": "rev_bfb82171b62a42e3b97d1eaf0eacee1d",
+  "source_path": "problems/fd/prb_fd1c4bdc22b541d3aaccd59e6e89330b/contributions/con_12995723d1cc4ff5bf2847f84c73286a/files/L84-438.tex",
+  "source_sha256": "55d51901649c98b30e62c7ab058173b63e35a11e86b0ca69008781e5df2380db",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/fd/prb_fd1c4bdc22b541d3aaccd59e6e89330b/contributions/con_12995723d1cc4ff5bf2847f84c73286a/files/L84-438.tex",
+  "title": "False-positive certification changes both incentive rents and market duration",
+  "finding": "Supports the claim",
+  "checked_scope": "The repeated hidden-quality certification model, extended only to permanent exclusion after imperfect public audit signals.",
+  "significance": "A necessary-and-sufficient price interval and corrected entry/welfare formulas separate audit informativeness from detection probability alone.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

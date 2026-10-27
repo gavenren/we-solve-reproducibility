@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-C58-320",
+  "problem_id": "prb_fcdd8972ba9f4996b122e5e84aeb4e29",
+  "contribution_handle": "ECON-C58-320-A1",
+  "contribution_id": "con_b222827c48da47edbe61111fac5a30aa",
+  "revision_id": "rev_6b7e1b6911eb4b72aedffb3112f0377e",
+  "source_path": "problems/fc/prb_fcdd8972ba9f4996b122e5e84aeb4e29/contributions/con_b222827c48da47edbe61111fac5a30aa/files/C58-320.tex",
+  "source_sha256": "3788455eb9234d84eb4743e91641b6251d0722f892ea8c696cca181a6360d7d6",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/fc/prb_fcdd8972ba9f4996b122e5e84aeb4e29/contributions/con_b222827c48da47edbe61111fac5a30aa/files/C58-320.tex",
+  "title": "Sharp norm-ball price ambiguity and its interaction with strict positivity",
+  "finding": "Supports the claim",
+  "checked_scope": "Exact Hilbert-space payoff-price ambiguity under a bounded discount-factor norm, with explicit positivity-qualified attainability and a fully computed three-state refinement.",
+  "significance": "Replaces the source's generic 2M approximation bound by the exact residual-radius bound and characterizes its sharp positivity-truncated finite-state identified set.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

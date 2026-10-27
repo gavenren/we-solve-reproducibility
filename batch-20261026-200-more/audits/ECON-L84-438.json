@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-L84-438",
+  "checked_scope": "Two-error certification benchmark and compliance/entry/welfare formulas.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Derived good-state Bellman value and deviation likelihood difference \u03b2\u2212\u03b1; checked iff price interval and arbitrary-strategy verification.",
+    "Verified false-exclusion duration in welfare and entry grant, transfer cancellation and \u03b1=0/\u03b1=\u03b2 cases.",
+    "Recomputed \u03b4=.8, \u03b1=.1, \u03b2=.6 minimum rent 2.1 and no-false-flag rent1.25."
+  ],
+  "significance": "Adds false audit errors that jointly alter incentive rents and relationship duration.",
+  "contribution_handle": "ECON-L84-438-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "7f338d88e0556330db74bf00ee64f1af4167b4ff3478da1a3babb15ef54f047e",
+  "source_sha256": "55d51901649c98b30e62c7ab058173b63e35a11e86b0ca69008781e5df2380db",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

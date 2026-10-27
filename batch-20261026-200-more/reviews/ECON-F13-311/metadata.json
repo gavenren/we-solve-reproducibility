@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F13-311",
+  "problem_id": "prb_6dbb012628b64d2f97a8d831b85a9b01",
+  "contribution_handle": "ECON-F13-311-A1",
+  "contribution_id": "con_09357af5c76b47348b7500453784e6eb",
+  "revision_id": "rev_e6ee0d1c2cd34866b45ad387b4d4aab6",
+  "source_path": "problems/6d/prb_6dbb012628b64d2f97a8d831b85a9b01/contributions/con_09357af5c76b47348b7500453784e6eb/files/F13-311.tex",
+  "source_sha256": "e29b2338f9933ccb40023ed7387d5720d01aeb90404134843e2ed71f2fe4fb06",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/6d/prb_6dbb012628b64d2f97a8d831b85a9b01/contributions/con_09357af5c76b47348b7500453784e6eb/files/F13-311.tex",
+  "title": "A global mandate threshold and unique closed-form optimum with foreign entry",
+  "finding": "Supports the claim",
+  "checked_scope": "Global policy optimization in the source's monopoly local-content benchmark, sharpening its local learning-benefit condition.",
+  "significance": "Proves g>delta/2 is globally necessary and sufficient for a beneficial positive mandate under strict baseline entry, and derives the unique optimum truncated by entry.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

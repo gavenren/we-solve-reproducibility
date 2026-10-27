@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F13-420",
+  "problem_id": "prb_975f92b5ac294ea88c8d7c38f9c8e173",
+  "contribution_handle": "ECON-F13-420-A1",
+  "contribution_id": "con_d99f600dafb5417391047bba1348d67c",
+  "revision_id": "rev_a64bf3e2db4e450caf338b5c2ee9df35",
+  "source_path": "problems/97/prb_975f92b5ac294ea88c8d7c38f9c8e173/contributions/con_d99f600dafb5417391047bba1348d67c/files/F13-420.tex",
+  "source_sha256": "bd40f49afe4088b84771adcf32fddd98f9fa1026e8c3aeb4cb30a4cf783868fd",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/97/prb_975f92b5ac294ea88c8d7c38f9c8e173/contributions/con_d99f600dafb5417391047bba1348d67c/files/F13-420.tex",
+  "title": "A complete robust sourcing solution for an interior baseline",
+  "finding": "Supports the claim",
+  "checked_scope": "Two-supplier quadratic shortage model; arbitrary baseline share and policy-dependent worst disruption dependence",
+  "significance": "Solves the baseline-dependent robust problem exactly with at most three clipped quadratic candidates, proving concavity and an explicit uniqueness condition.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-F13-420",
+  "contribution_handle": "ECON-F13-420-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "dc6c04e47f56a6ee04ffadfd11754f749a96986412851c4ba64d1e78e4167107",
+  "source_sha256": "bd40f49afe4088b84771adcf32fddd98f9fa1026e8c3aeb4cb30a4cf783868fd",
+  "checked_scope": "Exact robust sourcing optimization under any interior baseline with common-law policy comparison.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently; rederived same-law welfare difference and q coefficient.",
+    "Verified switching interval between baseline and reflected baseline, including endpoint baselines and degenerate intervals.",
+    "Checked concavity of infimum, three-candidate maximization with linear zero-curvature cases and global attainment.",
+    "Verified strong-concavity sufficient condition and baseline nonnegative optimum without separating adverse laws.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Completes the source's explicitly unresolved arbitrary-baseline optimization in its two-supplier subclass."
+}
