@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-O31-155-A1",
+  "problem_id": "prb_c386df8783ee4cb196a05427f5b4d302",
+  "contribution_handle": "ECON-O31-155-A1",
+  "contribution_id": "con_9737aa3a659f4fda99b2a7d7bbf860a2",
+  "revision_id": "rev_59c51f7da4564a4dbb8b5b40266f8a7e",
+  "source_path": "problems/c3/prb_c386df8783ee4cb196a05427f5b4d302/contributions/con_9737aa3a659f4fda99b2a7d7bbf860a2/files/O31-155.tex",
+  "source_sha256": "7f582847c15a2999e332489c3e703ef83f4443aa5fe45b32ff5d6ee0fcff71fb",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/c3/prb_c386df8783ee4cb196a05427f5b4d302/contributions/con_9737aa3a659f4fda99b2a7d7bbf860a2/files/O31-155.tex",
+  "title": "Dual certificates for the finite hidden-quality contract program",
+  "finding": "Supports the claim",
+  "checked_scope": "Binary-effort threshold, wealth comparative statics, strict-implementation boundary and exact finite-menu LP; independently derived weak dual certificate and optimal support bound.",
+  "author": "/root/reviews_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

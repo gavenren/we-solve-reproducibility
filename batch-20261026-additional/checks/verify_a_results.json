@@ -1,0 +1,24 @@
+{
+  "seed": 2647,
+  "H63_binomial": {
+    "N": 100,
+    "alpha": 0.05,
+    "k2_lower_tail": 0.037081209327355036,
+    "k3_lower_tail": 0.1182629811851204
+  },
+  "C21_vertex_check": {
+    "polytopes": 100,
+    "subsets_checked": 1926,
+    "maximum_absolute_error": 1.1102230246251565e-16
+  },
+  "E58_supervised_check": {
+    "parameter_cases": 100,
+    "maximum_KKT_residual": 4.440892098500626e-16,
+    "all_implementable": true,
+    "grid_dimensions": [
+      31,
+      31
+    ],
+    "largest_grid_advantage_over_formula": 0.0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-F12-161-A1",
+  "problem_id": "prb_9d21d13ae6df4719bbbdad975e08070f",
+  "contribution_handle": "ECON-F12-161-A1",
+  "contribution_id": "con_4ec5cb0f01064b77a51ca3fce6332e96",
+  "revision_id": "rev_2e6c5441def641c6ababca06d33bc7b1",
+  "source_path": "problems/9d/prb_9d21d13ae6df4719bbbdad975e08070f/contributions/con_4ec5cb0f01064b77a51ca3fce6332e96/files/F12-161.tex",
+  "source_sha256": "5bedc07a9c5eae6514c0fe8262a9ba0795ad836e3c2a3d20cfc896d89899b0ec",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/9d/prb_9d21d13ae6df4719bbbdad975e08070f/contributions/con_4ec5cb0f01064b77a51ca3fce6332e96/files/F12-161.tex",
+  "title": "Exact joint identified set after transforming household gains",
+  "finding": "Supports the claim",
+  "checked_scope": "All formal project-model results and accounting; exact joint gain set as transformed linear image of profit box, sharp support certificates, active-policy effort/profit inversion and cap-identification boundary.",
+  "author": "/root/reviews_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

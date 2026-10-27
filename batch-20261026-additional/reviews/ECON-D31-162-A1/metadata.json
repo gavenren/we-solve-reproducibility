@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-D31-162-A1",
+  "problem_id": "prb_32858f003027452fb9e61b6bea35b03a",
+  "contribution_handle": "ECON-D31-162-A1",
+  "contribution_id": "con_6e1ca7ed185f426792e5c13972a0319d",
+  "revision_id": "rev_f700025b4ced40f0bd4a31653d24fa0a",
+  "source_path": "problems/32/prb_32858f003027452fb9e61b6bea35b03a/contributions/con_6e1ca7ed185f426792e5c13972a0319d/files/D31-162.tex",
+  "source_sha256": "b38d655b6fcde4822d77d3922d0d44cccc9984090f60bde05b999bde68160f15",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/32/prb_32858f003027452fb9e61b6bea35b03a/contributions/con_6e1ca7ed185f426792e5c13972a0319d/files/D31-162.tex",
+  "title": "A sharp factor-one Wasserstein certificate for top wealth shares",
+  "finding": "Supports the claim",
+  "checked_scope": "All four source results; factor-one top-share Wasserstein bound, sharpness, actual-mean denominator refinement and halved path/attribution constants.",
+  "author": "/root/reviews_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

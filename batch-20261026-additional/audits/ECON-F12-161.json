@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-F12-161",
+  "contribution_handle": "ECON-F12-161-A1",
+  "reviewer": "/root/verify_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "d4367d5e6e0642adf3e777eeedeece52ba65e65cd4f2a082a3f396401870849c",
+  "source_sha256": "5bedc07a9c5eae6514c0fe8262a9ba0795ad836e3c2a3d20cfc896d89899b0ec",
+  "checked_scope": "All source project optimizer/profit, sharp scalar gain bounds and effort-only inversion; all review profit-box attainability, transformed joint linear feasibility set/support certificate, richer profit-effort identification and degeneracy cases.",
+  "checks_performed": [
+    "Read exact pinned source and contribution metadata; actual manuscript SHA256 agrees with provenance and review metadata.",
+    "Differentiated the strictly concave project objective and checked B=0, a=0, branch continuity and monotonicity; independently derived beta(1-beta) consumption-equivalent exponent from date-one utility and all-date baseline scaling.",
+    "Verified continuous lower-to-upper primitive interpolation hits every firm-profit value and independent primitive boxes allow every joint vector in the Cartesian product of profit intervals.",
+    "Rearranged the gain transformation and its inverse to prove necessity and sufficiency of the finite linear system; checked ownership-image support by choosing each profit endpoint according to coefficient sign, including zero coefficients and degenerate intervals.",
+    "Checked one-firm cross-household identity and its incompatibility with opposite nondegenerate marginal endpoints.",
+    "Derived a=(profit+k z^2/2)/z for z>0 from resource accounting; verified a>kz requires exact binding cap, a=kz permits any weakly larger cap, a<kz contradicts optimality, and z=0 retains the zero-cap obstruction."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External bibliography and empirical/background attribution were not independently reverified in this audit; approval covers the exact supplied manuscript and the mathematical scope described.",
+    "No formal proof-assistant verification or independent human verification; numerical spot checks, where present, supplement analytic checking rather than establish general results.",
+    "No claim that the catalogue open problem is solved or that the refinement has priority over external literature."
+  ],
+  "significance": "An implicit joint image is made exactly testable by a transformed linear feasibility system and sharp support certificates; observing profits as well as positive effort identifies returns and often the binding spending limit."
+}

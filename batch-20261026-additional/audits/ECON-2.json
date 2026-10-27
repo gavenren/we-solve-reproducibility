@@ -1,0 +1,28 @@
+{
+  "handle": "ECON-2",
+  "contribution_handle": "ECON-2-A1",
+  "reviewer": "/root/verify_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "ae5aeb62a19412f08f4a366f97d75f5b0390d002fe9b4e1be1e02fdaaad9d8e3",
+  "source_sha256": "c307e6febde2d40e94da0be647ffa07a664ef1675d6b655d3353375c2036e1e2",
+  "checked_scope": "Full source read for scope; positive source verification limited to unconditional Sections 1-4. All review additions verified: pure-profile linear feasibility equivalence, Nash implication and coordination nonconverse, enlarged step-size absorption interval and bound, and optimization of dominant-action constant. External analytic finite-generation and conditional Section 6 are not certified.",
+  "checks_performed": [
+    "Read complete pinned manuscript and contribution metadata; actual manuscript SHA256 matches provenance and review metadata; confirmed report retains conditional/open scope.",
+    "Verified exact update telescoping, loss/payoff normalization, weak-dominance gap potential, initial step, singleton-action case, and static-payoff lower-bound integral.",
+    "Re-derived optimistic KL identity, Pinsker/Young constants, opponent product-TV half factor, feedback sums and aggregate-regret nonnegativity without assuming individual regrets are nonnegative.",
+    "Averaged each pure-profile LP row under the independent product mixed profile to establish exact equivalence; checked no comparator-variable products enter the LP.",
+    "Substituted a unilateral deviation from p to prove Nash necessity and explicitly summed the two coordination-game pure rows to derive impossible 2>=4, verifying nonconverse.",
+    "Independently solved the unrelaxed stability inequality for E_T and substituted the individual feedback bound; checked strict eta<1/[sqrt(2)(N-1)], source-step equality recovery and divergence at the absorption boundary.",
+    "Minimized e^eta/(1-e^-eta) using t=e^eta>1, obtaining unique t=2 and value four."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External bibliography and empirical/background attribution were not independently reverified in this audit; approval covers the exact supplied manuscript and the mathematical scope described.",
+    "No formal proof-assistant verification or independent human verification; numerical spot checks, where present, supplement analytic checking rather than establish general results.",
+    "No claim that the catalogue open problem is solved or that the refinement has priority over external literature.",
+    "The external analytic finite-generation theorem, its historical dependencies and the conditional real-exponential-field decision hypothesis underlying Sections 5-6 are not certified; the report explicitly confines support to Sections 1-4."
+  ],
+  "significance": "The review turns the aggregate-comparator hypothesis into a finite LP with a concrete game excluding universal applicability, and proves a strictly larger interval of sufficient step sizes with explicit horizon-uniform regret bounds."
+}

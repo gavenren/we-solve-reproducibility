@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-E52-157",
+  "contribution_handle": "ECON-E52-157-A1",
+  "reviewer": "/root/verify_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "004a01658e6ff28c614d901f62dfe2c617eef2b09266d2bafc77ccfa7232f665",
+  "source_sha256": "dbf4a25241997015404478e3a424e48a59e3917e7e2b2bdcff5c3bbc95002cf2",
+  "checked_scope": "Source exposure derivative, minimax two-action observation loss and finite-horizon compressed-policy theorem; review reward-error sharpness example, transition-hazard lower-bound model, exact regrets, and quadratic-horizon expansion.",
+  "checks_performed": [
+    "Read exact pinned manuscript and metadata; actual manuscript SHA256 matches provenance and review metadata.",
+    "Re-derived nominal revaluation chain rule, strict monotonicity of local logarithmic welfare, and minimax randomized regret; verified all remain conditional on the declared local/equilibrium models.",
+    "Reconstructed both backward inductions in the source certificate, its 2M TV transition estimate and final error summation with beta<=1.",
+    "Checked all four rewards in the two-hidden-state construction meet R=epsilon_r and within-cell error epsilon_r; persistence gives identical observed transitions; both representative and informed actions are strictly selected, with regret (2 epsilon_r-gamma) sum beta^t.",
+    "Checked every reward and transition in the three-state construction, absorbing bad state, pushforward TV error exactly e for action A, safe action B, and permitted representative tie choice A.",
+    "Derived safe survival probability (1-e)^t, exact regret 2R sum[1-(1-e)^t], and leading Re T(T+1) with remainder O(R e^2 T^3); verified this proves horizon order rather than source numerical-constant optimality."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External bibliography and empirical/background attribution were not independently reverified in this audit; approval covers the exact supplied manuscript and the mathematical scope described.",
+    "No formal proof-assistant verification or independent human verification; numerical spot checks, where present, supplement analytic checking rather than establish general results.",
+    "No claim that the catalogue open problem is solved or that the refinement has priority over external literature."
+  ],
+  "significance": "Explicit finite counterexamples show the accumulated reward-error coefficient two is sharp and quadratic undiscounted transition-error growth is necessary, delimiting possible improvements to the source certificate."
+}

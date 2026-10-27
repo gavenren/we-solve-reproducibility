@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-C21-147",
+  "contribution_handle": "ECON-C21-147-A1",
+  "reviewer": "/root/verify_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "1476008399c1b6a17d0bf6a8d9a3399a9597e978606c4f9c675ce335cf16de51",
+  "source_sha256": "526e7edebe09ae98f2e9e4b7e46467be4894f24e857af67a801bc240aee4d801",
+  "checked_scope": "All source finite-fiber feasibility, greedy extrema, invariance, approximate-invariance, known-kernel risk, and null-fiber results; all review additions: exact subset-mass interval, total-variation diameter identity and attainment, sharp capacity-sensitive mean width including covariate aggregation, two-capacity example, and scalar LP dual.",
+  "checks_performed": [
+    "Read exact pinned manuscript and contribution metadata; actual manuscript SHA256 equals both provenance and review metadata.",
+    "Derived subset mass interval by independent allocation on the two sides; checked all four capacity regimes in the equivalent minimum formula, including empty sides, singleton fibers, capacities exceeding one, and C=1.",
+    "Verified exchange of finite subset maximum and compact-polytope extrema; checked TV-to-mean inequality, sign-vector attainment, outcome-bound qualification, and independent covariate aggregation.",
+    "Verified scalar dual inequality coordinatewise and equality at the crossing mean, including ties and exact capacity saturation.",
+    "Recomputed known-kernel second-moment bound and confirmed positivity example lies outside absolute continuity.",
+    "Ran checks/verify_a_checks.py: 100 random capacitated simplices, 1926 subset widths checked against exhaustive vertex enumeration; largest floating-point error 1.1102230246251565e-16. Reproducible output in checks/verify_a_results.json."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External bibliography and empirical/background attribution were not independently reverified in this audit; approval covers the exact supplied manuscript and the mathematical scope described.",
+    "No formal proof-assistant verification or independent human verification; numerical spot checks, where present, supplement analytic checking rather than establish general results.",
+    "No claim that the catalogue open problem is solved or that the refinement has priority over external literature."
+  ],
+  "significance": "The exact capacity-dependent TV diameter gives a sharp improvement from 2 delta to 2 delta d(c), tending to zero as capacities force a unique intervention; an independent scalar dual certifies the source extrema."
+}

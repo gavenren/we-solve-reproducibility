@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-C21-147-A1",
+  "problem_id": "prb_d91ad5d6bd704bfca94b7c4c91253e2f",
+  "contribution_handle": "ECON-C21-147-A1",
+  "contribution_id": "con_762f897b1b2b45d49b3f3274daac1ce8",
+  "revision_id": "rev_3277ca83f2994352bf21b03e62785e47",
+  "source_path": "problems/d9/prb_d91ad5d6bd704bfca94b7c4c91253e2f/contributions/con_762f897b1b2b45d49b3f3274daac1ce8/files/C21-147.tex",
+  "source_sha256": "526e7edebe09ae98f2e9e4b7e46467be4894f24e857af67a801bc240aee4d801",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/d9/prb_d91ad5d6bd704bfca94b7c4c91253e2f/contributions/con_762f897b1b2b45d49b3f3274daac1ce8/files/C21-147.tex",
+  "title": "Exact capacity-sensitive refinement of the approximate version bound",
+  "finding": "Supports the claim",
+  "checked_scope": "All finite-fiber results, known-kernel risk and null-fiber obstruction; exact total-variation diameter and sharp capacity-sensitive approximate-invariance width; independent scalar dual proof of greedy optimality.",
+  "author": "/root/reviews_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

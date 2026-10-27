@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-H63-150-A1",
+  "problem_id": "prb_70b30886a9084ce18289d79fd8d0f072",
+  "contribution_handle": "ECON-H63-150-A1",
+  "contribution_id": "con_b56e764ca74d413bbe188302864e7071",
+  "revision_id": "rev_2493ea4966c34a78a13d3e44052e4ed2",
+  "source_path": "problems/70/prb_70b30886a9084ce18289d79fd8d0f072/contributions/con_b56e764ca74d413bbe188302864e7071/files/H63-150.tex",
+  "source_sha256": "8e23a2f40ed6ff00066fd437abad39577688916070f4ba396ffa65f6948e1944",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/70/prb_70b30886a9084ce18289d79fd8d0f072/contributions/con_b56e764ca74d413bbe188302864e7071/files/H63-150.tex",
+  "title": "Atom-safe verification and a continuum safety certificate",
+  "finding": "Supports the claim",
+  "checked_scope": "All stated one-period tail-capacity, ambiguity, sampling and welfare results; pointwise moment dual; atom-safe continuum order-statistic safety certificate with binomial proof and numerical example.",
+  "author": "/root/reviews_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

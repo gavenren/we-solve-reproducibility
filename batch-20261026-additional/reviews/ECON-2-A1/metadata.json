@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-2-A1",
+  "problem_id": "prb_bc572aa70a8748a3b489fa9941f9307e",
+  "contribution_handle": "ECON-2-A1",
+  "contribution_id": "con_ab3b0c845f87450680ff7d3b4a226643",
+  "revision_id": "rev_68e187e5e8e54ef0b58fb672358f799f",
+  "source_path": "problems/bc/prb_bc572aa70a8748a3b489fa9941f9307e/contributions/con_ab3b0c845f87450680ff7d3b4a226643/files/prb_bc572aa70a8748a3b489fa9941f9307e-attempt.tex",
+  "source_sha256": "c307e6febde2d40e94da0be647ffa07a664ef1675d6b655d3353375c2036e1e2",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/bc/prb_bc572aa70a8748a3b489fa9941f9307e/contributions/con_ab3b0c845f87450680ff7d3b4a226643/files/prb_bc572aa70a8748a3b489fa9941f9307e-attempt.tex",
+  "title": "A finite certificate for the aggregate-comparator class",
+  "finding": "Supports the claim",
+  "checked_scope": "Full manuscript read for scope. Positive verification restricted to unconditional Sections 1-4; exact finite LP characterization of aggregate-comparator class, Nash necessity and coordination obstruction, broadened absorption step interval. No certification of external analytic finite-generation theorem in Section 6.",
+  "author": "/root/reviews_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

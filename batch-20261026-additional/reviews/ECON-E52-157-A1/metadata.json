@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-E52-157-A1",
+  "problem_id": "prb_ee4b2b69c3bf40bd8e5c086cdfe59a6a",
+  "contribution_handle": "ECON-E52-157-A1",
+  "contribution_id": "con_817bbea43010400b86bc598bebf6d1df",
+  "revision_id": "rev_757cc639e1b545fe9b654baaf23ab46c",
+  "source_path": "problems/ee/prb_ee4b2b69c3bf40bd8e5c086cdfe59a6a/contributions/con_817bbea43010400b86bc598bebf6d1df/files/E52-157.tex",
+  "source_sha256": "dbf4a25241997015404478e3a424e48a59e3917e7e2b2bdcff5c3bbc95002cf2",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/ee/prb_ee4b2b69c3bf40bd8e5c086cdfe59a6a/contributions/con_817bbea43010400b86bc598bebf6d1df/files/E52-157.tex",
+  "title": "Sharp reward loss and necessary horizon dependence in the welfare certificate",
+  "finding": "Supports the claim",
+  "checked_scope": "Accounting derivative, information obstruction and finite-horizon approximation certificate; exact finite models proving sharp reward-error coefficient and necessary quadratic undiscounted horizon order.",
+  "author": "/root/reviews_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

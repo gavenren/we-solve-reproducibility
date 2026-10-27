@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-E58-152",
+  "contribution_handle": "ECON-E58-152-A1",
+  "reviewer": "/root/verify_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "bf20455efc02046e6ef28480350f8dee0c2e93e546e90f10dcf0c822da67215e",
+  "source_sha256": "750a71266b2dabaabfba458dca9be3b8f7ac2062e2692bc1b714a014da30fbc4",
+  "checked_scope": "All source private-response/global-capacity, credible-rescue and supervision-wedge results and financial accounting; all review joint-supervision closed forms, boundary threshold, uniqueness and institutional implementability claims.",
+  "checks_performed": [
+    "Read exact pinned manuscript and contribution metadata; actual manuscript SHA256 matches provenance and review metadata.",
+    "Re-derived expected uncovered demand and lending, private buffer response, both unregulated derivatives, their downward jump and the rescue best response.",
+    "Verified any a+b>1 allocation is strictly dominated by lowering capacity; differentiated joint objective on the remaining triangle and independently expanded the Hessian determinant D eta+mu(D-mu)>0.",
+    "Solved both interior first-order equations and checked c<=c0 is exactly buffer nonnegativity; verified b=0 edge solution, inward derivative c-c0 and agreement of the branches at equality.",
+    "Checked implementability b*>=max(0,1-a*-c/d), including edge case c0>=D(1-a*); distinguished unique induced buffer/capacity from potentially multiple requirements implementing them.",
+    "Ran checks/verify_a_checks.py for 100 random legal parameter sets: all solutions implementable, maximum KKT residual 4.440892098500626e-16, no point on a 31 by 31 full-square grid improved the proposed value; preserved output in checks/verify_a_results.json."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External bibliography and empirical/background attribution were not independently reverified in this audit; approval covers the exact supplied manuscript and the mathematical scope described.",
+    "No formal proof-assistant verification or independent human verification; numerical spot checks, where present, supplement analytic checking rather than establish general results.",
+    "No claim that the catalogue open problem is solved or that the refinement has priority over external literature."
+  ],
+  "significance": "The review completes the source restricted joint capacity/supervision problem with a unique closed-form social optimum and a proof that minimum-buffer regulation can implement it."
+}

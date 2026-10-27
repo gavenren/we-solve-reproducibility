@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D31-162",
+  "contribution_handle": "ECON-D31-162-A1",
+  "reviewer": "/root/verify_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "9f1ae18c81d43fc6186aeaa82f5857536f7b8ecdf44f0e5f9e359176df60ee65",
+  "source_sha256": "b38d655b6fcde4822d77d3922d0d44cccc9984090f60bde05b999bde68160f15",
+  "checked_scope": "All source observational-equivalence, top-share stability, transition propagation and permutation-average claims; review factor-one and max-actual-mean Wasserstein bound, sharpness construction and halved propagated share/attribution constants.",
+  "checks_performed": [
+    "Read exact pinned source and contribution metadata; actual source SHA256 matches provenance and review metadata.",
+    "Solved both baseline and counterfactual linear/capped household objectives and recomputed wealth shares 4/5, 3/4 and effects 0,1/20; checked zero counterfactual consumption is permitted.",
+    "Split quantile wealth into nonnegative top and bottom amounts and independently expanded the exact ratio difference; verified absolute top plus bottom differences are bounded by W1, giving 1/mu_F and by symmetry 1/max(mu_F,mu_G).",
+    "Checked two-atom sharpness laws satisfy nonnegative wealth and mean at least m; directly computed W1, both shares and ratio tending to one as lower-atom perturbation vanishes.",
+    "Reconstructed common-quantile/common-independent-shock coupling and exact-versus-approximate-input triangle inequality, requiring no Lipschitz property of the approximate map.",
+    "Verified unchanged D_t recursion, share error D_t/m and two-subset-difference attribution error 2D_H/m; checked fractional cutoff atoms, signed-wealth restriction and no causal-identification conclusion."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External bibliography and empirical/background attribution were not independently reverified in this audit; approval covers the exact supplied manuscript and the mathematical scope described.",
+    "No formal proof-assistant verification or independent human verification; numerical spot checks, where present, supplement analytic checking rather than establish general results.",
+    "No claim that the catalogue open problem is solved or that the refinement has priority over external literature."
+  ],
+  "significance": "The review proves a sharp factor-one top-share Lipschitz bound under the same assumptions, halving source path and attribution error constants and sharpening the denominator when actual means are known."
+}

@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-H63-150",
+  "contribution_handle": "ECON-H63-150-A1",
+  "reviewer": "/root/verify_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "89c1444bfbeb138b6ffd8e19865caee845f1174853fcd530f66432f0973ef26e",
+  "source_sha256": "8e23a2f40ed6ff00066fd437abad39577688916070f4ba396ffa65f6948e1944",
+  "checked_scope": "All source strict-event quantile, atom boundary, mean-only impossibility, bounded-support frontier, grid certificate and welfare claims; review pointwise moment certificate and new atom-safe order-statistic continuum certificate, exact binomial failure calculation and numerical example.",
+  "checks_performed": [
+    "Read exact pinned manuscript and contribution metadata; actual manuscript SHA256 equals provenance and review metadata.",
+    "Re-derived loss-event equivalence and left-continuous safe-quantile closure, including zero capacity and atoms; checked moment supremum and its nonattainment convention.",
+    "Verified pointwise moment inequality and feasible approaching two-point laws for 0<x<=mu; separately checked the discontinuity at zero and robust capacity truncation.",
+    "Proved P(R<=q_alpha)>=alpha by continuity from above and supremum contradiction; checked certificate failure is exactly R_(k)>q_alpha and the lower binomial tail decreases with its success parameter.",
+    "Checked simultaneous safety of all smaller debts, predetermined-index requirement, no-qualifying-index fallback, continuous-law sharpness, and infinite-quantile qualification.",
+    "Ran checks/verify_a_checks.py: N=100, alpha=0.05 binomial lower tails are 0.037081209327355036 for k=2 and 0.1182629811851204 for k=3; output preserved in checks/verify_a_results.json."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External bibliography and empirical/background attribution were not independently reverified in this audit; approval covers the exact supplied manuscript and the mathematical scope described.",
+    "No formal proof-assistant verification or independent human verification; numerical spot checks, where present, supplement analytic checking rather than establish general results.",
+    "No claim that the catalogue open problem is solved or that the refinement has priority over external literature."
+  ],
+  "significance": "The review adds a finite-sample, distribution-free safety certificate for a continuum of thresholds chosen from an order statistic, with a proof valid at resource-distribution atoms."
+}

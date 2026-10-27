@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-O31-155",
+  "contribution_handle": "ECON-O31-155-A1",
+  "reviewer": "/root/verify_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "24f65349ff3fe452fd0b464e7a03c6b82e81bde550f95a7b342fd1c038e1672f",
+  "source_sha256": "7f582847c15a2999e332489c3e703ef83f4443aa5fe45b32ff5d6ee0fcff71fb",
+  "checked_scope": "All source binary-effort financing, wealth, strict-feasibility and finite-menu claims; review explicit weak-dual coefficient inequality and objective bound, complementary consistency interpretation, and optimal lottery-support bound.",
+  "checks_performed": [
+    "Read exact pinned manuscript and metadata; actual source SHA256 matches provenance and review metadata.",
+    "Independently derived entrepreneur effort and participation rent constraints and lender guarantee gap; checked wealth cancellation on participation branch and strictness only when slack permits perturbation.",
+    "Verified finite-menu coefficients maximize effort after every report and the stipulated interim/within-report timing makes source constraints linear and covers randomized reporting.",
+    "Expanded each dual coefficient by report and type: reporting multiplier beta_ij contributes positive U_iC in row i and negative U_iC in row j; verified all signs, prior weights only in welfare/spending, and no omitted cross-report utility.",
+    "Multiplied dual inequalities by feasible probabilities and explicitly summed participation, incentive, lender and budget slacks to prove the upper bound lambda B+sum delta_r.",
+    "Counted n row equalities and n^2+n+1 possible inequalities; proved two-sided feasible perturbation when support exceeds active-row rank, and optimal extreme-point existence in the compact feasible polytope."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "External bibliography and empirical/background attribution were not independently reverified in this audit; approval covers the exact supplied manuscript and the mathematical scope described.",
+    "No formal proof-assistant verification or independent human verification; numerical spot checks, where present, supplement analytic checking rather than establish general results.",
+    "No claim that the catalogue open problem is solved or that the refinement has priority over external literature."
+  ],
+  "significance": "The review supplies a directly verifiable global-optimality certificate for numerical menus and a finite support bound specialized to hidden effort reoptimized after misreporting."
+}

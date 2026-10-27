@@ -1,0 +1,16 @@
+{
+  "handle": "ECON-E58-152-A1",
+  "problem_id": "prb_4356c8e8d4454c52b157132fabe06690",
+  "contribution_handle": "ECON-E58-152-A1",
+  "contribution_id": "con_042a961e4cc44bf693746826123be64e",
+  "revision_id": "rev_fc8e0ffa88754187b86e79a45d126764",
+  "source_path": "problems/43/prb_4356c8e8d4454c52b157132fabe06690/contributions/con_042a961e4cc44bf693746826123be64e/files/E58-152.tex",
+  "source_sha256": "750a71266b2dabaabfba458dca9be3b8f7ac2062e2692bc1b714a014da30fbc4",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/43/prb_4356c8e8d4454c52b157132fabe06690/contributions/con_042a961e4cc44bf693746826123be64e/files/E58-152.tex",
+  "title": "Independent solution of the supervised benchmark",
+  "finding": "Supports the claim",
+  "checked_scope": "All three formal source results and accounting; explicit global supervised optimum by strict convexity, boundary optimality and private-response implementability.",
+  "author": "/root/reviews_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}
