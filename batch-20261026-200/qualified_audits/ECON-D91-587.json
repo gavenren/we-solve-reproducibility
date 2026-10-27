@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-D91-587",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D91-587/review.md",
+  "document_sha256": "beabc5cb548574093897b81a062edcceca45ea5b846a56ce2b4a60b207b1387f",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** threshold identification, missing-copula example and convex-hull compatibility in ECON-D91-587-A1, revision r1.",
+  "checks": [
+    "Recomputed threshold utilities 1-a/r and (1-b)/(1-s); declared tie resolution gives weak threshold indicators exactly.",
+    "Same-person joint tasks identify lower rectangles; decreasing limits recover boundary mass, finite-grid differences recover cells only, and admissible within-cell distributions preserve all tested indicators.",
+    "The two populations have identical marginals but utility difference 8/5-a+b gives new-context choice probabilities 1 versus 1/2, with all types admissible and no ties.",
+    "Verified affine-dependence support reduction to m+1 points, compactness of the continuous-kernel convex hull, compatibility of general mixtures and strict separation for excluded population vectors."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-D91-587/prior.tex",
+      "sha256": "460a221732511f8ff265fddc630311fba1b36556920fac82691b8c5fa911468a",
+      "git_blob_sha": "dec7f092eb9dc29f216a97b16f152af0d2e61f41",
+      "revision": "r1",
+      "revision_id": "rev_998034624448424f8192b818436c006e",
+      "contribution_id": "con_a1ff620266d346e3a9072cd8f800aca8",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-D91-587/record.json",
+      "sha256": "0d4e24a3c1a40318d9188aa9f48552a96c17dcad2630a68ba4a0d50e078c098f",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Deterministic threshold tasks assume stable within-person preferences and no carryover; continuous-kernel compatibility is a separate compact model, not a noisy experimental identification result.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

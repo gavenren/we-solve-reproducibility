@@ -1,0 +1,77 @@
+{
+  "handle": "ECON-C78-417",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C78-417/report.md",
+  "document_sha256": "ea83508e99e6101451d8812dcbf1331b52361cc894e4b36b0815aa92502d996b",
+  "checked_scope": "Exact stable-refinement count is #P-complete under polynomial-time Turing reductions; rational-threshold comparison is in PP and PP-hard under polynomial-time Turing reductions. Many-one hardness and approximation are not claimed.",
+  "checks": [
+    "Inspected the entire new proof: every omitted pair in the active/private-partner/challenger construction has a partner-preferring endpoint, and uniform tie priorities give the stated conditionally independent factors and factorial denominator.",
+    "Checked f_k=permanent: sum(k)=m excludes all negative quadratic selections, and the remaining endpoint selections are in bijection with perfect matchings, including n=0 and isolated-vertex bypasses.",
+    "Checked the rational interpolation exactly: degree Q<=2m; A has precisely N zero factors at -(B+1); only alpha=k cancels all of them; C_H is nonzero with the stated sign and factorial product.",
+    "Checked polynomial query market sizes and arithmetic bit lengths, unique refinement encodings for #P membership, and the equality-sensitive PP gap. Count/probability interreduction and threshold binary search establish Turing, not many-one, completeness.",
+    "Compared A1's integral/membership/interreducibility and its explicit open hardness gap against the new attribution. Independently opened the Valiant primary PDF and checked Theorem 1 and its oracle-reduction definition. Inspected root's exact checker record (273 graphs, 92,748 refinements); did not rerun it."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-C78-417/source_notes.md",
+      "sha256": "673539a89d39b761677ccdaed4f3e5f940aa44b8168f34b7f561490520239a7f",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-C78-417/metadata.json",
+      "sha256": "fb3d7dc80d450a9de3ed05b4776eecc86ac666eefdbc08c16c7058eefc5a2af0",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "raw_prompts/ECON-C78-417.txt",
+      "sha256": "530a8daa5c5a6a816160e4047bab925331efa11f8ec700809c9e7a720005b15e",
+      "checked": "exact problem statement and model conventions"
+    },
+    {
+      "path": "prior_attempts/stability-probability-under-compact-indifference_attempt-1_r1.html",
+      "sha256": "c05bf476212d968ae3463c545c651468465339e73ee81dfff4b8f72caa023991",
+      "checked": "retained A1 integral/membership/open-hardness source"
+    },
+    {
+      "path": "prior_attempts/stability-probability-under-compact-indifference_attempt-1_r1.txt",
+      "sha256": "4672217e772cf0774a52ba798d5da008d37ce1da79f233b0e2ca10ac892ee489",
+      "checked": "complete A1 mathematical text compared for correct attribution"
+    },
+    {
+      "path": "root_audits/ECON-C78-417.json",
+      "sha256": "a2f1584cc77eb4f952633dbb553bb4d614131d322f0590d921a8fe4779ac650a",
+      "checked": "root written audit inspected as supplementary evidence"
+    },
+    {
+      "path": "root_checker_runs.json",
+      "sha256": "e34cfee3cfbcf94bb08610d9cb5880aeef655dc5436c166e9a08eccfc72ab861",
+      "checked": "executed checker evidence for 273 graphs and 92748 strict refinements"
+    },
+    {
+      "path": "contributions/ECON-C78-417/verification.json",
+      "sha256": "b93cf37eaf73e726b790a16b3926529f8d867ce96b77eb02e51d00f9ab6ad4a9",
+      "checked": "author finite-check results; not treated as all-instance proof"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "No new checker run was needed: finite execution evidence was inspected, while all-instance hardness rests on the written proof and the primary permanent theorem."
+  ],
+  "external_source_checks": [
+    {
+      "url": "https://www.cs.bu.edu/faculty/gacs/courses/cs535/papers/Valiant_permanent.pdf",
+      "checked": "Primary PDF independently opened; Theorem 1 and oracle-reduction convention inspected. No local PDF hash is asserted."
+    }
+  ]
+}

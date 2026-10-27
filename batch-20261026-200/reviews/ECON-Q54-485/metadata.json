@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_d6fb58f30868488e9f78107b9db720aa",
+  "handle": "ECON-Q54-485",
+  "title": "Audit of the joint adaptation-value set and nonconvexity example",
+  "contribution_handle": "ECON-Q54-485-A1",
+  "contribution_id": "con_7580b5c3befc4b69b5f13821d917e3ca",
+  "revision_id": "rev_45674e92d4ce4881b82b6003837e1a43",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The optimizer-pair union representation, its attainable geometry, and value perturbation bounds.",
+  "scope": "The optimizer-pair union representation, its attainable geometry, and value perturbation bounds.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/measuring-climate-adaptation/attempt-1/r1/",
+  "source_sha256": "dbbc48bd7a59cec7c9140a1b39ac510a9746a820aa7ba69e591a455a7744fc3d",
+  "review_path": "reviews/ECON-Q54-485/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-Q54-485.json",
+  "document_sha256": "c497453f616e8f58c0fc8c43e5bc386d98595636db3ece4256d28ce5d5fe7f6f"
+}

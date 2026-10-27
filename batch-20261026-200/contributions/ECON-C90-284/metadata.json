@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_36ef6cacddbe4cf899ad6d96bf070951",
+  "canonical_problem_id": "prb_36ef6cacddbe4cf899ad6d96bf070951",
+  "handle": "ECON-C90-284",
+  "catalog_rank": 288,
+  "problem_title": "Adaptive experimental inference",
+  "title": "Audit of the simultaneous variance-sensitive treatment-effect interval",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C90-284-A1",
+  "contribution_display_handle": "Econ-288-A1",
+  "contribution_id": "con_2c9f4dda69fc4392933214acdf9ffdac",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_d2833de076974c1791d6837bc1095756",
+  "checked_scope": "The bounded-martingale Bernstein lemma and simultaneous interval/cumulative-width theorem only.",
+  "scope": "The bounded-martingale Bernstein lemma and simultaneous interval/cumulative-width theorem only.",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/adaptive-experimental-inference/attempt-1/r1/",
+  "source_sha256": "3ee5c487a9836df0dcae00a4d5842bc8ef539cddf53f2b46480de6f054c99a67",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C90-284.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C90-284.txt",
+      "sha256": "e71de669167c3796a7b23a9268e01e7640b537c63b5b5b01ae7712093c2e20ab"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C90-284.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/adaptive-experimental-inference/attempt-1/r1/index.html",
+      "sha256": "3ee5c487a9836df0dcae00a4d5842bc8ef539cddf53f2b46480de6f054c99a67"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C90-284.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/adaptive-experimental-inference/attempt-1/r1/contribution.yaml",
+      "sha256": "b703043f233728c00f2700964b8422dee7891c8ab3257af6bcd3b1a453f86ed8"
+    }
+  ],
+  "review_path": "contributions/ECON-C90-284/review.md",
+  "review_sha256": "f625767ba863bb49b3bd2cfe0fc05c9b04d24790706c9fde470f8429de5ccb01",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C90-284.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "The bounded-martingale Bernstein lemma and simultaneous interval/cumulative-width theorem only.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

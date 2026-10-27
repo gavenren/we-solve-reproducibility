@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_83054ed238464d6e94f98baeacfe1f6f",
+  "canonical_problem_id": "prb_83054ed238464d6e94f98baeacfe1f6f",
+  "handle": "ECON-C72-285",
+  "catalog_rank": 289,
+  "problem_title": "Statistical confidence in game equilibria",
+  "title": "Audit of adaptive exploitability certificates and boundary nontermination",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C72-285-A1",
+  "contribution_display_handle": "Econ-289-A1",
+  "contribution_id": "con_68cf2da8756f4d01bec77f443b1fc48c",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_f388704fc26f4c9fb91e7befd3f0284f",
+  "checked_scope": "The simultaneous payoff-box certificate, finite completion fallback, and fixed-candidate boundary obstruction.",
+  "scope": "The simultaneous payoff-box certificate, finite completion fallback, and fixed-candidate boundary obstruction.",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/statistical-confidence-in-game-equilibria/attempt-1/r1/",
+  "source_sha256": "dcc6f185ae26777a629b8820626484f2313601309bd76e34023a304094982702",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C72-285.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C72-285.txt",
+      "sha256": "22c748490bafd5b1963fc8ba51aba57d686a1339c04b6e8375fee503b5af7f9d"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C72-285.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/statistical-confidence-in-game-equilibria/attempt-1/r1/index.html",
+      "sha256": "dcc6f185ae26777a629b8820626484f2313601309bd76e34023a304094982702"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C72-285.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/statistical-confidence-in-game-equilibria/attempt-1/r1/contribution.yaml",
+      "sha256": "17b5a9d834662b8b90ed33f29b60649ec9f3a457857f6f2c6245933ba0935062"
+    }
+  ],
+  "review_path": "contributions/ECON-C72-285/review.md",
+  "review_sha256": "76222b9ecb59abe0545f1e2e44c2c1d0c9fbaee86f1e6197dcb5e1acc3a98334",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C72-285.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "The simultaneous payoff-box certificate, finite completion fallback, and fixed-candidate boundary obstruction.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

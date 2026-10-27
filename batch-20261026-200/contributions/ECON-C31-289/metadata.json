@@ -4,7 +4,7 @@
   "title": "Exact asymmetric binary-exposure identified sets reduce to a two-dimensional polygon",
   "claim": "Partial result",
   "author": "/root/econ_b",
-  "status": "awaiting_independent_review",
+  "status": "approved_scoped",
   "scope": "Sharp population identification of the binary spillover contrast under rectangular uncertainty about *asymmetric* false-positive and false-negative rates, with explicit exposure-positivity restrictions. The finite algorithm below returns the exact interval from the observed binary joint law. It does not give the full covariate-dependent minimax theory.",
   "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
   "prior_contribution_handle": "ECON-C31-289-A1",
@@ -13,19 +13,60 @@
   "prior_revision": "r1",
   "sources": [
     {
+      "role": "problem_prompt",
       "path": "batch_200_20261026/prompts/ECON-C31-289.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C31-289.txt",
       "sha256": "3c0751ae19cf4c5baeb33936bf33bc8f1fa31087f5bda7eb21f3158e0a1cd58d"
     },
     {
+      "role": "full_prior_manuscript",
       "path": "batch_200_20261026/prompts/ECON-C31-289.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/identification-and-inference-with-mismeasured-spillover-exposure/attempt-1/r1/index.html",
       "sha256": "04308466dfb348271c6a7e6594351f3e59753fea7823bbb68a178ed4791808e2"
     },
     {
+      "role": "prior_revision_metadata",
       "path": "batch_200_20261026/prompts/ECON-C31-289.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/identification-and-inference-with-mismeasured-spillover-exposure/attempt-1/r1/contribution.yaml",
       "sha256": "cff72715f08359ff1e465f2a99de7ed1f25beec0dea6fd6a3e48c35f165e2bbf"
     }
   ],
   "prior_url": "https://we-solve.github.io/contributions/identification-and-inference-with-mismeasured-spillover-exposure/attempt-1/r1/",
-  "verification": "Author proof audit; exact 20412-model Fraction reconstruction check executed",
-  "report_sha256": "2525d6d9f69583ea19d1ec5f948bd15288f5bd47452a0e7222a47dcb845cc38f"
+  "verification": "Author proof audit and executed exact 20,412-model inversion/reconstruction checker; endpoint optimizer justified by edge-direction proof, not tested by the checker",
+  "report_sha256": "db5c4ab7a66dd3f083e32a6b45c46849c6dd111c1828f8b317c4668840bb9eeb",
+  "kind": "attempt",
+  "type": "attempt",
+  "canonical_problem_id": "prb_564e8d6598d54c95913e85dee7238992",
+  "catalog_rank": 293,
+  "problem_title": "Identification and inference with mismeasured spillover exposure",
+  "prior_contribution_display_handle": "Econ-293-A1",
+  "source_url": "https://we-solve.github.io/contributions/identification-and-inference-with-mismeasured-spillover-exposure/attempt-1/r1/",
+  "source_sha256": "04308466dfb348271c6a7e6594351f3e59753fea7823bbb68a178ed4791808e2",
+  "report_path": "contributions/ECON-C31-289/report.md",
+  "publication_status": "draft_not_submitted",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "computation": {
+    "status": "PASS",
+    "exact_reconstructed_models": 20412,
+    "nonzero_covariance_models": 18144,
+    "grid": "a,b,m0,m1 in {0,1/8,...,1}; p in {1/8,...,7/8}; a+b<1",
+    "arithmetic": "fractions.Fraction",
+    "scope": "Finite algebra/latent reconstruction only; no endpoint optimizer tested."
+  },
+  "checker_path": "contributions/ECON-C31-289/verify.py",
+  "checker_sha256": "d54235eab72ddcd9f74c836193f19481888acbd73cf35f810ba93e68d5fda7e4",
+  "qualified_audit_path": "qualified_audits/ECON-C31-289.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "Sharp population identification of the binary spillover contrast under rectangular uncertainty about *asymmetric* false-positive and false-negative rates, with explicit exposure-positivity restrictions. The finite algorithm below returns the exact interval from the observed binary joint law. It does not give the full covariate-dependent minimax theory.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
 }

@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C18-215",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C18-215/review.md",
+  "document_sha256": "e3d9616d2832bfa52ed162916f8e559385e1f2fd19ca6101f3295701d41ede87",
+  "checked_scope": "The set-inclusion argument, one-sided regret transfer, and the square/flat inverse examples.",
+  "checks": [
+    "Triangle inequalities give exact nested sets M_epsilon(P0) subset envelope subset M_(epsilon+2r)(P0) on the observation coverage event. The declared inverse error bound gives one-sided distance H(2r)^kappa; the reverse distance is0 by inclusion. Nonempty baseline set is required.",
+    "For L-Lipschitz action values, sup_b V(b,m)-V(a,m) is2L-Lipschitz. Nestedness sandwiches each regret within one2LH(2r)^kappa term; approximate envelope minimization transfers this term once plus optimization tolerance xi.",
+    "Square-mean Gaussian inverse has squared error<=|Ybar-m^2| and rate n^-1/2, matched by m separation c n^-1/4 with KL c^4/2. Flat exp(-1/m^2) inverse has m_n^2=(.5log n-log c)^-1 and KL c^2/2, yielding1/log n risk obstruction despite smooth injective forward map."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C18-215.txt",
+      "sha256": "1082c6e5a7f5bac33b8474e03a8e1365822cb15a85bdb23796786905dd3f63ab",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C18-215-prior.html",
+      "sha256": "d1d70f37b5ec9890a954f4dfed2e02ea090b62c1e7cc55f43fe2af177ab11207",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C18-215-prior.txt",
+      "sha256": "81cd3b903c3f41f272f6daad7f2adbe622dd76bac3048598e9c1abf7c29c9ac4",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C18-215/metadata.json",
+      "sha256": "2544fd2a046663681ae61fa3941e0485521599ba57d49db76de2fa32c569bdb9",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C18-215/source_notes.md",
+      "sha256": "d691761a046f8d1d6bf27ef94ba3e0b09ed39baeb6308a70c011a055825692ae",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C18-215-prior.yaml",
+      "sha256": "1461c6ebb71b880f981b8b622ab0f03bf6148838fe015aa299fb0c911e032be3",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "This supports the envelope and inverse-modulus statements under their explicit assumptions. It does not supply an inverse error bound for an arbitrary structural model or prove a universal rate from smoothness of its forward map.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

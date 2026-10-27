@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_0bc4acfdbaf146c69054cba1de947ebc",
+  "canonical_problem_id": "prb_0bc4acfdbaf146c69054cba1de947ebc",
+  "handle": "ECON-C73-256",
+  "catalog_rank": 260,
+  "problem_title": "Stationary measures with common noise: historical question and remaining scope",
+  "title": "Audit of common-noise stationary equilibrium multiplicity",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C73-256-A1",
+  "contribution_display_handle": "Econ-260-A1",
+  "contribution_id": "con_2500b8f9df14454ebe222a766b2ca58e",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_3465be6451e54e0baac23393993ad5f1",
+  "checked_scope": "The nonuniform fixed-point construction, common-phase consistency and optimality verification against general deviations.",
+  "scope": "The nonuniform fixed-point construction, common-phase consistency and optimality verification against general deviations.",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/stationary-measures-with-common-noise-historical-question-and-remaining-scope/attempt-1/r1/",
+  "source_sha256": "e622c27c9961c0e62e380ae6ed1c30866ea9695c8faac93db09dc77bb3f05fe8",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C73-256.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C73-256.txt",
+      "sha256": "f1621c169b5bb9f0a9f5156aef12ddd4cf925efca2f7be9c0a69dfdafa262853"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C73-256.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/stationary-measures-with-common-noise-historical-question-and-remaining-scope/attempt-1/r1/index.html",
+      "sha256": "e622c27c9961c0e62e380ae6ed1c30866ea9695c8faac93db09dc77bb3f05fe8"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C73-256.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/stationary-measures-with-common-noise-historical-question-and-remaining-scope/attempt-1/r1/contribution.yaml",
+      "sha256": "af03f2fde697762e31ef2779538d9bc42c0bc736e2f36367bdfae896e205f22f"
+    }
+  ],
+  "review_path": "contributions/ECON-C73-256/review.md",
+  "review_sha256": "8b7d0078aa085314dd4276690aa630275671b0282e3f1972d8d56dff9cb62038",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C73-256.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "The nonuniform fixed-point construction, common-phase consistency and optimality verification against general deviations.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-C78-369",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C78-369/review.md",
+  "document_sha256": "9bb1ca09127bd2babf519d6b59cb106eb7d63d34df2cc8b997e33297f31994ca",
+  "checked_scope": "The length-two-list characterization of all reachable allocations and the requirement to output a legal sequence.",
+  "checks": [
+    "Verified every improving trader with at most two acceptable houses reaches its unique first choice once and can never trade again; all participants therefore still hold original endowments at their swap.",
+    "Checked each dissatisfied applicant points to one uniquely owned desired house, so mutually beneficial initial pairs are vertex-disjoint and every reachable state performs a subset.",
+    "Verified exactly 2^k distinct reachable allocations, a unique all-swaps allocation dominating them, and legal sequences from a scan. Rechecked the AB then AC length-three counterexample where A moves twice.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C78-369.txt",
+      "sha256": "508e6157e6ad8a55364885e826e80ae044e678fbd1aa0ff776b64faa6f525f5c",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-C78-369_A1.txt",
+      "sha256": "1fc14e533850ea791d2d701c148d84cc2022642a7fbb56bc58b3211063124ab0",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-C78-369/source_notes.md",
+      "sha256": "8aaa97fc0ccabce9e8ee5f64b403a5ff403a1845f0a05270592262c13da14364",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-C78-369_A1.yaml",
+      "sha256": "bff9e5e71254fedc03e8cba7d83b188b1eb8cf4f0b72068c92088b48c084c899",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Only the length-two subclass and explicit witness paths are approved; longer-list complexity, treewidth and broader parameterized classifications are not.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

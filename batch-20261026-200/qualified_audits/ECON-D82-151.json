@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-D82-151",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D82-151/review.md",
+  "document_sha256": "d3709a596d9426edf238ffb4e991b1a59e8dbca42af852c57be8203dc479646c",
+  "checked_scope": "The coordinatewise strategyproofness argument, rotation average, and fixed-orbit minimax proposition.",
+  "checks": [
+    "An inserted report changes a chosen order statistic by projection onto the adjacent-opponent interval, including infinite endpoints. Truth minimizes each coordinate displacement, hence Euclidean distance after rotation. Each report-independent seed is truthful and unanimous.",
+    "Average rotated L1 length is (4/pi)||v||2. Applying L1 median optimality first at each angle and then integrating the fixed comparison distances yields the finite expected-cost upper bound.",
+    "Rotation conjugacy C_theta(R_phi x)=R_phi C_(theta+phi)(x), Tonelli and Haar invariance give W_n(nu)>=W_n(uniform) for any Borel angle distribution, including atoms and lower-median tie convention. This only compares one orbit and does not prove its tight ratio or global optimality."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-D82-151.txt",
+      "sha256": "00a75d0f37a1f7ca3ab0086fa867c8e8f65efc20f73d420260d35362a5025199",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-D82-151-prior.html",
+      "sha256": "0f39fb7c8aa85037dabecc798e7f8d0877dd4d2519e7500ab34c6d9c8ce62e1a",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-D82-151-prior.txt",
+      "sha256": "b9f048badbd825621b729322acc5ffdb4aca68f60477c8040ae12b6e664b1e62",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-D82-151/metadata.json",
+      "sha256": "42e26b5fd78d1b1c4cd84b0d4516235e4d19228f5c43c2718bbcade90aabaf0e",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-D82-151/source_notes.md",
+      "sha256": "108e5b0d8ee98fc7dad5140111e5e412d1293deecd7127a0a1bb74ff994052f0",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-D82-151-prior.yaml",
+      "sha256": "c405e5b96c9f9c07a14704b2f798b18c9acf5d66b130ddbce9176ba5404204cf",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "The minimax conclusion is only within the stated rotation orbit. The calculation does not show that 4/pi is tight for that mechanism or optimal among all truthful mechanisms, and no external unrestricted-optimality theorem was checked.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

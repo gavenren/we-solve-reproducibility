@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_23f5961b13fc4df2b33861a18387302b",
+  "handle": "ECON-C31-491",
+  "title": "Audit of cluster weighting, effective sample size, and the shared-environment term",
+  "contribution_handle": "ECON-C31-491-A1",
+  "contribution_id": "con_ca6fdc2e972649f6b555f443deaca0ad",
+  "revision_id": "rev_9dc54f7f93e54762a2966805ecb2d292",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The distribution-function upper bound with arbitrary within-network dependence, the block variant, and the variance decomposition.",
+  "scope": "The distribution-function upper bound with arbitrary within-network dependence, the block variant, and the variance decomposition.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/distributional-causal-effects-under-network-interference/attempt-1/r1/",
+  "source_sha256": "eb4625f4cefc8c2c415c2e49a14643c80b178eb235d52c77d799d809dbdccd76",
+  "review_path": "reviews/ECON-C31-491/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-C31-491.json",
+  "document_sha256": "b7edfb2558df1e65e4a774f27b2b9db66b7853fb81c9ff0f9811a36d5f731b8f"
+}

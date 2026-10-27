@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-D91-431",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D91-431/review.md",
+  "document_sha256": "18794de68786125735ed6ae6ef7f791c14a4681c905108ec40fdc20de4edba0e",
+  "checked_scope": "Finite response-type identification, classification constants, and belief-mediation equivalence",
+  "checks": [
+    "Checked probability-column normalization makes every Q-kernel vector sum to zero and permits two-sided interior simplex perturbations, giving uniform rank identification without asserting every boundary law is unidentified.",
+    "Verified squared-loss differences lie in [-1,1], have mean delta_m and yield exp(-T delta_m^2/2) per competitor under independent fixed-type tasks, with fixed ties and zero-distance indistinguishability handled.",
+    "Recomputed elicitation summand range [-2,2] and tail 2 exp(-n t^2/8), with anticipation and mean-cancellation qualifications.",
+    "Checked identical observed B=Y=Z and T=B under both mediation models, but fixed-z belief substitution has effect one versus zero; lack of mediator overlap and unvalidated kernels remain explicit limitations."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-D91-431/source_notes.md",
+      "sha256": "938a1098ceaf8a9acea62858c5cff2df65776b0de03c65324c879ebd4d42851f",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-D91-431/metadata.json",
+      "sha256": "0b50c1c0752667d79aa549842930a045a0f9abed2bf04017d9a1ef1e606477db",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/causal-mental-models_attempt-1_r1.html",
+      "sha256": "fcae89bc8481d9e4fe5922bae25c32bd78edc2c0879cfcf6c9b3cff6f871c929",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/causal-mental-models_attempt-1_r1.txt",
+      "sha256": "06c43459621424e399c08abe431a754f950ac36335b0274b99299afec2b9bb1e",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-D91-431-A1.yaml",
+      "sha256": "f9811de09d202e465de20b3df6b7753c1542cd7391b8f2e5dcc43032dd753792",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

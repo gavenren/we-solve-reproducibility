@@ -1,0 +1,38 @@
+{
+  "handle": "ECON-O31-626",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-O31-626/review.md",
+  "document_sha256": "38eea0562cdc30c4985d08b103c08133861620406be308d8531b6f4ed4ced994",
+  "checked_scope": "**Finding:** Supports the checked claims. This review checks optimal effort division, the interaction threshold and its sign reversal, and the finite-population variance identity.",
+  "checks": [
+    "Positive necessary components and log-success strict concavity force a binding budget and unique equal effort allocation (B-c*m)/2.",
+    "Recomputed interaction (1+v)*D_r(B-c)-D_r(B), positive D_r for r>1 and exact threshold v*; all-v>=0 positivity when v*<0 and zero at equality follow.",
+    "Small-budget expansion gives Delta/B^2 -> -3*(r^2-1)/16 at v=0,c=B/2; large-x expansion D_r(x)~2 exp(-x/2) gives positive interaction for large B.",
+    "Verified complete-randomization cross-cell covariance -S_jk/N, within-cell variance (1/n_j-1/N)*S_j^2 and final signed-contrast variance sum(S_j^2/n_j)-S_tau^2/N using denominator N-1.",
+    "Coordination cost already reduces productive effort and is not subtracted again from scientific score; the AI-cost extension requires positive arm-specific productive budgets and includes failures as zero outcomes."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-O31-626/prior.tex",
+      "sha256": "19db28c7804ad78df0efc2990f47e041b5ecbf6e076f711e7187742e0e24fa77",
+      "git_blob_sha": "ade1e464f163ca1d379ad43cfabd63cc2fbb30a0",
+      "revision": "r1",
+      "revision_id": "rev_514cf1ca93074cab818d712fe2301f49",
+      "contribution_id": "con_ce100a27cf9d43d09d35270c9d2ba191",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-O31-626/record.json",
+      "sha256": "7ec5f5f80a2b6cfbcb3a22f31b55e03ec1f6ad2b6cb2e3564fa59e8346fd4179",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Two-component search, fixed score/budget normalization and no cross-project spillovers are model assumptions; no empirical discovery interaction or publication-selected inference.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

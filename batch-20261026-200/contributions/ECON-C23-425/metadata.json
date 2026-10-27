@@ -11,8 +11,16 @@
   "checked_scope": "Sharp one-anchor Lipschitz contrasts and finite-support parallel-trends linear program",
   "scope": "Sharp one-anchor Lipschitz contrasts and finite-support parallel-trends linear program",
   "author": "/root/econ_d",
-  "status": "awaiting_independent_review",
+  "status": "independently_reviewed_scoped",
   "source_url": "https://we-solve.github.io/contributions/continuous-treatment-did/attempt-1/r1/",
   "source_sha256": "57d5d905fe735ddb5813f1d81f199ed00803a5a9a6a0411bacb37f156a27f85e",
-  "verification": "Independent written algebraic/probabilistic audit; no code run for this review."
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C23-425.json"
+  }
 }

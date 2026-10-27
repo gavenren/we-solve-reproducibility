@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-C33-383",
+  "problem_id": "prb_478021c509bb4865a3ed90e0aa540781",
+  "catalog_rank": 387,
+  "title": "Independent review: Repeated-observation interference on changing networks",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "The constrained least-squares risk and score-set confidence bounds under the explicitly supplied excitation condition (D).",
+  "contribution_handle": "ECON-C33-383-A1",
+  "contribution_id": "con_b065c7dfc1ae46c8a6a049eb4a711a25",
+  "revision_id": "rev_5a25d57e2ac04d2ab615f4a577fb501d",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/repeated-observation-interference-on-changing-networks/attempt-1/r1/",
+  "source_sha256": "36f986aeeb25994eb7b2d063afa57b908b1d103701d7985a42bec4f4d1df412b",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-C33-383.json",
+  "qualified_audit": "qualified_audits/ECON-C33-383.json"
+}

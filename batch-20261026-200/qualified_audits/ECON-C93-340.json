@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-C93-340",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C93-340/review.md",
+  "document_sha256": "325208c49a799297b1ccfbf39651f483426990648a4b657055fc3ad67e33f603",
+  "checked_scope": "Sharp finite-stratum transport bounds with a weighted absolute-deviation budget and the separate local-to-full-coverage counterexample.",
+  "checks": [
+    "Checked positive-deviation capacity filling has unit benefit per weighted budget unit, so its optimum is min(Gamma,sum capacities), with unsupported mass contributing plus/minus WN.",
+    "Reconstructed Bernoulli target potential-outcome means (1+t)/2 and (1-t)/2 for each feasible effect; preserving study data and mixing vectors proves endpoint and full-interval sharpness.",
+    "Recomputed the numerical interval [-.33,.37]. For the scale-up family the c term and its derivative vanish at observed coverage s0, all outcomes stay in [0,1], and full coverage differs by c(1-s0)^2.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C93-340.txt",
+      "sha256": "63a30239f2bb9fc9eb758c99c0d2d3c7c6bd48c3b4ce152e30d3a58673416fc4",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-C93-340_A1.txt",
+      "sha256": "77a72c0b8380878444b52482c145a6e2a0cb9c49dfa3be0353a0a6f9d068d9df",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-C93-340/source_notes.md",
+      "sha256": "0dd1bf67564ad8275f1eaf17f24c90066717f88060f14aeb5a5a7556c1f3fe52",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-C93-340_A1.yaml",
+      "sha256": "c045237758b7ade10028d136d1327de8a65bdc9b86e7a0c4ce35d76bb49bbfe1",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Finite-stratum population bounds and a bounded potential-outcome scale-up counterexample only. No empirical sensitivity calibration, general-equilibrium implementation or finite-sample interval guarantee is certified.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

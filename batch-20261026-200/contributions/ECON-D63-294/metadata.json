@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_8bf41d6f46e84cab8f6fc5a61bce9b3c",
+  "canonical_problem_id": "prb_8bf41d6f46e84cab8f6fc5a61bce9b3c",
+  "handle": "ECON-D63-294",
+  "catalog_rank": 298,
+  "problem_title": "EFX existence for chores with binary submodular costs",
+  "title": "Scoped review of the binary-marginal EFX transfer potential",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-D63-294-A1",
+  "contribution_display_handle": "Econ-298-A1",
+  "contribution_id": "con_0d55e04158c94971a31cbbfebe38db8f",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_8c1032fde7b54e20a67505527bb06443",
+  "checked_scope": "Two-agent construction, zero-marginal removals and matroid-rank representation",
+  "scope": "Two-agent construction, zero-marginal removals and matroid-rank representation",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/efx-existence-for-chores-with-binary-submodular-costs/attempt-1/r1/",
+  "source_sha256": "5012066d2a064a5183a1c5958a0cbccf0f8da8e00e23f42c13f9c11413bcb55b",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-D63-294.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-D63-294.txt",
+      "sha256": "c511a2ec89b325ae048f678bade008d90cf5b0ff648cb516d552f7a2b1b5a3f2"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-D63-294.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/efx-existence-for-chores-with-binary-submodular-costs/attempt-1/r1/index.html",
+      "sha256": "5012066d2a064a5183a1c5958a0cbccf0f8da8e00e23f42c13f9c11413bcb55b"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-D63-294.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/efx-existence-for-chores-with-binary-submodular-costs/attempt-1/r1/contribution.yaml",
+      "sha256": "0eaefedfc545ffbd5bb761d062caffc77530fa80066e888a19a16f9ed84d7983"
+    }
+  ],
+  "review_path": "contributions/ECON-D63-294/review.md",
+  "review_sha256": "02b2fc128f44d2b17deddc47580a0a8b59251d1827378ffab416e5ec75cd9f3a",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-D63-294.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "Two-agent construction, zero-marginal removals and matroid-rank representation",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

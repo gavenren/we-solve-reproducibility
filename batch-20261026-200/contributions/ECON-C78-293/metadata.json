@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_691e798fbd3145d69fa8cb78a67c7e93",
+  "canonical_problem_id": "prb_691e798fbd3145d69fa8cb78a67c7e93",
+  "handle": "ECON-C78-293",
+  "catalog_rank": 297,
+  "problem_title": "Growing numbers of changed agents: correcting an overbroad complexity promise",
+  "title": "Scoped review of changed-agent padding and exact partner enumeration",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C78-293-A1",
+  "contribution_display_handle": "Econ-297-A1",
+  "contribution_id": "con_7acad868db5b4a818a44733836fd960d",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_75581fa2f3a34937af0324f546b616b7",
+  "checked_scope": "Padding consequence conditional on cited unrestricted hardness; cutoff algorithm and balanced-block factorization",
+  "scope": "Padding consequence conditional on cited unrestricted hardness; cutoff algorithm and balanced-block factorization",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/growing-numbers-of-changed-agents-correcting-an-overbroad-complexity-promise/attempt-1/r1/",
+  "source_sha256": "fca520d5d843669cf6d7580c3e836dae14c33b2c6258fb571151d3bf8153c02e",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C78-293.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C78-293.txt",
+      "sha256": "51a0404cca84d0c7a4d732fea4d98a3f20e7b4c0b3765108050e5e1829c55ab0"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C78-293.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/growing-numbers-of-changed-agents-correcting-an-overbroad-complexity-promise/attempt-1/r1/index.html",
+      "sha256": "fca520d5d843669cf6d7580c3e836dae14c33b2c6258fb571151d3bf8153c02e"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C78-293.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/growing-numbers-of-changed-agents-correcting-an-overbroad-complexity-promise/attempt-1/r1/contribution.yaml",
+      "sha256": "8b30567d0e0afbd2a7e9b660032e6a659fc14e50aeda75bb903de60f1c2e5647"
+    }
+  ],
+  "review_path": "contributions/ECON-C78-293/review.md",
+  "review_sha256": "49b4e23eb0f9be844a9fea9498205e7db10eee985ce763dfb2d0eeb07d27050c",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C78-293.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "Padding consequence conditional on cited unrestricted hardness; cutoff algorithm and balanced-block factorization",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C73-256",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C73-256/review.md",
+  "document_sha256": "8b7d0078aa085314dd4276690aa630275671b0282e3f1972d8d56dff9cb62038",
+  "checked_scope": "The nonuniform fixed-point construction, common-phase consistency and optimality verification against general deviations.",
+  "checks": [
+    "The von Mises cosine map has derivative kappa/2>1 at zero and is <1 at r=1, giving a nonzero fixed point. Its density derivative proves the stated zero-current invariant law.",
+    "Independent stationary Z translated by the uniform common Brownian phase has conditional law tau_Phi(m_r) and a stationary population-law process. Its first-moment magnitude r separates it from the uniform-law equilibrium despite identical unconditional one-particle marginals.",
+    "For every admitted deviation, subtracting the same common phase cancels common noise. Ito with bounded u=-kappa*r*cos produces an endpoint corrector plus half the squared control mismatch, proving average cost >=0 and feedback attainment. The monotonicity integral is exactly -kappa*epsilon^2/4."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C73-256.txt",
+      "sha256": "f1621c169b5bb9f0a9f5156aef12ddd4cf925efca2f7be9c0a69dfdafa262853",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C73-256.prior0.html",
+      "sha256": "e622c27c9961c0e62e380ae6ed1c30866ea9695c8faac93db09dc77bb3f05fe8",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C73-256.prior0.yaml",
+      "sha256": "af03f2fde697762e31ef2779538d9bc42c0bc736e2f36367bdfae896e205f22f",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C73-256/source_notes.md",
+      "sha256": "b231780059fcedce9f8d534eecb90c2e1aeefcb7f747c12394ebeba07d8fc13b",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

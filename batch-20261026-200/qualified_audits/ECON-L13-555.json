@@ -1,0 +1,56 @@
+{
+  "handle": "ECON-L13-555",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-L13-555/report.md",
+  "document_sha256": "3bba124fcda02492b081549d830f5e47f0786d34ff82a220af21e5cb62ddd9a8",
+  "checked_scope": "Unique heterogeneous-cost n-firm common-profit Cournot equilibrium, all active-set transitions, exact welfare derivative and finite cubic-candidate sharp welfare bounds; explicit price-up/welfare-up counterexample without efficiencies. Conditional model, not full causal identification.",
+  "checks": [
+    "Independently derived the own-output gradient a_i-(1+lambda)Q-(1-lambda)q_i and negative-definite potential Hessian; coercivity plus KKT conditions gives the unique equilibrium for the maintained 0<=lambda<1 model.",
+    "Verified Q=S_m/D_m, q_i=(a_i-t_m)/(1-lambda), active/inactive inequalities, ties and zero-output boundary equivalence. Threshold derivative 2*S_m/D_m^2>0 and continuity imply only exits; m=1 output is constant.",
+    "Derived q_i=Q/m+(a_i-bar_a)/(1-lambda), hence the dispersion welfare term V_m/(1-lambda) and derivative (3). Equal active costs decrease welfare for m>=2; both derivative terms vanish for m=1.",
+    "Checked the exact fixed-cost reversal: costs (0,4), A=10, lambda 0 to 1/5, outputs (14/3,2/3) to (5,0), price +1/3 and welfare 328/9 to 75/2, an increase 19/18. The high-cost firm exits exactly at 1/5.",
+    "Verified completeness of interval endpoints, valid active-set boundaries and all within-regime cubic stationary roots. The cubic is not identically zero, constant one-firm regimes are covered by endpoints, and continuity makes the attainable welfare image an interval.",
+    "Compared actual prior r1: its unique symmetric-cost duopoly welfare strictly decreases at fixed cost and its corner welfare bounds rely on symmetry/efficiency rectangularity. The heterogeneous fixed-technology extension does not contradict it and leaves ownership-to-influence identification unresolved.",
+    "Inspected existing root written audit and successful checker log (720 KKT/welfare instances, 719 derivative checks, exact 19/18 example); no duplicate checker run. Repaired malformed governance-interval delimiter and removed pending-review language only after this independent proof check.",
+    "Resolved metadata source ambiguity: preserved unmatched older source_sha256 only as unverified_legacy_source_sha256 and recorded the actual retained prompt hash; approval relies on the exact prompt and prior TeX files listed in source_checks."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-L13-555/prior.tex",
+      "sha256": "96bebfafcf118f170e522d64ac677855033fe0b49beed5ab2e4a2450cd9c604a",
+      "git_blob_sha": "c0fa90d18c1c12721c7044d99b5ea6cbc754aff6",
+      "revision": "r1",
+      "revision_id": "rev_1d4dd28dd7e34f37a017a4bfc444d8c4",
+      "contribution_id": "con_b9a562d40f8a480a87dc99a0e399bf3c",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-L13-555/record.json",
+      "sha256": "583d7e2350094737cc8f58924364e2b3f70a9ccf8dca575acd603449a3d1364a",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    },
+    {
+      "file": "source_cache/ECON-L13-555/prompt.txt",
+      "sha256": "518f7f19a37e02ceec9a13ed639404545a1f148ab13619fdd5f8b14b5d97432e",
+      "checked": "Read original problem scope and limitations; comparison is conditional progress rather than causal identification."
+    },
+    {
+      "file": "root_audits/ECON-L13-555.json",
+      "sha256": "73100be22c4fed6db878627aad5cf6a4366d7b80d764999cd32ad190c01b3465",
+      "checked": "Read earlier written-proof audit; independent derivations above do not merely adopt its verdict."
+    },
+    {
+      "file": "root_checker_runs.json",
+      "sha256": "e34cfee3cfbcf94bb08610d9cb5880aeef655dc5436c166e9a08eccfc72ab861",
+      "checked": "Inspected L13-555 successful exact KKT/welfare/derivative run; did not rerun duplicate tests."
+    }
+  ],
+  "limitations": [
+    "Fixed linear demand, constant heterogeneous costs, scalar common internalization and equal monetary welfare weights are conditional primitives. Ownership-to-influence causal identification, lambda=1 uniqueness and historical novelty are not established.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

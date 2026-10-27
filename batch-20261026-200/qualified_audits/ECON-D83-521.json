@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D83-521",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D83-521/review.md",
+  "document_sha256": "8ec55bb3993bf36b4c5f04f39e77b106b74cf6e79cd5a09b4e493b711a8a60c2",
+  "checked_scope": "The truthful-display reversal and the quadratic supplier-response welfare benchmark.",
+  "checks": [
+    "The fine-signal simulation benchmark uses feasible garbling; the stipulated range-attention procedure can change when a field is added and is outside that benchmark.",
+    "Corrected draft arithmetic: scaling badge scores 0 and 100 by .0001 gives range .01 below quality range 1. The original .01 multiplier would give a tie and did not support the claimed return to A.",
+    "Firm payoff derivative 2λ−qᵢ and second derivative −1 give unique qᵢ=2λ on [0,1], including λ=1/2. Both firms’ total resource cost is 4λ², so welfare falls from 1/4 to zero as λ rises from 1/4 to 1/2."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-D83-521_0.tex",
+      "sha256": "36b1edbddf2d27829387cef4112224c9f21706525ad39d0e2bc5794054607c53",
+      "revision_id": "rev_9077424bbedc45cba0ed68d9ac6dc821",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/optimal-information-disclosure/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

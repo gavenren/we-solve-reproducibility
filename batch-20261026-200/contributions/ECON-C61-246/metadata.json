@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_0f5bbbfe5a084cf99d196f0fb43ab0a9",
+  "canonical_problem_id": "prb_0f5bbbfe5a084cf99d196f0fb43ab0a9",
+  "handle": "ECON-C61-246",
+  "catalog_rank": 250,
+  "problem_title": "Finite-horizon drift control with discretionary stopping",
+  "title": "Audit of finite-horizon stopping barriers and terminal-boundary claims",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C61-246-A1",
+  "contribution_display_handle": "Econ-250-A1",
+  "contribution_id": "con_2a90b56e83ba43c2beb703e3ae436bfb",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_5a0cb8d4ef09405ca310c0284c5fef14",
+  "checked_scope": "The sign of the verification inequality and the two horizon-uniform quadratic barriers.",
+  "scope": "The sign of the verification inequality and the two horizon-uniform quadratic barriers.",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/finite-horizon-drift-control-with-discretionary-stopping/attempt-1/r1/",
+  "source_sha256": "461f5fa931d905d469402038774d97c989d9e8854fe5a380a5073c80426c1947",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C61-246.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C61-246.txt",
+      "sha256": "26b5e657796184fcf0df4ab15ee2b3c9b3e1703f70b398a9418652c7cf2183ef"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C61-246.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/finite-horizon-drift-control-with-discretionary-stopping/attempt-1/r1/index.html",
+      "sha256": "461f5fa931d905d469402038774d97c989d9e8854fe5a380a5073c80426c1947"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C61-246.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/finite-horizon-drift-control-with-discretionary-stopping/attempt-1/r1/contribution.yaml",
+      "sha256": "05f0fd7410976c94f8db43110395b34409517ab9f6458dc415d2884208d3909a"
+    }
+  ],
+  "review_path": "contributions/ECON-C61-246/review.md",
+  "review_sha256": "e341dc080c40e95c1bc933571dcb979883dd7e51472d8309d4bc9a28905fb441",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C61-246.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "The sign of the verification inequality and the two horizon-uniform quadratic barriers.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

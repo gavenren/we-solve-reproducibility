@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C44-248",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C44-248/review.md",
+  "document_sha256": "d6dbb1c92f173afffdc44c4ecb9ea8c59f371b8f74b03284bd162baa5a7f1b61",
+  "checked_scope": "The response-shift lower bound, oracle reweighting upper bound and the claim that target covariates can carry indispensable information.",
+  "checks": [
+    "Identical observed laws across opposite target-response shifts have policy-value gaps +/-4delta/pi, hence worst expected regret >=2delta/pi without a KL approximation.",
+    "Oracle reweighting has second moment <=2B^2*kappa/epsilon because r^2<=kappa*r and E_P r=1. Target comparison drift costs <=2delta; baseline drift cancels.",
+    "Changing only target density by +/-h sin(2pi x)/sqrt(N) reverses rankings while preserving source data. This isolates target-covariate information for fixed kappa>1; at kappa=1 the normalized ratio must equal one."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C44-248.txt",
+      "sha256": "eb436001af595d40bf2d0f5e47610d884f85a096ec095499c994c47f52c876e2",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C44-248.prior0.html",
+      "sha256": "d8c1da85f10480be4e5e833fe8c7ee7dfa09b78c54a1ebee69f206429ea9b30c",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C44-248.prior0.yaml",
+      "sha256": "80f428389ff3af9a6edc1644e3e8bfc95eebb7d736110725f84eef5e526d6c23",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C44-248/source_notes.md",
+      "sha256": "815088b67d0af5a1596b839aa0f95c5fae38a092f7f613c1f44d44adde62913c",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

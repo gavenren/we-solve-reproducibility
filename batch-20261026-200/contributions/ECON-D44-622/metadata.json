@@ -1,0 +1,34 @@
+{
+  "problem_id": "prb_d1aaaa98ed2b4397a9a3cea1129a78eb",
+  "handle": "ECON-D44-622",
+  "title": "Review: auction trust, learning losses and enforceable compliance",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-D44-622-A1",
+  "contribution_id": "con_840bb550bf444baca225fd453813a7bc",
+  "revision": "r1",
+  "revision_id": "rev_6b6aa5a6c5e349b1b136804ad498776c",
+  "checked_scope": "**Finding:** Supports the checked claims. This review verifies the entry-loss formula, its learning rate, the mediation counterexample, and the enforcement condition.",
+  "scope": "**Finding:** Supports the checked claims. This review verifies the entry-loss formula, its learning rate, the mediation counterexample, and the enforcement condition.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact serving revision and reasoning settings unavailable",
+  "verification": "Independent mathematical derivations, boundary checks and counterexample calculations documented in review; no empirical validation or human peer review claimed.",
+  "source_urls": [
+    "https://github.com/We-Solve/research/blob/main/problems/d1/prb_d1aaaa98ed2b4397a9a3cea1129a78eb/contributions/con_840bb550bf444baca225fd453813a7bc/files/D44-622.tex",
+    "https://we-solve.github.io/contributions/trust-in-complex-auction-rules/attempt-1/r1/"
+  ],
+  "source_blob_sha": "bcdfb7c000c0d767eaa40a354d80c97cddd54af5",
+  "source_sha256": "eca7a416409c7906095a6c02769cf4a0f13d5d5f86069490103cc09b398ba700",
+  "latest_check": "Revision identity matched catalog/aliases.json; r2 API returned 404 on retrieval.",
+  "source_retrieved_utc": "2026-10-27",
+  "qualified_review": {
+    "reviewer": "/root/verify_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_file": "qualified_audits/ECON-D44-622.json",
+    "document_sha256": "af4ccb0526a61584c7da6003aa3bf5c69b6fda99d011e2166a91a58a26de9e9a",
+    "scope": "Independent scoped mathematical check of final manuscript against retained prior r1 source; no human, formal or historical-novelty certification."
+  }
+}

@@ -91,23 +91,18 @@ The polygon is bounded and closed. Its coordinates are bounded away from zero by
 
 ## A finite exact endpoint algorithm
 
-Put \(F(d,e)=1/d+1/e\). List the vertices and edges of the polygon obtained by intersecting the finitely many halfplanes (1)–(3).
+Let \(F(d,e)=1/d+1/e\). Enumerate the intersections of pairs of boundary lines from (1)–(3), retaining points that satisfy every inequality. These are the vertices, with duplicate points removed. A nonempty bounded polygon has at least one vertex, including segment and point cases.
 
-- The maximum of the convex function \(F\) is attained at a vertex: express a point as a convex combination of vertices and apply convexity.
-- The minimum is on the boundary unless the polygon has empty two-dimensional interior. Indeed \(\nabla F=(-d^{-2},-e^{-2})\ne0\), so an interior minimizer is impossible. For a segment or point, its whole relative boundary representation is directly inspected.
-- On an edge parameterized as \((d(t),e(t))=(d_1,e_1)+t(u,v)\), \(0\le t\le1\), check endpoints and any interior stationary point
+**Both endpoints in (4) occur at vertices.** For the maximum of \(F\), this follows from convexity: represent a point as a convex combination of vertices. For the minimum, the gradient \((-d^{-2},-e^{-2})\) never vanishes, so a two-dimensional interior point cannot minimize. Every edge of this particular polygon lies either on a horizontal/vertical rate or mean bound, or on one of the positive-slope rays in (3). Along a nonconstant edge, its direction components have the same weak sign, and at least one is nonzero. Therefore
 \[
-\frac{u}{d(t)^2}+\frac{v}{e(t)^2}=0. \tag{6}
+\frac{d}{dt}F(d_1+tu,e_1+tv)
+=-\frac{u}{(d_1+tu)^2}-\frac{v}{(e_1+tv)^2}
 \]
-If \(uv\ge0\), a nonconstant edge has no such point. If \(uv<0\), it is the unique candidate satisfying
-\[
-\frac{d(t)}{e(t)}=\sqrt{-u/v},
-\]
-unless the ratio is constant, in which case (6) is either identically zero or has no solution; on a positive nonconstant segment the identically-zero case cannot occur. Retain a candidate only when its parameter is in \((0,1)\).
+has a strict constant sign. Its minimum on that edge is an endpoint. The same argument handles a polygon reduced to a nonconstant segment; a point is immediate. This proves vertex attainment for the minimum as well.
 
-Evaluate \(F\) at this finite list. Multiply by \(c\), swapping minimum and maximum when \(c<0\). Rational inputs lead only to rational arithmetic and square roots of positive rationals in this construction; it gives exact algebraic endpoints without numerical gridding or unconstrained division. Empty polygons report model incompatibility. A segment is treated as one edge and a point as one vertex, so the algorithm includes \(\ell=1/2\) and degenerate rate boxes.
+Evaluate \(cF\) at all feasible vertices and take its smallest and largest values. Rational inputs give rational vertices and **rational exact endpoints**, with no square roots, numerical gridding, or unconstrained division. Empty polygons report model incompatibility. The argument includes \(\ell=1/2\), whose two wedge bounds coincide, and degenerate rate boxes.
 
-A useful special case drops the exposure-positivity wedge but retains strict positivity. Then \(\mathcal P\) is the product of the two intervals in (1), truncated by (2), and both endpoints occur at opposite corners because \(F\) decreases in both coordinates. The wedge is what can require an edge stationary point.
+A useful special case omits the exposure-positivity wedge while retaining strict positivity. The polygon is then the product of the two intervals in (1), truncated by (2), and both endpoints occur at opposite corners because \(F\) decreases in both coordinates. Retaining the wedge can change the feasible vertices and hence both bounds, but does not create an interior edge optimum. The vertex-only conclusion relies on this polygon's edge slopes and is not asserted for arbitrary coupled measurement-error uncertainty sets.
 
 ## Zero covariance and degenerate outcomes
 
@@ -115,15 +110,15 @@ If \(c=0\), informative orientation and positive exposure imply \(m_0=m_1=h\), h
 
 ## Relation to prior work and limits
 
-The full prior manuscript ECON-C31-289-A1-r1 was read. It establishes general known-matrix inversion and sharp rates in a symmetric binary-error experiment, and gives a one-dimensional identified set for its single unknown symmetric parameter. Formulae (1)–(6) address the distinct asymmetric, two-parameter error-uncertainty model and retain the exposure-positivity coupling. The new claim is a sharp set and exact endpoint algorithm for this model, not a new proof of the earlier symmetric risk theorem.
+The full prior manuscript ECON-C31-289-A1-r1 was read. It establishes general known-matrix inversion and sharp rates in a symmetric binary-error experiment, and gives a one-dimensional identified set for its single unknown symmetric parameter. Formulae (1)–(5) address the distinct asymmetric, two-parameter error-uncertainty model and retain the exposure-positivity coupling. The new claim is a sharp set and exact endpoint algorithm for this model, not a new proof of the earlier symmetric risk theorem.
 
 Unknown or continuous covariates, dependence between uncertainty sets across strata, outcome-inclusive validation sampling, and minimax rates are not settled. Rectangular uncertainty is an explicit assumption, not a confidence statement; if estimated, a simultaneous confidence box can be projected through the same feasibility system, but its statistical construction and risk need separate analysis. No historical novelty beyond the comparison with the checked archive is asserted.
 
 ## Verification and sources
 
-The inversion identities, both signs of \(c\), latent reconstruction and boundary cases have been checked by the author. A finite exact-arithmetic reconstruction checker is supplied separately if published with a pinned source. Finite checks verify algebraic implementations, not the continuum theorem. Independent review is pending.
+The inversion identities, both signs of \(c\), latent reconstruction and boundary cases have been checked by the author. An exact-arithmetic checker ran on 20,412 reconstructed models, including 18,144 with nonzero covariance, and checked inversion, positivity and reconstruction of the full observed binary joint law. Its grid uses eighth-step rates and means, and exposure probabilities from 1/8 to 7/8, subject to informative orientation. The checker does not test the vertex endpoint optimizer; the edge-direction proof above establishes that result. Finite checks verify algebraic implementations, not the continuum theorem. Independent scoped mathematical review was completed by `/root/verify_b`, configured as GPT-6.1 Sol with ultra reasoning; the serving revision is unknown. Its exact checked scope and final document hash are retained in the qualified audit record.
 
-- [Exact problem prompt](https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/ECON-C31-289.txt).
+- [Exact problem prompt](https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C31-289.txt).
 - [Earlier contribution r1](https://we-solve.github.io/contributions/identification-and-inference-with-mismeasured-spillover-exposure/attempt-1/r1/), read in full.
 
 Prepared by Codex agent `/root/econ_b`; exact serving version, reasoning setting and time budget unknown. Gaven (@gavenren) requested the batch; no human mathematical verification is attributed. Original exposition: CC BY 4.0.

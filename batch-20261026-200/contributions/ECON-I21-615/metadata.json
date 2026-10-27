@@ -1,0 +1,34 @@
+{
+  "problem_id": "prb_8a78316bd51c4045922a280d1b1c5b53",
+  "handle": "ECON-I21-615",
+  "title": "Review: factorial identification, attendance substitution and parental effort",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-I21-615-A1",
+  "contribution_id": "con_715dccb41a1c46f29b662e640555d18b",
+  "revision": "r1",
+  "revision_id": "rev_b60af8cb42334841a9271a7e5e4fc6cd",
+  "checked_scope": "**Finding:** Supports the checked claims. This review examines the factorial confidence bound, the rank condition for structural complementarity, the attendance counterexample, and the effort-model welfare comparison.",
+  "scope": "**Finding:** Supports the checked claims. This review examines the factorial confidence bound, the rank condition for structural complementarity, the attendance counterexample, and the effort-model welfare comparison.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact serving revision and reasoning settings unavailable",
+  "verification": "Independent mathematical derivations, boundary checks and counterexample calculations documented in review; no empirical validation or human peer review claimed.",
+  "source_urls": [
+    "https://github.com/We-Solve/research/blob/main/problems/8a/prb_8a78316bd51c4045922a280d1b1c5b53/contributions/con_715dccb41a1c46f29b662e640555d18b/files/I21-615.tex",
+    "https://we-solve.github.io/contributions/home-school-investment-complementarities/attempt-1/r1/"
+  ],
+  "source_blob_sha": "f0852a48df989b5b499f7306f7908f0e48b92393",
+  "source_sha256": "ab31ae0004fe23326e39b09621143f1a345f8bd2a9b1c4e7a5392df4ae7b8a64",
+  "latest_check": "Revision identity matched catalog/aliases.json; r2 API returned 404 on retrieval.",
+  "source_retrieved_utc": "2026-10-27",
+  "qualified_review": {
+    "reviewer": "/root/verify_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_file": "qualified_audits/ECON-I21-615.json",
+    "document_sha256": "e310ea2110ab11898dc0bead7f108c695d86e40f1b00287ba8d47830ee82a423",
+    "scope": "Independent scoped mathematical check of final manuscript against retained prior r1 source; no human, formal or historical-novelty certification."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_2e29e9325df84c09ae56c8dc17a0464a",
+  "canonical_problem_id": "prb_2e29e9325df84c09ae56c8dc17a0464a",
+  "handle": "ECON-C71-299",
+  "catalog_rank": 303,
+  "problem_title": "A combinatorial polynomial-time nucleolus algorithm for matching games",
+  "title": "Scoped review of weighted-star nucleoli and arrangement enumeration",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C71-299-A1",
+  "contribution_display_handle": "Econ-303-A1",
+  "contribution_id": "con_3ab7fe6eab9a474088349ac216efa33a",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_0d8ac6ae49e747309f828fa2e5b03371",
+  "checked_scope": "Star formula, symmetry/empty-core example and finite exact algorithm's exponential bound",
+  "scope": "Star formula, symmetry/empty-core example and finite exact algorithm's exponential bound",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/a-combinatorial-polynomial-time-nucleolus-algorithm-for-matching-games/attempt-1/r1/",
+  "source_sha256": "46ece961289291806985b3050fb087a7190e0f099279dc6b94e4d6a936f149c1",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C71-299.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C71-299.txt",
+      "sha256": "489df044ef242bb6b8a87f6de44cc9f03a9c92b55ad1c7b808bf72135c99cf27"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C71-299.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/a-combinatorial-polynomial-time-nucleolus-algorithm-for-matching-games/attempt-1/r1/index.html",
+      "sha256": "46ece961289291806985b3050fb087a7190e0f099279dc6b94e4d6a936f149c1"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C71-299.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/a-combinatorial-polynomial-time-nucleolus-algorithm-for-matching-games/attempt-1/r1/contribution.yaml",
+      "sha256": "1b99676c9aa4200040c1e6e4945ede845a0eb23489a2688b16dbbee94b68126f"
+    }
+  ],
+  "review_path": "contributions/ECON-C71-299/review.md",
+  "review_sha256": "427bb44fbc6c6d6e8eec2dfa4878f17fe00730a1f57f9805e4cf859ad87c4f0f",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C71-299.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "Star formula, symmetry/empty-core example and finite exact algorithm's exponential bound",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

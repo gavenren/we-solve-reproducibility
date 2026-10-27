@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-D31-330",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D31-330/review.md",
+  "document_sha256": "788899811e3f3f3d6e734a1529ecacf091a82ce3a66bd20aa6f25b6dd7014119",
+  "checked_scope": "Sharp statistical-envelope bounds for the fixed top-income rent-share ratio, including atoms, weighting and attainable endpoints.",
+  "checks": [
+    "Checked the fixed observed denominator makes envelope optimization linear in the latent-productivity numerator; measurable endpoint and convex interpolating selections preserve the observable law and attain the entire interval.",
+    "Recomputed the pay atom example: top-half fractional weight at pay ten is one half, D=7, and L=y/2,U=4y/5 yield rent-share interval [1/5,1/2].",
+    "Verified the aggregate ratio 11/30 differs from average individual ratio 3/10 in the two-observation example, and nonnegative-rent restrictions must intersect the pointwise envelope before integration.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-D31-330.txt",
+      "sha256": "ab63f2b32a508fe45739d1b455971ba56051b6f09a78a4bcff4ed91c179466a2",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-D31-330_A1.txt",
+      "sha256": "7e7e60c3fa10ede1e1a8bed2d9411690f1d8072ef801d980969853b3977796a8",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-D31-330/source_notes.md",
+      "sha256": "0b6be397d0d85bcc4322cb54cedb72df4f938445ef04267e67584fa8b87566ca",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-D31-330_A1.yaml",
+      "sha256": "285797a0e3d54fb8b0460ea23380939615d8dcf6951d2ff9e564c03a49861f2e",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Sharpness is only for the unconstrained statistical envelope class with finite weighted moments and positive denominator. Economic productivity envelopes, governance exclusions and production-equilibrium sharpness are not established.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

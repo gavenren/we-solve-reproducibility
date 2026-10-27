@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_5272338426ee4391ae4a4e067ac26cda",
+  "handle": "ECON-D61-402",
+  "title": "Independent review of ECON-D61-402-A1: Demand-preserving welfare equivalence and signed marginal-benefit sharpness",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-D61-402-A1",
+  "contribution_id": "con_b102617e843042e7977d90ac5955ef9c",
+  "revision_id": "rev_5cb8209629304a40a81e7db891bfd87c",
+  "finding": "Supports the claim",
+  "checked_scope": "Demand-preserving welfare equivalence and signed marginal-benefit sharpness",
+  "scope": "Demand-preserving welfare equivalence and signed marginal-benefit sharpness",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/welfare-effects-of-nudges/attempt-1/r1/",
+  "source_sha256": "effac3866cef5daab6e17d51e401e757a2e84c42dc30fb1609d8d062213326e8",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-D61-402.json"
+  }
+}

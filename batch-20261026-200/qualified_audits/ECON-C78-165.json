@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C78-165",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C78-165/review.md",
+  "document_sha256": "b2c5ba56a9086989c660366d4b7552c503958026f8dd02a1eb3d62280098993a",
+  "checked_scope": "The integer-margin replication reduction and deletion bounds for least-unpopularity margin.",
+  "checks": [
+    "Private unmatched dummies turn fixed-incumbent vote maximization into weighted assignment with integer optimum margin in [0,n]. Disjoint challenger choices and incumbent optimizations add exactly across components.",
+    "For t copies and g(tN)<t, total margin<t(mu_star+1) forces an integer-optimal component; evaluating components identifies it. For C N^(1-epsilon), polynomial t suffices for fixed C,epsilon; arbitrary g=o(N), such as N/log N, does not imply polynomial replication.",
+    "Restricting matchings/challengers to a core and leaving deleted applicants unmatched in the reverse direction changes vote sums by at most k. Thus |mu_star(I)-mu_star(core)|<=k and any extension of a popular core preserving core assignments has margin<=k. External NP-hardness is outside verification."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C78-165.txt",
+      "sha256": "9bc8495d58ccdf5648f5e75e6ba1b46973d08c2c5b350df9141fc79c53bf8110",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C78-165-prior.html",
+      "sha256": "8fbaccee3aed0e218008f9f7ca26550d993278fc12439afdf8acf617b0edb7e4",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C78-165-prior.txt",
+      "sha256": "36aeb4efcb27c4fefb294ed5c36b0bbee21e4ef14626ab3a66148256c9eb6868",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C78-165/metadata.json",
+      "sha256": "f36f8bddae2c62ba7b624b8d4ed976ae339878b1f638744a396f591d6aea9735",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C78-165/source_notes.md",
+      "sha256": "b289e35baae7b9a9fc50e7ab21a346fd49e54d934deb4a03c46e92d12071d521",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C78-165-prior.yaml",
+      "sha256": "5d7bd13066a93043b0309d3ccc1ef44a0f0c1740a2b7b5718b14ef593b5255f2",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "The reduction and deletion certificate are supported as conditional mathematical statements. I did not independently verify the cited NP-hardness source, and the replication argument must not be generalized to every sublinear additive guarantee.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

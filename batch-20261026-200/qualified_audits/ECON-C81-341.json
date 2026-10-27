@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-C81-341",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C81-341/review.md",
+  "document_sha256": "0e86e874b036b9d45a782e012a73af737bf6c0ce9028f3c596b90d3c20a89cda",
+  "checked_scope": "The finite reporting-kernel LP, including exact causal-model reconstruction, zero-probability latent rows and attained sharp endpoints.",
+  "checks": [
+    "Checked row normalization K=z/pi when pi>0 converts the LP inequalities into stochastic TV-bounded reporting kernels. Zero pi forces z and u rows to zero, permitting K0 on unused rows.",
+    "Used randomized treatment-balance equations to normalize each treatment-specific potential-outcome marginal in a positive-mass X stratum; independent potential-outcome generation followed by randomized D reproduces every latent table cell and observed q.",
+    "Verified the linear objective is the population ATE, auxiliaries are bounded by finite row sums, and convex compact feasibility gives attained extrema and every intermediate target via reconstruction.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C81-341.txt",
+      "sha256": "8a5cbc26a0183b19daaf49d55a97434b1dd034476f183e55aabdbf7c5ae5f886",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-C81-341_A1.txt",
+      "sha256": "15fde9ba528da5d064927d5b44443f6dc5a3de49257eaf0ada4c717c51029abc",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-C81-341/source_notes.md",
+      "sha256": "72691c3698ccadd95993f77b82a9ee8585b55030aab9a9febaf988b703a91643",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-C81-341_A1.yaml",
+      "sha256": "3d1c9069d4383651b888248c98c895c0bacf30d7dd2dd9a2bb1a3df8662b37e1",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Known randomized propensities, finite latent/report states and validated kernel rows are required. Observational confounding, absent persons, empirical kernel calibration and optimal validation rates are not resolved.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

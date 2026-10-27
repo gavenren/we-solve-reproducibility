@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-C21-569",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C21-569/review.md",
+  "document_sha256": "8c227421d726ecdf7a29874fd3c1f7a8bef1451e9c53fa5779e163ce8f1fe9e8",
+  "checked_scope": "**Finding:** Supports the claim within the stated finite-stratum and noiseless-anchor models. **Checked scope:** The sharp coupled-bound theorem, stratified confidence proposition, and one-dimensional anchor theorem in ECON-C21-569-A1, revision r1.",
+  "checks": [
+    "Verified the max/min metric envelopes are jointly Lipschitz and satisfy all local intervals exactly when A<=B; nonnegative target weights make simultaneous envelope vectors attain both target endpoints.",
+    "Independently computed the three-stratum interval [11/60,13/60], the uncoupled interval [-1/30,3/10], and infeasibility when endpoint drift is changed to 3/5.",
+    "Checked the alpha/(2K) allocation for each of 2K arm means and membership of the true drift on the simultaneous event; this covers a target value with a supplied L.",
+    "Distance-function attainment and Voronoi-cell integral >=sum(h_j^2)/4>=1/(4K) yield sharp width L/(2K); checked K=1, and the outcome cap is nonbinding under L<=1."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-C21-569/prior.tex",
+      "sha256": "01eee192ac64a8dcfdb100f467fa1afa00f8ea49b00c8bec1ad392aedca77565",
+      "git_blob_sha": "cd8b561dabfa2946df62e067d6b03deac13dc873",
+      "revision": "r1",
+      "revision_id": "rev_850eb1ac556f46d98e0271fe1fe1c276",
+      "contribution_id": "con_e0026b3e9b654ff7bf77b8d26dd1873a",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-C21-569/record.json",
+      "sha256": "d3d4faef035860690d138ab95c0f523ee8ca2e50337d1dcfdbfe52039218273a",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "A supplied Lipschitz modulus and finite/noiseless design restrictions are not empirically validated or learned by this audit; no noisy adaptive-design optimality.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

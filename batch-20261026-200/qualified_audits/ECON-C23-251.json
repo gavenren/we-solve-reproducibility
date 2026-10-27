@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C23-251",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C23-251/review.md",
+  "document_sha256": "8b3b45edd71ab84032aa3b99fbb8851aff7466a74b64b48073475190930ddc15",
+  "checked_scope": "The finite-history weighting identity, simultaneous-risk lower bound and low-rank nonidentification example.",
+  "checks": [
+    "Backward conditioning removes each history likelihood-ratio factor only under the stated randomization given all potential outcomes. L_h^2<=epsilon^-k L_h gives variance order epsilon^-k.",
+    "For fair assignment, one elevated history contributes KL<=4n*delta^2/J. J sup-norm-separated alternatives with Fano yield the J log(J)/n lower order and bounded-risk saturation; J=2 and a single contrast use the separate two-point argument.",
+    "The observed panels D_t=Y_t=U coincide in the causal-current-treatment and latent-unit-effect models, while effects differ and untreated panels both have rank at most one. Low rank alone does not identify effects."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C23-251.txt",
+      "sha256": "f9340e4f1c3294e99942ace21704b48c773e720efcd8b6e5363fa1191bb51787",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C23-251.prior0.html",
+      "sha256": "1007ca4eaa18f2aff2834942874653437b61e7ff84b63e6a695417160ed38c0f",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C23-251.prior0.yaml",
+      "sha256": "249b0ed0e64454ac39e8b7cf194441f4cff60f201c9d77668229b85ef0771786",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C23-251/source_notes.md",
+      "sha256": "942b4942243e32767d92822111b96edebca24a15024f8de56e111decc8f2fc4b",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_22fac82979494d45871b8010dcb39e5c",
+  "handle": "ECON-C21-469",
+  "title": "Audit of anisotropic approximation and the derivative-rate balance",
+  "contribution_handle": "ECON-C21-469-A1",
+  "contribution_id": "con_b7f869a1270e4be591b36c44a5ae7b63",
+  "revision_id": "rev_08f929e435934ac4975f7f60fa6e3db0",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The fixed-overlap upper and lower rate, focusing on separate smoothness, derivative bias, and bandwidth balancing.",
+  "scope": "The fixed-overlap upper and lower rate, focusing on separate smoothness, derivative bias, and bandwidth balancing.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/heterogeneous-marginal-effects-of-a-continuous-treatment/attempt-1/r1/",
+  "source_sha256": "2d9795f3cbc0946faac2ef9b59bb774020b41a36bbe1fe1a9a9ab4d7828fefb8",
+  "review_path": "reviews/ECON-C21-469/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-C21-469.json",
+  "document_sha256": "59d45ea058a6f046ce7770c212ad1e96b36ec6ba1fddd579a5fa5a95f49e1c3e"
+}

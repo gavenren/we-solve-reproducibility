@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-C21-314",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C21-314/review.md",
+  "document_sha256": "2116101faa74cc0d254e0120103d1b1040e288543af2e397618604c564c89d0f",
+  "checked_scope": "The pooled histogram upper risk bound for 0<β≤1, including nonidentical cell counts and empty cells; not the full unrestricted minimax problem.",
+  "checks": [
+    "Reintegrated t^M to obtain E[1/(M+1)] and used the Poisson-binomial product bound; iid membership is unnecessary.",
+    "Verified 1/M<=2/(M+1), P(M=0)<=exp(-mu)<=1/mu, and P0(A)/mu<=kappa/(N epsilon), with zero source-mass cells contributing zero target mass.",
+    "Checked common response means in each cell remain in one Holder oscillation band, clipping to [-1,1] cannot increase squared error, and summing K cells yields the scoped upper risk term without a propensity smoothness term.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C21-314.txt",
+      "sha256": "4621dcccf64a1e9a6061f024577a3b848bd35e5f5d4ef13d0fc6598d1ec3b083",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-C21-314_A1.txt",
+      "sha256": "3c9490817a6707d1ef9079a34aa9ab232e57eb26016aad6789f42a7e6f728de8",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-C21-314/source_notes.md",
+      "sha256": "c137fa0081fc86c5ab964a3aac0aba3334f64b1e9c014879d0a3a9848dd2f317",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-C21-314_A1.yaml",
+      "sha256": "fb6d2d443a593c6f9e1747370e9b5a06957be9572d0f6fae893f939e46f03d87",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Only the piecewise-constant upper bound for 0<beta<=1 under common responses and fixed overlap is approved. The unrestricted minimax lower bound, higher-order smoothness and jointly smooth transport-deviation recovery are not certified.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

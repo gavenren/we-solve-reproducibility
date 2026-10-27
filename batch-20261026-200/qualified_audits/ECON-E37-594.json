@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-E37-594",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-E37-594/review.md",
+  "document_sha256": "aff3dd98b281d5eafcfaa960792f882f4a898818f29b239278a0dbc0c4107a67",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** delayed Brier regret theorem, delay lower bound and unnormalized calibration proposition in ECON-E37-594-A1, revision r1.",
+  "checks": [
+    "At learning rate 1/2, exp(-eta*(p-y)^2) is concave on [0,1]; residue subsequences permit exponential-weight telescoping only under arrival-before-forecast timing.",
+    "Checked the negative-log Markov path prior and nondecreasing complexity for k<=K when gamma<=1/2; summing against the same path multiplies complexity by d, with K=0 handled separately.",
+    "Two equiprobable Bernoulli worlds give prelabel excess risk (1-2*epsilon)^2/4 per date; positive-output recursion respects delayed labels and later expected excess cannot remove the bound.",
+    "Truth-in-class Brier excess equals E(p-q)^2. Within-residue centered labels are orthogonal; cross-residue squared-sum bound gives dT without independence. Calibration divides by T and does not cover rare-bin conditional calibration."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-E37-594/prior.tex",
+      "sha256": "2ba30eb9d6e8bedcfb6eeb6cef03bedef1d802d5972b35b86cadf82c49d80cc9",
+      "git_blob_sha": "25652378df0387a8b102337a8ed42b0123a64a00",
+      "revision": "r1",
+      "revision_id": "rev_3f9737175ecf4c3aa939fde5237bcba2",
+      "contribution_id": "con_c9c3053404204193b2199bea62364e71",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-E37-594/record.json",
+      "sha256": "294014e221f37426124bb60787d0fe2b84dabdbe9db6c6be1cc11a70cdd29e59",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Delay bound is conservative, truth must belong to the finite switching class for calibration, and unnormalized bin error does not establish rare-bin conditional calibration.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

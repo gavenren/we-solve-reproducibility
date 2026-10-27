@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C78-392",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C78-392/review.md",
+  "document_sha256": "915d15c171a601a69142ba25bd7b5df6f83da7f584e518e39aaae707d231cf74",
+  "checked_scope": "Fixed-agent deletion, the total-swap-budget kernel, and shortest certificates",
+  "checks": [
+    "Checked strict improvement prevents every nonmover from participating and makes deleting both those applicants and their houses a reversible reduction for the specified target.",
+    "Checked BFS soundness/completeness and shortest paths on at most k! allocations; necessary k<=2ell and at most k(k-1)/2 reduced swaps justify budget capping and polynomial encoding size.",
+    "Checked empty displacement and impossible one-coordinate displacement, disjoint-transposition sufficiency for one participation, and its acceptable-list-length-two corollary; no list-three/treewidth conclusion is inferred."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-C78-392/source_notes.md",
+      "sha256": "36be92046855c66461ae761b4c4daff4ff9a812f15afe1e70798b9c1b2159e65",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-C78-392/metadata.json",
+      "sha256": "5d8a773d9e3b419eca854a24cfad0ac547c891ff773e2e6481877e88bb285dcc",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/parameterized-reachability-of-allocations-by-improving-swaps_attempt-1_r1.html",
+      "sha256": "f85e0857895e7d2bf99fa36e02b9fa0e0ce1c7d42966e1086ecee04a8a70c25f",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/parameterized-reachability-of-allocations-by-improving-swaps_attempt-1_r1.txt",
+      "sha256": "345a48e4201344af706a372dd69df04cc4b8ce9b732995c0ad2d849250f18b9c",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-C78-392-A1.yaml",
+      "sha256": "eeda73be403b176e940c8e3b435666ea9e5ac82fb63460028c0ac56c0380b598",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

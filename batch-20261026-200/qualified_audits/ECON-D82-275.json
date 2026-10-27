@@ -1,0 +1,53 @@
+{
+  "handle": "ECON-D82-275",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D82-275/review.md",
+  "document_sha256": "067a74eb575b56ff337318a2fb5e83754e7f6beb8d3949e12e68aa8d51d70bdd",
+  "checked_scope": "Reward optimizer conditional on participation (including acceptance at the zero-reward utility tie), endpoint cases, and finite protocol-lottery perturbation bound",
+  "checks": [
+    "Conditional on participation, the cap ensures as/kappa<=1 and strict concavity gives unique effort; substitution yields W=Bq-lambda*q*s+(a^2/kappa)(Bs-cs^2). The worst coefficient is overline(kappa) only on the nonnegative-bracket region; rewards beyond B/c are dominated.",
+    "The clipped stationary point of the strictly concave robust quadratic gives the stated optimum, including zero cap, incentive-threshold equality, q=0 and lambda=0. Review and metadata were qualified: at s=0 decline also yields utility zero, so the Bq baseline and attainment require acceptance at that tie.",
+    "A fixed compact common response polytope gives a vertex LP. Uniform entry perturbation eta changes every lottery value by <=eta; comparing optimizers gives loss<=2eta. Identity payoff matrix separates common-array ambiguity from nature observing the realized protocol."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-D82-275.txt",
+      "sha256": "f2bf1a40ae929dafeb59ea4fd0e82e016c024034fba90daf8c6ce378fbccf8d9",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-D82-275.prior0.html",
+      "sha256": "178affa8868b045f2d2913467087341dcdd4d755fb0639c46ffc146f7bf349e4",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-D82-275.prior0.yaml",
+      "sha256": "7a197abd7027756dd1f00969a9d2cdf987e2c8859df67328a1dacad3c1027179",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-D82-275/source_notes.md",
+      "sha256": "abacdaa390d86e195627447b1db3bade981379e58294a6db42f5be804d2f71b9",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Reward performance is conditional on participation and acceptance at the zero-reward utility tie. Without that convention the attained optimizer is unestablished; lottery result needs the fixed common ambiguity timing.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ],
+  "assistance": {
+    "reviewer": "/root/verify_b/b_source_check",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "role": "Additional independent retained-source and mathematical checks for the exact scoped contribution documented in this audit."
+  }
+}

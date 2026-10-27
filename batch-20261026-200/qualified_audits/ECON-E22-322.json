@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-E22-322",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-E22-322/review.md",
+  "document_sha256": "54c87b6be03baf18e2b2794ac0e232ee2e904e786813b699b96b652923765838",
+  "checked_scope": "Cash-constrained investment derivatives, threshold entry term, and the failure of differentiability at an atom on the financing boundary.",
+  "checks": [
+    "Verified the strictly concave optimizer is min((z-1+tau)+/q,b/(1-tau)); at (q,b,z)=(1,2,3), right and left derivatives are one and two, so boundary mass can create aggregate nondifferentiability.",
+    "Checked the financing multiplier contributes +eta*i to Vtau. Solving the binding entry threshold gives z*=1-tau+F(1-tau)/b+qb/[2(1-tau)]; (q,b,F)=(1,1,3/2) yields z*=3, eta=1 and derivative -2.",
+    "Verified the entry investment boundary contribution 2f(3) is nonzero despite zero net entry profit, and the total-variation measure product rule needs its stated stronger norms; moving delta_tau does not satisfy them.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-E22-322.txt",
+      "sha256": "9877d3664adaff568b7d56b174b0f616d2647138dfd498517d0714c490f1323b",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-E22-322_A1.txt",
+      "sha256": "cd8576b8dfd545f5217702384818e5599a8d6198a6ec8a32883b861796abdf4d",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-E22-322/source_notes.md",
+      "sha256": "a464c5440f3dee97343d1a24e4d094c8c6e8e993feed9b4998e3da16cd54fecf",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-E22-322_A1.yaml",
+      "sha256": "087d465ad7ace6009d4dc056a206d43857103a726e9eb739893ce487ddc8d98f",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Partial-equilibrium investment and accounting/entry identities only. Re-cleared dynamic prices, financing, changing states and a complete causal constraint decomposition are not identified.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

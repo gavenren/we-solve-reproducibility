@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-I38-465",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-I38-465/review.md",
+  "document_sha256": "4a0203704db62e95c6f8aed8a452aae6af6e8264e083043ece6c954b20614da3",
+  "checked_scope": "Truthful audit envelope, zero-selection boundary, and robust welfare certificate",
+  "checks": [
+    "Derived truthful and deviating utility using unconditional selected-and-audited mass v_j, checked the maximum audit lower envelope is always <=pi_j, and handled pi_j=0 without division. Nonnegative audit costs make the envelope jointly minimal.",
+    "Verified truthful expected audit spending mu_j k_j v_j, LP equivalence and compact attainment under weak truthfulness, with no outcome-uniqueness assertion.",
+    "Recomputed two-type cost derivative (1-k)/2 and universal-selection welfare dominance at B=1 with nonnegative gains.",
+    "Checked the rectangular lower-corner minimax rule and both deterministic regret bounds, retaining the separation of applicant private benefit, social gain and administrative primitives."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-I38-465/source_notes.md",
+      "sha256": "9288cb55608e27a01b16fd43f86c851f252e184c25485074c14793638e0d0576",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-I38-465/metadata.json",
+      "sha256": "7ea8b051889af36553c664c0e3b101f381de9a8323bfcd0b01d539f2fc5f93e7",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/targeting-need-versus-potential-impact_attempt-1_r1.html",
+      "sha256": "5d61cec6b4c8db1c2c69b1160ef17520f2ef09db72cb7958ac5d4948062931ab",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/targeting-need-versus-potential-impact_attempt-1_r1.txt",
+      "sha256": "416f41f7be3f47dcc29d8b2db3e2e8e801042b3bf6bb03cd429097512545349c",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-I38-465-A1.yaml",
+      "sha256": "d736f198b97dd8596cfbeeac56625b980f8c2ec569c2859162e31bff4bcc194e",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

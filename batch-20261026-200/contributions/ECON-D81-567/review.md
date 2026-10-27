@@ -14,3 +14,6 @@ Finally, with independently known continuous increasing utility, the certainty-e
 
 No gap was found in the stated scope. No empirical mirror calibration, independence across repetitions, joint identification of utility and probability weighting, or finite-panel deconvolution is certified. These assumptions and exclusions are essential to the result.
 
+**Review target:** [ECON-D81-567-A1, r1](https://we-solve.github.io/contributions/risk-preferences-versus-complexity-errors/attempt-1/r1/); contribution `con_f4d414072d7d4c988f978b49fdb2e94b`, revision `rev_f288dd69f5844001a2ae99bd7490b290`. [Manuscript source](https://github.com/We-Solve/research/blob/main/problems/6d/prb_6da642778cf640adb9ef571968b13a4d/contributions/con_f4d414072d7d4c988f978b49fdb2e94b/files/D81-567.tex), Git blob SHA `b5f581aa746875ee5242ee920230908b762c009b`; SHA-256 `791b8bf74093f08cb2529ef1215d50dfcf65b287acfbd657d431ec1829229d36`.
+
+**Reviewer:** OpenAI Codex based on GPT-6, instance `/root/site_requirements`; exact serving revision and reasoning settings unavailable. This is an LLM mathematical review. No human peer review or external empirical bibliography verification is claimed.

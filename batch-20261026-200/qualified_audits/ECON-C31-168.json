@@ -1,0 +1,68 @@
+{
+  "handle": "ECON-C31-168",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C31-168/review.md",
+  "document_sha256": "69944ce6a822c2e5fa2d9781f30704fe4713bd74abb888479f3bc06da908d0f7",
+  "checked_scope": "The finite response-function representation, response-revealing experiment, and swapped-array counterexample.",
+  "checks": [
+    "Finite acyclic node response arrays are functions of node noises and independent when noises are independent. Summing product simplex masses over response tuples exactly characterizes full joint intervention-table laws; a common latent requires only support on realizable tables.",
+    "Response-revealing interventions recover every response entry, so compatibility T(rho(t))=t plus mutual independence of recovered arrays is necessary/sufficient. Products for tuples outside observed support must be tested as well.",
+    "Arrays (U,V) and (V,U) give independent fair pairs in each fixed-treatment world but joint complete-array zero event 1/4 instead of 1/16. The independent-four-bit law has the same observable/single-world vector laws. This excludes independent errors only, not shared-latent representations."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C31-168.txt",
+      "sha256": "26d2287eab4c4c0ebc87d4277c478f55acc2670530fef0c4a23bd78a8f09995d",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C31-168-prior.html",
+      "sha256": "505f6be4ef1485fc4ffe80e24ffc99a13c7f95b8f8ed48861225679134a313bd",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C31-168-prior.txt",
+      "sha256": "6f65c5c22dc3070dcfac64d87530d072e05ceb515ff736fee686f8f40c167a96",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C31-168/metadata.json",
+      "sha256": "c851bc5ce9e03ea06696bc75661f67f39948a0f97de3ab990f14ade5e5f7b372",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C31-168/source_notes.md",
+      "sha256": "f1e69b7599a7e6226e721ddf934f9eaf29b95e34781ea3494469923c1a0ef369",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C31-168-prior.yaml",
+      "sha256": "dd4c673e1f1410b1feb97f38c22bf8023b13624eb9e690239975573ed1a3168c",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    },
+    {
+      "path": "verify_econ_a_reviews.py",
+      "sha256": "3fa86e108ffffb86f11d783753dd7bf21e826c1007275cd96d956ac4422b4030",
+      "inspected_scope": "Inspected all ten finite-check routines, including assigned case construction and exact arithmetic; no redundant rerun."
+    },
+    {
+      "path": "econ_a_review_check_results.json",
+      "sha256": "7dd8233512ac5a13077a9a9ef4ec674fba459ff754b1f30d7541b11d03bebcf5",
+      "inspected_scope": "Inspected retained case counts/results and compared their stated scope to review."
+    }
+  ],
+  "limitations": [
+    "This supports the finite criterion and the obstruction. It does not identify arbitrary incomplete intervention tables, certify a real-algebraic complexity bound, or rule out representations with a shared latent variable.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "finite_evidence_inspected": {
+    "cases": 2,
+    "check": "Enumerated both fixed-treatment pair laws and the discrepant complete-array joint probability 1/4 versus 1/16."
+  }
+}

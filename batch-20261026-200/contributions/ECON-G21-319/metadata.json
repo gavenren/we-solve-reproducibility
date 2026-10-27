@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-G21-319",
+  "problem_id": "prb_18d00774edf4406496ca69541d876b30",
+  "catalog_rank": 323,
+  "title": "Independent review: Digital deposit runs",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Independent-arrival threshold distribution, its monotonicity, and the dependence and truthful-announcement boundary examples.",
+  "contribution_handle": "ECON-G21-319-A1",
+  "contribution_id": "con_ce663a37cdc04309acbb0db699b48928",
+  "revision_id": "rev_636caf4e3bbe4874a7ddc1d819559ae6",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/digital-deposit-runs/attempt-1/r1/",
+  "source_sha256": "dbdea812309ed4c8652fdba4779f32f688af5141889055bb19588bbd75be7b04",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-G21-319.json",
+  "qualified_audit": "qualified_audits/ECON-G21-319.json"
+}

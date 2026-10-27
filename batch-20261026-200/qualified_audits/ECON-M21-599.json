@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-M21-599",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-M21-599/review.md",
+  "document_sha256": "d64f8a1c8cb88a5fb04fb3c802d9747a45c55ecf127034639d09cc7aea0257d3",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** controlled-effect identification, binary knowledge-contamination bounds and fractional targeting duality in ECON-M21-599-A1, revision r1.",
+  "checks": [
+    "Controlled identification uses the identical knowledge argument under both support states; preassignment measurement alone does not supply the required knowledge-preservation exclusion.",
+    "T-Delta is the supported adoption difference across K1,K0; its integrand is zero on equal mastery and bounded by one otherwise. Individual mastery monotonicity identifies change probability as d_K, and adoption monotonicity makes contamination nonnegative.",
+    "Recomputed the opposite-mastery-transition example: marginal mastery stays 1/2 but type-specific supported adoption changes by one for every firm; equality of mastery means is insufficient without monotonicity.",
+    "Verified fractional knapsack density ordering g_j/c_j, dollar-exchange improvement, dual bound lambda*B+sum n_j*(g_j-lambda*c_j)_+, cutoff equality, slack-budget lambda=0, B=0 and zero-gain omission."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-M21-599/prior.tex",
+      "sha256": "1e4bfcd3d9a5bbd28e73697a4162efbccd54e6eef2333cf8a45fef9ed03d1cb6",
+      "git_blob_sha": "de7512f84f63dec120ec9626be177b35d44a88c0",
+      "revision": "r1",
+      "revision_id": "rev_0cfd49195b804a77bf830831e08ce23c",
+      "contribution_id": "con_e43e0581837f4c848dc7a497c54db2c0",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-M21-599/record.json",
+      "sha256": "22ccf4e1116a93d4611bd46b8e3f38f2c3e757497dcf7ef859d7184a1a2f6b55",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "No mastery measurement-error correction, natural mediation identification or rich-observed-law sharpness; allocation assumes divisible assignment and invariant profit effects.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

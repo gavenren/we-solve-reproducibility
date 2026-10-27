@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_879deaed61e64154af8b8e55241665e8",
+  "handle": "ECON-D91-507",
+  "title": "Audit of rollout extrapolation, welfare overcorrection, and joint confidence projection",
+  "contribution_handle": "ECON-D91-507-A1",
+  "contribution_id": "con_67915b84ec8b4ca6ac54790a48753de6",
+  "revision_id": "rev_0e041380286c4b89ac2f1fc2bce9ef9a",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The two linear market benchmarks and the sharp Lipschitz endpoint set.",
+  "scope": "The two linear market benchmarks and the sharp Lipschitz endpoint set.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/equilibrium-effects-of-nudges-at-scale/attempt-1/r1/",
+  "source_sha256": "35ddbf1ba2e4be63aa88de2e6d3c29dead497dc5b3cbe310edb344a7c60a765c",
+  "review_path": "reviews/ECON-D91-507/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-D91-507.json",
+  "document_sha256": "9223282bd58476ace17690c3144036bf7788449944aee6eddff87a400329b1ca"
+}

@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D91-499",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D91-499/review.md",
+  "document_sha256": "ccfcb44f87f031ae79c7a107c2dc2b53114903be57b9ca82f6e44c9ee48a4860",
+  "checked_scope": "The factorial intersections, pathwise observational equivalence, and exponential-tilt distribution result.",
+  "checks": [
+    "The crossed signal/desirability equations equate γℓ with ℓ+ηv and force γ=1,η=0. Corrected the overly strong claim about a single signal sign: a single signal–desirability cell permits compensation, while one nonzero signal sign crossed with both v signs already forces the same intersection.",
+    "Shared acquisition/erasure indicator, signal and error give equality of reports pointwise; conditioning this coupling on the common past proves equality of finite report-path laws. Differential processed-signal effects are an extra exclusion.",
+    "Gaussian exponential tilting completes the square to mean μ+ηv/T and unchanged precision T. The KL variational identity supplies global uniqueness among the stated finite-entropy distributions, and subjective precision implies slope 1−τ₀/T."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-D91-499_0.tex",
+      "sha256": "c08f40d6b75b9abc2865366ddbb37ea67258d6c08cc9b3834c95927f0b552ab6",
+      "revision_id": "rev_00048cdebaea4ddfa76a4138b5747e9c",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/a-unified-theory-of-belief-updating-biases/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

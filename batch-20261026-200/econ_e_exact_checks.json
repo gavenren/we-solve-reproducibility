@@ -1,0 +1,49 @@
+{
+  "ECON-D91-482": {
+    "exact_budget_comparisons": 495,
+    "n_range": [
+      2,
+      100
+    ],
+    "passed": true
+  },
+  "ECON-C72-489": {
+    "three_column_tensor_minor": "1/32",
+    "one_draw_equal_two_draw_different": true,
+    "second_moments": [
+      "5/16",
+      "1/4"
+    ]
+  },
+  "ECON-L51-495": [
+    {
+      "n": 3,
+      "Q": "3",
+      "CS": "9/4",
+      "W": "51/10"
+    },
+    {
+      "n": 2,
+      "Q": "10/3",
+      "CS": "25/9",
+      "W": "64/9"
+    }
+  ],
+  "ECON-C73-532": {
+    "new_sample_sizes": {
+      "singleton1": 2,
+      "singleton2": 1,
+      "joint": 3
+    },
+    "eta": "1/3",
+    "smoothed_marginal": [
+      "3/4",
+      "1/4"
+    ],
+    "weights": [
+      "5",
+      "1"
+    ],
+    "passed": true
+  }
+}

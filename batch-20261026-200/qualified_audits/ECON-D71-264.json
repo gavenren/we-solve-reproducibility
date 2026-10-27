@@ -1,0 +1,53 @@
+{
+  "handle": "ECON-D71-264",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D71-264/review.md",
+  "document_sha256": "c8c2f62b16c6c5e6cfd7b04f2125d8183f0089f001b9bc823b62d3a16a8cb8ff",
+  "checked_scope": "Randomized dictatorship's 3\u22122/n bound and sharp example; the favorite-only deterministic obstruction",
+  "checks": [
+    "Keeping the dictator voter separate gives SC(t_v)<=OPT+2(n-1)d(v,a_star), yielding exactly 3-2/n after averaging; n=1 and OPT=0 are covered without division.",
+    "The tied-distance line example has costs 1 and 2n-1 and attains the bound. A within-voter adaptive tournament uses exactly m-1 queries and is permitted in the original one-round convention.",
+    "The deterministic example preserves the favorite vector and forces distortion 2m-1. It does not preserve arbitrary richer comparison transcripts, so only the favorite-only impossibility is supported."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-D71-264.txt",
+      "sha256": "ddf0f975ad977648cd4b0d02ffe42df8439561511a323f3bd05c0da6307e68c4",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-D71-264.prior0.html",
+      "sha256": "848d8ee098bf3fe89ff25b2e89321edc7653f704277ec4d0f39570ad1d634527",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-D71-264.prior0.yaml",
+      "sha256": "96a4fb1c61ee75c33c74aa92f019ea0dec924b2837085a8396308ad288570035",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-D71-264/source_notes.md",
+      "sha256": "0e5574591c27287cd6ab52cb36a24814c7ab079e70bab5a04768bd096653395e",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ],
+  "assistance": {
+    "reviewer": "/root/verify_b/b_source_check",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "role": "Additional independent retained-source and mathematical checks for the exact scoped contribution documented in this audit."
+  }
+}

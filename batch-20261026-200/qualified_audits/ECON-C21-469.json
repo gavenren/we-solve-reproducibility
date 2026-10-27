@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-C21-469",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C21-469/review.md",
+  "document_sha256": "59d45ea058a6f046ce7770c212ad1e96b36ec6ba1fddd579a5fa5a95f49e1c3e",
+  "checked_scope": "The fixed-overlap upper and lower rate, focusing on separate smoothness, derivative bias, and bandwidth balancing.",
+  "checks": [
+    "Fixed-degree polynomial derivative stability supplies b^βx/h without assuming mixed derivatives; treatment approximation contributes h^(βw−1).",
+    "Balancing b^βx=h^βw and variance 1/(nh³b^d) gives exponent 2(βw−1)/(2βw+1+dβw/βx), including the stated βw=2, βx=d=1 example.",
+    "Separated sign bumps obey the separate Hölder radii, have adjacent KL of order na²hb^d and total derivative separation of order a²/h²; small-amplitude uniform-design submodel supplies the matching lower rate."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-C21-469_0.tex",
+      "sha256": "2d9795f3cbc0946faac2ef9b59bb774020b41a36bbe1fe1a9a9ab4d7828fefb8",
+      "revision_id": "rev_08f929e435934ac4975f7f60fa6e3db0",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/heterogeneous-marginal-effects-of-a-continuous-treatment/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

@@ -1,0 +1,75 @@
+{
+  "handle": "ECON-C21-206",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C21-206/report.md",
+  "document_sha256": "51c43543c26c35ebcd3b65824ad5c50eeb87030696a2dd9b44b3c9fbd0ff423c",
+  "checked_scope": "Exact product-bias identity and explicit simultaneous finite-sample error bound for a low-dimensional two-arm tilt estimator with unknown reference normalizer; no covariates, fiber-constant controlled response and bounded density ratio.",
+  "checks": [
+    "Conditioning on independent nuisance training and arm-specific independent evaluation samples gives exact numerator bias E1[(rhat-r0)(m-mhat)a_theta]; Cauchy-Schwarz bounds it by exp(R)uv. No finite-sample ratio-unbiasedness claim is made.",
+    "On ||theta||1<=R and features in [0,1]^r, exp(-R)<=a_theta<=exp(R), so the empirical normalizer is deterministically positive. Ratio subtraction gives exp(R)(|Fhat-F|+B|Zhat-Z|).",
+    "Checked all Hoeffding ranges and 6H/ zeta union allocation: first summand absolute envelope B exp(R), residual summand 2BR1 exp(R), normalizer exp(R). Empirical-minus-expectation Lipschitz constants are twice the envelopes; net extension and final factor two are conservative and valid.",
+    "The cardinality bound (1+4Rr/tau)^r is valid, R=0 handled separately, and tau=1/n yields the stated logarithmic stochastic order. High-probability training certificates yield unconditional loss zeta0; conditional coverage is only on the training event.",
+    "Prior full manuscript supplies tilt disintegration and known-normalizer experiment. This report correctly retains fiber constancy/causal identification while treating unknown reference features and product nuisance errors."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C21-206.txt",
+      "sha256": "6ae6b9644530d801242165ee0f9fc5112898a513e1cac8fed2e941ac92bc2928",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C21-206-prior.html",
+      "sha256": "d18c41588aba8918dfe8712e3638f99b900d8391f09c98c4d33a987c0b6c2bd7",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C21-206-prior.txt",
+      "sha256": "3e2cfc93ae7692a60f121b093ac4b0d6a075a8fa69e3273bd6f2af46baf9a62d",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "contributions/ECON-C21-206/metadata.json",
+      "sha256": "0419c0fbdca1e815057827f6789e8f664dcaf26ee89dc7c8800ec6269b28a047",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "contributions/ECON-C21-206/source_notes.md",
+      "sha256": "6da51c73b1c2c8e91c277cf7fdab6cab1f7a72346a2ac9f17feb6349bbea8edd",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "contributions/ECON-C21-206/verify.py",
+      "sha256": "8e39d83427c8263b583784e9458422086236f7e50c5fa3cce86a04caa23477fe",
+      "inspected_scope": "Inspected exact finite checker code; hash matches successful root rerun."
+    },
+    {
+      "path": "root_audits/ECON-C21-206.json",
+      "sha256": "df0e5ff603dda8cef3dd41ffd6595e11e0e2e03a7e6c83d58de5c48778803364",
+      "inspected_scope": "Inspected earlier root written-proof audit; no substitution for this independent derivation."
+    },
+    {
+      "path": "root_checker_runs.json",
+      "sha256": "e34cfee3cfbcf94bb08610d9cb5880aeef655dc5436c166e9a08eccfc72ab861",
+      "inspected_scope": "Inspected successful unchanged-script rerun evidence; reviewer did not redundantly rerun."
+    }
+  ],
+  "limitations": [
+    "Only no-covariate two-arm feature tilt with controlled-mean fiber constancy, intervention identification, bounded response/density ratios and independent training/evaluation. No sharp minimax or Gaussian simultaneous approximation is proved.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "finite_evidence_inspected": {
+    "handle": "ECON-C21-206",
+    "program_sha256": "8e39d83427c8263b583784e9458422086236f7e50c5fa3cce86a04caa23477fe",
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"exact_bias_cases\": 1458, \"arithmetic\": \"fractions.Fraction\", \"limits\": \"arbitrary positive discrete weights test the algebra; uniform continuous tilt bound uses written proof\"}\n",
+    "stderr": "",
+    "elapsed_seconds": 0.04,
+    "source_unchanged": true
+  }
+}

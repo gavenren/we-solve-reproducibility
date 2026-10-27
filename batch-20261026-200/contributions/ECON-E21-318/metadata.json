@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-E21-318",
+  "problem_id": "prb_a77a3c9ef7ca43289eb29afe57997458",
+  "catalog_rank": 322,
+  "title": "Independent review: The aggregate consumption effect of redistribution",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Gross-transfer normalization, equilibrium chain rule, and the finite-state distribution derivative including a two-state boundary check.",
+  "contribution_handle": "ECON-E21-318-A1",
+  "contribution_id": "con_952c65ac2f9e4f2389adfdc824e84f28",
+  "revision_id": "rev_5d66240c23b84cd39f0a4a4a580f9d89",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/the-aggregate-consumption-effect-of-redistribution/attempt-1/r1/",
+  "source_sha256": "1509b8cf8ee7b7a48c466a5e4550e455038518c40152577a581bcb52fabf0323",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-E21-318.json",
+  "qualified_audit": "qualified_audits/ECON-E21-318.json"
+}

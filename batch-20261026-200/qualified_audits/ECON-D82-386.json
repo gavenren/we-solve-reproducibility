@@ -1,0 +1,64 @@
+{
+  "handle": "ECON-D82-386",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D82-386/report.md",
+  "document_sha256": "a8fc911601bf9edff329df6dc1e3cf40fceafbbfd3a677c0dedfbdaad8494c67",
+  "checked_scope": "Sharp known-prevalence and interval-prevalence bounds for the difference of squared coding losses with a common binary latent state and randomized arm assignment; binary-code closed form and finite-support algorithm.",
+  "checks": [
+    "Expanded (R1-B)^2-(R0-B)^2 to d2-2(E[R1 B]-E[R0 B]); the B^2 term cancels only because the same latent state appears in both arms.",
+    "Rechecked the threshold-selection argument for minimum and maximum E[RB] at fixed prevalence, including fractional selection of a quantile atom and r=0,1.",
+    "Verified simultaneous endpoint attainment by conditionally independent report draws given one Bernoulli B; this preserves both report marginals and the common prevalence.",
+    "Verified compact prevalence optimization, continuity of quantile integrals, and interpolation by joint-law mixtures; bounded prevalence remains within its interval under mixtures.",
+    "Recomputed binary endpoints: p1-p0+2 min(p0,1-p1)=min(p0+p1,2-p0-p1), with the negative endpoint by swapping arms. The p0=p1=0 and 1/2 boundary examples agree.",
+    "Checked that finite marginal support makes all quantile-integral objectives piecewise linear with rational breakpoints and polynomial encoding cost. Prior attempt 2 really asserts an independently variable [-1,1] arm-loss set; the correction is appropriately confined to the common-state fixed-loss submodel.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-D82-386.txt",
+      "sha256": "878d0bfa2732bfbd2df904ed0fdecdfd628981e6439ed5136b8937de72c954cc",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-D82-386_A1.txt",
+      "sha256": "86142107a72e99ba187a2f6bb734f91423162a7484e57a9ac107ebcdb1a74923",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "prior/ECON-D82-386_A2.txt",
+      "sha256": "4a8e61954ab0076053583f288db933114f6d2b8cae840ce9e48d90f1b0293bab",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-D82-386/source_notes.md",
+      "sha256": "ca38a413f4bbe6496dc80f87fa13cd59debe6ff5118f60317bf5466566284d53",
+      "check": "source-note binding checked"
+    }
+  ],
+  "limitations": [
+    "Requires a pre-assignment binary latent state unchanged by incentives and unselected randomized arm marginals. It does not solve truth elicitation, strategic mechanism design, population selection, or latent-state-changing interventions.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ],
+  "checker_evidence": {
+    "program_path": "contributions/ECON-D82-386/verify.py",
+    "program_sha256": "7e8e3afed485d8d0e0924e7530f698fb52531bbac17ad0fb7949aa4958e01606",
+    "author_execution_record_path": "contributions/ECON-D82-386/verification.json",
+    "author_execution_record_sha256": "83ac5cc42f7c12d4dfa8e02c40e1a1b15400823de63f6c6d3c212f0d12d1922d",
+    "independent_root_execution_record_path": "root_checker_runs.json",
+    "root_record_sha256": "e34cfee3cfbcf94bb08610d9cb5880aeef655dc5436c166e9a08eccfc72ab861",
+    "root_record_entry": {
+      "handle": "ECON-D82-386",
+      "program_sha256": "7e8e3afed485d8d0e0924e7530f698fb52531bbac17ad0fb7949aa4958e01606",
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"known_prevalence_cases\": 8280, \"denominators\": \"1..12\", \"arithmetic\": \"exact fractions\", \"scope\": \"binary-code formulas only\"}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.422,
+      "source_unchanged": true
+    },
+    "reviewer_action": "Read checker source and exact matching success records; did not redundantly rerun. General result verified by the written mathematical argument, not inferred from a finite test."
+  }
+}

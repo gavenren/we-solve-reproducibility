@@ -1,0 +1,44 @@
+{
+  "handle": "ECON-I13-329",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-I13-329/review.md",
+  "document_sha256": "66ae0ce72be04d4c7c68e7a6ee010a522bd4f18936b9d38eff6540fda7ac89f2",
+  "checked_scope": "Owner-inclusive quasi-linear accounting, the selected-branch adverse-selection sign reversal, and the smooth premium derivative.",
+  "checks": [
+    "Recomputed baseline all-enrolled utility and zero insurer profit, then high-only assisted utility and zero profit: total true surplus falls from one to one half, whereas holding premium three makes low-type exit gain one half.",
+    "Verified the baseline high-only branch also exists. The counterexample is conditional on the openly selected all-enrolled baseline and does not claim a branch-robust sign.",
+    "Checked premium cancellation under unit weights and the nonuniform premium coefficient p*((sum omega*alpha)*(sum d)-sum omega*d). Ownership profit is not double counted.",
+    "Differentiated the competitive break-even integral, retaining both enrollment and (p-c)*Dp terms in Gp and Dp*pprime in the welfare derivative.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-I13-329.txt",
+      "sha256": "67c3c23f4b15e629a09a5f9bff93a5bc2ec2c85d0df8de6c420e0132fc7d6e63",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-I13-329_A1.txt",
+      "sha256": "21a5ebaa680fef2b9070bb3e939a83c975e68c7beeb14f3d139111d975208ce1",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-I13-329/source_notes.md",
+      "sha256": "953ee80f582ae6367f86d55abe8991e13a737a6117a7a7935cc0d21a139f8bb7",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-I13-329_A1.yaml",
+      "sha256": "91a002198e41ad1920a25d394f02ffafa345153de0f442c81d3f8e2142bb14d9",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Selected one-period quasi-linear benchmark only. General weighted compensation, true-value identification, branch selection, three-year dynamics and trial-to-equilibrium transport are not certified.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

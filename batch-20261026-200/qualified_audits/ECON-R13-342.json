@@ -1,0 +1,44 @@
+{
+  "handle": "ECON-R13-342",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-R13-342/review.md",
+  "document_sha256": "d47bbac118e3615fae3936914bf14aba8c768fbf09b40f78bdf4eb29367eb4a9",
+  "checked_scope": "Integral conditional assignment, supporting rents, ownership cancellation and the restricted option-value result.",
+  "checks": [
+    "Checked the equality-constrained household assignments give unrestricted dual utilities, capacity upper bounds give nonnegative rents, and both assignment and capacity complementary slackness support competitive location choices.",
+    "Verified the integral flow polytope remains valid with infeasible pairs omitted, subject to a complete feasible assignment; outside capacity is supplied.",
+    "Recomputed the two-household capacity-one example: rents in [8,10] support value ten before permission, rents in [10,12] support value twelve after permission. With household two owning the central slot, rent payments and receipts cancel exactly in total utility.",
+    "Checked unequal welfare weights retain rent incidence, finite conversion choice gives attainment without decentralized nonconvex implementation, and option-value monotonicity requires every old plan/value/cost remain feasible.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-R13-342.txt",
+      "sha256": "d5e674e2d0ab8f5a99e93b4d48d6a999744c6a68d21f19c7531254736b4adbe8",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-R13-342_A1.txt",
+      "sha256": "36029fbdbfc9aa1767978b19feab81d4c5127f74a8a5c0588cda0fea06876da3",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-R13-342/source_notes.md",
+      "sha256": "dfcc5cc2c27b0afa7cb854a386c615abb0d36afa3f7cbdbdec0021fa98841455",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-R13-342_A1.yaml",
+      "sha256": "88420225547a0e9ebf5a9559adcda3a91200b18aabaaf1ce1bff88f470b7cb3f",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Conditional urban assignment and accounting benchmark only. No twenty-year empirical counterfactual identification, general municipal externality theorem, weighted-incidence cancellation or private conversion implementation is claimed.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

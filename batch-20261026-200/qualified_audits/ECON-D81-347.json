@@ -1,0 +1,59 @@
+{
+  "handle": "ECON-D81-347",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D81-347/report.md",
+  "document_sha256": "063e34333ecb8e9ac04c809e5f373f1db35ba824d3d546686ae8124b90050454",
+  "checked_scope": "Worst-case deterministic adaptive scalar support-query lower bound for Euclidean Hausdorff recovery of unrestricted compact convex prior sets on m>=3 states.",
+  "checks": [
+    "Recomputed the simplex inradius 1/sqrt(m(m-1)) in the probability hyperplane. The ball of radius R=r/2 and all spike alternatives with 0<h<=R stay in the simplex.",
+    "Verified Hausdorff distance h between the baseline ball and its one-spike convex hull, and the exact support discrepancy criterion u dot v>R/(R+h). Tangent projection and normalization discard only known constants.",
+    "Checked the adaptive adversary uses one spike direction outside the union of all caps of the baseline transcript; induction preserves the same questions and answers, including procedures that stop early.",
+    "Checked the Hausdorff triangle inequality implies at least h/2 error for one indistinguishable model, without claiming both errors are strictly greater than h/2.",
+    "Recomputed cap area a[d-2]/a[d-1] integral_0^theta sin(t)^(d-2) dt, theta<=pi sqrt(h/(2(R+h))), and the displayed Cd. Setting h>2epsilon gives the exponent (m-2)/2.",
+    "Verified the circle case mu2=theta/pi and the intentionally excluded two-state interval case; prior directional-net upper recovery is complementary and is not represented as a newly established result.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-D81-347.txt",
+      "sha256": "e65c0c52345e78902fbbc466857d19677d0daa85da4c9fb097b8b62e08b5552a",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-D81-347_A1.txt",
+      "sha256": "bea024be98caec4784f247999265537edfe5f94cc8d7f13cda39d0070bb0f2b2",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-D81-347/source_notes.md",
+      "sha256": "c8e85936ce460c2f1809006650af4fd8c2cec1090f7b4873e36be6e72efc14d0",
+      "check": "source-note binding checked"
+    }
+  ],
+  "limitations": [
+    "Only deterministic worst-case recovery is proved; randomized probabilistic-success lower bounds and optimality of the exponent need other arguments. The quadrature checker is a floating-point sanity check, not rigorous integration or a theorem proof.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ],
+  "checker_evidence": {
+    "program_path": "contributions/ECON-D81-347/verify.py",
+    "program_sha256": "d9a1841f0c7358e7d2db8277bdcca0adcff272b143de384756e64e147b3ae1a4",
+    "author_execution_record_path": "contributions/ECON-D81-347/verification.json",
+    "author_execution_record_sha256": "b71cafcf030438c3d528e076b68c06c7ae109f73c5394b02b1a8a7e182a304bf",
+    "independent_root_execution_record_path": "root_checker_runs.json",
+    "root_record_sha256": "e34cfee3cfbcf94bb08610d9cb5880aeef655dc5436c166e9a08eccfc72ab861",
+    "root_record_entry": {
+      "handle": "ECON-D81-347",
+      "program_sha256": "d9a1841f0c7358e7d2db8277bdcca0adcff272b143de384756e64e147b3ae1a4",
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"cases\": 63, \"dimensions\": \"2..10\", \"arithmetic\": \"floating point Simpson integration, 10000 panels\", \"scope\": \"sanity check only; not rigorous quadrature or theorem verification\"}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.088,
+      "source_unchanged": true
+    },
+    "reviewer_action": "Read checker source and exact matching success records; did not redundantly rerun. General result verified by the written mathematical argument, not inferred from a finite test."
+  }
+}

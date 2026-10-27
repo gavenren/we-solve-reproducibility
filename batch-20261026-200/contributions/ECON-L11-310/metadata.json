@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-L11-310",
+  "problem_id": "prb_6705c05aef8c40679ef55ff7005524a3",
+  "catalog_rank": 314,
+  "title": "Independent review: Reliable markup measurement",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Joint affine-cost markup bounds, audit contraction, and the distinction between convex and differentiable interpolation.",
+  "contribution_handle": "ECON-L11-310-A1",
+  "contribution_id": "con_7c286e97f3e94baeb30ae2feb679f862",
+  "revision_id": "rev_67c531c61a124e009e68da761542ef45",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/reliable-markup-measurement/attempt-1/r1/",
+  "source_sha256": "601eb00838fd0e9c524eb7d15b385cef7d3b86b00ab49db9c014ecfb99c07bee",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-L11-310.json",
+  "qualified_audit": "qualified_audits/ECON-L11-310.json"
+}

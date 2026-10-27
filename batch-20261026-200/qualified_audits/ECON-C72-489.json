@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-C72-489",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C72-489/review.md",
+  "document_sha256": "8ac0b408105399b1476398041a265160c5274f48b7949f8359211e5a06e2b1e9",
+  "checked_scope": "The sharp prediction criterion, tensor-repetition theorem, and finite-window continuum obstruction.",
+  "checks": [
+    "The finite fiber’s union support S admits a feasible mixture strictly positive on S. Null directions sum to zero because observation columns normalize, so small positive/negative perturbations prove necessity of the restricted row-space prediction condition even at boundary observed laws.",
+    "A linear statistic separates the finite distinct observation columns; conditional products give moments θₖ^r through degree K−1, whose Vandermonde matrix proves full tensor-column rank at L≥K−1. Equal columns remain equal and K=1 needs no draws.",
+    "Inspected retained exact minor 1/32 and second moments 5/16 versus 1/4. For a continuum, a nonzero signed moment-null vector on L+2 points has both signs; its normalized parts agree through degree L and differ at degree L+1 by square Vandermonde nonsingularity."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-C72-489_0.tex",
+      "sha256": "1242dd5785d25b76389dd298f59a2c1d41a7ea5f90a2cf0b8f690338ffd833ef",
+      "revision_id": "rev_769379255e4e461499bad62ae005c578",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/equilibrium-selection-in-games/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-C93-340",
+  "problem_id": "prb_116168e336234b58a3cd6bb63dd02341",
+  "catalog_rank": 344,
+  "title": "Independent review: External validity and scaling of randomized interventions",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Sharp finite-stratum transport bounds with a weighted absolute-deviation budget and the separate local-to-full-coverage counterexample.",
+  "contribution_handle": "ECON-C93-340-A1",
+  "contribution_id": "con_b30c52d1903d4133bf1ed00d5ed4dbe5",
+  "revision_id": "rev_0721c5458c2e49b3a2a78560e9c6cc27",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/external-validity-and-scaling-of-randomized-interventions/attempt-1/r1/",
+  "source_sha256": "77a72c0b8380878444b52482c145a6e2a0cb9c49dfa3be0353a0a6f9d068d9df",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-C93-340.json",
+  "qualified_audit": "qualified_audits/ECON-C93-340.json"
+}

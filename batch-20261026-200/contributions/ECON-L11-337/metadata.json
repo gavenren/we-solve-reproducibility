@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-L11-337",
+  "problem_id": "prb_ab95db9e6ddd42c7b0c61c7ae531b0a9",
+  "catalog_rank": 341,
+  "title": "Independent review: Concentration versus market power",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Opposite-sign conduct observational equivalence and sharp conduct-component bounds under independent cost intervals.",
+  "contribution_handle": "ECON-L11-337-A1",
+  "contribution_id": "con_c467406606e84dc4b25cd6c82377bb81",
+  "revision_id": "rev_839083fbef3a4dd6a7d0f8bcb31019ae",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/concentration-versus-market-power/attempt-1/r1/",
+  "source_sha256": "d250f7047bb56b640b199e67dfc311cddcbd3fc04a270e81408bc7c363730512",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-L11-337.json",
+  "qualified_audit": "qualified_audits/ECON-L11-337.json"
+}

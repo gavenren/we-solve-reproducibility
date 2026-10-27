@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C21-191",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C21-191/review.md",
+  "document_sha256": "40a16394fc5a2ea06fcdb8c33f0a7db322fc4fe1974555fa9d74a93859f7fd2e",
+  "checked_scope": "The propensity-free cell-mixture approximation, empirical quantile risk lemma, and density-free impossibility example.",
+  "checks": [
+    "Cell-arm mixtures preserve uniform CDF Holder error b_h without propensity smoothness; first/second moment errors<=b_h follow survival identities with weights1,2y integrating to1. Variance contrast error uses |mhat^2-m^2|<=2|mhat-m|.",
+    "Quantile density c_star on fixed radius and mixture CDF error b_h give Bernoulli tails at the fixed Q+/-t thresholds with drift c_star t-b_h. Integrating the trivial initial segment, Gaussian tails and fixed-radius remainder gives O(b_h^2+1/N), including empirical atoms.",
+    "Binomial reciprocal/count-zero bounds yield O(h^(2beta)+h^-d/n). Without density regularity, treatment zero masses1/2 +/- n^-2 give median contrasts-1/2,+1/2 while sample TV<=2/n; nearest-target testing yields risk>=(1-2/n)/8 and honest diameter obstruction. These are marginal contrasts, not individual treatment-effect distributions."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C21-191.txt",
+      "sha256": "cdcb59dc98df14997f117e2e4a6ddc2613858297792b9a6b959dddfe94c400d3",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C21-191-prior.html",
+      "sha256": "426253935758e0ab0ff8964832fa68202838c63efa6ec18511868b005a61e925",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C21-191-prior.txt",
+      "sha256": "69a48a2c2b52f6aeeb84c128de8be70127996fc41befa3ed20036735aaeef5d7",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C21-191/metadata.json",
+      "sha256": "cbd58ec4d9ca1ba3fdb67ff226dbc73ec99b0869539d3a3b29a11fa3de707828",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C21-191/source_notes.md",
+      "sha256": "aae1e659f293fcc35e2ac5562bcef77abbd46df972065c64cd3d9b2628cd2437",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C21-191-prior.yaml",
+      "sha256": "d1e219a1f8dd30472de3c92784064e38a8320805ac45f54f6d8cfbaff36c67ca",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "This supports the baseline upper rate and the nonregular impossibility. It does not establish gains from smoother contrasts, optimal confidence-set diameters in the regular class, or the distribution of individual treatment effects.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

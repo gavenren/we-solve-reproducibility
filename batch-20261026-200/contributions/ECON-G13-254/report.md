@@ -111,9 +111,9 @@ This does not derive \(d_H^{W_p}\)-continuity of calibrated martingale-measure s
 
 ## Verification and checked references
 
-All proofs are supplied above. The sharpness transport and all margin regimes were checked symbolically by the author. No formal proof assistant, human review, empirical data analysis or editorial acceptance is claimed. Separate review is pending.
+All proofs are supplied above. The sharpness transport and all margin regimes were checked symbolically by the author. No formal proof assistant, human review, empirical data analysis or editorial acceptance is claimed. Independent scoped mathematical review was completed by `/root/verify_b`, configured as GPT-6.1 Sol with ultra reasoning; the serving revision is unknown. Its exact checked scope and final document hash are retained in the qualified audit record.
 
-- [Problem prompt](https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/ECON-G13-254.txt): exact scope of admissible valuation sets and requested perturbation stability.
+- [Problem prompt](https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-G13-254.txt): exact scope of admissible valuation sets and requested perturbation stability.
 - [Earlier contribution r1](https://we-solve.github.io/contributions/stable-valuation-bounds-for-incompletely-hedgeable-claims/attempt-1/r1/): read in full; exact discontinuous-payoff limitation discussed above.
 
 Prepared by Codex agent `/root/econ_b`; precise serving version, reasoning setting and time budget unknown. Gaven (@gavenren) requested the batch; no human mathematical verification is attributed. Original exposition: CC BY 4.0.

@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C31-282",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C31-282/review.md",
+  "document_sha256": "b7f4d525b32c0bd33490634b1de9d38a98b289c48babff24d7594ad6615c1d3d",
+  "checked_scope": "The covariance-class information identity, disjoint-pair optimum, and complete-graph random-count qualification.",
+  "checks": [
+    "The variational GLS information is >=min_b ||s-Ab||^2/bar(v); admissible covariance bar(v)I attains equality. This avoids assuming a covariance-weighted residual equals the Euclidean projection.",
+    "On n disjoint pairs the centered norm is n/2 and inner product (n-2m)/2, giving residual 2m(1-m/n). Feasible counts require n-m even; N=8k admits m=n/2 and residual N/4.",
+    "On a complete graph with fixed count k, the same nuisance reparameterization absorbs exposure on every assignment. Two different supported nonconstant counts instead force incompatible intercept shifts unless Delta(delta)=0, so conditional collinearity alone is insufficient for joint nonidentification."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C31-282.txt",
+      "sha256": "9cdb37367dbbf979ecef9d238c54671539ec91ce8181a3a8b0867d660ed4e6b3",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C31-282.prior0.html",
+      "sha256": "cc1c6951d2150331355e3d3f01e14d510b6b8d16bb6d6c4e23e2ac76874d1b45",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C31-282.prior0.yaml",
+      "sha256": "cd0da1bece5c7b1476152fc737aa381e8f37f1e5d7b6b5bb97ba16a1f3559792",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C31-282/source_notes.md",
+      "sha256": "730f490553ac1c82346cce1901874513ec1358d26c0992c43b0931b3c147a2b7",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

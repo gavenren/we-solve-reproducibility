@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_accdba38786941989d33828ca0d871b3",
+  "canonical_problem_id": "prb_accdba38786941989d33828ca0d871b3",
+  "handle": "ECON-D71-264",
+  "catalog_rank": 268,
+  "problem_title": "Constant distortion using one round of linearly many comparisons",
+  "title": "Scoped review of the randomized-dictatorship constant and one-round scope",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-D71-264-A1",
+  "contribution_display_handle": "Econ-268-A1",
+  "contribution_id": "con_32756a4da22f4ed78f24339e56cd3a3b",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_db4e301ee0eb4bacbeb44dcc638efdf7",
+  "checked_scope": "Randomized dictatorship's 3−2/n bound and sharp example; the favorite-only deterministic obstruction",
+  "scope": "Randomized dictatorship's 3−2/n bound and sharp example; the favorite-only deterministic obstruction",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/constant-distortion-using-one-round-of-linearly-many-comparisons/attempt-1/r1/",
+  "source_sha256": "848d8ee098bf3fe89ff25b2e89321edc7653f704277ec4d0f39570ad1d634527",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-D71-264.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-D71-264.txt",
+      "sha256": "ddf0f975ad977648cd4b0d02ffe42df8439561511a323f3bd05c0da6307e68c4"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-D71-264.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/constant-distortion-using-one-round-of-linearly-many-comparisons/attempt-1/r1/index.html",
+      "sha256": "848d8ee098bf3fe89ff25b2e89321edc7653f704277ec4d0f39570ad1d634527"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-D71-264.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/constant-distortion-using-one-round-of-linearly-many-comparisons/attempt-1/r1/contribution.yaml",
+      "sha256": "96a4fb1c61ee75c33c74aa92f019ea0dec924b2837085a8396308ad288570035"
+    }
+  ],
+  "review_path": "contributions/ECON-D71-264/review.md",
+  "review_sha256": "c8c2f62b16c6c5e6cfd7b04f2125d8183f0089f001b9bc823b62d3a16a8cb8ff",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-D71-264.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "Randomized dictatorship's 3−2/n bound and sharp example; the favorite-only deterministic obstruction",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

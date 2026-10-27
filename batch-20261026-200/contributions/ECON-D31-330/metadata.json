@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-D31-330",
+  "problem_id": "prb_ac7175138a7c4a209fe575db7d07258b",
+  "catalog_rank": 334,
+  "title": "Independent review: Productivity versus rents in top incomes",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Sharp statistical-envelope bounds for the fixed top-income rent-share ratio, including atoms, weighting and attainable endpoints.",
+  "contribution_handle": "ECON-D31-330-A1",
+  "contribution_id": "con_9675a80e9c1f45f49f3d32070d879847",
+  "revision_id": "rev_80fa1104c0cc49ee8192c3cf8d726793",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/productivity-versus-rents-in-top-incomes/attempt-1/r1/",
+  "source_sha256": "7e7e60c3fa10ede1e1a8bed2d9411690f1d8072ef801d980969853b3977796a8",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-D31-330.json",
+  "qualified_audit": "qualified_audits/ECON-D31-330.json"
+}

@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-D63-396",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D63-396/review.md",
+  "document_sha256": "a38f6b4faba7e64650c1f22ccef9bb1212323af999510c438205081a270ea063",
+  "checked_scope": "Four-item obstruction characterization and two-agent PMMS construction",
+  "checks": [
+    "Checked restriction to two disjoint value-attaining witnesses preserves any strict MMS-feasibility violation on at most four items.",
+    "Verified every singleton in a violating set is below the threshold; the induced four-vertex high-edge graph is bipartite with matching size two, exactly 2K2, P4 or C4. Inducedness and strict thresholds are essential and retained.",
+    "Checked cut-and-choose gives the cutter her two-way MMS and MMS-feasibility gives the chooser hers; empty/zero witnesses cannot cause strict violations.",
+    "Checked identical-valuation leximin improves the sorted vector at the smaller old bundle level after a pairwise-MMS violation. The review does not infer heterogeneous many-agent existence or general efficient optimization."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-D63-396/source_notes.md",
+      "sha256": "5ce9bd14907e5d0ebc713a8f6a92aee73b3ecd2bed9736fe325fdc0c7f560860",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-D63-396/metadata.json",
+      "sha256": "b9262b131d0cdcbe80b9a029d5b69abf5a4b0769577b6f0369da9ee42dcd7940",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/pmms-for-mms-feasible-pair-demand-valuations_attempt-1_r1.html",
+      "sha256": "2def2ddc39e97e714c1900fd7073f872db1f28d77b9d262b8c6ab4516cc0b4b1",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/pmms-for-mms-feasible-pair-demand-valuations_attempt-1_r1.txt",
+      "sha256": "29959392d5b25212d06f2364347bc15b2f8458bfda21196f352806aa2e050ee4",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-D63-396-A1.yaml",
+      "sha256": "2fec132d7b0b71138dc241cf155f31e932ee10f9632a455c218346f2335dcc39",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

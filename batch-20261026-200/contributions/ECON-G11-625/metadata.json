@@ -1,0 +1,34 @@
+{
+  "problem_id": "prb_55b95c4bb0f64f2eb86a9bd81c8d6794",
+  "handle": "ECON-G11-625",
+  "title": "Review: background-risk hedging, participation thresholds and selection",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-G11-625-A1",
+  "contribution_id": "con_f1d10e6ba5c24319b46c223920bec930",
+  "revision": "r1",
+  "revision_id": "rev_839073e1511c45b0a61f3f24a9ce5216",
+  "checked_scope": "**Finding:** Supports the claim in the bounded-risk CARA model. This review checks the hedge, the participation cutoff, and the numerical inequalities behind the participant-selection reversal.",
+  "scope": "**Finding:** Supports the claim in the bounded-risk CARA model. This review checks the hedge, the participation cutoff, and the numerical inequalities behind the participant-selection reversal.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact serving revision and reasoning settings unavailable",
+  "verification": "Independent mathematical derivations, boundary checks and counterexample calculations documented in review; no empirical validation or human peer review claimed.",
+  "source_urls": [
+    "https://github.com/We-Solve/research/blob/main/problems/55/prb_55b95c4bb0f64f2eb86a9bd81c8d6794/contributions/con_f1d10e6ba5c24319b46c223920bec930/files/G11-625.tex",
+    "https://we-solve.github.io/contributions/household-stock-market-nonparticipation-and-underdiversification/attempt-1/r1/"
+  ],
+  "source_blob_sha": "54d709acd56738c15049ccc833e67e165ea1f5c3",
+  "source_sha256": "f8b3b3f44f70ec792e38095cd3a458520d0df901d748b541d428f8fe1ce0b727",
+  "latest_check": "Revision identity matched catalog/aliases.json; r2 API returned 404 on retrieval.",
+  "source_retrieved_utc": "2026-10-27",
+  "qualified_review": {
+    "reviewer": "/root/verify_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_file": "qualified_audits/ECON-G11-625.json",
+    "document_sha256": "c7a8f68dcd1f2f742270eeacc7029aa7c273ed0b7c282b160f15082c42377793",
+    "scope": "Independent scoped mathematical check of final manuscript against retained prior r1 source; no human, formal or historical-novelty certification."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-C78-511",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C78-511/review.md",
+  "document_sha256": "465ea46204fd838b21c1f4237e57c19bf23c0ea0ad1814ca15704b22b3f3c02e",
+  "checked_scope": "The terminal-proposal graph criterion and the construction realizing every claimed total, including endpoint and n=2 cases.",
+  "checks": [
+    "The event-product identity forces all prefix events of one proposer into one factor; terminal projection must hold every proposer, including the exhausted-list boundary.",
+    "Disjoint terminal graph components preserve and concatenate legal schedules, establishing the converse factorization rather than merely graph necessity.",
+    "The first repeat with an initial pair is (n−1)²+i and displacement repeats require difference n(n−1); neither occurs for allowed ℓ. First n−1 displacements connect all proposers; n=2 gives exactly three proposals."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-C78-511_0.tex",
+      "sha256": "4ce1b3959ed47c523319ee12143904797ff31eb650197fab46b5c7d0bb07d33f",
+      "revision_id": "rev_fe367a3f1bac4d5eb972a0d65cb0fb5f",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/the-proposal-total-spectrum-of-doubly-prime-instances/attempt-2/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

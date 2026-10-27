@@ -11,8 +11,16 @@
   "checked_scope": "Homoskedastic covariance identification, target row-space criterion, and topology derivative",
   "scope": "Homoskedastic covariance identification, target row-space criterion, and topology derivative",
   "author": "/root/econ_d",
-  "status": "awaiting_independent_review",
+  "status": "independently_reviewed_scoped",
   "source_url": "https://we-solve.github.io/contributions/identifiable-effects-of-network-topology-and-node-attributes/attempt-1/r1/",
   "source_sha256": "e347a06b7c10fd22e8605df94474c0559487f845633c3b986b906279caa0f1e1",
-  "verification": "Independent written algebraic/probabilistic audit; no code run for this review."
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C31-390.json"
+  }
 }

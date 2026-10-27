@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-E58-600",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-E58-600/review.md",
+  "document_sha256": "3f5b29a82e7617a529f15d4f0b47a6b268c9b97a0053934268117f627e37339c",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** mean-model exclusion sensitivity, affine saturation identification and nonlinear endpoint counterexample in ECON-E58-600-A1, revision r1.",
+  "checks": [
+    "Checked y=D*theta+d, exact mean-model rank/null-space criterion and attained distance delta/s_min(D) via the least left singular vector; no full-distribution sharpness is claimed.",
+    "Own/peer assignment independence gives E[S_-i|Z_i,p]=p; two distinct saturations identify alpha,beta,gamma,eta and rollout beta+gamma+eta versus own contrast beta+eta*p.",
+    "Independently evaluated the explicit Bernstein coefficients r(0),r(1),r(2); binomial expectation equals (p-p0)(p-p1), preserving all four reported means while changing universal-treatment outcome by (1-p0)(1-p1)>0.",
+    "Negative intermediate outcomes are allowed in the integrable model. Observing realized peer-count cells would remove this particular mean-only equivalence; delivery of a fixed message is distinct from changing the public policy path."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-E58-600/prior.tex",
+      "sha256": "d27d4e7a751a9eba87a8e9eb9d507eeb2d119ec7ff6f64f9dd1ffc433094cfbc",
+      "git_blob_sha": "08a6c47e209835c39a203641da289035768b5fd8",
+      "revision": "r1",
+      "revision_id": "rev_3543f8602f4c4a39ae6fc2f7cc7a65f2",
+      "contribution_id": "con_dc08833e59154384a3478da62988cbbb",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-E58-600/record.json",
+      "sha256": "e912b14b54524d7441b0ee9773ab8019cd89ccf50a1dd172a7c2b984e33701ae",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Sharpness is restricted to mean equations or four saturation means; credible mediator exclusions, full exposure data, policy-path changes and macro equilibrium are outside scope.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

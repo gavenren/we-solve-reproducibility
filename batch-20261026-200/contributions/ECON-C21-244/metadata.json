@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_d207298729624cbca2ab3969cb693963",
+  "canonical_problem_id": "prb_d207298729624cbca2ab3969cb693963",
+  "handle": "ECON-C21-244",
+  "catalog_rank": 248,
+  "problem_title": "Transporting interventional mediation effects",
+  "title": "Audit of sharp rectangular drift envelopes and the two-sample expansion",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C21-244-A1",
+  "contribution_display_handle": "Econ-248-A1",
+  "contribution_id": "con_360c5c1a6b584bac80ae0d9c6ce06645",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_03430f75ff9f4dfab8d1bd9e04cc220f",
+  "checked_scope": "The sensitivity-envelope sharpness qualifications and fixed-dimensional two-sample influence expansion.",
+  "scope": "The sensitivity-envelope sharpness qualifications and fixed-dimensional two-sample influence expansion.",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/transporting-interventional-mediation-effects/attempt-1/r1/",
+  "source_sha256": "501c334b03205432ea060dcebd9964135fbc0866eadf7428f44dba3590424081",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C21-244.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C21-244.txt",
+      "sha256": "510be3a6c8f27582b89b811641b74a77f08aab17f022dd16b7fa39f8cccf2416"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C21-244.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/transporting-interventional-mediation-effects/attempt-1/r1/index.html",
+      "sha256": "501c334b03205432ea060dcebd9964135fbc0866eadf7428f44dba3590424081"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C21-244.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/transporting-interventional-mediation-effects/attempt-1/r1/contribution.yaml",
+      "sha256": "31d43cee09c2408e3222e1dd066e0d41897c677334322c17fa3b89cf2049f2c9"
+    }
+  ],
+  "review_path": "contributions/ECON-C21-244/review.md",
+  "review_sha256": "07d5c99cff3fd5e5fd67855d71fc723f8f6b7545b70ddbbd60cb6a7e7b296bf7",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C21-244.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "The sensitivity-envelope sharpness qualifications and fixed-dimensional two-sample influence expansion.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-C31-390",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C31-390/review.md",
+  "document_sha256": "3045e55933409a6357e3d27eff2bb8543db97efd4d871723755deae0b83798ac",
+  "checked_scope": "Homoskedastic covariance identification, target row-space criterion, and topology derivative",
+  "checks": [
+    "Verified symmetry and the stability margin make I-delta B positive definite, fixing the unique positive inverse covariance square root and identification from independent I,B designs.",
+    "Checked shared-variance identification across distinct scalar graph settings and its failure with separate unknown scales.",
+    "Checked row-space target identification via null directions only for unconstrained/interior coefficient fibers, with the source's correct feasible-fiber boundary qualification.",
+    "Re-derived dR=delta R(dB)R and d[R(beta I+gamma B)]=(beta delta+gamma)R(dB)R, including delta=0, coefficient cancellation and regular-graph invariance. Numerical inversion and rate constants remain outside the review's certification."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-C31-390/source_notes.md",
+      "sha256": "ed6bd943361d955973279461a87a05a63a10dbf8677d5960df5c86837c4588a1",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-C31-390/metadata.json",
+      "sha256": "ffeb04e409596d3c2142f8ddd9790ba812ed314d36ba744e5f4b2fc94f5939e9",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/identifiable-effects-of-network-topology-and-node-attributes_attempt-1_r1.html",
+      "sha256": "e347a06b7c10fd22e8605df94474c0559487f845633c3b986b906279caa0f1e1",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/identifiable-effects-of-network-topology-and-node-attributes_attempt-1_r1.txt",
+      "sha256": "840b61bd1c16e3944849a0eeccc2963dbf734a25b9b7333e51290b58787a3151",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-C31-390-A1.yaml",
+      "sha256": "7da4f3ed6651f6c9f7d7d8d75e8d0bdb59229cb14af2e0d73335c17c477cf386",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-L26-595",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-L26-595/review.md",
+  "document_sha256": "3e3993832393760be86067440bee17cc84d9920d93a31a2e3a2389629f415b6a",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** simultaneous value/cost validation and the randomized full-budget oracle comparison in ECON-L26-595-A1, revision r1.",
+  "checks": [
+    "Disjoint arm indicators bound each nonbaseline value score by M/e, while baseline cancels exactly; range 2M/e and cost range C give alpha/(2N) failures for each endpoint per rule.",
+    "Verified deterministic budget comparison requires 2r_c slack and that the exact-zero baseline remains feasible for all B>=0.",
+    "Randomized values and expected costs are linear. Diluting the full-budget oracle by rho=B/(B+2r_c) makes its upper-confidence cost feasible; uniform value error plus V*<=2M gives regret 2r_V+4M*r_c/(B+2r_c).",
+    "The full-budget mixture theorem requires B>0 and controls expected spending only; compact finite-simplex feasible sets give attainment and the zero baseline gives V*>=0."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-L26-595/prior.tex",
+      "sha256": "d56bca4e12273bb96e7fea42879d5cb15d02089e392a9644b37eb07c6bb65d77",
+      "git_blob_sha": "85ad2e1faac6d8d8f929af38eb2f3098de84b6db",
+      "revision": "r1",
+      "revision_id": "rev_eca5689f7d3c43e5b1d95bf40c526d60",
+      "contribution_id": "con_4735365a2cf84a52bd113e08e79ff6e1",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-L26-595/record.json",
+      "sha256": "06a8a1c4fb74c2a18db5cd2ce8897b9d519188bf17642c7dcf5d8e8f7bdcf83f",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Known costs, bounded complete profits, overlap, independent validation and no spillovers are assumed; randomized theorem covers expected budgets and B>0 only.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

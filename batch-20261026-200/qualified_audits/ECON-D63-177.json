@@ -1,0 +1,68 @@
+{
+  "handle": "ECON-D63-177",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D63-177/review.md",
+  "document_sha256": "c02ed76ecf3c323fb2da62b95d8440b773f6dbac535415e027e625780ad43d3d",
+  "checked_scope": "The fixed-own-bundle criterion, monotone pruning rule, and the proportional/two-agent constructions.",
+  "checks": [
+    "For a nonempty residual part, all-good EFX is exactly load-minus-minimum<=own utility; empty parts impose no constraint and a contained zero forces full load<=own utility.",
+    "Adding any nonnegative weight weakly increases load-minus-minimum, so pruning above u is sound. State counts ((W+1)(V+2))^(n-1) and m(n-1) transitions yield a fixed-population pseudopolynomial recognizer; clearing rational denominators can be exponential in input bit length.",
+    "Descending least-load partition handles every zero and gives actual EFX. If another bundle has two positive items, its smallest positive item and residual both fit the own load, giving EFL. Proportional scaling preserves this, and two-agent cut-and-choose gives the chooser envy-freeness and divider EFX/EFL."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-D63-177.txt",
+      "sha256": "d74b7351bbce66d32688dd8600eca1df6b171685e3b01cecaeda890efbd3f903",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-D63-177-prior.html",
+      "sha256": "1bd3c0c7159dff2195e83a7e3641788453399f8453141f610bb17f57b5e573d4",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-D63-177-prior.txt",
+      "sha256": "14a8566cec1a28759f3fcc9ba205d4c06ceae5297b78fe036a2f06686e86c58e",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-D63-177/metadata.json",
+      "sha256": "33099bad23862f95084468ca6db27266aeafaf8118c1ff08c26d0d97914e125a",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-D63-177/source_notes.md",
+      "sha256": "c525537bb508b1ee9115e48013f4b290c8ce875e3bc6d9263abb6d950fb9bd81",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-D63-177-prior.yaml",
+      "sha256": "70a87798465d975b4c217cc1d4cb24451973f085bf0bcbd607f6de648a16f5e6",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    },
+    {
+      "path": "verify_econ_a_reviews.py",
+      "sha256": "3fa86e108ffffb86f11d783753dd7bf21e826c1007275cd96d956ac4422b4030",
+      "inspected_scope": "Inspected all ten finite-check routines, including assigned case construction and exact arithmetic; no redundant rerun."
+    },
+    {
+      "path": "econ_a_review_check_results.json",
+      "sha256": "7dd8233512ac5a13077a9a9ef4ec674fba459ff754b1f30d7541b11d03bebcf5",
+      "inspected_scope": "Inspected retained case counts/results and compared their stated scope to review."
+    }
+  ],
+  "limitations": [
+    "The criterion, pruning, and restricted constructions are supported. This review does not prove general EEFX/EFL existence or polynomial-time computation for binary-encoded arbitrary rational valuations.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "finite_evidence_inspected": {
+    "cases": 6560,
+    "check": "Enumerated 0..7 goods with weights in {0,1,2}, for 2 and 3 agents; every removed good, including zero, satisfies EFX."
+  }
+}

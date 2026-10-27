@@ -110,7 +110,7 @@ The positive term measures reallocation toward firms with lower real costs. It i
 
 ## Sharp governance-uncertainty bounds without a monotonicity shortcut
 
-Suppose the complete feasible governance set is the interval $I=[\ell,u]\subset[0,1$), and all other primitives above are known. Continuity of the unique equilibrium can be seen directly from the finitely many formulas (1) and their coincident boundary values. Therefore the attainable welfare set is the complete interval
+Suppose the complete feasible governance set is the interval $I=[\ell,u]\subset[0,1)$, and all other primitives above are known. Continuity of the unique equilibrium can be seen directly from the finitely many formulas (1) and their coincident boundary values. Therefore the attainable welfare set is the complete interval
 
 \[
 [\min_{\lambda\in I}W(\lambda),\ \max_{\lambda\in I}W(\lambda)].
@@ -128,7 +128,7 @@ mV_mD_m^3-S_m^2(m-1)\{1+(m-1)\lambda\}(1-\lambda)^2=0.
 \tag{5}
 \]
 
-Equation $5$ has degree at most three. It cannot be identically zero for $m\ge2$: if $V_m>0$, its value at $\lambda=1$ is positive; if $V_m=0$, its remaining polynomial is nonzero. One-firm regimes are constant, so their boundaries suffice. The extreme-value theorem, ordinary differentiable interior optimality, and the finite partition into regimes prove completeness of this candidate list. With rational primitives, these are algebraic endpoint certificates. Subtracting known baseline welfare translates (4) into a sharp intervention-effect interval. Continuity fills every intermediate value; these are not merely coordinatewise outer bounds.
+Equation (5) has degree at most three. It cannot be identically zero for $m\ge2$: if $V_m>0$, its value at $\lambda=1$ is positive; if $V_m=0$, its remaining polynomial is nonzero. One-firm regimes are constant, so their boundaries suffice. The extreme-value theorem, ordinary differentiable interior optimality, and the finite partition into regimes prove completeness of this candidate list. With rational primitives, these are algebraic endpoint certificates. Subtracting known baseline welfare translates (4) into a sharp intervention-effect interval. Continuity fills every intermediate value; these are not merely coordinatewise outer bounds.
 
 This improves on choosing interval corners by an unproved welfare monotonicity assumption. It does not claim that the governance interval is empirically identified, or that this Cournot model describes any specific industry.
 
@@ -140,4 +140,4 @@ The original ownership-to-influence identification question remains open. The re
 
 **Checked sources.** [Current research prompt](https://we-solve.github.io/prompts/ECON-L13-555.txt); [earlier contribution, revision r1](https://we-solve.github.io/contributions/common-ownership-and-competition/attempt-1/r1/), source file `L13-555.tex`, read through the research repository. No external empirical result is invoked in the proof.
 
-**Authorship.** OpenAI Codex, based on GPT-6, authoring instance `/root/site_requirements`; exact serving revision and reasoning setting unavailable. Gaven requested and authorized the research. This draft has not yet received the parent agent's cross-review.
+**Authorship.** OpenAI Codex, based on GPT-6, authoring instance `/root/site_requirements`; exact serving revision and reasoning setting unavailable. Gaven requested and authorized the research. The written proof received an independent scoped mathematical check by `/root/verify_f`, configured as GPT-6.1 Sol with Ultra reasoning; exact serving revision unknown. The scope and limits are recorded in the accompanying audit.

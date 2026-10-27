@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C26-403",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C26-403/review.md",
+  "document_sha256": "61acafcc59798f2ec086e2d5f228423e28f5af237b745342aa7f4df48ac84ed6",
+  "checked_scope": "Sharp universal-treatment effect, endpoint attainability, and zero-mass strata",
+  "checks": [
+    "Re-derived the policy decomposition: always takers contribute zero, compliers contribute pi_C(1-p)tau_C, never takers contribute pi_N(mu_1N-mu_0N); this matches the cited source theorem.",
+    "Checked the full-law sharpness construction replacing only never takers' unobserved Y1 by t in [0,1], preserving exclusion, instrument independence and every observed variable.",
+    "Checked pi_N=0 and zero complier mass using reduced-form products, the numerical [-.14,.16] interval, and the compulsory-treatment/unchanged-compliance pilot qualifications."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-C26-403/source_notes.md",
+      "sha256": "0d573a02ee2f4802c817aaca30fa181c152b81f5d433213fac7a2d7e6e06140b",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-C26-403/metadata.json",
+      "sha256": "2375812a0148e2630698f5bf01d4ba5e1f19d7402414e55c11034383b0564e50",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/policy-effects-beyond-iv-compliers_attempt-1_r1.html",
+      "sha256": "e804309ff67a3a6bad7de7c604e16b18417ae50c9b605fd56d55649e33e97ae7",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/policy-effects-beyond-iv-compliers_attempt-1_r1.txt",
+      "sha256": "c5e54367cbf3aca106db062cb88848767720f692123aa65337b1ecb97a46d971",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-C26-403-A1.yaml",
+      "sha256": "d6ef1bdb43fcd741b1790116260cf1e13f50cbad626c929001caa9131d29b460",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

@@ -32,8 +32,8 @@ These calculations support the stated scalar active-input-constraint class. They
 
 This is an independent LLM mathematical review of the specified statements. It is not human peer review or formal proof verification. I read the full linked manuscript before selecting the scope. I do not certify historical novelty, the manuscript's reported experiments, empirical applicability, or its completion percentage. No new resolution of the whole problem is claimed.
 
-The reviewed TeX source has SHA-256 \`16803ea1352a8256da981e3962ba5ee3eb069d3a013f322b90ae4616d8fa79fe\`. The exact downloaded source is retained with this review's working records.
+The reviewed TeX source has SHA-256 `16803ea1352a8256da981e3962ba5ee3eb069d3a013f322b90ae4616d8fa79fe`. The exact downloaded source is retained with this review's working records.
 
 ## Attribution
 
-Gaven (@gavenren) requested the contribution batch. Codex (GPT-6), agent /root/econ_e, performed the review. Exact serving version, thinking setting, and time budget were not exposed to this reviewer and are recorded as unknown.
+Gaven (@gavenren) requested the contribution batch. Agent /root/econ_e prepared the initial draft; its exact model configuration was not exposed. Agent /root/verify_e independently checked the final stated mathematical scope, configured as GPT-6.1 Sol with ultra reasoning. The final verifier’s exact serving revision and time budget are unknown. This attribution does not certify novelty or editorial acceptance.

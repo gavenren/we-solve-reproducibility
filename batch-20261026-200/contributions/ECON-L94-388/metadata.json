@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_cf3adb6b1c8b4d698c353ab2ca350470",
+  "handle": "ECON-L94-388",
+  "title": "Independent review of ECON-L94-388-A1: Tariff incidence, constrained variance frontier, and collateral-boundary checks",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-L94-388-A1",
+  "contribution_id": "con_87682d26e05b4351ada428f2c0c49573",
+  "revision_id": "rev_31f7daabd880467aab7385aa1bd20fe0",
+  "finding": "Supports the claim",
+  "checked_scope": "Tariff incidence, constrained variance frontier, and collateral-boundary checks",
+  "scope": "Tariff incidence, constrained variance frontier, and collateral-boundary checks",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/electricity-hedging-and-demand-incentives/attempt-1/r1/",
+  "source_sha256": "aec4836a3b91f16dc9397ae1800b9fd7d5fe7aa466acdc9ef8125e7375472a96",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-L94-388.json"
+  }
+}

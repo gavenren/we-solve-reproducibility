@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-I38-339",
+  "problem_id": "prb_3f3c258a84bb4c64b7a28406feb6ca5d",
+  "catalog_rank": 343,
+  "title": "Independent review: Cash transfers at economy-wide scale",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Positive one-good equilibrium, financing-sensitive real versus nominal multipliers, and the sharp conditional price-output curve.",
+  "contribution_handle": "ECON-I38-339-A1",
+  "contribution_id": "con_10876be790434f779d83a47729b07f0e",
+  "revision_id": "rev_f3224499df804b67847b12df0b02e9d5",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/cash-transfers-at-economy-wide-scale/attempt-1/r1/",
+  "source_sha256": "33412698e369b1c74433c94d973073252c09325668be6d5a9215eac186b5b8e0",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-I38-339.json",
+  "qualified_audit": "qualified_audits/ECON-I38-339.json"
+}

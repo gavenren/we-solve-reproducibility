@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_e916e1f8c3854b7da6d2bd7e679ec912",
+  "handle": "ECON-D31-458",
+  "title": "Independent review of ECON-D31-458-A1: Rank-changing top-share optimization, interval attainment, and denominator stability",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-D31-458-A1",
+  "contribution_id": "con_6f5d9b5d2cd348af9e5709cd864946dc",
+  "revision_id": "rev_6dbe430d4aab4dfe8f799de017f87efa",
+  "finding": "Supports the claim",
+  "checked_scope": "Rank-changing top-share optimization, interval attainment, and denominator stability",
+  "scope": "Rank-changing top-share optimization, interval attainment, and denominator stability",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/reconciling-income-inequality-measurement/attempt-1/r1/",
+  "source_sha256": "aaf69ab107e7cca345b8ff8f6ec40510e06d95c94fc684d0730eb6ee457a6b87",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-D31-458.json"
+  }
+}

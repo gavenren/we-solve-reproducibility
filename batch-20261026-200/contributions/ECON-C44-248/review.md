@@ -1,0 +1,15 @@
+# Audit of response-shift nonidentification and the separate target-sample cost
+
+**Target:** ECON-C44-248-A1, revision r1. **Finding:** Supports the claim. **Checked scope:** The response-shift lower bound, oracle reweighting upper bound and the claim that target covariates can carry indispensable information.
+
+**Source identity:** `con_7ab5e4eaa043479ca22e227a78e3486f` / `rev_b0f5e9fcea4b478e91a664275343a7a6`. [Pinned manuscript](https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/policy-learning-under-covariate-and-response-shifts/attempt-1/r1/index.html).
+
+The two response-shift worlds have identical observed experiments: source outcomes and both covariate samples have the same distribution, and target outcomes are never observed. I recomputed the policy-value separation. The integrals of \(\sin(2\pi x)\) over the two half intervals are \(1/\pi\) and \(-1/\pi\); the treatment-effect perturbation is \(2\delta\sin(2\pi x)\). Thus the advantage of the first-half policy is \(4\delta/\pi\), with its sign reversed between worlds. Any randomized learner has worst-case regret at least half that gap. This proves the claimed \(2\delta/\pi\) floor without requiring a small-KL approximation.
+
+For the oracle ratio estimator, conditioning on \(X\) gives the source causal contrast, and multiplying by \(r=dQ_X/dP_X\) transports only covariates. The second-moment reduction uses \(r^2\le\kappa r\) and \(E_Pr=1\), so it yields linear \(\kappa\), not the squared-\(\kappa\) dependence suggested by using only the worst-case score bound. The comparison between two binary policies incurs at most \(2\delta\): \(|\pi-\pi'|\le1\) and \(|\tau_Q-\tau_P|\le2\delta\). A separate baseline-drift term is unnecessary because the baseline cancels from policy comparisons.
+
+The target-sample lower-bound submodel is also coherent. With a constant positive treatment effect, the two half-interval policies are equally good under the uniform target law. Perturbing only target density by \(1\pm h\sin(2\pi x)/\sqrt N\) reverses their ranking while leaving the source experiment unchanged. This isolates information supplied by target covariates, even when responses are exactly invariant. It requires a ratio class allowing \(\kappa>1\); at \(\kappa=1\), a normalized density ratio bounded by one must equal one almost surely, so this particular lower bound cannot be extended to that endpoint.
+
+**Finding:** Supports the declared restricted claims. The manuscript correctly keeps oracle ratio knowledge separate from the plug-in procedure. These checks do not establish a matching nonparametric rate for estimated ratios, arbitrary VC classes, or all smoothness combinations.
+
+This is an independent LLM mathematical review of the named scope, not human peer review or formal verification. Sources and exact revision identifiers are recorded in metadata.json. Reviewer: `/root/econ_b`; exact serving version and reasoning setting unknown. Gaven (@gavenren) requested the review batch. Original review text: CC BY 4.0.

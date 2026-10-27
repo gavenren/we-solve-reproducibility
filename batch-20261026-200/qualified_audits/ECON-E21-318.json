@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-E21-318",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-E21-318/review.md",
+  "document_sha256": "4354a60e686f4f02a8b4eeb7c9f107a2d64691eaadc1d6b27e96ae1d3012a71c",
+  "checked_scope": "Gross-transfer normalization, equilibrium chain rule, and the finite-state distribution derivative including a two-state boundary check.",
+  "checks": [
+    "Verified gross positive and negative transfer normalization gives probability weights and the fixed-price [-1,1] normalized direct bound; zero net transfers are not a denominator.",
+    "Recomputed the two-state derivative q*(-1,1)/(p+q)^2 and checked both stationary derivative equations and the consumption composition term.",
+    "Checked I-P+1mu is invertible for finite irreducible chains even when periodic; mu dotP times its inverse has zero total mass. Rechecked the negative sign in the implicit-equilibrium chain rule.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-E21-318.txt",
+      "sha256": "b98cd939bedc126d58724618365f0318cac62345d7a7373736073a9eade30420",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-E21-318_A1.txt",
+      "sha256": "1509b8cf8ee7b7a48c466a5e4550e455038518c40152577a581bcb52fabf0323",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-E21-318/source_notes.md",
+      "sha256": "1fc75f13487149e39af7c7bb9e39dae02cc5da961480671ce107b4d7d9ec51f4",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-E21-318_A1.yaml",
+      "sha256": "a6f8d29a95b2a78af1cac1849185e1bf040da640560aa54ea71fdfb67ec9f389",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Derivative identities under declared regularity only. Micro MPCs do not identify fiscal, price or transition Jacobians, and recurrent-class boundaries can destroy differentiability.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

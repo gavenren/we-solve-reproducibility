@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-H77-307",
+  "problem_id": "prb_dd39902d766049ffba51acc1c0bd5bfe",
+  "catalog_rank": 311,
+  "title": "Independent review: When to decentralize government",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Network-quadratic uniqueness, inverse positivity, and the stated limits of unconstrained comparative statics.",
+  "contribution_handle": "ECON-H77-307-A1",
+  "contribution_id": "con_a65d20fd7f7f4d8c856e8f907dcfe608",
+  "revision_id": "rev_be8241ddbe214f9f97162217c16aac6b",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/when-to-decentralize-government/attempt-1/r1/",
+  "source_sha256": "8716ef467b35c49e2c21a4cf991f6e4a2e24fe7ab7b94b8e8c7b3925c6ad1537",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-H77-307.json",
+  "qualified_audit": "qualified_audits/ECON-H77-307.json"
+}

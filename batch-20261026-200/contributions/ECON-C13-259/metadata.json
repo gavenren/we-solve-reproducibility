@@ -4,7 +4,7 @@
   "title": "The instantaneous causal mean has a nonvanishing drift floor: a matching fixed-time minimax theorem",
   "claim": "Partial result",
   "author": "/root/econ_b",
-  "status": "awaiting_independent_review",
+  "status": "approved_scoped",
   "scope": "A complete fixed-time squared-error rate for the deterministic Lipschitz-drift Bernoulli subexperiment with constant known assignment probability, together with an honest-confidence-interval lower bound at the stationary null. This is not a solution for arbitrary adaptive targets or a sharp time-uniform confidence sequence.",
   "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
   "prior_contribution_handle": "ECON-C13-259-A1",
@@ -13,19 +13,50 @@
   "prior_revision": "r1",
   "sources": [
     {
+      "role": "problem_prompt",
       "path": "batch_200_20261026/prompts/ECON-C13-259.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C13-259.txt",
       "sha256": "9d9b80c3c2e2320ce08819c75b018d54e05825b6f8ceb89abc23c3f26ea80167"
     },
     {
+      "role": "full_prior_manuscript",
       "path": "batch_200_20261026/prompts/ECON-C13-259.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/confidence-sequences-for-adaptively-evolving-causal-targets/attempt-1/r1/index.html",
       "sha256": "8f0ebb0d0b4304669769619d9dc99851400d083cad2ad1e1e50fa7fb2008b683"
     },
     {
+      "role": "prior_revision_metadata",
       "path": "batch_200_20261026/prompts/ECON-C13-259.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/confidence-sequences-for-adaptively-evolving-causal-targets/attempt-1/r1/contribution.yaml",
       "sha256": "216c488fa2e510f7a0bc1ecc2ee123744345ef799c5a98ba49eb0849a3fd3240"
     }
   ],
   "prior_url": "https://we-solve.github.io/contributions/confidence-sequences-for-adaptively-evolving-causal-targets/attempt-1/r1/",
   "verification": "Author proof audit; no program executed",
-  "report_sha256": "572bd9102cfdfb8eb9b8ea62aae3da7dbfdb014348be7f270ae301a7d9bcfa0e"
+  "report_sha256": "0c65f00366e92cdbf52b439fed2d3c4e69e2c6d969d40bf80cbfea5fcddc36d9",
+  "kind": "attempt",
+  "type": "attempt",
+  "canonical_problem_id": "prb_09b088d7510547b8936ae2b53776cc4d",
+  "catalog_rank": 263,
+  "problem_title": "Confidence sequences for adaptively evolving causal targets",
+  "prior_contribution_display_handle": "Econ-263-A1",
+  "source_url": "https://we-solve.github.io/contributions/confidence-sequences-for-adaptively-evolving-causal-targets/attempt-1/r1/",
+  "source_sha256": "8f0ebb0d0b4304669769619d9dc99851400d083cad2ad1e1e50fa7fb2008b683",
+  "report_path": "contributions/ECON-C13-259/report.md",
+  "publication_status": "draft_not_submitted",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C13-259.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "A complete fixed-time squared-error rate for the deterministic Lipschitz-drift Bernoulli subexperiment with constant known assignment probability, together with an honest-confidence-interval lower bound at the stationary null. This is not a solution for arbitrary adaptive targets or a sharp time-uniform confidence sequence.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
 }

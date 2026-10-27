@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D91-507",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D91-507/review.md",
+  "document_sha256": "9223282bd58476ace17690c3144036bf7788449944aee6eddff87a400329b1ca",
+  "checked_scope": "The two linear market benchmarks and the sharp Lipschitz endpoint set.",
+  "checks": [
+    "Aggregating the demand/supply equations gives denominator 1−γ+bκ; an atomless individual’s contrast is τ while full saturation changes the market mean by τ/(1−γ+bκ).",
+    "Completing the square in the separate welfare benchmark yields (uτs−τ²s²/2)/(b+κ)−ks; strict concavity for τ>0 justifies clipping its stationary optimum to [0,1].",
+    "Endpoint cone inequalities are necessary, and the minimum-cone extension of the augmented finite data is L-Lipschitz and interpolating, establishing exact attainment. Joint function projection preserves baseline/end coupling on a common confidence event."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-D91-507_0.tex",
+      "sha256": "35ddbf1ba2e4be63aa88de2e6d3c29dead497dc5b3cbe310edb344a7c60a765c",
+      "revision_id": "rev_0e041380286c4b89ac2f1fc2bce9ef9a",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/equilibrium-effects-of-nudges-at-scale/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

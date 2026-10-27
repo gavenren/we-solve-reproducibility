@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C23-425",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C23-425/review.md",
+  "document_sha256": "7478f970937a0dab6b733b6000a2da80556af77a2bb8d4b139b7dc392bd76edf",
+  "checked_scope": "Sharp one-anchor Lipschitz contrasts and finite-support parallel-trends linear program",
+  "checks": [
+    "Checked the feasible difference interval of the anchored response rectangle intersected with the cross-dose Lipschitz band; the proposed max formula for w satisfies both upper and lower bounds.",
+    "Checked sorted interpolation, constant extension, repeated-dose consistency and L=0, and recomputed both numerical contrast intervals.",
+    "Checked both directions of the finite-law LP sharpness proof: taking conditional means preserves all convex linear constraints and the target; interpolating each feasible atom yields a full response satisfying group-mean parallel trends. Continuum/grid/derivative claims remain excluded."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-C23-425/source_notes.md",
+      "sha256": "90142d719b1096373bdf9078f283a2567e283208c213a22b2480d1d63af7c51c",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-C23-425/metadata.json",
+      "sha256": "c84690849bd4349005df9ed68f2e8ec291fb37f1fe80ec257bbd1250267402e5",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/continuous-treatment-did_attempt-1_r1.html",
+      "sha256": "57d5d905fe735ddb5813f1d81f199ed00803a5a9a6a0411bacb37f156a27f85e",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/continuous-treatment-did_attempt-1_r1.txt",
+      "sha256": "ad1124bc8b5e5cd825587c3789d2b0055912d99294ba445d8fbbe4c915e644fa",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-C23-425-A1.yaml",
+      "sha256": "7de7fbc368824b11a77a63732a6863a8ddc2ad7824835d08b42c47963ed8ad19",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-G12-324",
+  "problem_id": "prb_cc09016ea6964975ae362bd7bbcef14b",
+  "catalog_rank": 328,
+  "title": "Independent review: Intermediary constraints and risk pricing",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Binding and slack equilibrium, one-sided price and return responses, and multiplier nonidentification.",
+  "contribution_handle": "ECON-G12-324-A1",
+  "contribution_id": "con_b50743f6b93a4cd2a20b0fd3f2041e56",
+  "revision_id": "rev_ae51d687cf4541f3aacb21c97062be66",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/intermediary-constraints-and-risk-pricing/attempt-1/r1/",
+  "source_sha256": "fbd27c46dd3879512b325aad664a2a0a1091e6d439a6dec68a3d0cbed53ee5c9",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-G12-324.json",
+  "qualified_audit": "qualified_audits/ECON-G12-324.json"
+}

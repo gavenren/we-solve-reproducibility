@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-D63-448",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D63-448/review.md",
+  "document_sha256": "76347776d61878247beb6f0835661334b8ea36b7450a43be29313623142879d7",
+  "checked_scope": "Forced-packing lower bound, slack boundary, and feasibility of round-robin EF1",
+  "checks": [
+    "Enumerated the forced three-chore partition and verified optimum factor 1/epsilon for positive epsilon and infinity at zero, independently of allocation algorithm.",
+    "Checked the slack family mixed-pair workload 3(1-sigma)/2 exceeds one exactly for sigma<1/3; the review correctly refuses a claim at the boundary.",
+    "Checked round-robin capacity ceil(m/n)<=floor(B/t), both turn-order injection comparisons after deleting the last own chore, incomplete final rounds and zero/empty bundles.",
+    "Verified maximum-own-chore deletion minimizes additive residual and the zero-denominator conventions. Heterogeneous-duration and axiomatic extensions remain excluded."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-D63-448/source_notes.md",
+      "sha256": "a346761b359340b7824c4d50a3902416b5bb8c423bafdf0202123bfc7bb5be55",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-D63-448/metadata.json",
+      "sha256": "3b2ed9f3e6b87c67fe468ea97575ab7dba626b34bb6f458e79cbcfd9aa56259e",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/fair-chores-with-unequal-time-requirements_attempt-1_r1.html",
+      "sha256": "4756c5c576364ec58df6050a3bb4ac10ec6d2035e2c22494ce408b44fcf65237",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/fair-chores-with-unequal-time-requirements_attempt-1_r1.txt",
+      "sha256": "154beb51bbd6451ab73ce0a768b6db455bbf1c3146533c610a4300b87b836afb",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-D63-448-A1.yaml",
+      "sha256": "aa4d06d755484bf50b1176e10de0101af741a82b770d23ff0852b6e64fd30fdd",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-D83-571",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D83-571/review.md",
+  "document_sha256": "51707738b0e8c41838d493fa7669dda2a1c74d47a84fd6c154646cd8a74068c8",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** finite-policy reduction, safety/utility certificate and discontinuity counterexample in ECON-D83-571-A1, revision r1.",
+  "checks": [
+    "Checked the deterministic contingent-policy reduction at positive-probability information sets under independent feasibility; unused and zero-probability branches require the source conservative margin qualification.",
+    "L1 law error eta changes a policy value by at most B*eta and pairwise utility gaps by 2B*eta; strict estimated margin preserves the selected policy, after which harm changes by at most H*eta.",
+    "Verified true comparator slack 2H*eta, certified-set membership and two-sided utility regret 2B*eta, restricted to margin-qualified comparators.",
+    "Computed L1 distance 4*epsilon between p=1/2+/-epsilon, while selected harm jumps by one; the epigraph law LP computes worst utility only and is not a selected-harm certificate."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-D83-571/prior.tex",
+      "sha256": "52eb2f4d772d84831fb8de565ae6d1226ae8a013cc601a2ebe5b3c599cfa36b6",
+      "git_blob_sha": "14153fd0536f441b4855cd96bd6b3710a9d838cc",
+      "revision": "r1",
+      "revision_id": "rev_ea01071309c943319c7be5ddb603a83a",
+      "contribution_id": "con_389e238bcf954abfbe189bffd430f830",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-D83-571/record.json",
+      "sha256": "4d883a120381e2b49544104f04a121509b797f4a26930a0a69d05b2d9a9bd4bc",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Finite known policy kernels and law uncertainty only; the certificate excludes genuine ties and compares only with margin-qualified safe choices.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_e6cfdb7da5a14f3e9df220b194a873e1",
+  "handle": "ECON-I32-523",
+  "title": "Audit of poverty-shift uncertainty and a stronger interval-length implication",
+  "contribution_handle": "ECON-I32-523-A1",
+  "contribution_id": "con_e7716d697c5d4b0db2afe39f3d18315f",
+  "revision_id": "rev_daea7b3759fc460a9d4927e96e8f8140",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The indistinguishability bounds, finite-cell coverage argument, and continuous sampling-allocation formula.",
+  "scope": "The indistinguishability bounds, finite-cell coverage argument, and continuous sampling-allocation formula.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/reliable-poverty-estimates-without-fresh-surveys/attempt-1/r1/",
+  "source_sha256": "dd1da03679be9bf86c88dd1d3e41a343e396997eadd079d7029523de3fe0f5c3",
+  "review_path": "reviews/ECON-I32-523/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-I32-523.json",
+  "document_sha256": "5d2626fd754f227a6fc80b6a14c5fe97eb91bcf9d2c605a74ce1d36a31100481"
+}

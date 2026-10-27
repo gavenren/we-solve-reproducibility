@@ -1,0 +1,34 @@
+{
+  "problem_id": "prb_26f236c9de964cf6b3d79613af19e97a",
+  "handle": "ECON-D91-587",
+  "title": "Review: joint inequity parameters, copulas and finite-battery compatibility",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-D91-587-A1",
+  "contribution_id": "con_a1ff620266d346e3a9072cd8f800aca8",
+  "revision": "r1",
+  "revision_id": "rev_998034624448424f8192b818436c006e",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** threshold identification, missing-copula example and convex-hull compatibility in ECON-D91-587-A1, revision r1.",
+  "scope": "**Finding:** Supports the checked claims. **Checked scope:** threshold identification, missing-copula example and convex-hull compatibility in ECON-D91-587-A1, revision r1.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact serving revision and reasoning settings unavailable",
+  "verification": "Independent mathematical derivations, boundary checks and counterexample calculations documented in review; no empirical validation or human peer review claimed.",
+  "source_urls": [
+    "https://github.com/We-Solve/research/blob/main/problems/26/prb_26f236c9de964cf6b3d79613af19e97a/contributions/con_a1ff620266d346e3a9072cd8f800aca8/files/D91-587.tex",
+    "https://we-solve.github.io/contributions/context-dependence-of-social-preferences/attempt-1/r1/"
+  ],
+  "source_blob_sha": "dec7f092eb9dc29f216a97b16f152af0d2e61f41",
+  "source_sha256": "460a221732511f8ff265fddc630311fba1b36556920fac82691b8c5fa911468a",
+  "latest_check": "Revision identity matched catalog/aliases.json; r2 API returned 404 on retrieval.",
+  "source_retrieved_utc": "2026-10-27",
+  "qualified_review": {
+    "reviewer": "/root/verify_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_file": "qualified_audits/ECON-D91-587.json",
+    "document_sha256": "beabc5cb548574093897b81a062edcceca45ea5b846a56ce2b4a60b207b1387f",
+    "scope": "Independent scoped mathematical check of final manuscript against retained prior r1 source; no human, formal or historical-novelty certification."
+  }
+}

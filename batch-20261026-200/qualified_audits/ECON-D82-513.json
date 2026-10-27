@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D82-513",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D82-513/review.md",
+  "document_sha256": "36200e15158c9ce3e5127a573264d24571c1f8d1e284515d7ee988afe384f694",
+  "checked_scope": "The contextual-reset threshold oracle and the horizon-dependent block-length calculation.",
+  "checks": [
+    "Fresh labels isolate each block in its contextual regret guarantee; subtracting prefix upper bounds would not justify the required block bound.",
+    "Opponent transfers create a margin ≥1; total deviation mass ≤(n−1)R and two-payoff comparison error ≤2(n−1)R give h=2(2n−1)R/L, including off-test actions.",
+    "With T=BL and L≥64(2n−1)²C²B/ε², h≤ε/4. Binary-search width ≤2^(1−K)+2h≤ε; difference estimation controls the half-range quotient metric."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-D82-513_0.tex",
+      "sha256": "514b9a88f08ac2bdd017d15eb6194d71dd793f0271838b34455940cbe9fa40ec",
+      "revision_id": "rev_53d7430dab0042e78d78c476330d4214",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/dimension-dependence-in-learning-a-game-by-payments/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

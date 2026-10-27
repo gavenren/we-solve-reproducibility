@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-C21-553",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C21-553/review.md",
+  "document_sha256": "24dda56535d6cbec3ccdb655d877e643314ae87a4dbf9ab99e2160e6f2cbf0c8",
+  "checked_scope": "**Finding:** Supports the claim within the stated model. **Checked scope:** Theorem “Validation removes predictive drift bias,” Proposition “Cost-aware validation allocation,” and the unvalidated-support proposition in contribution ECON-C21-553-A1, revision r1.",
+  "checks": [
+    "Recomputed E[B]=mu and Var(B)=v/pi-(mu-m)^2, including deterministic outcomes and nonzero predictor bias; total variance retains r^2/e_A^2 under the observed-arm expectation.",
+    "Pointwise minimization of a/u+lambda*c*u yields both clipping boundaries; the finite nonempty budget interval implies integrable c, which dominates the expected-cost limit. Clarified this instead of assuming an unstated uniform upper cost bound.",
+    "Recomputed the two-stratum allocation (1/10,9/10), residual objective 1/2 versus 41/50, and the simultaneous arm-specific unvalidated-support endpoint construction.",
+    "For bounded predictor/outcome and validation floor ell, the corrected bracket lies in [1-1/ell,1/ell], giving |T|<=R/(epsilon*ell); zero-residual cells require the source qualification."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-C21-553/prior.tex",
+      "sha256": "a1057f7686282177dbe47e861d59b09874559cb1aeaba9a537e348fa29953d71",
+      "git_blob_sha": "894c1d83d0ff5163870f99a1189073b0f729bf59",
+      "revision": "r1",
+      "revision_id": "rev_3cfb88407caf459ab4e027bc0a405eb0",
+      "contribution_id": "con_b2e788c1c6c5441bb81464ab19738763",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-C21-553/record.json",
+      "sha256": "a99c661992c163bf17b10aad9a644cfe8b8938d4c29ca987303bc99b20ac4bc6",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Transport, recorded validation propensities and pilot/oracle accuracy are maintained; allocation and support sharpness do not validate persistent treatment versions never observed.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

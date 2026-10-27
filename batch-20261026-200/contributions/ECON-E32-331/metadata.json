@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-E32-331",
+  "problem_id": "prb_f3bd70ff919e47c195206afb581990da",
+  "catalog_rank": 335,
+  "title": "Independent review: Sectoral shock propagation",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Exact Cobb–Douglas network thresholds, matrix orientation, and the limits of inferring finite shocks from local elasticities.",
+  "contribution_handle": "ECON-E32-331-A1",
+  "contribution_id": "con_0fee8627193c4c3c94fb5951ff96de17",
+  "revision_id": "rev_7571140dd27d48cdb57fdb6fa8bcbc2f",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/sectoral-shock-propagation/attempt-1/r1/",
+  "source_sha256": "8df297240817a4e689b4371a3e25ea9703a9191b49b1549f9c30019774d58f54",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-E32-331.json",
+  "qualified_audit": "qualified_audits/ECON-E32-331.json"
+}

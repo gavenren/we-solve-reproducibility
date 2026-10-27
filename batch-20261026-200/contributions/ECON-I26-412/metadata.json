@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_4b46a2d4d11d4ae4afb6164c518743bd",
+  "handle": "ECON-I26-412",
+  "title": "Independent review of ECON-I26-412-A1: Capacity-regime nonidentification and sharp rectangular net-return bounds",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-I26-412-A1",
+  "contribution_id": "con_9697e0c9f0cc450a8b3d060c014b1f2d",
+  "revision_id": "rev_eda5fc67ced54640b7481ca2fe35df57",
+  "finding": "Supports the claim",
+  "checked_scope": "Capacity-regime nonidentification and sharp rectangular net-return bounds",
+  "scope": "Capacity-regime nonidentification and sharp rectangular net-return bounds",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/returns-to-expanding-college-access/attempt-1/r1/",
+  "source_sha256": "ea796ebdbedc3f0385adc02f3e73aea65fd43e0105ff8c0a4654e8d75cfef5ed",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-I26-412.json"
+  }
+}

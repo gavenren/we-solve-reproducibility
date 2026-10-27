@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_1d07eb21d5e74aeeb60cda8a2cab0a42",
+  "handle": "ECON-D60-517",
+  "title": "Audit of robust welfare order and coupled model uncertainty",
+  "contribution_handle": "ECON-D60-517-A1",
+  "contribution_id": "con_55a2b05e21d54dcd8eb59f9041930304",
+  "revision_id": "rev_e37f4ae240284da78c363c0007e7a185",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The robust preorder, unrestricted-weight degeneracy, and vertex-pair reduction for finite outcome polytopes.",
+  "scope": "The robust preorder, unrestricted-weight degeneracy, and vertex-pair reduction for finite outcome polytopes.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/welfare-when-preferences-are-inconsistent/attempt-1/r1/",
+  "source_sha256": "85b2c9b688881f7e5d7b0037463044ea2b526ad38a9b7e4586391413ee8fa458",
+  "review_path": "reviews/ECON-D60-517/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-D60-517.json",
+  "document_sha256": "f0a0f75a4f5451cfa34cf917b178b9b87c45f81e259030997010ac9b2a6bbc4b"
+}

@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C61-246",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C61-246/review.md",
+  "document_sha256": "e341dc080c40e95c1bc933571dcb979883dd7e51472d8309d4bc9a28905fb441",
+  "checked_scope": "The sign of the verification inequality and the two horizon-uniform quadratic barriers.",
+  "checks": [
+    "Completing the control square gives nonnegative generator-plus-cost for a subsolution; Ito yields v below expected candidate terminal value plus costs, and v<=k gives a lower value bound with the stated integrability premises.",
+    "The tangent-line barrier has slope A=kappa*bminus with mu^2*A^2/(2r)=c. Exterior residual is zero and interior residual >=sigma^2*kappa/2; C1 matching removes local-time jump terms.",
+    "The exact deterministic-delay excess cost has linear coefficient c+sigma^2*kappa/2-mu^2*kappa^2*x^2/(2r) and positive quadratic remainder. Outside bplus, a short delay beats stopping for every t<H. This bounds preterminal slices without proving connectedness or divergent terminal boundaries."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C61-246.txt",
+      "sha256": "26b5e657796184fcf0df4ab15ee2b3c9b3e1703f70b398a9418652c7cf2183ef",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C61-246.prior0.html",
+      "sha256": "461f5fa931d905d469402038774d97c989d9e8854fe5a380a5073c80426c1947",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C61-246.prior0.yaml",
+      "sha256": "05f0fd7410976c94f8db43110395b34409517ab9f6458dc415d2884208d3909a",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C61-246/source_notes.md",
+      "sha256": "85b0bc292bb1f96f4096a2ae06d19b26abbcdf767bd990a6a3626d99a3196ed1",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

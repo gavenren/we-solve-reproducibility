@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-I32-523",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-I32-523/review.md",
+  "document_sha256": "5d2626fd754f227a6fc80b6a14c5fe97eb91bcf9d2c605a74ce1d36a31100481",
+  "checked_scope": "The indistinguishability bounds, finite-cell coverage argument, and continuous sampling-allocation formula.",
+  "checks": [
+    "The common observed law of endpoint models makes average squared risk equal midpoint risk plus (U−L)²/4, including randomized estimators. Known population endpoints admit the minimax midpoint, without a finite-sample attainment claim.",
+    "The manuscript attains every θ∈[L,U] under the same observed law. Integrating pointwise ≥1−α coverage via Tonelli proves the review’s stronger E|I|≥(1−α)(U−L), while the source’s two-endpoint (1−2α)₊ bound remains valid.",
+    "Simultaneous finite-cell rate intervals and monotone clipping cover the full population set; each endpoint’s expansion is ≤2Σwⱼrⱼ. Cauchy–Schwarz with budget B gives nⱼ∝wⱼσⱼ/√cⱼ and the stated variance; unrestricted Bernoulli strata can all attain variance 1/4 simultaneously."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-I32-523_0.tex",
+      "sha256": "dd1da03679be9bf86c88dd1d3e41a343e396997eadd079d7029523de3fe0f5c3",
+      "revision_id": "rev_daea7b3759fc460a9d4927e96e8f8140",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/reliable-poverty-estimates-without-fresh-surveys/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

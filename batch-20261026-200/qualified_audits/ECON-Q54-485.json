@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-Q54-485",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-Q54-485/review.md",
+  "document_sha256": "c497453f616e8f58c0fc8c43e5bc386d98595636db3ece4256d28ce5d5fe7f6f",
+  "checked_scope": "The optimizer-pair union representation, its attainable geometry, and value perturbation bounds.",
+  "checks": [
+    "Every compatible matrix has at least one optimizer pair; fixing that pair makes both value targets linear. The union of these closed polytope images is exactly the attainable joint set, including ties.",
+    "For payoffs (0,0) and (u,−u), the image is (|u|−u,−|u|); endpoints (0,−1),(2,−1) are attainable but midpoint (1,−1) is not.",
+    "Maxima are 1-Lipschitz in their plan values even when optimizers jump. Subtracting values gives adaptation-gain error ≤2ε1 and climate-loss error ≤ε0+ε1 under the common response technology."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-Q54-485_0.tex",
+      "sha256": "dbbc48bd7a59cec7c9140a1b39ac510a9746a820aa7ba69e591a455a7744fc3d",
+      "revision_id": "rev_45674e92d4ce4881b82b6003837e1a43",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/measuring-climate-adaptation/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

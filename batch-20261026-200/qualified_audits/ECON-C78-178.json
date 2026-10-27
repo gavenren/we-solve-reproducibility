@@ -1,0 +1,69 @@
+{
+  "handle": "ECON-C78-178",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C78-178/review.md",
+  "document_sha256": "a150ecd553bed72fb6c7acc14e2e2bcfebd7d6708659f3af0c1cc89183b3ca2d",
+  "checked_scope": "The Pareto criterion for finite unpopularity factor, maximum aggregation across components, and the common-order formula.",
+  "checks": [
+    "A positive challenger win count with zero loss count is exactly a Pareto improvement; finiteness iff Pareto optimal. A Pareto-improved incumbent weakly reduces every challenger win count and increases its loss count, so factor cannot increase after max with 1.",
+    "For disjoint components, r_i<=U s_i even when s_i=0 if all factors finite; summing yields global factor<=max component, attained by changing one component. Independent component minimizers give the same maximum for optimal factors; additive amplification for margins does not transfer.",
+    "Common-order Pareto optima fill the first min(n,h) houses. With 0<h<n the shift chain gives h winners/one loser, and h>=n gives n-1 winners/one loser. Counting winners plus a necessary loser matches max(1,min(h,n-1)); n<=1 or h=0 separately has factor1."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C78-178.txt",
+      "sha256": "eb6e131ecbfcab74178234045bceeb3f632ee4d0dac042b1a8793c997c2cc0ec",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C78-178-prior.html",
+      "sha256": "d70abe1a81014d2e15754e33470bf3a867bdb391d1d0ebc404d418116eb4e175",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C78-178-prior.txt",
+      "sha256": "f4a1d011e91127e159bfa22b8df11ae5c51480609060cf367018c54a3c4eb809",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C78-178/metadata.json",
+      "sha256": "acc8ad8eb99f0bd541e0055f9e63c20ec6fb03fefadcf388efd8a86e9b43eaf2",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C78-178/source_notes.md",
+      "sha256": "3462e4f496504f761f14ecebf7ee3fab605aaaa5f0a43826935187a266b93c8f",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C78-178-prior.yaml",
+      "sha256": "fd18855c526c30f01861f5f1e9c6d2e03544fd885275db3a70d21c9dc718a75d",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    },
+    {
+      "path": "verify_econ_a_reviews.py",
+      "sha256": "3fa86e108ffffb86f11d783753dd7bf21e826c1007275cd96d956ac4422b4030",
+      "inspected_scope": "Inspected all ten finite-check routines, including assigned case construction and exact arithmetic; no redundant rerun."
+    },
+    {
+      "path": "econ_a_review_check_results.json",
+      "sha256": "7dd8233512ac5a13077a9a9ef4ec674fba459ff754b1f30d7541b11d03bebcf5",
+      "inspected_scope": "Inspected retained case counts/results and compared their stated scope to review."
+    }
+  ],
+  "limitations": [
+    "This supports these structural formulas and edge-case conventions. It does not establish the cited approximation-hardness results or transfer the margin replication reduction to multiplicative factors.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "finite_evidence_inspected": {
+    "cases": 20,
+    "matching_pairs": 56872,
+    "check": "Exhaustive incumbent/challenger enumeration for 1..4 applicants and 0..4 commonly ranked houses, allowing unmatched applicants."
+  }
+}

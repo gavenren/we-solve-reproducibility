@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_3492c0f898f04e2ba9b64d92f3eba5a5",
+  "handle": "ECON-H21-405",
+  "title": "Independent review of ECON-H21-405-A1: Cross-base fiscal recapture and joint enforcement derivative accounting",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-H21-405-A1",
+  "contribution_id": "con_9cc2cac898fd4762806254ce33b289ee",
+  "revision_id": "rev_0fef1ea661634ea6ae71ce1268d95642",
+  "finding": "Supports the claim",
+  "checked_scope": "Cross-base fiscal recapture and joint enforcement derivative accounting",
+  "scope": "Cross-base fiscal recapture and joint enforcement derivative accounting",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/optimal-top-income-taxation-with-avoidance-and-mobility/attempt-1/r1/",
+  "source_sha256": "65afd21761adc9f4885eef657b4d38b9024a0faf3a9b3946c906b42414d3205c",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-H21-405.json"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "handle": "ECON-C78-373",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C78-373/report.md",
+  "document_sha256": "3d85dfe9aa57b6b272e9c7be6ee4b6821d9e78e8480a308bbbe81b004425e126",
+  "checked_scope": "Exact XP optimization of rank-maximality probability in the number of uncertain applicants for explicitly supported independent lotteries, and the corresponding candidate reduction for explicit correlated joint profiles.",
+  "checks": [
+    "Verified uncertain assignments include unmatched status, reject house collisions, and reserve exactly the houses used before residual optimization.",
+    "Verified original deterministic ranks are retained after reservation; base n+1 weights have polynomial bit length and numerical comparison exactly matches lexicographic rank vectors.",
+    "Checked pointwise dominance by adding the same uncertain-applicant rank vector to a lexicographically optimal deterministic residual vector. If an extending matching is globally rank-maximal in a profile, its candidate must be too.",
+    "Verified every ex ante matching has one enumerated uncertain assignment; therefore at least one candidate maximizes success probability for any supported joint distribution, even if residual optima are nonunique.",
+    "Checked LA=product(di+1), LP=product(si), exact profile probability evaluation and polynomial rational arithmetic via a product common denominator. L^(O(k)) is XP, polynomial at k=1, and is not asserted to be FPT.",
+    "Checked the fixed acceptable sets and ex ante selection order against the current prompt. Explicit factorial tie refinements are excluded from the polynomial claim, and neither prior manuscript gives the residual dominance reduction.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C78-373.txt",
+      "sha256": "c21dd7adab39dc6a3367728a62a6daa1c4f3fc6596fbbf24d59000e6cfcebba4",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-C78-373_A1.txt",
+      "sha256": "d3dd585e6debcf2bae299ec66538e99ce1913fbc563f83c59f9d5f2a04e56aa2",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "prior/ECON-C78-373_A2.txt",
+      "sha256": "da14c6fefb7b09c0225b2029d26ce2cf079f8221d3a1755a6e88f357fc1aa18f",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-C78-373/source_notes.md",
+      "sha256": "eedb14df727b2ccc5aa96a5dacb1a8b08fdca58cbd940ce39ff33af2edfe1094",
+      "check": "source-note binding checked"
+    }
+  ],
+  "limitations": [
+    "No unrestricted polynomial algorithm, FPT result in k, or polynomial algorithm for succinct uniform tie refinements is established. Finite exhaustive checking supports but does not replace the dominance proof.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ],
+  "checker_evidence": {
+    "program_path": "contributions/ECON-C78-373/verify.py",
+    "program_sha256": "c1ecff732a542ae1a69d15b76067302f59629658cd594ff2104ec907efd28ff3",
+    "author_execution_record_path": "contributions/ECON-C78-373/verification.json",
+    "author_execution_record_sha256": "d74312e034f04fe3d9540f504493c31aa1b37f923e6eb6519272f5cd156b6239",
+    "independent_root_execution_record_path": "root_checker_runs.json",
+    "root_record_sha256": "e34cfee3cfbcf94bb08610d9cb5880aeef655dc5436c166e9a08eccfc72ab861",
+    "root_record_entry": {
+      "handle": "ECON-C78-373",
+      "program_sha256": "c1ecff732a542ae1a69d15b76067302f59629658cd594ff2104ec907efd28ff3",
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"instances\": 320, \"applicants\": \"1..4\", \"houses\": \"1..4\", \"uncertain_applicants\": \"1 or 2\", \"seed\": 386373, \"arithmetic\": \"exact rank vectors and fractions\", \"scope\": \"candidate dominance and exact optimum against exhaustive oracle\"}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.075,
+      "source_unchanged": true
+    },
+    "reviewer_action": "Read checker source and exact matching success records; did not redundantly rerun. General result verified by the written mathematical argument, not inferred from a finite test."
+  }
+}

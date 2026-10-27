@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-I21-615",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-I21-615/review.md",
+  "document_sha256": "e310ea2110ab11898dc0bead7f108c695d86e40f1b00287ba8d47830ee82a423",
+  "checked_scope": "**Finding:** Supports the checked claims. This review examines the factorial confidence bound, the rank condition for structural complementarity, the attendance counterexample, and the effort-model welfare comparison.",
+  "checks": [
+    "Weighted independent observations give squared-range sum R_Y^2*sum(1/n_ph), the log(4/alpha) two-outcome radius, and continuous variance allocation proportional to arm standard deviation.",
+    "Checked row-space criterion for c in M*theta=d and necessity under an interior feasible coefficient; restricted boundary parameter sets may identify more than rank alone.",
+    "Recomputed attendance example scores (0,1/16,1/4,25/64), positive factorial interaction 5/64 with c=-1/16, and r0=0 observational collinearity P=PT.",
+    "Recomputed effort t=(b+c*p)/(d+k), R(k)=(d+2k)/(2(d+k)^2), derivative -k/(d+k)^3, readiness sign via c*(2b+c), and separate cost-adjusted welfare contrast without double-counting effort cost."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-I21-615/prior.tex",
+      "sha256": "ab31ae0004fe23326e39b09621143f1a345f8bd2a9b1c4e7a5392df4ae7b8a64",
+      "git_blob_sha": "f0852a48df989b5b499f7306f7908f0e48b92393",
+      "revision": "r1",
+      "revision_id": "rev_b60af8cb42334841a9271a7e5e4fc6cd",
+      "contribution_id": "con_715dccb41a1c46f29b662e640555d18b",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-I21-615/record.json",
+      "sha256": "b8e0280f847daf6e6429f016b4478c5f25053a498610cfd9dc0d08ec60fe2fff",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Four randomized offers identify restricted moments only; score bounds, actual-input exclusions and monetary welfare normalization remain substantive assumptions.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

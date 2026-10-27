@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_ab0559249efe483db25d33786994596d",
+  "handle": "ECON-H22-468",
+  "title": "Audit of the exact finite-difference kink interval and its noise scaling",
+  "contribution_handle": "ECON-H22-468-A1",
+  "contribution_id": "con_9f868850ace7412f8f28e86769086a8c",
+  "revision_id": "rev_2791126027c74ea486597799fbe11f90",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The sharp derivative-jump interval under one-sided Lipschitz derivative restrictions and the stated sampling bound.",
+  "scope": "The sharp derivative-jump interval under one-sided Lipschitz derivative restrictions and the stated sampling bound.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/tax-incidence-anomalies/attempt-1/r1/",
+  "source_sha256": "928d2645692d723cced9aceca7d30ec1932dc85dade6c818015f80d9b1bc854b",
+  "review_path": "reviews/ECON-H22-468/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-H22-468.json",
+  "document_sha256": "7f8bbc753ff6f62ef37044ee66ad732c61593fc3472e9f668065a9d10e36f06b"
+}

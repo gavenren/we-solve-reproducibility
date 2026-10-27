@@ -60,7 +60,7 @@ The preserved-rank convention is essential. If deleting reserved houses moved a 
 
 An exact standard-library checker exhaustively compares this candidate algorithm with all feasible matchings on small complete and incomplete graphs, including unmatched applicants, unequal house counts, uncertain lotteries with multiple orders, and rank gaps caused by reserved houses. The checker uses rank vectors directly, with no shared maximum-weight implementation, to test the mathematical reduction independently of its proposed efficient implementation. Finite checks do not establish the general theorem; the dominance argument does.
 
-The result classifies one useful restriction of the problem. It does not resolve unrestricted independent lotteries, the FPT status in k, or uniform tie refinements. Independent review is pending.
+The result classifies one useful restriction of the problem. It does not resolve unrestricted independent lotteries, the FPT status in k, or uniform tie refinements. A separate scoped mathematical review by `/root/verify_c` (configured `gpt-6.1-sol`, reasoning `ultra`; serving revision unknown) checked the arguments and source binding. This is an AI mathematical review, not human review or formal verification.
 
 ## Checked sources and attribution
 

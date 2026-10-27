@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-C26-326",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C26-326/review.md",
+  "document_sha256": "af7da78cbfd6c17340e8304800bf0b15d4aab06a7a5278abd24f43c73089f1e1",
+  "checked_scope": "The weak-first-stage lower-bound construction and its nκ² scaling, including exact observable cell probabilities; not adaptive optimal design.",
+  "checks": [
+    "Recomputed the baseline changed cell probability (1+kappa)/16 using independent W,Z fair assignment, complier mass kappa, noisy always-takers and fair outcomes.",
+    "The two changed cells differ by plus/minus kappa*t/4, so chi-square divergence is exactly 2 kappa^2 t^2/(1+kappa); iid KL is bounded by 2n kappa^2 t^2.",
+    "Checked monotonicity/exclusion and target t in the latent construction. The small fixed c choice t=c min(1,1/(sqrt(n) kappa)) stays within [0,1/4] and keeps total variation bounded below one, giving the scoped squared-error lower order.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C26-326.txt",
+      "sha256": "8bb486d05f3a5f890e14331461ac492fdcb44a2e415a403e4e1bbad5e33acce8",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-C26-326_A1.txt",
+      "sha256": "3f9063686034318b27fbadb8e5d5f7173b26586094100d31ee971cd27570a37e",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-C26-326/source_notes.md",
+      "sha256": "0daf44332d63c81f74c310da52fc99b6b95363daf5fa543c22edb5c9a21e8d67",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-C26-326_A1.yaml",
+      "sha256": "29822fe4331af52fe7d211e62e8149a1e86c14e34bee3faeb56edfe6442a8ff4",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Requires a class containing the interior constant means and noisy noncompliers. Adaptive design, natural mediation interpretation, noiseless smaller classes and separate interval-optimality claims are outside this audit.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

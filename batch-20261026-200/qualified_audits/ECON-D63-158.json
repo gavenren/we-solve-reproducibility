@@ -1,0 +1,68 @@
+{
+  "handle": "ECON-D63-158",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D63-158/review.md",
+  "document_sha256": "b8e8538ee415f01f673c9d0d91d74d17789af636e50fb036eac7ca4ed5313fb8",
+  "checked_scope": "The finite convex-hull certificate and the proportional-valuation lottery construction.",
+  "checks": [
+    "Minimizing squared negative part on the finite convex hull yields w>=0 and w dot z<=-||w||^2<0 when no nonnegative expected envy vector exists; the derivative sign, strict margin and nonempty-outcome hypothesis are correct.",
+    "Affine dependence removes surplus support down to q+1 envy vectors. A rational feasible polytope vertex and rational support elimination give rational probabilities, without polynomial enumeration complexity.",
+    "Descending least-load placement, including zeros, makes deletion of the last/smallest item leave load <= every other final load; all other deletions are smaller. Uniform within-component permutations remove expected envy and positive welfare weights 1/c_i certify deterministic Pareto optimality. Zero goods must follow the min-load rule."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-D63-158.txt",
+      "sha256": "80467019fc1597cae307e72d9bbacf28e7da80f898fcad3b531efa038dfa3642",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-D63-158-prior.html",
+      "sha256": "65bf1da0facb66ae4de604ea653b93a38bf1f4a1146554ff1be605f228dcb1e8",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-D63-158-prior.txt",
+      "sha256": "14514535b03ac58b93afdf9872ba8f5cf10395c628bc2f478b161e8cab6b030c",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-D63-158/metadata.json",
+      "sha256": "1b5e9deca57e25315a1747e1df94bac5e355710c36bbb7e6f1eb14ef28beba11",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-D63-158/source_notes.md",
+      "sha256": "26cc1fa22f286b0df06b82f25b8eb11fd2101320eec06f2d4e1616ea05eb6bd5",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-D63-158-prior.yaml",
+      "sha256": "3e01a5cc86b0b6bad692d40efe1e238932c980586712cbb9ca1f879e8c831a29",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    },
+    {
+      "path": "verify_econ_a_reviews.py",
+      "sha256": "3fa86e108ffffb86f11d783753dd7bf21e826c1007275cd96d956ac4422b4030",
+      "inspected_scope": "Inspected all ten finite-check routines, including assigned case construction and exact arithmetic; no redundant rerun."
+    },
+    {
+      "path": "econ_a_review_check_results.json",
+      "sha256": "7dd8233512ac5a13077a9a9ef4ec674fba459ff754b1f30d7541b11d03bebcf5",
+      "inspected_scope": "Inspected retained case counts/results and compared their stated scope to review."
+    }
+  ],
+  "limitations": [
+    "The separation and proportional-valuation construction are supported. This is not a general existence result for the requested lottery. Zero goods cannot be appended arbitrarily after the greedy construction when EFX quantifies over every removed good.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "finite_evidence_inspected": {
+    "cases": 6560,
+    "check": "Enumerated 0..7 goods with weights in {0,1,2}, for 2 and 3 agents; every removed good, including zero, satisfies EFX."
+  }
+}

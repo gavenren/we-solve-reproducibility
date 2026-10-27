@@ -1,0 +1,59 @@
+{
+  "handle": "ECON-C31-289",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C31-289/report.md",
+  "document_sha256": "db5c4ab7a66dd3f083e32a6b45c46849c6dd111c1828f8b317c4668840bb9eeb",
+  "checked_scope": "Sharp population identification of the binary spillover contrast under rectangular uncertainty about *asymmetric* false-positive and false-negative rates, with explicit exposure-positivity restrictions. The finite algorithm below returns the exact interval from the observed binary joint law. It does not give the full covariate-dependent minimax theory.",
+  "checks": [
+    "The identities d=(1-a-b)p and e=(1-a-b)(1-p) give p=d/(d+e), m1=h+c/d, m0=h-c/e, and Delta=c(1/d+1/e). For both covariance signs the stated positive lower bounds are exactly the nonautomatic binary-mean restrictions.",
+    "The positivity wedge is equivalent to ell<=p<=1-ell. Every feasible point reconstructs a nondifferential binary latent model with the full observed joint law; convex connected feasibility and continuous objective give the entire attained interval.",
+    "The corrected endpoint algorithm is valid: the gradient of F never vanishes, and every polygon edge is vertical, horizontal, or positive slope. Along any nonconstant such edge F is strictly monotone. Both extrema therefore occur at enumerated vertices, including segment, point, ell=1/2 and degenerate-box cases.",
+    "Zero covariance with informative orientation and positive exposures forces equal means; constant outcomes force contrast zero; q=0 or 1 is impossible. The exact reconstruction checker and retained PASS log cover 20412 models, 18144 nonzero covariance; its scope expressly excludes endpoint optimization."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C31-289.txt",
+      "sha256": "3c0751ae19cf4c5baeb33936bf33bc8f1fa31087f5bda7eb21f3158e0a1cd58d",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C31-289.prior0.html",
+      "sha256": "04308466dfb348271c6a7e6594351f3e59753fea7823bbb68a178ed4791808e2",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C31-289.prior0.yaml",
+      "sha256": "cff72715f08359ff1e465f2a99de7ed1f25beec0dea6fd6a3e48c35f165e2bbf",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C31-289/source_notes.md",
+      "sha256": "89848d543350b89f87be1a76b4c1da1d9479cfbe18a28673d62dd62cd686e603",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    },
+    {
+      "role": "finite_checker",
+      "path": "contributions/ECON-C31-289/verify.py",
+      "sha256": "d54235eab72ddcd9f74c836193f19481888acbd73cf35f810ba93e68d5fda7e4",
+      "check": "Read checker and retained result with finite scope; continuum proof checked separately."
+    },
+    {
+      "role": "finite_checker_result",
+      "path": "contributions/ECON-C31-289/verification.json",
+      "sha256": "1f52b8e60332c20cb8fc6e54d1c0a5cfbd080d23bbfb91a30eabbce351e1f627",
+      "check": "Read checker and retained result with finite scope; continuum proof checked separately."
+    }
+  ],
+  "limitations": [
+    "Binary one-stratum rectangular asymmetric uncertainty only; no full covariate-dependent rates. Finite checker does not test the endpoint optimizer.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

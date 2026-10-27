@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-E22-322",
+  "problem_id": "prb_b3aeb70511e54394b5559376723aa858",
+  "catalog_rank": 326,
+  "title": "Independent review: Firm cash-flow heterogeneity and investment-tax policy",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Cash-constrained investment derivatives, threshold entry term, and the failure of differentiability at an atom on the financing boundary.",
+  "contribution_handle": "ECON-E22-322-A1",
+  "contribution_id": "con_3ee3cd028dad44a080a6e1e2d4a83de8",
+  "revision_id": "rev_ed851623048747d09a81c74b7ee554dc",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/firm-cash-flow-heterogeneity-and-investment-tax-policy/attempt-1/r1/",
+  "source_sha256": "cd8576b8dfd545f5217702384818e5599a8d6198a6ec8a32883b861796abdf4d",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-E22-322.json",
+  "qualified_audit": "qualified_audits/ECON-E22-322.json"
+}

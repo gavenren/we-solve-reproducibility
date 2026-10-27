@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-H22-617",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-H22-617/review.md",
+  "document_sha256": "a08fd128f84fa81169cfe6aef660737d2a496afc1c4dddac80d41e7898efb46c",
+  "checked_scope": "**Finding:** Supports the claim within the linear-demand monopoly model. This review checks incidence derivatives, learning identification, and the observational equivalence underlying the welfare ambiguity.",
+  "checks": [
+    "Recomputed quantity derivative -tau/(2b), consumer derivative tau*Q/2+(1-a)*tau^2/(2b), owner/revenue derivatives and their sum -tau*(D+a*tau)/(4b) under D>tau.",
+    "Iterated the affine attention recursion and checked learning/forgetting limits, order preservation, changing-path three-measurement identification and the r=0 boundary.",
+    "Verified constant attention/intercept shift with corresponding lambda/rho adjustment leaves full monopoly price and quantity paths unchanged within one interior regime.",
+    "Factored normative consumer welfare as (Q1-Q0)*(v_N-v*) with v*=c+tau+3b*(Q0+Q1)/2; v* exceeds b*max(Q0,Q1), allowing opposite welfare signs with both normative utilities increasing and strictly concave."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-H22-617/prior.tex",
+      "sha256": "73fee843647e9165b009af79387aed24160f18009c71b8f25f1173deccabec32",
+      "git_blob_sha": "0b98ff0f34025c96789be8f98afcf1a4336d7dda",
+      "revision": "r1",
+      "revision_id": "rev_450f79e2fdd74434b128a8a24d71146f",
+      "contribution_id": "con_cb883adda4fe4a69898a055cccc3b618",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-H22-617/record.json",
+      "sha256": "49088a67b3bd67c01ea4818b6833d14868040799f3ce9bc2bf042c51c1672601",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Fixed-tax monopoly, affine attention law and normative utility normalizations are conditional models; no empirical tax incidence or policy recommendation.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

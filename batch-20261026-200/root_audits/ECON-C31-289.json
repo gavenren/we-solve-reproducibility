@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-C31-289",
+  "reviewer": "/root",
+  "reviewer_model": "OpenAI Codex based on GPT-6; precise model/revision and thinking configuration unknown",
+  "report_sha256": "1fcc0d178fe69210f466f9b928255d07ab1398df2e953c8dfd47d71789b86c9b",
+  "finding": "No remaining mathematical error found in checked written proof",
+  "checks": [
+    "Re-derived the two-parameter inversion, sign-dependent feasibility constraints and positivity wedge.",
+    "Identified and required correction of the unsupported interior edge-stationary claim: all polygon edges are axis-aligned or positive-slope, so both extrema occur at vertices.",
+    "Checked the revised vertex-only algorithm, rational endpoint statement, zero-covariance and degenerate-outcome cases.",
+    "Checked latent-law construction and continuous connected image for sharp interval attainment."
+  ],
+  "limits": [
+    "Written derivation audited, not historical novelty or external eligibility.",
+    "No formal proof-assistant certification or human peer review."
+  ],
+  "status": "proof_reviewed_final_configured_review_pending"
+}

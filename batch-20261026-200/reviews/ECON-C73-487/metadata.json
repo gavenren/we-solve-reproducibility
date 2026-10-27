@@ -3,15 +3,19 @@
   "handle": "ECON-C73-487",
   "title": "Audit of the switching boundary and terminal-value step in the constrained Nash certificate",
   "contribution_handle": "ECON-C73-487-A2",
-  "contribution_id": null,
-  "revision_id": "r1",
+  "contribution_id": "con_06e6fbf043534d9f921237c7568c181c",
+  "revision_id": "rev_11fd228152ee4db2aace8625759da31b",
+  "revision_label": "r1",
   "finding": "Supports the claim",
   "checked_scope": "The saturated scalar reference profile, its continuation Nash verification, and the uniform-in-time gain-perturbation bound.",
   "scope": "The saturated scalar reference profile, its continuation Nash verification, and the uniform-in-time gain-perturbation bound.",
   "author": "/root/econ_e",
   "kind": "review",
-  "status": "review_draft_pending_second_review",
+  "status": "scoped_second_review_complete",
   "source_url": "https://we-solve.github.io/contributions/trajectory-error-certificates-for-constrained-feedback-nash-approximations/attempt-2/r1/",
   "source_sha256": "16803ea1352a8256da981e3962ba5ee3eb069d3a013f322b90ae4616d8fa79fe",
-  "review_path": "/Users/Administrator/Documents/ChatGPT/We Solve/batch_200_20261026/reviews/ECON-C73-487/review.md"
+  "review_path": "reviews/ECON-C73-487/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-C73-487.json",
+  "document_sha256": "d1abf56860a98bf99407e79590b5daab1db76addcb549135f769d534c3eb6add"
 }

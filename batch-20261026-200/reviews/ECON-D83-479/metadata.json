@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_8ee36bfebf5c4c6e8f98d83af5aa4f96",
+  "handle": "ECON-D83-479",
+  "title": "Audit of terminal menu vertices and shared hidden-cost tie responses",
+  "contribution_handle": "ECON-D83-479-A1",
+  "contribution_id": "con_c0fc9214977d4a07b5915b1909f2257c",
+  "revision_id": "rev_97a5edea7b73480fb51104e9fae7b042",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The polynomial known-cost terminal optimization and the exact local shared-response certificate.",
+  "scope": "The polynomial known-cost terminal optimization and the exact local shared-response certificate.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/optimizing-pure-strategy-cheap-talk-in-bilateral-trade/attempt-1/r1/",
+  "source_sha256": "6e2d763d64b6ebcc4faf40ee6847b1e38d256343b5222076bb1ee491b9d5625d",
+  "review_path": "reviews/ECON-D83-479/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-D83-479.json",
+  "document_sha256": "d6a1c259013dc76c626434e64e39270dfaabb654f9135aa2104fb07f0fbf6050"
+}

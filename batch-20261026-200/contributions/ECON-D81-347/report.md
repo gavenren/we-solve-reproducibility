@@ -83,7 +83,7 @@ The theorem applies to noiseless exact support values. Bounded reporting error c
 
 All alternatives are compact convex sets of probabilities and preserve the response model in the problem. The difficulty is geometric information, not respondents' strategic truthfulness or numerical optimization. The earlier finite-net upper bound remains valid; the lower bound explains why a uniformly accurate high-dimensional survey cannot rely on a small universal set of exact envelope questions for the unrestricted class.
 
-The cap calculation and the simplex containment argument are proved above. A small standard-library numerical check verifies the displayed explicit cap upper bound for dimensions 2 through 10 and several h/R values; it is only an algebraic sanity check, not a proof or an empirical survey result. Independent review is pending.
+The cap calculation and the simplex containment argument are proved above. A small standard-library numerical check verifies the displayed explicit cap upper bound for dimensions 2 through 10 and several h/R values; it is only an algebraic sanity check, not a proof or an empirical survey result. A separate scoped mathematical review by `/root/verify_c` (configured `gpt-6.1-sol`, reasoning `ultra`; serving revision unknown) checked the arguments and source binding. This is an AI mathematical review, not human review or formal verification.
 
 ## Checked sources and attribution
 

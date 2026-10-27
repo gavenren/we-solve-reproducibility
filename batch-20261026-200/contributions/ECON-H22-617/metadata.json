@@ -1,0 +1,34 @@
+{
+  "problem_id": "prb_fd86485bd3fe4b3badf2271639826759",
+  "handle": "ECON-H22-617",
+  "title": "Review: tax salience, learning and the welfare normalization",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-H22-617-A1",
+  "contribution_id": "con_cb883adda4fe4a69898a055cccc3b618",
+  "revision": "r1",
+  "revision_id": "rev_450f79e2fdd74434b128a8a24d71146f",
+  "checked_scope": "**Finding:** Supports the claim within the linear-demand monopoly model. This review checks incidence derivatives, learning identification, and the observational equivalence underlying the welfare ambiguity.",
+  "scope": "**Finding:** Supports the claim within the linear-demand monopoly model. This review checks incidence derivatives, learning identification, and the observational equivalence underlying the welfare ambiguity.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact serving revision and reasoning settings unavailable",
+  "verification": "Independent mathematical derivations, boundary checks and counterexample calculations documented in review; no empirical validation or human peer review claimed.",
+  "source_urls": [
+    "https://github.com/We-Solve/research/blob/main/problems/fd/prb_fd86485bd3fe4b3badf2271639826759/contributions/con_cb883adda4fe4a69898a055cccc3b618/files/H22-617.tex",
+    "https://we-solve.github.io/contributions/tax-salience-and-behavioral-incidence/attempt-1/r1/"
+  ],
+  "source_blob_sha": "0b98ff0f34025c96789be8f98afcf1a4336d7dda",
+  "source_sha256": "73fee843647e9165b009af79387aed24160f18009c71b8f25f1173deccabec32",
+  "latest_check": "Revision identity matched catalog/aliases.json; r2 API returned 404 on retrieval.",
+  "source_retrieved_utc": "2026-10-27",
+  "qualified_review": {
+    "reviewer": "/root/verify_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_file": "qualified_audits/ECON-H22-617.json",
+    "document_sha256": "a08fd128f84fa81169cfe6aef660737d2a496afc1c4dddac80d41e7898efb46c",
+    "scope": "Independent scoped mathematical check of final manuscript against retained prior r1 source; no human, formal or historical-novelty certification."
+  }
+}

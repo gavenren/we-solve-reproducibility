@@ -127,7 +127,7 @@ This is not a proof of PP-hardness under a single many-one reduction. Nor does t
 
 The accompanying exact checker independently computes (1) through the original x-variable edge-subset expansion and beta integrals, then performs the interpolation and compares the recovered coefficient with direct permutation enumeration of perfect matchings. It also constructs actual complete weak preference lists and directly enumerates refinements for small instances, comparing their stability frequencies with the integral. Execution results are recorded in verification.json. Finite checks support the implementation and boundary handling; the all-instance assertion rests on the proof above and the cited permanent-hardness theorem.
 
-No historical novelty claim is made. The current argument requires independent mathematical review; it is not formal proof verification or human peer review.
+No historical novelty claim is made. The written proof received an independent scoped mathematical check by /root/verify_d, configured as GPT-6.1 Sol with Ultra reasoning (exact serving revision unknown), covering the constructions, coefficient extraction, bit complexity and complexity-class conclusions. This audit is not formal proof verification or human peer review.
 
 ## References actually inspected
 

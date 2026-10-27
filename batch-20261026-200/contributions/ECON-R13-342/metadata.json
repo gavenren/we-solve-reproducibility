@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-R13-342",
+  "problem_id": "prb_26d32abe4cdf41eb99969aa6bfb9a62b",
+  "catalog_rank": 346,
+  "title": "Independent review: Remote work and city economies",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Integral conditional assignment, supporting rents, ownership cancellation and the restricted option-value result.",
+  "contribution_handle": "ECON-R13-342-A1",
+  "contribution_id": "con_4b477c0bfac1428e817d5d2d97478866",
+  "revision_id": "rev_7d175b7a9969480daf7c55d4c58f8c1d",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/remote-work-and-city-economies/attempt-1/r1/",
+  "source_sha256": "36029fbdbfc9aa1767978b19feab81d4c5127f74a8a5c0588cda0fea06876da3",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-R13-342.json",
+  "qualified_audit": "qualified_audits/ECON-R13-342.json"
+}

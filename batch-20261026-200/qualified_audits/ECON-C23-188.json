@@ -1,0 +1,68 @@
+{
+  "handle": "ECON-C23-188",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C23-188/review.md",
+  "document_sha256": "f908bc3d3edb4a3b304a7d569d70ead336342c3cc301c0ffed91e740af42a6c1",
+  "checked_scope": "The two-period nonidentification example and the score identity underlying the positive union result.",
+  "checks": [
+    "Enumerated fair A and T|A probabilities1/4+A/2: E[A|T=1]=3/4 and E[A|T=0]=1/4. Both structural models give observable Y0=A,Y1=D, while selection ATT1 and factor ATT1/2 differ.",
+    "With latent preassignment T fixed under intervention, Y1(0)=T(A-1/4) is valid. Factor residual T(A-1/4)-A+1/4 has mean0 in both treatment groups, meeting the stated group-mean condition but not an unstated stronger independence assumption. Common observable law gives confidence diameter>=1/2 with probability>=1-2alpha.",
+    "Full score expansion is EA-p tau=E[e(mu1-mu0)]+E[(e-e_star)(mu0-h_star)/(1-e_star)]. The first term vanishes under both declared compatible subclasses and the second under either correct design or common untreated bridge, giving the common functional. Arbitrary unions need not share it."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C23-188.txt",
+      "sha256": "07def5c6de127d6b7fff63a3a094e2ff06ba5fa0466275ecd5d816841317f96f",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C23-188-prior.html",
+      "sha256": "504e8a0a5c6e65ef7077c94ecc36bd09093db60f640cf92267aa144f9bea2e6c",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C23-188-prior.txt",
+      "sha256": "ea044b78b16e7e4287b7f4fa73672f883fbdc59d433d1f8f24eb566b8b80feff",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C23-188/metadata.json",
+      "sha256": "70ccc8e749f4edcf86309eb743b945926c14455dc5222ea5b5a2050bdd55747a",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C23-188/source_notes.md",
+      "sha256": "448cca83089e37ae7b44072143bde795e3e3ca8ae5cab638109698317fc01f78",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C23-188-prior.yaml",
+      "sha256": "e2270bf064274e8c295ad6e01c71905c403d1a56f9468e4252799d2052c29813",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    },
+    {
+      "path": "verify_econ_a_reviews.py",
+      "sha256": "3fa86e108ffffb86f11d783753dd7bf21e826c1007275cd96d956ac4422b4030",
+      "inspected_scope": "Inspected all ten finite-check routines, including assigned case construction and exact arithmetic; no redundant rerun."
+    },
+    {
+      "path": "econ_a_review_check_results.json",
+      "sha256": "7dd8233512ac5a13077a9a9ef4ec674fba459ff754b1f30d7541b11d03bebcf5",
+      "inspected_scope": "Inspected retained case counts/results and compared their stated scope to review."
+    }
+  ],
+  "limitations": [
+    "The example and union identity are supported. The factor counterexample is not asserted to satisfy a stronger conditional-independence factor model; the positive theorem does not make an arbitrary union of identification models estimable.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "finite_evidence_inspected": {
+    "cases": 4,
+    "check": "All four (A,T) cells; factor residual means zero in both groups and factor ATT 1/2, while selection ATT is 1."
+  }
+}

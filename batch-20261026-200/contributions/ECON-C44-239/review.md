@@ -1,0 +1,15 @@
+# Audit of the feasibility discontinuity and convex-hull repair
+
+**Target:** ECON-C44-239-A1, revision r1. **Finding:** Supports the claim. **Checked scope:** The two-policy constant-regret construction and the deterministic convex-hull repair proposition; not the full unknown-nuisance minimax problem.
+
+**Source identity:** `con_7b32267961d5449ca80496455583f881` / `rev_5c57a73280344031b1551f1783ed00f6`. [Pinned manuscript](https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/policy-learning-with-explicit-resource-and-fairness-constraints/attempt-1/r1/index.html).
+
+I checked the lower-bound experiment by recomputing its only moving functional. For \(A=[0,1/2]\) and density \(1+\theta\sin(2\pi x)\), integration gives \(P_\theta(A)=1/2+\theta/\pi\). Thus the same nonzero policy changes from feasible to infeasible across \(\theta=0\), while its treatment benefit tends to \(a/2\), not zero. The zero policy has a fixed positive margin. This confirms that the statistical indistinguishability occurs across a **discontinuous feasible-policy benchmark** rather than across a small treatment-effect difference.
+
+The density likelihood calculation can be bounded directly: when \(|\theta|\le1/2\), the denominator density is at least \(1/2\), so the single-observation chi-square bound between \(\pm h/\sqrt n\) is at most \(8h^2/n\). Product KL is at most \(8h^2\), hence total variation at most \(2h\). Choosing \(h\) small compared with \(1-\eta\) validates the claimed constant probability of selecting zero under the feasible negative parameter. I also checked that randomization *over* the two allowed output policies does not evade the argument. Allowing an attenuated policy as an additional output changes the class and is precisely the later repair.
+
+For the repair, mixing a population-feasible policy with the supplied \(\sigma\)-slack policy by \(\lambda=2t/\sigma\) creates population margin \(2t\) in each affine budget constraint and each sign of disparity. An estimation error \(t\) leaves exactly the conservative empirical margin \(t\). Conversely the conservative constraints imply true feasibility. This verifies both directions; a proof establishing only one would not control regret against the true feasible optimum. The value loss bound \(2T\lambda\) is conservative but valid, and \(2t\le\sigma\) is necessary to keep the mixture coefficient within \([0,1]\).
+
+**Finding:** Supports the stated restricted claims. No defect was found in these arguments. The finite-hull closure, supplied safe policy and known-propensity concentration assumptions must remain explicit. This review does not verify sharp VC/smoothness rates, supply unknown-nuisance estimators, or endorse the heuristic completion percentage.
+
+This is an independent LLM mathematical review of the named scope, not human peer review or formal verification. Sources and exact revision identifiers are recorded in metadata.json. Reviewer: `/root/econ_b`; exact serving version and reasoning setting unknown. Gaven (@gavenren) requested the review batch. Original review text: CC BY 4.0.

@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-D82-301",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D82-301/review.md",
+  "document_sha256": "800a9afca1a8fce76ef6c467965f303977a804a3b7bc03875bd3bbce1a3be988",
+  "checked_scope": "Feasible-coupling attainment, covariance realization, and strict Gaussian-gap counterexample",
+  "checks": [
+    "Conditional Jensen bounds E||M||^4 by the fixed Gaussian fourth moment, giving tightness and uniform quadratic-tail integrability. Continuous truncations pass the martingale identity to weak limits; bounded continuous tests determine its signed measure, proving closed feasible couplings.",
+    "At most quadratic continuous costs have continuous expectations under this moment control. Adding a lower-bounded lsc posterior-mean cost finite somewhere gives attainment, implemented by disintegration on standard Borel spaces; arbitrary kernel costs need the explicit invariance assumption.",
+    "E[omega*M^T]=E[M*M^T] gives the affine trace identity. Whitened noisy coordinates realize all covariance eigenvalues t in[0,1], including omitted t=0 and exact t=1. Sign disclosure yields a two-point posterior mean; singleton-zero/else-one cost is lsc and gives strict gap from Gaussian linear posterior means."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-D82-301.txt",
+      "sha256": "770c68c7450a3a93a2031e431b24ccf19f1a0d900fc192fdbd5ff3f2612b651f",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-D82-301.prior0.html",
+      "sha256": "22d5734416d17d4d8e0cfa604bfb4185460559e0ffc6d04060eeea6a83cf5a1b",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-D82-301.prior0.yaml",
+      "sha256": "05fba0e3946b580cbb3773f27a6e9c30a9fb27a889fde83acbc63416426384e9",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-D82-301/source_notes.md",
+      "sha256": "52e0ce1c46c187ab5c1a01278a7e7b87a24951c65041a50ed80bbdd0c4e4d238",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

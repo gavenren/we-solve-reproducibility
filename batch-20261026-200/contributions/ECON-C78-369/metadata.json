@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-C78-369",
+  "problem_id": "prb_17d07423683e443c88eef1aa0516342d",
+  "catalog_rank": 373,
+  "title": "Independent review: Parameterized computation of a reachable Pareto-optimal allocation",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "The length-two-list characterization of all reachable allocations and the requirement to output a legal sequence.",
+  "contribution_handle": "ECON-C78-369-A1",
+  "contribution_id": "con_957e83250b4d4dd78962d121a2fdc0c9",
+  "revision_id": "rev_c94e9efc1bab4fe2a02fd7460da43644",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/parameterized-computation-of-a-reachable-pareto-optimal-allocation/attempt-1/r1/",
+  "source_sha256": "1fc14e533850ea791d2d701c148d84cc2022642a7fbb56bc58b3211063124ab0",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-C78-369.json",
+  "qualified_audit": "qualified_audits/ECON-C78-369.json"
+}

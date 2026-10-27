@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-D44-171",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D44-171/review.md",
+  "document_sha256": "1c380f048adb7caa2b0fc82ca534d92247e5642560dc04a20b745517fcd3a1f8",
+  "checked_scope": "The radial DSIC payment identity and the density-transformed virtual-surplus upper bound.",
+  "checks": [
+    "DSIC utility is convex Lipschitz and u(0)=0 follows jointly from nonnegative payments and ex-post IR. Along each ray its a.e. derivative is v dot x(tv), giving the exact radial payment integral for every endpoint.",
+    "Transformation w=tv contributes t^-2 Jacobian and t^-1 from v_j, so K_f(w)=integral_(max w)^1 t^-3 f(w/t)dt. Tonelli gives integral w_j K_f=integral v_j f and ensures signed-density integrability despite origin singularity.",
+    "Where f=0, discarded coefficient is -v_j K_f<=0, so density division is used only on positive-density sets and yields an upper bound. Pointwise item-feasibility relaxation is finite and <= efficient welfare; uniform-square K_f=(r^-2-1)/2 checks algebra. No truthful implementation of relaxed allocation follows."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-D44-171.txt",
+      "sha256": "479dec6dfc0eb705c20df1679228df5b15324e4dbfb3496b48498adf2784998b",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-D44-171-prior.html",
+      "sha256": "ceb4a5b447529f22d18eb89bb89f5f6a7f4684ae476b8ea83e99c514b09d409c",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-D44-171-prior.txt",
+      "sha256": "ddfa92e1c3f6025614f3576d920f7c6f7fdc2d973b38d26b597a3d02ac0d21b3",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-D44-171/metadata.json",
+      "sha256": "ef5ad838ea2eb6cbc8578dcc29d7efe31a0c42640f2a1f86e63d456083e26024",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-D44-171/source_notes.md",
+      "sha256": "792d5e94dea85829c577198e1b6d14c80820f2a4bb83d9ce55ea6ae743b436bf",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-D44-171-prior.yaml",
+      "sha256": "d6db93a0000a28b25191ddcd21778bdc47379974dec3f0eb176d7c381958c23d",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "The revenue identity and relaxation are supported. The pointwise virtual allocation need not be DSIC, so this does not construct an optimal auction. No numerical quadrature, claimed decimal value, or external optimal-mechanism result was checked.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

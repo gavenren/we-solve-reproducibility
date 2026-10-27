@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_128b23c890dd49a18b23ec21c3815069",
+  "canonical_problem_id": "prb_128b23c890dd49a18b23ec21c3815069",
+  "handle": "ECON-C44-239",
+  "catalog_rank": 243,
+  "problem_title": "Policy learning with explicit resource and fairness constraints",
+  "title": "Audit of the feasibility discontinuity and convex-hull repair",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C44-239-A1",
+  "contribution_display_handle": "Econ-243-A1",
+  "contribution_id": "con_7b32267961d5449ca80496455583f881",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_5c57a73280344031b1551f1783ed00f6",
+  "checked_scope": "The two-policy constant-regret construction and the deterministic convex-hull repair proposition; not the full unknown-nuisance minimax problem.",
+  "scope": "The two-policy constant-regret construction and the deterministic convex-hull repair proposition; not the full unknown-nuisance minimax problem.",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/policy-learning-with-explicit-resource-and-fairness-constraints/attempt-1/r1/",
+  "source_sha256": "b34cd9e0ec06a640a3a79cfcfb89245a05c9dafdf6650400d0e85f8de7887331",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C44-239.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C44-239.txt",
+      "sha256": "48c90e2f78530c211a03edebe3da234cdef98f785f42f2d615b4ed49d9567126"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C44-239.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/policy-learning-with-explicit-resource-and-fairness-constraints/attempt-1/r1/index.html",
+      "sha256": "b34cd9e0ec06a640a3a79cfcfb89245a05c9dafdf6650400d0e85f8de7887331"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C44-239.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/policy-learning-with-explicit-resource-and-fairness-constraints/attempt-1/r1/contribution.yaml",
+      "sha256": "71423258b1067a285713b683d7f299855fccb91646356197bafdb8213230ed8b"
+    }
+  ],
+  "review_path": "contributions/ECON-C44-239/review.md",
+  "review_sha256": "62466acdad675da3e4114095dcf00c7a15e07109f762f06fe749ac687be0d6bc",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C44-239.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "The two-policy constant-regret construction and the deterministic convex-hull repair proposition; not the full unknown-nuisance minimax problem.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

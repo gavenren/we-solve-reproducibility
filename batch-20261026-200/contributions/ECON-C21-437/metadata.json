@@ -11,8 +11,16 @@
   "checked_scope": "Dimension cancellation in target-risk transfer and the fixed-sparsity scope",
   "scope": "Dimension cancellation in target-risk transfer and the fixed-sparsity scope",
   "author": "/root/econ_d",
-  "status": "awaiting_independent_review",
+  "status": "independently_reviewed_scoped",
   "source_url": "https://we-solve.github.io/contributions/heterogeneity-under-multivariate-treatment/attempt-1/r1/",
   "source_sha256": "e25de55107a1224d58f7f2be8f6345b88da3fd014273b240c4009760140228b8",
-  "verification": "Independent written algebraic/probabilistic audit; no code run for this review."
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C21-437.json"
+  }
 }

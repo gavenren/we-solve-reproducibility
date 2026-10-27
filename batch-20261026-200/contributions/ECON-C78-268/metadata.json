@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_38b781de55ae4f2cba505fb678929df9",
+  "canonical_problem_id": "prb_38b781de55ae4f2cba505fb678929df9",
+  "handle": "ECON-C78-268",
+  "catalog_rank": 272,
+  "problem_title": "House exchanges along longer social-network cycles",
+  "title": "Independent verification of the reachable terminal trap and certificate bounds",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C78-268-A1",
+  "contribution_display_handle": "Econ-272-A1",
+  "contribution_id": "con_7cdc88aaf540461a9bf2c4ce76ee2262",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_ebf7f8d8e1d14ae7b4d6f2d6f9a9bd39",
+  "checked_scope": "Four-agent terminal trap; potential witness bound; complete-network reachability reduction",
+  "scope": "Four-agent terminal trap; potential witness bound; complete-network reachability reduction",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/house-exchanges-along-longer-social-network-cycles/attempt-1/r1/",
+  "source_sha256": "3382e22ffe36323b354f2b160ab3520e8216a90140a4b1f0a1f4b173c5e718ac",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C78-268.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C78-268.txt",
+      "sha256": "370fa0ff54605cb2bd4478a7e4789ae80afd18dbf9741ca5e1b6eee67234d504"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C78-268.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/house-exchanges-along-longer-social-network-cycles/attempt-1/r1/index.html",
+      "sha256": "3382e22ffe36323b354f2b160ab3520e8216a90140a4b1f0a1f4b173c5e718ac"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C78-268.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/house-exchanges-along-longer-social-network-cycles/attempt-1/r1/contribution.yaml",
+      "sha256": "d664078b18140bc3a8e6e98bf968d17543cdae22745d95a06bf1b2df8acff9e1"
+    }
+  ],
+  "review_path": "contributions/ECON-C78-268/review.md",
+  "review_sha256": "63e93e38ebbdf16eb3f09ec9d7e0b36a5ec9b7b37f2f45fa8fbfd8838f427300",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C78-268.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "Four-agent terminal trap; potential witness bound; complete-network reachability reduction",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "problem_id": "prb_9dd56ccabcee42c783c8cdf42e7ca5ff",
+  "handle": "ECON-G14-582",
+  "title": "Review: normal-cone pricing wedges and cost accounting",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-G14-582-A1",
+  "contribution_id": "con_86b39d9837264e768cff0af369555a36",
+  "revision": "r1",
+  "revision_id": "rev_69035bcf46e3443d99687801c66dd002",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** constrained optimum identity, CARA funding-cap example and finite-family testing guarantee in ECON-G14-582-A1, revision r1.",
+  "scope": "**Finding:** Supports the checked claims. **Checked scope:** constrained optimum identity, CARA funding-cap example and finite-family testing guarantee in ECON-G14-582-A1, revision r1.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact serving revision and reasoning settings unavailable",
+  "verification": "Independent mathematical derivations, boundary checks and counterexample calculations documented in review; no empirical validation or human peer review claimed.",
+  "source_urls": [
+    "https://github.com/We-Solve/research/blob/main/problems/9d/prb_9dd56ccabcee42c783c8cdf42e7ca5ff/contributions/con_86b39d9837264e768cff0af369555a36/files/G14-582.tex",
+    "https://we-solve.github.io/contributions/limits-to-arbitrage-and-anomaly-persistence/attempt-1/r1/"
+  ],
+  "source_blob_sha": "fef9e7677628d5bde773add4aff39cffce931d11",
+  "source_sha256": "1fa52b74c656830e0a4dc19f520893474e2c0f38f9e7c3b1a5383a07d4cf1314",
+  "latest_check": "Revision identity matched catalog/aliases.json; r2 API returned 404 on retrieval.",
+  "source_retrieved_utc": "2026-10-27",
+  "qualified_review": {
+    "reviewer": "/root/verify_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_file": "qualified_audits/ECON-G14-582.json",
+    "document_sha256": "aae456c28bcbe2586a6222ceb4c04c9aef67885967bad1603984d70e7d374458",
+    "scope": "Independent scoped mathematical check of final manuscript against retained prior r1 source; no human, formal or historical-novelty certification."
+  }
+}

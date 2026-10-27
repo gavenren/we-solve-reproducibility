@@ -1,0 +1,25 @@
+{
+  "problem_id": "prb_b5f3323aede54538ac200150c4ef9d37",
+  "handle": "ECON-C72-489",
+  "title": "Audit of support-sensitive mixture identification and persistent-session rank",
+  "contribution_handle": "ECON-C72-489-A1",
+  "contribution_id": "con_73afc56131704fb59a8c706b69ad7eeb",
+  "revision_id": "rev_769379255e4e461499bad62ae005c578",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The sharp prediction criterion, tensor-repetition theorem, and finite-window continuum obstruction.",
+  "scope": "The sharp prediction criterion, tensor-repetition theorem, and finite-window continuum obstruction.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/equilibrium-selection-in-games/attempt-1/r1/",
+  "source_sha256": "1242dd5785d25b76389dd298f59a2c1d41a7ea5f90a2cf0b8f690338ffd833ef",
+  "review_path": "reviews/ECON-C72-489/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "verification_artifacts": [
+    "verify_e_exact.py",
+    "econ_e_exact_checks.json"
+  ],
+  "qualified_audit_path": "qualified_audits/ECON-C72-489.json",
+  "document_sha256": "8ac0b408105399b1476398041a265160c5274f48b7949f8359211e5a06e2b1e9"
+}

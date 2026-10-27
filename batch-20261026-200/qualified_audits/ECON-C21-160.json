@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C21-160",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C21-160/review.md",
+  "document_sha256": "b333dec5fa76ec29439784202d93948430c5b6ccd944f37d8f1e47e7fc1f42f7",
+  "checked_scope": "The interval projection theorem and the two-bandwidth bounded Hölder construction.",
+  "checks": [
+    "Projection of a bounded estimator onto a band containing the target contracts pointwise error on the coverage event; off-event squared error <=4M^2, yielding risk r_n+4M^2 delta_n without estimator/band independence.",
+    "New radius max(C-L,U-C)<=U-L covers the old interval. Choosing failure n^-2 is essential to preserve the integrated rate; fixed failure probability would leave a constant risk term.",
+    "Armwise cell conditional means are arbitrary weighted averages of t-Holder responses and stay within L d^(t/2) h^t. Overlap/density control counts. Separate risk and band grids h_E~n^-1/(2t+d) and h_B~(log n/n)^1/(2t+d) yield the stated diagonal-class rates and projection unites their centers."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C21-160.txt",
+      "sha256": "9950c5fad9fe9aa507d7834ba7036cdd876b835cfa5fd5c70cf83d3ad109b359",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C21-160-prior.html",
+      "sha256": "764ad7eb2d13c6f1bfc8e221cc51e6fabc2695dd5d61ff67902b43e831bff198",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C21-160-prior.txt",
+      "sha256": "5d7ca16bdae83f76c479cf395077f5ccf4f1110653773b6f14994e8b43314c41",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C21-160/metadata.json",
+      "sha256": "bb3a894d60d61d931b2a715eb34b4a05ab396fc5b8d2d6200291dfd7284f8656",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C21-160/source_notes.md",
+      "sha256": "0e82c3a7a3b8f485d08044cd1a03512afbaa49f636726d7a5314f2b2b21c5eb1",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C21-160-prior.yaml",
+      "sha256": "ea98cc78a33401af86cea2757825e098fed9d81e3106869795d51f62310b0594",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "This supports the common-center construction in the stated bounded diagonal Hölder class. It does not establish the full causal smoothness frontier, adaptation, or risk preservation at a fixed failure probability without further structure.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

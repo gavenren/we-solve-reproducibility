@@ -1,0 +1,205 @@
+{
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "total_assigned": 34,
+  "total_completed": 34,
+  "approved_scoped": 34,
+  "needs_revision": 0,
+  "new_partial_results": 3,
+  "scoped_reviews": 31,
+  "corrections": {
+    "ECON-C78-175": "Replaced inaccurate per-refinement output/deduplication description with the actual single-prefix-tree, R-refinement completion oracle and polynomial-space delay proof.",
+    "ECON-C44-186": "Separated unnormalized weighted-CDF error Z from normalized CDF error z and explicitly propagated z<=min(1,4Z) into value stability.",
+    "ECON-C21-194": "Made the fixed uniform fitted-nuisance envelope explicit; arbitrary individual finite bounds are outside this scoped support."
+  },
+  "source_integrity": {
+    "review_html_record_prompt_hash_sets_checked": 31,
+    "prior_texts_verified_as_retained_html_content": 34,
+    "new_source_note_hash_sets_checked": 3,
+    "source_record_identities_and_licences_checked": 31
+  },
+  "finite_evidence": {
+    "root_successful_unchanged_checker_runs_inspected": 3,
+    "review_routine_results_inspected": 10,
+    "reviewer_redundant_reruns": 0
+  },
+  "limitations": [
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "audits": [
+    {
+      "handle": "ECON-C31-214",
+      "path": "qualified_audits/ECON-C31-214.json",
+      "document_sha256": "68fb0f87d0fd046cc1464428c7b85dd2f17f4cf200d4459d28ccc4d7fff7f155"
+    },
+    {
+      "handle": "ECON-C31-219",
+      "path": "qualified_audits/ECON-C31-219.json",
+      "document_sha256": "7a9ae1618baac84f91268fc0ba549aecbcd6e44f1e753c0951dc73c50413b9fa"
+    },
+    {
+      "handle": "ECON-C21-206",
+      "path": "qualified_audits/ECON-C21-206.json",
+      "document_sha256": "51c43543c26c35ebcd3b65824ad5c50eeb87030696a2dd9b44b3c9fbd0ff423c"
+    },
+    {
+      "handle": "ECON-C14-148",
+      "path": "qualified_audits/ECON-C14-148.json",
+      "document_sha256": "fb460f99e37dc25494e10993b74ce2f5f146182ef943ca534f97bf6fd1dd339c"
+    },
+    {
+      "handle": "ECON-C63-149",
+      "path": "qualified_audits/ECON-C63-149.json",
+      "document_sha256": "d7256f316ae6dfe6beba3c9d78e4d5bc44e29e030241c6f48a5057c1afae987c"
+    },
+    {
+      "handle": "ECON-D82-151",
+      "path": "qualified_audits/ECON-D82-151.json",
+      "document_sha256": "d3709a596d9426edf238ffb4e991b1a59e8dbca42af852c57be8203dc479646c"
+    },
+    {
+      "handle": "ECON-C72-153",
+      "path": "qualified_audits/ECON-C72-153.json",
+      "document_sha256": "27df03872d912161f8790dceca68eda0af5a984c21946a472139539567e91e90"
+    },
+    {
+      "handle": "ECON-C21-154",
+      "path": "qualified_audits/ECON-C21-154.json",
+      "document_sha256": "98f8d4ba9da1e889fbe4c372f29944bf4ae8d5823ce6519ee81194806c580206"
+    },
+    {
+      "handle": "ECON-C12-156",
+      "path": "qualified_audits/ECON-C12-156.json",
+      "document_sha256": "dadca8e9ebd5e5810f889d52927f0833a412222ca178ba1b06992baf94bef22a"
+    },
+    {
+      "handle": "ECON-D63-158",
+      "path": "qualified_audits/ECON-D63-158.json",
+      "document_sha256": "b8e8538ee415f01f673c9d0d91d74d17789af636e50fb036eac7ca4ed5313fb8"
+    },
+    {
+      "handle": "ECON-C73-159",
+      "path": "qualified_audits/ECON-C73-159.json",
+      "document_sha256": "87439fee028b54a71929fd80691c73c838c9b099ca114d1823dd54d692961a6f"
+    },
+    {
+      "handle": "ECON-C21-160",
+      "path": "qualified_audits/ECON-C21-160.json",
+      "document_sha256": "b333dec5fa76ec29439784202d93948430c5b6ccd944f37d8f1e47e7fc1f42f7"
+    },
+    {
+      "handle": "ECON-C78-165",
+      "path": "qualified_audits/ECON-C78-165.json",
+      "document_sha256": "b2c5ba56a9086989c660366d4b7552c503958026f8dd02a1eb3d62280098993a"
+    },
+    {
+      "handle": "ECON-C31-168",
+      "path": "qualified_audits/ECON-C31-168.json",
+      "document_sha256": "69944ce6a822c2e5fa2d9781f30704fe4713bd74abb888479f3bc06da908d0f7"
+    },
+    {
+      "handle": "ECON-C14-169",
+      "path": "qualified_audits/ECON-C14-169.json",
+      "document_sha256": "5ff0526990326d5dfeed7fc815b8e7b6f906d5197a1c644343da3d87b74210e0"
+    },
+    {
+      "handle": "ECON-D44-171",
+      "path": "qualified_audits/ECON-D44-171.json",
+      "document_sha256": "1c380f048adb7caa2b0fc82ca534d92247e5642560dc04a20b745517fcd3a1f8"
+    },
+    {
+      "handle": "ECON-D82-172",
+      "path": "qualified_audits/ECON-D82-172.json",
+      "document_sha256": "5d7af9d62d4522493079f38f217e45c53da18c1590be82a4eeddf1b1e447cd07"
+    },
+    {
+      "handle": "ECON-C21-173",
+      "path": "qualified_audits/ECON-C21-173.json",
+      "document_sha256": "d4ca6af50f17727f5ffc9519da9cbf8997d6b92a5634e0b44b80e44009639fc1"
+    },
+    {
+      "handle": "ECON-C78-175",
+      "path": "qualified_audits/ECON-C78-175.json",
+      "document_sha256": "23aecc78a9e6d5ac5314723adfa108433507dbb4a3bfa527f4ad8f56f1e965e0"
+    },
+    {
+      "handle": "ECON-D63-177",
+      "path": "qualified_audits/ECON-D63-177.json",
+      "document_sha256": "c02ed76ecf3c323fb2da62b95d8440b773f6dbac535415e027e625780ad43d3d"
+    },
+    {
+      "handle": "ECON-C78-178",
+      "path": "qualified_audits/ECON-C78-178.json",
+      "document_sha256": "a150ecd553bed72fb6c7acc14e2e2bcfebd7d6708659f3af0c1cc89183b3ca2d"
+    },
+    {
+      "handle": "ECON-C21-179",
+      "path": "qualified_audits/ECON-C21-179.json",
+      "document_sha256": "d288b8012bc003442e6356167c4efc3b9f907c8a482c962fc63d50761a196f8b"
+    },
+    {
+      "handle": "ECON-D71-180",
+      "path": "qualified_audits/ECON-D71-180.json",
+      "document_sha256": "c04660b174167d85ae8d662677d1f39925da49ec0192ca72286e0df89fee58a5"
+    },
+    {
+      "handle": "ECON-C26-181",
+      "path": "qualified_audits/ECON-C26-181.json",
+      "document_sha256": "8e682e625847ce2906d7fa344c5fec804291ee7580ce48da1a1c94cf7278b21a"
+    },
+    {
+      "handle": "ECON-C21-184",
+      "path": "qualified_audits/ECON-C21-184.json",
+      "document_sha256": "d7ccb0f02b212d7d6a1f1d23ca67940c57d5ce40867e46c2fcd99dd00f7b12f5"
+    },
+    {
+      "handle": "ECON-C44-186",
+      "path": "qualified_audits/ECON-C44-186.json",
+      "document_sha256": "7ded412535c69e3864b256bcdb9df85ca3ed8d7bb86f9493faf81352e8bd5e6e"
+    },
+    {
+      "handle": "ECON-C23-188",
+      "path": "qualified_audits/ECON-C23-188.json",
+      "document_sha256": "f908bc3d3edb4a3b304a7d569d70ead336342c3cc301c0ffed91e740af42a6c1"
+    },
+    {
+      "handle": "ECON-D82-189",
+      "path": "qualified_audits/ECON-D82-189.json",
+      "document_sha256": "07bcbf6169fccff36c9045e2d48baab9a96592c22b36f21015c08b3ff8e63c3f"
+    },
+    {
+      "handle": "ECON-D71-190",
+      "path": "qualified_audits/ECON-D71-190.json",
+      "document_sha256": "1d35ac30f5ab4253e2bab441945ee88b038d0d9106d66c3bb73b0a4abd9ab205"
+    },
+    {
+      "handle": "ECON-C21-191",
+      "path": "qualified_audits/ECON-C21-191.json",
+      "document_sha256": "40a16394fc5a2ea06fcdb8c33f0a7db322fc4fe1974555fa9d74a93859f7fd2e"
+    },
+    {
+      "handle": "ECON-C21-194",
+      "path": "qualified_audits/ECON-C21-194.json",
+      "document_sha256": "8f9a91d7cdf78dd07fa882ada1fc4d304a2beb5df7d9b7092c74ff06aa34f3a5"
+    },
+    {
+      "handle": "ECON-D44-196",
+      "path": "qualified_audits/ECON-D44-196.json",
+      "document_sha256": "fcdeeae1cc2db7cdbea9be9dd1cb5c6e14fc4e8f30854e61b299b7c32fd50370"
+    },
+    {
+      "handle": "ECON-C21-202",
+      "path": "qualified_audits/ECON-C21-202.json",
+      "document_sha256": "043c347bf915cbd124dd8eeff93e51c083ae7e45325e2c5262296f66ef317fbf"
+    },
+    {
+      "handle": "ECON-C18-215",
+      "path": "qualified_audits/ECON-C18-215.json",
+      "document_sha256": "e3d9616d2832bfa52ed162916f8e559385e1f2fd19ca6101f3295701d41ede87"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C73-391",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C73-391/review.md",
+  "document_sha256": "bd6f90e44cc14ccabc8c3acf7663cfff5c7c1443d0a460be376667f253320b8c",
+  "checked_scope": "Support-stratified reachability values and arbitrary-history deviation certificates",
+  "checks": [
+    "Verified strict positive supports fix the positive-transition graph because transition summands are nonnegative, and checked transience of R\\F and uniqueness of its stopped-chain linear system.",
+    "Checked the superharmonic certificate under arbitrary history-dependent conditional action mixtures, stopping at first target hit and taking increasing finite horizons.",
+    "Checked necessity from supremal MDP reachability and epsilon-optimal successor continuations. The comparison is at s0 for Nash; flagged-state continuation comparisons remain a separate finite-memory SPE fragment, with no unrestricted decidability or cited undecidability certification."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-C73-391/source_notes.md",
+      "sha256": "394dae72872b64c66f6f6b306efd8ae456a1c216dcc8b28ac7ea45bb47ddbd2e",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-C73-391/metadata.json",
+      "sha256": "cf8a1f62ac222d7866b72b6f853545be3a4975ae3a19846866850b46abdc75ef",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/threshold-constrained-infinite-horizon-equilibrium-realizability_attempt-1_r1.html",
+      "sha256": "ea698946ca36a7e987c5bc23774efa44fa5335f8d2bebe79d91126b601cde952",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/threshold-constrained-infinite-horizon-equilibrium-realizability_attempt-1_r1.txt",
+      "sha256": "0e823930f89f74d96457e229cbcd99009675e63d21fe798d80d4a3e313fd0435",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-C73-391-A1.yaml",
+      "sha256": "e11aaf0d5ed5fcbe8dd4ef935649cad587c0184499f6bd0c737974220e6d2a9b",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

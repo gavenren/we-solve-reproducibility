@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-C21-314",
+  "problem_id": "prb_438bf523a8e74b3aa6ec5a07b24cf6ab",
+  "catalog_rank": 318,
+  "title": "Independent review: Estimating target heterogeneity from multiple studies",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "The pooled histogram upper risk bound for 0<β≤1, including nonidentical cell counts and empty cells; not the full unrestricted minimax problem.",
+  "contribution_handle": "ECON-C21-314-A1",
+  "contribution_id": "con_9a7805971b37492dbcf5d126caaa1a2d",
+  "revision_id": "rev_c70ca01898404fd890a716818a5f23ea",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/estimating-target-heterogeneity-from-multiple-studies/attempt-1/r1/",
+  "source_sha256": "3c9490817a6707d1ef9079a34aa9ab232e57eb26016aad6789f42a7e6f728de8",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-C21-314.json",
+  "qualified_audit": "qualified_audits/ECON-C21-314.json"
+}

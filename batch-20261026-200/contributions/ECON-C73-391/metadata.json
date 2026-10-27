@@ -11,8 +11,16 @@
   "checked_scope": "Support-stratified reachability values and arbitrary-history deviation certificates",
   "scope": "Support-stratified reachability values and arbitrary-history deviation certificates",
   "author": "/root/econ_d",
-  "status": "awaiting_independent_review",
+  "status": "independently_reviewed_scoped",
   "source_url": "https://we-solve.github.io/contributions/threshold-constrained-infinite-horizon-equilibrium-realizability/attempt-1/r1/",
   "source_sha256": "ea698946ca36a7e987c5bc23774efa44fa5335f8d2bebe79d91126b601cde952",
-  "verification": "Independent written algebraic/probabilistic audit; no code run for this review."
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C73-391.json"
+  }
 }

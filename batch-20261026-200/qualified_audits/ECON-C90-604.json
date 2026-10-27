@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-C90-604",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C90-604/review.md",
+  "document_sha256": "b6bd6c48e4b83b5fbbcda655e08fc9460567314d1f83a3e81ecefe3265f11c5c",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** affine identification, exact worst-case linear risk, and one-dimensional extrapolation design in ECON-C90-604-A1, revision r1.",
+  "checks": [
+    "Checked row-space sufficiency and null-direction necessity, including unbounded field effects only in the explicitly unrestricted affine model.",
+    "For feasible lambda=lambda_0+h with Z^T h=0, the cross term vanishes because Omega*lambda_0 is in col(Z); positive-definite Omega gives the unique variance optimum.",
+    "Rectangular departure signs jointly attain gamma_*+sum|lambda_j|*gamma_j, so variance plus squared worst bias is exact for the linear class.",
+    "At contexts 0,1 and target 2, weights (-1,2) have minimal absolute sum 3; information N/3,2N/3 yields 9*sigma^2/N and bias 4*gamma. Checked collapse to a single endpoint at target b."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-C90-604/prior.tex",
+      "sha256": "bf88918cde72bca8fb72f6c307b2ff2f8d657a23426de1089416c4e87580a652",
+      "git_blob_sha": "41e67d59f7c6506b70384206215bab2921ba217d",
+      "revision": "r1",
+      "revision_id": "rev_026f191408724ebfb511f5b91d75b4c7",
+      "contribution_id": "con_c7b260f393da430c96137c7635fcbf55",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-C90-604/record.json",
+      "sha256": "098b50b25e60891fc3d854356533e53d5fee7184c8ec3570ffa8f70872e5f0e6",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Known Gaussian contrast variances, affine invariance and rectangular departure bounds are assumptions; optimality concerns linear estimators and continuous information allocation.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

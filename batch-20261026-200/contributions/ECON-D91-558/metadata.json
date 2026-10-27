@@ -1,0 +1,34 @@
+{
+  "problem_id": "prb_43b92cfb95e447489513b1caa7f7d8e9",
+  "handle": "ECON-D91-558",
+  "title": "Review: intervention-level forecast risk and the Gaussian ranking limit",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-D91-558-A1",
+  "contribution_id": "con_d64c7072066148b8ad2d2c2f5b2a19d7",
+  "revision": "r1",
+  "revision_id": "rev_3427f2b9091d4e1e92d5f605b1283526",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** held-intervention risk correction and Gaussian magnitude/rank formulas in ECON-D91-558-A1, revision r1.",
+  "scope": "**Finding:** Supports the checked claims. **Checked scope:** held-intervention risk correction and Gaussian magnitude/rank formulas in ECON-D91-558-A1, revision r1.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact serving revision and reasoning settings unavailable",
+  "verification": "Independent mathematical derivations, boundary checks and counterexample calculations documented in review; no empirical validation or human peer review claimed.",
+  "source_urls": [
+    "https://github.com/We-Solve/research/blob/main/problems/43/prb_43b92cfb95e447489513b1caa7f7d8e9/contributions/con_d64c7072066148b8ad2d2c2f5b2a19d7/files/D91-558.tex",
+    "https://we-solve.github.io/contributions/scaling-behavioral-interventions/attempt-1/r1/"
+  ],
+  "source_blob_sha": "005abc3ce317f4105b438f93c50c3c72accc9e2a",
+  "source_sha256": "07d5da1a3f4282f5ead4c8d52048b4f5569d90cd96e8f465bd53a29db123cb6b",
+  "latest_check": "Revision identity matched catalog/aliases.json; r2 API returned 404 on retrieval.",
+  "source_retrieved_utc": "2026-10-27",
+  "qualified_review": {
+    "reviewer": "/root/verify_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_file": "qualified_audits/ECON-D91-558.json",
+    "document_sha256": "f22e5aa6d31f660cff3e0ec59e3b10a73d4385d182873b8213ec15ad72936e41",
+    "scope": "Independent scoped mathematical check of final manuscript against retained prior r1 source; no human, formal or historical-novelty certification."
+  }
+}

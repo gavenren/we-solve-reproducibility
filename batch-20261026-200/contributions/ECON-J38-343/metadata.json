@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-J38-343",
+  "problem_id": "prb_58f0108bc0b94734aecb72df7e8f2fb5",
+  "catalog_rank": 347,
+  "title": "Independent review: Minimum-wage thresholds and adjustment",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Piecewise monopsony employment, the strict first-loss boundary, joint output-price restriction, and restricted myopic adjustment.",
+  "contribution_handle": "ECON-J38-343-A1",
+  "contribution_id": "con_69d56341d13b4dbcbb7a16c2ba4699eb",
+  "revision_id": "rev_b36a67feda23443ca9ddb437453fc3f7",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/minimum-wage-thresholds-and-adjustment/attempt-1/r1/",
+  "source_sha256": "1d59b6519f3a844e947e419123da23da16b5365914eda409ff940e30ce6b800f",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-J38-343.json",
+  "qualified_audit": "qualified_audits/ECON-J38-343.json"
+}

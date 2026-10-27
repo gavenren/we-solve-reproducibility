@@ -1,0 +1,255 @@
+{
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "assigned": 33,
+  "checked": 33,
+  "approved_scoped": 33,
+  "needs_revision": 0,
+  "new_partial_results": 4,
+  "scoped_reviews": 29,
+  "substantive_mathematical_corrections": [],
+  "changes": [
+    "Removed pending-independent-review wording from the four partial-result reports only after proof and source checking.",
+    "Updated the 33 local metadata records and econ_c.json to independently_reviewed_scoped and linked each qualified audit.",
+    "Retained original author model/version disclosures; configured review model and unknown serving revision are separately recorded."
+  ],
+  "verification_basis": "All 33 final mathematical manuscripts were read and independently checked against retained full source manuscripts and current mathematical statements. Recorded prior-source hashes and source-note bindings match; review contribution/revision/problem IDs match retained YAML. Four existing checker programs and successful independent root-run records were inspected without redundant execution.",
+  "limitations": [
+    "Approvals are scoped AI mathematical reviews, not novelty, human, formal or editorial certification. Full problem solutions and unchecked primary-paper references are not certified."
+  ],
+  "audits": [
+    {
+      "handle": "ECON-D82-386",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-D82-386/report.md",
+      "document_sha256": "a8fc911601bf9edff329df6dc1e3cf40fceafbbfd3a677c0dedfbdaad8494c67",
+      "audit_path": "qualified_audits/ECON-D82-386.json"
+    },
+    {
+      "handle": "ECON-G12-354",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-G12-354/report.md",
+      "document_sha256": "cf599fac3a9ac9b368cc255ef2c9eeba4e538ed49ecb4a98af3efdad6ff512ef",
+      "audit_path": "qualified_audits/ECON-G12-354.json"
+    },
+    {
+      "handle": "ECON-D81-347",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-D81-347/report.md",
+      "document_sha256": "063e34333ecb8e9ac04c809e5f373f1db35ba824d3d546686ae8124b90050454",
+      "audit_path": "qualified_audits/ECON-D81-347.json"
+    },
+    {
+      "handle": "ECON-C78-373",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-C78-373/report.md",
+      "document_sha256": "3d85dfe9aa57b6b272e9c7be6ee4b6821d9e78e8480a308bbbe81b004425e126",
+      "audit_path": "qualified_audits/ECON-C78-373.json"
+    },
+    {
+      "handle": "ECON-C21-314",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-C21-314/review.md",
+      "document_sha256": "2116101faa74cc0d254e0120103d1b1040e288543af2e397618604c564c89d0f",
+      "audit_path": "qualified_audits/ECON-C21-314.json"
+    },
+    {
+      "handle": "ECON-C31-321",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-C31-321/review.md",
+      "document_sha256": "dc43416a6df82d4b242f7a250120a4b4104eee47a7dd5b4bcd0133fdcf85d8f8",
+      "audit_path": "qualified_audits/ECON-C31-321.json"
+    },
+    {
+      "handle": "ECON-C26-326",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-C26-326/review.md",
+      "document_sha256": "af7da78cbfd6c17340e8304800bf0b15d4aab06a7a5278abd24f43c73089f1e1",
+      "audit_path": "qualified_audits/ECON-C26-326.json"
+    },
+    {
+      "handle": "ECON-C33-332",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-C33-332/review.md",
+      "document_sha256": "8288680d1e0c7d667d7dac0d12ee6d54998d1ab20440173ed69f13fb49735906",
+      "audit_path": "qualified_audits/ECON-C33-332.json"
+    },
+    {
+      "handle": "ECON-C93-340",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-C93-340/review.md",
+      "document_sha256": "325208c49a799297b1ccfbf39651f483426990648a4b657055fc3ad67e33f603",
+      "audit_path": "qualified_audits/ECON-C93-340.json"
+    },
+    {
+      "handle": "ECON-C81-341",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-C81-341/review.md",
+      "document_sha256": "0e86e874b036b9d45a782e012a73af737bf6c0ce9028f3c596b90d3c20a89cda",
+      "audit_path": "qualified_audits/ECON-C81-341.json"
+    },
+    {
+      "handle": "ECON-C55-360",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-C55-360/review.md",
+      "document_sha256": "8075fdd4b3bb884d7a43a88e1eefaf2577714184210a1959f21a7f91c2c0db7c",
+      "audit_path": "qualified_audits/ECON-C55-360.json"
+    },
+    {
+      "handle": "ECON-C72-366",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-C72-366/review.md",
+      "document_sha256": "8e2c41f38ee50c6d95f5cc3e1828482e616aa178f32647b93f52ed74648ce392",
+      "audit_path": "qualified_audits/ECON-C72-366.json"
+    },
+    {
+      "handle": "ECON-C81-368",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-C81-368/review.md",
+      "document_sha256": "4344544c95d6cd71a2ba550673bafb0c207e6b53f60fa0f14c0953f4a7660a1b",
+      "audit_path": "qualified_audits/ECON-C81-368.json"
+    },
+    {
+      "handle": "ECON-C78-369",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-C78-369/review.md",
+      "document_sha256": "9bb1ca09127bd2babf519d6b59cb106eb7d63d34df2cc8b997e33297f31994ca",
+      "audit_path": "qualified_audits/ECON-C78-369.json"
+    },
+    {
+      "handle": "ECON-C23-372",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-C23-372/review.md",
+      "document_sha256": "c66b8fbcc536c1f5a79a0d353d925583049aa81c3e056df2c98ff0be9997454c",
+      "audit_path": "qualified_audits/ECON-C23-372.json"
+    },
+    {
+      "handle": "ECON-C33-383",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-C33-383/review.md",
+      "document_sha256": "f79a37f558a6913f946f045140548bf7a132917a6bb1ee0a0bc4956bd1c4f921",
+      "audit_path": "qualified_audits/ECON-C33-383.json"
+    },
+    {
+      "handle": "ECON-H77-307",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-H77-307/review.md",
+      "document_sha256": "218ce97bdf077e033f31241c9471a0e7169d9e9e920de57c66485f44101d673c",
+      "audit_path": "qualified_audits/ECON-H77-307.json"
+    },
+    {
+      "handle": "ECON-L11-310",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-L11-310/review.md",
+      "document_sha256": "fb8c931bb9630ff43117baba6bfbdb6e64b9132135a901e9c6facf715070f886",
+      "audit_path": "qualified_audits/ECON-L11-310.json"
+    },
+    {
+      "handle": "ECON-E21-318",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-E21-318/review.md",
+      "document_sha256": "4354a60e686f4f02a8b4eeb7c9f107a2d64691eaadc1d6b27e96ae1d3012a71c",
+      "audit_path": "qualified_audits/ECON-E21-318.json"
+    },
+    {
+      "handle": "ECON-G21-319",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-G21-319/review.md",
+      "document_sha256": "da799e8ec24e2148842e2826b0d1b94c73df17396d7e4880bb8f0a29b0cbd193",
+      "audit_path": "qualified_audits/ECON-G21-319.json"
+    },
+    {
+      "handle": "ECON-E22-322",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-E22-322/review.md",
+      "document_sha256": "54c87b6be03baf18e2b2794ac0e232ee2e904e786813b699b96b652923765838",
+      "audit_path": "qualified_audits/ECON-E22-322.json"
+    },
+    {
+      "handle": "ECON-G12-324",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-G12-324/review.md",
+      "document_sha256": "3364c5cf38befa92a6c9c98df5111caea846ba1a56464a0e8915ad977918691e",
+      "audit_path": "qualified_audits/ECON-G12-324.json"
+    },
+    {
+      "handle": "ECON-H24-325",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-H24-325/review.md",
+      "document_sha256": "b72090a69e35b18651a25af113e906eb37edb2cabc8b5117c0ab83d6f3eec184",
+      "audit_path": "qualified_audits/ECON-H24-325.json"
+    },
+    {
+      "handle": "ECON-I13-329",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-I13-329/review.md",
+      "document_sha256": "66ae0ce72be04d4c7c68e7a6ee010a522bd4f18936b9d38eff6540fda7ac89f2",
+      "audit_path": "qualified_audits/ECON-I13-329.json"
+    },
+    {
+      "handle": "ECON-D31-330",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-D31-330/review.md",
+      "document_sha256": "788899811e3f3f3d6e734a1529ecacf091a82ce3a66bd20aa6f25b6dd7014119",
+      "audit_path": "qualified_audits/ECON-D31-330.json"
+    },
+    {
+      "handle": "ECON-E32-331",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-E32-331/review.md",
+      "document_sha256": "e9439e035149c3e9517ae7384d74cf4d1d13c59eabfb67e7f22e6a020cee0cfe",
+      "audit_path": "qualified_audits/ECON-E32-331.json"
+    },
+    {
+      "handle": "ECON-F44-334",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-F44-334/review.md",
+      "document_sha256": "12fc0ccc75f7a63635d2bb62c5311c46089b27d4ceb9efecf8a6889720c4e4b7",
+      "audit_path": "qualified_audits/ECON-F44-334.json"
+    },
+    {
+      "handle": "ECON-Q57-335",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-Q57-335/review.md",
+      "document_sha256": "cbca1b3a305a9d00ee75f57ae101f836a7e836955ca3f9e503543c837855b35a",
+      "audit_path": "qualified_audits/ECON-Q57-335.json"
+    },
+    {
+      "handle": "ECON-H55-336",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-H55-336/review.md",
+      "document_sha256": "3d537ba6dab0fe48f964a1c3ebb87efcede83dba5ca4b45013426f7dc91b7157",
+      "audit_path": "qualified_audits/ECON-H55-336.json"
+    },
+    {
+      "handle": "ECON-L11-337",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-L11-337/review.md",
+      "document_sha256": "fa5999312f1777d572de9625de82718619f28be784eeb7719fd958326c4cd38a",
+      "audit_path": "qualified_audits/ECON-L11-337.json"
+    },
+    {
+      "handle": "ECON-I38-339",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-I38-339/review.md",
+      "document_sha256": "b972418f04189e31b880ffe3d46a8646fc86970a6012785d9fb3cdad8bb4c453",
+      "audit_path": "qualified_audits/ECON-I38-339.json"
+    },
+    {
+      "handle": "ECON-R13-342",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-R13-342/review.md",
+      "document_sha256": "d47bbac118e3615fae3936914bf14aba8c768fbf09b40f78bdf4eb29367eb4a9",
+      "audit_path": "qualified_audits/ECON-R13-342.json"
+    },
+    {
+      "handle": "ECON-J38-343",
+      "verdict": "approved_scoped",
+      "document_path": "contributions/ECON-J38-343/review.md",
+      "document_sha256": "cce933457e89c17c155fd9acaa7213e6f5575140833569c303c66b15f48df6d2",
+      "audit_path": "qualified_audits/ECON-J38-343.json"
+    }
+  ]
+}

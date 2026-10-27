@@ -1,0 +1,10 @@
+{
+  "states": 4096,
+  "zero_grundy": 214,
+  "opposite_zero_face": 256,
+  "mirror_family": 64,
+  "three_heap_path": 64,
+  "certificate_rows": 18,
+  "all_checks_passed": true,
+  "limits": "Bounded enumeration only; infinite claims require the separate mathematical proofs."
+}

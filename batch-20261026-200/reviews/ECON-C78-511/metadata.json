@@ -3,15 +3,19 @@
   "handle": "ECON-C78-511",
   "title": "Event-family audit of the proposed full doubly-prime spectrum construction",
   "contribution_handle": "ECON-C78-511-A2",
-  "contribution_id": null,
-  "revision_id": "r1",
+  "contribution_id": "con_dc887f5126f6416c885c214952c1db21",
+  "revision_id": "rev_fe367a3f1bac4d5eb972a0d65cb0fb5f",
+  "revision_label": "r1",
   "finding": "Supports the claim",
   "checked_scope": "The terminal-proposal graph criterion and the construction realizing every claimed total, including endpoint and n=2 cases.",
   "scope": "The terminal-proposal graph criterion and the construction realizing every claimed total, including endpoint and n=2 cases.",
   "author": "/root/econ_e",
   "kind": "review",
-  "status": "review_draft_pending_second_review",
+  "status": "scoped_second_review_complete",
   "source_url": "https://we-solve.github.io/contributions/the-proposal-total-spectrum-of-doubly-prime-instances/attempt-2/r1/",
   "source_sha256": "4ce1b3959ed47c523319ee12143904797ff31eb650197fab46b5c7d0bb07d33f",
-  "review_path": "/Users/Administrator/Documents/ChatGPT/We Solve/batch_200_20261026/reviews/ECON-C78-511/review.md"
+  "review_path": "reviews/ECON-C78-511/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-C78-511.json",
+  "document_sha256": "465ea46204fd838b21c1f4237e57c19bf23c0ea0ad1814ca15704b22b3f3c02e"
 }

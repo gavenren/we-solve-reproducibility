@@ -1,0 +1,68 @@
+{
+  "handle": "ECON-D71-190",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D71-190/review.md",
+  "document_sha256": "1d35ac30f5ab4253e2bab441945ee88b038d0d9106d66c3bb73b0a4abd9ab205",
+  "checked_scope": "The complementary-set restriction, finite-election LP equivalence, and determinant bound.",
+  "checks": [
+    "Blocked complementary candidate parts require intersecting strict voter majorities with contradictory a>b and b>a rankings. Taking top choices of ceil(N/2) voters yields a winning set; thus size-k counterexamples need candidates and voters>=2k+1.",
+    "For fixed m and blocker assignment, positive common-margin LP feasibility is equivalent to a finite election: forward empirical frequencies and reverse rational optimal vertex/cleared denominators. Zero optimum does not imply strict-majority obstruction; upward closure rules out smaller sets.",
+    "At positive-margin vertex with r positive probabilities there are r+1 free variables. At most K+2 relevant active constraints force r<=K+1. After doubling half-integer equations, integer nonsingular matrix entries<=2 have determinant<=(2sqrt(K+2))^(K+2); Cramer gives a common integer voter denominator. This does not bound m or improve the universal3..5 interval."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-D71-190.txt",
+      "sha256": "ffc2c7b46ce48dccbcf98b345ae2a1048654bcaa3c713522c450ee8a011933c5",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-D71-190-prior.html",
+      "sha256": "68db19758ddd15d02b814089ec9d36925f22eeea41a54f6d48b5d5eb3af94dcc",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-D71-190-prior.txt",
+      "sha256": "8b6451b26079c5cc597b457b7f3ce54034f6007c75e21a7e0d92602b9b136fc9",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-D71-190/metadata.json",
+      "sha256": "208a853e14f2574ddac0c3587a02f95983905fd1c5cae39a9ac9a08e9983bb26",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-D71-190/source_notes.md",
+      "sha256": "af6b49615307b736d1717907dc25895eedb01c9b06f050879e33aef14ffc2a2d",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-D71-190-prior.yaml",
+      "sha256": "ed84cec4ace2033f906c5b86d5c2986d935071d79dad6566ccd96999eb9dfcdc",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    },
+    {
+      "path": "verify_econ_a_reviews.py",
+      "sha256": "3fa86e108ffffb86f11d783753dd7bf21e826c1007275cd96d956ac4422b4030",
+      "inspected_scope": "Inspected all ten finite-check routines, including assigned case construction and exact arithmetic; no redundant rerun."
+    },
+    {
+      "path": "econ_a_review_check_results.json",
+      "sha256": "7dd8233512ac5a13077a9a9ef4ec674fba459ff754b1f30d7541b11d03bebcf5",
+      "inspected_scope": "Inspected retained case counts/results and compared their stated scope to review."
+    }
+  ],
+  "limitations": [
+    "These are valid finite-instance certificates. They do not bound the number of candidates in a universal counterexample, improve the reported universal interval, or establish the external five-candidate theorem; no finite search is asserted.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "finite_evidence_inspected": {
+    "cases": 9330,
+    "check": "All ordered strict-ranking profiles for 3 candidates and 1..5 voters; complementary-set and selected-voter-top-set certificates."
+  }
+}

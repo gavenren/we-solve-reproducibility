@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_d56a29a7719a4f99b7d2e3eff9e57718",
+  "canonical_problem_id": "prb_d56a29a7719a4f99b7d2e3eff9e57718",
+  "handle": "ECON-D82-275",
+  "catalog_rank": 279,
+  "problem_title": "Mechanism design for nonstandard agents",
+  "title": "Scoped review of robust cognitive rewards and the ambiguity timing",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-D82-275-A1",
+  "contribution_display_handle": "Econ-279-A1",
+  "contribution_id": "con_0a4ce1906759407b81ce63036e5cac58",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_fdbcb5b81560426b85728a97cc7b1ce4",
+  "checked_scope": "Reward optimizer conditional on participation (including acceptance at the zero-reward utility tie), endpoint cases, and finite protocol-lottery perturbation bound",
+  "scope": "Reward optimizer conditional on participation (including acceptance at the zero-reward utility tie), endpoint cases, and finite protocol-lottery perturbation bound",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/mechanism-design-for-nonstandard-agents/attempt-1/r1/",
+  "source_sha256": "178affa8868b045f2d2913467087341dcdd4d755fb0639c46ffc146f7bf349e4",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-D82-275.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-D82-275.txt",
+      "sha256": "f2bf1a40ae929dafeb59ea4fd0e82e016c024034fba90daf8c6ce378fbccf8d9"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-D82-275.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/mechanism-design-for-nonstandard-agents/attempt-1/r1/index.html",
+      "sha256": "178affa8868b045f2d2913467087341dcdd4d755fb0639c46ffc146f7bf349e4"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-D82-275.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/mechanism-design-for-nonstandard-agents/attempt-1/r1/contribution.yaml",
+      "sha256": "7a197abd7027756dd1f00969a9d2cdf987e2c8859df67328a1dacad3c1027179"
+    }
+  ],
+  "review_path": "contributions/ECON-D82-275/review.md",
+  "review_sha256": "067a74eb575b56ff337318a2fb5e83754e7f6beb8d3949e12e68aa8d51d70bdd",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-D82-275.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "Reward optimizer conditional on participation (including acceptance at the zero-reward utility tie), endpoint cases, and finite protocol-lottery perturbation bound",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

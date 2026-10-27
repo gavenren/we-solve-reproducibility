@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-D91-609",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D91-609/review.md",
+  "document_sha256": "079570474a09029d6018fc525359d746dee65af001ff212406e7d416a1cfacd6",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** exponential distortion, CARA reporting equation, separated elicitation and factorial correction decomposition in ECON-D91-609-A1, revision r1.",
+  "checks": [
+    "KL completion yields a unique positive exponential tilt; finite log-partition differentiation gives strictly positive return variance and binary odds identify theta/kappa only.",
+    "Recomputed state wealth difference Za+s*(2b-1) and CARA score equation with negative ownership shift; derivative 1/[b(1-b)]+2gamma*s>0 and endpoint derivative signs give a unique interior report.",
+    "Exclusive random payment and binarized score recover truthful reporting only when prize-utility difference is state independent in the forecast branch; unchanged scoring money alone does not supply that separation.",
+    "Quadratic action gives (b+eta*z)/gamma; exact correction leaves E[eta/gamma], difference-in-differences identifies E[Delta b/gamma], and a direct zeta*Z*C term contaminates it by -E[zeta/gamma]."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-D91-609/prior.tex",
+      "sha256": "50088ed5652252b8ddffd06f1eebf2c50471fa3a43a2e11ec66d948cbcb0d2af",
+      "git_blob_sha": "4c0581fbd47a0f17c00d9a0eee694937e7bbbb4b",
+      "revision": "r1",
+      "revision_id": "rev_99b6b3e0ce654c7f8729dc6451052d62",
+      "contribution_id": "con_c32ef407c76148918984afec026abab8",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-D91-609/record.json",
+      "sha256": "0f86034eeba13c53d540f9d4b20c1bd7104d0555ce6c37fb6c6c0017b11b91a4",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Entropy motivation, truthful payment separation, exact correction and interior quadratic action are conditional primitives; no empirical motivational prevalence or persistence claim.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

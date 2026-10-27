@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_f021a548a3d04e37bc451422bd69cdd7",
+  "handle": "ECON-C73-496",
+  "title": "Audit of the uniform-adversary necessity argument for independent-copy unbeatability",
+  "contribution_handle": "ECON-C73-496-A1",
+  "contribution_id": "con_e1f952fb0fb541308089f9744feac1af",
+  "revision_id": "rev_bb43b56fc3954712b7d3dd01e0d6ae4e",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The constant highest-payoff-action criterion and existence of expected Cesaro limits for memory-one profiles.",
+  "scope": "The constant highest-payoff-action criterion and existence of expected Cesaro limits for memory-one profiles.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/existence-of-unbeatable-strategies-in-parallel-repeated-games/attempt-1/r1/",
+  "source_sha256": "e6b4e4fa8645d65ed75420a7f71ce04b9c63953838c368cde60c5c7f93fdb827",
+  "review_path": "reviews/ECON-C73-496/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-C73-496.json",
+  "document_sha256": "ac22bba4565a209b84af7bb8e5c55895b00d7d47ca4847f72c7de141575a324f"
+}

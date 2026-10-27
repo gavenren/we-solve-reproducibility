@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-C21-494",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C21-494/review.md",
+  "document_sha256": "a04bbfd62e7da8a4081609c7c210940b0d8d8f36d3be5d2799e261de50752464",
+  "checked_scope": "Common dominating reference measures, universal cycle coherence, and the finite-stratum sharp support function.",
+  "checks": [
+    "With countably many densities, every common dominated probability is concentrated on their positive-density intersection; positive reference measure of that intersection is necessary and sufficient.",
+    "Indicator response surfaces in each triangle force equality of edge measures under universal cycle coherence; accidental coherence at one response law is excluded from the claim.",
+    "The comparator coefficient is −Σcⱼ. The independent one-stratum example gives support −1/2 in direction (1,−1) and 1 in direction (1,1); latent off-support means attain the box image."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-C21-494_0.tex",
+      "sha256": "47a034333e495a2ac476b8c3f9d3ac0df6c1ac5eba87f05592584cc2492b6a7f",
+      "revision_id": "rev_0afdd46964844d789fb8fff3a702384d",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/coherent-estimands-for-changing-platform-trial-treatment-sets/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

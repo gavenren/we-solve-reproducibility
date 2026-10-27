@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_83bdb536a6494a3f8f50b6ca23e3c10b",
+  "canonical_problem_id": "prb_83bdb536a6494a3f8f50b6ca23e3c10b",
+  "handle": "ECON-C23-305",
+  "catalog_rank": 309,
+  "problem_title": "Validation of panel estimators under feedback selection",
+  "title": "Audit of feedback-selection equivalence and diagnostic conditioning",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C23-305-A1",
+  "contribution_display_handle": "Econ-309-A1",
+  "contribution_id": "con_c7be81932853446586f94237e6c25196",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_3a541db54e094c8bac06e2562b3a9cf9",
+  "checked_scope": "The opposite-ATT observational-equivalence construction and estimator-independent conditional error bound.",
+  "scope": "The opposite-ATT observational-equivalence construction and estimator-independent conditional error bound.",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/validation-of-panel-estimators-under-feedback-selection/attempt-1/r1/",
+  "source_sha256": "0d5924ef59bfceeb8d206f5753ce29aef7181bab4384483cfe7c7912451b762c",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C23-305.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C23-305.txt",
+      "sha256": "79701db5cd88075a6a3f1c9f75447c73207dc0a1085ddf0087a908001ba957be"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C23-305.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/validation-of-panel-estimators-under-feedback-selection/attempt-1/r1/index.html",
+      "sha256": "0d5924ef59bfceeb8d206f5753ce29aef7181bab4384483cfe7c7912451b762c"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C23-305.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/validation-of-panel-estimators-under-feedback-selection/attempt-1/r1/contribution.yaml",
+      "sha256": "497d79fa658f9982d15eaacf78461e642a6ba8936b38530040bfa6f9752ec8f4"
+    }
+  ],
+  "review_path": "contributions/ECON-C23-305/review.md",
+  "review_sha256": "3610d5ec0e1a485a2bf135bf2677d02868e27d8a2047cd8457d3e5bb58465f84",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C23-305.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "The opposite-ATT observational-equivalence construction and estimator-independent conditional error bound.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

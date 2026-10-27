@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_bf07aaf524e74eac9f055ee78cdd848e",
+  "handle": "ECON-D91-538",
+  "title": "Audit of usable experiments and uniform separation in finite design",
+  "contribution_handle": "ECON-D91-538-A1",
+  "contribution_id": "con_7e36994ab0794f118154caf7120b9e2a",
+  "revision_id": "rev_913431b678254766824a64f11752c2b2",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The positivity criterion for the maximin KL objective and the finite-hypothesis budget LP.",
+  "scope": "The positivity criterion for the maximin KL objective and the finite-hypothesis budget LP.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/identifying-choice-procedures/attempt-1/r1/",
+  "source_sha256": "ea3d5cc004c5da001ae68f1a0b83cc9d12e147f82406264cbe7e184cbb153a67",
+  "review_path": "reviews/ECON-D91-538/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-D91-538.json",
+  "document_sha256": "895e41a2d9787ce880a591befae6b57b0ec51251e3b3b1add3144d5df08863e6"
+}

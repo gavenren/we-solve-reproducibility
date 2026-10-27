@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-C81-368",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C81-368/review.md",
+  "document_sha256": "4344544c95d6cd71a2ba550673bafb0c207e6b53f60fa0f14c0953f4a7660a1b",
+  "checked_scope": "Audited-moment interval constants, the denominator safeguard and the periodic audit-refresh optimum; not global optimal audit design.",
+  "checks": [
+    "Recomputed raw-moment propagation constants 3d for variance/covariance and the Vhat>=kappa/2 safeguard when d<=kappa/6.",
+    "Verified Cauchy-Schwarz gives |beta|<=1/(2 sqrt(kappa)) and the ratio error constant 6/kappa*(1+1/(2sqrt(kappa))). The fallback is outside the good event, so a short fallback preserves the coverage lower bound.",
+    "Differentiated a Delta^(-1/2)+v Delta, obtaining Delta*=(a/(2v))^(2/3) and radius 3*2^(-2/3)*a^(2/3)*v^(1/3). Rechecked the L=Y versus 1-Y observational equivalence at automated code zero.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C81-368.txt",
+      "sha256": "6291dce572dff44753bf3b888eaff65775701a13945538cb02183744d700a33b",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-C81-368_A1.txt",
+      "sha256": "c51472dd1e10be9fc9f31b2576ac7bf02b418f2843dec5c53cd3ef082612338b",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-C81-368/source_notes.md",
+      "sha256": "a7a988482b6f4232b21310e91136d2394a79f2e95fd72cb894a4573b42ed5006",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-C81-368_A1.yaml",
+      "sha256": "93ee4fef7e3d2b23cc8991157d3b919f97dab12c85a3e457ab3d80a950664dd9",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "The optimum is within a continuous periodic auditing subclass with declared drift and iid audit moments. General covariates, integer/finite-horizon design, unknown drift, leakage verification and global optimal audit design are excluded.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

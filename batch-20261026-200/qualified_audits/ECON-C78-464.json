@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-C78-464",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C78-464/review.md",
+  "document_sha256": "47433a553a06817e107e2e84298f31a8fb6df54b288436f209c2c146d649cb96",
+  "checked_scope": "Rank scalarization and exact path-component dynamic program",
+  "checks": [
+    "Recomputed scalarization with B=n+1: a first-rank advantage exceeds every lower-rank loss by at least one, and weight bit lengths are polynomial; unmatched applicants contribute zero.",
+    "Traced all prefix boundary cases to the two DP recurrences, including the dominated unmatched option and initialization (0,-infinity). The candidate score uses the same realized order, preserving dependence.",
+    "Checked all finite scores lie in [0,m(m+1)], giving O(m^6) triple states and polynomial exact rational arithmetic under independent local preferences.",
+    "Verified componentwise rank maximality is equivalent to global rank maximality by the earliest local difference argument, before using independence for the probability product. No cyclic/branching or hardness extension is endorsed."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-C78-464/source_notes.md",
+      "sha256": "cf0ffb13f14e51d7189775cd4525e04346028efbef544e172690b60324a57216",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-C78-464/metadata.json",
+      "sha256": "81a12c9ea5f1b54afc3edadd988bc97158adc8b1abd5dd009bf7d9d63aea8555",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/rank-maximality-probability-under-uncertain-preferences_attempt-1_r1.html",
+      "sha256": "0fb864d611c686a2cbc82a6911a66fcbafdab97bfbd106570eb05a7887bcd96d",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/rank-maximality-probability-under-uncertain-preferences_attempt-1_r1.txt",
+      "sha256": "44a10f44fa4dff1d77085d0c753bf8e6566b7be5b374e7a4195f75453d7c563d",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-C78-464-A1.yaml",
+      "sha256": "f58b81fe5852e4f6dde43cee10622da6d469e982cf3472e2b6c7aef1fd113ed6",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

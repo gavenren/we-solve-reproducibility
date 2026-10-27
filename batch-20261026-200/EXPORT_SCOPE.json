@@ -1,0 +1,4393 @@
+{
+  "destination": "gavenren/we-solve-reproducibility",
+  "authenticated_owner": "gavenren",
+  "authenticated_owner_id": 206281466,
+  "verified_repository_owner_id": 206281466,
+  "verified_permissions": [
+    "admin",
+    "push"
+  ],
+  "contents": "Original authored mathematical manuscripts/reviews, provenance and final scoped audit records, original verification programs and finite results. Source notes cite public papers. No raw third-party manuscripts, private documents or credentials are included.",
+  "local_path_fields_normalized": [
+    "contributions/ECON-C13-259/metadata.json",
+    "contributions/ECON-C21-232/metadata.json",
+    "contributions/ECON-C21-234/metadata.json",
+    "contributions/ECON-C21-244/metadata.json",
+    "contributions/ECON-C21-266/metadata.json",
+    "contributions/ECON-C21-295/metadata.json",
+    "contributions/ECON-C21-306/metadata.json",
+    "contributions/ECON-C23-251/metadata.json",
+    "contributions/ECON-C23-305/metadata.json",
+    "contributions/ECON-C31-282/metadata.json",
+    "contributions/ECON-C31-289/metadata.json",
+    "contributions/ECON-C44-239/metadata.json",
+    "contributions/ECON-C44-248/metadata.json",
+    "contributions/ECON-C61-246/metadata.json",
+    "contributions/ECON-C61-288/metadata.json",
+    "contributions/ECON-C62-272/metadata.json",
+    "contributions/ECON-C71-299/metadata.json",
+    "contributions/ECON-C72-285/metadata.json",
+    "contributions/ECON-C73-252/metadata.json",
+    "contributions/ECON-C73-256/metadata.json",
+    "contributions/ECON-C73-304/metadata.json",
+    "contributions/ECON-C78-237/metadata.json",
+    "contributions/ECON-C78-268/metadata.json",
+    "contributions/ECON-C78-293/metadata.json",
+    "contributions/ECON-C79-271/metadata.json",
+    "contributions/ECON-C83-233/metadata.json",
+    "contributions/ECON-C90-284/metadata.json",
+    "contributions/ECON-D63-294/metadata.json",
+    "contributions/ECON-D71-264/metadata.json",
+    "contributions/ECON-D82-275/metadata.json",
+    "contributions/ECON-D82-280/metadata.json",
+    "contributions/ECON-D82-301/metadata.json",
+    "contributions/ECON-D86-257/metadata.json",
+    "contributions/ECON-G13-254/metadata.json",
+    "econ_a.json",
+    "econ_b.json",
+    "econ_e.json",
+    "manifest.json",
+    "reviews/ECON-C12-156/metadata.json",
+    "reviews/ECON-C14-148/metadata.json",
+    "reviews/ECON-C14-169/metadata.json",
+    "reviews/ECON-C18-215/metadata.json",
+    "reviews/ECON-C21-154/metadata.json",
+    "reviews/ECON-C21-160/metadata.json",
+    "reviews/ECON-C21-173/metadata.json",
+    "reviews/ECON-C21-179/metadata.json",
+    "reviews/ECON-C21-184/metadata.json",
+    "reviews/ECON-C21-191/metadata.json",
+    "reviews/ECON-C21-194/metadata.json",
+    "reviews/ECON-C21-202/metadata.json",
+    "reviews/ECON-C21-469/metadata.json",
+    "reviews/ECON-C21-494/metadata.json",
+    "reviews/ECON-C23-188/metadata.json",
+    "reviews/ECON-C24-509/metadata.json",
+    "reviews/ECON-C26-181/metadata.json",
+    "reviews/ECON-C31-168/metadata.json",
+    "reviews/ECON-C31-491/metadata.json",
+    "reviews/ECON-C32-504/metadata.json",
+    "reviews/ECON-C44-186/metadata.json",
+    "reviews/ECON-C63-149/metadata.json",
+    "reviews/ECON-C72-153/metadata.json",
+    "reviews/ECON-C72-488/metadata.json",
+    "reviews/ECON-C72-489/metadata.json",
+    "reviews/ECON-C73-159/metadata.json",
+    "reviews/ECON-C73-487/metadata.json",
+    "reviews/ECON-C73-492/metadata.json",
+    "reviews/ECON-C73-496/metadata.json",
+    "reviews/ECON-C73-532/metadata.json",
+    "reviews/ECON-C78-165/metadata.json",
+    "reviews/ECON-C78-175/metadata.json",
+    "reviews/ECON-C78-178/metadata.json",
+    "reviews/ECON-C78-511/metadata.json",
+    "reviews/ECON-D12-516/metadata.json",
+    "reviews/ECON-D44-171/metadata.json",
+    "reviews/ECON-D44-196/metadata.json",
+    "reviews/ECON-D60-517/metadata.json",
+    "reviews/ECON-D60-518/metadata.json",
+    "reviews/ECON-D63-158/metadata.json",
+    "reviews/ECON-D63-177/metadata.json",
+    "reviews/ECON-D63-473/metadata.json",
+    "reviews/ECON-D71-180/metadata.json",
+    "reviews/ECON-D71-190/metadata.json",
+    "reviews/ECON-D82-151/metadata.json",
+    "reviews/ECON-D82-172/metadata.json",
+    "reviews/ECON-D82-189/metadata.json",
+    "reviews/ECON-D82-513/metadata.json",
+    "reviews/ECON-D83-479/metadata.json",
+    "reviews/ECON-D83-521/metadata.json",
+    "reviews/ECON-D84-472/metadata.json",
+    "reviews/ECON-D91-482/metadata.json",
+    "reviews/ECON-D91-499/metadata.json",
+    "reviews/ECON-D91-507/metadata.json",
+    "reviews/ECON-D91-538/metadata.json",
+    "reviews/ECON-E31-467/metadata.json",
+    "reviews/ECON-E32-471/metadata.json",
+    "reviews/ECON-G28-477/metadata.json",
+    "reviews/ECON-H22-468/metadata.json",
+    "reviews/ECON-I32-523/metadata.json",
+    "reviews/ECON-L41-501/metadata.json",
+    "reviews/ECON-L51-495/metadata.json",
+    "reviews/ECON-Q54-485/metadata.json",
+    "reviews/ECON-Q58-500/metadata.json"
+  ],
+  "credential_pattern_scan": "No matches; this is a bounded pattern scan rather than proof of absence.",
+  "files": [
+    {
+      "path": "INDEX.md",
+      "bytes": 52978,
+      "sha256": "d68fee903b2d7ce2ee0cc584fd21fec12680e62b89151ce9ec078753face9aff"
+    },
+    {
+      "path": "contributions/ECON-C13-259/metadata.json",
+      "bytes": 3863,
+      "sha256": "c525952bb5cba30e77b0f77070f4bf5073534740f5f06f49eda3b7bca801ba32"
+    },
+    {
+      "path": "contributions/ECON-C13-259/report.md",
+      "bytes": 7733,
+      "sha256": "0c65f00366e92cdbf52b439fed2d3c4e69e2c6d969d40bf80cbfea5fcddc36d9"
+    },
+    {
+      "path": "contributions/ECON-C13-259/source_notes.md",
+      "bytes": 2248,
+      "sha256": "b627cdc4dd367d28884f6d6f34df1cfeba8eaf8c338e699e45e23cacbc2cccfd"
+    },
+    {
+      "path": "contributions/ECON-C21-206/metadata.json",
+      "bytes": 1221,
+      "sha256": "0419c0fbdca1e815057827f6789e8f664dcaf26ee89dc7c8800ec6269b28a047"
+    },
+    {
+      "path": "contributions/ECON-C21-206/report.md",
+      "bytes": 6384,
+      "sha256": "51c43543c26c35ebcd3b65824ad5c50eeb87030696a2dd9b44b3c9fbd0ff423c"
+    },
+    {
+      "path": "contributions/ECON-C21-206/source_notes.md",
+      "bytes": 941,
+      "sha256": "6da51c73b1c2c8e91c277cf7fdab6cab1f7a72346a2ac9f17feb6349bbea8edd"
+    },
+    {
+      "path": "contributions/ECON-C21-206/verification_stdout.txt",
+      "bytes": 197,
+      "sha256": "0aac6103114dfe7881f74dc7176a85fecc257dec3a90698fdaeb4f11f63dace2"
+    },
+    {
+      "path": "contributions/ECON-C21-206/verify.py",
+      "bytes": 1041,
+      "sha256": "8e39d83427c8263b583784e9458422086236f7e50c5fa3cce86a04caa23477fe"
+    },
+    {
+      "path": "contributions/ECON-C21-232/metadata.json",
+      "bytes": 3443,
+      "sha256": "45374bd66f1ebccf2bf4cbd76000e0d2f3b0885a93f327551fc5608fd599138a"
+    },
+    {
+      "path": "contributions/ECON-C21-232/review.md",
+      "bytes": 3177,
+      "sha256": "de1491ac11f826cc7eefe92c96ac1a464c37ae357e5930c21a21168b68e6b59e"
+    },
+    {
+      "path": "contributions/ECON-C21-232/source_notes.md",
+      "bytes": 2031,
+      "sha256": "bfec639c198a69146df29652fbaa581fcfc1f5ad7ef9ca902f65893407086d29"
+    },
+    {
+      "path": "contributions/ECON-C21-234/metadata.json",
+      "bytes": 3488,
+      "sha256": "45dd75eeec200995b347fbb8cbcd70582dbccb56a7c47ae4fce855612bfad1c7"
+    },
+    {
+      "path": "contributions/ECON-C21-234/review.md",
+      "bytes": 3236,
+      "sha256": "87545b51c48d6ddeb2add8eadb3560cdd295bc1494dd6f8a28f2ff9dda737407"
+    },
+    {
+      "path": "contributions/ECON-C21-234/source_notes.md",
+      "bytes": 2046,
+      "sha256": "a1fb0c2416afa1d5122544b81cc4f2cfe61918b33a45d4cc421ee6b25aae2bb6"
+    },
+    {
+      "path": "contributions/ECON-C21-244/metadata.json",
+      "bytes": 3393,
+      "sha256": "bb7134653e7ad5015a7698e3619b2e9991f7e4a483ff6c41e658ba95da3c7cf4"
+    },
+    {
+      "path": "contributions/ECON-C21-244/review.md",
+      "bytes": 3043,
+      "sha256": "07d5c99cff3fd5e5fd67855d71fc723f8f6b7545b70ddbbd60cb6a7e7b296bf7"
+    },
+    {
+      "path": "contributions/ECON-C21-244/source_notes.md",
+      "bytes": 1998,
+      "sha256": "acbbf29c1b9e2c4118b98c6f9ec069746dc99a899abe7368b98d38aa86a67b52"
+    },
+    {
+      "path": "contributions/ECON-C21-266/metadata.json",
+      "bytes": 3454,
+      "sha256": "04a4524d4055e0f98457eff6590c973299a2beae7c98a47fbd7597afb8762b80"
+    },
+    {
+      "path": "contributions/ECON-C21-266/review.md",
+      "bytes": 3098,
+      "sha256": "b2bf1d224cc9cd10fa7c3104d48488d393776ac6368f5dee166d8aba086b8281"
+    },
+    {
+      "path": "contributions/ECON-C21-266/source_notes.md",
+      "bytes": 2025,
+      "sha256": "e7d9617810ca47c10726f02872227da950793e9aef8c2fbc45cf4c8ade5260bb"
+    },
+    {
+      "path": "contributions/ECON-C21-295/metadata.json",
+      "bytes": 3439,
+      "sha256": "c8e8f475b91d4e5f6ee1601f93b1a7155f14cb1f8830239400814d9417f1666d"
+    },
+    {
+      "path": "contributions/ECON-C21-295/review.md",
+      "bytes": 3253,
+      "sha256": "15653ef6c67cb9f8190d15a5a851e1093129fc3f0ced6b576b2dd49a9c1c4bc2"
+    },
+    {
+      "path": "contributions/ECON-C21-295/source_notes.md",
+      "bytes": 2023,
+      "sha256": "cb15b452eba9980c6f49398801aef124c7b5f84b4b27fb4be101fa313e8f9317"
+    },
+    {
+      "path": "contributions/ECON-C21-306/metadata.json",
+      "bytes": 3463,
+      "sha256": "34e431ff6d259718e2609de83d65f1a80535fd3be39bee37c33afe23193977c2"
+    },
+    {
+      "path": "contributions/ECON-C21-306/review.md",
+      "bytes": 3342,
+      "sha256": "49e5f576c44b22b3f21fb69556ab054c1d87d6c901556fcea51b6dfc0575883e"
+    },
+    {
+      "path": "contributions/ECON-C21-306/source_notes.md",
+      "bytes": 2037,
+      "sha256": "279f3ab0d5c3a4d0bd33bae8c6bd2c0af55cf5f006fdf84dffbcd13b15577725"
+    },
+    {
+      "path": "contributions/ECON-C21-314/metadata.json",
+      "bytes": 1148,
+      "sha256": "e256fbb292f3588f4a27ee3c7ddc274c2ad1c1d237bc19241d0f3f604c6c6439"
+    },
+    {
+      "path": "contributions/ECON-C21-314/review.md",
+      "bytes": 3190,
+      "sha256": "2116101faa74cc0d254e0120103d1b1040e288543af2e397618604c564c89d0f"
+    },
+    {
+      "path": "contributions/ECON-C21-314/source_notes.md",
+      "bytes": 476,
+      "sha256": "c137fa0081fc86c5ab964a3aac0aba3334f64b1e9c014879d0a3a9848dd2f317"
+    },
+    {
+      "path": "contributions/ECON-C21-437/metadata.json",
+      "bytes": 1279,
+      "sha256": "984be3f7b51f29dd1fe63c49bb91d947f15118c85991f8376d78d4b33c21b1c6"
+    },
+    {
+      "path": "contributions/ECON-C21-437/review.md",
+      "bytes": 3169,
+      "sha256": "e15eaa67f44bc1022ee19134a23acdc67b27619dfbe702cf53a65ea602db95dd"
+    },
+    {
+      "path": "contributions/ECON-C21-437/source_notes.md",
+      "bytes": 538,
+      "sha256": "b6d47cfc053cd2e9fe860dfc82a2a2f45676574a95bc057f1ac218178dea84b3"
+    },
+    {
+      "path": "contributions/ECON-C21-453/metadata.json",
+      "bytes": 1329,
+      "sha256": "8a44d79ff36310fcc64e1716be358fde69f489fd46b0ec7a2674b134abb2a1c8"
+    },
+    {
+      "path": "contributions/ECON-C21-453/review.md",
+      "bytes": 3109,
+      "sha256": "dd118a698ef8773dd615f13ff06093f27678caee914fbb8c7d0bc356fd0d2480"
+    },
+    {
+      "path": "contributions/ECON-C21-453/source_notes.md",
+      "bytes": 534,
+      "sha256": "1af592c76ad4a58f2af3e54c7dde1d65b2b85bc88514eb63668576ec61949c40"
+    },
+    {
+      "path": "contributions/ECON-C21-553/metadata.json",
+      "bytes": 2393,
+      "sha256": "ee22e92f44d78a8719d1a012840bab13299ccfb38e082ccb289a8f84dea4663f"
+    },
+    {
+      "path": "contributions/ECON-C21-553/review.md",
+      "bytes": 4182,
+      "sha256": "24dda56535d6cbec3ccdb655d877e643314ae87a4dbf9ab99e2160e6f2cbf0c8"
+    },
+    {
+      "path": "contributions/ECON-C21-553/source_notes.md",
+      "bytes": 1441,
+      "sha256": "1b3f4ff01efce8f4a574e33455d30cc1450883a776176f4ac20c78294f50683b"
+    },
+    {
+      "path": "contributions/ECON-C21-569/metadata.json",
+      "bytes": 2361,
+      "sha256": "9a8b380ff4cf199e717017446978f1c6ff5577ef9a43b41f3a4cbddd8945ec72"
+    },
+    {
+      "path": "contributions/ECON-C21-569/review.md",
+      "bytes": 3938,
+      "sha256": "8c227421d726ecdf7a29874fd3c1f7a8bef1451e9c53fa5779e163ce8f1fe9e8"
+    },
+    {
+      "path": "contributions/ECON-C21-569/source_notes.md",
+      "bytes": 1439,
+      "sha256": "5fe86f0d93f3b625c231ed87d3e62f67c9a94b3405da95b655af7dc9c8543532"
+    },
+    {
+      "path": "contributions/ECON-C21-581/metadata.json",
+      "bytes": 2209,
+      "sha256": "bf69143d30462308e80345d3637f6c7c194256e7ba55ab618a4f5a230b36e39d"
+    },
+    {
+      "path": "contributions/ECON-C21-581/review.md",
+      "bytes": 3385,
+      "sha256": "9f43623117632be2f46934c3b455a18c38dd159b32f70ea99b936fb07655284a"
+    },
+    {
+      "path": "contributions/ECON-C21-581/source_notes.md",
+      "bytes": 1447,
+      "sha256": "7d994eeddf835123cf70bee333918f40debae7694ec08c0d827c452927b5820a"
+    },
+    {
+      "path": "contributions/ECON-C23-251/metadata.json",
+      "bytes": 3413,
+      "sha256": "babddb1bb08a611c41e4dda37a66eb3f70ab1e3071ee84c2fac5eec51d9218a7"
+    },
+    {
+      "path": "contributions/ECON-C23-251/review.md",
+      "bytes": 3220,
+      "sha256": "8b3b45edd71ab84032aa3b99fbb8851aff7466a74b64b48073475190930ddc15"
+    },
+    {
+      "path": "contributions/ECON-C23-251/source_notes.md",
+      "bytes": 2015,
+      "sha256": "942b4942243e32767d92822111b96edebca24a15024f8de56e111decc8f2fc4b"
+    },
+    {
+      "path": "contributions/ECON-C23-305/metadata.json",
+      "bytes": 3438,
+      "sha256": "5bff7860266593ee145ed0d4853427b5abdc7b83a5ba37533bc2ebc16542bfba"
+    },
+    {
+      "path": "contributions/ECON-C23-305/review.md",
+      "bytes": 3132,
+      "sha256": "3610d5ec0e1a485a2bf135bf2677d02868e27d8a2047cd8457d3e5bb58465f84"
+    },
+    {
+      "path": "contributions/ECON-C23-305/source_notes.md",
+      "bytes": 2021,
+      "sha256": "39999b009ba3658df6d51143d675ffabccb3d171cf327f11f82e18c94687aa6a"
+    },
+    {
+      "path": "contributions/ECON-C23-372/metadata.json",
+      "bytes": 1147,
+      "sha256": "4a06aa4ee3c58d670a77132dbf9456f4a3538404acd7f661da6d012949dbed89"
+    },
+    {
+      "path": "contributions/ECON-C23-372/review.md",
+      "bytes": 3354,
+      "sha256": "c66b8fbcc536c1f5a79a0d353d925583049aa81c3e056df2c98ff0be9997454c"
+    },
+    {
+      "path": "contributions/ECON-C23-372/source_notes.md",
+      "bytes": 473,
+      "sha256": "1c298024147c773d6d895c7dd3e5a21071b87d4f8f94455bf080c64443f4a761"
+    },
+    {
+      "path": "contributions/ECON-C23-406/metadata.json",
+      "bytes": 1299,
+      "sha256": "27c41f03c9c428b48128eb61fd7bbc3dd21cb389d54b0c2bbac21e9f331227f9"
+    },
+    {
+      "path": "contributions/ECON-C23-406/review.md",
+      "bytes": 3119,
+      "sha256": "ea2017f92a427e988d345d64eb6d60b6577552252550b3884c6e6cce0c5b30bd"
+    },
+    {
+      "path": "contributions/ECON-C23-406/source_notes.md",
+      "bytes": 549,
+      "sha256": "a7ade313c4d2369de41bc9b01961084dac4101ffe338d2f4657d64ffe99cd552"
+    },
+    {
+      "path": "contributions/ECON-C23-425/metadata.json",
+      "bytes": 1294,
+      "sha256": "c84690849bd4349005df9ed68f2e8ec291fb37f1fe80ec257bbd1250267402e5"
+    },
+    {
+      "path": "contributions/ECON-C23-425/review.md",
+      "bytes": 3016,
+      "sha256": "7478f970937a0dab6b733b6000a2da80556af77a2bb8d4b139b7dc392bd76edf"
+    },
+    {
+      "path": "contributions/ECON-C23-425/source_notes.md",
+      "bytes": 520,
+      "sha256": "90142d719b1096373bdf9078f283a2567e283208c213a22b2480d1d63af7c51c"
+    },
+    {
+      "path": "contributions/ECON-C23-429/metadata.json",
+      "bytes": 1289,
+      "sha256": "b4b18141d00ae314dbe5bc747f7b54925faefef24acef0e6404e43f05f30cdb1"
+    },
+    {
+      "path": "contributions/ECON-C23-429/review.md",
+      "bytes": 3488,
+      "sha256": "2a7171e0a4b05a1c1ae75080aaa347c592aba7cee4586fd3a76a197ec4d4c985"
+    },
+    {
+      "path": "contributions/ECON-C23-429/source_notes.md",
+      "bytes": 907,
+      "sha256": "11400ff28e541712415f77c883be40f3e4bf5ab9746faac319ba563e6cf8f266"
+    },
+    {
+      "path": "contributions/ECON-C26-326/metadata.json",
+      "bytes": 1170,
+      "sha256": "61ecbe140bfe5be48c5a98d780d0816db0eef684ce3af2052ff4bcdd8773d8b3"
+    },
+    {
+      "path": "contributions/ECON-C26-326/review.md",
+      "bytes": 3291,
+      "sha256": "af7da78cbfd6c17340e8304800bf0b15d4aab06a7a5278abd24f43c73089f1e1"
+    },
+    {
+      "path": "contributions/ECON-C26-326/source_notes.md",
+      "bytes": 488,
+      "sha256": "0daf44332d63c81f74c310da52fc99b6b95363daf5fa543c22edb5c9a21e8d67"
+    },
+    {
+      "path": "contributions/ECON-C26-403/metadata.json",
+      "bytes": 1280,
+      "sha256": "2375812a0148e2630698f5bf01d4ba5e1f19d7402414e55c11034383b0564e50"
+    },
+    {
+      "path": "contributions/ECON-C26-403/review.md",
+      "bytes": 3058,
+      "sha256": "61acafcc59798f2ec086e2d5f228423e28f5af237b745342aa7f4df48ac84ed6"
+    },
+    {
+      "path": "contributions/ECON-C26-403/source_notes.md",
+      "bytes": 530,
+      "sha256": "0d573a02ee2f4802c817aaca30fa181c152b81f5d433213fac7a2d7e6e06140b"
+    },
+    {
+      "path": "contributions/ECON-C31-214/metadata.json",
+      "bytes": 1210,
+      "sha256": "39dfda038e2704ea9799dd54abb1efb4c35e5c05bf2c3dafd2ff9cc9e622eb72"
+    },
+    {
+      "path": "contributions/ECON-C31-214/report.md",
+      "bytes": 7164,
+      "sha256": "68fb0f87d0fd046cc1464428c7b85dd2f17f4cf200d4459d28ccc4d7fff7f155"
+    },
+    {
+      "path": "contributions/ECON-C31-214/source_notes.md",
+      "bytes": 941,
+      "sha256": "f113c5953121d49d77572cc404c368b018aa305d8938776536d8166400a7344d"
+    },
+    {
+      "path": "contributions/ECON-C31-214/verification_stdout.txt",
+      "bytes": 168,
+      "sha256": "7500e578642d8681b732ce08383719e7296a20922c683e3910c3558dc2cabdaf"
+    },
+    {
+      "path": "contributions/ECON-C31-214/verify.py",
+      "bytes": 1559,
+      "sha256": "db9c7a76452b2d562042599875e18aef992c223cd1d70a81096247540bf06a3c"
+    },
+    {
+      "path": "contributions/ECON-C31-219/metadata.json",
+      "bytes": 1251,
+      "sha256": "73e2dbef8b09b9f10b6a9e86f8f4380c5049d34b45f1cf60902f01bc2b2d5b7f"
+    },
+    {
+      "path": "contributions/ECON-C31-219/report.md",
+      "bytes": 7886,
+      "sha256": "7a9ae1618baac84f91268fc0ba549aecbcd6e44f1e753c0951dc73c50413b9fa"
+    },
+    {
+      "path": "contributions/ECON-C31-219/source_notes.md",
+      "bytes": 941,
+      "sha256": "de19aa544ee48a1fa943d147b3088a8f1ddedc5ea6c045abc4af60391db71d59"
+    },
+    {
+      "path": "contributions/ECON-C31-219/verification_stdout.txt",
+      "bytes": 174,
+      "sha256": "b945c5400ec6fad9708425d1c61c3ef5f8475cbdb2eeb02701b395dccc227def"
+    },
+    {
+      "path": "contributions/ECON-C31-219/verify.py",
+      "bytes": 1485,
+      "sha256": "a577dca878d3460ed6b3030ec307e656eb8b898dcfcefe359840742160b8da4a"
+    },
+    {
+      "path": "contributions/ECON-C31-282/metadata.json",
+      "bytes": 3456,
+      "sha256": "b6211f49477d6624ffecee643b99d5e78be5d3ae73b3f65d74275d05685628c8"
+    },
+    {
+      "path": "contributions/ECON-C31-282/review.md",
+      "bytes": 3146,
+      "sha256": "b7f4d525b32c0bd33490634b1de9d38a98b289c48babff24d7594ad6615c1d3d"
+    },
+    {
+      "path": "contributions/ECON-C31-282/source_notes.md",
+      "bytes": 2021,
+      "sha256": "730f490553ac1c82346cce1901874513ec1358d26c0992c43b0931b3c147a2b7"
+    },
+    {
+      "path": "contributions/ECON-C31-289/metadata.json",
+      "bytes": 4526,
+      "sha256": "95202baf75f93e815ba1d4d331768e65062bb84094316a2b66979808e26fc4fe"
+    },
+    {
+      "path": "contributions/ECON-C31-289/report.md",
+      "bytes": 9816,
+      "sha256": "db5c4ab7a66dd3f083e32a6b45c46849c6dd111c1828f8b317c4668840bb9eeb"
+    },
+    {
+      "path": "contributions/ECON-C31-289/source_notes.md",
+      "bytes": 2287,
+      "sha256": "89848d543350b89f87be1a76b4c1da1d9479cfbe18a28673d62dd62cd686e603"
+    },
+    {
+      "path": "contributions/ECON-C31-289/verification.json",
+      "bytes": 292,
+      "sha256": "1f52b8e60332c20cb8fc6e54d1c0a5cfbd080d23bbfb91a30eabbce351e1f627"
+    },
+    {
+      "path": "contributions/ECON-C31-289/verify.py",
+      "bytes": 1717,
+      "sha256": "d54235eab72ddcd9f74c836193f19481888acbd73cf35f810ba93e68d5fda7e4"
+    },
+    {
+      "path": "contributions/ECON-C31-321/metadata.json",
+      "bytes": 1200,
+      "sha256": "151513cd2a49a323b8c6f8cb3b3d3b23d835bf8aeb2b25c1a6090dfbe9ccdf2a"
+    },
+    {
+      "path": "contributions/ECON-C31-321/review.md",
+      "bytes": 3128,
+      "sha256": "dc43416a6df82d4b242f7a250120a4b4104eee47a7dd5b4bcd0133fdcf85d8f8"
+    },
+    {
+      "path": "contributions/ECON-C31-321/source_notes.md",
+      "bytes": 495,
+      "sha256": "bea3c3ab2af80c511cecbb2c47aa0c9201d6ebcdf6807f9c523a0a26a29465dc"
+    },
+    {
+      "path": "contributions/ECON-C31-390/metadata.json",
+      "bytes": 1348,
+      "sha256": "ffeb04e409596d3c2142f8ddd9790ba812ed314d36ba744e5f4b2fc94f5939e9"
+    },
+    {
+      "path": "contributions/ECON-C31-390/review.md",
+      "bytes": 3095,
+      "sha256": "3045e55933409a6357e3d27eff2bb8543db97efd4d871723755deae0b83798ac"
+    },
+    {
+      "path": "contributions/ECON-C31-390/source_notes.md",
+      "bytes": 556,
+      "sha256": "ed6bd943361d955973279461a87a05a63a10dbf8677d5960df5c86837c4588a1"
+    },
+    {
+      "path": "contributions/ECON-C31-442/metadata.json",
+      "bytes": 1256,
+      "sha256": "18978d249f584dd1a17038ed617369af9341f334bef718f07edc37008a2e0f76"
+    },
+    {
+      "path": "contributions/ECON-C31-442/review.md",
+      "bytes": 2807,
+      "sha256": "ac52aa48ab65d4cef37427dcd7c87ffab4b8fc7a9bebb1211eca658c0193e73c"
+    },
+    {
+      "path": "contributions/ECON-C31-442/source_notes.md",
+      "bytes": 524,
+      "sha256": "4c5d2607e9602a4008b9ee5bd32977c5d1ef23bdad7df7ef14139a64cecd5c03"
+    },
+    {
+      "path": "contributions/ECON-C33-332/metadata.json",
+      "bytes": 1158,
+      "sha256": "6f168de07d3cd3ab4698e9e01ad178d0cd32d812218025166ee07d71446b7eee"
+    },
+    {
+      "path": "contributions/ECON-C33-332/review.md",
+      "bytes": 3380,
+      "sha256": "8288680d1e0c7d667d7dac0d12ee6d54998d1ab20440173ed69f13fb49735906"
+    },
+    {
+      "path": "contributions/ECON-C33-332/source_notes.md",
+      "bytes": 486,
+      "sha256": "a6b388e0222ef47a6b22fa9216d2ae2dc302ebcea55c8a4825e3587f4d78c8d1"
+    },
+    {
+      "path": "contributions/ECON-C33-383/metadata.json",
+      "bytes": 1126,
+      "sha256": "4f6346bfcc253ab72a631e3f0ef3ccaa28f06f44e0b611995ec7671b28bb2bbb"
+    },
+    {
+      "path": "contributions/ECON-C33-383/review.md",
+      "bytes": 3075,
+      "sha256": "f79a37f558a6913f946f045140548bf7a132917a6bb1ee0a0bc4956bd1c4f921"
+    },
+    {
+      "path": "contributions/ECON-C33-383/source_notes.md",
+      "bytes": 477,
+      "sha256": "63775ebdc9486401aacad6251723351339358a725c37744d4ad3ad4bb1ed7cac"
+    },
+    {
+      "path": "contributions/ECON-C44-239/metadata.json",
+      "bytes": 3578,
+      "sha256": "32e17e882c25638898c56dda5424187bd8a53daca2b197e677f91efa04f062da"
+    },
+    {
+      "path": "contributions/ECON-C44-239/review.md",
+      "bytes": 3143,
+      "sha256": "62466acdad675da3e4114095dcf00c7a15e07109f762f06fe749ac687be0d6bc"
+    },
+    {
+      "path": "contributions/ECON-C44-239/source_notes.md",
+      "bytes": 2075,
+      "sha256": "1d73edde58e0f937e452d3b55037c7c5d19e0b67401bca0a9651b8e8b4333bd2"
+    },
+    {
+      "path": "contributions/ECON-C44-248/metadata.json",
+      "bytes": 3522,
+      "sha256": "4d657477c1f6f6d4f54c763d97127cdda938765eb039f3ce83a4127d0a352be4"
+    },
+    {
+      "path": "contributions/ECON-C44-248/review.md",
+      "bytes": 3078,
+      "sha256": "d6dbb1c92f173afffdc44c4ecb9ea8c59f371b8f74b03284bd162baa5a7f1b61"
+    },
+    {
+      "path": "contributions/ECON-C44-248/source_notes.md",
+      "bytes": 2043,
+      "sha256": "815088b67d0af5a1596b839aa0f95c5fae38a092f7f613c1f44d44adde62913c"
+    },
+    {
+      "path": "contributions/ECON-C55-360/metadata.json",
+      "bytes": 1134,
+      "sha256": "1af77708850049a7897386df06e035711ae39f1b19d8a7862b646952c666217e"
+    },
+    {
+      "path": "contributions/ECON-C55-360/review.md",
+      "bytes": 3237,
+      "sha256": "8075fdd4b3bb884d7a43a88e1eefaf2577714184210a1959f21a7f91c2c0db7c"
+    },
+    {
+      "path": "contributions/ECON-C55-360/source_notes.md",
+      "bytes": 480,
+      "sha256": "01f0babc62676592f5a7e3e2f6f13da75a15a62f2db73abd56fa5a60fdb6aede"
+    },
+    {
+      "path": "contributions/ECON-C61-246/metadata.json",
+      "bytes": 3388,
+      "sha256": "c9ac643ed4d0d08e3030030ee6eb49615582d148d73d1fb12196c5ae9843f59d"
+    },
+    {
+      "path": "contributions/ECON-C61-246/review.md",
+      "bytes": 3099,
+      "sha256": "e341dc080c40e95c1bc933571dcb979883dd7e51472d8309d4bc9a28905fb441"
+    },
+    {
+      "path": "contributions/ECON-C61-246/source_notes.md",
+      "bytes": 2004,
+      "sha256": "85b0bc292bb1f96f4096a2ae06d19b26abbcdf767bd990a6a3626d99a3196ed1"
+    },
+    {
+      "path": "contributions/ECON-C61-288/metadata.json",
+      "bytes": 3431,
+      "sha256": "6a4584e66cb3a945288fb4dd0a0900289c1ae1d3d65cea916090176eeb870c0c"
+    },
+    {
+      "path": "contributions/ECON-C61-288/review.md",
+      "bytes": 2926,
+      "sha256": "8ad95169ebd55185721ac2b77075ece374133893ccedaa91e79363e65cd5d880"
+    },
+    {
+      "path": "contributions/ECON-C61-288/source_notes.md",
+      "bytes": 2015,
+      "sha256": "b9bb7ea6a8cad726ba55ebd436f0adbb2b8f94c9b927ab0ace198bd811f59ea7"
+    },
+    {
+      "path": "contributions/ECON-C62-272/metadata.json",
+      "bytes": 3368,
+      "sha256": "c954390e216bf6c7bce797231a80a2ec3850ddb35cdbb154402cbb406e1fa446"
+    },
+    {
+      "path": "contributions/ECON-C62-272/review.md",
+      "bytes": 3338,
+      "sha256": "22fa7c44a5297088f721a35ff77a410f2f088b8a340104f743f6854fc4fe2bf2"
+    },
+    {
+      "path": "contributions/ECON-C62-272/source_notes.md",
+      "bytes": 1995,
+      "sha256": "8ac5c2dbe0c634e6347284359f107f5ce04ae46900710c0ad09286dc13a100f7"
+    },
+    {
+      "path": "contributions/ECON-C71-299/metadata.json",
+      "bytes": 3444,
+      "sha256": "d8421187b053445d192827274351024b9800bcd612e700fc0671e62df364d82c"
+    },
+    {
+      "path": "contributions/ECON-C71-299/review.md",
+      "bytes": 3425,
+      "sha256": "427bb44fbc6c6d6e8eec2dfa4878f17fe00730a1f57f9805e4cf859ad87c4f0f"
+    },
+    {
+      "path": "contributions/ECON-C71-299/source_notes.md",
+      "bytes": 2033,
+      "sha256": "63efcac54138178f86a0fcecbe081ec8b8d42d9958765cf38a7943f89e702278"
+    },
+    {
+      "path": "contributions/ECON-C71-421/metadata.json",
+      "bytes": 1291,
+      "sha256": "c7b27a2de7e767554b6a3e077f9e1ad0194d3557aabafe76f44b4019dd3862ad"
+    },
+    {
+      "path": "contributions/ECON-C71-421/review.md",
+      "bytes": 3357,
+      "sha256": "22799ac1673cead3e23d2fd4780bd2222e36f9703a6d66a2b6df1d796b388ac5"
+    },
+    {
+      "path": "contributions/ECON-C71-421/source_notes.md",
+      "bytes": 550,
+      "sha256": "9fcd511d942ae6fbe451537f330b5cd47be4e999dd8d2129781c050851797687"
+    },
+    {
+      "path": "contributions/ECON-C72-285/metadata.json",
+      "bytes": 3400,
+      "sha256": "1379a2c93648839f87b16fa59c1e14a6e8cf6a7c6f40e0321d8ad815ef0355c6"
+    },
+    {
+      "path": "contributions/ECON-C72-285/review.md",
+      "bytes": 3370,
+      "sha256": "76222b9ecb59abe0545f1e2e44c2c1d0c9fbaee86f1e6197dcb5e1acc3a98334"
+    },
+    {
+      "path": "contributions/ECON-C72-285/source_notes.md",
+      "bytes": 1997,
+      "sha256": "4066e39df6ac62caa72da966395e9d638f9c30ee9d48b68e92468681f5657b08"
+    },
+    {
+      "path": "contributions/ECON-C72-366/metadata.json",
+      "bytes": 1080,
+      "sha256": "ec595e1cd6af83699313c4d1913849594a371768b2d44c225eb3a2a29e0932a6"
+    },
+    {
+      "path": "contributions/ECON-C72-366/review.md",
+      "bytes": 3295,
+      "sha256": "8e2c41f38ee50c6d95f5cc3e1828482e616aa178f32647b93f52ed74648ce392"
+    },
+    {
+      "path": "contributions/ECON-C72-366/source_notes.md",
+      "bytes": 444,
+      "sha256": "239b00db640aa23dcb7880fce8404e65b29c9724c2b8de013df2e7ecf129e7fd"
+    },
+    {
+      "path": "contributions/ECON-C73-252/metadata.json",
+      "bytes": 3361,
+      "sha256": "e6f885c9a5b4e3d362fdf5b92f7937027bf07ef349f6d8f5cbf8f49ff8870d67"
+    },
+    {
+      "path": "contributions/ECON-C73-252/review.md",
+      "bytes": 3078,
+      "sha256": "6ae0719bc30809d56949845cc6b2d6fb1965661e10f555553376e24b4bd37eed"
+    },
+    {
+      "path": "contributions/ECON-C73-252/source_notes.md",
+      "bytes": 1981,
+      "sha256": "367b451c79dbde4104044931bd5730df68f3786551d195f11b40424604ecf315"
+    },
+    {
+      "path": "contributions/ECON-C73-256/metadata.json",
+      "bytes": 3562,
+      "sha256": "d67569aeacd68fe6a591d2de7e276ed00a708554ae4930f71af5dfcdbf22a6ae"
+    },
+    {
+      "path": "contributions/ECON-C73-256/review.md",
+      "bytes": 3192,
+      "sha256": "8b7d0078aa085314dd4276690aa630275671b0282e3f1972d8d56dff9cb62038"
+    },
+    {
+      "path": "contributions/ECON-C73-256/source_notes.md",
+      "bytes": 2080,
+      "sha256": "b231780059fcedce9f8d534eecb90c2e1aeefcb7f747c12394ebeba07d8fc13b"
+    },
+    {
+      "path": "contributions/ECON-C73-304/metadata.json",
+      "bytes": 3497,
+      "sha256": "60eff29d6f49aeb8d689ab277a32d19a0c3a20863ab7d05118266537e190d00f"
+    },
+    {
+      "path": "contributions/ECON-C73-304/review.md",
+      "bytes": 3303,
+      "sha256": "0f202b6106b6ac457bac8cff25e29fa06dda54eed287a1ef816d003ebdf2ff1e"
+    },
+    {
+      "path": "contributions/ECON-C73-304/source_notes.md",
+      "bytes": 2041,
+      "sha256": "7435dce7b880032f31b35551b927dd6415aac120b4dbf9c96e0279b3be53ede6"
+    },
+    {
+      "path": "contributions/ECON-C73-391/metadata.json",
+      "bytes": 1325,
+      "sha256": "cf8a1f62ac222d7866b72b6f853545be3a4975ae3a19846866850b46abdc75ef"
+    },
+    {
+      "path": "contributions/ECON-C73-391/review.md",
+      "bytes": 3375,
+      "sha256": "bd6f90e44cc14ccabc8c3acf7663cfff5c7c1443d0a460be376667f253320b8c"
+    },
+    {
+      "path": "contributions/ECON-C73-391/source_notes.md",
+      "bytes": 560,
+      "sha256": "394dae72872b64c66f6f6b306efd8ae456a1c216dcc8b28ac7ea45bb47ddbd2e"
+    },
+    {
+      "path": "contributions/ECON-C73-401/metadata.json",
+      "bytes": 1317,
+      "sha256": "e6a6da2e68246bde001c3495f78f0006af542b45ea3555c245adfe6ffdc85e0e"
+    },
+    {
+      "path": "contributions/ECON-C73-401/review.md",
+      "bytes": 3061,
+      "sha256": "9d5543c03a2209a35e5d5fcee87ef12e7a15bf3bfecd7f1dc6e90267c39e481d"
+    },
+    {
+      "path": "contributions/ECON-C73-401/source_notes.md",
+      "bytes": 570,
+      "sha256": "3f1b87bf05f14debba8948150d009b43aa32e7e7c1c69fc330222656f9867a6e"
+    },
+    {
+      "path": "contributions/ECON-C73-445/metadata.json",
+      "bytes": 1299,
+      "sha256": "1c87e74ce62cf682d9b71f12de45f45a708d53aae2cc127775c820cd7674d7ca"
+    },
+    {
+      "path": "contributions/ECON-C73-445/review.md",
+      "bytes": 3102,
+      "sha256": "fc40bc199ea2212df3f59c064060bee185c7442010d5aa86982efffbe92221ba"
+    },
+    {
+      "path": "contributions/ECON-C73-445/source_notes.md",
+      "bytes": 558,
+      "sha256": "cea08805e28c14aac78016687f3d3a57de47fac33e83a4c83e2ec6869b2d1b2a"
+    },
+    {
+      "path": "contributions/ECON-C78-237/metadata.json",
+      "bytes": 3348,
+      "sha256": "5726ca2449c5c1b3ad732cfe27349b6969c7358c204e9a8408d02d6454fa14fd"
+    },
+    {
+      "path": "contributions/ECON-C78-237/review.md",
+      "bytes": 3083,
+      "sha256": "6ba373732749bcb66cc34c2041ada6df8927f0b89194bf47d44f6117e67e4538"
+    },
+    {
+      "path": "contributions/ECON-C78-237/source_notes.md",
+      "bytes": 1995,
+      "sha256": "e496fd46256a269da4c873cedb801d3c750f22679edb7138f817b819ef187adf"
+    },
+    {
+      "path": "contributions/ECON-C78-268/metadata.json",
+      "bytes": 3381,
+      "sha256": "d09b5df8702924906772dd2e2a23da6ea5236a963e4e4eca775d11aef4f7e055"
+    },
+    {
+      "path": "contributions/ECON-C78-268/review.md",
+      "bytes": 3079,
+      "sha256": "63e93e38ebbdf16eb3f09ec9d7e0b36a5ec9b7b37f2f45fa8fbfd8838f427300"
+    },
+    {
+      "path": "contributions/ECON-C78-268/source_notes.md",
+      "bytes": 1995,
+      "sha256": "703118eea4febb3bfb7cadbfac31da82666c983d95b0c2ff09463ea9123bf51f"
+    },
+    {
+      "path": "contributions/ECON-C78-293/metadata.json",
+      "bytes": 3545,
+      "sha256": "e8ca54145d1256b5c387b250306daca6498a8faf223dea430e5ed35ce6275987"
+    },
+    {
+      "path": "contributions/ECON-C78-293/review.md",
+      "bytes": 3579,
+      "sha256": "49b4e23eb0f9be844a9fea9498205e7db10eee985ce763dfb2d0eeb07d27050c"
+    },
+    {
+      "path": "contributions/ECON-C78-293/source_notes.md",
+      "bytes": 2070,
+      "sha256": "dabeb93656c4b106a8304f8a24d2430a3f5581323d59b4afa05953ac749845d1"
+    },
+    {
+      "path": "contributions/ECON-C78-369/metadata.json",
+      "bytes": 1141,
+      "sha256": "210d9402f1ef2d42c82aca52d43dfc8c8949934b5913b332e7fb13d0c671885d"
+    },
+    {
+      "path": "contributions/ECON-C78-369/review.md",
+      "bytes": 3338,
+      "sha256": "9bb1ca09127bd2babf519d6b59cb106eb7d63d34df2cc8b997e33297f31994ca"
+    },
+    {
+      "path": "contributions/ECON-C78-369/source_notes.md",
+      "bytes": 489,
+      "sha256": "8aaa97fc0ccabce9e8ee5f64b403a5ff403a1845f0a05270592262c13da14364"
+    },
+    {
+      "path": "contributions/ECON-C78-373/metadata.json",
+      "bytes": 638,
+      "sha256": "15b6b1758c94f9de332d85c5d9ea1d1e88225f6eed041fe7a69fdce605e11fab"
+    },
+    {
+      "path": "contributions/ECON-C78-373/report.md",
+      "bytes": 8378,
+      "sha256": "3d85dfe9aa57b6b272e9c7be6ee4b6821d9e78e8480a308bbbe81b004425e126"
+    },
+    {
+      "path": "contributions/ECON-C78-373/source_notes.md",
+      "bytes": 936,
+      "sha256": "eedb14df727b2ccc5aa96a5dacb1a8b08fdca58cbd940ce39ff33af2edfe1094"
+    },
+    {
+      "path": "contributions/ECON-C78-373/verification.json",
+      "bytes": 449,
+      "sha256": "d74312e034f04fe3d9540f504493c31aa1b37f923e6eb6519272f5cd156b6239"
+    },
+    {
+      "path": "contributions/ECON-C78-373/verify.py",
+      "bytes": 2506,
+      "sha256": "c1ecff732a542ae1a69d15b76067302f59629658cd594ff2104ec907efd28ff3"
+    },
+    {
+      "path": "contributions/ECON-C78-387/metadata.json",
+      "bytes": 1280,
+      "sha256": "470e91d391f827af9c7d9990084c2556785d81b4deeac39452502152c04f2522"
+    },
+    {
+      "path": "contributions/ECON-C78-387/review.md",
+      "bytes": 3317,
+      "sha256": "9ff289d06fd1da7f8e0fa6e86d7f98de2c89449acf477efc5eacbe00f54c8b3e"
+    },
+    {
+      "path": "contributions/ECON-C78-387/source_notes.md",
+      "bytes": 563,
+      "sha256": "7a4476a133cec31db46fbc7264c67230865e5a5b4b5069868bfd53387f143188"
+    },
+    {
+      "path": "contributions/ECON-C78-392/metadata.json",
+      "bytes": 1303,
+      "sha256": "5d8a773d9e3b419eca854a24cfad0ac547c891ff773e2e6481877e88bb285dcc"
+    },
+    {
+      "path": "contributions/ECON-C78-392/review.md",
+      "bytes": 3272,
+      "sha256": "915d15c171a601a69142ba25bd7b5df6f83da7f584e518e39aaae707d231cf74"
+    },
+    {
+      "path": "contributions/ECON-C78-392/source_notes.md",
+      "bytes": 556,
+      "sha256": "36be92046855c66461ae761b4c4daff4ff9a812f15afe1e70798b9c1b2159e65"
+    },
+    {
+      "path": "contributions/ECON-C78-417/metadata.json",
+      "bytes": 1533,
+      "sha256": "fb3d7dc80d450a9de3ed05b4776eecc86ac666eefdbc08c16c7058eefc5a2af0"
+    },
+    {
+      "path": "contributions/ECON-C78-417/report.md",
+      "bytes": 11550,
+      "sha256": "ea83508e99e6101451d8812dcbf1331b52361cc894e4b36b0815aa92502d996b"
+    },
+    {
+      "path": "contributions/ECON-C78-417/source_notes.md",
+      "bytes": 971,
+      "sha256": "673539a89d39b761677ccdaed4f3e5f940aa44b8168f34b7f561490520239a7f"
+    },
+    {
+      "path": "contributions/ECON-C78-417/verification.json",
+      "bytes": 344,
+      "sha256": "b93cf37eaf73e726b790a16b3926529f8d867ce96b77eb02e51d00f9ab6ad4a9"
+    },
+    {
+      "path": "contributions/ECON-C78-417/verify.py",
+      "bytes": 4947,
+      "sha256": "c4f30d10f1275d934b1a856fa7da1b3548174b8468d6a3737879bb84d1263c99"
+    },
+    {
+      "path": "contributions/ECON-C78-424/metadata.json",
+      "bytes": 1349,
+      "sha256": "b6711ac98e2fb5825062f0fe0fd5781b4b3aab3da9567858cbe25f9dc60a0522"
+    },
+    {
+      "path": "contributions/ECON-C78-424/review.md",
+      "bytes": 3698,
+      "sha256": "b28aef3d604daef75e14fad632a1126d85770b8dcc7e6b41ec5416991526354a"
+    },
+    {
+      "path": "contributions/ECON-C78-424/source_notes.md",
+      "bytes": 874,
+      "sha256": "ae8549ff93b8d0345b05e11734bd48ba46a9c7145804af9434aa40090e636f66"
+    },
+    {
+      "path": "contributions/ECON-C78-464/metadata.json",
+      "bytes": 1244,
+      "sha256": "81a12c9ea5f1b54afc3edadd988bc97158adc8b1abd5dd009bf7d9d63aea8555"
+    },
+    {
+      "path": "contributions/ECON-C78-464/review.md",
+      "bytes": 3425,
+      "sha256": "47433a553a06817e107e2e84298f31a8fb6df54b288436f209c2c146d649cb96"
+    },
+    {
+      "path": "contributions/ECON-C78-464/source_notes.md",
+      "bytes": 551,
+      "sha256": "cf0ffb13f14e51d7189775cd4525e04346028efbef544e172690b60324a57216"
+    },
+    {
+      "path": "contributions/ECON-C79-271/metadata.json",
+      "bytes": 4039,
+      "sha256": "038410b7c1f6708cc74b743c705b6f75a96a88cbf229928207e46f9d609607cf"
+    },
+    {
+      "path": "contributions/ECON-C79-271/review.md",
+      "bytes": 3300,
+      "sha256": "e444e98df9e1bc13cf73c874affdd6ccce7fc67b96fa49db5a41b86b5a6de22c"
+    },
+    {
+      "path": "contributions/ECON-C79-271/source_notes.md",
+      "bytes": 2026,
+      "sha256": "6813baf4c4b085a44d23fae6f081c5929143e155e5709df0844d05bf82967bcb"
+    },
+    {
+      "path": "contributions/ECON-C79-271/verification.json",
+      "bytes": 274,
+      "sha256": "ec8286047c0c93dd254ed437fa93c69e511c978f0a28d23bd4bfd0baa4012f08"
+    },
+    {
+      "path": "contributions/ECON-C79-271/verify.py",
+      "bytes": 2663,
+      "sha256": "c0fc81970bd511045dd3af45a3403ecbb8308b5ac62da38b02d5a6684e344ad2"
+    },
+    {
+      "path": "contributions/ECON-C81-341/metadata.json",
+      "bytes": 1135,
+      "sha256": "fe6107159422d25b8c9e985c6b4a3518bc3021d6603ddd91612b4ccca41fb9c3"
+    },
+    {
+      "path": "contributions/ECON-C81-341/review.md",
+      "bytes": 3474,
+      "sha256": "0e86e874b036b9d45a782e012a73af737bf6c0ce9028f3c596b90d3c20a89cda"
+    },
+    {
+      "path": "contributions/ECON-C81-341/source_notes.md",
+      "bytes": 475,
+      "sha256": "72691c3698ccadd95993f77b82a9ee8585b55030aab9a9febaf988b703a91643"
+    },
+    {
+      "path": "contributions/ECON-C81-368/metadata.json",
+      "bytes": 1089,
+      "sha256": "3fd274d7835e34b64241ef4b4de0d44a347efa8650ae4580d1884981706c3d36"
+    },
+    {
+      "path": "contributions/ECON-C81-368/review.md",
+      "bytes": 3134,
+      "sha256": "4344544c95d6cd71a2ba550673bafb0c207e6b53f60fa0f14c0953f4a7660a1b"
+    },
+    {
+      "path": "contributions/ECON-C81-368/source_notes.md",
+      "bytes": 453,
+      "sha256": "a7a988482b6f4232b21310e91136d2394a79f2e95fd72cb894a4573b42ed5006"
+    },
+    {
+      "path": "contributions/ECON-C83-233/metadata.json",
+      "bytes": 3498,
+      "sha256": "ca7c70fe97e4d1f5e78ec9180ea2de6bdbd50409db936c7eba2ea7d01a2d9190"
+    },
+    {
+      "path": "contributions/ECON-C83-233/review.md",
+      "bytes": 3093,
+      "sha256": "e12fd38184cbe5403fa82ece49aad346c50a9ed11cef3654f65271de17d5def5"
+    },
+    {
+      "path": "contributions/ECON-C83-233/source_notes.md",
+      "bytes": 2040,
+      "sha256": "ee4d4860b62bbfa1c5bca8f265005ca087c73d4356658d4594dfd8f0249d0f2c"
+    },
+    {
+      "path": "contributions/ECON-C90-284/metadata.json",
+      "bytes": 3312,
+      "sha256": "ed47285420eff0cacd0e7685355998cada6433773deb9ef5b77f4493519b8f10"
+    },
+    {
+      "path": "contributions/ECON-C90-284/review.md",
+      "bytes": 2951,
+      "sha256": "f625767ba863bb49b3bd2cfe0fc05c9b04d24790706c9fde470f8429de5ccb01"
+    },
+    {
+      "path": "contributions/ECON-C90-284/source_notes.md",
+      "bytes": 1962,
+      "sha256": "880d69c1fe380f98b9ecce38f618a40e18c6ecba9e357f0fd511ffaecafd478a"
+    },
+    {
+      "path": "contributions/ECON-C90-604/metadata.json",
+      "bytes": 2247,
+      "sha256": "e6c1cd19ab2f302969626bc963738d781f539d21a825887e4c5d5a489575e892"
+    },
+    {
+      "path": "contributions/ECON-C90-604/review.md",
+      "bytes": 3428,
+      "sha256": "b6bd6c48e4b83b5fbbcda655e08fc9460567314d1f83a3e81ecefe3265f11c5c"
+    },
+    {
+      "path": "contributions/ECON-C90-604/source_notes.md",
+      "bytes": 1440,
+      "sha256": "e77cba076c1326a1612cb4ba85d64cf5658143b3cbaf678d3c8e92d1e994a205"
+    },
+    {
+      "path": "contributions/ECON-C93-340/metadata.json",
+      "bytes": 1145,
+      "sha256": "df6b809d3c098b6f37b24e8e7083f21b137d016707d72b4bc9127cd25054f48f"
+    },
+    {
+      "path": "contributions/ECON-C93-340/review.md",
+      "bytes": 3387,
+      "sha256": "325208c49a799297b1ccfbf39651f483426990648a4b657055fc3ad67e33f603"
+    },
+    {
+      "path": "contributions/ECON-C93-340/source_notes.md",
+      "bytes": 480,
+      "sha256": "0dd1bf67564ad8275f1eaf17f24c90066717f88060f14aeb5a5a7556c1f3fe52"
+    },
+    {
+      "path": "contributions/ECON-D13-434/metadata.json",
+      "bytes": 1266,
+      "sha256": "f6b737c40b36d17a5554f4389cab13b6a22d76f5699fb55675b6ffdc4cabdd78"
+    },
+    {
+      "path": "contributions/ECON-D13-434/review.md",
+      "bytes": 3161,
+      "sha256": "3ce14eeeb5acfc0ea321b8cff161ea6296ca9098fc3b8dd03e63ed495281985a"
+    },
+    {
+      "path": "contributions/ECON-D13-434/source_notes.md",
+      "bytes": 534,
+      "sha256": "e52c061e410c861d99e495a1837078ca0314a96ec239f2fe2a0ee9a2d2aeec94"
+    },
+    {
+      "path": "contributions/ECON-D24-460/metadata.json",
+      "bytes": 1293,
+      "sha256": "6639f6b96e5e5f9a0bb8f55730ea9441c85f216482c4cc09f6d0fdbfd5934d6b"
+    },
+    {
+      "path": "contributions/ECON-D24-460/review.md",
+      "bytes": 3141,
+      "sha256": "7c7be05946f1d0df5c2191882689bd3500df601755993db59498e474929d4801"
+    },
+    {
+      "path": "contributions/ECON-D24-460/source_notes.md",
+      "bytes": 534,
+      "sha256": "1876bb15589b2a2205d23f80d12e91bcbbdb2ad69040acf6e0da847e5bb96069"
+    },
+    {
+      "path": "contributions/ECON-D31-330/metadata.json",
+      "bytes": 1105,
+      "sha256": "ce67f1e3a4530976e7a041eb8cbd2813667835e052fb52e20931c084783948cc"
+    },
+    {
+      "path": "contributions/ECON-D31-330/review.md",
+      "bytes": 2985,
+      "sha256": "788899811e3f3f3d6e734a1529ecacf091a82ce3a66bd20aa6f25b6dd7014119"
+    },
+    {
+      "path": "contributions/ECON-D31-330/source_notes.md",
+      "bytes": 463,
+      "sha256": "0b6be397d0d85bcc4322cb54cedb72df4f938445ef04267e67584fa8b87566ca"
+    },
+    {
+      "path": "contributions/ECON-D31-458/metadata.json",
+      "bytes": 1305,
+      "sha256": "9ee55f1ab1e6264dc87aaa9df51ba1bcef53a9e0f95715a47a86518b328ce347"
+    },
+    {
+      "path": "contributions/ECON-D31-458/review.md",
+      "bytes": 3240,
+      "sha256": "436021887d59a46ced210cc70d47b4dd3bd24d08c5acbbab28cd9dc83c40670d"
+    },
+    {
+      "path": "contributions/ECON-D31-458/source_notes.md",
+      "bytes": 537,
+      "sha256": "de3a82910a6d3b441bed8e4807b4fa04384111077ba773818afeda0b28bd5e38"
+    },
+    {
+      "path": "contributions/ECON-D44-622/metadata.json",
+      "bytes": 2200,
+      "sha256": "862f92a95e8d0f0a378e360487b3684a3ad29a99f7e55a4a2f69f0249c9bc9da"
+    },
+    {
+      "path": "contributions/ECON-D44-622/review.md",
+      "bytes": 3539,
+      "sha256": "af4ccb0526a61584c7da6003aa3bf5c69b6fda99d011e2166a91a58a26de9e9a"
+    },
+    {
+      "path": "contributions/ECON-D44-622/source_notes.md",
+      "bytes": 1442,
+      "sha256": "319d1dbd507cdd31974d5a0f852f11bc96e945ea8e89b93099402f4482d17d1d"
+    },
+    {
+      "path": "contributions/ECON-D61-402/metadata.json",
+      "bytes": 1262,
+      "sha256": "2f2583e32cd243be9dc731ec267612cf44fca270eca77019f3bc06854ece5c1b"
+    },
+    {
+      "path": "contributions/ECON-D61-402/review.md",
+      "bytes": 3246,
+      "sha256": "17ee9c262708aae3bf13d0b0642067b82ee556762fd1b001589019d313a46455"
+    },
+    {
+      "path": "contributions/ECON-D61-402/source_notes.md",
+      "bytes": 521,
+      "sha256": "3fb2612a2556a4ec90fcb4dc5a6b7d2cfa542dee856f045814c74fa703259a15"
+    },
+    {
+      "path": "contributions/ECON-D63-294/metadata.json",
+      "bytes": 3338,
+      "sha256": "6cb2556bac792a9a41ff86832d95fa7ba670035bb545fa3f61a723e11a11d360"
+    },
+    {
+      "path": "contributions/ECON-D63-294/review.md",
+      "bytes": 3336,
+      "sha256": "02b2fc128f44d2b17deddc47580a0a8b59251d1827378ffab416e5ec75cd9f3a"
+    },
+    {
+      "path": "contributions/ECON-D63-294/source_notes.md",
+      "bytes": 1989,
+      "sha256": "92eed41dbe06c5efb646daf11fd58996d7acc563730cbc1b3aa1bc296bb323e8"
+    },
+    {
+      "path": "contributions/ECON-D63-396/metadata.json",
+      "bytes": 1266,
+      "sha256": "b9262b131d0cdcbe80b9a029d5b69abf5a4b0769577b6f0369da9ee42dcd7940"
+    },
+    {
+      "path": "contributions/ECON-D63-396/review.md",
+      "bytes": 3391,
+      "sha256": "a38f6b4faba7e64650c1f22ccef9bb1212323af999510c438205081a270ea063"
+    },
+    {
+      "path": "contributions/ECON-D63-396/source_notes.md",
+      "bytes": 540,
+      "sha256": "5ce9bd14907e5d0ebc713a8f6a92aee73b3ecd2bed9736fe325fdc0c7f560860"
+    },
+    {
+      "path": "contributions/ECON-D63-448/metadata.json",
+      "bytes": 1288,
+      "sha256": "3b2ed9f3e6b87c67fe468ea97575ab7dba626b34bb6f458e79cbcfd9aa56259e"
+    },
+    {
+      "path": "contributions/ECON-D63-448/review.md",
+      "bytes": 3051,
+      "sha256": "76347776d61878247beb6f0835661334b8ea36b7450a43be29313623142879d7"
+    },
+    {
+      "path": "contributions/ECON-D63-448/source_notes.md",
+      "bytes": 538,
+      "sha256": "a346761b359340b7824c4d50a3902416b5bb8c423bafdf0202123bfc7bb5be55"
+    },
+    {
+      "path": "contributions/ECON-D71-264/metadata.json",
+      "bytes": 3468,
+      "sha256": "194016c37b28b0d735089d37f5b1588b5fff0d9ba9100cd26a3d6897808f4d0b"
+    },
+    {
+      "path": "contributions/ECON-D71-264/review.md",
+      "bytes": 2973,
+      "sha256": "c8c2f62b16c6c5e6cfd7b04f2125d8183f0089f001b9bc823b62d3a16a8cb8ff"
+    },
+    {
+      "path": "contributions/ECON-D71-264/source_notes.md",
+      "bytes": 2035,
+      "sha256": "0e5574591c27287cd6ab52cb36a24814c7ab079e70bab5a04768bd096653395e"
+    },
+    {
+      "path": "contributions/ECON-D81-347/metadata.json",
+      "bytes": 637,
+      "sha256": "6c7df3520c4e6be7f8cc02765f7b9b6e997c93c24730170cd49374363ff152dc"
+    },
+    {
+      "path": "contributions/ECON-D81-347/report.md",
+      "bytes": 7442,
+      "sha256": "063e34333ecb8e9ac04c809e5f373f1db35ba824d3d546686ae8124b90050454"
+    },
+    {
+      "path": "contributions/ECON-D81-347/source_notes.md",
+      "bytes": 729,
+      "sha256": "c8e85936ce460c2f1809006650af4fd8c2cec1090f7b4873e36be6e72efc14d0"
+    },
+    {
+      "path": "contributions/ECON-D81-347/verification.json",
+      "bytes": 386,
+      "sha256": "b71cafcf030438c3d528e076b68c06c7ae109f73c5394b02b1a8a7e182a304bf"
+    },
+    {
+      "path": "contributions/ECON-D81-347/verify.py",
+      "bytes": 912,
+      "sha256": "d9a1841f0c7358e7d2db8277bdcca0adcff272b143de384756e64e147b3ae1a4"
+    },
+    {
+      "path": "contributions/ECON-D81-567/metadata.json",
+      "bytes": 2235,
+      "sha256": "c53885bee1d1b295c27101058dab11c50bc8c3d9b6396b835a212b9d89dbec8b"
+    },
+    {
+      "path": "contributions/ECON-D81-567/review.md",
+      "bytes": 3387,
+      "sha256": "d6f52a85d4dae228c95c8f56bfdde2564fa5d85e82bad089b45fe6847663a70c"
+    },
+    {
+      "path": "contributions/ECON-D81-567/source_notes.md",
+      "bytes": 1453,
+      "sha256": "f07393cb1bb84656ffd938aee7d58a0932e8853534ea5e2adbe08f35afc62240"
+    },
+    {
+      "path": "contributions/ECON-D82-275/metadata.json",
+      "bytes": 3544,
+      "sha256": "62cc0c64a7940e0be8ea95caecab8e9e22edf2546d6fb54f60f832fac37e0d63"
+    },
+    {
+      "path": "contributions/ECON-D82-275/review.md",
+      "bytes": 3633,
+      "sha256": "067a74eb575b56ff337318a2fb5e83754e7f6beb8d3949e12e68aa8d51d70bdd"
+    },
+    {
+      "path": "contributions/ECON-D82-275/source_notes.md",
+      "bytes": 2046,
+      "sha256": "abacdaa390d86e195627447b1db3bade981379e58294a6db42f5be804d2f71b9"
+    },
+    {
+      "path": "contributions/ECON-D82-280/metadata.json",
+      "bytes": 3260,
+      "sha256": "21758ea05baeca24f2d0f41d72168fc917f27716297172e5c6499ee6ea1ffbbd"
+    },
+    {
+      "path": "contributions/ECON-D82-280/review.md",
+      "bytes": 3158,
+      "sha256": "4363c0a027981ac4def433cc03d107280284cfaed305c300e63362743647ec77"
+    },
+    {
+      "path": "contributions/ECON-D82-280/source_notes.md",
+      "bytes": 1942,
+      "sha256": "2043846e9a50b18d25e99134d05fb1544c49283c87ccfcbb0a2349e3cff0e475"
+    },
+    {
+      "path": "contributions/ECON-D82-301/metadata.json",
+      "bytes": 3414,
+      "sha256": "15455c3678cbd417d89d8bf6caab75746413bd2c1926608fb548ff049c73f56e"
+    },
+    {
+      "path": "contributions/ECON-D82-301/review.md",
+      "bytes": 3549,
+      "sha256": "800a9afca1a8fce76ef6c467965f303977a804a3b7bc03875bd3bbce1a3be988"
+    },
+    {
+      "path": "contributions/ECON-D82-301/source_notes.md",
+      "bytes": 2015,
+      "sha256": "52e0ce1c46c187ab5c1a01278a7e7b87a24951c65041a50ed80bbdd0c4e4d238"
+    },
+    {
+      "path": "contributions/ECON-D82-386/metadata.json",
+      "bytes": 639,
+      "sha256": "be3e237d274f695855950c78b63c5878cb9c13c2b4656e40a056231dacfaa005"
+    },
+    {
+      "path": "contributions/ECON-D82-386/report.md",
+      "bytes": 7111,
+      "sha256": "a8fc911601bf9edff329df6dc1e3cf40fceafbbfd3a677c0dedfbdaad8494c67"
+    },
+    {
+      "path": "contributions/ECON-D82-386/source_notes.md",
+      "bytes": 936,
+      "sha256": "ca38a413f4bbe6496dc80f87fa13cd59debe6ff5118f60317bf5466566284d53"
+    },
+    {
+      "path": "contributions/ECON-D82-386/verification.json",
+      "bytes": 333,
+      "sha256": "83ac5cc42f7c12d4dfa8e02c40e1a1b15400823de63f6c6d3c212f0d12d1922d"
+    },
+    {
+      "path": "contributions/ECON-D82-386/verify.py",
+      "bytes": 1025,
+      "sha256": "7e8e3afed485d8d0e0924e7530f698fb52531bbac17ad0fb7949aa4958e01606"
+    },
+    {
+      "path": "contributions/ECON-D83-571/metadata.json",
+      "bytes": 2212,
+      "sha256": "de51eed973b44f3edf17948a6a5baac1cf975f71fb5f5f96f5bc20c531c7808d"
+    },
+    {
+      "path": "contributions/ECON-D83-571/review.md",
+      "bytes": 3081,
+      "sha256": "51707738b0e8c41838d493fa7669dda2a1c74d47a84fd6c154646cd8a74068c8"
+    },
+    {
+      "path": "contributions/ECON-D83-571/source_notes.md",
+      "bytes": 1438,
+      "sha256": "cf610d9ba6a52aba52c37f759c60fd5bf423170cc9ae22a08f0125d5044ea686"
+    },
+    {
+      "path": "contributions/ECON-D83-586/metadata.json",
+      "bytes": 2176,
+      "sha256": "04f1fe757e8bbf0241e7caf296d3244137f4d6776ddba23f606f99a0ce160181"
+    },
+    {
+      "path": "contributions/ECON-D83-586/review.md",
+      "bytes": 2984,
+      "sha256": "8a6772c0c7a138b3cfbeda57c8dae8b81e95a411bdc9541fcd0164261f7f741b"
+    },
+    {
+      "path": "contributions/ECON-D83-586/source_notes.md",
+      "bytes": 1436,
+      "sha256": "dbf0435fbae0bc04e70478ebe04fbfbd90e740c882e51d8965d659619f40d29d"
+    },
+    {
+      "path": "contributions/ECON-D86-257/metadata.json",
+      "bytes": 3535,
+      "sha256": "d9b6dbf240432b044bec6ec691289f66a14080ee8eb7c34f3dbaf0488e2bd34d"
+    },
+    {
+      "path": "contributions/ECON-D86-257/review.md",
+      "bytes": 3212,
+      "sha256": "6c5fc033d94001a6b58bcf83961affd6eee618d9e2d3d0e25d2d49a41dcab8a5"
+    },
+    {
+      "path": "contributions/ECON-D86-257/source_notes.md",
+      "bytes": 2058,
+      "sha256": "d186f5e0b1cddb04fdb118039a71a592855e713c135eba8e69ea94afb0ae4276"
+    },
+    {
+      "path": "contributions/ECON-D91-431/metadata.json",
+      "bytes": 1317,
+      "sha256": "0b50c1c0752667d79aa549842930a045a0f9abed2bf04017d9a1ef1e606477db"
+    },
+    {
+      "path": "contributions/ECON-D91-431/review.md",
+      "bytes": 3272,
+      "sha256": "18794de68786125735ed6ae6ef7f791c14a4681c905108ec40fdc20de4edba0e"
+    },
+    {
+      "path": "contributions/ECON-D91-431/source_notes.md",
+      "bytes": 516,
+      "sha256": "938a1098ceaf8a9acea62858c5cff2df65776b0de03c65324c879ebd4d42851f"
+    },
+    {
+      "path": "contributions/ECON-D91-558/metadata.json",
+      "bytes": 2204,
+      "sha256": "e803aa4aaef80ee7526a3915cb1ab8d8d133a20e426f0ba2347b9468c6e32b4e"
+    },
+    {
+      "path": "contributions/ECON-D91-558/review.md",
+      "bytes": 3326,
+      "sha256": "f22e5aa6d31f660cff3e0ec59e3b10a73d4385d182873b8213ec15ad72936e41"
+    },
+    {
+      "path": "contributions/ECON-D91-558/source_notes.md",
+      "bytes": 1444,
+      "sha256": "a813175a51ab911f8adc6e2fbac4f31fded311474694b55de2edbcebafdb2ff5"
+    },
+    {
+      "path": "contributions/ECON-D91-578/metadata.json",
+      "bytes": 2285,
+      "sha256": "d8eec230845c0e350e8df56c450d463556877683dca39251eb75ad839c726966"
+    },
+    {
+      "path": "contributions/ECON-D91-578/review.md",
+      "bytes": 3242,
+      "sha256": "4857f534dd9600da4b535d8c76695e5ca41e5f1f479e31db54d4c623400044ce"
+    },
+    {
+      "path": "contributions/ECON-D91-578/source_notes.md",
+      "bytes": 1455,
+      "sha256": "dd8d208be546986fd80a9d27d71ecc20a8d20f647e27aadadc52fc581eb86778"
+    },
+    {
+      "path": "contributions/ECON-D91-587/metadata.json",
+      "bytes": 2232,
+      "sha256": "f65a37927ef6b49ca700d3bb28d2f6634a1ad4c10e85292248369e12f526e002"
+    },
+    {
+      "path": "contributions/ECON-D91-587/review.md",
+      "bytes": 2959,
+      "sha256": "beabc5cb548574093897b81a062edcceca45ea5b846a56ce2b4a60b207b1387f"
+    },
+    {
+      "path": "contributions/ECON-D91-587/source_notes.md",
+      "bytes": 1452,
+      "sha256": "005a59d28340c986d3d83a44628c600e350dbab8328211ba1ba124768273b489"
+    },
+    {
+      "path": "contributions/ECON-D91-609/metadata.json",
+      "bytes": 2288,
+      "sha256": "256ad50c42055040683d6aa6aeafef0c18f084e7983b41b642355e0fea801b1e"
+    },
+    {
+      "path": "contributions/ECON-D91-609/review.md",
+      "bytes": 3142,
+      "sha256": "079570474a09029d6018fc525359d746dee65af001ff212406e7d416a1cfacd6"
+    },
+    {
+      "path": "contributions/ECON-D91-609/source_notes.md",
+      "bytes": 1451,
+      "sha256": "470378af4eb0c1b06cb23eac7ecb96829545ec524879f5c4b209dd9565061348"
+    },
+    {
+      "path": "contributions/ECON-E21-318/metadata.json",
+      "bytes": 1132,
+      "sha256": "6b1ab80faa451f1f4a53afbe0d70648d08f7340823917378ff217b92f6bdc2ca"
+    },
+    {
+      "path": "contributions/ECON-E21-318/review.md",
+      "bytes": 2964,
+      "sha256": "4354a60e686f4f02a8b4eeb7c9f107a2d64691eaadc1d6b27e96ae1d3012a71c"
+    },
+    {
+      "path": "contributions/ECON-E21-318/source_notes.md",
+      "bytes": 473,
+      "sha256": "1fc75f13487149e39af7c7bb9e39dae02cc5da961480671ce107b4d7d9ec51f4"
+    },
+    {
+      "path": "contributions/ECON-E22-322/metadata.json",
+      "bytes": 1141,
+      "sha256": "f3f0956fbe8f423651bd1b0511addc4c32b3fab3a43f39f5f462ec20b0e8ee2c"
+    },
+    {
+      "path": "contributions/ECON-E22-322/review.md",
+      "bytes": 3038,
+      "sha256": "54c87b6be03baf18e2b2794ac0e232ee2e904e786813b699b96b652923765838"
+    },
+    {
+      "path": "contributions/ECON-E22-322/source_notes.md",
+      "bytes": 477,
+      "sha256": "a464c5440f3dee97343d1a24e4d094c8c6e8e993feed9b4998e3da16cd54fecf"
+    },
+    {
+      "path": "contributions/ECON-E32-331/metadata.json",
+      "bytes": 1075,
+      "sha256": "5227638adc59b2eb94c8b1fe95e2d0cdb094077ea89f9e7f4fd7fd8cd605348f"
+    },
+    {
+      "path": "contributions/ECON-E32-331/review.md",
+      "bytes": 3063,
+      "sha256": "e9439e035149c3e9517ae7384d74cf4d1d13c59eabfb67e7f22e6a020cee0cfe"
+    },
+    {
+      "path": "contributions/ECON-E32-331/source_notes.md",
+      "bytes": 449,
+      "sha256": "9d935aafca6ddf3fe29dbda2e4aed0e7c6a1b9c6c4c6c1afd4076b8ba4a2b40c"
+    },
+    {
+      "path": "contributions/ECON-E37-594/metadata.json",
+      "bytes": 2236,
+      "sha256": "7e61d34f191f1530695111cd684a38d4f81dcf39e48ec6df5fb8a508e7471314"
+    },
+    {
+      "path": "contributions/ECON-E37-594/review.md",
+      "bytes": 3047,
+      "sha256": "aff3dd98b281d5eafcfaa960792f882f4a898818f29b239278a0dbc0c4107a67"
+    },
+    {
+      "path": "contributions/ECON-E37-594/source_notes.md",
+      "bytes": 1447,
+      "sha256": "82721e36278965b33853ffa9c033fc6b5391487f6916091ae18378f7bbfeb39c"
+    },
+    {
+      "path": "contributions/ECON-E58-600/metadata.json",
+      "bytes": 2267,
+      "sha256": "56bcf6d46cad57b4c821042710a1d9ba18298928131a6a37c383b65da9d4b3e6"
+    },
+    {
+      "path": "contributions/ECON-E58-600/review.md",
+      "bytes": 2973,
+      "sha256": "3f5b29a82e7617a529f15d4f0b47a6b268c9b97a0053934268117f627e37339c"
+    },
+    {
+      "path": "contributions/ECON-E58-600/source_notes.md",
+      "bytes": 1446,
+      "sha256": "0a05d4b2337958f86d7ab901f462a3c9228a02b7896e0d4cdba5cd7e6756d516"
+    },
+    {
+      "path": "contributions/ECON-F31-433/metadata.json",
+      "bytes": 1302,
+      "sha256": "6492f318c44ccc2b2a6eaad2b6fc8e7254690b298ae0195c3073139e981bd06e"
+    },
+    {
+      "path": "contributions/ECON-F31-433/review.md",
+      "bytes": 3033,
+      "sha256": "3933193eaf4d5899b60cc33a757b31004960f8e425aa761901748a1e8e07f615"
+    },
+    {
+      "path": "contributions/ECON-F31-433/source_notes.md",
+      "bytes": 552,
+      "sha256": "9ca8a7e73be7e52b8f81edabb86acc733097183ef8b5b3662fb8b0d57310af1b"
+    },
+    {
+      "path": "contributions/ECON-F44-334/metadata.json",
+      "bytes": 1081,
+      "sha256": "da0e37ffca6430efe430866b9d5fe4f5826e1b8a3c39fb0eb2c42ec8abbad161"
+    },
+    {
+      "path": "contributions/ECON-F44-334/review.md",
+      "bytes": 3134,
+      "sha256": "12fc0ccc75f7a63635d2bb62c5311c46089b27d4ceb9efecf8a6889720c4e4b7"
+    },
+    {
+      "path": "contributions/ECON-F44-334/source_notes.md",
+      "bytes": 464,
+      "sha256": "66ea9f35e72eac040fa73fffae7c059c820aec32f87274472412244984226c53"
+    },
+    {
+      "path": "contributions/ECON-G11-625/metadata.json",
+      "bytes": 2294,
+      "sha256": "16249da58fe74c9f8d2339dc26ffcd816b8d841e1ecf9a416fd4804bdb7151de"
+    },
+    {
+      "path": "contributions/ECON-G11-625/review.md",
+      "bytes": 3667,
+      "sha256": "c7a8f68dcd1f2f742270eeacc7029aa7c273ed0b7c282b160f15082c42377793"
+    },
+    {
+      "path": "contributions/ECON-G11-625/source_notes.md",
+      "bytes": 1476,
+      "sha256": "4803518a8892e33d9e5b9cf143d6d99dc6fcb7ca8030cf8e61cebd0f0b968545"
+    },
+    {
+      "path": "contributions/ECON-G12-324/metadata.json",
+      "bytes": 1080,
+      "sha256": "bf9647e601be5dbd26b4cdf76ba3687bd550b396d98a4ff5ba0296c3b867a2c2"
+    },
+    {
+      "path": "contributions/ECON-G12-324/review.md",
+      "bytes": 2815,
+      "sha256": "3364c5cf38befa92a6c9c98df5111caea846ba1a56464a0e8915ad977918691e"
+    },
+    {
+      "path": "contributions/ECON-G12-324/source_notes.md",
+      "bytes": 464,
+      "sha256": "6a154755fceebbe30323745636f7bd36413f15e0759851ff53c62adf5f8f9cb4"
+    },
+    {
+      "path": "contributions/ECON-G12-354/metadata.json",
+      "bytes": 642,
+      "sha256": "44ee97018c166b4b207855c28428532d639502e7c049152d098ba0632069518b"
+    },
+    {
+      "path": "contributions/ECON-G12-354/report.md",
+      "bytes": 7556,
+      "sha256": "cf599fac3a9ac9b368cc255ef2c9eeba4e538ed49ecb4a98af3efdad6ff512ef"
+    },
+    {
+      "path": "contributions/ECON-G12-354/source_notes.md",
+      "bytes": 936,
+      "sha256": "7d04c6a89dc688885b448ddf1bdd7f5ecfec0313c7fe3ac8ec326bcbd7536b7a"
+    },
+    {
+      "path": "contributions/ECON-G12-354/verification.json",
+      "bytes": 369,
+      "sha256": "94c9088795b0b79c6205046b2186a3f4524abc88811aea913e97dd953ba97c77"
+    },
+    {
+      "path": "contributions/ECON-G12-354/verify.py",
+      "bytes": 616,
+      "sha256": "caf4eb36b7f333ecc9526379955148de7ccea14b87983606439249e5d258132e"
+    },
+    {
+      "path": "contributions/ECON-G12-414/metadata.json",
+      "bytes": 1267,
+      "sha256": "77552541957f55759395004d06f91e6fd93e88d996bbdea0a7382ffc295b5597"
+    },
+    {
+      "path": "contributions/ECON-G12-414/review.md",
+      "bytes": 3302,
+      "sha256": "aaeacead7d3cef1fbff2e680c51e20296c61537214604b4a4f118df4b2dac4a4"
+    },
+    {
+      "path": "contributions/ECON-G12-414/source_notes.md",
+      "bytes": 517,
+      "sha256": "4d10c91f07fac58d70f84945dee1d00d5b34d7511f718df06b39650dbdc54fcd"
+    },
+    {
+      "path": "contributions/ECON-G12-455/metadata.json",
+      "bytes": 1284,
+      "sha256": "0d70877386c1704a37879af25e0c2a5ac6de6cc8be0202072b66309a0d1855f5"
+    },
+    {
+      "path": "contributions/ECON-G12-455/review.md",
+      "bytes": 3114,
+      "sha256": "d6c9ff7f79e4459af5afa081b4513925accfdaf4dd18925c20a0ad361eea0a89"
+    },
+    {
+      "path": "contributions/ECON-G12-455/source_notes.md",
+      "bytes": 519,
+      "sha256": "af67ed63f2193186c7ab3635f4863e91c4caff27d4080b6829a0c223d0d449d2"
+    },
+    {
+      "path": "contributions/ECON-G13-254/metadata.json",
+      "bytes": 3805,
+      "sha256": "82048e980d1b5a53953c84705f92f85dd8afd0f03581d95c7b0c10f58c11143b"
+    },
+    {
+      "path": "contributions/ECON-G13-254/report.md",
+      "bytes": 8516,
+      "sha256": "04eb3321772313168cbde6d42e7eaa25ed1f743189f6ab410d350f8161ab374e"
+    },
+    {
+      "path": "contributions/ECON-G13-254/source_notes.md",
+      "bytes": 2230,
+      "sha256": "055e0ad59310d13b31c5f2207d015b5bf098c5cd6a3d193c95243cfb1fc05532"
+    },
+    {
+      "path": "contributions/ECON-G14-582/metadata.json",
+      "bytes": 2238,
+      "sha256": "18ae8d6593f406cb920d7549500da59ccc849d1c65107ac9374c831b2f40c1f9"
+    },
+    {
+      "path": "contributions/ECON-G14-582/review.md",
+      "bytes": 3072,
+      "sha256": "aae456c28bcbe2586a6222ceb4c04c9aef67885967bad1603984d70e7d374458"
+    },
+    {
+      "path": "contributions/ECON-G14-582/source_notes.md",
+      "bytes": 1455,
+      "sha256": "ca45f2d68b00a0394738161b6f3dbf59126a773f24391eadf9eb78e891e511ee"
+    },
+    {
+      "path": "contributions/ECON-G21-319/metadata.json",
+      "bytes": 1061,
+      "sha256": "17520529f7c402b1b0a6abfe199f7d66f13f8e1f07f8e78017b9d3cd7ffd0175"
+    },
+    {
+      "path": "contributions/ECON-G21-319/review.md",
+      "bytes": 2832,
+      "sha256": "da799e8ec24e2148842e2826b0d1b94c73df17396d7e4880bb8f0a29b0cbd193"
+    },
+    {
+      "path": "contributions/ECON-G21-319/source_notes.md",
+      "bytes": 443,
+      "sha256": "fa1f6810161c2453db247a506a3b089e902176d9aa2d0b949adee5b35f289fca"
+    },
+    {
+      "path": "contributions/ECON-H21-405/metadata.json",
+      "bytes": 1280,
+      "sha256": "6ff9fbd0f2473f9b7830ed83b8b716609c7f2c7983bdc0ae1d94913b98fcc638"
+    },
+    {
+      "path": "contributions/ECON-H21-405/review.md",
+      "bytes": 2975,
+      "sha256": "7e182e9fd7f3f4203e9ba1ce14dd80e95d89ff31a83df70feb4dd2ba217398ac"
+    },
+    {
+      "path": "contributions/ECON-H21-405/source_notes.md",
+      "bytes": 551,
+      "sha256": "a1a47d4e485279c40a9925bac6783f53c329df503d9bad4691d9b9e294949ef1"
+    },
+    {
+      "path": "contributions/ECON-H22-617/metadata.json",
+      "bytes": 2284,
+      "sha256": "198fb09ec9564f0ebec88dcfb78961420f4a1bc1fc92c356f4cb127daeaa2621"
+    },
+    {
+      "path": "contributions/ECON-H22-617/review.md",
+      "bytes": 3531,
+      "sha256": "a08fd128f84fa81169cfe6aef660737d2a496afc1c4dddac80d41e7898efb46c"
+    },
+    {
+      "path": "contributions/ECON-H22-617/source_notes.md",
+      "bytes": 1449,
+      "sha256": "3b14d2fb44d31303c90289ec229b9f9616a7671ba0f6e6b8bc8087594a4be2f1"
+    },
+    {
+      "path": "contributions/ECON-H24-325/metadata.json",
+      "bytes": 1083,
+      "sha256": "b297a7ddd93d14614d894cb18116e83d67cdb95a7ec55275813774d6dfb5d487"
+    },
+    {
+      "path": "contributions/ECON-H24-325/review.md",
+      "bytes": 3103,
+      "sha256": "b72090a69e35b18651a25af113e906eb37edb2cabc8b5117c0ab83d6f3eec184"
+    },
+    {
+      "path": "contributions/ECON-H24-325/source_notes.md",
+      "bytes": 454,
+      "sha256": "afa7901fc8e6871617e85b470e45a14cc8d6d6275f4d72fb865be69c36b97b2e"
+    },
+    {
+      "path": "contributions/ECON-H26-608/metadata.json",
+      "bytes": 2236,
+      "sha256": "6d03887b0c7fe407741e05b664c077dbda2f7a98268dcdf82bd345c04f4efb69"
+    },
+    {
+      "path": "contributions/ECON-H26-608/review.md",
+      "bytes": 3167,
+      "sha256": "eb50968455f46e65e21049ed76c5c131c41d54ba13d693140f832fc3f1216dd8"
+    },
+    {
+      "path": "contributions/ECON-H26-608/source_notes.md",
+      "bytes": 1453,
+      "sha256": "5354b899140cf71e574b559ae93c72d8febe18a473fb7723243e34859a457931"
+    },
+    {
+      "path": "contributions/ECON-H55-336/metadata.json",
+      "bytes": 1081,
+      "sha256": "8dc10ed460e3edea612b829626e2632482afff2607d401a4ff9700d002841934"
+    },
+    {
+      "path": "contributions/ECON-H55-336/review.md",
+      "bytes": 2906,
+      "sha256": "3d537ba6dab0fe48f964a1c3ebb87efcede83dba5ca4b45013426f7dc91b7157"
+    },
+    {
+      "path": "contributions/ECON-H55-336/source_notes.md",
+      "bytes": 457,
+      "sha256": "eee6a0d593ac7ed61b09bc7fb84f518af39492e50973c62704c40209b1d2ddbc"
+    },
+    {
+      "path": "contributions/ECON-H77-307/metadata.json",
+      "bytes": 1067,
+      "sha256": "f17e4d5bee76b3a6822b85373e8c8e04fd80d9cbe4bf32d1cd9685d2eae33fa1"
+    },
+    {
+      "path": "contributions/ECON-H77-307/review.md",
+      "bytes": 2886,
+      "sha256": "218ce97bdf077e033f31241c9471a0e7169d9e9e920de57c66485f44101d673c"
+    },
+    {
+      "path": "contributions/ECON-H77-307/source_notes.md",
+      "bytes": 454,
+      "sha256": "edac5449c8999a80e253526564b02c7f4b922cef7fd80944408716924cda7ca3"
+    },
+    {
+      "path": "contributions/ECON-I11-551/metadata.json",
+      "bytes": 2269,
+      "sha256": "24ae32dfaccbe41915100bfe55c475325a71358b9d3a20974d67fda983486701"
+    },
+    {
+      "path": "contributions/ECON-I11-551/review.md",
+      "bytes": 3266,
+      "sha256": "3dc1be29e88b29f66c5e7827f805a2702914e9601e4544897b5fdd537efa7c4f"
+    },
+    {
+      "path": "contributions/ECON-I11-551/source_notes.md",
+      "bytes": 1440,
+      "sha256": "7740ec851a9fda2750c171c7fca2972363f9e464579f494417c03dfdc2bd3abe"
+    },
+    {
+      "path": "contributions/ECON-I11-561/metadata.json",
+      "bytes": 2222,
+      "sha256": "97df19945a9e360db2f13bdde08f607eff6c298f902408b0cd43f26c74c86fde"
+    },
+    {
+      "path": "contributions/ECON-I11-561/review.md",
+      "bytes": 3075,
+      "sha256": "764e69f115c864b199be0c4bc36d66d66d3376b59d43209c150c68c77adb02a4"
+    },
+    {
+      "path": "contributions/ECON-I11-561/source_notes.md",
+      "bytes": 1448,
+      "sha256": "d1b838179c284f1e529610bd03411b920242bf7b51e1405e7185c02dc32d48d2"
+    },
+    {
+      "path": "contributions/ECON-I13-329/metadata.json",
+      "bytes": 1104,
+      "sha256": "c464fef8ead357e66187247247734b6c8737e7353073e6b840b4b0a16579aad5"
+    },
+    {
+      "path": "contributions/ECON-I13-329/review.md",
+      "bytes": 3248,
+      "sha256": "66ae0ce72be04d4c7c68e7a6ee010a522bd4f18936b9d38eff6540fda7ac89f2"
+    },
+    {
+      "path": "contributions/ECON-I13-329/source_notes.md",
+      "bytes": 463,
+      "sha256": "953ee80f582ae6367f86d55abe8991e13a737a6117a7a7935cc0d21a139f8bb7"
+    },
+    {
+      "path": "contributions/ECON-I18-610/metadata.json",
+      "bytes": 2322,
+      "sha256": "e786470db65cfd07a24e84902ef8c5f95ae051ad56fdae0b77d7064e354ff7e7"
+    },
+    {
+      "path": "contributions/ECON-I18-610/review.md",
+      "bytes": 3689,
+      "sha256": "bd2f5819f31ca9a1eabae8ce7e40dea5b03c83ac5205adf0f06498eb60b7a39a"
+    },
+    {
+      "path": "contributions/ECON-I18-610/source_notes.md",
+      "bytes": 1468,
+      "sha256": "e69721e7cdc35092378124da0eb1196e13ac356bc0e7d36a7a0a701c1368e77e"
+    },
+    {
+      "path": "contributions/ECON-I21-615/metadata.json",
+      "bytes": 2324,
+      "sha256": "41c8e8888d3fbe49b7ebf236602b60e01aea9b1057d4444aa36c616dda1512f2"
+    },
+    {
+      "path": "contributions/ECON-I21-615/review.md",
+      "bytes": 3662,
+      "sha256": "e310ea2110ab11898dc0bead7f108c695d86e40f1b00287ba8d47830ee82a423"
+    },
+    {
+      "path": "contributions/ECON-I21-615/source_notes.md",
+      "bytes": 1452,
+      "sha256": "f1c5ae1561695cb47fa128071f73c9d5807ee6c2ee27fc09e7c1e1f978265133"
+    },
+    {
+      "path": "contributions/ECON-I26-412/metadata.json",
+      "bytes": 1266,
+      "sha256": "91e3fc357907392f7e4e5a5b13767a61e3990c5ab2e92852871677ac93b639e3"
+    },
+    {
+      "path": "contributions/ECON-I26-412/review.md",
+      "bytes": 3218,
+      "sha256": "2cdd2c44d97dbd45e61b44c038e60e67bd58476493a6523ba3bd3921c7a5e634"
+    },
+    {
+      "path": "contributions/ECON-I26-412/source_notes.md",
+      "bytes": 531,
+      "sha256": "cf93f984e0692ccc4e3192fc14610dc951e529910c0fdf057a890f4a217c4583"
+    },
+    {
+      "path": "contributions/ECON-I26-607/metadata.json",
+      "bytes": 2309,
+      "sha256": "51b00a944cc708ec94e24649ff5a502721d4800b2613bcc09bd047dbd949b982"
+    },
+    {
+      "path": "contributions/ECON-I26-607/review.md",
+      "bytes": 3119,
+      "sha256": "29f47bc213e05a530f0854cc074e5a605fd274a9c77901ac89f51c44baea0739"
+    },
+    {
+      "path": "contributions/ECON-I26-607/source_notes.md",
+      "bytes": 1451,
+      "sha256": "a111d099da0fb8f4c292cd6bea6b0cc383971b7b3a0bac4b5983656d7e319ae0"
+    },
+    {
+      "path": "contributions/ECON-I38-339/metadata.json",
+      "bytes": 1097,
+      "sha256": "6a45efc6438e8036ebddc912729ab623b6dc63fe2c84b5cf5fec2a354efff546"
+    },
+    {
+      "path": "contributions/ECON-I38-339/review.md",
+      "bytes": 3084,
+      "sha256": "b972418f04189e31b880ffe3d46a8646fc86970a6012785d9fb3cdad8bb4c453"
+    },
+    {
+      "path": "contributions/ECON-I38-339/source_notes.md",
+      "bytes": 459,
+      "sha256": "54561796f43eb3e1bde535242497939737b58ec00fa444683570c034895bfbb0"
+    },
+    {
+      "path": "contributions/ECON-I38-465/metadata.json",
+      "bytes": 1290,
+      "sha256": "7ea8b051889af36553c664c0e3b101f381de9a8323bfcd0b01d539f2fc5f93e7"
+    },
+    {
+      "path": "contributions/ECON-I38-465/review.md",
+      "bytes": 3135,
+      "sha256": "4a0203704db62e95c6f8aed8a452aae6af6e8264e083043ece6c954b20614da3"
+    },
+    {
+      "path": "contributions/ECON-I38-465/source_notes.md",
+      "bytes": 534,
+      "sha256": "9288cb55608e27a01b16fd43f86c851f252e184c25485074c14793638e0d0576"
+    },
+    {
+      "path": "contributions/ECON-J16-461/metadata.json",
+      "bytes": 1278,
+      "sha256": "6ad31d14f603593b8318257f222d90439d5189576bb44c921477eb544b84184a"
+    },
+    {
+      "path": "contributions/ECON-J16-461/review.md",
+      "bytes": 3168,
+      "sha256": "70153bb04e4f841dddef1b47f21a02b1983cd244469f4aa4e5f5f7abbf568109"
+    },
+    {
+      "path": "contributions/ECON-J16-461/source_notes.md",
+      "bytes": 522,
+      "sha256": "4c50b1c2e89ac1302b0faea93b0772296ed4ac551cdad6ef06eb690ef54bf419"
+    },
+    {
+      "path": "contributions/ECON-J38-343/metadata.json",
+      "bytes": 1101,
+      "sha256": "012a65fdd221554e6931a3a15937ec863bd24abe0c077d556939abe3708c0198"
+    },
+    {
+      "path": "contributions/ECON-J38-343/review.md",
+      "bytes": 3026,
+      "sha256": "cce933457e89c17c155fd9acaa7213e6f5575140833569c303c66b15f48df6d2"
+    },
+    {
+      "path": "contributions/ECON-J38-343/source_notes.md",
+      "bytes": 461,
+      "sha256": "f8ff0dc45b620055b154fc25a836ea6afdb3cf568af157b5d4bcd894557c6541"
+    },
+    {
+      "path": "contributions/ECON-J71-423/metadata.json",
+      "bytes": 1321,
+      "sha256": "3a70406105b21b2f1046c9a58de57bb5fff1ce64ed3ccf3164e79446ca808a19"
+    },
+    {
+      "path": "contributions/ECON-J71-423/review.md",
+      "bytes": 3246,
+      "sha256": "16b2559a42b34a0c06894e39c20a7154918f6b7f9fa8b42942bb6db6c5f5eaaf"
+    },
+    {
+      "path": "contributions/ECON-J71-423/source_notes.md",
+      "bytes": 532,
+      "sha256": "8a2ddac26b1c5fd3a7e57302649d9b50566dc10dfdcd17b53771fd1b4b295b49"
+    },
+    {
+      "path": "contributions/ECON-L11-310/metadata.json",
+      "bytes": 1070,
+      "sha256": "4a7b4dc359d88ce21aa7429e10e71016ad6764f29dabe12dabd5acfd1591c114"
+    },
+    {
+      "path": "contributions/ECON-L11-310/review.md",
+      "bytes": 2865,
+      "sha256": "fb8c931bb9630ff43117baba6bfbdb6e64b9132135a901e9c6facf715070f886"
+    },
+    {
+      "path": "contributions/ECON-L11-310/source_notes.md",
+      "bytes": 450,
+      "sha256": "4aed68494cfd574883530be7d29d635a6eaa01645f2dc1506b079edc82857558"
+    },
+    {
+      "path": "contributions/ECON-L11-337/metadata.json",
+      "bytes": 1078,
+      "sha256": "ae46d33b2c56c7c201c9e06a666076ff549227736e5d4d3a18d0ccca3764ecb0"
+    },
+    {
+      "path": "contributions/ECON-L11-337/review.md",
+      "bytes": 3061,
+      "sha256": "fa5999312f1777d572de9625de82718619f28be784eeb7719fd958326c4cd38a"
+    },
+    {
+      "path": "contributions/ECON-L11-337/source_notes.md",
+      "bytes": 456,
+      "sha256": "c1dbb8cbd235591e17e62c4f6190306ebc7dc17a7e8c42f706683ac634df7abf"
+    },
+    {
+      "path": "contributions/ECON-L11-566/metadata.json",
+      "bytes": 2258,
+      "sha256": "9a83b3f28ea847805738e62ac7d0f0466164da2d982c208374a60eec62be0f26"
+    },
+    {
+      "path": "contributions/ECON-L11-566/review.md",
+      "bytes": 3102,
+      "sha256": "375f681f911f1a4438bba3b5712768c01c8210ec0d6f1fe06f5805ada407d8dc"
+    },
+    {
+      "path": "contributions/ECON-L11-566/source_notes.md",
+      "bytes": 1458,
+      "sha256": "421f7ab6ca4ff8485272150dda8d237f63869046287d258934ae19985f79faeb"
+    },
+    {
+      "path": "contributions/ECON-L13-555/metadata.json",
+      "bytes": 2364,
+      "sha256": "bf64dcf7fac9c7aa38e06cad6e7fa5bfd704e661f9b897d23f9660d4ee2e1658"
+    },
+    {
+      "path": "contributions/ECON-L13-555/report.md",
+      "bytes": 9170,
+      "sha256": "3bba124fcda02492b081549d830f5e47f0786d34ff82a220af21e5cb62ddd9a8"
+    },
+    {
+      "path": "contributions/ECON-L13-555/source_notes.md",
+      "bytes": 876,
+      "sha256": "ba3f7b3d74e988957aac67b1ba21f6639688d29e270593268868492c37e89da0"
+    },
+    {
+      "path": "contributions/ECON-L13-555/verification.json",
+      "bytes": 230,
+      "sha256": "5b79ac0e1a2b46527868f2dc93757abb7a65bf474de2e537c41222af86e81d50"
+    },
+    {
+      "path": "contributions/ECON-L13-555/verify.py",
+      "bytes": 2089,
+      "sha256": "4cea9b6f8e52271e281a95ce1d24f35cefcd9d286b11bf03226076be1f05f911"
+    },
+    {
+      "path": "contributions/ECON-L26-595/metadata.json",
+      "bytes": 2252,
+      "sha256": "77964bf92703a8e36d514fcc0e514f3692e8ca170f5fab752268499a0b96d662"
+    },
+    {
+      "path": "contributions/ECON-L26-595/review.md",
+      "bytes": 3011,
+      "sha256": "3e3993832393760be86067440bee17cc84d9920d93a31a2e3a2389629f415b6a"
+    },
+    {
+      "path": "contributions/ECON-L26-595/source_notes.md",
+      "bytes": 1469,
+      "sha256": "b9bb5657a288e94c7ba81e7e1bc8207381ee7bf5965e8511c67def76c280d2a7"
+    },
+    {
+      "path": "contributions/ECON-L41-549/metadata.json",
+      "bytes": 2240,
+      "sha256": "b6ccc159379030583c3e230a0f0b89e51e3f46d42aac608acf645284673217f3"
+    },
+    {
+      "path": "contributions/ECON-L41-549/review.md",
+      "bytes": 3213,
+      "sha256": "d7cd4f944f569086df63c0ffb517dc7ccdc0bc52a2a2e3ff09d85444326aa16d"
+    },
+    {
+      "path": "contributions/ECON-L41-549/source_notes.md",
+      "bytes": 1438,
+      "sha256": "e9b6833357411b221a6dfaabb55b343e5ce027bb5f1254e2ab3664870ab2adce"
+    },
+    {
+      "path": "contributions/ECON-L41-605/metadata.json",
+      "bytes": 2288,
+      "sha256": "033323f6a474cbf6d55935b417ac1ba385bfebcaf015b2a210d260e5d8fd85b6"
+    },
+    {
+      "path": "contributions/ECON-L41-605/review.md",
+      "bytes": 3163,
+      "sha256": "465649497cccd6043c3c3bab90962936f588e1f0f78dd837798f320dacf784bd"
+    },
+    {
+      "path": "contributions/ECON-L41-605/source_notes.md",
+      "bytes": 1464,
+      "sha256": "c802be09ff079399a50148d20e5b745791cf8a91469f877f5ccf4d51128c1757"
+    },
+    {
+      "path": "contributions/ECON-L41-613/metadata.json",
+      "bytes": 2347,
+      "sha256": "4c20eb76c10fe4da6d0ef659a268053d437de9b505a8b397b4d42e4b420c536c"
+    },
+    {
+      "path": "contributions/ECON-L41-613/review.md",
+      "bytes": 3848,
+      "sha256": "e50f3e60c5e7fb5d282b7f14847517b6453229235a889ac19ca31e030960ab75"
+    },
+    {
+      "path": "contributions/ECON-L41-613/source_notes.md",
+      "bytes": 1440,
+      "sha256": "9603c4dbca95349fdbd4cdbcd13a0d11f9c30f00b8c9cd9d0de0069dc2eda81c"
+    },
+    {
+      "path": "contributions/ECON-L94-388/metadata.json",
+      "bytes": 1290,
+      "sha256": "9394812e9235d91356e177d6e573c31d19bce90e79a92c645c1fc6bca3f259b0"
+    },
+    {
+      "path": "contributions/ECON-L94-388/review.md",
+      "bytes": 3105,
+      "sha256": "69cf0f4f3585d1dc79dff873a00c98b01b74d360707d3c6bda5a55688fb0a84e"
+    },
+    {
+      "path": "contributions/ECON-L94-388/source_notes.md",
+      "bytes": 537,
+      "sha256": "6482f0c9cd17fd0d3a3a9969447eee477c47c7e57bec7364255a9bb009415b35"
+    },
+    {
+      "path": "contributions/ECON-M21-599/metadata.json",
+      "bytes": 2290,
+      "sha256": "ca990d8368a5887ec91a2b81c9134f9acc303fc8f5c9094725081ef2c0d6c720"
+    },
+    {
+      "path": "contributions/ECON-M21-599/review.md",
+      "bytes": 3143,
+      "sha256": "d64f8a1c8cb88a5fb04fb3c802d9747a45c55ecf127034639d09cc7aea0257d3"
+    },
+    {
+      "path": "contributions/ECON-M21-599/source_notes.md",
+      "bytes": 1466,
+      "sha256": "45537a48fc60a4bbcff885a8f1f8a0a3e657207a4fb1ac7f507d64f904e8835a"
+    },
+    {
+      "path": "contributions/ECON-O31-626/metadata.json",
+      "bytes": 2225,
+      "sha256": "de1c2b0a9b58b12cca9b38b0d5e4fdcab98fcbcbc18b65bf870d0701bc5c383c"
+    },
+    {
+      "path": "contributions/ECON-O31-626/review.md",
+      "bytes": 3546,
+      "sha256": "38eea0562cdc30c4985d08b103c08133861620406be308d8531b6f4ed4ced994"
+    },
+    {
+      "path": "contributions/ECON-O31-626/source_notes.md",
+      "bytes": 1440,
+      "sha256": "ce512ac142489a5ceb314f2d729d4ab72e171e10280b74820f26b0dad8e73a24"
+    },
+    {
+      "path": "contributions/ECON-O32-614/metadata.json",
+      "bytes": 2355,
+      "sha256": "21d1fb26eed7b4354651eafbdbe5ac50c9888a90917a0bde9c003cda54b9545c"
+    },
+    {
+      "path": "contributions/ECON-O32-614/review.md",
+      "bytes": 3738,
+      "sha256": "4f42c7a4592995c588882000adcc64734a573eb857798debb63cc1fcd1c64e87"
+    },
+    {
+      "path": "contributions/ECON-O32-614/source_notes.md",
+      "bytes": 1438,
+      "sha256": "44afa4653cafd28db9d404a3c17ff205e0a27662cc67ba9e0c2722625b0f7b3f"
+    },
+    {
+      "path": "contributions/ECON-O33-598/metadata.json",
+      "bytes": 2235,
+      "sha256": "545ddb1a4f6a644d222fdf3f6cf9cba77ccc3532a0d973310e1871c93f00e2ce"
+    },
+    {
+      "path": "contributions/ECON-O33-598/review.md",
+      "bytes": 3027,
+      "sha256": "ce57260f032d600580bac1cd277694e8ea05c413c321646d999ef36c5521ed22"
+    },
+    {
+      "path": "contributions/ECON-O33-598/source_notes.md",
+      "bytes": 1438,
+      "sha256": "3dc1d3f30b644f6809f73a8083309b139b4fa5b5b67b2894a0e7b2442560568d"
+    },
+    {
+      "path": "contributions/ECON-Q57-335/metadata.json",
+      "bytes": 1108,
+      "sha256": "8038e7f82a7eaaf24dee7714b81be3d36acb697cf4d585334e5b286bdadd607a"
+    },
+    {
+      "path": "contributions/ECON-Q57-335/review.md",
+      "bytes": 3103,
+      "sha256": "cbca1b3a305a9d00ee75f57ae101f836a7e836955ca3f9e503543c837855b35a"
+    },
+    {
+      "path": "contributions/ECON-Q57-335/source_notes.md",
+      "bytes": 465,
+      "sha256": "83dc1eb78b6e1c9864dc1f08dc366a708f911d2e2d5fae30890cf4a0aacadf39"
+    },
+    {
+      "path": "contributions/ECON-R13-342/metadata.json",
+      "bytes": 1069,
+      "sha256": "3fd9c6fbe7a845cff350f11f51e35566c82f143626b1c3725e68a41e8c8fa1ca"
+    },
+    {
+      "path": "contributions/ECON-R13-342/review.md",
+      "bytes": 3477,
+      "sha256": "d47bbac118e3615fae3936914bf14aba8c768fbf09b40f78bdf4eb29367eb4a9"
+    },
+    {
+      "path": "contributions/ECON-R13-342/source_notes.md",
+      "bytes": 453,
+      "sha256": "dfcc5cc2c27b0afa7cb854a386c615abb0d36afa3f7cbdbdec0021fa98841455"
+    },
+    {
+      "path": "econ_a.json",
+      "bytes": 78341,
+      "sha256": "48ccf58cef051de37053f742a15572218a0da937fd299e9d7b6a4fcc11b27817"
+    },
+    {
+      "path": "econ_a_review_check_results.json",
+      "bytes": 1753,
+      "sha256": "7dd8233512ac5a13077a9a9ef4ec674fba459ff754b1f30d7541b11d03bebcf5"
+    },
+    {
+      "path": "econ_a_review_checker_stdout.txt",
+      "bytes": 1590,
+      "sha256": "b69bfb7f102ed618e55bb4172249ed0309c0136f5e11fd2fa82d28d236e273df"
+    },
+    {
+      "path": "econ_b.json",
+      "bytes": 123837,
+      "sha256": "02029a726d60192b782901cef315c4e46a0910805dac5df4bacd12a298d9a8c2"
+    },
+    {
+      "path": "econ_c.json",
+      "bytes": 36012,
+      "sha256": "627c1e8a8d50662d77061dcf07418128a9db63e49687a6d5f49934ea3aa3f0df"
+    },
+    {
+      "path": "econ_d.json",
+      "bytes": 44662,
+      "sha256": "68e2045b6809f5c3636de6706cd2271623856cec6b08cb6c4777041df7773f6c"
+    },
+    {
+      "path": "econ_e.json",
+      "bytes": 45877,
+      "sha256": "bf567e0fb4f0ee934eac12ad39bb129b06bfc6cbfd2c33301a379f082799d588"
+    },
+    {
+      "path": "econ_e_exact_checks.json",
+      "bytes": 747,
+      "sha256": "065e33a3c91087964045924863ad17089ef69f1fad570a6d2f3db52095839b98"
+    },
+    {
+      "path": "econ_f.json",
+      "bytes": 85439,
+      "sha256": "9735616fa705d08afb45b9f839798cea08ad2f7ccbcc1ad2dc8a6b582bada807"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 555444,
+      "sha256": "97dad77490390e31f68b509478f9e17742a351b31093771f606debd7a948eafb"
+    },
+    {
+      "path": "qualified_audits/ECON-C12-156.json",
+      "bytes": 3803,
+      "sha256": "7d04e52c481e0455a46fb3a1b5374b73083bb0083e366c13b447405676f810c4"
+    },
+    {
+      "path": "qualified_audits/ECON-C13-259.json",
+      "bytes": 3512,
+      "sha256": "9212e15d204395fa3ab58ea60b466392e38cad656a63ee6acdaa88907936c69b"
+    },
+    {
+      "path": "qualified_audits/ECON-C14-148.json",
+      "bytes": 3784,
+      "sha256": "1560ca2c76a1b484f9947b515621593eb60770c26c8782fc9da75b4c9f03f359"
+    },
+    {
+      "path": "qualified_audits/ECON-C14-169.json",
+      "bytes": 3743,
+      "sha256": "c39b63bca3b2a9580a956ebdc47e63ea56e516e0456cf79dd33703ab8ded081d"
+    },
+    {
+      "path": "qualified_audits/ECON-C18-215.json",
+      "bytes": 3753,
+      "sha256": "53db276d7de205c72425679cacc6771daed0bfec4a44d12849d0e73622a183e7"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-154.json",
+      "bytes": 3757,
+      "sha256": "18cc53014852adf2cb2ddb4446dd17178d8e45cfc591cd6230faca24ea3c7960"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-160.json",
+      "bytes": 3683,
+      "sha256": "f82da6bd116031103a4d50d653a124097a39f597b594360d66134b218f5ff384"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-173.json",
+      "bytes": 3824,
+      "sha256": "a5e9e879e34d44715a43f0f566770915ff4e9f9a30becfa49246169ddd11e957"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-179.json",
+      "bytes": 3660,
+      "sha256": "ca61a59a391d81094bf8c013e71a4b0baae05eb36824b451b0a96472e813b797"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-184.json",
+      "bytes": 3710,
+      "sha256": "7df2bbbce34cfd58700e7d2e90ffd41f073f94c07eec2b7d7634de255c2ddab8"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-191.json",
+      "bytes": 3858,
+      "sha256": "cd4389498aedceb818f27fc29cd45d7da3b30b88887fceed1896774e4b9ecf37"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-194.json",
+      "bytes": 4406,
+      "sha256": "f153fb0da1095ce58b72ef16e62e949bbe893535d743ff345542bed4805785dd"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-202.json",
+      "bytes": 3783,
+      "sha256": "59fde440e22e3bd35487e02a8e55e229724dcf96465f147c9313f3129bc79a08"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-206.json",
+      "bytes": 5348,
+      "sha256": "f1360f99385de147bada0171b93bc4b6030e963caba75c9154034ee6c4c77bb0"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-232.json",
+      "bytes": 2988,
+      "sha256": "3b2dfa0a247178f1ef2dcbf41b65419492a21f854f2c26e6691e3f6d99d50b53"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-234.json",
+      "bytes": 3056,
+      "sha256": "3cf9063ef33e9df81bb04b7d61ace31d303721dfc3f49b83288bbfdb6dd1f775"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-244.json",
+      "bytes": 3021,
+      "sha256": "3087eaa136e7a2ef2c8f78e79aadc62a047808341d12d8374964d34539ef3a98"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-266.json",
+      "bytes": 3415,
+      "sha256": "d81d074abb98254ed4cc816145e15f06850dd1c8d2958ef9d6fee8b47b87053e"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-295.json",
+      "bytes": 3069,
+      "sha256": "f15cc3833e8b39fa36a0d1cd4ee9784c90f916093952d3f04e9445347e80a441"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-306.json",
+      "bytes": 3095,
+      "sha256": "e4f0508e141ea4a10272423d93dc7bc01658a7292f903e3a71cc4336dd871cfd"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-314.json",
+      "bytes": 2737,
+      "sha256": "44ea30ad66804ef419cddf4843557fb55318a029ceb34bea46edfbfcb29d8712"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-437.json",
+      "bytes": 3190,
+      "sha256": "7344f28bd4c05f322274c92b3656ea5c28419d486bee2c4be36be84172c16e72"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-453.json",
+      "bytes": 3329,
+      "sha256": "121d6df2de7269946b56be3f0c305c9741d0c1eddd259c6b7c4fd1d47a5055ae"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-469.json",
+      "bytes": 1758,
+      "sha256": "e7fcbd051bfd5e3c716cab1419a3b9c498db3cc9487c06d1d64fb6373ca20c11"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-494.json",
+      "bytes": 1834,
+      "sha256": "70239b832b1138d4a5fafabdc15cb5364ff0493fbe670d5e5f31cf022d17794d"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-553.json",
+      "bytes": 2734,
+      "sha256": "17d3160d86512ef7db6c815175922822702fb47a98c5e384b05eb19d0dc4b7ea"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-569.json",
+      "bytes": 2613,
+      "sha256": "5f6ae6d264475f01220737ad620737e9a01d840a777b9a75b17d1c9f64cb042b"
+    },
+    {
+      "path": "qualified_audits/ECON-C21-581.json",
+      "bytes": 2524,
+      "sha256": "b528aa7aca6cc554c5fcbba7455e0d1ef7181ec8ac15cb5bad6d309c915b4ff0"
+    },
+    {
+      "path": "qualified_audits/ECON-C23-188.json",
+      "bytes": 4511,
+      "sha256": "6d0c637d2222c1a55e46f5e912a15a1ead2ee1b200dcdb227723b8e66e2232df"
+    },
+    {
+      "path": "qualified_audits/ECON-C23-251.json",
+      "bytes": 3034,
+      "sha256": "e701dec9a33222bf51f07ad60d83b8a5fb87f80bc4990f88078b964671620412"
+    },
+    {
+      "path": "qualified_audits/ECON-C23-305.json",
+      "bytes": 3048,
+      "sha256": "1606c71738482a463503e044822400a88fa29ac6aa107aa42ac937a75b4a92ce"
+    },
+    {
+      "path": "qualified_audits/ECON-C23-372.json",
+      "bytes": 2849,
+      "sha256": "587c9492f8a2f7827abc9add18860a83c00de0e3ae5a738e60d7173ebd96b5a2"
+    },
+    {
+      "path": "qualified_audits/ECON-C23-406.json",
+      "bytes": 3220,
+      "sha256": "8ed0194e4c484a260c47e999db65d1ca5e73cac0101a66432df037ee7e44efa3"
+    },
+    {
+      "path": "qualified_audits/ECON-C23-425.json",
+      "bytes": 3104,
+      "sha256": "1a7d8c5157326c86112ec40a5da0f0d42ed04f6509689b4378b55c7ea2bc9084"
+    },
+    {
+      "path": "qualified_audits/ECON-C23-429.json",
+      "bytes": 3886,
+      "sha256": "4df2cc1e70bef4566693da54d23314dbb977d92c360ab8ca7edd1b410f4eacb1"
+    },
+    {
+      "path": "qualified_audits/ECON-C24-509.json",
+      "bytes": 1758,
+      "sha256": "18e6a4eb946af960acfa0e8f2c3dfd3b69a11b044f734acb99d1c637d46a563a"
+    },
+    {
+      "path": "qualified_audits/ECON-C26-181.json",
+      "bytes": 3701,
+      "sha256": "31996ba8f670f8ed9d92cfeac27e3409c712ffb216ebd07da8612594f1b96666"
+    },
+    {
+      "path": "qualified_audits/ECON-C26-326.json",
+      "bytes": 2792,
+      "sha256": "aa3d0c049fc9e65d51af1b6259050a2a4b5fc2c9a5e8908a4036cf5e6e127df1"
+    },
+    {
+      "path": "qualified_audits/ECON-C26-403.json",
+      "bytes": 3037,
+      "sha256": "5eaa6f697b00fdf97f64060f1bf25639265f4a803e2c6c243f7ac58007d921ff"
+    },
+    {
+      "path": "qualified_audits/ECON-C31-168.json",
+      "bytes": 4519,
+      "sha256": "27beaf837b1a435243a07766f60421f59c62db83b61ee97209ad0ac5bde21c9f"
+    },
+    {
+      "path": "qualified_audits/ECON-C31-214.json",
+      "bytes": 5158,
+      "sha256": "080261a1eb0dd0a4a2d2757847a86e02846ebad2d00b2485a320ab1831fa0df2"
+    },
+    {
+      "path": "qualified_audits/ECON-C31-219.json",
+      "bytes": 5327,
+      "sha256": "19b8b14ce003d22c113ad87675372a9ac2ac96adfc867b00b8cdc6cb953574a2"
+    },
+    {
+      "path": "qualified_audits/ECON-C31-282.json",
+      "bytes": 3064,
+      "sha256": "874a494e2294f38b9c0f5c36e20f1d85647e43885ed843e4bbe0e4dbf4840e89"
+    },
+    {
+      "path": "qualified_audits/ECON-C31-289.json",
+      "bytes": 4303,
+      "sha256": "1b34cbb2c0aa1237210093b248926546f9bee46c6eadd63228a38426bdda17ab"
+    },
+    {
+      "path": "qualified_audits/ECON-C31-321.json",
+      "bytes": 2647,
+      "sha256": "fe845f8d794e4cd436b62454bbfdfa3b0f369d3bf1e2d66bcba927414ffaac8f"
+    },
+    {
+      "path": "qualified_audits/ECON-C31-390.json",
+      "bytes": 3290,
+      "sha256": "4224565ffd4ddddd38a3a180b5239111ea753b74b768c19add5b0b1f6196e54f"
+    },
+    {
+      "path": "qualified_audits/ECON-C31-442.json",
+      "bytes": 3242,
+      "sha256": "cc1aaebc9e1c0a6e31092df14d445cbf983680bacfeda79a2cfbedbc8f9bdfe3"
+    },
+    {
+      "path": "qualified_audits/ECON-C31-491.json",
+      "bytes": 1828,
+      "sha256": "3b56d3bf69a5869c5e0f0ebae6d8bf05a8dff8bbac143cfd94f95f2338ab340d"
+    },
+    {
+      "path": "qualified_audits/ECON-C32-504.json",
+      "bytes": 1769,
+      "sha256": "8037d002ff4f3b1b7c1781c79e17b7cc7be496132055daa7d508346a9617444f"
+    },
+    {
+      "path": "qualified_audits/ECON-C33-332.json",
+      "bytes": 2762,
+      "sha256": "2549bb14bd0237741e2ccfb948d6c0663a27bb0d1ea4a31391f6254b74c57fb6"
+    },
+    {
+      "path": "qualified_audits/ECON-C33-383.json",
+      "bytes": 2807,
+      "sha256": "01f7854033ae1c40657f006088fca2b4dda5afb312a9e50b8fb58e6844b9910d"
+    },
+    {
+      "path": "qualified_audits/ECON-C44-186.json",
+      "bytes": 3935,
+      "sha256": "a11f52dd49fd711912e9a6faaf7d0d0cc6b2da58244c81dd41dc41b6738b123d"
+    },
+    {
+      "path": "qualified_audits/ECON-C44-239.json",
+      "bytes": 3067,
+      "sha256": "3489dc4dab3d5fef76d2a59ddff824524cec7e5bb8728c8e2fdfd14f7f00ed74"
+    },
+    {
+      "path": "qualified_audits/ECON-C44-248.json",
+      "bytes": 2957,
+      "sha256": "bbe0dd798b9c6fb1743f16ccdef1ff114b6863186e5560fe5f18bab80140afcb"
+    },
+    {
+      "path": "qualified_audits/ECON-C55-360.json",
+      "bytes": 2745,
+      "sha256": "bf06921414b99998e129b93f5341172d37d3a939a8495d17a0691061da925218"
+    },
+    {
+      "path": "qualified_audits/ECON-C61-246.json",
+      "bytes": 3072,
+      "sha256": "87ec88fcad4fe707a2f0786a38bfd7a04a6716bbd9752f59ed0ee77909bb6a03"
+    },
+    {
+      "path": "qualified_audits/ECON-C61-288.json",
+      "bytes": 3090,
+      "sha256": "dabe130902b11a60341aacb12167825017ebcaf7b1a31808789f59ceaea31089"
+    },
+    {
+      "path": "qualified_audits/ECON-C62-272.json",
+      "bytes": 3385,
+      "sha256": "27517b9a34a655d6bf588c78a15e69e71c89b68b8daea1bf463efa4135fa8f24"
+    },
+    {
+      "path": "qualified_audits/ECON-C63-149.json",
+      "bytes": 3759,
+      "sha256": "e9ee10c4d10b51c65acc15416c9351edc160704f40860e2953ad0694f29b7637"
+    },
+    {
+      "path": "qualified_audits/ECON-C71-299.json",
+      "bytes": 3164,
+      "sha256": "a8eeee530d59213605ab31b8e2cccab0613d0abc5848f3e5d47593e59d7a603e"
+    },
+    {
+      "path": "qualified_audits/ECON-C71-421.json",
+      "bytes": 3169,
+      "sha256": "9ca8d9f801f7c3841d39eb01f8b2cf6a9fdcb730a80ea152054eee72297414fa"
+    },
+    {
+      "path": "qualified_audits/ECON-C72-153.json",
+      "bytes": 3797,
+      "sha256": "ee419997bf4569e2529672526001dbab45e3c6e9172ea0cbd00020e62856de9f"
+    },
+    {
+      "path": "qualified_audits/ECON-C72-285.json",
+      "bytes": 2997,
+      "sha256": "7a4158cc0ee69747efb1f0459bf7367000796e81a49bf39ae14ecf15b6ae6c4f"
+    },
+    {
+      "path": "qualified_audits/ECON-C72-366.json",
+      "bytes": 2723,
+      "sha256": "174bb7b9a49b232ba6b0b4399af1c4ed1e82be49b96c5e662313d73d170a9fc3"
+    },
+    {
+      "path": "qualified_audits/ECON-C72-488.json",
+      "bytes": 1829,
+      "sha256": "7c09179b657fe3679cca710a8914f470579320d4aac2a6b67301173158d65796"
+    },
+    {
+      "path": "qualified_audits/ECON-C72-489.json",
+      "bytes": 2029,
+      "sha256": "20ff61d4f99bb58ec0724f8692a4b9f0f3100fb574ac068e496ffee353848656"
+    },
+    {
+      "path": "qualified_audits/ECON-C73-159.json",
+      "bytes": 3743,
+      "sha256": "8f66a08b994ba4f3dadc059fbd7727c73b8d4eab917acf80e3a8a09ea13849c9"
+    },
+    {
+      "path": "qualified_audits/ECON-C73-252.json",
+      "bytes": 3126,
+      "sha256": "2de59731859eb44773e07958dc85073b5cfecbbcb20e6fad11f04588aaad11e4"
+    },
+    {
+      "path": "qualified_audits/ECON-C73-256.json",
+      "bytes": 3153,
+      "sha256": "665c1e91daab430ee8cbf5eeae14097142ea7535b95a2259ef09b3746b4a63f3"
+    },
+    {
+      "path": "qualified_audits/ECON-C73-304.json",
+      "bytes": 3082,
+      "sha256": "58ad4f83d6cf5c5466d14030ce26123d0470b18a8b88b554c892627f03ab786c"
+    },
+    {
+      "path": "qualified_audits/ECON-C73-391.json",
+      "bytes": 3214,
+      "sha256": "3e5167cb4e936905c1d6de95a42533b47f6c1e09ba180a4017b7217aab1962da"
+    },
+    {
+      "path": "qualified_audits/ECON-C73-401.json",
+      "bytes": 3182,
+      "sha256": "35d5aa4fda87971474b2bc5bf3374e9dc7123a586edfbaef954e8e46fe222790"
+    },
+    {
+      "path": "qualified_audits/ECON-C73-445.json",
+      "bytes": 3315,
+      "sha256": "e212e86e356b831dd915ab4de038edf0639c7eb171ef2e9d5db0619b8632f5ca"
+    },
+    {
+      "path": "qualified_audits/ECON-C73-487.json",
+      "bytes": 1743,
+      "sha256": "6383649d807744eb3fb404c99daa71610286fd4110d69252b7732134d0bcef7f"
+    },
+    {
+      "path": "qualified_audits/ECON-C73-492.json",
+      "bytes": 1900,
+      "sha256": "a6d600a05645d7e0a53e9c0c9d934b8287df29a6efe90910440ad522481c5383"
+    },
+    {
+      "path": "qualified_audits/ECON-C73-496.json",
+      "bytes": 1906,
+      "sha256": "3e6787c0b330c45e68aeb2e5157a6283df6dc2932077ff67634fd16c3694931c"
+    },
+    {
+      "path": "qualified_audits/ECON-C73-532.json",
+      "bytes": 2394,
+      "sha256": "422c32f6cb7522a605cb1f6ea89cca166e08359ad23fc11a3e92413e99004014"
+    },
+    {
+      "path": "qualified_audits/ECON-C78-165.json",
+      "bytes": 3783,
+      "sha256": "82a11984725fa578c41969be665bed57394ffad6b2f598cc319535554c09272d"
+    },
+    {
+      "path": "qualified_audits/ECON-C78-175.json",
+      "bytes": 4135,
+      "sha256": "702cb9cd10c71b97238e987aa86c63f3cbcca4216a1b5e8475dc359305580b54"
+    },
+    {
+      "path": "qualified_audits/ECON-C78-178.json",
+      "bytes": 4558,
+      "sha256": "1770cd260527fd17a00daa73a81acbdbf6925dbfc404ae077ad7ea33ac9b0535"
+    },
+    {
+      "path": "qualified_audits/ECON-C78-237.json",
+      "bytes": 3029,
+      "sha256": "0724342ed7dffbf14e7ef036b79584a99d1ce33932c3c6713f189a8457fe1c79"
+    },
+    {
+      "path": "qualified_audits/ECON-C78-268.json",
+      "bytes": 3411,
+      "sha256": "7e6536e9a15d34f68755b1fc874f795ce44a4bd6b773d08f85ab8795f1dce0a1"
+    },
+    {
+      "path": "qualified_audits/ECON-C78-293.json",
+      "bytes": 3151,
+      "sha256": "709ada409847b4e292ed72e7b4132985de2a25f29aa209e438cc32ea39beba1a"
+    },
+    {
+      "path": "qualified_audits/ECON-C78-369.json",
+      "bytes": 2738,
+      "sha256": "7e76fd351efca5d615edbda0a743d0c32642f6a005556ff54c6c6b0deecfd24e"
+    },
+    {
+      "path": "qualified_audits/ECON-C78-373.json",
+      "bytes": 4869,
+      "sha256": "0cc934345f6d1e666339413c57a7014cdfc8a0f6f69b51a6b61a5ee16597d903"
+    },
+    {
+      "path": "qualified_audits/ECON-C78-387.json",
+      "bytes": 3177,
+      "sha256": "bdbacb229554913af547324db7ed81f082c80abc8f26e831d09acf1d1ff1887d"
+    },
+    {
+      "path": "qualified_audits/ECON-C78-392.json",
+      "bytes": 3137,
+      "sha256": "3d57ba27e01304bf35ac8a632a52e02f441c7cfc3f3f2dc41f50917f24e5ff63"
+    },
+    {
+      "path": "qualified_audits/ECON-C78-417.json",
+      "bytes": 4775,
+      "sha256": "866665eb94d19aff802c51bb5d388bedb1c3ca2afe5bb31b225567cdcb682df0"
+    },
+    {
+      "path": "qualified_audits/ECON-C78-424.json",
+      "bytes": 3859,
+      "sha256": "291f7ed0b271fb096e82013867cd39e39053b5c3b8f0c38360dca85f5a40b17c"
+    },
+    {
+      "path": "qualified_audits/ECON-C78-464.json",
+      "bytes": 3304,
+      "sha256": "4aa640378d91dc6014c4430272c3e295a2176b00b799179621bec54f8a2ac3b0"
+    },
+    {
+      "path": "qualified_audits/ECON-C78-511.json",
+      "bytes": 1813,
+      "sha256": "771e81da507cb8654455dafd04c3df1840ab07a499c33b53d6c1c68882db06cd"
+    },
+    {
+      "path": "qualified_audits/ECON-C79-271.json",
+      "bytes": 4596,
+      "sha256": "53c4ae7edc6465122e1641d71ffb07416c6456fa5cb52614f828c5631fffad62"
+    },
+    {
+      "path": "qualified_audits/ECON-C81-341.json",
+      "bytes": 2871,
+      "sha256": "bfe7702f5bef72511b57ffe9a39c1f80de00b78f1cb6ee9a7ca1127a582c6e3e"
+    },
+    {
+      "path": "qualified_audits/ECON-C81-368.json",
+      "bytes": 2768,
+      "sha256": "8368eff06b23b415b77386743f88644c563a7a6da1d14c7be649a442073c24c6"
+    },
+    {
+      "path": "qualified_audits/ECON-C83-233.json",
+      "bytes": 3000,
+      "sha256": "19dec39c7609830ad9222379c4cded218f0a71ee788897442344cce0cec522ff"
+    },
+    {
+      "path": "qualified_audits/ECON-C90-284.json",
+      "bytes": 2890,
+      "sha256": "27027b16e5b2626857ead86911ab1c388afb54dd55bb882cf24de306ef7f61c7"
+    },
+    {
+      "path": "qualified_audits/ECON-C90-604.json",
+      "bytes": 2512,
+      "sha256": "6cb2039514bf24f4c529c282454b6641044f82989ae6cac77772e70d301f5db1"
+    },
+    {
+      "path": "qualified_audits/ECON-C93-340.json",
+      "bytes": 2799,
+      "sha256": "fed6a5388986dd586ea8238bfb9e8a55324f304a8729a07dece7284ca7c5cc1d"
+    },
+    {
+      "path": "qualified_audits/ECON-D12-516.json",
+      "bytes": 1911,
+      "sha256": "e3825c439d64c1f198ed3964155fa8c9e9c4023e4e4cb481b1a0e8fa3ccf3368"
+    },
+    {
+      "path": "qualified_audits/ECON-D13-434.json",
+      "bytes": 3259,
+      "sha256": "e9f2d0e1e3a40888f760159556e3e23f0f4eb37a833f7c48db743bfc169cb176"
+    },
+    {
+      "path": "qualified_audits/ECON-D24-460.json",
+      "bytes": 3265,
+      "sha256": "a80a434b81dfa469c07c031dc0b4fad774dac131665332067535e84fce086ed1"
+    },
+    {
+      "path": "qualified_audits/ECON-D31-330.json",
+      "bytes": 2814,
+      "sha256": "06322dd7445b439a529d6a8be2524b8e2993b76c3a1728cae3b36cd4993de3a9"
+    },
+    {
+      "path": "qualified_audits/ECON-D31-458.json",
+      "bytes": 3314,
+      "sha256": "a52386b6694ec994123153f7e52ef68ba9c93287ef340243284d316f6caf2671"
+    },
+    {
+      "path": "qualified_audits/ECON-D44-171.json",
+      "bytes": 3751,
+      "sha256": "fac8849d9747970ed0a20923a252384b4b86e25c3a1d636e53044e1cf26efe05"
+    },
+    {
+      "path": "qualified_audits/ECON-D44-196.json",
+      "bytes": 4509,
+      "sha256": "01c51850234ffb8d54212857ebd6be992ac0f97696f9d50634b3276b209fe94a"
+    },
+    {
+      "path": "qualified_audits/ECON-D44-622.json",
+      "bytes": 2546,
+      "sha256": "057860b94d2d09a25a8f34dff4eec231959c45139a05e2abc7c69579f1249d38"
+    },
+    {
+      "path": "qualified_audits/ECON-D60-517.json",
+      "bytes": 1829,
+      "sha256": "382d155b616178f25377b04f546d888ca4a74e1c1fb9657df9d7389a2d6f23d2"
+    },
+    {
+      "path": "qualified_audits/ECON-D60-518.json",
+      "bytes": 1771,
+      "sha256": "aa179d2aada8ebca0ead6d23f8ab8af3ded588337c17c5196b60f6f87b51b09e"
+    },
+    {
+      "path": "qualified_audits/ECON-D61-402.json",
+      "bytes": 3343,
+      "sha256": "879f5eecf9b144481a7b380c9c53a4867a30396b7decd67d69906010335c0165"
+    },
+    {
+      "path": "qualified_audits/ECON-D63-158.json",
+      "bytes": 4509,
+      "sha256": "f50a0b9dc19fc3b47dad71f8b84453901ceb4bed877d9335e8de2cff620fbbfa"
+    },
+    {
+      "path": "qualified_audits/ECON-D63-177.json",
+      "bytes": 4457,
+      "sha256": "2ee1c0107c5d035fc37e4184e1813ba5b2c14605366137719be80846b5a93f24"
+    },
+    {
+      "path": "qualified_audits/ECON-D63-294.json",
+      "bytes": 3109,
+      "sha256": "066cd0ed329965fbe463c325dc7321d9c5010be462493c7be6f8dc6fe0eb5f72"
+    },
+    {
+      "path": "qualified_audits/ECON-D63-396.json",
+      "bytes": 3256,
+      "sha256": "772636077e32c7c5f6a75343cd8cf8134fe6982b4e820ad3cc49805bd35778fd"
+    },
+    {
+      "path": "qualified_audits/ECON-D63-448.json",
+      "bytes": 3173,
+      "sha256": "7a123f1dfd2ae0d8e38d394f7c15e3dc275645ba0299e25ef20795980fceb0b2"
+    },
+    {
+      "path": "qualified_audits/ECON-D63-473.json",
+      "bytes": 1917,
+      "sha256": "278df3eb849d997d7dbc2623d5eda4da7ac9a41aed41bfcc7c0158589f030610"
+    },
+    {
+      "path": "qualified_audits/ECON-D71-180.json",
+      "bytes": 4482,
+      "sha256": "513df8f783198774521bb5d10d76fde2fb5c7dc2e68b0a3d4820af4011f5d707"
+    },
+    {
+      "path": "qualified_audits/ECON-D71-190.json",
+      "bytes": 4644,
+      "sha256": "58b4c978237b70128937ac2c341627f1cd2860d6fd1ee268dd68eff196c1c075"
+    },
+    {
+      "path": "qualified_audits/ECON-D71-264.json",
+      "bytes": 3252,
+      "sha256": "47777946cf1359c5b8dbe61678e4f7a750c52e3a926e9a2995d291df63fb8164"
+    },
+    {
+      "path": "qualified_audits/ECON-D81-347.json",
+      "bytes": 4445,
+      "sha256": "5280dc55e95e802822b5354889c4dca8fc8eaa26ff1081096bc2004098d17bd3"
+    },
+    {
+      "path": "qualified_audits/ECON-D81-567.json",
+      "bytes": 2561,
+      "sha256": "e0b29e4e3137e0d54b1ebc188c2b827f722eea46a3a3758349a8eabe32db5061"
+    },
+    {
+      "path": "qualified_audits/ECON-D82-151.json",
+      "bytes": 3752,
+      "sha256": "a38a844903e513dce50624d4f2312b0572dc29e4c6d4b81786e19c9d91b1511f"
+    },
+    {
+      "path": "qualified_audits/ECON-D82-172.json",
+      "bytes": 4339,
+      "sha256": "863fbbaacfec1e309f26b7edd25d50ecaba339ddc2b0d712ab8b740c1eeaf7f8"
+    },
+    {
+      "path": "qualified_audits/ECON-D82-189.json",
+      "bytes": 4546,
+      "sha256": "a076beec17309532b5d12bfe6c843be985c1c053044dabe1e2e3bd3f0e71ae3c"
+    },
+    {
+      "path": "qualified_audits/ECON-D82-275.json",
+      "bytes": 3668,
+      "sha256": "f48027649dcaa58ebc35fcc9c3853dab9a1884c80e40924dcbf2250b4375bd17"
+    },
+    {
+      "path": "qualified_audits/ECON-D82-280.json",
+      "bytes": 3361,
+      "sha256": "97c70921f6186fc1bfa988a9155cf3bcc2eabf96c93ac1fc819df205aef6610b"
+    },
+    {
+      "path": "qualified_audits/ECON-D82-301.json",
+      "bytes": 3268,
+      "sha256": "a643abc8789498b7072dc801972b781c86030dfa7693bd506f666e40a11a254e"
+    },
+    {
+      "path": "qualified_audits/ECON-D82-386.json",
+      "bytes": 4659,
+      "sha256": "cfad65bc3c26f0edcf190d1eaea5e03de42a097e85244fdf5709f34626436d20"
+    },
+    {
+      "path": "qualified_audits/ECON-D82-513.json",
+      "bytes": 1699,
+      "sha256": "ab5789fbbb96aa0f4346f161ede3359719453eb02e2a5e1fb0a3e1fb518056b3"
+    },
+    {
+      "path": "qualified_audits/ECON-D83-479.json",
+      "bytes": 2071,
+      "sha256": "eb2bba899cb59da43a4de6f97d79e120670f945efb56289cfa3b7392e6cffa99"
+    },
+    {
+      "path": "qualified_audits/ECON-D83-521.json",
+      "bytes": 1785,
+      "sha256": "349a1a9bd57cfd3b17b91e6a3c629088ea3c6e76c627009b051c39250cdbe932"
+    },
+    {
+      "path": "qualified_audits/ECON-D83-571.json",
+      "bytes": 2568,
+      "sha256": "d24f6b0955d317102e88f36bff710486c9564f96580763d60225462c4d1234f4"
+    },
+    {
+      "path": "qualified_audits/ECON-D83-586.json",
+      "bytes": 2552,
+      "sha256": "e3f4bcb553980b6ad86dc7d5b9126035eb2b45d9b5d3c28645ee88aa5806535e"
+    },
+    {
+      "path": "qualified_audits/ECON-D84-472.json",
+      "bytes": 1924,
+      "sha256": "773451986416bbb88b4667badae06485cf9b87b914207ef48c15070317c23998"
+    },
+    {
+      "path": "qualified_audits/ECON-D86-257.json",
+      "bytes": 3355,
+      "sha256": "e4fa9925e6984700b3eeb90f8f3e2ab8de053139a21c6039d0664b886c592fa9"
+    },
+    {
+      "path": "qualified_audits/ECON-D91-431.json",
+      "bytes": 3265,
+      "sha256": "334dbdf3932e8dcd437a171e5582c19438d814413f15f181de5fa18dd3486723"
+    },
+    {
+      "path": "qualified_audits/ECON-D91-482.json",
+      "bytes": 1853,
+      "sha256": "c98a347def2913ed699b3c9e04fffd1b9be8a357903650ea7e48a2ee78b51103"
+    },
+    {
+      "path": "qualified_audits/ECON-D91-499.json",
+      "bytes": 2033,
+      "sha256": "8edd700e23151ed8317678d2323fc23a574917deff3fbb1db11293767a094536"
+    },
+    {
+      "path": "qualified_audits/ECON-D91-507.json",
+      "bytes": 1805,
+      "sha256": "5d53348de8fe935f505aef49511f330a79cff9e0b9aebe25a4f10f8e190a09d7"
+    },
+    {
+      "path": "qualified_audits/ECON-D91-538.json",
+      "bytes": 1809,
+      "sha256": "cb83dfb71b7dbd321a0e4ed0d4711d16fe2a2ac72ce568b3c19873d16e6ff84f"
+    },
+    {
+      "path": "qualified_audits/ECON-D91-558.json",
+      "bytes": 2595,
+      "sha256": "56c3cf30acbd7492c40741e3bb723a1a9d841f683915c62b71366e314a2e6fa7"
+    },
+    {
+      "path": "qualified_audits/ECON-D91-578.json",
+      "bytes": 2692,
+      "sha256": "7950a64f6ff02c6f86ab0c90e18caa2cf1d17a1041986015b546c98130f7c156"
+    },
+    {
+      "path": "qualified_audits/ECON-D91-587.json",
+      "bytes": 2576,
+      "sha256": "eca13510e8167a9b75e8fa23fde3a334c966f9c0a4fc2659f89eb4b7b8f70572"
+    },
+    {
+      "path": "qualified_audits/ECON-D91-609.json",
+      "bytes": 2681,
+      "sha256": "c72d238c191dfbb6a6ede9d27a0272566d8cde67cad81557236213f9eec87d64"
+    },
+    {
+      "path": "qualified_audits/ECON-E21-318.json",
+      "bytes": 2710,
+      "sha256": "4f0846139859695a98a1b2181f80bb29807edaa29c8fc91ec296a077199d30da"
+    },
+    {
+      "path": "qualified_audits/ECON-E22-322.json",
+      "bytes": 2812,
+      "sha256": "15050675f9cf2a9d1531352b846c7268bf015e0c6c144af8461cbdafbf8e3507"
+    },
+    {
+      "path": "qualified_audits/ECON-E31-467.json",
+      "bytes": 1822,
+      "sha256": "e778751f7f7268c023bc7737d9a10c45cc010a4e4b72641433c3318e5c34ff0b"
+    },
+    {
+      "path": "qualified_audits/ECON-E32-331.json",
+      "bytes": 2826,
+      "sha256": "836e9937e175d490b52ff59931284711160ba4cbd940350c2f9cae810f3147e1"
+    },
+    {
+      "path": "qualified_audits/ECON-E32-471.json",
+      "bytes": 1923,
+      "sha256": "42abc49c50dd5648a64310b6526830eb154908a85a06bf5a913312606727a066"
+    },
+    {
+      "path": "qualified_audits/ECON-E37-594.json",
+      "bytes": 2638,
+      "sha256": "a8f034d2dbff36e763807be6b04550ce982e016f4ee3e65f4538fe7b8e8514b2"
+    },
+    {
+      "path": "qualified_audits/ECON-E58-600.json",
+      "bytes": 2688,
+      "sha256": "81ff5f29bb2e3dfe258efaea3d9cadffba8160d08b9c13fec7e7efa2a504da33"
+    },
+    {
+      "path": "qualified_audits/ECON-F31-433.json",
+      "bytes": 3239,
+      "sha256": "17c9e5085c552fda773ea23e03f51ca102084ea115dc68e310d73e51ef3e541e"
+    },
+    {
+      "path": "qualified_audits/ECON-F44-334.json",
+      "bytes": 2935,
+      "sha256": "59450ace6dbd97bbce6695ac6630f3c48c31ddbcab79c0068ab9c2b744f6870d"
+    },
+    {
+      "path": "qualified_audits/ECON-G11-625.json",
+      "bytes": 2852,
+      "sha256": "56d765cef3dbfc383f6535bf3496fc2ac60eb9a0860e4ae5b762fa1aa3d14d37"
+    },
+    {
+      "path": "qualified_audits/ECON-G12-324.json",
+      "bytes": 2728,
+      "sha256": "ebfafb642213fa6926b53c5475d81be5f36649362882b7e81a8da1475390d8cc"
+    },
+    {
+      "path": "qualified_audits/ECON-G12-354.json",
+      "bytes": 4753,
+      "sha256": "1f0ff045c84af437dcbe340973b725ff5a123b47609392fc75bc705a47937137"
+    },
+    {
+      "path": "qualified_audits/ECON-G12-414.json",
+      "bytes": 3315,
+      "sha256": "94909b6283747bee08cca8c0e86d8862e3850f8dbc4caef938521d1db352f3bd"
+    },
+    {
+      "path": "qualified_audits/ECON-G12-455.json",
+      "bytes": 3356,
+      "sha256": "015855da6cbee95894a614674cd8cabde269e0197f740cc0a9af7f745f23ca88"
+    },
+    {
+      "path": "qualified_audits/ECON-G13-254.json",
+      "bytes": 3476,
+      "sha256": "bdb31acb8f734bd83ba94388820098dbcc855aa75cecede7ff4bb7eae80a2b4b"
+    },
+    {
+      "path": "qualified_audits/ECON-G14-582.json",
+      "bytes": 2622,
+      "sha256": "211c453eb655d61b298f54299de4e005a03504787fb7f8a75657eb04da221be3"
+    },
+    {
+      "path": "qualified_audits/ECON-G21-319.json",
+      "bytes": 2740,
+      "sha256": "b97d26ad56933e15e6ceac7c2eba4bc89875f93cbe1dafd150e90a10ad5a94c5"
+    },
+    {
+      "path": "qualified_audits/ECON-G28-477.json",
+      "bytes": 1908,
+      "sha256": "626184e5bce3420452d83ac73c30ec6b4e044185fe847f471ec954731100ca2b"
+    },
+    {
+      "path": "qualified_audits/ECON-H21-405.json",
+      "bytes": 3243,
+      "sha256": "78ee0b43b9a9a0d494105a03d2052e0dcccf32d871c666e35ae9e70586fa09bd"
+    },
+    {
+      "path": "qualified_audits/ECON-H22-468.json",
+      "bytes": 1713,
+      "sha256": "98ab7027877531e0e17e0bb6444de4c588fdec3d7566e09fc15a5814b21fa2f8"
+    },
+    {
+      "path": "qualified_audits/ECON-H22-617.json",
+      "bytes": 2577,
+      "sha256": "16879e3fd6a22780066963740bae2bcf648c46e52d781a8215bde14b5c7d2169"
+    },
+    {
+      "path": "qualified_audits/ECON-H24-325.json",
+      "bytes": 2906,
+      "sha256": "4a6866edf412c60eb123665ebba01bdd8e965f83019df2475da912b98c542696"
+    },
+    {
+      "path": "qualified_audits/ECON-H26-608.json",
+      "bytes": 2834,
+      "sha256": "ea62cc85357f43fdf12fcd68deb9f8bc6bdf66bd0509a890c4fc7f1e5c693194"
+    },
+    {
+      "path": "qualified_audits/ECON-H55-336.json",
+      "bytes": 2860,
+      "sha256": "3270990594b92a01181a26e35dbca70a46c9191ddf7686e26ff5a7b05d9df07f"
+    },
+    {
+      "path": "qualified_audits/ECON-H77-307.json",
+      "bytes": 2870,
+      "sha256": "7f0c61bd57c5278ff2ca7e08d3ec092a57b8eb4bf88a80d5d9c1ae741da71453"
+    },
+    {
+      "path": "qualified_audits/ECON-I11-551.json",
+      "bytes": 2586,
+      "sha256": "cf4e0e3426162400629b56e5f7360b6069984d1b62b4b17d5918150c00d12d0b"
+    },
+    {
+      "path": "qualified_audits/ECON-I11-561.json",
+      "bytes": 2568,
+      "sha256": "5e3d67b6fa438fd6d2e1466955a016de879e7e7a243e9771a964c0791cf03ad3"
+    },
+    {
+      "path": "qualified_audits/ECON-I13-329.json",
+      "bytes": 2924,
+      "sha256": "cfc24e9260b38ed9211c431aad101bf6590b8215886f7ed4cdc79816103fc253"
+    },
+    {
+      "path": "qualified_audits/ECON-I18-610.json",
+      "bytes": 2693,
+      "sha256": "4f1b284e3e8133e5bcc7a478fa8683c9b48f68be377da1217b6a4413f47535c4"
+    },
+    {
+      "path": "qualified_audits/ECON-I21-615.json",
+      "bytes": 2591,
+      "sha256": "c124dfbaa0cd9f4308118bd00564df50fdf06c1d56fca957b5387997bc62877a"
+    },
+    {
+      "path": "qualified_audits/ECON-I26-412.json",
+      "bytes": 3395,
+      "sha256": "3ee8aa6857c08440f4e363b830b9494ae7956fd148aac518b02b9e3c3be3502d"
+    },
+    {
+      "path": "qualified_audits/ECON-I26-607.json",
+      "bytes": 2690,
+      "sha256": "8054213d89b52ed6f3ab1e34c65593361ce3bd4150ef3ebb96a346fd2c74983f"
+    },
+    {
+      "path": "qualified_audits/ECON-I32-523.json",
+      "bytes": 2030,
+      "sha256": "79f5fd73db7d714ba8dea8c7e4feb52d89ece58c4bee9a14d1ca3b73d4c1ebf3"
+    },
+    {
+      "path": "qualified_audits/ECON-I38-339.json",
+      "bytes": 2869,
+      "sha256": "0374cc955fed142681f1090acf4a9d7cc499b3340411ad3ea8a9e56ee9206a91"
+    },
+    {
+      "path": "qualified_audits/ECON-I38-465.json",
+      "bytes": 3221,
+      "sha256": "d74e7265e3a2c807609583ed0e2c6449623af8cac02bc12eaccba0b49cd05111"
+    },
+    {
+      "path": "qualified_audits/ECON-J16-461.json",
+      "bytes": 3287,
+      "sha256": "9cbfb688db02b081c62c5c8b79c9266ac3c282933b46771d8438c5e8cc2b17dd"
+    },
+    {
+      "path": "qualified_audits/ECON-J38-343.json",
+      "bytes": 2925,
+      "sha256": "d3283ba71441f3e3ea24137dbd429f499392ffeb52b3bcb8fd9ec7dd477123e0"
+    },
+    {
+      "path": "qualified_audits/ECON-J71-423.json",
+      "bytes": 3320,
+      "sha256": "0598921b1929d83cdfa7151eab4690d292d2b018f8bd411a46d00738777affb7"
+    },
+    {
+      "path": "qualified_audits/ECON-L11-310.json",
+      "bytes": 2747,
+      "sha256": "9cecbe801ea50beb9bcdeb35a741d989465895bc1166fa719ab58ce72d8c9824"
+    },
+    {
+      "path": "qualified_audits/ECON-L11-337.json",
+      "bytes": 2847,
+      "sha256": "d3ce42f65517197094dffc4fb4f08bc16fd1ea1908a0c6fc3b692c4bff99ff12"
+    },
+    {
+      "path": "qualified_audits/ECON-L11-566.json",
+      "bytes": 2543,
+      "sha256": "0908a856747501153330871680e9929b044f69af43ab5d26b7b7b789bc8f76e1"
+    },
+    {
+      "path": "qualified_audits/ECON-L13-555.json",
+      "bytes": 4802,
+      "sha256": "90f37cef3f17116c3d37874fedd96ea1a2661ecde086292342a1d34155d15505"
+    },
+    {
+      "path": "qualified_audits/ECON-L26-595.json",
+      "bytes": 2531,
+      "sha256": "530425cd02db73e7ad24a69f5170b3a40ba8cd30235462b62d9833083dbbeec3"
+    },
+    {
+      "path": "qualified_audits/ECON-L41-501.json",
+      "bytes": 1829,
+      "sha256": "d889d8c6dcdc733029a9e64114f4f8c9cc90c3b52aa1aa71af20e95b3a4f6923"
+    },
+    {
+      "path": "qualified_audits/ECON-L41-549.json",
+      "bytes": 2549,
+      "sha256": "87c025911844122702ece69c5be80cb186ed1d8f1f8e435c5c8eece33f35702c"
+    },
+    {
+      "path": "qualified_audits/ECON-L41-605.json",
+      "bytes": 2708,
+      "sha256": "c4ffcb047ced87400a1bb92357a9fc221e2e0a3e8c3c679a8f3a593020fc7c96"
+    },
+    {
+      "path": "qualified_audits/ECON-L41-613.json",
+      "bytes": 2767,
+      "sha256": "33cfd7dc84cc1a756e05fd03af7fe85341c1ad17928c0079c4de16a69a685c50"
+    },
+    {
+      "path": "qualified_audits/ECON-L51-495.json",
+      "bytes": 2005,
+      "sha256": "2553b96e2c1bda8bd30ac89732b45d0a3e3be0944c10ec2248f8752438f64b86"
+    },
+    {
+      "path": "qualified_audits/ECON-L94-388.json",
+      "bytes": 3274,
+      "sha256": "ca67ce8d2774d5a3ccbf1110e4e98f5d6e51585813933483bf1c75b72275d8ba"
+    },
+    {
+      "path": "qualified_audits/ECON-M21-599.json",
+      "bytes": 2740,
+      "sha256": "975c0cf371c04b4fcd16c25dce154d181e2a26f96dee2e502aeaf51f9c6a1c6c"
+    },
+    {
+      "path": "qualified_audits/ECON-O31-626.json",
+      "bytes": 2707,
+      "sha256": "d22b25da184e04f6aad716d6ea98be11b26f8eff645df7ecd68b96650eaeffaf"
+    },
+    {
+      "path": "qualified_audits/ECON-O32-614.json",
+      "bytes": 2917,
+      "sha256": "08d4545dc81e3b6ab4c309311775e3002e8bde59692b3c65df3e372c4bb0d0f3"
+    },
+    {
+      "path": "qualified_audits/ECON-O33-598.json",
+      "bytes": 2625,
+      "sha256": "70409296df09be19b3dc1327108b60180e58c48806801a51508935bcdfa67b47"
+    },
+    {
+      "path": "qualified_audits/ECON-Q54-485.json",
+      "bytes": 1751,
+      "sha256": "c068d72c4057d9d20097659bc97cbcc247e4aba2ea4496c2cb5fafce96cd7243"
+    },
+    {
+      "path": "qualified_audits/ECON-Q57-335.json",
+      "bytes": 2917,
+      "sha256": "5d4de9e255f855f6a5ead88e3fb57fed7dbf2c615b5a98a9223e3d237a1e45df"
+    },
+    {
+      "path": "qualified_audits/ECON-Q58-500.json",
+      "bytes": 1925,
+      "sha256": "051af1d3a17e60b83d8dcc42257a4e968ed43bfe286c4d85af017a433ec35c2e"
+    },
+    {
+      "path": "qualified_audits/ECON-R13-342.json",
+      "bytes": 3108,
+      "sha256": "dee10b7f9105c6891f15bb7b5ef37723f01035ad0c9671258917ddbd61d93c16"
+    },
+    {
+      "path": "qualified_audits/verify_c_summary.json",
+      "bytes": 11078,
+      "sha256": "2a5c534d5b0cdf1fdc41220cabb20c3012c6cdce67128de04921135ca67d147c"
+    },
+    {
+      "path": "reviews/ECON-C12-156/metadata.json",
+      "bytes": 2185,
+      "sha256": "d9c3a88d7922ac5c609ebdf8de6099953cbf91e432c3b46c3a404c2ae3bc303c"
+    },
+    {
+      "path": "reviews/ECON-C12-156/review.md",
+      "bytes": 2840,
+      "sha256": "dadca8e9ebd5e5810f889d52927f0833a412222ca178ba1b06992baf94bef22a"
+    },
+    {
+      "path": "reviews/ECON-C12-156/source_notes.md",
+      "bytes": 1825,
+      "sha256": "a9c62e8eeeb58ad7f08252173085e5d09be3a73cb33e0ba946bbc5971ff22177"
+    },
+    {
+      "path": "reviews/ECON-C14-148/metadata.json",
+      "bytes": 2214,
+      "sha256": "9b4b5200866ee44f93d2fee910d6ebf3c73362efd7e84a75317be82ce6cc392d"
+    },
+    {
+      "path": "reviews/ECON-C14-148/review.md",
+      "bytes": 2708,
+      "sha256": "fb460f99e37dc25494e10993b74ce2f5f146182ef943ca534f97bf6fd1dd339c"
+    },
+    {
+      "path": "reviews/ECON-C14-148/source_notes.md",
+      "bytes": 1893,
+      "sha256": "f122c3aa052ba354730f967e63ea78fdf010a94b35067e677cab602bc6e80a7a"
+    },
+    {
+      "path": "reviews/ECON-C14-169/metadata.json",
+      "bytes": 2169,
+      "sha256": "13f4df545ec6431908b060d644e0bc791922e93bbcc557a3d7375b2ac6ec115b"
+    },
+    {
+      "path": "reviews/ECON-C14-169/review.md",
+      "bytes": 2709,
+      "sha256": "5ff0526990326d5dfeed7fc815b8e7b6f906d5197a1c644343da3d87b74210e0"
+    },
+    {
+      "path": "reviews/ECON-C14-169/source_notes.md",
+      "bytes": 1792,
+      "sha256": "2c88385c8f9c52717afcfa6603559d8a7b4f33fecad01ddb9d2637ffe884fa34"
+    },
+    {
+      "path": "reviews/ECON-C18-215/metadata.json",
+      "bytes": 2159,
+      "sha256": "773bab7db09c7c71ff79c166bab944c1ca16a2c882e712be9a671ac871dc176f"
+    },
+    {
+      "path": "reviews/ECON-C18-215/review.md",
+      "bytes": 2955,
+      "sha256": "e3d9616d2832bfa52ed162916f8e559385e1f2fd19ca6101f3295701d41ede87"
+    },
+    {
+      "path": "reviews/ECON-C18-215/source_notes.md",
+      "bytes": 1815,
+      "sha256": "d691761a046f8d1d6bf27ef94ba3e0b09ed39baeb6308a70c011a055825692ae"
+    },
+    {
+      "path": "reviews/ECON-C21-154/metadata.json",
+      "bytes": 2180,
+      "sha256": "2cddc87e64eefc60f978bac4ce92b087345d772351e3ef39aa2b5d281d9f87e1"
+    },
+    {
+      "path": "reviews/ECON-C21-154/review.md",
+      "bytes": 2675,
+      "sha256": "98f8d4ba9da1e889fbe4c372f29944bf4ae8d5823ce6519ee81194806c580206"
+    },
+    {
+      "path": "reviews/ECON-C21-154/source_notes.md",
+      "bytes": 1829,
+      "sha256": "fcca568a4398bde28896c6a52cd7b915669351168a1d870c30349db678d6b607"
+    },
+    {
+      "path": "reviews/ECON-C21-160/metadata.json",
+      "bytes": 2211,
+      "sha256": "993bda245f5546dccbfe2d6010b761c37670a58fd7eac99bd705d450c4dabb3f"
+    },
+    {
+      "path": "reviews/ECON-C21-160/review.md",
+      "bytes": 2760,
+      "sha256": "b333dec5fa76ec29439784202d93948430c5b6ccd944f37d8f1e47e7fc1f42f7"
+    },
+    {
+      "path": "reviews/ECON-C21-160/source_notes.md",
+      "bytes": 1883,
+      "sha256": "0e82c3a7a3b8f485d08044cd1a03512afbaa49f636726d7a5314f2b2b21c5eb1"
+    },
+    {
+      "path": "reviews/ECON-C21-173/metadata.json",
+      "bytes": 2265,
+      "sha256": "85920dc9a3b0999505c65e12260a7df391a6bc33adad2ef03afad2978b01e549"
+    },
+    {
+      "path": "reviews/ECON-C21-173/review.md",
+      "bytes": 2897,
+      "sha256": "d4ca6af50f17727f5ffc9519da9cbf8997d6b92a5634e0b44b80e44009639fc1"
+    },
+    {
+      "path": "reviews/ECON-C21-173/source_notes.md",
+      "bytes": 1924,
+      "sha256": "dad6f42cd222e79cc8de9c984f4e86f05058f62ed544682315b551d85bb9899c"
+    },
+    {
+      "path": "reviews/ECON-C21-179/metadata.json",
+      "bytes": 2129,
+      "sha256": "8142c171de6c6686505ad36de1cc300c35c0755409eb9e5636e167c38d67ec9f"
+    },
+    {
+      "path": "reviews/ECON-C21-179/review.md",
+      "bytes": 2706,
+      "sha256": "d288b8012bc003442e6356167c4efc3b9f907c8a482c962fc63d50761a196f8b"
+    },
+    {
+      "path": "reviews/ECON-C21-179/source_notes.md",
+      "bytes": 1794,
+      "sha256": "1da3c3bc1c2270da485334fe6f481db285c2e1dd87dac97f3f4858231adefc64"
+    },
+    {
+      "path": "reviews/ECON-C21-184/metadata.json",
+      "bytes": 2141,
+      "sha256": "cf93376afc045f9b132efa33dcc8c43507baec10f74d80cd8f8d28be6fe0251a"
+    },
+    {
+      "path": "reviews/ECON-C21-184/review.md",
+      "bytes": 2790,
+      "sha256": "d7ccb0f02b212d7d6a1f1d23ca67940c57d5ce40867e46c2fcd99dd00f7b12f5"
+    },
+    {
+      "path": "reviews/ECON-C21-184/source_notes.md",
+      "bytes": 1786,
+      "sha256": "b5f4518d4530fd0d9760ca5030ab607239c389158582bc90b495dfcb71f46d4c"
+    },
+    {
+      "path": "reviews/ECON-C21-191/metadata.json",
+      "bytes": 2210,
+      "sha256": "377fea085272d179385c5974066faebf393f35e04aecfc6bd87c47c9176a3b83"
+    },
+    {
+      "path": "reviews/ECON-C21-191/review.md",
+      "bytes": 2775,
+      "sha256": "40a16394fc5a2ea06fcdb8c33f0a7db322fc4fe1974555fa9d74a93859f7fd2e"
+    },
+    {
+      "path": "reviews/ECON-C21-191/source_notes.md",
+      "bytes": 1841,
+      "sha256": "aae1e659f293fcc35e2ac5562bcef77abbd46df972065c64cd3d9b2628cd2437"
+    },
+    {
+      "path": "reviews/ECON-C21-194/metadata.json",
+      "bytes": 2288,
+      "sha256": "c3354fc4b7cf9776f04360f48d8d6719d868c4eae21d7e8c4b8bd0ae645f5204"
+    },
+    {
+      "path": "reviews/ECON-C21-194/review.md",
+      "bytes": 3223,
+      "sha256": "8f9a91d7cdf78dd07fa882ada1fc4d304a2beb5df7d9b7092c74ff06aa34f3a5"
+    },
+    {
+      "path": "reviews/ECON-C21-194/source_notes.md",
+      "bytes": 1774,
+      "sha256": "7fcab03ef423381c1867ac8c53fe0b8ed58e557e9dd9e58eabcf1d4acb01bf12"
+    },
+    {
+      "path": "reviews/ECON-C21-202/metadata.json",
+      "bytes": 2214,
+      "sha256": "aadb4d9480bd7085e396658f814f46837df7873acd46fa085b68b6091a3fb2e4"
+    },
+    {
+      "path": "reviews/ECON-C21-202/review.md",
+      "bytes": 2857,
+      "sha256": "043c347bf915cbd124dd8eeff93e51c083ae7e45325e2c5262296f66ef317fbf"
+    },
+    {
+      "path": "reviews/ECON-C21-202/source_notes.md",
+      "bytes": 1847,
+      "sha256": "75e5886461a91593bb1071bfbecb013193e36c84d8faf1fdd887f5fd3057de12"
+    },
+    {
+      "path": "reviews/ECON-C21-469/metadata.json",
+      "bytes": 1355,
+      "sha256": "1dba972a1b4c46acf23f05f2570ca7a9db6f46f86685f7315c565fcfc1addc5b"
+    },
+    {
+      "path": "reviews/ECON-C21-469/review.md",
+      "bytes": 3258,
+      "sha256": "59d45ea058a6f046ce7770c212ad1e96b36ec6ba1fddd579a5fa5a95f49e1c3e"
+    },
+    {
+      "path": "reviews/ECON-C21-469/source_notes.md",
+      "bytes": 638,
+      "sha256": "8920f9dfbac735ddca28d24b274e75fd2638e7ab17d176b36e7a7b8ee7581b43"
+    },
+    {
+      "path": "reviews/ECON-C21-494/metadata.json",
+      "bytes": 1354,
+      "sha256": "9a6b1860bbb5a304af99eb19e792bfc3958f26bc8cd295261b7a1d6447801b6b"
+    },
+    {
+      "path": "reviews/ECON-C21-494/review.md",
+      "bytes": 3701,
+      "sha256": "a04bbfd62e7da8a4081609c7c210940b0d8d8f36d3be5d2799e261de50752464"
+    },
+    {
+      "path": "reviews/ECON-C21-494/source_notes.md",
+      "bytes": 643,
+      "sha256": "6170b0ceb389ccdd00074d2b2c376f8b039029772c41f3110bebea75c270f967"
+    },
+    {
+      "path": "reviews/ECON-C23-188/metadata.json",
+      "bytes": 2597,
+      "sha256": "59f95990e9a57daa584a6b5c8d70fbcdb72c4fbe504aa8eba22385848b4680d1"
+    },
+    {
+      "path": "reviews/ECON-C23-188/review.md",
+      "bytes": 3000,
+      "sha256": "f908bc3d3edb4a3b304a7d569d70ead336342c3cc301c0ffed91e740af42a6c1"
+    },
+    {
+      "path": "reviews/ECON-C23-188/source_notes.md",
+      "bytes": 2134,
+      "sha256": "448cca83089e37ae7b44072143bde795e3e3ca8ae5cab638109698317fc01f78"
+    },
+    {
+      "path": "reviews/ECON-C24-509/metadata.json",
+      "bytes": 1364,
+      "sha256": "e55a31383878e826d529485e33663f25ccfd3301da048927f7cec7d98187d086"
+    },
+    {
+      "path": "reviews/ECON-C24-509/review.md",
+      "bytes": 3454,
+      "sha256": "f63e48ff68202a38c41384660ca375abcb61bd8b8d7b810ee16aa41796105a8a"
+    },
+    {
+      "path": "reviews/ECON-C24-509/source_notes.md",
+      "bytes": 636,
+      "sha256": "2f48fa22a79b49afd40e9d49730808d13cbb2a374dbd26d38808e072cf2a122b"
+    },
+    {
+      "path": "reviews/ECON-C26-181/metadata.json",
+      "bytes": 2127,
+      "sha256": "d2f398ee4a40805443fdb3a0dffbc4918b4119de3a99455026c63b5a60cfea85"
+    },
+    {
+      "path": "reviews/ECON-C26-181/review.md",
+      "bytes": 2690,
+      "sha256": "8e682e625847ce2906d7fa344c5fec804291ee7580ce48da1a1c94cf7278b21a"
+    },
+    {
+      "path": "reviews/ECON-C26-181/source_notes.md",
+      "bytes": 1755,
+      "sha256": "a5e68232e6986b4515286dd6abc59fac3027af92a61157bcec7ab2987eabf619"
+    },
+    {
+      "path": "reviews/ECON-C31-168/metadata.json",
+      "bytes": 2613,
+      "sha256": "f17f5c522429d79ac12b6b31a1d468cab75085d3384817946a6fb2731941bc65"
+    },
+    {
+      "path": "reviews/ECON-C31-168/review.md",
+      "bytes": 3315,
+      "sha256": "69944ce6a822c2e5fa2d9781f30704fe4713bd74abb888479f3bc06da908d0f7"
+    },
+    {
+      "path": "reviews/ECON-C31-168/source_notes.md",
+      "bytes": 2152,
+      "sha256": "f1e69b7599a7e6226e721ddf934f9eaf29b95e34781ea3494469923c1a0ef369"
+    },
+    {
+      "path": "reviews/ECON-C31-491/metadata.json",
+      "bytes": 1403,
+      "sha256": "d90865f9cd2133264034be7d230eb847d3d310cb4580103f0cd6d871e31088e2"
+    },
+    {
+      "path": "reviews/ECON-C31-491/review.md",
+      "bytes": 3453,
+      "sha256": "b7edfb2558df1e65e4a774f27b2b9db66b7853fb81c9ff0f9811a36d5f731b8f"
+    },
+    {
+      "path": "reviews/ECON-C31-491/source_notes.md",
+      "bytes": 638,
+      "sha256": "db70ba05f882a06f1e2b5cc7526c0b1ad803145b8c720483e76f1e2659fec992"
+    },
+    {
+      "path": "reviews/ECON-C32-504/metadata.json",
+      "bytes": 1359,
+      "sha256": "bd4421492880af968ad6908822cc607b3ab56af2537261a23d98b858f7bba6f7"
+    },
+    {
+      "path": "reviews/ECON-C32-504/review.md",
+      "bytes": 3418,
+      "sha256": "3821c2341044876480ca218e2660d35114fab8292595f4439e862da6621bbcf6"
+    },
+    {
+      "path": "reviews/ECON-C32-504/source_notes.md",
+      "bytes": 640,
+      "sha256": "f73d5df58bb088bf1c35e579ccac981dcd32cd4c9c1d47a554b81345ca03b18c"
+    },
+    {
+      "path": "reviews/ECON-C44-186/metadata.json",
+      "bytes": 2168,
+      "sha256": "a24e706edf035741d116c1a5f559d7df0dc02414cc7c01de99cc0adbfeb5db27"
+    },
+    {
+      "path": "reviews/ECON-C44-186/review.md",
+      "bytes": 2891,
+      "sha256": "7ded412535c69e3864b256bcdb9df85ca3ed8d7bb86f9493faf81352e8bd5e6e"
+    },
+    {
+      "path": "reviews/ECON-C44-186/source_notes.md",
+      "bytes": 1807,
+      "sha256": "0ea5b750b22892ec69195264d3a37e277ac25c8f88768c2be9040a3b3f333c74"
+    },
+    {
+      "path": "reviews/ECON-C63-149/metadata.json",
+      "bytes": 2197,
+      "sha256": "c121a23cc1b1eedc40a62bd3c4f0613419035dd995ab30d0ca6a46973e6a4611"
+    },
+    {
+      "path": "reviews/ECON-C63-149/review.md",
+      "bytes": 2680,
+      "sha256": "d7256f316ae6dfe6beba3c9d78e4d5bc44e29e030241c6f48a5057c1afae987c"
+    },
+    {
+      "path": "reviews/ECON-C63-149/source_notes.md",
+      "bytes": 1802,
+      "sha256": "edc585f67004746105cddbd386eb1267acfa1835e0c1363d300b0a753e6b7db8"
+    },
+    {
+      "path": "reviews/ECON-C72-153/metadata.json",
+      "bytes": 2224,
+      "sha256": "0fb62f58f98c0b77aa57c5b52d4dd04638eb80d5596695bd98a84bf5e4200d88"
+    },
+    {
+      "path": "reviews/ECON-C72-153/review.md",
+      "bytes": 2924,
+      "sha256": "27df03872d912161f8790dceca68eda0af5a984c21946a472139539567e91e90"
+    },
+    {
+      "path": "reviews/ECON-C72-153/source_notes.md",
+      "bytes": 1862,
+      "sha256": "e005a67bd78e89fd19da01824987bdbc9f8487687b28b17e744b925b66fbbcbf"
+    },
+    {
+      "path": "reviews/ECON-C72-488/metadata.json",
+      "bytes": 1371,
+      "sha256": "c6e4b05c139663cb6b7f884a6aeef9a42ca4f3aeba35407579ae36a9372a7d00"
+    },
+    {
+      "path": "reviews/ECON-C72-488/review.md",
+      "bytes": 3233,
+      "sha256": "335ab00b3b8816f3dfa5efce12d9d9e8e13d5f7b91cb423cdc0254e063a3884c"
+    },
+    {
+      "path": "reviews/ECON-C72-488/source_notes.md",
+      "bytes": 651,
+      "sha256": "5608e11a6e5e5184940b97cc9e9425af6a09a9652b2108676e1d6dbc2f56cd73"
+    },
+    {
+      "path": "reviews/ECON-C72-489/metadata.json",
+      "bytes": 1401,
+      "sha256": "5b8d72a17890ba7660fe83b702e426f340ae0619a08cb657c734d8b502403c7f"
+    },
+    {
+      "path": "reviews/ECON-C72-489/review.md",
+      "bytes": 3627,
+      "sha256": "8ac0b408105399b1476398041a265160c5274f48b7949f8359211e5a06e2b1e9"
+    },
+    {
+      "path": "reviews/ECON-C72-489/source_notes.md",
+      "bytes": 612,
+      "sha256": "db0629f4a9e0385f31be0c1e1828c9b1aa6c16e6760d9fa0275d2363804e3caf"
+    },
+    {
+      "path": "reviews/ECON-C73-159/metadata.json",
+      "bytes": 2144,
+      "sha256": "a04ed1859def58c220a2d5d2c76617f2d799367235ba1603e1f041462b5f6dce"
+    },
+    {
+      "path": "reviews/ECON-C73-159/review.md",
+      "bytes": 2763,
+      "sha256": "87439fee028b54a71929fd80691c73c838c9b099ca114d1823dd54d692961a6f"
+    },
+    {
+      "path": "reviews/ECON-C73-159/source_notes.md",
+      "bytes": 1766,
+      "sha256": "f3d4a4f44e127a9ba8924c124a64e2c020d95e174152157f14bfba57841dc401"
+    },
+    {
+      "path": "reviews/ECON-C73-487/metadata.json",
+      "bytes": 1418,
+      "sha256": "7751c6f8f8b4225b0fd6fb6b203be2937401eb9cb95e5175f4bfc91c22b12990"
+    },
+    {
+      "path": "reviews/ECON-C73-487/review.md",
+      "bytes": 3434,
+      "sha256": "d1abf56860a98bf99407e79590b5daab1db76addcb549135f769d534c3eb6add"
+    },
+    {
+      "path": "reviews/ECON-C73-487/source_notes.md",
+      "bytes": 656,
+      "sha256": "4c606186acc9fff49c74372a4327fea300b1aac7bcc43fb53ac7eb47f7b74f35"
+    },
+    {
+      "path": "reviews/ECON-C73-492/metadata.json",
+      "bytes": 1290,
+      "sha256": "bd5237706825220b6776675ba3177605581f6a50cfc4bb23c4a16373d53ac1a5"
+    },
+    {
+      "path": "reviews/ECON-C73-492/review.md",
+      "bytes": 3419,
+      "sha256": "72d5b5764560c0736f691fc508dd287906d7dafc3d53c213e4ec5d21ed41aa67"
+    },
+    {
+      "path": "reviews/ECON-C73-492/source_notes.md",
+      "bytes": 608,
+      "sha256": "c03815ee245e6e80038662e9ad094fa7cceef186aa911a305278313ff90e7aaf"
+    },
+    {
+      "path": "reviews/ECON-C73-496/metadata.json",
+      "bytes": 1368,
+      "sha256": "268fa7826ef0723cdcc7976c81cdc6b3718024fb85605782590ee93fe258ec0d"
+    },
+    {
+      "path": "reviews/ECON-C73-496/review.md",
+      "bytes": 3469,
+      "sha256": "ac22bba4565a209b84af7bb8e5c55895b00d7d47ca4847f72c7de141575a324f"
+    },
+    {
+      "path": "reviews/ECON-C73-496/source_notes.md",
+      "bytes": 643,
+      "sha256": "92e973ac9b2d669da7ce83ed5728e390959ab630cebab55a59f0ca0f501a3359"
+    },
+    {
+      "path": "reviews/ECON-C73-532/metadata.json",
+      "bytes": 1529,
+      "sha256": "1bd8851e1b527844e31d2e21500cb47ada4366f5238ab17324df74b424a8116d"
+    },
+    {
+      "path": "reviews/ECON-C73-532/review.md",
+      "bytes": 3850,
+      "sha256": "bba7f2a584433acc338bbe6479d84688351f697dec7e2bfe64a9aa6bbbd808f3"
+    },
+    {
+      "path": "reviews/ECON-C73-532/source_notes.md",
+      "bytes": 637,
+      "sha256": "f94751410b249ae62ae4bb7266285cd16cba577143097d6db00a37ee707fd2a4"
+    },
+    {
+      "path": "reviews/ECON-C78-165/metadata.json",
+      "bytes": 2161,
+      "sha256": "b1c90cccdc2f840134f1b0d84fa778e7c7f877c13a1df25a94fc8bf6481df8df"
+    },
+    {
+      "path": "reviews/ECON-C78-165/review.md",
+      "bytes": 2862,
+      "sha256": "b2c5ba56a9086989c660366d4b7552c503958026f8dd02a1eb3d62280098993a"
+    },
+    {
+      "path": "reviews/ECON-C78-165/source_notes.md",
+      "bytes": 1806,
+      "sha256": "b289e35baae7b9a9fc50e7ab21a346fd49e54d934deb4a03c46e92d12071d521"
+    },
+    {
+      "path": "reviews/ECON-C78-175/metadata.json",
+      "bytes": 2272,
+      "sha256": "092538edf37b9157d4cd899cc587d1765a122a92c29128e9a3dbf02a4e094eb7"
+    },
+    {
+      "path": "reviews/ECON-C78-175/review.md",
+      "bytes": 3237,
+      "sha256": "23aecc78a9e6d5ac5314723adfa108433507dbb4a3bfa527f4ad8f56f1e965e0"
+    },
+    {
+      "path": "reviews/ECON-C78-175/source_notes.md",
+      "bytes": 1914,
+      "sha256": "8111af38f1d24144fe012f8c58d5ff5493561508cdbd4957361004f1a4f295e7"
+    },
+    {
+      "path": "reviews/ECON-C78-178/metadata.json",
+      "bytes": 2654,
+      "sha256": "dbf82f67aef15509dfb19a67af359fe86ba7e504b823d9d7a179ce3298c3535e"
+    },
+    {
+      "path": "reviews/ECON-C78-178/review.md",
+      "bytes": 3267,
+      "sha256": "a150ecd553bed72fb6c7acc14e2e2bcfebd7d6708659f3af0c1cc89183b3ca2d"
+    },
+    {
+      "path": "reviews/ECON-C78-178/source_notes.md",
+      "bytes": 2151,
+      "sha256": "3462e4f496504f761f14ecebf7ee3fab605aaaa5f0a43826935187a266b93c8f"
+    },
+    {
+      "path": "reviews/ECON-C78-511/metadata.json",
+      "bytes": 1378,
+      "sha256": "aa044e85ac4adfad89482acc86099640f30d7b3a2cef78881a733705a9286c99"
+    },
+    {
+      "path": "reviews/ECON-C78-511/review.md",
+      "bytes": 3793,
+      "sha256": "465ea46204fd838b21c1f4237e57c19bf23c0ea0ad1814ca15704b22b3f3c02e"
+    },
+    {
+      "path": "reviews/ECON-C78-511/source_notes.md",
+      "bytes": 635,
+      "sha256": "0311951c300e2751511e9719a1b43b445bca9d650965dc4a34dc6885b9d2dedc"
+    },
+    {
+      "path": "reviews/ECON-D12-516/metadata.json",
+      "bytes": 1278,
+      "sha256": "3e0631ece491859dc0c6c1bbe3ccf992ed7f00ee487e0b63bfb91706671846ec"
+    },
+    {
+      "path": "reviews/ECON-D12-516/review.md",
+      "bytes": 3486,
+      "sha256": "83fbf7c0d3774d3688153c40e6625bec16f19db147bf9e23c3a526a73d252426"
+    },
+    {
+      "path": "reviews/ECON-D12-516/source_notes.md",
+      "bytes": 599,
+      "sha256": "2f4705a12ec0742a278e55ced31f54e0aae1d41ce583dc6bd9157732a47b37eb"
+    },
+    {
+      "path": "reviews/ECON-D44-171/metadata.json",
+      "bytes": 2168,
+      "sha256": "a84a9e55d587e55ac25ad1666635957b4f67ccc85fb2a94b6d676aae9d50a5dd"
+    },
+    {
+      "path": "reviews/ECON-D44-171/review.md",
+      "bytes": 2687,
+      "sha256": "1c380f048adb7caa2b0fc82ca534d92247e5642560dc04a20b745517fcd3a1f8"
+    },
+    {
+      "path": "reviews/ECON-D44-171/source_notes.md",
+      "bytes": 1814,
+      "sha256": "792d5e94dea85829c577198e1b6d14c80820f2a4bb83d9ce55ea6ae743b436bf"
+    },
+    {
+      "path": "reviews/ECON-D44-196/metadata.json",
+      "bytes": 2501,
+      "sha256": "446034dd875c804edbfc7a8c284641fb44b4b7199ff38aab8a2bd3f459fc5e97"
+    },
+    {
+      "path": "reviews/ECON-D44-196/review.md",
+      "bytes": 2984,
+      "sha256": "fcdeeae1cc2db7cdbea9be9dd1cb5c6e14fc4e8f30854e61b299b7c32fd50370"
+    },
+    {
+      "path": "reviews/ECON-D44-196/source_notes.md",
+      "bytes": 2034,
+      "sha256": "37cff618e2f60968aabf092e8cac448b89b572ddf7f652010f4a6bfccb84417f"
+    },
+    {
+      "path": "reviews/ECON-D60-517/metadata.json",
+      "bytes": 1321,
+      "sha256": "9ba1750abc4aaf7e713ce07934480f718ccb196b2a7f9824d741a397f5bc5b49"
+    },
+    {
+      "path": "reviews/ECON-D60-517/review.md",
+      "bytes": 3297,
+      "sha256": "f0a0f75a4f5451cfa34cf917b178b9b87c45f81e259030997010ac9b2a6bbc4b"
+    },
+    {
+      "path": "reviews/ECON-D60-517/source_notes.md",
+      "bytes": 623,
+      "sha256": "55ff00b56819bf68c205c8bcbf2ae149f4cf7bddb4b0d703551cec859d8f0312"
+    },
+    {
+      "path": "reviews/ECON-D60-518/metadata.json",
+      "bytes": 1346,
+      "sha256": "a450215423549a66ec4aefd69df9836df2795f067d0e786d60f826978b37ae42"
+    },
+    {
+      "path": "reviews/ECON-D60-518/review.md",
+      "bytes": 3471,
+      "sha256": "0f0fd91c7651791a9c4065249d45bf4310c9c9786188a2de4e97063a3627f63a"
+    },
+    {
+      "path": "reviews/ECON-D60-518/source_notes.md",
+      "bytes": 615,
+      "sha256": "2c94e8656abe456001acf3eb12ede1754ca97b50fac5f823f1e3bcfc4c0e2a49"
+    },
+    {
+      "path": "reviews/ECON-D63-158/metadata.json",
+      "bytes": 2578,
+      "sha256": "d164ef268e140122f20de90b54a6b48544de4c4a6a7ab4ebc513e903df3a6e3b"
+    },
+    {
+      "path": "reviews/ECON-D63-158/review.md",
+      "bytes": 3220,
+      "sha256": "b8e8538ee415f01f673c9d0d91d74d17789af636e50fb036eac7ca4ed5313fb8"
+    },
+    {
+      "path": "reviews/ECON-D63-158/source_notes.md",
+      "bytes": 2151,
+      "sha256": "26cc1fa22f286b0df06b82f25b8eb11fd2101320eec06f2d4e1616ea05eb6bd5"
+    },
+    {
+      "path": "reviews/ECON-D63-177/metadata.json",
+      "bytes": 2588,
+      "sha256": "e2259f6d5a579141c067f47a8a793a491bab9bfb0a3e97ed2c6cd1a3100430d5"
+    },
+    {
+      "path": "reviews/ECON-D63-177/review.md",
+      "bytes": 3104,
+      "sha256": "c02ed76ecf3c323fb2da62b95d8440b773f6dbac535415e027e625780ad43d3d"
+    },
+    {
+      "path": "reviews/ECON-D63-177/source_notes.md",
+      "bytes": 2138,
+      "sha256": "c525537bb508b1ee9115e48013f4b290c8ce875e3bc6d9263abb6d950fb9bd81"
+    },
+    {
+      "path": "reviews/ECON-D63-473/metadata.json",
+      "bytes": 1343,
+      "sha256": "1f8a839a0d76ecc78d0b63a6a12beb211b93be2971ed1d6a510d53073e4a4638"
+    },
+    {
+      "path": "reviews/ECON-D63-473/review.md",
+      "bytes": 3495,
+      "sha256": "7a967b60fa545f14ba891ddddeebe81db0142b1d42ee4cf8e0021aceffa96348"
+    },
+    {
+      "path": "reviews/ECON-D63-473/source_notes.md",
+      "bytes": 645,
+      "sha256": "59982e23c2f9289177894a44e5bbae4925a31cc9d8651e9aed9c3e5073a32ec7"
+    },
+    {
+      "path": "reviews/ECON-D71-180/metadata.json",
+      "bytes": 2565,
+      "sha256": "383f50b29508889cc1cf50de33c825e7934160dde6ea1f5f342fead37ed04431"
+    },
+    {
+      "path": "reviews/ECON-D71-180/review.md",
+      "bytes": 3012,
+      "sha256": "c04660b174167d85ae8d662677d1f39925da49ec0192ca72286e0df89fee58a5"
+    },
+    {
+      "path": "reviews/ECON-D71-180/source_notes.md",
+      "bytes": 2088,
+      "sha256": "89482751ad8cb80b6a4f1ccc2af0922d75f1dfb31ca14277b3be9119c60e63f6"
+    },
+    {
+      "path": "reviews/ECON-D71-190/metadata.json",
+      "bytes": 2578,
+      "sha256": "b194f994081946e072c86862246ad26503c90afbd0afbdf345bbcbce8d1d1996"
+    },
+    {
+      "path": "reviews/ECON-D71-190/review.md",
+      "bytes": 3207,
+      "sha256": "1d35ac30f5ab4253e2bab441945ee88b038d0d9106d66c3bb73b0a4abd9ab205"
+    },
+    {
+      "path": "reviews/ECON-D71-190/source_notes.md",
+      "bytes": 2125,
+      "sha256": "af6b49615307b736d1717907dc25895eedb01c9b06f050879e33aef14ffc2a2d"
+    },
+    {
+      "path": "reviews/ECON-D82-151/metadata.json",
+      "bytes": 2208,
+      "sha256": "0664b9b3802d5fae4121844f46be0f051d1da414f295679d9c9b416b9de45aae"
+    },
+    {
+      "path": "reviews/ECON-D82-151/review.md",
+      "bytes": 2876,
+      "sha256": "d3709a596d9426edf238ffb4e991b1a59e8dbca42af852c57be8203dc479646c"
+    },
+    {
+      "path": "reviews/ECON-D82-151/source_notes.md",
+      "bytes": 1854,
+      "sha256": "108e5b0d8ee98fc7dad5140111e5e412d1293deecd7127a0a1bb74ff994052f0"
+    },
+    {
+      "path": "reviews/ECON-D82-172/metadata.json",
+      "bytes": 2540,
+      "sha256": "4f6f1a018838dc7366dfd98ce1e48f243eb141326a1856d502cd440bc855a24a"
+    },
+    {
+      "path": "reviews/ECON-D82-172/review.md",
+      "bytes": 2949,
+      "sha256": "5d7af9d62d4522493079f38f217e45c53da18c1590be82a4eeddf1b1e447cd07"
+    },
+    {
+      "path": "reviews/ECON-D82-172/source_notes.md",
+      "bytes": 2086,
+      "sha256": "25e6603ca504a1094b1f52c518a75ba838aaefd8b88f00c0042e96f0be207805"
+    },
+    {
+      "path": "reviews/ECON-D82-189/metadata.json",
+      "bytes": 2529,
+      "sha256": "a61b1e9df9035e5a018e09b20c8cfc1de1b26dbe16edece3c6954dc3f1f8b7cc"
+    },
+    {
+      "path": "reviews/ECON-D82-189/review.md",
+      "bytes": 3074,
+      "sha256": "07bcbf6169fccff36c9045e2d48baab9a96592c22b36f21015c08b3ff8e63c3f"
+    },
+    {
+      "path": "reviews/ECON-D82-189/source_notes.md",
+      "bytes": 2063,
+      "sha256": "9f8218bd75533a639cb8682f3e229e615b462e2063313cebb866f6a87341bc10"
+    },
+    {
+      "path": "reviews/ECON-D82-513/metadata.json",
+      "bytes": 1298,
+      "sha256": "6eb00a18e6cc2ae87a5a2dbaab8249caa652fb0774006f6fc6fd4548779129bc"
+    },
+    {
+      "path": "reviews/ECON-D82-513/review.md",
+      "bytes": 3283,
+      "sha256": "36200e15158c9ce3e5127a573264d24571c1f8d1e284515d7ee988afe384f694"
+    },
+    {
+      "path": "reviews/ECON-D82-513/source_notes.md",
+      "bytes": 633,
+      "sha256": "4e96df2b33029eaf28cfde7f1cde2466a87cee94c39c3071b2890cc5499ee800"
+    },
+    {
+      "path": "reviews/ECON-D83-479/metadata.json",
+      "bytes": 1319,
+      "sha256": "f34af3001cde8c938d1c0ba29528956e26854e6f67e8ebbaa58ea1135b0340b4"
+    },
+    {
+      "path": "reviews/ECON-D83-479/review.md",
+      "bytes": 3685,
+      "sha256": "d6a1c259013dc76c626434e64e39270dfaabb654f9135aa2104fb07f0fbf6050"
+    },
+    {
+      "path": "reviews/ECON-D83-479/source_notes.md",
+      "bytes": 636,
+      "sha256": "b273403e02c32ce34502b526f75ac14e91e201cabb575ce6cffe9877e77da624"
+    },
+    {
+      "path": "reviews/ECON-D83-521/metadata.json",
+      "bytes": 1280,
+      "sha256": "41925fc7119dd044dd88fd48fd8caaf99d9929fc42225b57a38bc99b1737f028"
+    },
+    {
+      "path": "reviews/ECON-D83-521/review.md",
+      "bytes": 3506,
+      "sha256": "8ec55bb3993bf36b4c5f04f39e77b106b74cf6e79cd5a09b4e493b711a8a60c2"
+    },
+    {
+      "path": "reviews/ECON-D83-521/source_notes.md",
+      "bytes": 612,
+      "sha256": "7ffb83ba466b832dc96860b0489ab4f6719587d6d7936873eb3c61214c98ee43"
+    },
+    {
+      "path": "reviews/ECON-D84-472/metadata.json",
+      "bytes": 1379,
+      "sha256": "c0111ff5c82e41e9566a2babe4af96c6b6de720e8264a3d99e20d77c653f8e3e"
+    },
+    {
+      "path": "reviews/ECON-D84-472/review.md",
+      "bytes": 3466,
+      "sha256": "fc7863f801602dcd36d4c85233b3b9ee879cfa42a055ee60c0b7d0eea67407ab"
+    },
+    {
+      "path": "reviews/ECON-D84-472/source_notes.md",
+      "bytes": 635,
+      "sha256": "bbf249ee1409a9e638c2e71471c88b0e7cfaf5f6d24743a0c4b06639b0b0ffa0"
+    },
+    {
+      "path": "reviews/ECON-D91-482/metadata.json",
+      "bytes": 1391,
+      "sha256": "d01dfb0674a42469ab31f724f1b0880bfa2e05c9dc0a7d2cf2f0ffc854ad7d20"
+    },
+    {
+      "path": "reviews/ECON-D91-482/review.md",
+      "bytes": 3511,
+      "sha256": "f893edc6256851213eee533c11ea832d08c3d6f34977f80deca2bace0536a118"
+    },
+    {
+      "path": "reviews/ECON-D91-482/source_notes.md",
+      "bytes": 619,
+      "sha256": "45a5cb679a119df894ec38fc360fc16335f52b29cbb2acc0cd6eff3c3f84171b"
+    },
+    {
+      "path": "reviews/ECON-D91-499/metadata.json",
+      "bytes": 1337,
+      "sha256": "1eae394d8dc18a466ca20c7062bdce8322e5070838a925761a3581479c700f4d"
+    },
+    {
+      "path": "reviews/ECON-D91-499/review.md",
+      "bytes": 3608,
+      "sha256": "ccfcb44f87f031ae79c7a107c2dc2b53114903be57b9ca82f6e44c9ee48a4860"
+    },
+    {
+      "path": "reviews/ECON-D91-499/source_notes.md",
+      "bytes": 624,
+      "sha256": "64e444167b63b5f2eb43f59e8a280c978589bbf5e8142fdd0156708708c79be5"
+    },
+    {
+      "path": "reviews/ECON-D91-507/metadata.json",
+      "bytes": 1270,
+      "sha256": "37984e22d18a27f34eabc43456dc8bc6317c70d07a6e4c74cebf43544959a498"
+    },
+    {
+      "path": "reviews/ECON-D91-507/review.md",
+      "bytes": 3577,
+      "sha256": "9223282bd58476ace17690c3144036bf7788449944aee6eddff87a400329b1ca"
+    },
+    {
+      "path": "reviews/ECON-D91-507/source_notes.md",
+      "bytes": 620,
+      "sha256": "89e919248060cdac40ec3d553860198a2c3c07a5115546f4dc1d30166faa965a"
+    },
+    {
+      "path": "reviews/ECON-D91-538/metadata.json",
+      "bytes": 1281,
+      "sha256": "7578d7bea4ec2d5c995324ad1134cbbaeaab0302e9462857af3ad6525d07ff8c"
+    },
+    {
+      "path": "reviews/ECON-D91-538/review.md",
+      "bytes": 3498,
+      "sha256": "895e41a2d9787ce880a591befae6b57b0ec51251e3b3b1add3144d5df08863e6"
+    },
+    {
+      "path": "reviews/ECON-D91-538/source_notes.md",
+      "bytes": 611,
+      "sha256": "e962939ff2030129f8f6b30c808cf20b020a036c126abdb428dc410eab4296ed"
+    },
+    {
+      "path": "reviews/ECON-E31-467/metadata.json",
+      "bytes": 1356,
+      "sha256": "7e8f98354dcf2ba06e7a77e98b3f946d7db99015b0e53c254de455d42332a1f7"
+    },
+    {
+      "path": "reviews/ECON-E31-467/review.md",
+      "bytes": 3358,
+      "sha256": "dcc23c8bb2e2626069bdf4ba02217a17aa0745347f494b09ffdf202c11e8f842"
+    },
+    {
+      "path": "reviews/ECON-E31-467/source_notes.md",
+      "bytes": 612,
+      "sha256": "b57bf476f502bdb72ca5ee7e7a02e47dcc750b9151d75796cd49818397c3b144"
+    },
+    {
+      "path": "reviews/ECON-E32-471/metadata.json",
+      "bytes": 1375,
+      "sha256": "74d04fddc28dac9f94ce08e8b52e8aef4c81ef795f876f3dea395aca3e1a6380"
+    },
+    {
+      "path": "reviews/ECON-E32-471/review.md",
+      "bytes": 3457,
+      "sha256": "5c8f3e1c8e1aa88f438c044e5af6df074c213f313ce4588bb1c9b6aec1641f6c"
+    },
+    {
+      "path": "reviews/ECON-E32-471/source_notes.md",
+      "bytes": 611,
+      "sha256": "e57aa936eac77a083690dff1ae237253fe2fc1a1669065e33e51e36cac2618d1"
+    },
+    {
+      "path": "reviews/ECON-G28-477/metadata.json",
+      "bytes": 1339,
+      "sha256": "18cf8f0607d4db8b7556ff23a59a40df7abe739bf1aba729ff414263118915c9"
+    },
+    {
+      "path": "reviews/ECON-G28-477/review.md",
+      "bytes": 3438,
+      "sha256": "0136209f9f19b933f1311375fb1d5eca485c5b7b97746fbcb91a258272e446df"
+    },
+    {
+      "path": "reviews/ECON-G28-477/source_notes.md",
+      "bytes": 605,
+      "sha256": "12e0c0cd578a3a13fa7eab30dd7a44efa7b0d6afff8661dcb16894c738349db2"
+    },
+    {
+      "path": "reviews/ECON-H22-468/metadata.json",
+      "bytes": 1330,
+      "sha256": "f1d7563d2eb8f989553d4ba99c3b44a3b4d23b3d6319b05c5780e86181383f2f"
+    },
+    {
+      "path": "reviews/ECON-H22-468/review.md",
+      "bytes": 3162,
+      "sha256": "7f8bbc753ff6f62ef37044ee66ad732c61593fc3472e9f668065a9d10e36f06b"
+    },
+    {
+      "path": "reviews/ECON-H22-468/source_notes.md",
+      "bytes": 605,
+      "sha256": "5d4aaef7aea1be58a66fb6f8584f1d720825e3d79b0cec78ec8fccf29352822d"
+    },
+    {
+      "path": "reviews/ECON-I32-523/metadata.json",
+      "bytes": 1344,
+      "sha256": "d4ba5cee8a11462e105b026114f0d0e359d26a3011529fa0294a027c85f3c45b"
+    },
+    {
+      "path": "reviews/ECON-I32-523/review.md",
+      "bytes": 3441,
+      "sha256": "5d2626fd754f227a6fc80b6a14c5fe97eb91bcf9d2c605a74ce1d36a31100481"
+    },
+    {
+      "path": "reviews/ECON-I32-523/source_notes.md",
+      "bytes": 630,
+      "sha256": "f956ce5d237ff83f05982725118f1123e31ea858d88d2cd26e15a93bb1fd1ac0"
+    },
+    {
+      "path": "reviews/ECON-L41-501/metadata.json",
+      "bytes": 1240,
+      "sha256": "920d26ff572feb4a6a79f9f232ff67af56518ecb80c9d78cef6632479f16b9ff"
+    },
+    {
+      "path": "reviews/ECON-L41-501/review.md",
+      "bytes": 3374,
+      "sha256": "5b304bd58359711e0d20e17ca2d8f1eaec0ce90b1848732354765bb955cb726c"
+    },
+    {
+      "path": "reviews/ECON-L41-501/source_notes.md",
+      "bytes": 601,
+      "sha256": "15560f8cd43ae1671e01910d6806f0ad4d776f177e12721be662eaf7292e11be"
+    },
+    {
+      "path": "reviews/ECON-L51-495/metadata.json",
+      "bytes": 1386,
+      "sha256": "507906e59013e3d8d7a32ade161366959845c1b70d9f7eb3c0a5cb2d4979922d"
+    },
+    {
+      "path": "reviews/ECON-L51-495/review.md",
+      "bytes": 3483,
+      "sha256": "c76480bf648c3162add6a42b5afa25b8f05a4643caf86160d848a0c290a329dd"
+    },
+    {
+      "path": "reviews/ECON-L51-495/source_notes.md",
+      "bytes": 615,
+      "sha256": "7ebeb266c60a6c9c637d05b404c4d052c51c8712bc76afd6ad273c66e2f6b752"
+    },
+    {
+      "path": "reviews/ECON-Q54-485/metadata.json",
+      "bytes": 1289,
+      "sha256": "1ed6e253eb638f0c415417ef4f620f1214a51614a051fdad58e98c9ea19d06a1"
+    },
+    {
+      "path": "reviews/ECON-Q54-485/review.md",
+      "bytes": 3421,
+      "sha256": "c497453f616e8f58c0fc8c43e5bc386d98595636db3ece4256d28ce5d5fe7f6f"
+    },
+    {
+      "path": "reviews/ECON-Q54-485/source_notes.md",
+      "bytes": 610,
+      "sha256": "7e80ebe3f464cd57d7ee9aac4eedf4b28b6379897742bb4d57530697d6ce2ccd"
+    },
+    {
+      "path": "reviews/ECON-Q58-500/metadata.json",
+      "bytes": 1331,
+      "sha256": "a1a6598c7a52258999d92618bee7a463e260404687fe678548e8d896b2b0c35f"
+    },
+    {
+      "path": "reviews/ECON-Q58-500/review.md",
+      "bytes": 3625,
+      "sha256": "bec6ba179fcaaca2b0842722701dd418fcbbcd758d2c85749b2a7bae415beb14"
+    },
+    {
+      "path": "reviews/ECON-Q58-500/source_notes.md",
+      "bytes": 609,
+      "sha256": "5ce034fbbf1fd030dc3128884cede302c139433daef4e1338c185d36f39f163b"
+    },
+    {
+      "path": "root_audits/ECON-C13-259.json",
+      "bytes": 965,
+      "sha256": "e86f4d3366fd802bfde494a4ba03b0514d85eafb4e2d3ae3c021746f287d6334"
+    },
+    {
+      "path": "root_audits/ECON-C21-206.json",
+      "bytes": 992,
+      "sha256": "df0e5ff603dda8cef3dd41ffd6595e11e0e2e03a7e6c83d58de5c48778803364"
+    },
+    {
+      "path": "root_audits/ECON-C31-214.json",
+      "bytes": 955,
+      "sha256": "73939ec567211d5b5d956aa7126b94948e9b9c100d49951c0b2fb9d5b9664c46"
+    },
+    {
+      "path": "root_audits/ECON-C31-219.json",
+      "bytes": 1163,
+      "sha256": "32b10c08b6dc36debe32e41bd7eafcb62fcd637b2db6a73665fadcc50c1d21e2"
+    },
+    {
+      "path": "root_audits/ECON-C31-289.json",
+      "bytes": 1096,
+      "sha256": "05deb067ea83d0b0919640953c7a3fa1ecc9a6ab6e6479654926a110033c4638"
+    },
+    {
+      "path": "root_audits/ECON-C78-373.json",
+      "bytes": 1039,
+      "sha256": "0706d809cb513e7ccbcf7b41b0efbf0c9b59870ff2e37357a4069677a7ecf11e"
+    },
+    {
+      "path": "root_audits/ECON-C78-417.json",
+      "bytes": 1254,
+      "sha256": "a2f1584cc77eb4f952633dbb553bb4d614131d322f0590d921a8fe4779ac650a"
+    },
+    {
+      "path": "root_audits/ECON-D81-347.json",
+      "bytes": 905,
+      "sha256": "9d095fb6aab1774c14294018b92ff3b8215210b07c0747dc42012cdadda54284"
+    },
+    {
+      "path": "root_audits/ECON-D82-386.json",
+      "bytes": 1039,
+      "sha256": "3ddf02275a392b727effdb1ae6ee1eeccd1669b52178f932d95b7dea9f6cdf44"
+    },
+    {
+      "path": "root_audits/ECON-G12-354.json",
+      "bytes": 1134,
+      "sha256": "92618660a3faa820aa16f9979c185ae4e304c17af1eeee91298c23da61f6ecfb"
+    },
+    {
+      "path": "root_audits/ECON-G13-254.json",
+      "bytes": 1111,
+      "sha256": "64ede62476b0b954fd1116e87684f16a07aee738cc82b3ae6f95b6d7d15dd1dd"
+    },
+    {
+      "path": "root_audits/ECON-L13-555.json",
+      "bytes": 1071,
+      "sha256": "73100be22c4fed6db878627aad5cf6a4366d7b80d764999cd32ad190c01b3465"
+    },
+    {
+      "path": "root_checker_runs.json",
+      "bytes": 4817,
+      "sha256": "e34cfee3cfbcf94bb08610d9cb5880aeef655dc5436c166e9a08eccfc72ab861"
+    },
+    {
+      "path": "verification_dispatches.json",
+      "bytes": 2879,
+      "sha256": "aab28a390ed3ebd5bc7ca3c921be1c8cfb87c683cd58b4be794e0cd9ae9710c6"
+    },
+    {
+      "path": "verify_a_summary.json",
+      "bytes": 8327,
+      "sha256": "84dbe7d5a9abc73ef151d4ad1a4e2673c1f735b548c3df7d35262f9368c90605"
+    },
+    {
+      "path": "verify_b_summary.json",
+      "bytes": 11868,
+      "sha256": "48ffa61d600cb4ae6d7a815fe3999f5c7598dec773cf666db344aaffe6a7dc36"
+    },
+    {
+      "path": "verify_d_summary.json",
+      "bytes": 2218,
+      "sha256": "8c47e5ca609c71c3be9530b9ad319b6b26e6c61c7f65f89d9cd37d25a3d12a3a"
+    },
+    {
+      "path": "verify_e_exact.py",
+      "bytes": 2174,
+      "sha256": "347c02ab428cfb4db09e29ad0079e4c592fe70fd95dc61f2193b2b26582fc090"
+    },
+    {
+      "path": "verify_e_summary.json",
+      "bytes": 7113,
+      "sha256": "35c5bf8629a4519e6985daba9508dcf4469ea9b4e47295b6f644991b5033ba9f"
+    },
+    {
+      "path": "verify_econ_a_reviews.py",
+      "bytes": 7712,
+      "sha256": "3fa86e108ffffb86f11d783753dd7bf21e826c1007275cd96d956ac4422b4030"
+    },
+    {
+      "path": "verify_f_summary.json",
+      "bytes": 3717,
+      "sha256": "68cf89f0961117e8edd3218aa15fc88cd42da81a94f12561c931a3ac0fac5e21"
+    }
+  ]
+}

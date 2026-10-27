@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-G21-319",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-G21-319/review.md",
+  "document_sha256": "da799e8ec24e2148842e2826b0d1b94c73df17396d7e4880bb8f0a29b0cbd193",
+  "checked_scope": "Independent-arrival threshold distribution, its monotonicity, and the dependence and truthful-announcement boundary examples.",
+  "checks": [
+    "Checked the weak withdrawal threshold gives k=ceil(rho*n), T=d+S(k), the binomial tail and its telescoping derivative; n=3,k=2 gives tail 3q^2-2q^3 and mean d+5/(6a).",
+    "Reconstructed the two-Bernoulli joint table; nonnegativity gives the attained dependence interval max(0,2q-1)<=r<=q rather than an identified independence product.",
+    "Verified full truthful revelation yields common posterior 0/1 with mean p, raising the run probability from zero to p when p<c and lowering it from one to p when p>c. The tie is deliberately not claimed.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-G21-319.txt",
+      "sha256": "590db0f40fa50764d38e6254547fef34de7a568db94cac196c7442bbddac745c",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-G21-319_A1.txt",
+      "sha256": "dbdea812309ed4c8652fdba4779f32f688af5141889055bb19588bbd75be7b04",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-G21-319/source_notes.md",
+      "sha256": "fa1f6810161c2453db247a506a3b089e902176d9aa2d0b949adee5b35f289fca",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-G21-319_A1.yaml",
+      "sha256": "734c078846bdb6f4c2a273e293d799cf7234049a984b7415e03147e7ee626eb5",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Independent-arrival threshold model and Bayesian information/dependence examples only. Strategic depositor equilibrium, bank adaptation, welfare and causal digital-access identification remain excluded.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

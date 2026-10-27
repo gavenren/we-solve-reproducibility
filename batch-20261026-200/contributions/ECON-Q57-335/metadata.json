@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-Q57-335",
+  "problem_id": "prb_14bb03ceb2e544279f4370bad3c2df6d",
+  "catalog_rank": 339,
+  "title": "Independent review: Biodiversity and economic substitutability",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "CES feasibility boundary, nonattained output ceilings, and the extrapolation obstruction behind replacement-cost identification.",
+  "contribution_handle": "ECON-Q57-335-A1",
+  "contribution_id": "con_529a6aa4c49b48f68d7452be92ffa0e6",
+  "revision_id": "rev_fe6ec412aa214576af6bf95b33293984",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/biodiversity-and-economic-substitutability/attempt-1/r1/",
+  "source_sha256": "0811fec1157a323a9b2bd3c8451588b2a8af95432c096aed200a425637c4e283",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-Q57-335.json",
+  "qualified_audit": "qualified_audits/ECON-Q57-335.json"
+}

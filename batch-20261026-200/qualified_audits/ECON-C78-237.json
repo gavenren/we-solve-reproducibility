@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C78-237",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C78-237/review.md",
+  "document_sha256": "6ba373732749bcb66cc34c2041ada6df8927f0b89194bf47d44f6117e67e4538",
+  "checked_scope": "The fixed-matching minimum-swap formula and sharp universal radius construction.",
+  "checks": [
+    "Reversing a prospective partner and incumbent at rank distance d requires their mutual inversion plus at least one inversion per intervening name, so exactly d adjacent swaps; comparisons in distinct lists have additive costs.",
+    "Minimizing these costs over unmatched pairs is necessary and attainable. The correct robustness test is strict s_I(M)>d, with original blockers giving zero radius.",
+    "Triangular outgoing-cost sums average to N-1 over unmatched pairs. Euler orientation plus bipartite perfect-matching decomposition creates cycle factors whose endpoint costs h and N-1-h exhaust the ranking costs and attain N-1. N>=4 excludes the blocker-free two-agent case."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C78-237.txt",
+      "sha256": "a4cd398c864a77a336f45444981aec94d140ad5751e5736b077062770bc474c7",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C78-237.prior0.html",
+      "sha256": "9daca61e3a0cb3708bc911677fdb50ff502a76bdecdd34cd9174a2dff6521433",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C78-237.prior0.yaml",
+      "sha256": "47a4a1783df305f86c7d1e9d52642b6acb3b639f503e55994fcadbae4f49c165",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C78-237/source_notes.md",
+      "sha256": "e496fd46256a269da4c873cedb801d3c750f22679edb7138f817b819ef187adf",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

@@ -11,8 +11,16 @@
   "checked_scope": "Discounted unilateral-deviation certificate and contraction-square error rate",
   "scope": "Discounted unilateral-deviation certificate and contraction-square error rate",
   "author": "/root/econ_d",
-  "status": "awaiting_independent_review",
+  "status": "independently_reviewed_scoped",
   "source_url": "https://we-solve.github.io/contributions/certified-feedback-nash-approximations-for-nonlinear-or-time-varying-games/attempt-1/r1/",
   "source_sha256": "c277c81e9540ec619cb2e4effdacac52a4517a013ae3a6f9dbcd63eb48446ca6",
-  "verification": "Independent written algebraic/probabilistic audit; no code run for this review."
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C73-401.json"
+  }
 }

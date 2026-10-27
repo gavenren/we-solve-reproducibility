@@ -1,0 +1,25 @@
+{
+  "problem_id": "prb_c80a301b0b5340c68cd6be6ccd3da726",
+  "handle": "ECON-L51-495",
+  "title": "Audit of privacy-entry equilibrium and open welfare endpoints",
+  "contribution_handle": "ECON-L51-495-A1",
+  "contribution_id": "con_81bcc0b1f94b4c5b8a83af12ec98eb8d",
+  "revision_id": "rev_57bba8382cda4d78a1eb7e1f0750cb07",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The two-sided quantity-entry benchmark, coexistence example, and sharp half-open welfare interval.",
+  "scope": "The two-sided quantity-entry benchmark, coexistence example, and sharp half-open welfare interval.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/privacy-as-a-competition-variable/attempt-1/r1/",
+  "source_sha256": "d124284ba5c28e9c23e2da38942101cac6c8a61f586d75a1b87f0975402c16d5",
+  "review_path": "reviews/ECON-L51-495/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "verification_artifacts": [
+    "verify_e_exact.py",
+    "econ_e_exact_checks.json"
+  ],
+  "qualified_audit_path": "qualified_audits/ECON-L51-495.json",
+  "document_sha256": "c76480bf648c3162add6a42b5afa25b8f05a4643caf86160d848a0c290a329dd"
+}

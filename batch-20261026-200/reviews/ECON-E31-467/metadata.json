@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_74ce8532141a42b59d0f602dc86b4951",
+  "handle": "ECON-E31-467",
+  "title": "Audit of the mixed-derivative Shapley bound and its implicit-system certificate",
+  "contribution_handle": "ECON-E31-467-A1",
+  "contribution_id": "con_a32c51a7f9c44eac825092ad260aa314",
+  "revision_id": "rev_6e3f3ca0044940ec8041473c5a825f9a",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The factor one-half interaction bound, its sharpness, and the displayed mixed-derivative bound for equilibrium equations.",
+  "scope": "The factor one-half interaction bound, its sharpness, and the displayed mixed-derivative bound for equilibrium equations.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/supply-versus-demand-inflation/attempt-1/r1/",
+  "source_sha256": "4570acca6688fd090f311d8cec5dc3084e2fcf6639efed3bb9983b46f658e14e",
+  "review_path": "reviews/ECON-E31-467/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-E31-467.json",
+  "document_sha256": "dcc23c8bb2e2626069bdf4ba02217a17aa0745347f494b09ffdf202c11e8f842"
+}

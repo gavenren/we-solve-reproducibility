@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-J16-461",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-J16-461/review.md",
+  "document_sha256": "70153bb04e4f841dddef1b47f21a02b1983cd244469f4aa4e5f5f7abbf568109",
+  "checked_scope": "Missing no-birth sharpness, contrast transport, and mediator-rank identification",
+  "checks": [
+    "Checked D lies in [-M,M], the missing no-birth policy contrast has range [-2M,2M], and bounded nonnegative earnings realize every chosen difference without altering parent-regime observations. The sharp interval has width 4M and subtraction reverses sensitivity endpoints.",
+    "Verified all transported contrasts integrate under target F1, conditional controlled-cohort randomization and F1<<F0, with an outer sensitivity allowance integral(kappa dF1). Post-assignment childlessness is correctly excluded as a substitute design.",
+    "Checked the converse moment construction U=D-beta^T H, singular-compatible nonuniqueness and perturbation stability via sigma_min(Pi)-||E||. Four factorial cells alone do not guarantee mediator rank or exclusion; natural indirect and empirical national effects remain excluded."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-J16-461/source_notes.md",
+      "sha256": "4c50b1c2e89ac1302b0faea93b0772296ed4ac551cdad6ef06eb690ef54bf419",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-J16-461/metadata.json",
+      "sha256": "6ad31d14f603593b8318257f222d90439d5189576bb44c921477eb544b84184a",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/origins-of-child-penalties_attempt-1_r1.html",
+      "sha256": "13d3e1b7a5af001bd5b165fab93203bde1eb1fa4ed2b0d22ce2652c465a395ed",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/origins-of-child-penalties_attempt-1_r1.txt",
+      "sha256": "7c083499f2fb06d14151f1c028b1f902c7f9bbefbb72ad591df9e67140587e4a",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-J16-461-A1.yaml",
+      "sha256": "671d35cababa2eb82b49da18a9c73eb371f515194a253170b5b14d457927fc1d",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

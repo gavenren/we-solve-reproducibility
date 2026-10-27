@@ -1,0 +1,25 @@
+{
+  "problem_id": "prb_c4fc90e7028a4179bdd5464f12f0b24a",
+  "handle": "ECON-C73-532",
+  "title": "Audit of positive-weight conversion and uniform generalization in the batch equilibrium method",
+  "contribution_handle": "ECON-C73-532-A2",
+  "contribution_id": "con_28dba32ca0184c32a0d9ee2e9da45597",
+  "revision_id": "rev_1d477feef87846ceb6b9c38115da1667",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The empirical entropy representation, bounded log weights, and sample-dependent conversion guarantee; excluding the imported learning theorem.",
+  "scope": "The empirical entropy representation, bounded log weights, and sample-dependent conversion guarantee; excluding the imported learning theorem.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/sharper-approximation-rates-with-stochastic-action-sets/attempt-2/r1/",
+  "source_sha256": "9cd23f901a01359ae690182e5c6747cf2e41b3829c89b1fb42c1407a992b64ef",
+  "review_path": "reviews/ECON-C73-532/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "verification_artifacts": [
+    "verify_e_exact.py",
+    "econ_e_exact_checks.json"
+  ],
+  "qualified_audit_path": "qualified_audits/ECON-C73-532.json",
+  "document_sha256": "bba7f2a584433acc338bbe6479d84688351f697dec7e2bfe64a9aa6bbbd808f3"
+}

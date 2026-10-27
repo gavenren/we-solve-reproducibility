@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C21-306",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C21-306/review.md",
+  "document_sha256": "49e5f576c44b22b3f21fb69556ab054c1d87d6c901556fcea51b6dfc0575883e",
+  "checked_scope": "Reduced-experiment covariance, equality-of-mediators boundary and finite-stratum pilot value guarantee",
+  "checks": [
+    "Separate derivatives of mu1,mu0,p0,p1 give exactly g1,g0,h0,h1. Conditional centering and disjoint arm residuals give covariance Var(theta(X))+E sum V_a/r_a in the declared reduced experiment.",
+    "At common mediator law(1/2,1/2) and mu1=(0,1), indirect controlled coefficients vanish but natural-arm influence variance remains1/(4r_N0)+1/(4r_N1). Pointwise equality must not be imposed on neighboring distributions.",
+    "Positive-semidefinite scalarization gives nonnegative v_a; KKT yields square-root allocation with floors under stated positivity premises. Finite-stratum uniform coefficient error changes every feasible objective by<=Kdelta/epsilon; twice comparing plug-in and oracle minimizers gives2Kdelta/epsilon without uniqueness."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C21-306.txt",
+      "sha256": "265553cf59b9dc931d3970e324d0740fa81f3f66a15d95029fca39168263582a",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C21-306.prior0.html",
+      "sha256": "f3a3017c0c3bf36ca4aef0b949d928f03bbcceb3879ca825f5e021c76ccaee25",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C21-306.prior0.yaml",
+      "sha256": "76bd733b5156e6d43322c5f52750e9ab7cf3a41ef3bfdbc85771cf87418ff10f",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C21-306/source_notes.md",
+      "sha256": "279f3ab0d5c3a4d0bd33bae8c6bd2c0af55cf5f006fdf84dffbcd13b15577725",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Reduced experiment omits natural-arm outcomes; pilot guarantee only finite strata with known weights, not full smooth-class minimax design.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

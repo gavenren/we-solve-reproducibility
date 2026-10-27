@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-D31-458",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D31-458/review.md",
+  "document_sha256": "436021887d59a46ced210cc70d47b4dd3bd24d08c5acbbab28cd9dc83c40670d",
+  "checked_scope": "Rank-changing top-share optimization, interval attainment, and denominator stability",
+  "checks": [
+    "Checked fractional upper-quantile selection and threshold representations and the at-most-one-fractional-coordinate extreme-point argument, including negative incomes and ties.",
+    "Verified lower endpoint joint epigraph minimization, upper endpoint exchange of two maxima, compact attainment and interval filling along a segment within one convex income polytope. No polynomial vertex-enumeration claim is made.",
+    "Recomputed the near-zero-mean counterexample and the Wasserstein numerator/denominator stability bounds, including the sharper equal-mean constant.",
+    "Checked invertibility of the positive-mean linear-fractional substitution and transformed constraints. Unions over concepts/linkages need not be connected, and coverage depends on an externally valid simultaneous measurement event."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-D31-458/source_notes.md",
+      "sha256": "de3a82910a6d3b441bed8e4807b4fa04384111077ba773818afeda0b28bd5e38",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-D31-458/metadata.json",
+      "sha256": "9ee55f1ab1e6264dc87aaa9df51ba1bcef53a9e0f95715a47a86518b328ce347",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/reconciling-income-inequality-measurement_attempt-1_r1.html",
+      "sha256": "aaf69ab107e7cca345b8ff8f6ec40510e06d95c94fc684d0730eb6ee457a6b87",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/reconciling-income-inequality-measurement_attempt-1_r1.txt",
+      "sha256": "6152dd509cd889ada768119a4aad4d3ff01964c369a4bb2e022bda49c5c81cad",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-D31-458-A1.yaml",
+      "sha256": "0af95bfd3129d19e10297e9bb3fdbdf662b3898597564443fcb9490d5fce3e6c",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

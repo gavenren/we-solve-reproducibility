@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-C72-366",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C72-366/review.md",
+  "document_sha256": "8e2c41f38ee50c6d95f5cc3e1828482e616aa178f32647b93f52ed74648ce392",
+  "checked_scope": "The simultaneous full-game exploitability certificate and the explicit failure of monotonic actual regret after restricted-strategy expansion.",
+  "checks": [
+    "Checked a simultaneous payoff sup-norm event controls every data-selected restricted mixed payoff, and a deviation gain incurs exactly two sampling errors.",
+    "Verified only the deviating payoff requires one Li*hi covering term, yielding epsilon+2a+max Li hi; arbitrary adaptive discovery lacks this fixed-table concentration guarantee.",
+    "Evaluated the source payoff matrix: (A,A) has full regret zero, while (B,B) is a restricted equilibrium with full regret one via C. Affine normalization gives regret 1/3 and preserves the expansion failure.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C72-366.txt",
+      "sha256": "ef90a9068eb05f13e8494f75dcdaf9508cd9f43f64122a99b1fb9083fd0ea997",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-C72-366_A1.txt",
+      "sha256": "5b2a8dc5b612beaf83aa4e4941b5bc84e0c5f9748aacbaaa5d309d4040368809",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-C72-366/source_notes.md",
+      "sha256": "239b00db640aa23dcb7880fce8404e65b29c9724c2b8de013df2e7ecf129e7fd",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-C72-366_A1.yaml",
+      "sha256": "d3769a05257f4998bd39f11c4efd20a59b27deba89fc689902bc907e4592207a",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Certificate and explicit nonmonotonicity example only. No minimax-optimal budget allocation, uncorrected adaptive sampling or solver-runtime guarantee is approved.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

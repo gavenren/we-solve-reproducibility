@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-L51-495",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-L51-495/review.md",
+  "document_sha256": "c76480bf648c3162add6a42b5afa25b8f05a4643caf86160d848a0c290a329dd",
+  "checked_scope": "The two-sided quantity-entry benchmark, coexistence example, and sharp half-open welfare interval.",
+  "checks": [
+    "Each entrant’s global variable-profit quadratic is strictly concave. A zero-output entrant would have positive derivative at zero given the equilibrium output of its positive-output rivals, proving all entrants active and symmetric.",
+    "The maximal-entry selector requires π(n+1)<F≤π(n); inspected retained Fraction results n₀=3,Q₀=3,CS₀=9/4,W₀=51/10 and n₁=2,Q₁=10/3,CS₁=25/9,W₁=64/9 against the model equations and exact entry inequalities.",
+    "Welfare is affine increasing in e and decreasing in F. The fixed-cost lower boundary is excluded, making the exact regime set [L,U) and independent-regime contrast (L₁−U₀,U₁−L₀). An upper contrast endpoint equal to zero still implies every feasible contrast is strictly negative. User/ad payments cancel once."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-L51-495_0.tex",
+      "sha256": "d124284ba5c28e9c23e2da38942101cac6c8a61f586d75a1b87f0975402c16d5",
+      "revision_id": "rev_57bba8382cda4d78a1eb7e1f0750cb07",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/privacy-as-a-competition-variable/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

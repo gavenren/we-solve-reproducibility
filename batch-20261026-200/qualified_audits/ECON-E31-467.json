@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-E31-467",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-E31-467/review.md",
+  "document_sha256": "dcc23c8bb2e2626069bdf4ba02217a17aa0745347f494b09ffdf202c11e8f842",
+  "checked_scope": "The factor one-half interaction bound, its sharpness, and the displayed mixed-derivative bound for equilibrium equations.",
+  "checks": [
+    "Adding predecessors one by one gives mixed-derivative rectangle integrals bounded by Mₖₗ||zₖ||||zₗ||; each l precedes k in exactly half of permutations.",
+    "Pure scalar bilinear interaction attains the one-half bound, including an irrelevant third class. The offset pair t xS xD−t xS xR preserves full and single-class responses but shifts D/R attributions by ±t/2.",
+    "Twice differentiating F(y(z),z)=0 gives J yₖₗ=−Fₖₗ−Fᵧₖ yₗ−Fᵧₗ yₖ−Fᵧᵧ[yₖ,yₗ]; the displayed inverse-Jacobian powers and output norm factor follow under uniform box bounds."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-E31-467_0.tex",
+      "sha256": "4570acca6688fd090f311d8cec5dc3084e2fcf6639efed3bb9983b46f658e14e",
+      "revision_id": "rev_6e3f3ca0044940ec8041473c5a825f9a",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/supply-versus-demand-inflation/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

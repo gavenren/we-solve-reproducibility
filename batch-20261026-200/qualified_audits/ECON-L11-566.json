@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-L11-566",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-L11-566/review.md",
+  "document_sha256": "375f681f911f1a4438bba3b5712768c01c8210ec0d6f1fe06f5805ada407d8dc",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** production aggregation, pooled-input nonidentification and linear-demand pricing/pass-through in ECON-L11-566-A1, revision r1.",
+  "checks": [
+    "Differentiated flexible-input cost to obtain MC_j=w*v_j/(theta_j*q_j), pooled harmonic markup, and min/max bounds from positive reciprocal markups.",
+    "Recomputed equal-revenue markups 4 and 4/3 giving pooled markup 2, with identical prices, quantities and aggregate input bills but different product technologies.",
+    "Verified ownership-masked M is positive definite via principal blocks and B+M is the strictly convex potential Hessian on the Cartesian price box; the assumed interior solution is the unique global equilibrium.",
+    "For B=[[2,-1],[-1,2]], computed separate-owner pass-through [[8,2],[2,8]]/15 and common-owner I/2; matched production-input sum is only a necessary joint-model restriction."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-L11-566/prior.tex",
+      "sha256": "14326d3dd1dc64a3f3ad085c3080889b184ea8455654bbb2f9ce1138ec95c9b4",
+      "git_blob_sha": "50dcc392978a4d1460b43743a90afaf823ea5976",
+      "revision": "r1",
+      "revision_id": "rev_81c72282242d45f2958f3a3eebdc3796",
+      "contribution_id": "con_60f6a7c85ab34ddeb74d693ce1e2e091",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-L11-566/record.json",
+      "sha256": "67a1b549b3bb63b4742830058af1855c1b2bd90cbf4a4692a87361d041776a6c",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Symmetric positive-definite linear demand, positive quantities, local price interiority and pure-cost shifts are assumed, not empirically certified.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

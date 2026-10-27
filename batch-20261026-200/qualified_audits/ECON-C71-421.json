@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C71-421",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C71-421/review.md",
+  "document_sha256": "22799ac1673cead3e23d2fd4780bd2222e36f9703a6d66a2b6df1d796b388ac5",
+  "checked_scope": "Incidence-rank minimality criterion and labelled clone/component transforms",
+  "checks": [
+    "Checked both directions of minimal balancedness iff independent incidence columns, using a signed dependence and the first vanishing positive weight; strict positivity is retained.",
+    "Verified clone quotient and expansion preserve the exact balancing system and column rank, keep coalition columns distinct, and recover a unique labelled partition. This gives Stirling factors without k! and B(z)=A(e^z-1).",
+    "Checked block-diagonal connected factorization and the distinguished-player binomial(n-1,k-1) recurrence. Recomputed both n=4 transform identities; the review explicitly does not certify primitive counts or a closed enumeration."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-C71-421/source_notes.md",
+      "sha256": "9fcd511d942ae6fbe451537f330b5cd47be4e999dd8d2129781c050851797687",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-C71-421/metadata.json",
+      "sha256": "c7b27a2de7e767554b6a3e077f9e1ad0194d3557aabafe76f44b4019dd3862ad",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/structural-enumeration-of-minimal-balanced-collections_attempt-1_r1.html",
+      "sha256": "32dbfedde1468dd7f097dd701d2235b1d5e2b62c52017744336a830d895f9c38",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/structural-enumeration-of-minimal-balanced-collections_attempt-1_r1.txt",
+      "sha256": "487ec94805975143846151c8ece626b1496bfa6db4284db8c4224f9a10a7037b",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-C71-421-A1.yaml",
+      "sha256": "5b962879a7581fb82a94d711bdcabbed9d7765507e741fabe52c0d4c2c391936",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

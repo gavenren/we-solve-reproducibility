@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_a5c594a229c74acdb72d25b9b5b5411f",
+  "handle": "ECON-D24-460",
+  "title": "Independent review of ECON-D24-460-A1: CES efficient-allocation formula and nonlinear gain uncertainty under audit error",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-D24-460-A1",
+  "contribution_id": "con_987eca6a4cab43749546f595d6a0bd04",
+  "revision_id": "rev_1fb948fcdade4188a0d67040939203be",
+  "finding": "Supports the claim",
+  "checked_scope": "CES efficient-allocation formula and nonlinear gain uncertainty under audit error",
+  "scope": "CES efficient-allocation formula and nonlinear gain uncertainty under audit error",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/misallocation-versus-measurement-error/attempt-1/r1/",
+  "source_sha256": "fccec69b31d83f4654664c7da12570238c62cf51dc1e3fefe4a8800dc4a0ca88",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-D24-460.json"
+  }
+}

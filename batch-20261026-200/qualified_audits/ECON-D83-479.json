@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D83-479",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D83-479/review.md",
+  "document_sha256": "d6a1c259013dc76c626434e64e39270dfaabb654f9135aa2104fb07f0fbf6050",
+  "checked_scope": "The polynomial known-cost terminal optimization and the exact local shared-response certificate.",
+  "checks": [
+    "The finite assignment union with closed utility inequalities provides attainment; seller-favorable tie selection at a maximizing feasible assignment gives at least that assignment’s profit, proving equality without continuity of demand.",
+    "Any vertex, including of a lower-dimensional assignment polytope, needs ambient active normals spanning R³; otherwise a two-sided local feasible movement exists. O(m³) independent triples therefore contain every optimizing vertex, with polynomial rational bit complexity for two goods.",
+    "Hidden cost requires one buyer assignment per posted menu for all cost types: ∀p ∃d ∀c. Coincident inconsistent prescriptions reject the certificate. First feasible assignment selection gives measurable semialgebraic regions and the exact local equivalence, without a global PBE optimality claim."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-D83-479_0.tex",
+      "sha256": "6e2d763d64b6ebcc4faf40ee6847b1e38d256343b5222076bb1ee491b9d5625d",
+      "revision_id": "rev_97a5edea7b73480fb51104e9fae7b042",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/optimizing-pure-strategy-cheap-talk-in-bilateral-trade/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C78-387",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C78-387/review.md",
+  "document_sha256": "9ff289d06fd1da7f8e0fa6e86d7f98de2c89449acf477efc5eacbe00f54c8b3e",
+  "checked_scope": "Vote-assignment test and exact relevant-tie probability compression",
+  "checks": [
+    "Checked private unmatched dummies give a bijection with feasible partial rival matchings and the exact net vote objective, including applicants unmatched in M. M supplies a feasible zero margin.",
+    "Counted the realizing tie permutations as |S|!(r-1-|S|)! and checked the masses sum to 1/r at each subset size and one overall; only matched applicants' assigned-house blocks matter.",
+    "Checked the 3/4 two-applicant example against every possible rival, integer-ticket rejection and nonstrict PP gap handling. The review correctly distinguishes additive sampling error from relative approximation and exact unseparated thresholds."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-C78-387/source_notes.md",
+      "sha256": "7a4476a133cec31db46fbc7264c67230865e5a5b4b5069868bfd53387f143188",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-C78-387/metadata.json",
+      "sha256": "470e91d391f827af9c7d9990084c2556785d81b4deeac39452502152c04f2522",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/popularity-probability-under-uncertain-house-allocation-preferences_attempt-1_r1.html",
+      "sha256": "aebedc715839c707691e1ac87c4eff0a28dd2a314471af37182148956c9a3e72",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/popularity-probability-under-uncertain-house-allocation-preferences_attempt-1_r1.txt",
+      "sha256": "617680b0c6469c598a00155a9904b31f2a1137651d205742a4e3692b1fba45fe",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-C78-387-A1.yaml",
+      "sha256": "f8e1b1776e6548f265c540e5dc8438d597d1a6bbe2825ca2611c1a48d085f16a",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C21-179",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C21-179/review.md",
+  "document_sha256": "d288b8012bc003442e6356167c4efc3b9f907c8a482c962fc63d50761a196f8b",
+  "checked_scope": "The sparse-support dictionary calculation and the k-coordinate BV lower submodel.",
+  "checks": [
+    "Mean-zero component errors on independent uniform coordinates are L2-orthogonal before clipping. Thus approximation O((k+1)epsilon^2) and support count sum_(j<=k)C(d,j)<=(ed/k)^k give the displayed dictionary/selection costs without an extra k multiplier.",
+    "Square-wave cells with a=kappa/J have uniformly bounded component BV norm, orthogonal directions across coordinates, neighbor KL O(na^2/J), and total squared separation k a^2. J~n^(1/3) yields k n^-2/3.",
+    "Global outcome envelope requires ka bounded; therefore the lower family is only valid for k<=c n^(1/3). Separate one-coordinate selection alternatives prove log d/n, not the full upper support penalty k log(ed/k)/n. No unrestricted sharp sparsity frontier is claimed."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C21-179.txt",
+      "sha256": "c649f1b276075007436f18b23d3ea5188717fccd3e1a8f8019465e22adb9669b",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C21-179-prior.html",
+      "sha256": "b2d553e225287503bee5d4c3f3d76fc58ad1b667fbb69a316f7a50796e8999a1",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C21-179-prior.txt",
+      "sha256": "9104fac87badc5ef86acda6df4e8406dbf2fee9013cd283676c684bff94a4f93",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C21-179/metadata.json",
+      "sha256": "d36411b3d2e403606f9a6fe901113f82f08b02beb03edd6c330d891419479848",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C21-179/source_notes.md",
+      "sha256": "1da3c3bc1c2270da485334fe6f481db285c2e1dd87dac97f3f4858231adefc64",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C21-179-prior.yaml",
+      "sha256": "725777e99790ef1c6a89bcab6a3599a8fcc33510b00bcca456fd17ff41726a0d",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "This supports the dictionary bound and the qualified lower rate. It does not remove logarithms, provide an efficient dictionary search, or prove a sharp high-sparsity selection frontier.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

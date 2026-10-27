@@ -1,0 +1,61 @@
+{
+  "handle": "ECON-C78-424",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C78-424/review.md",
+  "document_sha256": "b28aef3d604daef75e14fad632a1126d85770b8dcc7e6b41ec5416991526354a",
+  "checked_scope": "Threshold-face construction of all join-irreducibles and source-integrality applicability",
+  "checks": [
+    "Independently inspected the primary arXiv v3 Theorem 12, LP (2), Lemma 7 and appendix proof: integrality covers arbitrary firm changes and at most one changed worker. Row sums convert its worse-partner inequality to the draft's two-better-sums formulation.",
+    "Checked zero-coordinate rank restrictions define faces of the nonnegative integral polytope; arbitrary average-rank cuts would not suffice. Positive rank-sum minimization uniquely selects each coordinatewise meet.",
+    "Proved each nonbottom threshold minimum is join-irreducible and every element is the finite join of its own coordinate-threshold minima; removing bottom and duplicates gives exactly all generators and the stated size bound.",
+    "Checked join-primality follows from distributivity and establishes the ideal conversions, including the empty ideal and singleton lattice. Polynomial LP/output encoding is supported under the stated sublattice and imported integrality assumptions; no broader change regime or historical experiment is certified."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-C78-424/source_notes.md",
+      "sha256": "ae8549ff93b8d0345b05e11734bd48ba46a9c7145804af9434aa40090e636f66",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-C78-424/metadata.json",
+      "sha256": "b6711ac98e2fb5825062f0fe0fd5781b4b3aab3da9567858cbe25f9dc60a0522",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/efficient-birkhoff-representation-of-two-sided-robust-stable-matchings_attempt-1_r1.html",
+      "sha256": "900b4034df9d8a196626175a4711d1da20d829c14600addb007d69c6571f066e",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/efficient-birkhoff-representation-of-two-sided-robust-stable-matchings_attempt-1_r1.txt",
+      "sha256": "2e3600ed4017d99f6a2e473bb5173d0eabe62b0f032b6a8884e67267aa75227c",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-C78-424-A1.yaml",
+      "sha256": "1fba67122687efa7a147571190857ecb8cea8f4b7895f07a6882b04f42b399a9",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ],
+  "external_source_checks": [
+    {
+      "url": "https://arxiv.org/html/2304.02590v3",
+      "checked": "Primary v3 LP (2), Theorem 12, Lemma 7 and appendix integrality proof independently inspected; underlying single-instance rounding not reproved."
+    }
+  ]
+}

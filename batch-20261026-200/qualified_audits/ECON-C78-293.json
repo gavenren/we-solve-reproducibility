@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C78-293",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C78-293/review.md",
+  "document_sha256": "49b4e23eb0f9be844a9fea9498205e7db10eee985ce763dfb2d0eeb07d27050c",
+  "checked_scope": "Padding consequence conditional on cited unrestricted hardness; cutoff algorithm and balanced-block factorization",
+  "checks": [
+    "Mutually first-choice padded pairs are forced in every stable matching; originals keep their rankings and appended agents cannot block. Extension/restriction preserve robust solutions with no extra changed lists.",
+    "Polynomially computable bounded n(r) keeps explicit list size polynomial; choosing integer d>1/epsilon makes power-law change budgets large enough. This is conditional on cited unrestricted hardness and yields no logarithmic-budget hardness.",
+    "Partner enumeration fixes every changed agent and partner. Fixed/free blockers yield necessary rank cutoffs; any omitted free edge is below a received acceptable partner. Deferred-acceptance rejection gives completeness when a perfect stable truncated matching exists. Counting forces stable matchings inside balanced internal-first blocks."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C78-293.txt",
+      "sha256": "51a0404cca84d0c7a4d732fea4d98a3f20e7b4c0b3765108050e5e1829c55ab0",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C78-293.prior0.html",
+      "sha256": "fca520d5d843669cf6d7580c3e836dae14c33b2c6258fb571151d3bf8153c02e",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C78-293.prior0.yaml",
+      "sha256": "8b30567d0e0afbd2a7e9b660032e6a659fc14e50aeda75bb903de60f1c2e5647",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C78-293/source_notes.md",
+      "sha256": "dabeb93656c4b106a8304f8a24d2430a3f5581323d59b4afa05953ac749845d1",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Imported unrestricted NP-hardness is conditional, not independently re-proved; no classification of all growing budgets.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

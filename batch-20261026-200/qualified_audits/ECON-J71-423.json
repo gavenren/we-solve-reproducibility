@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-J71-423",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-J71-423/review.md",
+  "document_sha256": "16b2559a42b34a0c06894e39c20a7154918f6b7f9fa8b42942bb6db6c5f5eaaf",
+  "checked_scope": "Identification in the invariant index model and its exact observational-equivalence failure",
+  "checks": [
+    "Checked inverse-CDF index normalization and unique recovery of taste, customer revenue and prior mean under perfect-information and nonzero-prior-weight arms, with remaining cells as compatibility restrictions.",
+    "Recomputed the logistic synthetic indices and retained the distinction between index effects and probability interactions, plus common wage and shock-scale normalizations.",
+    "Verified the d_l/e_l transformation leaves every observed index unchanged in the expanded regime-dependent utility class, including full-information arms.",
+    "Checked constant exposure differences and affine precision restrictions are necessary model tests whose success cannot rule out the expanded equivalent decompositions. Competitive hiring, selected output and empirical motive attribution remain outside scope."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-J71-423/source_notes.md",
+      "sha256": "8a2ddac26b1c5fd3a7e57302649d9b50566dc10dfdcd17b53771fd1b4b295b49",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-J71-423/metadata.json",
+      "sha256": "3a70406105b21b2f1046c9a58de57bb5fff1ce64ed3ccf3164e79446ca808a19",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/separating-discrimination-mechanisms_attempt-1_r1.html",
+      "sha256": "f7c2db59627b0c69b56ce9372b1b613cf9dfdfdb10ff5859dd21be05bff88856",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/separating-discrimination-mechanisms_attempt-1_r1.txt",
+      "sha256": "21266581ccd813e19553dac5cfe058001b761d9d66fbc9a3ed287cf70c8605ba",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-J71-423-A1.yaml",
+      "sha256": "9ad01872208fb8a94d6cc3aa59605406ca46a4f4559564859fc22fa7eef19c68",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

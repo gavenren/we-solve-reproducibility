@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C21-184",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C21-184/review.md",
+  "document_sha256": "d7ccb0f02b212d7d6a1f1d23ca67940c57d5ce40867e46c2fcd99dd00f7b12f5",
+  "checked_scope": "The propensity-free armwise histogram band and the lower bound for its diagonal-class width exponent.",
+  "checks": [
+    "Cell-arm conditional response is a weighted average of t-Holder means, so deterministic bias<=L d^(t/2)h^t regardless of propensity roughness. Hoeffding conditional on cell/arm labels, overlap/lower design density and full-range empty-cell fallback give finite-sample simultaneous coverage.",
+    "Good cell counts bound expected maximum full width by C(h^t+sqrt(log(4J/eta)/(nh^d)))+8J exp(-cnh^d). h~(log n/n)^1/(2t+d) yields the stated diagonal-class order.",
+    "For disjoint one-bump alternatives under fair treatment/Rademacher outcomes, L_j=1+1{W=1}Y f_j(X), cross moments1 and self1+c_phi a^2 h^d/2. Mixture chi-square tends0 at a=kappa h^t and a small enough constant; honesty at eta<1/2 forces width>=a under the null with probability>=1-2eta-o(1)."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C21-184.txt",
+      "sha256": "ccb400561c3d5c2a5fd415170d0fed40d8fe84fe1e63bba5b260c329252f33c9",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C21-184-prior.html",
+      "sha256": "8e9d4c2031723acf4543336e2992149983852ce614e8fa48913992e73d2ef097",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C21-184-prior.txt",
+      "sha256": "9c79d1e116658d63ac34fd064a1e70dc7ab1518579ab294c9ea9acb35e737947",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C21-184/metadata.json",
+      "sha256": "06a009f5e56a525bc9e5536648d589548f8bd236908e8568ed89ff2955009701",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C21-184/source_notes.md",
+      "sha256": "b5f4518d4530fd0d9760ca5030ab607239c389158582bc90b495dfcb71f46d4c",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C21-184-prior.yaml",
+      "sha256": "a0ca8cae4071ba942d96a1b15a8a9de96a03410562ccd552d50d68b1f5970c11",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "This supports the stated diagonal-class width order and the histogram construction. It does not check the whole multi-index causal smoothness frontier or prove adaptive bands across nested classes.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

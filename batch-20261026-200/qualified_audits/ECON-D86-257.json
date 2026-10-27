@@ -1,0 +1,53 @@
+{
+  "handle": "ECON-D86-257",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D86-257/review.md",
+  "document_sha256": "6c5fc033d94001a6b58bcf83961affd6eee618d9e2d3d0e25d2d49a41dcab8a5",
+  "checked_scope": "The diversion optimum, binding financeability condition, certainty equivalent and comparative statics within the affine family.",
+  "checks": [
+    "Pre-shock diversion maximizes bd-kappa*d^2/2, giving d=b/kappa. Binding expected financeability gives a=F-b*mu+b^2/kappa; CARA independence produces both log-cosh terms and real diversion loss b^2/(2kappa).",
+    "The conservative inequalities guarantee nonnegative transfer and positive consumption for every allowed deviation, using b^2-b>=-1/4 and the separate quadratic-cost bounds.",
+    "Strict concavity includes -1/kappa even with zero measurement noise; derivative signs at b=0,1 give a unique interior optimizer. Raising kappa raises the root; positive measurement noise lowers it, while its local derivative at zero noise vanishes."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-D86-257.txt",
+      "sha256": "647d433ccb43f8cf44a7b65bc4f86287865189b4dac430db58c6af88fc9f8e03",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-D86-257.prior0.html",
+      "sha256": "49210b1e613318b91b54c73790451e23adf1895d6643422d21562c442dfbb566",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-D86-257.prior0.yaml",
+      "sha256": "595077ad84f94443e884b49e6dcddfbe39c14a284e9faeaa6c104697df9322cc",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-D86-257/source_notes.md",
+      "sha256": "d186f5e0b1cddb04fdb118039a71a592855e713c135eba8e69ea94afb0ae4276",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ],
+  "assistance": {
+    "reviewer": "/root/verify_b/b_source_check",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "role": "Additional independent retained-source and mathematical checks for the exact scoped contribution documented in this audit."
+  }
+}

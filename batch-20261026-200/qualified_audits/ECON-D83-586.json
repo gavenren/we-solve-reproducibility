@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-D83-586",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D83-586/review.md",
+  "document_sha256": "8a6772c0c7a138b3cfbeda57c8dae8b81e95a411bdc9541fcd0164261f7f741b",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** pairwise cancellation and the exact randomized minimax-regret LP in ECON-D83-586-A1, revision r1.",
+  "checks": [
+    "Same normative utility and choice set make ideal-action maxima cancel, leaving exact linear pairwise loss differences over one joint compact utility polytope.",
+    "For fixed randomization, finite comparator maximum and utility supremum maximize over the same pairs; linear utility functions maximize at vertices, yielding the exact epigraph LP.",
+    "Continuity of the finite maximum on the compact disclosure simplex proves attainment; no unsupported minimax interchange or polynomial-complexity claim is used.",
+    "For utility gap in [-1,1], calculated worst regret max(p,1-p), deterministic value 1 and random half-and-half value 1/2. Fixed-kernel randomization and within-stratum homogeneous utility remain essential."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-D83-586/prior.tex",
+      "sha256": "f72e17fd8cfe574790a9fce78a47454f5016a5e4a01d3c26a942e0af6b637d13",
+      "git_blob_sha": "6719485f8d6d59a672ef32fc353ed498b19cd366",
+      "revision": "r1",
+      "revision_id": "rev_7454ca14ca4e496395ce8949a8cac80a",
+      "contribution_id": "con_5bdbb0c6b1d842468c956a49825bf85f",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-D83-586/record.json",
+      "sha256": "2be996b9f43b5878a2a65e2442b9e351b0fabac2cc443e2c96ed1a793bb59ab8",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Finite fixed response kernels, common homogeneous stratum utilities and a supplied joint polytope are essential; no seller-adaptation equilibrium or polynomial-time guarantee.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

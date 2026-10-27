@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-C33-332",
+  "problem_id": "prb_08c0c63ddca849be856d2803974b1701",
+  "catalog_rank": 336,
+  "title": "Independent review: Scalable inference for spatial and spatio-temporal interference",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Two-distance identification of the exponential spatial range and policy-functional invariance in the equal-distance nonidentified class.",
+  "contribution_handle": "ECON-C33-332-A1",
+  "contribution_id": "con_fd82dabec5a34808a60a923bfa049515",
+  "revision_id": "rev_23bb729916ea4907915561096c208caf",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/scalable-inference-for-spatial-and-spatio-temporal-interference/attempt-1/r1/",
+  "source_sha256": "5179083c15fb9eac628b0c3cd822ae273dec1a5b38f1801013ba1b3c7c949112",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-C33-332.json",
+  "qualified_audit": "qualified_audits/ECON-C33-332.json"
+}

@@ -17,6 +17,24 @@
     "https://we-solve.github.io/prompts/ECON-L13-555.txt",
     "https://we-solve.github.io/contributions/common-ownership-and-competition/attempt-1/r1/"
   ],
-  "source_sha256": "f5de4e6ece57ce791b318cdd4f6700e973dc82805b5acabe6c829d002c62d0fc",
-  "cross_review": "Root checked equilibrium, derivative, exit threshold and exact example; formatting subsequently repaired."
+  "cross_review": "Root written proof audit and independent configured gpt-6.1-sol Ultra scoped final check completed; exact serving revision unknown.",
+  "type": "attempt",
+  "prior_contribution_handle": "ECON-L13-555-A1",
+  "prior_contribution_id": "con_b9a562d40f8a480a87dc99a0e399bf3c",
+  "prior_revision_id": "rev_1d4dd28dd7e34f37a017a4bfc444d8c4",
+  "prior_source_blob_sha": "c0fa90d18c1c12721c7044d99b5ea6cbc754aff6",
+  "prior_source_sha256": "96bebfafcf118f170e522d64ac677855033fe0b49beed5ab2e4a2450cd9c604a",
+  "qualified_review": {
+    "reviewer": "/root/verify_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_file": "qualified_audits/ECON-L13-555.json",
+    "document_sha256": "3bba124fcda02492b081549d830f5e47f0786d34ff82a220af21e5cb62ddd9a8",
+    "scope": "Independent scoped mathematical check of final manuscript against retained prior r1 source; no human, formal or historical-novelty certification."
+  },
+  "unverified_legacy_source_sha256": "f5de4e6ece57ce791b318cdd4f6700e973dc82805b5acabe6c829d002c62d0fc",
+  "prompt_source_sha256": "518f7f19a37e02ceec9a13ed639404545a1f148ab13619fdd5f8b14b5d97432e",
+  "prompt_source_file": "source_cache/ECON-L13-555/prompt.txt"
 }

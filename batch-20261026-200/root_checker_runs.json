@@ -1,0 +1,92 @@
+[
+  {
+    "handle": "ECON-C21-206",
+    "program_sha256": "8e39d83427c8263b583784e9458422086236f7e50c5fa3cce86a04caa23477fe",
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"exact_bias_cases\": 1458, \"arithmetic\": \"fractions.Fraction\", \"limits\": \"arbitrary positive discrete weights test the algebra; uniform continuous tilt bound uses written proof\"}\n",
+    "stderr": "",
+    "elapsed_seconds": 0.04,
+    "source_unchanged": true
+  },
+  {
+    "handle": "ECON-C31-214",
+    "program_sha256": "db9c7a76452b2d562042599875e18aef992c223cd1d70a81096247540bf06a3c",
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"exact_chi_square_cases\": 192, \"arithmetic\": \"fractions.Fraction\", \"limits\": \"finite likelihood identities only; no infinite-theorem certification\"}\n",
+    "stderr": "",
+    "elapsed_seconds": 0.058,
+    "source_unchanged": true
+  },
+  {
+    "handle": "ECON-C31-219",
+    "program_sha256": "a577dca878d3460ed6b3030ec307e656eb8b898dcfcefe359840742160b8da4a",
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"exact_resolvent_cases\": 72, \"arithmetic\": \"fractions.Fraction\", \"limits\": \"finite matrix identities only; inference theorem uses written Gaussian proof\"}\n",
+    "stderr": "",
+    "elapsed_seconds": 0.04,
+    "source_unchanged": true
+  },
+  {
+    "handle": "ECON-C31-289",
+    "program_sha256": "d54235eab72ddcd9f74c836193f19481888acbd73cf35f810ba93e68d5fda7e4",
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"exact_reconstructed_models\": 20412, \"nonzero_covariance_models\": 18144, \"grid\": \"a,b,m0,m1 in {0,1/8,...,1}; p in {1/8,...,7/8}; a+b<1\", \"arithmetic\": \"fractions.Fraction\", \"scope\": \"Finite algebra/latent reconstruction only; no endpoint optimizer tested.\"}\n",
+    "stderr": "",
+    "elapsed_seconds": 0.707,
+    "source_unchanged": true
+  },
+  {
+    "handle": "ECON-C78-373",
+    "program_sha256": "c1ecff732a542ae1a69d15b76067302f59629658cd594ff2104ec907efd28ff3",
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"instances\": 320, \"applicants\": \"1..4\", \"houses\": \"1..4\", \"uncertain_applicants\": \"1 or 2\", \"seed\": 386373, \"arithmetic\": \"exact rank vectors and fractions\", \"scope\": \"candidate dominance and exact optimum against exhaustive oracle\"}\n",
+    "stderr": "",
+    "elapsed_seconds": 0.075,
+    "source_unchanged": true
+  },
+  {
+    "handle": "ECON-C78-417",
+    "program_sha256": "c4f30d10f1275d934b1a856fa7da1b3548174b8468d6a3737879bb84d1263c99",
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"interpolation_graphs\": 273,\n  \"all_bipartite_graphs_sides_at_most\": 3,\n  \"graph_filter\": \"no isolated vertices; isolated cases have zero permanent\",\n  \"direct_refinement_cases\": 11,\n  \"direct_refinements_enumerated\": 92748,\n  \"arithmetic\": \"exact Python Fraction\",\n  \"scope\": \"finite checks; not a proof of hardness\"\n}\n",
+    "stderr": "",
+    "elapsed_seconds": 1.503,
+    "source_unchanged": true
+  },
+  {
+    "handle": "ECON-D81-347",
+    "program_sha256": "d9a1841f0c7358e7d2db8277bdcca0adcff272b143de384756e64e147b3ae1a4",
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"cases\": 63, \"dimensions\": \"2..10\", \"arithmetic\": \"floating point Simpson integration, 10000 panels\", \"scope\": \"sanity check only; not rigorous quadrature or theorem verification\"}\n",
+    "stderr": "",
+    "elapsed_seconds": 0.088,
+    "source_unchanged": true
+  },
+  {
+    "handle": "ECON-D82-386",
+    "program_sha256": "7e8e3afed485d8d0e0924e7530f698fb52531bbac17ad0fb7949aa4958e01606",
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"known_prevalence_cases\": 8280, \"denominators\": \"1..12\", \"arithmetic\": \"exact fractions\", \"scope\": \"binary-code formulas only\"}\n",
+    "stderr": "",
+    "elapsed_seconds": 0.422,
+    "source_unchanged": true
+  },
+  {
+    "handle": "ECON-G12-354",
+    "program_sha256": "caf4eb36b7f333ecc9526379955148de7ccea14b87983606439249e5d258132e",
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"simplex_points\": 176850, \"denominators\": \"1..100\", \"arithmetic\": \"exact fractions\", \"scope\": \"three-state boundary inequality; not the general continuity theorem\"}\n",
+    "stderr": "",
+    "elapsed_seconds": 0.619,
+    "source_unchanged": true
+  },
+  {
+    "handle": "ECON-L13-555",
+    "program_sha256": "4cea9b6f8e52271e281a95ce1d24f35cefcd9d286b11bf03226076be1f05f911",
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"exact_kkt_and_welfare_instances\": 720, \"derivative_checks\": 719, \"example_welfare_change\": \"19/18\", \"seed\": 553, \"scope\": \"Implementation and arithmetic checks; general claims proved in report.\"}\n",
+    "stderr": "",
+    "elapsed_seconds": 0.131,
+    "source_unchanged": true
+  }
+]

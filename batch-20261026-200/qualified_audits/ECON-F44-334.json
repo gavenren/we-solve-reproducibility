@@ -1,0 +1,44 @@
+{
+  "handle": "ECON-F44-334",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-F44-334/review.md",
+  "document_sha256": "12fc0ccc75f7a63635d2bb62c5311c46089b27d4ceb9efecf8a6889720c4e4b7",
+  "checked_scope": "Gaussian propagation/common-shock equivalence, instrument-rank recovery, and correlation normalization.",
+  "checks": [
+    "Verified at r=4/5 and a=b=1/2 that (I-A)C(I-A)^T=(9/20)I; both Gaussian models have the identical full observable output law but different same-primitive-law link-removal correlation effects.",
+    "Checked the nonidentification example only permits propagation coefficients not separately structurally observed; it does not claim ambiguity after pinning the network response map.",
+    "Verified the full-row-rank right inverse of B recovers L from E[UZ^T]=LB, and the single-instrument two-shock case leaves the second column unconstrained.",
+    "Recomputed correlations 1/2 and 1/3 for the two positive-definite covariance examples despite increasing off-diagonal covariance, and confirmed common standard-Gaussian shock representations via Cholesky factors.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-F44-334.txt",
+      "sha256": "0429f44536286078e765ed5e50f7c564dd2f934468b15cf39c8e16bf88002495",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-F44-334_A1.txt",
+      "sha256": "57e025f2d4029cf6d89bf7166c1d018f54e16881c300cb4965c622c71c5addeb",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-F44-334/source_notes.md",
+      "sha256": "66ea9f35e72eac040fa73fffae7c059c820aec32f87274472412244984226c53",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-F44-334_A1.yaml",
+      "sha256": "80f023bc46ac05b93559e8ff86d7c63b644c44771b057bbb238c347fe02a0440",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Gaussian reduced-form equivalence, moment recovery and normalization only. Feasible domestic replacement technology, ownership mechanisms and identified production-network counterfactuals are not supplied.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-E32-471",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-E32-471/review.md",
+  "document_sha256": "5c8f3e1c8e1aa88f438c044e5af6df074c213f313ce4588bb1c9b6aec1641f6c",
+  "checked_scope": "The CRRA compensation formula, its aggregation weights, and the zero-benefit welfare derivative on an interior equilibrium branch.",
+  "checks": [
+    "For p=1−γ≠0, compensated utility derivative Sx^(p−1)>0 and its equation is Sx^p=T; positive finite solutions exist exactly for T>0, even when p<0.",
+    "Summing household utility equalities gives power-mean weights proportional to ωᵢSᵢ, with factors between individual extrema; the separately derived logarithmic case gives geometric aggregation.",
+    "Differentiating the balanced insurance budget and using the individual effort first-order condition yields (1−p)(u′U−u′E)+(τ+b)u′E p′. At b=τ=0 the fiscal term vanishes and the first is positive for interior employment and positive wage; the result remains conditional on a differentiable interior branch."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-E32-471_0.tex",
+      "sha256": "d897e6584ba5a8ca92221f568bb55db05ad45caee28131596f7b4ef3389a9f34",
+      "revision_id": "rev_bd570ef863a84e6b884c4b1826bf0618",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/welfare-costs-of-fluctuations/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

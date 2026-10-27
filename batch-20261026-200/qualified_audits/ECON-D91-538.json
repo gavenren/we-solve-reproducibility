@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D91-538",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D91-538/review.md",
+  "document_sha256": "895e41a2d9787ce880a591befae6b57b0ec51251e3b3b1add3144d5df08863e6",
+  "checked_scope": "The positivity criterion for the maximin KL objective and the finite-hypothesis budget LP.",
+  "checks": [
+    "Averaging one feasible positive-weight design for each usable experiment produces a jointly feasible design positive on all usable coordinates.",
+    "Pointwise KL positivity becomes a uniform positive minimum through compact cross-class parameter domains, continuity, and the stated positive probability bound; an indistinguishable cross-class pair makes every feasible criterion zero.",
+    "Both directions of every cross-class KL pair belong in the finite LP. Bernoulli 1/4 versus 3/4 gives (log 3)/2 and budget C yields optimal C(log 3)/2. Triangle inequality gives the factor-two cell-separation threshold."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-D91-538_0.tex",
+      "sha256": "ea3d5cc004c5da001ae68f1a0b83cc9d12e147f82406264cbe7e184cbb153a67",
+      "revision_id": "rev_913431b678254766824a64f11752c2b2",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/identifying-choice-procedures/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

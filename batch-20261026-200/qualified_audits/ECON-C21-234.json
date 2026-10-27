@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C21-234",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C21-234/review.md",
+  "document_sha256": "87545b51c48d6ddeb2add8eadb3560cdd295bc1494dd6f8a28f2ff9dda737407",
+  "checked_scope": "The fixed-weight martingale variance, exact augmentation bias and independent historical-borrowing optimum.",
+  "checks": [
+    "Disjoint arm indicators give conditional score second moment <=1/qij+1/qi0; martingale orthogonality yields 2epsilon^-1 sum a_i^2 for fixed prespecified weights and the conditioned arrival sequence.",
+    "Conditional expectation of predictable augmentation leaves exactly (1-q/qhat)(mhat-m). Known actual randomization removes bias irrespective of regression error; current-outcome fitting cannot be factored out.",
+    "Independent historical/current estimates give risk bound v_C-2v_C*lambda+(v_C+v_H+b_H^2)*lambda^2. Its optimizer and zero-risk endpoint cases are correct, with an excluded zero denominator. The truncated |t-t_C|^u mean attains Lg^u within the outcome range."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C21-234.txt",
+      "sha256": "57af49f4d54bb9af48407373066d452d0e3082efc73efc3e320c98f5597f5bc3",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C21-234.prior0.html",
+      "sha256": "a73a8b29c8b532d3fbaf81446e541831219abbc713320fc6c8cba919e79f44bc",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C21-234.prior0.yaml",
+      "sha256": "db10547e0ae884b7ab2d0ecef994208a05050cfb0b364af81a00e6967a1df3d4",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C21-234/source_notes.md",
+      "sha256": "a1fb0c2416afa1d5122544b81cc4f2cfe61918b33a45d4cc421ee6b25aae2bb6",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

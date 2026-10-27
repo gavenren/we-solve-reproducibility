@@ -1,0 +1,90 @@
+[
+  {
+    "agent": "/root/verify_a",
+    "group": "econ_a",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "fork_turns": "none",
+    "serving_revision": "unknown",
+    "expected_problems": 34,
+    "configuration_evidence": "Explicit collaboration.spawn_agent arguments in this session",
+    "status": "completed",
+    "verdict": "approved_scoped",
+    "audit_count": 34
+  },
+  {
+    "agent": "/root/verify_b",
+    "group": "econ_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "fork_turns": "none",
+    "serving_revision": "unknown",
+    "expected_problems": 34,
+    "configuration_evidence": "Explicit collaboration.spawn_agent arguments in this session",
+    "status": "completed",
+    "verdict": "approved_scoped",
+    "audit_count": 34
+  },
+  {
+    "agent": "/root/verify_c",
+    "group": "econ_c",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "fork_turns": "none",
+    "serving_revision": "unknown",
+    "expected_problems": 33,
+    "configuration_evidence": "Explicit collaboration.spawn_agent arguments in this session",
+    "status": "completed",
+    "verdict": "approved_scoped",
+    "audit_count": 33
+  },
+  {
+    "agent": "/root/verify_d",
+    "group": "econ_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "fork_turns": "none",
+    "serving_revision": "unknown",
+    "expected_problems": 33,
+    "configuration_evidence": "Explicit collaboration.spawn_agent arguments in this session",
+    "status": "completed",
+    "verdict": "approved_scoped",
+    "audit_count": 33
+  },
+  {
+    "agent": "/root/verify_e",
+    "group": "econ_e",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "fork_turns": "none",
+    "serving_revision": "unknown",
+    "expected_problems": 33,
+    "configuration_evidence": "Explicit collaboration.spawn_agent arguments in this session",
+    "status": "completed",
+    "verdict": "approved_scoped",
+    "audit_count": 33
+  },
+  {
+    "agent": "/root/verify_f",
+    "group": "econ_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "fork_turns": "none",
+    "serving_revision": "unknown",
+    "expected_problems": 33,
+    "configuration_evidence": "Explicit collaboration.spawn_agent arguments in this session",
+    "status": "completed",
+    "verdict": "approved_scoped",
+    "audit_count": 33
+  },
+  {
+    "agent": "/root/verify_b/b_source_check",
+    "group": "econ_b entries20-27",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "configuration_evidence": "Parent verify_b reports explicit configured helper; individual assistance recorded in each relevant audit.",
+    "status": "completed",
+    "role": "Additional retained-source and mathematical checks; alternative Circular Nim replay."
+  }
+]

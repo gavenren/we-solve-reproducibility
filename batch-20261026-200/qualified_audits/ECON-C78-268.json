@@ -1,0 +1,53 @@
+{
+  "handle": "ECON-C78-268",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C78-268/review.md",
+  "document_sha256": "63e93e38ebbdf16eb3f09ec9d7e0b36a5ec9b7b37f2f45fa8fbfd8838f427300",
+  "checked_scope": "Four-agent terminal trap; potential witness bound; complete-network reachability reduction",
+  "checks": [
+    "Both swap branches satisfy all preference and graph checks. At terminal T, agent4 is top-ranked; the remaining graph has only 12 and 13 and neither swap improves both ends. D strictly improves agents1,2,3 and preserves agent4, proving the reachable terminal trap.",
+    "Every legal cycle raises ordinal potential by >=2 over range n(n-1), yielding polynomial path certificates for fixed or input k. Certificate-prefix NP queries recover a maximum-potential reachable endpoint and hence an FP^NP Pareto selection.",
+    "On a complete graph with k=n, each nontrivial disjoint permutation cycle toward an individually rational target strictly improves its untouched members, proving reachability equivalence and the matching reductions."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C78-268.txt",
+      "sha256": "370fa0ff54605cb2bd4478a7e4789ae80afd18dbf9741ca5e1b6eee67234d504",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C78-268.prior0.html",
+      "sha256": "3382e22ffe36323b354f2b160ab3520e8216a90140a4b1f0a1f4b173c5e718ac",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C78-268.prior0.yaml",
+      "sha256": "d664078b18140bc3a8e6e98bf968d17543cdae22745d95a06bf1b2df8acff9e1",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C78-268/source_notes.md",
+      "sha256": "703118eea4febb3bfb7cadbfac31da82666c983d95b0c2ff09463ea9123bf51f",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ],
+  "assistance": {
+    "reviewer": "/root/verify_b/b_source_check",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "role": "Additional independent retained-source and mathematical checks for the exact scoped contribution documented in this audit."
+  }
+}

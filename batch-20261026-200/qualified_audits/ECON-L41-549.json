@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-L41-549",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-L41-549/review.md",
+  "document_sha256": "d7cd4f944f569086df63c0ffb517dc7ccdc0bc52a2a2e3ff09d85444326aa16d",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** unbiased scoring, simultaneous selected-model regret, and interval-identified risk comparisons in ECON-L41-549-A1, revision r1.",
+  "checks": [
+    "Expanded the paired noisy-benchmark loss difference; squared benchmark error cancels identically, while unbiased variance subtraction is needed for absolute risk and may be dependent on the estimate.",
+    "Recomputed the sub-Gaussian proxy with squared cohort weights, simultaneous finite-pair radius, selected-model regret of one paired radius, and zero-proxy boundary.",
+    "For forecasts 0,1/2 and effect in [0,1], computed sharp paired difference tau-1/4 in [-1/4,3/4], tighter than the independent marginal-risk comparison.",
+    "Endpoint sharpness across mergers requires the complete product-box identified set; the review correctly retains frozen forecasts and cross-merger independence for the concentration result."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-L41-549/prior.tex",
+      "sha256": "41e824a880cc51a7ef0f1beba671eeb331595e9006387dcf810a4c64291ea62e",
+      "git_blob_sha": "e943ca99d1ea94e5f51b2d5ec7e4c48ea38916e6",
+      "revision": "r1",
+      "revision_id": "rev_10aaae7e9fef4b5b824ab11ba0a2e1d9",
+      "contribution_id": "con_f20b869925064d63bee02a1a9cf4ca7a",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-L41-549/record.json",
+      "sha256": "58626c680963c3ceaabb8edec5815011aac6632aedf9c4d694c79a08e8fad511",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "No validation of retrospective causal designs, cross-merger independence, product equivalence, cohort transport or actual empirical rankings.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

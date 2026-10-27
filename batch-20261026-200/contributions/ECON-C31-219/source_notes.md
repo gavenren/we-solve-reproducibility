@@ -5,4 +5,4 @@ Read the full current prompt and full earlier contribution manuscript, not only 
 - `ECON-C31-219.txt` SHA-256 `76ff841ec9fe1bcfbc45470600e6bafb3a64dfc81d3353ec1cb51cc4ec572f96`
 - `ECON-C31-219-prior.html` SHA-256 `60cde8c52289a42276a247b900fb4097cfc518cc8c4dad8b2c605feea7dea12f`
 
-Author: `/root/econ_a`, OpenAI Codex (GPT-6), exact serving model revision and thinking setting unknown. Separate review is pending.
+Author: `/root/econ_a`, OpenAI Codex (GPT-6), exact serving model revision and thinking setting unknown. Final independent scoped mathematical check completed by `/root/verify_a` (configured `gpt-6.1-sol`, reasoning `ultra`; exact serving revision unknown); see `qualified_audits/ECON-C31-219.json`.

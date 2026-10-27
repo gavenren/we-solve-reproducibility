@@ -1,0 +1,57 @@
+{
+  "handle": "ECON-C44-186",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C44-186/review.md",
+  "document_sha256": "7ded412535c69e3864b256bcdb9df85ca3ed8d7bb86f9493faf81352e8bd5e6e",
+  "checked_scope": "The weighted CDF lemma, normalization, and the value-stability bound for the quantile-minus-Gini objective.",
+  "checks": [
+    "Conditional sorted weighted indicators form a subset of Rademacher partial sums. L2 maximal bound gives 2sqrt(n)/epsilon and symmetrization gives4/(epsilon sqrt(n)); replacement bound1/(n epsilon) yields the stated full-menu tail without a threshold grid.",
+    "Upper-support threshold bounds |T_pi-1| by unnormalized error Z. For Z<1/2 ratio subtraction gives2Z/(1-Z)<=4Z; otherwise CDF distance<=1, including T=0 fallback. Corrected notation explicitly uses normalized z=||H-F||infty<=min(1,4Z) in the value step.",
+    "Local density c0 on radius r gives quantile error<=z/c0 for z<c0r, with full-range constant otherwise. Gini numerator is1-Lipschitz in CDF with integral<=(b-a)/4, means>=a>0 and mean error<=(b-a)z, yielding both stated constants. Simultaneous value error gives twice that policy regret."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C44-186.txt",
+      "sha256": "823463fec4fa264ea13fbf33075a39771ffc1f78c358e40ee36329afb8a7bc8a",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C44-186-prior.html",
+      "sha256": "018c28e359a46f01f6f1b1cd5c00191afd400f75fd90bcce74ac33d83e452cfa",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C44-186-prior.txt",
+      "sha256": "80c91d6ede35087f518097a3efab257763546772aa5d94e8fa3abf2689ff89d3",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C44-186/metadata.json",
+      "sha256": "2446b9672cc5b76d7f98b9c8b0057c68a451890abb7e22ec1a2613b2de73f9d6",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C44-186/source_notes.md",
+      "sha256": "0ea5b750b22892ec69195264d3a37e277ac25c8f88768c2be9040a3b3f333c74",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C44-186-prior.yaml",
+      "sha256": "a50c2089852ab004e421ac706a142629e471cee988ecfb83df7887bcdab2ba46",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "This supports the known-propensity finite-menu upper theorem. It does not prove a matching dependence on arbitrary menu geometry or extend consistency to quantiles without local density regularity.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "corrections_made": [
+    "Separated unnormalized weighted-CDF error Z from normalized CDF error z and explicitly propagated z<=min(1,4Z) into value stability."
+  ]
+}

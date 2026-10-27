@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C72-285",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C72-285/review.md",
+  "document_sha256": "76222b9ecb59abe0545f1e2e44c2c1d0c9fbaee86f1e6197dcb5e1acc3a98334",
+  "checked_scope": "The simultaneous payoff-box certificate, finite completion fallback, and fixed-candidate boundary obstruction.",
+  "checks": [
+    "The two-sided Hoeffding failure at count s is delta/(2nKs^2); summing coordinates and counts gives delta*pi^2/12<delta. Presampled independent profile streams justify adaptive prefix revelation.",
+    "Deviation coefficients are the difference of two probability vectors and have l1 norm<=2. Maximizing over the payoff box gives the signed endpoint expression and exact cancellation for an already-pure incumbent deviation.",
+    "At every realization, a xi-Nash empirical solution and radius <=(epsilon-xi)/4 give certificate <=xi+2rho<epsilon. For a fixed finite query cap, the invalid Bernoulli laws converge in TV to a boundary law; cap limits bound eventual boundary certification by delta."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C72-285.txt",
+      "sha256": "22c748490bafd5b1963fc8ba51aba57d686a1339c04b6e8375fee503b5af7f9d",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C72-285.prior0.html",
+      "sha256": "dcc6f185ae26777a629b8820626484f2313601309bd76e34023a304094982702",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C72-285.prior0.yaml",
+      "sha256": "17b5a9d834662b8b90ed33f29b60649ec9f3a457857f6f2c6245933ba0935062",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C72-285/source_notes.md",
+      "sha256": "4066e39df6ac62caa72da966395e9d638f9c30ee9d48b68e92468681f5657b08",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "No equilibrium-computation complexity or full fixed-gap sample-cost constant audit.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

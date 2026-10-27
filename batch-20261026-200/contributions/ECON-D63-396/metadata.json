@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_40e72c800f484e588baebbf439ceac84",
+  "handle": "ECON-D63-396",
+  "title": "Independent review of ECON-D63-396-A1: Four-item obstruction characterization and two-agent PMMS construction",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-D63-396-A1",
+  "contribution_id": "con_8cc2f4ddd9e34b4dbf2a103b98082d14",
+  "revision_id": "rev_214cd836aaac44308f7c29dd04d1a020",
+  "finding": "Supports the claim",
+  "checked_scope": "Four-item obstruction characterization and two-agent PMMS construction",
+  "scope": "Four-item obstruction characterization and two-agent PMMS construction",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/pmms-for-mms-feasible-pair-demand-valuations/attempt-1/r1/",
+  "source_sha256": "2def2ddc39e97e714c1900fd7073f872db1f28d77b9d262b8c6ab4516cc0b4b1",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-D63-396.json"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-C32-504",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C32-504/review.md",
+  "document_sha256": "3821c2341044876480ca218e2660d35114fab8292595f4439e862da6621bbcf6",
+  "checked_scope": "The finite labeling set and exact/approximate proxy restrictions under the assumed statistical identification class.",
+  "checks": [
+    "Inverting B₀PD yields proxy coordinates DPᵀd, and full-matrix restriction enumeration matches the assumed finite identification class.",
+    "Coordinate-box feasibility is exactly s d̂ⱼ+r≥κ and (|d̂ₖ|−r)₊≤ε for all k≠j; this checks both relevance signs and exclusion at zero.",
+    "The numerical proxy vectors give respectively one, zero, and two feasible positive target directions. Triangle inequalities justify rival exclusion for violations >2r, without a boundary-identification assertion."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-C32-504_0.tex",
+      "sha256": "96a28f69fe20f3383f8fb2b4c84fb3a960429c91b866007e9aff9773c95b031e",
+      "revision_id": "rev_f634933457df4640a6081719193cced8",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/economic-interpretation-of-statistically-identified-shocks/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

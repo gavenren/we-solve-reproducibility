@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_905ed4f94d9b4ad688649fc92ece33b1",
+  "handle": "ECON-C21-453",
+  "title": "Independent review of ECON-C21-453-A1: Sharp sensitivity interval, rare-cell risk lower bound, and finite-stratum coverage constants",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-C21-453-A1",
+  "contribution_id": "con_65e1ca015ade43eeae56670690c9101f",
+  "revision_id": "rev_04f96cebc1b248aea9e7f153bd9de193",
+  "finding": "Supports the claim",
+  "checked_scope": "Sharp sensitivity interval, rare-cell risk lower bound, and finite-stratum coverage constants",
+  "scope": "Sharp sensitivity interval, rare-cell risk lower bound, and finite-stratum coverage constants",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/external-validity-and-transportability/attempt-1/r1/",
+  "source_sha256": "af8fc5837b13b17f020155ad71613a1fdb935c22cb84a68488868d7b8bcd551e",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C21-453.json"
+  }
+}

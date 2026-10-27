@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-G14-582",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-G14-582/review.md",
+  "document_sha256": "aae456c28bcbe2586a6222ceb4c04c9aef67885967bad1603984d70e7d374458",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** constrained optimum identity, CARA funding-cap example and finite-family testing guarantee in ECON-G14-582-A1, revision r1.",
+  "checks": [
+    "Verified outward normal-cone orientation from feasible directional derivatives, positive marginal-utility normalization, and global sufficiency under concavity.",
+    "Kernel mean one subtracts total deterministic execution cost c(v) exactly once; this is distinct from marginal cost at the optimum.",
+    "Completed the CARA-normal exponent to obtain w*=min(L,mu/(gamma*sigma^2+k)) and tilted moment mu-gamma*sigma^2*w*. Recomputed 0.06 gross moment, 0.01 marginal cost, 0.05 cap wedge, 0.0275 discounted net moment and 0.0475 expected net profit.",
+    "Checked nondegenerate Gaussian losses at nonzero exposure, separate bounded-score Hoeffding range 2B, finite-family union bound and composite rejection control if one candidate satisfies all restrictions."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-G14-582/prior.tex",
+      "sha256": "1fa52b74c656830e0a4dc19f520893474e2c0f38f9e7c3b1a5383a07d4cf1314",
+      "git_blob_sha": "fef9e7677628d5bde773add4aff39cffce931d11",
+      "revision": "r1",
+      "revision_id": "rev_69035bcf46e3443d99687801c66dd002",
+      "contribution_id": "con_86b39d9837264e768cff0af369555a36",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-G14-582/record.json",
+      "sha256": "9c66d0f0e70d57b7704066ed837476054e98deb370a96feac1bdb9f86fb816b8",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Finite-state constrained optimum, Gaussian numerical example and bounded-score test are separate models; no empirical kernel/constraint calibration or strategy profitability conclusion.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

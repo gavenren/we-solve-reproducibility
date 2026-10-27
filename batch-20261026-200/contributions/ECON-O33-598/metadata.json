@@ -1,0 +1,34 @@
+{
+  "problem_id": "prb_4a09e9e81f464916bef53b8d49ebdc83",
+  "handle": "ECON-O33-598",
+  "title": "Review: feedback-adjusted information effects in adoption networks",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-O33-598-A1",
+  "contribution_id": "con_21bb035b975947fa9e1552c3a6dd1cb3",
+  "revision": "r1",
+  "revision_id": "rev_c896fce0f8f144af811300531279fec9",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** equilibrium, individual versus market Wald ratios and full-matrix structural identification in ECON-O33-598-A1, revision r1.",
+  "scope": "**Finding:** Supports the checked claims. **Checked scope:** equilibrium, individual versus market Wald ratios and full-matrix structural identification in ECON-O33-598-A1, revision r1.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact serving revision and reasoning settings unavailable",
+  "verification": "Independent mathematical derivations, boundary checks and counterexample calculations documented in review; no empirical validation or human peer review claimed.",
+  "source_urls": [
+    "https://github.com/We-Solve/research/blob/main/problems/4a/prb_4a09e9e81f464916bef53b8d49ebdc83/contributions/con_21bb035b975947fa9e1552c3a6dd1cb3/files/O33-598.tex",
+    "https://we-solve.github.io/contributions/adoption-races-and-beliefs/attempt-1/r1/"
+  ],
+  "source_blob_sha": "9b81209aaca4514fa023293bad1d8db1ee5ed4e3",
+  "source_sha256": "458a09927001f8dec5976df560e64fc67c44c7f96d16938a064bc2f1905effd6",
+  "latest_check": "Revision identity matched catalog/aliases.json; r2 API returned 404 on retrieval.",
+  "source_retrieved_utc": "2026-10-27",
+  "qualified_review": {
+    "reviewer": "/root/verify_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_file": "qualified_audits/ECON-O33-598.json",
+    "document_sha256": "ce57260f032d600580bac1cd277694e8ea05c413c321646d999ef36c5521ed22",
+    "scope": "Independent scoped mathematical check of final manuscript against retained prior r1 source; no human, formal or historical-novelty certification."
+  }
+}

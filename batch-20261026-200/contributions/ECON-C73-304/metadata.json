@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_337bcefdaa044ebeb00d77711c746c34",
+  "canonical_problem_id": "prb_337bcefdaa044ebeb00d77711c746c34",
+  "handle": "ECON-C73-304",
+  "catalog_rank": 308,
+  "problem_title": "Banach-space antipassivity for evolutionary-game smoothing",
+  "title": "Audit of the tangent exactness obstruction to Banach-space antipassivity",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C73-304-A1",
+  "contribution_display_handle": "Econ-308-A1",
+  "contribution_id": "con_d6bdf3a574bd401a8fcde754c21d32e9",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_d39687849492472fbae355d5676a7b9a",
+  "checked_scope": "The necessary tangent symmetry condition, explicit three-strategy obstruction and continuous-kernel inverse obstruction.",
+  "scope": "The necessary tangent symmetry condition, explicit three-strategy obstruction and continuous-kernel inverse obstruction.",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/banach-space-antipassivity-for-evolutionary-game-smoothing/attempt-1/r1/",
+  "source_sha256": "be7e7b75822f47beff87e727e1ed137cbcdf92726f252c213cd7ae0757356d89",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C73-304.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C73-304.txt",
+      "sha256": "9b618d7be96241c48fe1fbea48205a03268a8d8d3e0facea46a389e4eed80f58"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C73-304.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/banach-space-antipassivity-for-evolutionary-game-smoothing/attempt-1/r1/index.html",
+      "sha256": "be7e7b75822f47beff87e727e1ed137cbcdf92726f252c213cd7ae0757356d89"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C73-304.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/banach-space-antipassivity-for-evolutionary-game-smoothing/attempt-1/r1/contribution.yaml",
+      "sha256": "97d01eb33819ef58fb109dc257b3abd49a5beca41f58c5befbecd80699ee26f1"
+    }
+  ],
+  "review_path": "contributions/ECON-C73-304/review.md",
+  "review_sha256": "0f202b6106b6ac457bac8cff25e29fa06dda54eed287a1ef816d003ebdf2ff1e",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C73-304.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "The necessary tangent symmetry condition, explicit three-strategy obstruction and continuous-kernel inverse obstruction.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

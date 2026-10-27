@@ -1,0 +1,38 @@
+{
+  "handle": "ECON-G11-625",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-G11-625/review.md",
+  "document_sha256": "c7a8f68dcd1f2f742270eeacc7029aa7c273ed0b7c282b160f15082c42377793",
+  "checked_scope": "**Finding:** Supports the claim in the bounded-risk CARA model. This review checks the hedge, the participation cutoff, and the numerical inequalities behind the participant-selection reversal.",
+  "checks": [
+    "Independent signs factor CARA moments into coshes; minimizing |b+tau*delta| yields unique clipped hedge -min(x,b/tau), and the given M bound ensures strictly positive consumption.",
+    "Checked matching derivatives at x=b/tau and strictly decreasing f prime from the common-risk term, giving unique constrained optimum min(xhat,A-kappa), including endpoint maxima.",
+    "Participation advantage H(kappa) is continuous and decreases by at least the cost increment; f prime(0)>0, H(0)>0 and H(A)=-A establish a unique threshold with nonparticipation at equality.",
+    "Computed concentration (1+min(1,b^2/(tau^2*x^2)))/2 only for positive exposure and weak decrease for always-participants.",
+    "Verified selection-example inequalities via log cosh<=z^2/2: type 1 enters, type 2 initially cannot gain more than 0.05<0.9 but enters after cost 0.1 with gain >0.1. Entrant is entirely in the hedging asset; participant mean concentration rises 1/2 to 3/4 while each type benefits."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-G11-625/prior.tex",
+      "sha256": "f8b3b3f44f70ec792e38095cd3a458520d0df901d748b541d428f8fe1ce0b727",
+      "git_blob_sha": "54d709acd56738c15049ccc833e67e165ea1f5c3",
+      "revision": "r1",
+      "revision_id": "rev_839073e1511c45b0a61f3f24a9ce5216",
+      "contribution_id": "con_f1d10e6ba5c24319b46c223920bec930",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-G11-625/record.json",
+      "sha256": "87e1dfd070e0240c63cd2b926d1cbbec074ed921a79a12f8d177734b79d3cb93",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Long-only two-asset bounded-risk CARA model and real-cost reductions only; concentration concerns risky holdings of participants, not total household wealth or subsidized social welfare.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

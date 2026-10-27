@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_20a4e528dc524888aa238f38ab8a44b0",
+  "handle": "ECON-D12-516",
+  "title": "Audit of compensation nonexistence, sharp loss-risk bounds, and frame wedges",
+  "contribution_handle": "ECON-D12-516-A1",
+  "contribution_id": "con_0d78510105804769a9b34fc4d3ede7cb",
+  "revision_id": "rev_7135e097d3fb499a93723b3b59936d2e",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The CARA compensation formula, bounded-loss identified interval, and threshold-CDF bounds.",
+  "scope": "The CARA compensation formula, bounded-loss identified interval, and threshold-CDF bounds.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/privacy-valuation/attempt-1/r1/",
+  "source_sha256": "ca7d6d775a37de4a402edb29c81b94ac67b0a5382e78f6775cb04db98c22df1e",
+  "review_path": "reviews/ECON-D12-516/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-D12-516.json",
+  "document_sha256": "83fbf7c0d3774d3688153c40e6625bec16f19db147bf9e23c3a526a73d252426"
+}

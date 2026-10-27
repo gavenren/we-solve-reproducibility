@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-D91-558",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D91-558/review.md",
+  "document_sha256": "f22e5aa6d31f660cff3e0ec59e3b10a73d4385d182873b8213ec15ad72936e41",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** held-intervention risk correction and Gaussian magnitude/rank formulas in ECON-D91-558-A1, revision r1.",
+  "checks": [
+    "Recomputed conditional high-validation-noise risk correction, paired cancellation, and variance increment 4*v*E(f-g)^2, requiring centering conditional on latent effects and forecast inputs.",
+    "Derived Gaussian coefficient c/(v_L+v_epsilon), residual risk v_H-c^2/(v_L+v_epsilon), and the independent-residual/Pythagorean argument.",
+    "For v_L=v_H=c=1 and v_epsilon=3, coefficient is 1/4, risk is 3/4, forecast/target difference correlation is 1/2 and ranking success is 2/3; fair tie-breaking at c=0 and rho=1 are handled.",
+    "Recomputed the disagreement-wedge angle and Hoeffding range length 8B^2. Clarified that effects, forecasts AND validation trial estimates must be bounded, as in the actual source; intervention count is the independent sample size."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-D91-558/prior.tex",
+      "sha256": "07d5da1a3f4282f5ead4c8d52048b4f5569d90cd96e8f465bd53a29db123cb6b",
+      "git_blob_sha": "005abc3ce317f4105b438f93c50c3c72accc9e2a",
+      "revision": "r1",
+      "revision_id": "rev_3427f2b9091d4e1e92d5f605b1283526",
+      "contribution_id": "con_d64c7072066148b8ad2d2c2f5b2a19d7",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-D91-558/record.json",
+      "sha256": "1370f65288fd5e5ae6f381b4341ffc86d6d066c8dc1bb21956b55aec7485c45f",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "No empirical Gaussianity, scale transport or saturation-exposure validation; bounded comparison concentration needs bounded trial estimates and independent interventions.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

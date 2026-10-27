@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-C31-321",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C31-321/review.md",
+  "document_sha256": "dc43416a6df82d4b242f7a250120a4b4104eee47a7dd5b4bcd0133fdcf85d8f8",
+  "checked_scope": "Exact conditional null distribution of the residual quadratic statistic and preservation of diverging Frobenius information; no uniform alternative-power claim.",
+  "checks": [
+    "Checked M projects off the actual nuisance column space, A=MAM and tr A=0; Gaussian radial cancellation gives exactly the claimed conditional nuisance-free spherical quadratic distribution.",
+    "Recomputed E T=0 and Var T=2||A||F^2/[r(r+2)] using fourth spherical moments; for r=1, A=0.",
+    "Checked B-MBM=PB+BP-PBP, the three rank-at-most-three Frobenius bounds, and |tr(MBM)|<=3; bounded projection losses are negligible relative to diverging ||B||F.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C31-321.txt",
+      "sha256": "befad127729bf3c4497258ff7792cc7230d5e5227db1bfaf1105fba141530060",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-C31-321_A1.txt",
+      "sha256": "0960134f59a1f444f187586a2d9416df02acf91011c80c5793fb78b45663b861",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-C31-321/source_notes.md",
+      "sha256": "bea3c3ab2af80c511cecbb2c47aa0c9201d6ebcdf6807f9c523a0a26a29465dc",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-C31-321_A1.yaml",
+      "sha256": "04262550c074c4fce4987e486d5e2ba3d0708250284147b24299e1aea1e87594",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Exact null distribution and asymptotic norm preservation only. Uniform alternative power, general correlated innovations and numerical quantile accuracy are excluded.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

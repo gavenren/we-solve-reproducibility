@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D60-517",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D60-517/review.md",
+  "document_sha256": "f0a0f75a4f5451cfa34cf917b178b9b87c45f81e259030997010ac9b2a6bbc4b",
+  "checked_scope": "The robust preorder, unrestricted-weight degeneracy, and vertex-pair reduction for finite outcome polytopes.",
+  "checks": [
+    "For probability difference d, Σd=0 and coordinatewise minimization over [0,1]^m equals −||d||₁/2; the minimizing vector already has min zero and max one when d≠0.",
+    "A common model/welfare domain makes robust preference reflexive and transitive; normalized monotone welfare vectors give nonnegative sums of upper-tail differences, exactly first-order stochastic dominance.",
+    "Compactness supplies a bilinear minimizer and sequential vertex replacement preserves its value. The coupled scalar example always has difference .5, while independent marginal intervals spuriously permit −.5."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-D60-517_0.tex",
+      "sha256": "85b2c9b688881f7e5d7b0037463044ea2b526ad38a9b7e4586391413ee8fa458",
+      "revision_id": "rev_e37f4ae240284da78c363c0007e7a185",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/welfare-when-preferences-are-inconsistent/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

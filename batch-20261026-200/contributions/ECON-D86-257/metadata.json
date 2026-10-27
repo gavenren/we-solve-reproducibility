@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_a48b7e9717594d3bb7967f198047a0d2",
+  "canonical_problem_id": "prb_a48b7e9717594d3bb7967f198047a0d2",
+  "handle": "ECON-D86-257",
+  "catalog_rank": 261,
+  "problem_title": "Digital revenue-contingent finance with imperfect observability",
+  "title": "Audit of noisy-receipt affine contracting and manipulation incentives",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-D86-257-A1",
+  "contribution_display_handle": "Econ-261-A1",
+  "contribution_id": "con_4b183605d52b4a9697ad39484f2ee90a",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_44eeaf848ddc449fa2b54d911586e598",
+  "checked_scope": "The diversion optimum, binding financeability condition, certainty equivalent and comparative statics within the affine family.",
+  "scope": "The diversion optimum, binding financeability condition, certainty equivalent and comparative statics within the affine family.",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/digital-revenue-contingent-finance-with-imperfect-observability/attempt-1/r1/",
+  "source_sha256": "49210b1e613318b91b54c73790451e23adf1895d6643422d21562c442dfbb566",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-D86-257.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-D86-257.txt",
+      "sha256": "647d433ccb43f8cf44a7b65bc4f86287865189b4dac430db58c6af88fc9f8e03"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-D86-257.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/digital-revenue-contingent-finance-with-imperfect-observability/attempt-1/r1/index.html",
+      "sha256": "49210b1e613318b91b54c73790451e23adf1895d6643422d21562c442dfbb566"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-D86-257.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/digital-revenue-contingent-finance-with-imperfect-observability/attempt-1/r1/contribution.yaml",
+      "sha256": "595077ad84f94443e884b49e6dcddfbe39c14a284e9faeaa6c104697df9322cc"
+    }
+  ],
+  "review_path": "contributions/ECON-D86-257/review.md",
+  "review_sha256": "6c5fc033d94001a6b58bcf83961affd6eee618d9e2d3d0e25d2d49a41dcab8a5",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-D86-257.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "The diversion optimum, binding financeability condition, certainty equivalent and comparative statics within the affine family.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "date_utc": "2026-10-27",
+  "count": 33,
+  "new_results": 1,
+  "reviews": 32,
+  "approved_scoped": 33,
+  "needs_revision": 0,
+  "source_hash_and_identity_matches": 33,
+  "material_unresolved_errors": [],
+  "edits": [
+    {
+      "handle": "ECON-C21-553",
+      "change": "Replaced an unstated uniform upper cost bound with the finite expected-cost condition implicit in the finite budget interval and the correct dominated-convergence argument."
+    },
+    {
+      "handle": "ECON-L13-555",
+      "change": "Repaired malformed [0,1) governance interval and equation reference; removed pending-review language after independently checking proof and prior comparison."
+    },
+    {
+      "handle": "ECON-D91-558",
+      "change": "Made bounded validation trial estimates explicit in the Hoeffding comparison claim, matching the prior source."
+    },
+    {
+      "handle": "ECON-L41-613",
+      "change": "Made the no-exit p0=p1 boundary explicit so an empty eliminated-stratum mean is not used."
+    },
+    {
+      "handle": "ECON-D44-622",
+      "change": "Made the empty maximum equal zero in the enforcement intensity boundary."
+    },
+    {
+      "handle": "ECON-L13-555",
+      "change": "Labeled an unmatched legacy source hash as unverified and added the exact checked prompt file/hash; the independently verified prior TeX hash remains correctly labeled."
+    }
+  ],
+  "method": "Read all 33 final manuscripts and the actual retained prior TeX sections for their claimed scopes; rederived formulas, counterexamples, constants and boundary cases. Checked retained source SHA-256/git blob hashes and exact revision/contribution/problem identities. Inspected existing L13-555 written-proof audit and checker log without repeating tests.",
+  "audits": [
+    "qualified_audits/ECON-C21-553.json",
+    "qualified_audits/ECON-C21-569.json",
+    "qualified_audits/ECON-C21-581.json",
+    "qualified_audits/ECON-D81-567.json",
+    "qualified_audits/ECON-L13-555.json",
+    "qualified_audits/ECON-C90-604.json",
+    "qualified_audits/ECON-L41-549.json",
+    "qualified_audits/ECON-I11-551.json",
+    "qualified_audits/ECON-D91-558.json",
+    "qualified_audits/ECON-I11-561.json",
+    "qualified_audits/ECON-L11-566.json",
+    "qualified_audits/ECON-D83-571.json",
+    "qualified_audits/ECON-D91-578.json",
+    "qualified_audits/ECON-G14-582.json",
+    "qualified_audits/ECON-D83-586.json",
+    "qualified_audits/ECON-D91-587.json",
+    "qualified_audits/ECON-E37-594.json",
+    "qualified_audits/ECON-L26-595.json",
+    "qualified_audits/ECON-O33-598.json",
+    "qualified_audits/ECON-M21-599.json",
+    "qualified_audits/ECON-E58-600.json",
+    "qualified_audits/ECON-L41-605.json",
+    "qualified_audits/ECON-I26-607.json",
+    "qualified_audits/ECON-H26-608.json",
+    "qualified_audits/ECON-D91-609.json",
+    "qualified_audits/ECON-I18-610.json",
+    "qualified_audits/ECON-L41-613.json",
+    "qualified_audits/ECON-O32-614.json",
+    "qualified_audits/ECON-I21-615.json",
+    "qualified_audits/ECON-H22-617.json",
+    "qualified_audits/ECON-D44-622.json",
+    "qualified_audits/ECON-G11-625.json",
+    "qualified_audits/ECON-O31-626.json"
+  ],
+  "limitations": [
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited.",
+    "No external mutations performed. Exact serving revision is unknown; configured model and reasoning level are recorded from the assigned final verification configuration."
+  ]
+}

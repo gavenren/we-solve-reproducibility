@@ -1,0 +1,65 @@
+{
+  "handle": "ECON-C23-429",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C23-429/review.md",
+  "document_sha256": "2a7171e0a4b05a1c1ae75080aaa347c592aba7cee4586fd3a76a197ec4d4c985",
+  "checked_scope": "Selected-weight coverage under nonleakage and the unexcited-factor width obstruction",
+  "checks": [
+    "Checked target subtraction cancels the observed treated outcome and leaves the post-treatment untreated contrast; A1's full-pretreatment nonleakage assumption gives the conditional proxy sigma^2(1+sum w_j^2)/H.",
+    "Verified the pretreatment union event bounds every simplex noise contrast by 2u simultaneously; normalized triangle inequality and excitation give the selected-weight loading certificate and alpha0+alpha1 coverage.",
+    "Checked the identical-data +/-Lambda loading models and the probability >=1-2alpha endpoint-width argument, including the auxiliary-randomization qualification.",
+    "Checked equal-noise single-donor comparison b versus F|delta| and its distinction from optimizing a common radius. Inspected A2's simultaneous donor-uniform noise theorem and its explicit removal of A1's nonleakage assumption; the review correctly targets A1."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-C23-429/source_notes.md",
+      "sha256": "11400ff28e541712415f77c883be40f3e4bf5ab9746faac319ba563e6cf8f266",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-C23-429/metadata.json",
+      "sha256": "b4b18141d00ae314dbe5bc747f7b54925faefef24acef0e6404e43f05f30cdb1",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/sparse-synthetic-controls_attempt-1_r1.html",
+      "sha256": "029da987aadabc8e8fd03a62f39133c87007fdaaa8bd161245ce7baf60967f77",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/sparse-synthetic-controls_attempt-1_r1.txt",
+      "sha256": "73be262c8bc5d5a486d4f6f4a6667a503b78d330663722752523dce43964c00b",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-C23-429-A1.yaml",
+      "sha256": "c4d54d753b144aa6195ebd2351ec52318adde35da075ff9195aa9308ed152b47",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    },
+    {
+      "path": "prior_attempts/sparse-synthetic-controls_attempt-2_r1.html",
+      "sha256": "a3a54cc633eeaf673625d7d93d8026f5984a7ab902cc92195dcbe0f0e5e167d7",
+      "checked": "additional A2 HTML retained for the explicitly limited revision comparison"
+    },
+    {
+      "path": "prior_attempts/sparse-synthetic-controls_attempt-2_r1.txt",
+      "sha256": "311908a8905c3e2e4281b9357734022a6e62b3c10dc48a3d7169f756e80d6c86",
+      "checked": "A2 simultaneous donor-uniform noise control and removed nonleakage assumption compared"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

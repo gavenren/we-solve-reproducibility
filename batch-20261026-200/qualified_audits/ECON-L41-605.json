@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-L41-605",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-L41-605/review.md",
+  "document_sha256": "465649497cccd6043c3c3bab90962936f588e1f0f78dd837798f320dacf784bd",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** risk/selection identities, known-variance calibration counterexample and sharp missing-proposal bounds in ECON-L41-605-A1, revision r1.",
+  "checks": [
+    "Conditional centering first removes retrospective noise, then ignorable selection transports conditional risk, and inverse selection restores proposal-population risk; a reported standard error alone supplies none of these assumptions.",
+    "For the augmented score, conditional expectation gives exact bias (1-e/e_tilde)*(mu_tilde-mu); either correct nuisance eliminates bias with independently trained working functions.",
+    "Swapping independent fair sign U and three-point V preserves the full R=U+V law and known conditional noise variance one, but changes coverage of [-1/2,1/2] from 0 to 1/2 while risk remains one.",
+    "Projection/farthest-endpoint missing-case constructions preserve observed data and attain sharp risk endpoints; mixing fills the interval. Paired comparisons use the same missing effect and are linear in that effect."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-L41-605/prior.tex",
+      "sha256": "384b6e87eab6e10a1eef1df2724a65d9fccdd93339540756a237e3df7315ee32",
+      "git_blob_sha": "d86b572a29d8ecf191a33de3680cd51cf20fef82",
+      "revision": "r1",
+      "revision_id": "rev_145d8ff4d64543198db54030938a034b",
+      "contribution_id": "con_49ea5ae7a9124bf6b075ec85c70d9ae6",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-L41-605/record.json",
+      "sha256": "da48949c94c387ecd2567fcd26283621824b778dbdaa00eaecbeb7c9c804fb40",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Known selection, causal retrospectives, target-population bounds and valid noise assumptions are inputs; no actual forecast ranking or convolution inversion is certified.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C90-284",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C90-284/review.md",
+  "document_sha256": "f625767ba863bb49b3bd2cfe0fc05c9b04d24790706c9fde470f8429de5ccb01",
+  "checked_scope": "The bounded-martingale Bernstein lemma and simultaneous interval/cumulative-width theorem only.",
+  "checks": [
+    "The conditional exponential series gives denominator 2(1-lambda*b/3); substituting lambda=x/(v+bx/3) gives the stated Bernstein exponent. The positive root is bounded by sqrt(2vL)+2bL/3.",
+    "Disjoint assignment indicators give score second moment <=1/[epsilon(1-epsilon)] and centered bound <=2/epsilon. A datewise alpha/T error and union bound cover the random predictable running mean through fixed T.",
+    "Summing widths with sum t^-1/2<=2sqrt(T) and sum t^-1<=1+log(T) reproduces the constants; clipping gives pathwise bound 2T even for an empty failure-event intersection."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C90-284.txt",
+      "sha256": "e71de669167c3796a7b23a9268e01e7640b537c63b5b5b01ae7712093c2e20ab",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C90-284.prior0.html",
+      "sha256": "3ee5c487a9836df0dcae00a4d5842bc8ef539cddf53f2b46480de6f054c99a67",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C90-284.prior0.yaml",
+      "sha256": "b703043f233728c00f2700964b8422dee7891c8ab3257af6bcd3b1a453f86ed8",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C90-284/source_notes.md",
+      "sha256": "880d69c1fe380f98b9ecce38f618a40e18c6ecba9e357f0fd511ffaecafd478a",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Fixed declared horizon only; restarted-regret theorem and drift-optimal frontier outside reviewed scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

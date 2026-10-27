@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_289cbc3723914aa4923c97d89d1f1c33",
+  "handle": "ECON-C78-424",
+  "title": "Independent review of ECON-C78-424-A1: Threshold-face construction of all join-irreducibles and source-integrality applicability",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-C78-424-A1",
+  "contribution_id": "con_3a225dd81a24471899e85ddb4b7c88ae",
+  "revision_id": "rev_2f8d28a883174212a9ed1447f37ef464",
+  "finding": "Supports the claim",
+  "checked_scope": "Threshold-face construction of all join-irreducibles and source-integrality applicability",
+  "scope": "Threshold-face construction of all join-irreducibles and source-integrality applicability",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/efficient-birkhoff-representation-of-two-sided-robust-stable-matchings/attempt-1/r1/",
+  "source_sha256": "900b4034df9d8a196626175a4711d1da20d829c14600addb007d69c6571f066e",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C78-424.json"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-F44-334",
+  "problem_id": "prb_a95d8c3b61834dc097a0ecc519cd33a0",
+  "catalog_rank": 338,
+  "title": "Independent review: International business-cycle transmission",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Gaussian propagation/common-shock equivalence, instrument-rank recovery, and correlation normalization.",
+  "contribution_handle": "ECON-F44-334-A1",
+  "contribution_id": "con_b7d3e6e3a37d43d1af090d2aebbb5e54",
+  "revision_id": "rev_c1dd66a84f4340099ef746544db272b2",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/international-business-cycle-transmission/attempt-1/r1/",
+  "source_sha256": "57e025f2d4029cf6d89bf7166c1d018f54e16881c300cb4965c622c71c5addeb",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-F44-334.json",
+  "qualified_audit": "qualified_audits/ECON-F44-334.json"
+}

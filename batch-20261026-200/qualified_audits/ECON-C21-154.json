@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C21-154",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C21-154/review.md",
+  "document_sha256": "98f8d4ba9da1e889fbe4c372f29944bf4ae8d5823ce6519ee81194806c580206",
+  "checked_scope": "The one-dimensional BV finite-dictionary approximation and the step-family minimax lower bound.",
+  "checks": [
+    "Jordan decomposition, amplitude mesh epsilon and location mesh epsilon^3 give O(epsilon^2) integrated squared approximation: O(1/epsilon) shifted jumps affect total measure O(epsilon^2). Clipping preserves approximation and entropy is O(epsilon^-1 log(1/epsilon)).",
+    "Excess squared loss has variance <=C K^2(r_f+r_g), so Bernstein plus a finite union yields a fast complexity term log|F|/n. Balancing epsilon^2 with epsilon^-1 log(1/epsilon)/n gives (log n/n)^(2/3).",
+    "J~n^(1/3), a=kappa/J signed-bin lower family has total variation <=2aJ, neighbor sample KL O(na^2/J), and accumulated squared separation a^2~n^-2/3. Constants preserve outcome/variance/BV restrictions. Sharp removal of the logarithm and optimal inference are not checked claims."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C21-154.txt",
+      "sha256": "06ae27d25cbfc281da006517a1b5db19b78a82207038a0d2b1117ef7136dcc59",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C21-154-prior.html",
+      "sha256": "d56c21539d430ce10452b5cabfed04dcac8a651398173285a78401babef412da",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C21-154-prior.txt",
+      "sha256": "0488063e0de5d91f5975d200c3bc331eeae4ecdf3b6c3528f4f42b01bdf315c4",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C21-154/metadata.json",
+      "sha256": "5eef1e16f53a57ac5bc97a5f187c63a4023fe7abb572a9630f59f48b98b0565a",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C21-154/source_notes.md",
+      "sha256": "fcca568a4398bde28896c6a52cd7b915669351168a1d870c30349db678d6b607",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C21-154-prior.yaml",
+      "sha256": "5cd81df787b65b087c82f9ca9ed81b4db886122dd824bee0c0f85191e59472df",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "This supports the exponent and the logarithmic upper construction, not removal of the logarithm. The learned-propensity error term is sufficient, not a proved necessary threshold; the Markov confidence ball is not established to be optimal or adaptive.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

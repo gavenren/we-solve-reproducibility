@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_e751b5cbccbc4ce2bc633ebb492c12bb",
+  "handle": "ECON-Q58-500",
+  "title": "Audit of permanent-price directions and discounted-emissions monotonicity",
+  "contribution_handle": "ECON-Q58-500-A1",
+  "contribution_id": "con_996980f7ed1d4142afac7fbf12c2fb46",
+  "revision_id": "rev_3a41826a35424d5297ccef2baeec7ccd",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The local path-rank identification criterion, closure selection formula, and dynamic substitution counterexample.",
+  "scope": "The local path-rank identification criterion, closure selection formula, and dynamic substitution counterexample.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/carbon-price-responsiveness/attempt-1/r1/",
+  "source_sha256": "f39e2eebb79d04bf7797971035700d488621cbed7eeef36bc8f7ee601a967d2f",
+  "review_path": "reviews/ECON-Q58-500/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-Q58-500.json",
+  "document_sha256": "bec6ba179fcaaca2b0842722701dd418fcbbcd758d2c85749b2a7bae415beb14"
+}

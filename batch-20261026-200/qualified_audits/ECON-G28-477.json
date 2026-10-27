@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-G28-477",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-G28-477/review.md",
+  "document_sha256": "0136209f9f19b933f1311375fb1d5eca485c5b7b97746fbcb91a258272e446df",
+  "checked_scope": "The interior quadratic credit model, linear expected-loss comparison, and sharp coverage-adjusted displacement interval.",
+  "checks": [
+    "The Hessian −b11ᵀ−diag(γ) is negative definite; interior first-order differentiation gives bank contraction and unregulated expansion with denominator 1+bT and ratio bS/(1+bS).",
+    "Independent slopes γB=1, γU=2, b=1 give D=.6, N=.2 and ratio 1/3. Expected loss change is D(θUΛ−θB), while common versus disjoint defaults preserve marginal expected loss and change joint crisis probability.",
+    "Positive independent coverage bounds invert to credit-level intervals; independently attainable endpoint differences divided by fixed d>0 give the sharp ratio interval. Zero reported mass forces zero actual mass under positive coverage; common coverage would couple regimes."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-G28-477_0.tex",
+      "sha256": "b10190368d6aea086676c93af935e708ab2a2d3f22f3d3f1ff709771a4276247",
+      "revision_id": "rev_cc78a86f486143f2880c32c4771e1b6b",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/macroprudential-leakage/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

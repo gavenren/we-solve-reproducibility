@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_01ec02eec0bd4d4abe730bb14e585f8f",
+  "handle": "ECON-C71-421",
+  "title": "Independent review of ECON-C71-421-A1: Incidence-rank minimality criterion and labelled clone/component transforms",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-C71-421-A1",
+  "contribution_id": "con_f3c795dd73e14c3c96cdcb2c9f155c00",
+  "revision_id": "rev_585bc12fb8d14f39a0406adf95bf034c",
+  "finding": "Supports the claim",
+  "checked_scope": "Incidence-rank minimality criterion and labelled clone/component transforms",
+  "scope": "Incidence-rank minimality criterion and labelled clone/component transforms",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/structural-enumeration-of-minimal-balanced-collections/attempt-1/r1/",
+  "source_sha256": "32dbfedde1468dd7f097dd701d2235b1d5e2b62c52017744336a830d895f9c38",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C71-421.json"
+  }
+}

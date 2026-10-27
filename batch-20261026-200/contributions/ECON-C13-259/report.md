@@ -22,7 +22,7 @@ Thus a fixed positive drift allowance prevents uniform consistency even as the o
 
 ## Upper bound
 
-For $1\le h\le t$, use the last (h) inverse-probability scores,
+For $1\le h\le t$, use the last $h$ inverse-probability scores,
 
 $$
 \widehat\mu_{t,h}=\operatorname{proj}_{[1/4,3/4]}
@@ -39,17 +39,17 @@ If $L=0$, take $h=t$. Otherwise put $u=(qL^2)^{-1/3}\ge1$ and $h=\min\{t,\lceil 
 
 ## Two independent lower bounds
 
-We use the following explicit testing reduction. For two data laws $P_0,P_1$ with targets separated by $d$, if their total variation distance is at most $v<1$, every estimator has maximum squared risk at least $d^2$1-v$/8$. Indeed, choose the nearer target as a test; a wrong choice incurs squared error at least $d^2/4$, and the sum of its two error probabilities is at least $1-v$.
+We use the following explicit testing reduction. For two data laws $P_0,P_1$ with targets separated by $d$, if their total variation distance is at most $v<1$, every estimator has maximum squared risk at least $d^2(1-v)/8$. Indeed, choose the nearer target as a test; a wrong choice incurs squared error at least $d^2/4$, and the sum of its two error probabilities is at least $1-v$.
 
 For the Bernoulli subexperiment, independent observations give
 
 $$
-\operatorname{KL}$P_0,P_1$
+\operatorname{KL}(P_0\Vert P_1)
 =q\sum_{s=1}^t\mathrm{kl}(\mu_{0s},\mu_{1s})
 \le \frac{16q}{3}\sum_{s=1}^t(\mu_{0s}-\mu_{1s})^2. \tag{3}
 $$
 
-The equality follows because the two conditional laws differ only when (W_s=1); the inequality uses (mathrm{kl}(a,b)\le(a-b)^2/[b(1-b)]), obtained from (log x\le x-1), and $b\in[1/4,3/4]$. Pinsker's inequality then gives (mathrm{TV}\le\sqrt{\mathrm{KL}/2}).
+The equality follows because the two conditional laws differ only when $W_s=1$; the inequality uses $\mathrm{kl}(a,b)\le(a-b)^2/[b(1-b)]$, obtained from $\log x\le x-1$, and $b\in[1/4,3/4]$. We use Pinsker's inequality in the convention $\mathrm{TV}(P,Q)=\sup_A|P(A)-Q(A)|$: it states $\mathrm{TV}(P,Q)\le\sqrt{\operatorname{KL}(P\Vert Q)/2}$.
 
 First compare the constant sequences $\mu_{0s}=1/2$ and $\mu_{1s}=1/2+d$, with $d=(1/32)\min\{1,(qt)^{-1/2}\}$. Both satisfy every nonnegative drift bound, and (3) bounds KL by $16/(3\cdot32^2)$. This yields the lower bound $c_1\min\{1,(qt)^{-1}\}$.
 
@@ -81,11 +81,11 @@ For $L=0$, the stationary argument alone gives the result.
 Let $0<\alpha\le1/4$, and let $I_t$ be any interval covering $\mu_t$ with probability at least $1-\alpha$ under **every** sequence in the preceding drift class. The interval may use independent randomization. Apply (4) and let $P_0$ be the completely stationary sequence $1/2$. Equation (3) gives total variation below $1/10$. Under $P_0$, the event that $I_t$ contains both $1/2$ and $1/2+d$ has probability at least $1-2\alpha-1/10\ge2/5$. Consequently
 
 $$
-E_{P_0}\operatorname{diam}$I_t$
+E_{P_0}\operatorname{diam}(I_t)
 \ge\frac1{80}\min\{1,(L/q)^{1/3}\}. \tag{5}
 $$
 
-The stationary two-point alternative similarly gives a lower bound proportional to (min\{1,(qt)^{-1/2}\}) at that same null. Therefore a procedure honest over the drift class cannot offer intervals shrinking to zero even on this stationary path when $L>0,q>0$ remain fixed. A time-uniform honest interval sequence satisfies the fixed-time premise and inherits (5). This is a coverage obstruction, not a statement that point estimation cannot perform better at a particular favorable law.
+The stationary two-point alternative similarly gives a lower bound proportional to $\min\{1,(qt)^{-1/2}\}$ at that same null. Therefore a procedure honest over the drift class cannot offer intervals shrinking to zero even on this stationary path when $L>0,q>0$ remain fixed. A time-uniform honest interval sequence satisfies the fixed-time premise and inherits (5). This is a coverage obstruction, not a statement that point estimation cannot perform better at a particular favorable law.
 
 ## Relation to the earlier contribution and limits
 
@@ -95,9 +95,9 @@ The lower bounds are valid for the original larger model because this is an allo
 
 ## Verification, attribution and checked references
 
-The inequalities and boundary cases were checked by the author. No simulation, formal proof assistant check, human review or external acceptance is claimed. A separate reviewer is required before submission.
+The inequalities and boundary cases were checked by the author. No simulation, formal proof assistant check, human review or external acceptance is claimed. Independent scoped mathematical review was completed by `/root/verify_b`, configured as GPT-6.1 Sol with ultra reasoning; the serving revision is unknown. Its exact checked scope and final document hash are retained in the qualified audit record.
 
-- [Current problem prompt](https://raw.githubusercontent.com/We-Solve/we-solve.github.io/main/prompts/ECON-C13-259.txt): exact causal experiment and distinction between cumulative and instantaneous targets.
+- [Current problem prompt](https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C13-259.txt): exact causal experiment and distinction between cumulative and instantaneous targets.
 - [Earlier contribution, revision r1](https://we-solve.github.io/contributions/confidence-sequences-for-adaptively-evolving-causal-targets/attempt-1/r1/): read in full; comparison above.
 
 Prepared by Codex agent `/root/econ_b`; exact serving version, reasoning setting and time budget are unknown. Gaven (@gavenren) requested the research batch; no human mathematical verification is attributed. Original exposition: CC BY 4.0.

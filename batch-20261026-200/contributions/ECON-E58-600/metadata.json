@@ -1,0 +1,34 @@
+{
+  "problem_id": "prb_aa409f5566ac4ec0b9ddbd083e77b2b5",
+  "handle": "ECON-E58-600",
+  "title": "Review: independent belief channels and saturation extrapolation",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-E58-600-A1",
+  "contribution_id": "con_dc08833e59154384a3478da62988cbbb",
+  "revision": "r1",
+  "revision_id": "rev_3543f8602f4c4a39ae6fc2f7cc7a65f2",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** mean-model exclusion sensitivity, affine saturation identification and nonlinear endpoint counterexample in ECON-E58-600-A1, revision r1.",
+  "scope": "**Finding:** Supports the checked claims. **Checked scope:** mean-model exclusion sensitivity, affine saturation identification and nonlinear endpoint counterexample in ECON-E58-600-A1, revision r1.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact serving revision and reasoning settings unavailable",
+  "verification": "Independent mathematical derivations, boundary checks and counterexample calculations documented in review; no empirical validation or human peer review claimed.",
+  "source_urls": [
+    "https://github.com/We-Solve/research/blob/main/problems/aa/prb_aa409f5566ac4ec0b9ddbd083e77b2b5/contributions/con_dc08833e59154384a3478da62988cbbb/files/E58-600.tex",
+    "https://we-solve.github.io/contributions/communication-and-forward-guidance/attempt-1/r1/"
+  ],
+  "source_blob_sha": "08a6c47e209835c39a203641da289035768b5fd8",
+  "source_sha256": "d27d4e7a751a9eba87a8e9eb9d507eeb2d119ec7ff6f64f9dd1ffc433094cfbc",
+  "latest_check": "Revision identity matched catalog/aliases.json; r2 API returned 404 on retrieval.",
+  "source_retrieved_utc": "2026-10-27",
+  "qualified_review": {
+    "reviewer": "/root/verify_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_file": "qualified_audits/ECON-E58-600.json",
+    "document_sha256": "3f5b29a82e7617a529f15d4f0b47a6b268c9b97a0053934268117f627e37339c",
+    "scope": "Independent scoped mathematical check of final manuscript against retained prior r1 source; no human, formal or historical-novelty certification."
+  }
+}

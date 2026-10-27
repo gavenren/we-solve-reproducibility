@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-I13-329",
+  "problem_id": "prb_bb9997c5980346208524348d80bb16a3",
+  "catalog_rank": 333,
+  "title": "Independent review: Insurance choice frictions and selection",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Owner-inclusive quasi-linear accounting, the selected-branch adverse-selection sign reversal, and the smooth premium derivative.",
+  "contribution_handle": "ECON-I13-329-A1",
+  "contribution_id": "con_bb0ebc8fa4ce40c8a8d61cc869aa11ab",
+  "revision_id": "rev_8d925bc9e0ac4314b04f8bb8cc7a6d8c",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/insurance-choice-frictions-and-selection/attempt-1/r1/",
+  "source_sha256": "21a5ebaa680fef2b9070bb3e939a83c975e68c7beeb14f3d139111d975208ce1",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-I13-329.json",
+  "qualified_audit": "qualified_audits/ECON-I13-329.json"
+}

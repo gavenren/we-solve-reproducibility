@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-C33-383",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C33-383/review.md",
+  "document_sha256": "f79a37f558a6913f946f045140548bf7a132917a6bb1ee0a0bc4956bd1c4f921",
+  "checked_scope": "The constrained least-squares risk and score-set confidence bounds under the explicitly supplied excitation condition (D).",
+  "checks": [
+    "Verified predictable current-design score increments Xt^T Ut have zero cross-time inner-product expectation and E||S||^2=sigma^2 E tr V, without conditioning on future regressors.",
+    "Checked the constrained least-squares basic inequality and good-event bound ||Delta||<=2||S||/(kappa M); compact diameter and condition (D) yield the exact displayed risk constants.",
+    "Subtracted two score-set inequalities to get ||V(theta1-theta2)||<=2rM and diameter <=2rM/(kappa M). Lipschitz propagation, Markov coverage and the bad-design probability yield O(M^(-1/2)) expected interval length.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C33-383.txt",
+      "sha256": "2bffeef642558834b92bc70da5799ed8152edbfed0c7082ac3aef3107920a762",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-C33-383_A1.txt",
+      "sha256": "36f986aeeb25994eb7b2d063afa57b908b1d103701d7985a42bec4f4d1df412b",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-C33-383/source_notes.md",
+      "sha256": "63775ebdc9486401aacad6251723351339358a725c37744d4ad3ad4bb1ed7cac",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-C33-383_A1.yaml",
+      "sha256": "d91938e29bbcc4aad26b0b6310d40959dabbcb7c3e6b64c473c4aebd960626f9",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Condition (D), exogenous graph paths, compactness, stability and measurability are maintained assumptions. No derivation of excitation from marginal overlap, sharp lower-bound certification or endogenous-graph theorem is included.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-I26-412",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-I26-412/review.md",
+  "document_sha256": "2cdd2c44d97dbd45e61b44c038e60e67bd58476493a6523ba3bd3921c7a5e634",
+  "checked_scope": "Capacity-regime nonidentification and sharp rectangular net-return bounds",
+  "checks": [
+    "Checked the fixed-capacity local-admission experiment is unchanged while unobserved administrative capacity expansion activates incumbent losses; numerical values eight and minus two and nonnegative baseline levels are feasible.",
+    "Verified the fixed-full-cohort marginal accounting identity, the extra one-changed-destination rule needed for a single direct gain, and avoidance of double-counting entrant quality or infrastructure costs.",
+    "Recomputed the exact rectangular Minkowski interval [l-md-re-kappa,u+re-kappa] and its attainable endpoints/intermediate means under independently variable expansion responses, without claiming sharpness under richer equilibrium restrictions.",
+    "Checked the full-cohort discounted tail half-width NM beta^(T+1)/(1-beta) and whole-system Horvitz-Thompson identification with arbitrary within-system interference; enrolled-only follow-up is correctly excluded."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-I26-412/source_notes.md",
+      "sha256": "cf93f984e0692ccc4e3192fc14610dc951e529910c0fdf057a890f4a217c4583",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-I26-412/metadata.json",
+      "sha256": "91e3fc357907392f7e4e5a5b13767a61e3990c5ab2e92852871677ac93b639e3",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/returns-to-expanding-college-access_attempt-1_r1.html",
+      "sha256": "ea796ebdbedc3f0385adc02f3e73aea65fd43e0105ff8c0a4654e8d75cfef5ed",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/returns-to-expanding-college-access_attempt-1_r1.txt",
+      "sha256": "09342230042d7885a50c637afa74a847ffeca5bc777b71e09026c26e5bcdb073",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-I26-412-A1.yaml",
+      "sha256": "0f8808fb4d280835bf4495c305949fcc90f3be39de08181eba5b4997a713bb4f",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

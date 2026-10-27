@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-I11-551",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-I11-551/review.md",
+  "document_sha256": "3dc1be29e88b29f66c5e7827f805a2702914e9601e4544897b5fdd537efa7c4f",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** provider implementation, unconstrained welfare-optimal variable fees and claims-only observational equivalence in ECON-I11-551-A1, revision r1.",
+  "checks": [
+    "Recomputed the diagonal strictly negative provider Hessian, nonnegative actions at all fee/altruism boundaries, and exact minimum fixed payment and budget feasibility test.",
+    "Derived W_s prime=[theta*c_a*(1-alpha)-(1+c_a)*s]/(c_a+alpha)^2-s/c_k; strict concavity yields the source fee formula, treatment shortfall for alpha<1, and first-best zero rewards at alpha=1.",
+    "Computed billed slopes two for cost pairs (1,1) and (2,2/3), physical treatment slopes 1 and 1/2, and distinct optimal fees 1/3 and 2/9.",
+    "Checked the c_k to infinity clinical-fee limit and that passing the budget test is necessary before using the unconstrained recommendation; compact fee-menu existence does not solve a binding-budget optimum."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-I11-551/prior.tex",
+      "sha256": "abfab6574ebe95d6d2b88f2b5f62320287558451042d99abd14c6eb9243e540f",
+      "git_blob_sha": "2fbcec8493496dcad311f56a7b487db1a6f12d87",
+      "revision": "r1",
+      "revision_id": "rev_6e5b5ed10a8742b8857e11078351be09",
+      "contribution_id": "con_3262e1d837054e269da45c79f5e9aa60",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-I11-551/record.json",
+      "sha256": "e5f6d21d306aa7775ce022838ac1b10cb15273a9426a0b5e880853ab3bb14499",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Auditable all-patient access, quality and clinical cost primitives are assumptions; binding-budget optimum and general provider-selection problems remain open.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

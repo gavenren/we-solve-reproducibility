@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_fd27691b04b04d9799ba574cbb886cc4",
+  "handle": "ECON-D82-513",
+  "title": "Audit of fresh-context regret accounting in the payment protocol",
+  "contribution_handle": "ECON-D82-513-A1",
+  "contribution_id": "con_4124b01a92354ee28bc8d3d51b7447a1",
+  "revision_id": "rev_53d7430dab0042e78d78c476330d4214",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The contextual-reset threshold oracle and the horizon-dependent block-length calculation.",
+  "scope": "The contextual-reset threshold oracle and the horizon-dependent block-length calculation.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/dimension-dependence-in-learning-a-game-by-payments/attempt-1/r1/",
+  "source_sha256": "514b9a88f08ac2bdd017d15eb6194d71dd793f0271838b34455940cbe9fa40ec",
+  "review_path": "reviews/ECON-D82-513/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-D82-513.json",
+  "document_sha256": "36200e15158c9ce3e5127a573264d24571c1f8d1e284515d7ee988afe384f694"
+}

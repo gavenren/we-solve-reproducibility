@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_de5793602c5a4c2d9f84311ba751d51f",
+  "handle": "ECON-D83-521",
+  "title": "Audit of the attention counterexample and quality-welfare comparative statics",
+  "contribution_handle": "ECON-D83-521-A1",
+  "contribution_id": "con_1d1199d9c61b4a01879759c55a7b7b43",
+  "revision_id": "rev_9077424bbedc45cba0ed68d9ac6dc821",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The truthful-display reversal and the quadratic supplier-response welfare benchmark.",
+  "scope": "The truthful-display reversal and the quadratic supplier-response welfare benchmark.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/optimal-information-disclosure/attempt-1/r1/",
+  "source_sha256": "36b1edbddf2d27829387cef4112224c9f21706525ad39d0e2bc5794054607c53",
+  "review_path": "reviews/ECON-D83-521/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-D83-521.json",
+  "document_sha256": "8ec55bb3993bf36b4c5f04f39e77b106b74cf6e79cd5a09b4e493b711a8a60c2"
+}

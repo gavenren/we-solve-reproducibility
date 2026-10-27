@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-C72-488",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C72-488/review.md",
+  "document_sha256": "335ab00b3b8816f3dfa5efce12d9d9e8e13d5f7b91cb423cdc0254e063a3884c",
+  "checked_scope": "The random-game failure probability and expected-time calculation conditional on the manuscript fallback bound.",
+  "checks": [
+    "Zero column of A and zero row of B intersect at a pure equilibrium. Independence across columns, rows, and the two matrices gives exact certificate failure 2(1−q)^n−(1−q)^(2n).",
+    "For fixed c≤cρ, the logarithm remainder bounds the fallback base by 1+ρc²/(n−c); its nth power is bounded even at equality c=cρ.",
+    "The density sequence (cρ+n^(−1/2))/n instead gives base 1+ρe^(−cρ)n^(−1/2)+O(n^−1), invalidating the naive endpoint-limit extension of this sufficient bound. The imported fallback running-time theorem is expressly conditional."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-C72-488_0.tex",
+      "sha256": "9bfefa92a6c52dbbf448c31367eaf51d9aba87a4c1bcbfc524d0e0081c2c162d",
+      "revision_id": "rev_d39fc63bc3f2460f8e6fe5f2131f504b",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/critical-bernoulli-densities-for-expected-polynomial-nash-computation/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

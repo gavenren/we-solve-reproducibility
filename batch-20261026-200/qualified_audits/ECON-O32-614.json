@@ -1,0 +1,38 @@
+{
+  "handle": "ECON-O32-614",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-O32-614/review.md",
+  "document_sha256": "4f42c7a4592995c588882000adcc64734a573eb857798debb63cc1fcd1c64e87",
+  "checked_scope": "**Finding:** Supports the claim for the expected-count model and the finite-menu confidence construction. This review checks the optimal scale, the sign reversal in productivity complementarity, and the assumptions needed for certification.",
+  "checks": [
+    "Solved minimum review x=log(n/n_s)_+/kappa and strict monotonicity of required expected hours above n_s, including K=0 and candidate caps below n_s.",
+    "Differentiated D(n)=F/n+g+(c/kappa)*log(n/n_s)_+; unique positive global optimum is min(nbar,max(n_s,kappa*F/c)), including the kink and zero-generation option for F>0.",
+    "In the separate F=0 fixed-scale model, derivative of organizational ratio gain has sign g^2-c^2*L^2/(kappa0*kappa1), giving the stated opposite interaction signs while validated-value interaction stays zero.",
+    "Chebyshev radii allocate alpha/(4M) over four endpoints and M arms; nonnegative expected value and positive cost lower bound justify clipped ratio bounds. Verified 2e constraint margins and lower-bound selection regret no greater than the optimal arm interval width.",
+    "All generation, invalid-output and staffing constraints concern expectations, not realized hard caps or probability of any invalid output; the review retains that distinction."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-O32-614/prior.tex",
+      "sha256": "48d76d9fceea588984ae0940bbb9105b02a03d0fe28afbc84db8dc50b12996a0",
+      "git_blob_sha": "f0f8218e8b3210c7d8a9606d8b3f0efe73a59613",
+      "revision": "r1",
+      "revision_id": "rev_bbac4c88f72c4a67aca816de9cd00e23",
+      "contribution_id": "con_6171b17e3ea94399b230314a20f238b2",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-O32-614/record.json",
+      "sha256": "fab556ef287d3606fa2ba2fbcd21d607bc63cdb2aff54282372d9b28ea6647c6",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Expected-count/resource constraints are not hard realization caps; variance bounds, nonnegative expected value and independent evaluation units are maintained, not empirically established.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

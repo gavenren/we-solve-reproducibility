@@ -1,0 +1,25 @@
+{
+  "problem_id": "prb_f8253c7645284fa28825348ac8719dcc",
+  "handle": "ECON-D91-482",
+  "title": "Audit of optimal adaptive query budgets and availability confounding",
+  "contribution_handle": "ECON-D91-482-A1",
+  "contribution_id": "con_296e4d0427e440a58a9d928ba777f207",
+  "revision_id": "rev_9e67d65d4a084d0faf9f15f835a317d3",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The all-adaptive-algorithms query theorem and the finite-threshold availability identified set.",
+  "scope": "The all-adaptive-algorithms query theorem and the finite-threshold availability identified set.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/economic-models-of-costly-computation/attempt-1/r1/",
+  "source_sha256": "5154d534ce720f564c631ac0eaca80d0dd208abb1e3ef36e83d2176ae4ad38af",
+  "review_path": "reviews/ECON-D91-482/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "verification_artifacts": [
+    "verify_e_exact.py",
+    "econ_e_exact_checks.json"
+  ],
+  "qualified_audit_path": "qualified_audits/ECON-D91-482.json",
+  "document_sha256": "f893edc6256851213eee533c11ea832d08c3d6f34977f80deca2bace0536a118"
+}

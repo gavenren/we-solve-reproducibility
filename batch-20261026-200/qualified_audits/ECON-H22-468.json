@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-H22-468",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-H22-468/review.md",
+  "document_sha256": "7f8bbc753ff6f62ef37044ee66ad732c61593fc3472e9f668065a9d10e36f06b",
+  "checked_scope": "The sharp derivative-jump interval under one-sided Lipschitz derivative restrictions and the stated sampling bound.",
+  "checks": [
+    "Integrating each side’s derivative-deviation bound gives independent derivative radii Ld/2 and exact jump radius Ld.",
+    "Piecewise quadratic attainment uses k₊=2(s₊−ρ₊)/d and k₋=2(ρ₋−s₋)/d, with absolute slopes ≤L; this covers endpoints, intermediate jumps, and L=0.",
+    "A smooth quadratic gives finite asymmetry kd but no derivative jump. Three mean-error coefficients (1,−2,1)/d give 4ε/d. Clarified that n^(−1/4) balancing of this error with Ld applies for L>0."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-H22-468_0.tex",
+      "sha256": "928d2645692d723cced9aceca7d30ec1932dc85dade6c818015f80d9b1bc854b",
+      "revision_id": "rev_2791126027c74ea486597799fbe11f90",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/tax-incidence-anomalies/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

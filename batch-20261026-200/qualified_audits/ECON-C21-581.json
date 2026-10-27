@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-C21-581",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C21-581/review.md",
+  "document_sha256": "9f43623117632be2f46934c3b455a18c38dd159b32f70ea99b936fb07655284a",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** Gaussian unbounded-bias construction and joint-moment confidence propagation in ECON-C21-581-A1, revision r1.",
+  "checks": [
+    "Recomputed Cov(W,F)=0, Var(W)=1 and Var(F)=1-r; Gaussianity gives residual independence, exact Y=bD+E, partial associations c^2 and r, and unbounded beta as c approaches +/-1.",
+    "For M>=1, the common M^2 moment radius dominates both first-moment and raw-product ranges; union over p+p^2 coordinates gives the stated probability.",
+    "Checked monotonicity of y*d/(1-d) and containment of the true covariance-specific bias interval in the joint-moment outer interval; no independent nuisance estimation is needed.",
+    "The cap d_*<1 does not control vanishing residual treatment variance; the review correctly retains positive residual/inverse conditions and uniform lower bounds for informativeness."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-C21-581/prior.tex",
+      "sha256": "071940443b92947e2ccb54e3d10998e50fdd8ba06cadfceb490b62a3691a6464",
+      "git_blob_sha": "3a179bfbec5db9006cf8928933b637c7bcf54593",
+      "revision": "r1",
+      "revision_id": "rev_1a6c0099823c443597ffe089bab750b8",
+      "contribution_id": "con_46b350e6eadf496e82b142397db5c059",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-C21-581/record.json",
+      "sha256": "130fef2a05a996e46f0f8a5ee020847fbbc2d7a26c202e2e7fa9076c50e0356e",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "The comparative-strength bridge is an assumption; covariance-box projection is a coverage outer interval rather than a claim of sharp causal attainability.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

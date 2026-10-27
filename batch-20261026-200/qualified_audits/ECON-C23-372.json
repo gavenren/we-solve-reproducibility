@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-C23-372",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C23-372/review.md",
+  "document_sha256": "c66b8fbcc536c1f5a79a0d353d925583049aa81c3e056df2c98ff0be9997454c",
+  "checked_scope": "Conditional realized-effect prediction coverage and the indistinguishable-factor lower bound; not general heterogeneous-effect randomization inference.",
+  "checks": [
+    "Checked treated-outcome variation cancels exactly for the realized effect estimand, leaving the untreated synthetic gap.",
+    "Optimized the conditional sum-MGF Markov bound to exp(-H*x^2/(2sigma^2)); the two tails plus deterministic approximation Delta produce the stated conditional coverage.",
+    "Reconstructed the unspanned treated-only post factor with identical all-zero observables and target separation a. The common-law union bound forces diameter at least a with probability >=1-2alpha, including randomized procedures. Persistent xi_t=Z cannot have a fixed sum-MGF variance proxy as H grows.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C23-372.txt",
+      "sha256": "46f66389d9738531f7ae20dedae84444b99e81099abe5572cb041100101a8f67",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-C23-372_A1.txt",
+      "sha256": "52e38a476eb8f6f30917139d03eee7944c7b4d13a975279fe125eb1b17a48d77",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-C23-372/source_notes.md",
+      "sha256": "1c298024147c773d6d895c7dd3e5a21071b87d4f8f94455bf080c64443f4a761",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-C23-372_A1.yaml",
+      "sha256": "42f68d986b905a0d0844b40cbdda96fcd3e8467e958167bd5ded6dca8378c5d8",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Coverage is conditional on the entire pretreatment selection information and on explicit post-counterfactual error restrictions. General heterogeneous-effect randomization or unrestricted factor-model inference is not certified.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

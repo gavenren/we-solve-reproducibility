@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C26-181",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C26-181/review.md",
+  "document_sha256": "8e682e625847ce2906d7fa344c5fec804291ee7580ce48da1a1c94cf7278b21a",
+  "checked_scope": "The simultaneous moment inversion, data-selected instrument subsets, and diameter implications.",
+  "checks": [
+    "Full-dictionary simultaneous deviations yield ||ahat-b dhat||infty<=epsilon+tY+|b|tD simultaneously for all b in the identified set. Data-dependent coordinate deletion is valid only with the original multiplicity thresholds.",
+    "At s=||dhat||infty>tD, one maximum-relevance coordinate gives |b|<=(||ahat||infty+epsilon+tY)/(s-tD). Subtracting two retained residuals gives diameter<=2(epsilon+tY+LtD)/s.",
+    "At zero relevance with ||a||<=epsilon, whole identified set is R, so honest whole-set coverage forces reporting R on the coverage event. Finite expected-width statements require the expressly supplied bounded target set and positive relevance; arbitrary clipping would change the coverage target."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C26-181.txt",
+      "sha256": "64ec7c6e41990c6ff7fc83fe28dc95376d342699c182805113d73f1d34738a72",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C26-181-prior.html",
+      "sha256": "ea99ad2f24e040fc618a98196c9629bab99ed08dcefeb8b4694b41caeb661de6",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C26-181-prior.txt",
+      "sha256": "410b96d7dc493da6406e8ce6237aeab6a5a5228ceeb2f0023e5186c46137534e",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C26-181/metadata.json",
+      "sha256": "29297e41caf4ebab35a8f13d0b050e9c5bf733834278a93bff6ecf0e7884e1f0",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C26-181/source_notes.md",
+      "sha256": "a5e68232e6986b4515286dd6abc59fac3027af92a61157bcec7ab2987eabf619",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C26-181-prior.yaml",
+      "sha256": "c69fa6b889c595d97639cf53a8d5d2963d93f1525f7b4f54182534772c47c343",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "This supports the honest whole-set inversion and its qualifications. It does not provide adaptive shortening with no relevance information, nor license post-selection multiplicity thresholds or arbitrary clipping of an unbounded identified set.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

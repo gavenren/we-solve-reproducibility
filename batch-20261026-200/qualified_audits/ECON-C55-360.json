@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-C55-360",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C55-360/review.md",
+  "document_sha256": "8075fdd4b3bb884d7a43a88e1eefaf2577714184210a1959f21a7f91c2c0db7c",
+  "checked_scope": "Exact cancellation of regularization bias and finite-sample simultaneous Student coverage in the diagonal Gaussian submodel.",
+  "checks": [
+    "Verified moment feasibility radius t* sigmahat/sqrt(Sj) and exact coordinate soft thresholding; multiplication by n/Sj cancels the regularization bias to the OLS pilot.",
+    "Checked rank-one Gaussian projection and rank-(n-1) residual projection are independent conditional on design, giving the exact t(n-1) pivot for n>=2 and positive sigma.",
+    "Verified the Bonferroni joint event needs no cross-coordinate independence; it implies true parameter feasibility and exact thresholding of true zero coordinates. Uniform shrinking widths need bounded scales and log(p/alpha)=o(n).",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C55-360.txt",
+      "sha256": "bc0e7936574ba17957748cdc8da3d11bc2bceeb3e17fd7b81b30f582db80e2a8",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-C55-360_A1.txt",
+      "sha256": "cb04852a74af106a40f385c8e1843b1a8e759a072db21549c3e0f31fb16798d4",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-C55-360/source_notes.md",
+      "sha256": "01f0babc62676592f5a7e3e2f6f13da75a15a62f2db73abd56fa5a60fdb6aede",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-C55-360_A1.yaml",
+      "sha256": "735e236f3509d3aa986a57e352337dfab4b15889e552d8dc62a75201588f0f34",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Only the diagonal invertible Gaussian submodel is approved; no general sparse-inverse, nonlinear-GMM, heavy-tail, adaptive nuisance or support recovery theorem is certified.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

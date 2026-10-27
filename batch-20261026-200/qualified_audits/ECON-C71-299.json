@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C71-299",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C71-299/review.md",
+  "document_sha256": "427bb44fbc6c6d6e8eec2dfa4878f17fe00730a1f57f9805e4cf859ad87c4f0f",
+  "checked_scope": "Star formula, symmetry/empty-core example and finite exact algorithm's exponential bound",
+  "checks": [
+    "For a weighted star, efficiency and a maximum edge force all other leaf allocations to zero. Remaining core constraints give t in [W2,W]; the largest variable excess max(t-W,W2-t) is uniquely minimized at (W+W2)/2. Multiple maxima force center-only, and one-leaf/zero-worth cases are covered.",
+    "Midpoint level-set reasoning proves nucleolus uniqueness and automorphism invariance. Odd-cycle transitivity gives equal allocations; summing edge-core constraints contradicts efficiency, checking the empty-core family.",
+    "Within each bounded arrangement cell, excess ordering is fixed; successive linear minimization reaches a face containing a vertex. Choosing N-1 independent boundary/equality hyperplanes plus efficiency enumerates all candidates in2^O(N^2) rational systems, expressly exponential."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C71-299.txt",
+      "sha256": "489df044ef242bb6b8a87f6de44cc9f03a9c92b55ad1c7b808bf72135c99cf27",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C71-299.prior0.html",
+      "sha256": "46ece961289291806985b3050fb087a7190e0f099279dc6b94e4d6a936f149c1",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C71-299.prior0.yaml",
+      "sha256": "1b99676c9aa4200040c1e6e4945ede845a0eb23489a2688b16dbbee94b68126f",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C71-299/source_notes.md",
+      "sha256": "63efcac54138178f86a0fcecbe081ec8b8d42d9958765cf38a7943f89e702278",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

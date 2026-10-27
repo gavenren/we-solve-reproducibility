@@ -3,15 +3,19 @@
   "handle": "ECON-C21-494",
   "title": "Audit of common-reference support and joint extrapolation geometry",
   "contribution_handle": "ECON-C21-494-A1",
-  "contribution_id": null,
-  "revision_id": "r1",
+  "contribution_id": "con_663d6ae56b724625a35ae3d0810adb6c",
+  "revision_id": "rev_0afdd46964844d789fb8fff3a702384d",
+  "revision_label": "r1",
   "finding": "Supports the claim",
   "checked_scope": "Common dominating reference measures, universal cycle coherence, and the finite-stratum sharp support function.",
   "scope": "Common dominating reference measures, universal cycle coherence, and the finite-stratum sharp support function.",
   "author": "/root/econ_e",
   "kind": "review",
-  "status": "review_draft_pending_second_review",
+  "status": "scoped_second_review_complete",
   "source_url": "https://we-solve.github.io/contributions/coherent-estimands-for-changing-platform-trial-treatment-sets/attempt-1/r1/",
   "source_sha256": "47a034333e495a2ac476b8c3f9d3ac0df6c1ac5eba87f05592584cc2492b6a7f",
-  "review_path": "/Users/Administrator/Documents/ChatGPT/We Solve/batch_200_20261026/reviews/ECON-C21-494/review.md"
+  "review_path": "reviews/ECON-C21-494/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-C21-494.json",
+  "document_sha256": "a04bbfd62e7da8a4081609c7c210940b0d8d8f36d3be5d2799e261de50752464"
 }

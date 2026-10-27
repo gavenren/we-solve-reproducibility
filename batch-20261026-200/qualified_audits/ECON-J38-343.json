@@ -1,0 +1,44 @@
+{
+  "handle": "ECON-J38-343",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-J38-343/review.md",
+  "document_sha256": "cce933457e89c17c155fd9acaa7213e6f5575140833569c303c66b15f48df6d2",
+  "checked_scope": "Piecewise monopsony employment, the strict first-loss boundary, joint output-price restriction, and restricted myopic adjustment.",
+  "checks": [
+    "Checked the wage bill is max(mL,a^(-1/eta)*L^(1+1/eta)), hence convex, with kink derivatives m and (1+1/eta)m. Strict concave revenue gives the unique piecewise optimizer.",
+    "Verified w0<mc<mloss from the two marginal equations, so the first strict employment loss is inside the declining branch and requires the feasible domain to extend above the equality boundary.",
+    "Recomputed the nonunit example (a,b,eta,v)=(1,1,2,7): w0=2,L0=4,mc=(sqrt(29)-1)/2, mloss=3; floors 2.5,3,3.5 give employment 4.5,4,3.5 and prices 4.75,5,5.25.",
+    "Checked the myopic adjustment recurrence at kappa=1 gives rho=1/2, first employment 15/4 then 29/8 at floor 7/2, and finite-horizon deviations have factor 1-rho^(t+1) with unchanged strict sign.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-J38-343.txt",
+      "sha256": "722ea415bf52d92dd056b1fa6e1d28b254d1b309747b9cc4655cfa45140cf422",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-J38-343_A1.txt",
+      "sha256": "1d59b6519f3a844e947e419123da23da16b5365914eda409ff940e30ce6b800f",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-J38-343/source_notes.md",
+      "sha256": "f8ff0dc45b620055b154fc25a836ea6afdb3cf568af157b5d4bcd894557c6541",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-J38-343_A1.yaml",
+      "sha256": "487d21a97cc54b4ad8cd2b5849c3de5260c3fb54d435b8730fdb7a7012272f48",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "One-firm static monopsony and the stated restricted myopic branch only. No forward-looking adjustment, aggregate loss threshold or joint explanation of automation and job quality is certified.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

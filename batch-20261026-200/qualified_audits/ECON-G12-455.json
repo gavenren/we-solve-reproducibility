@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-G12-455",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-G12-455/review.md",
+  "document_sha256": "d6c9ff7f79e4459af5afa081b4513925accfdaf4dd18925c20a0ad361eea0a89",
+  "checked_scope": "Directional rank identification and exact Frobenius exclusion-sensitivity endpoints",
+  "checks": [
+    "Checked full-law necessity of a in range(F): residual v orthogonal to F and perturbation bv^T preserve MF and observed distributions by redefining structural errors, while b=w changes any nonzero-index target. Compatibility makes R c independent of the chosen solution F c=a.",
+    "Verified complementary-projector Jacobians are positive definite, relative directions identify only beta and aggregate multiplier 1/alpha can diverge.",
+    "Recomputed weighted Frobenius sensitivity using E=D W^(1/2), d=W^(-1/2)F^(-1)a, exact rank-one extremizers, zero-vector collapse and positive-domain reciprocal endpoints. Additional structural/sign restrictions are correctly excluded from sharpness.",
+    "Checked dynamic one-time/permanent response distinctions and the confidence-region union as conditional set coverage, without empirical exclusion or weak-instrument inference certification."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-G12-455/source_notes.md",
+      "sha256": "af67ed63f2193186c7ab3635f4863e91c4caff27d4080b6829a0c223d0d449d2",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-G12-455/metadata.json",
+      "sha256": "0d70877386c1704a37879af25e0c2a5ac6de6cc8be0202072b66309a0d1855f5",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/asset-demand-elasticity_attempt-1_r1.html",
+      "sha256": "1103f4dee184e8ffb7ad346e03be5f3f5f0dcd96f591e08c17d8fb54e84066d6",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/asset-demand-elasticity_attempt-1_r1.txt",
+      "sha256": "1a3fae0a4b6a18005469f7394285d22e28087197798309b0d6b131936c88c7e0",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-G12-455-A1.yaml",
+      "sha256": "2dc5dadccc71a4028fe63fc03ef1f150a608b36d52ad0ef62ae9576a40ad5dc5",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

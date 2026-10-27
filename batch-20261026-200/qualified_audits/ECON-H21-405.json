@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-H21-405",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-H21-405/review.md",
+  "document_sha256": "7e182e9fd7f3f4203e9ba1ce14dd80e95d89ff31a83df70feb4dd2ba217398ac",
+  "checked_scope": "Cross-base fiscal recapture and joint enforcement derivative accounting",
+  "checks": [
+    "Differentiated private envelope V_tau=-X and all-base revenue R_tau=X+tau L_tau-(tau-sigma)S_tau, yielding the stated weighted welfare derivative without double-counting effort or shifting costs.",
+    "Recomputed equal-reported-elasticity welfare effects -19.6 and +19.6 and checked their quadratic response realizations and feasible baseline intercepts.",
+    "Verified S_e=-S/(kappa0+e), private envelope -S^2/2 and enforcement revenue recapture, including zero shifting at tau=sigma.",
+    "Checked the derivative mesh modulus plus two evaluation errors and the conservative modelwise regret envelope. Migration accounting is explicitly not combined with the fixed-population utility formula without a residence model."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-H21-405/source_notes.md",
+      "sha256": "a1a47d4e485279c40a9925bac6783f53c329df503d9bad4691d9b9e294949ef1",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-H21-405/metadata.json",
+      "sha256": "6ff9fbd0f2473f9b7830ed83b8b716609c7f2c7983bdc0ae1d94913b98fcc638",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/optimal-top-income-taxation-with-avoidance-and-mobility_attempt-1_r1.html",
+      "sha256": "65afd21761adc9f4885eef657b4d38b9024a0faf3a9b3946c906b42414d3205c",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/optimal-top-income-taxation-with-avoidance-and-mobility_attempt-1_r1.txt",
+      "sha256": "4795e7f048f02a19b53a49650d497b083beac498d9a7a3298951b11b078af560",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-H21-405-A1.yaml",
+      "sha256": "c9ecf29230fadf48edeea14c894ee02e178c4603eacc9b0b1495fb15cb76d491",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

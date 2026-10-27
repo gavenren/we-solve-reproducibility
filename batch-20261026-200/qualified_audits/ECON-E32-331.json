@@ -1,0 +1,44 @@
+{
+  "handle": "ECON-E32-331",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-E32-331/review.md",
+  "document_sha256": "e9439e035149c3e9517ae7384d74cf4d1d13c59eabfb67e7f22e6a020cee0cfe",
+  "checked_scope": "Exact Cobb–Douglas network thresholds, matrix orientation, and the limits of inferring finite shocks from local elasticities.",
+  "checks": [
+    "Checked buyer-row/supplier-column orientation gives G*alpha=1 and finite log-price change s*G*ej, hence exact Cobb-Douglas output ratio exp(-dj*s).",
+    "Inverted the two-sector half-share matrix to [[4/3,2/3],[2/3,4/3]], giving d1=1 versus 1/2 without intermediates; differentiated (I-Omega)G=I for dG=G(dOmega)G.",
+    "Verified local slope alone neither lower-bounds finite shock thresholds (quadratic path) nor guarantees a finite crossing (d*(1-exp(-s)) at Q>=d). These paths are expressly mathematical illustrations.",
+    "Solved the illustrative collateral closure on each side of ds=h and checked both threshold branches agree at Q=h.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-E32-331.txt",
+      "sha256": "c0d9a25e2b79f602e668fd747e0482e6ec89f80b0692178da32accc45d1806e4",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-E32-331_A1.txt",
+      "sha256": "8df297240817a4e689b4371a3e25ea9703a9191b49b1549f9c30019774d58f54",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-E32-331/source_notes.md",
+      "sha256": "9d935aafca6ddf3fe29dbda2e4aed0e7c6a1b9c6c4c6c1afd4076b8ba4a2b40c",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-E32-331_A1.yaml",
+      "sha256": "800339548749fa98da0cf8bbbbdf51fb8c934f998052fa3262b507c88e75f958",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Exact unconstrained Cobb-Douglas benchmark and conditional path diagnostics only. No CES extension, collateral-budget equilibrium derivation or empirical amplification estimate is certified.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

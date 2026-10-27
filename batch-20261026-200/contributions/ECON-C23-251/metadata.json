@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_8950998acdad4b6c952b567ffb831acc",
+  "canonical_problem_id": "prb_8950998acdad4b6c952b567ffb831acc",
+  "handle": "ECON-C23-251",
+  "catalog_rank": 255,
+  "problem_title": "Causal effects of treatment histories in panel data",
+  "title": "Audit of the exponential history-information barrier",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C23-251-A1",
+  "contribution_display_handle": "Econ-255-A1",
+  "contribution_id": "con_1834a6eb088743bd8a9a8322537d8756",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_4693928af0e64e1597c43752896b646c",
+  "checked_scope": "The finite-history weighting identity, simultaneous-risk lower bound and low-rank nonidentification example.",
+  "scope": "The finite-history weighting identity, simultaneous-risk lower bound and low-rank nonidentification example.",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/causal-effects-of-treatment-histories-in-panel-data/attempt-1/r1/",
+  "source_sha256": "1007ca4eaa18f2aff2834942874653437b61e7ff84b63e6a695417160ed38c0f",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C23-251.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C23-251.txt",
+      "sha256": "f9340e4f1c3294e99942ace21704b48c773e720efcd8b6e5363fa1191bb51787"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C23-251.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/causal-effects-of-treatment-histories-in-panel-data/attempt-1/r1/index.html",
+      "sha256": "1007ca4eaa18f2aff2834942874653437b61e7ff84b63e6a695417160ed38c0f"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C23-251.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/causal-effects-of-treatment-histories-in-panel-data/attempt-1/r1/contribution.yaml",
+      "sha256": "249b0ed0e64454ac39e8b7cf194441f4cff60f201c9d77668229b85ef0771786"
+    }
+  ],
+  "review_path": "contributions/ECON-C23-251/review.md",
+  "review_sha256": "8b3b45edd71ab84032aa3b99fbb8851aff7466a74b64b48073475190930ddc15",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C23-251.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "The finite-history weighting identity, simultaneous-risk lower bound and low-rank nonidentification example.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

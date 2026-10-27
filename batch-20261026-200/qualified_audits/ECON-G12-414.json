@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-G12-414",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-G12-414/review.md",
+  "document_sha256": "aaeacead7d3cef1fbff2e680c51e20296c61537214604b4a4f118df4b2dac4a4",
+  "checked_scope": "Two-state pricing compatibility, payoff spanning, and rare-event testing scope",
+  "checks": [
+    "Solved state-price q, the unique odds-ratio gamma and safe-asset beta; checked q in (0,1), q>p and beta<1 as separate necessary restrictions and verified substitution gives sufficiency for the pricing block.",
+    "Checked every two-state payoff is spanned by a constant and distinct equity payoffs; price equivalence across physical p is not equivalence of the complete consumption law.",
+    "Re-derived the covariance pricing identity, Cauchy-Schwarz necessary rejection bound and lognormal squared coefficient of variation exp(gamma^2 sigma_g^2)-1, retaining conditional-information restrictions.",
+    "Verified exact consumption-sample TV 1-(1-p)^T through coupling and the observed-disaster event and the corresponding sum-of-errors lower bound. Household budgets, supplies and full equilibrium or historical empirical resolution are not certified."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-G12-414/source_notes.md",
+      "sha256": "4d10c91f07fac58d70f84945dee1d00d5b34d7511f718df06b39650dbdc54fcd",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-G12-414/metadata.json",
+      "sha256": "77552541957f55759395004d06f91e6fd93e88d996bbdea0a7382ffc295b5597",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/equity-premium-puzzle_attempt-1_r1.html",
+      "sha256": "8be270e238467a3fdd60602616437ef8c2b9fdf6e0915dabe97098e3ef121dd2",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/equity-premium-puzzle_attempt-1_r1.txt",
+      "sha256": "05010fbb542152a71581291e5c0de46ce6c407ccd1468304c2c1769369378e4f",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-G12-414-A1.yaml",
+      "sha256": "e87037b9af09ed187d0949b9155d1d362b8e2be6ce6d7e19725139f7faa060e1",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

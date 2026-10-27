@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_e6a6bef1d6d7439c91e23cd1727dc6d1",
+  "handle": "ECON-L41-501",
+  "title": "Audit of joint merger-benefit coupling and marginal-cost price threshold",
+  "contribution_handle": "ECON-L41-501-A1",
+  "contribution_id": "con_ae11105e72454d3bb3c10baa88096dd2",
+  "revision_id": "rev_f65cae273cc748fd8d73dd09b08907c7",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The finite transport identified set and the Cournot-to-monopoly example.",
+  "scope": "The finite transport identified set and the Cournot-to-monopoly example.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/merger-efficiencies/attempt-1/r1/",
+  "source_sha256": "6724a4e98f51cc1da0e3a905f24296d85b8a590b8044fafb2907f47cc7278ac6",
+  "review_path": "reviews/ECON-L41-501/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-L41-501.json",
+  "document_sha256": "5b304bd58359711e0d20e17ca2d8f1eaec0ce90b1848732354765bb955cb726c"
+}

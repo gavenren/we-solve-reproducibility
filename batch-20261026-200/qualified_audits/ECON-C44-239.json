@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C44-239",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C44-239/review.md",
+  "document_sha256": "62466acdad675da3e4114095dcf00c7a15e07109f762f06fe749ac687be0d6bc",
+  "checked_scope": "The two-policy constant-regret construction and the deterministic convex-hull repair proposition; not the full unknown-nuisance minimax problem.",
+  "checks": [
+    "Integrating sin(2pi x) over [0,1/2] gives 1/pi. Opposite density perturbations cross the exact budget boundary while treatment advantage remains bounded below; a small fixed h gives product KL<=8h^2 and TV<=2h.",
+    "Randomization over the two permitted outputs retains the lower bound. In the convex hull, mixing with the sigma-slack policy by 2t/sigma creates margin 2t; empirical error t leaves conservative margin t, and conversely conservative feasibility gives true feasibility.",
+    "Value comparison costs at most 2t_V+4Tt/sigma+xi. The needed restriction 2t<=sigma keeps the mixture admissible; no unknown-nuisance minimax conclusion follows."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C44-239.txt",
+      "sha256": "48c90e2f78530c211a03edebe3da234cdef98f785f42f2d615b4ed49d9567126",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C44-239.prior0.html",
+      "sha256": "b34cd9e0ec06a640a3a79cfcfb89245a05c9dafdf6650400d0e85f8de7887331",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C44-239.prior0.yaml",
+      "sha256": "71423258b1067a285713b683d7f299855fccb91646356197bafdb8213230ed8b",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C44-239/source_notes.md",
+      "sha256": "1d73edde58e0f937e452d3b55037c7c5d19e0b67401bca0a9651b8e8b4333bd2",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

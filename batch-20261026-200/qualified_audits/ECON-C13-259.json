@@ -1,0 +1,47 @@
+{
+  "handle": "ECON-C13-259",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C13-259/report.md",
+  "document_sha256": "0c65f00366e92cdbf52b439fed2d3c4e69e2c6d969d40bf80cbfea5fcddc36d9",
+  "checked_scope": "A complete fixed-time squared-error rate for the deterministic Lipschitz-drift Bernoulli subexperiment with constant known assignment probability, together with an honest-confidence-interval lower bound at the stationary null. This is not a solution for arbitrary adaptive targets or a sharp time-uniform confidence sequence.",
+  "checks": [
+    "Projection, score variance at most 1/q, and window bias L(h-1)/2 give (2); h=min(t,ceil((qL^2)^(-1/3))) satisfies h-1<=u, including t=1, L=0, q=1 and capped-risk regimes.",
+    "The observed-data KL is q times the Bernoulli KL sum, bounded by (16q/3) times squared mean differences. Nearest-target testing gives d^2(1-TV)/8; both the stationary and terminal-ramp alternatives satisfy the parameter and drift constraints.",
+    "The ramp bound q sum a_s^2<=32^-2+32^-3 makes KL<1/50 and TV<1/10. Under the stationary null, coverage of both targets has probability >=2/5 for alpha<=1/4; multiplying by d gives exactly the stated 1/80 diameter constant.",
+    "The maximum of the stationary and drift lower bounds dominates half the capped sum. The consistency equivalence follows from this two-sided rate. The earlier full manuscript supplies window upper bounds, not this matching Lipschitz lower rate or stationary-null honesty obstruction."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C13-259.txt",
+      "sha256": "9d9b80c3c2e2320ce08819c75b018d54e05825b6f8ceb89abc23c3f26ea80167",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C13-259.prior0.html",
+      "sha256": "8f0ebb0d0b4304669769619d9dc99851400d083cad2ad1e1e50fa7fb2008b683",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C13-259.prior0.yaml",
+      "sha256": "216c488fa2e510f7a0bc1ecc2ee123744345ef799c5a98ba49eb0849a3fd3240",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C13-259/source_notes.md",
+      "sha256": "b627cdc4dd367d28884f6d6f34df1cfeba8eaf8c338e699e45e23cacbc2cccfd",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Upper bound only for independent deterministic-mean Bernoulli experiment; not adaptive or unknown drift, nor a sharp time-uniform theorem.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

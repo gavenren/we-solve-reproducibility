@@ -1,0 +1,38 @@
+{
+  "handle": "ECON-H26-608",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-H26-608/review.md",
+  "document_sha256": "eb50968455f46e65e21049ed76c5c131c41d54ba13d693140f832fc3f1216dd8",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** exposure estimator/variance, two-audit record-loss correction and rare-breach bound in ECON-H26-608-A1, revision r1.",
+  "checks": [
+    "Independent feature fields give the product exposure probability even with overlapping peer sets; conditional audit correction and randomized exposure cancellation establish the HT mean for a common degree-supported cohort.",
+    "Computed E[T_i^2]<=B^2/(pi_i*q_i). On the fixed undirected simple graph, disjoint closed neighborhoods imply independent summands; at most D^2 neighbors within distance two plus the diagonal gives variance (D^2+1)*B^2/(N*pi_*q_*).",
+    "L2 triangle inequality across four exposure means gives factor 16 for the interaction, without assuming independent firms.",
+    "Paired audit expansion needs zero conditional cross moment as well as mean zero; checked negative corrected values and the exact one-audit observational counterexample.",
+    "Zero-breach rule u_n=1-alpha^(1/n) has uniform coverage, reporting one on positive events; a known severity cap converts this to expected-loss control, whereas unrestricted severity destroys finite uniform loss bounds."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-H26-608/prior.tex",
+      "sha256": "ec52eac3265eb9f1ad78be0ff4bdfe63b9c10fc08c98895b76264df47bdb3df4",
+      "git_blob_sha": "a845d3d2eecba7660fb6c2dccd6ffcfe90de2e07",
+      "revision": "r1",
+      "revision_id": "rev_a75b894c5e9349228141f74000c1ba7d",
+      "contribution_id": "con_7f961c8ab3cd49dd854e581aa8bf4c2a",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-H26-608/record.json",
+      "sha256": "76c2f37febd5ef2206be409d9be30889fc9b904c4c853f1c9e3e23eb32faaa3f",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Fixed graph/exposure mapping and independent local audit generation are essential; nationwide rewiring, correlated audit errors and unbounded breach severity are excluded.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

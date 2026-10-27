@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C14-169",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C14-169/review.md",
+  "document_sha256": "5ff0526990326d5dfeed7fc815b8e7b6f906d5197a1c644343da3d87b74210e0",
+  "checked_scope": "The finite-policy feasible-set guarantee, robust-value comparison, and unknown-target-law budget lower example.",
+  "checks": [
+    "On full-menu simultaneous deviations, empirical budget+u_b<=B implies true feasibility and true budget<=B-2u_b implies empirical inclusion. Zero policy is separately feasible, avoiding an empty candidate set.",
+    "Lower value L=vhat-dhat-(u_v+u_d) is below true value and its gap <=2d+2(u_v+u_d). Maximization over certified policies gives the stated comparator regret, plus a budget-gap term for the full feasible oracle.",
+    "For unknown target mass p_plus/minus=1/2 +/- n0^-2, source laws coincide and coupling target draws gives TV<=2/n0. Uniform feasibility forces low selection under plus and hence under minus; value gap gives (1/2-n0^-2)(1-zeta-2/n0). Supplying the exact target density ratio would invalidate this lower experiment and is explicitly withheld."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C14-169.txt",
+      "sha256": "e1ffe4c145959d448a1acef9911b4ad760ee60699a8dd49d38ca202425750e7e",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C14-169-prior.html",
+      "sha256": "0678c7d44dd32fb205ae9b3473fa871d4398df3c1c44297a56b3c85c4aa7492e",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C14-169-prior.txt",
+      "sha256": "1679de58be04185bbf4c9bc6b67a5cc1c2bce7737989ee8ea043e1c34b6b5e5f",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C14-169/metadata.json",
+      "sha256": "27571341086bf6fa09f99021dd24670bfce06dd3627a008e22705846ccb1892a",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C14-169/source_notes.md",
+      "sha256": "2c88385c8f9c52717afcfa6603559d8a7b4f33fecad01ddb9d2637ffe884fa34",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C14-169-prior.yaml",
+      "sha256": "f496b35f1ecb1d1a5753439f4d4cce17df3599fc1571ad716ba2fd75c4423fb9",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "This supports the certification and discontinuity claims in their respective experiments. It does not remove the budget-gap term or show constant regret when a known positive feasibility margin is maintained.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

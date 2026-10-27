@@ -11,8 +11,16 @@
   "checked_scope": "Fixed-agent deletion, the total-swap-budget kernel, and shortest certificates",
   "scope": "Fixed-agent deletion, the total-swap-budget kernel, and shortest certificates",
   "author": "/root/econ_d",
-  "status": "awaiting_independent_review",
+  "status": "independently_reviewed_scoped",
   "source_url": "https://we-solve.github.io/contributions/parameterized-reachability-of-allocations-by-improving-swaps/attempt-1/r1/",
   "source_sha256": "f85e0857895e7d2bf99fa36e02b9fa0e0ce1c7d42966e1086ecee04a8a70c25f",
-  "verification": "Independent written algebraic/probabilistic audit; no code run for this review."
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C78-392.json"
+  }
 }

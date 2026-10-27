@@ -6,7 +6,7 @@
   "scope": "Exact stable-refinement count is #P-complete under polynomial-time Turing reductions; rational-threshold comparison is in PP and PP-hard under polynomial-time Turing reductions. Many-one hardness and approximation are not claimed.",
   "author": "/root/econ_d",
   "kind": "attempt",
-  "status": "awaiting_independent_review",
+  "status": "independently_reviewed_scoped",
   "verification": {
     "status": "PASS",
     "interpolation_graphs": 273,
@@ -24,5 +24,13 @@
     "https://we-solve.github.io/prompts/ECON-C78-417.txt",
     "https://we-solve.github.io/contributions/stability-probability-under-compact-indifference/attempt-1/r1/",
     "https://www.cs.bu.edu/faculty/gacs/courses/cs535/papers/Valiant_permanent.pdf"
-  ]
+  ],
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C78-417.json"
+  }
 }

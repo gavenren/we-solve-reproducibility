@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-D91-578",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D91-578/review.md",
+  "document_sha256": "4857f534dd9600da4b535d8c76695e5ca41e5f1f479e31db54d4c623400044ce",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** kernel linear independence, finite-dictionary identification and unrestricted-mixture nonidentification in ECON-D91-578-A1, revision r1.",
+  "checks": [
+    "Checked analytic extension of a logistic-kernel relation, large-positive-gap subtraction and slowest-exponential isolation; distinct positive precisions and at most one zero precision force all coefficients to vanish.",
+    "Spanning evaluation rows yield an invertible finite battery; inverse error is epsilon/s_min(A), and simplex projection cannot enlarge distance to the true feasible weights.",
+    "The unrestricted-mixture counterexample augments m rows with normalization, uses m+2 precisions, and normalizes positive/negative null-vector parts into distinct probability measures.",
+    "Out-of-battery prediction identification includes the normalization row and needs interior simplex feasibility for its converse. Bounded held-out log loss requires independent groups and a probability floor, not model correctness."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-D91-578/prior.tex",
+      "sha256": "95e2a9fa643a0582a703b6135e3546cde7f0bf14c0ba63d9536fd76678188222",
+      "git_blob_sha": "8be5764ac058b5b757ceec904474f089a592a886",
+      "revision": "r1",
+      "revision_id": "rev_c918cad55ece4c4fb861f5915194a158",
+      "contribution_id": "con_11848eb9d5564ff8b3a3012866e63d52",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-D91-578/record.json",
+      "sha256": "5e75be9ab086f0c32b27fd51397bfc6088ff9784d66a6b2782395832b52dadb8",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Stable utility scale, finite declared dictionary and strategic prediction selectors are assumptions; the proof does not identify unrestricted heterogeneity from finite choices.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

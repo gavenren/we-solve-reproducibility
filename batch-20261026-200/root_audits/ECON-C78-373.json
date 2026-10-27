@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-C78-373",
+  "reviewer": "/root",
+  "reviewer_model": "OpenAI Codex based on GPT-6; precise model/revision and thinking configuration unknown",
+  "report_sha256": "e3805dab280b770ffc68def4de005fecd3fb652e12191dbf673706f7145250fd",
+  "finding": "No remaining mathematical error found in checked written proof",
+  "checks": [
+    "Verified pointwise dominance from adding identical uncertain-applicant rank vector to the lexicographically optimal deterministic residual vector.",
+    "Checked original rank labels are retained after reserving houses and unmatched assignments are enumerated.",
+    "Checked input-bit polynomial rank weights, rational probability denominator, and L^(O(k)) XP bound.",
+    "Confirmed no claim for factorially implicit uniform tie-refinement profiles."
+  ],
+  "limits": [
+    "Written derivation audited, not historical novelty or external eligibility.",
+    "No formal proof-assistant certification or human peer review."
+  ],
+  "status": "proof_reviewed_final_configured_review_pending"
+}

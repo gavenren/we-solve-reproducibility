@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_9fb83a2ceedf4822932ede77d811c6c7",
+  "handle": "ECON-C32-504",
+  "title": "Audit of signed-permutation labeling and noisy proxy feasibility",
+  "contribution_handle": "ECON-C32-504-A1",
+  "contribution_id": "con_fbb39d9c63db4f1c8c8ba290723f3cff",
+  "revision_id": "rev_f634933457df4640a6081719193cced8",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The finite labeling set and exact/approximate proxy restrictions under the assumed statistical identification class.",
+  "scope": "The finite labeling set and exact/approximate proxy restrictions under the assumed statistical identification class.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/economic-interpretation-of-statistically-identified-shocks/attempt-1/r1/",
+  "source_sha256": "96a28f69fe20f3383f8fb2b4c84fb3a960429c91b866007e9aff9773c95b031e",
+  "review_path": "reviews/ECON-C32-504/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-C32-504.json",
+  "document_sha256": "3821c2341044876480ca218e2660d35114fab8292595f4439e862da6621bbcf6"
+}

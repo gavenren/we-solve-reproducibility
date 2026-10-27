@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-I11-561",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-I11-561/review.md",
+  "document_sha256": "764e69f115c864b199be0c4bc36d66d66d3376b59d43209c150c68c77adb02a4",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** payment/welfare identities and sharp conditioning on an observed payment effect in ECON-I11-561-A1, revision r1.",
+  "checks": [
+    "Log Nash-product differentiation yields P_i=(1-theta)c_i+theta*d_i; d_1+d_2=V12-kappa gives the negative premerger substitution term and payment change theta*kappa-(1-theta)g+theta*h.",
+    "Patient and owner changes cancel payment exactly once, leaving h+g only under the declared fixed-package, full-pass-through, equal-weight evaluator.",
+    "Solved the price-conditioned efficiency equation, ordered quality intersection and slope 1/(1-theta) of welfare; each quality endpoint generates its own compatible efficiency.",
+    "Checked unchanged-payment examples: individual prepayments 7, postpayment total 14, welfare -2 versus +2, and postmerger surpluses 8 and 12. Positive surplus is maintained over the admitted set, avoiding post hoc endpoint clipping."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-I11-561/prior.tex",
+      "sha256": "a1f94a014f808037acf4b224eb4dbaf2b546464a01e985f8a50b2813645c903c",
+      "git_blob_sha": "f4b7b296c7b7137917ced3f134566a86e942b315",
+      "revision": "r1",
+      "revision_id": "rev_4f2862b3fcd14791a292b710f75e51b6",
+      "contribution_id": "con_b89099ce2f0d4a8d8df9278cf4446986",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-I11-561/record.json",
+      "sha256": "17195e83060e5dcc0e9b0aea4e3afd33af2641283e7ac6837591047cb6bb9e01",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Fixed package, network selection, positive surplus, full payment pass-through and equal welfare weights delimit the bargaining/welfare claim.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

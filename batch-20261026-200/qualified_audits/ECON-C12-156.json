@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C12-156",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C12-156/review.md",
+  "document_sha256": "dadca8e9ebd5e5810f889d52927f0833a412222ca178ba1b06992baf94bef22a",
+  "checked_scope": "The filtration-based e-process proof, countable familywise bound, and eligible-observation power calculation.",
+  "checks": [
+    "With global pre-observation filtration and eligible score range c_j, conditional centered log-MGF <=lambda^2 c_j^2/8; a positive entry-fixed lambda yields a nonnegative null supermartingale. Entry-measurable allocations and truth events permit conditional crossing bounds.",
+    "Countable union with E sum a_j<=alpha proves strong time-uniform FWER despite shared-stream dependence. Eligible observations must occur after entry and the first m must exist almost surely for the power claim.",
+    "Lambda=sqrt(8A/(m c^2)) gives score boundary c sqrt(mA/2); lower-tail deviation c sqrt(m log(1/beta)/2) yields exactly m>=c^2(sqrt A+sqrt log(1/beta))^2/(2delta^2). The independent-stream exact-single-rejection events are disjoint, whereas the separate shared-comparator family uses pathwise domination by one process."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C12-156.txt",
+      "sha256": "5637b6f2537c4fa0f1076cf86be60b0ae908b308fe4b40334d33d0e59c69d2cd",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C12-156-prior.html",
+      "sha256": "ee1459a2769f03dd9948f697623f0973ba7694ac9937bb8c28382300c150353f",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C12-156-prior.txt",
+      "sha256": "ed9ea4e1f09b390deceae203b5fec0c15af6fb8f4de7fb3f792097bff0931fed",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C12-156/metadata.json",
+      "sha256": "36d7d9916ae47dbacbb55e90eb1946abb070fbb3bff83c968ea6be6aa0d2ae66",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C12-156/source_notes.md",
+      "sha256": "a9c62e8eeeb58ad7f08252173085e5d09be3a73cb33e0ba946bbc5971ff22177",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C12-156-prior.yaml",
+      "sha256": "80737ca13e36a1e7e4f51e186b0b8ca1c2934c843e8e3c4a93a5eec1d280d5f0",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "The review supports the stated conditional-drift model and eligibility clock. It does not derive those assumptions from arbitrary adaptive clinical data, nor a universal log(K) lower bound for every shared-control experiment.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

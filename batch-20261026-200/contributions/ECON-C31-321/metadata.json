@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-C31-321",
+  "problem_id": "prb_8762910fe17f4f21b74feb0fb397bca9",
+  "catalog_rank": 325,
+  "title": "Independent review: Powerful tests distinguishing outcome contagion from treatment spillover",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Exact conditional null distribution of the residual quadratic statistic and preservation of diverging Frobenius information; no uniform alternative-power claim.",
+  "contribution_handle": "ECON-C31-321-A1",
+  "contribution_id": "con_622908acaf9946d29832238351469b33",
+  "revision_id": "rev_32931e6b531948b7835d0ea43feb3882",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/powerful-tests-distinguishing-outcome-contagion-from-treatment-spillover/attempt-1/r1/",
+  "source_sha256": "0960134f59a1f444f187586a2d9416df02acf91011c80c5793fb78b45663b861",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-C31-321.json",
+  "qualified_audit": "qualified_audits/ECON-C31-321.json"
+}

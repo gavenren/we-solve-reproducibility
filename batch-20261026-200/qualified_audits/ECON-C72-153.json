@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C72-153",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C72-153/review.md",
+  "document_sha256": "27df03872d912161f8790dceca68eda0af5a984c21946a472139539567e91e90",
+  "checked_scope": "The gain-map fixed point and the bounded-treewidth dynamic program, including arithmetic and mixed-support limits.",
+  "checks": [
+    "At a fixed point, g_ia=x_ia G_i; positive G_i would make every supported pure payoff exceed its own weighted mean, a contradiction. Zero gains are exactly Nash equilibrium for the multilinear potential.",
+    "Tree-decomposition messages sum each factor once and optimize children conditional on the bag/separator. Running intersection prevents conflicts among remaining child variables. Enumerating bag assignments costs O((L+#bags)q^(w+1)) operations under explicit table representation.",
+    "Each DP value sums at most L rational inputs and has polynomial bit length. The coordination example refutes rounding arbitrary mixed equilibria; only mixed global potential maxima have all supported pure profiles globally optimal. Circuit arithmetic remains limited to the stated disjoint-subcircuit convention."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C72-153.txt",
+      "sha256": "6014f61589060210fb8a24c14b50d3f20aba8a00e7d0439d55e656645cbd3d02",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C72-153-prior.html",
+      "sha256": "462a038c6279bfb67949d5271510f6a665ede4ef389ba95bb73bcdc4069ca8c0",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C72-153-prior.txt",
+      "sha256": "885512463569e425b70078a5ed37dae1b5db6c7fe5ce0a251a389466ffa9646f",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C72-153/metadata.json",
+      "sha256": "19dcc4949f81656017d49a27fa553e63e7f4bfb5015a49e8ea7d9c4ecda5ab5a",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C72-153/source_notes.md",
+      "sha256": "e005a67bd78e89fd19da01824987bdbc9f8487687b28b17e744b925b66fbbcbf",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C72-153-prior.yaml",
+      "sha256": "facb398b6c6b25e390901e61f6e0b3731df9ee036ad4a906164fa8b02c47903e",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "This review supports those two constructions. It does not verify the external PLS/FIXP classifications, or extend the stated rational-circuit denominator argument to circuits with unrestricted reuse and repeated squaring.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

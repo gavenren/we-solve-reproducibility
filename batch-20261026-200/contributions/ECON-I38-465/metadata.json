@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_9e2ae401f80644a69c9b7dc7554594ff",
+  "handle": "ECON-I38-465",
+  "title": "Independent review of ECON-I38-465-A1: Truthful audit envelope, zero-selection boundary, and robust welfare certificate",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-I38-465-A1",
+  "contribution_id": "con_875b66696cfe452b9fd4baae3703b769",
+  "revision_id": "rev_6d8d3c7b1dfa4b32982e6d0b3b21c816",
+  "finding": "Supports the claim",
+  "checked_scope": "Truthful audit envelope, zero-selection boundary, and robust welfare certificate",
+  "scope": "Truthful audit envelope, zero-selection boundary, and robust welfare certificate",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/targeting-need-versus-potential-impact/attempt-1/r1/",
+  "source_sha256": "5d61cec6b4c8db1c2c69b1160ef17520f2ef09db72cb7958ac5d4948062931ab",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-I38-465.json"
+  }
+}

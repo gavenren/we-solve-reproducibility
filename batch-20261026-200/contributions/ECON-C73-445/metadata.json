@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_7c61161685f74715bb69cafa11a9f329",
+  "handle": "ECON-C73-445",
+  "title": "Independent review of ECON-C73-445-A1: Sampled one-state convergence and unweighted all-state equilibrium residual",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-C73-445-A1",
+  "contribution_id": "con_4f5b5627b8b341e08482295138163eaa",
+  "revision_id": "rev_38c0a757c0554543a9a31582f1dc2653",
+  "finding": "Supports the claim",
+  "checked_scope": "Sampled one-state convergence and unweighted all-state equilibrium residual",
+  "scope": "Sampled one-state convergence and unweighted all-state equilibrium residual",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/convergence-of-model-free-learning-in-dynamic-population-games/attempt-1/r1/",
+  "source_sha256": "5b11c5437499e90833676b866cf3c7e281b7080c06c07e38d4625c650ac8b7a1",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C73-445.json"
+  }
+}

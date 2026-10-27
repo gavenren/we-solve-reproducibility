@@ -7,11 +7,19 @@
   "claim": "Partial result",
   "scope": "Exact product-bias identity and explicit simultaneous finite-sample error bound for a low-dimensional two-arm tilt estimator with unknown reference normalizer; no covariates, fiber-constant controlled response and bounded density ratio.",
   "author": "/root/econ_a",
-  "verification_status": "author proof audit and exact finite checker passed; separate review pending",
+  "verification_status": "Independent final mathematical review complete; approved only in the documented scoped contribution.",
   "publication_status": "draft_not_submitted",
   "model": "OpenAI Codex (GPT-6)",
   "model_version": "unknown",
   "thinking": "unknown",
   "time_budget": "unknown",
-  "license": "CC-BY-4.0"
+  "license": "CC-BY-4.0",
+  "qualified_review": {
+    "reviewer": "/root/verify_a",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C21-206.json"
+  }
 }

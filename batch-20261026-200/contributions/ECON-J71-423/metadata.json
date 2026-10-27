@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_b31bd9b95f4b437897f841d18701bfe0",
+  "handle": "ECON-J71-423",
+  "title": "Independent review of ECON-J71-423-A1: Identification in the invariant index model and its exact observational-equivalence failure",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-J71-423-A1",
+  "contribution_id": "con_b4dd7b659e5a410896c643642ba4e2aa",
+  "revision_id": "rev_a2aa0aec6e584125bcdf03649d8940d6",
+  "finding": "Supports the claim",
+  "checked_scope": "Identification in the invariant index model and its exact observational-equivalence failure",
+  "scope": "Identification in the invariant index model and its exact observational-equivalence failure",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/separating-discrimination-mechanisms/attempt-1/r1/",
+  "source_sha256": "f7c2db59627b0c69b56ce9372b1b613cf9dfdfdb10ff5859dd21be05bff88856",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-J71-423.json"
+  }
+}

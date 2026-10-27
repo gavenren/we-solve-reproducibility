@@ -1,0 +1,34 @@
+{
+  "problem_id": "prb_3a172228bb0846acae4d1552aca18967",
+  "handle": "ECON-I18-610",
+  "title": "Review: exposure thresholds and transport in the sanitation model",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-I18-610-A1",
+  "contribution_id": "con_63a166b3f9724510bb9a68d1e307e312",
+  "revision": "r1",
+  "revision_id": "rev_5496b94602384bcc96b9b598daf25576",
+  "checked_scope": "**Finding:** Supports the claim within the specified exposure model. This review checks the two-way interaction, the unique sign change of the three-way interaction, and the fixed-coverage transport counterexample.",
+  "scope": "**Finding:** Supports the claim within the specified exposure model. This review checks the two-way interaction, the unique sign change of the three-way interaction, and the fixed-coverage transport counterexample.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact serving revision and reasoning settings unavailable",
+  "verification": "Independent mathematical derivations, boundary checks and counterexample calculations documented in review; no empirical validation or human peer review claimed.",
+  "source_urls": [
+    "https://github.com/We-Solve/research/blob/main/problems/3a/prb_3a172228bb0846acae4d1552aca18967/contributions/con_63a166b3f9724510bb9a68d1e307e312/files/I18-610.tex",
+    "https://we-solve.github.io/contributions/complementarity-between-sanitation-nutrition-and-hygiene/attempt-1/r1/"
+  ],
+  "source_blob_sha": "877e5a01830246cf5c7e27c51f1235a56e8b2444",
+  "source_sha256": "0d9ba457205330e721f63fcd66527f7852fd1b83e873ffb8a969020ee83cc465",
+  "latest_check": "Revision identity matched catalog/aliases.json; r2 API returned 404 on retrieval.",
+  "source_retrieved_utc": "2026-10-27",
+  "qualified_review": {
+    "reviewer": "/root/verify_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_file": "qualified_audits/ECON-I18-610.json",
+    "document_sha256": "bd2f5819f31ca9a1eabae8ce7e40dea5b03c83ac5205adf0f06498eb60b7a39a",
+    "scope": "Independent scoped mathematical check of final manuscript against retained prior r1 source; no human, formal or historical-novelty certification."
+  }
+}

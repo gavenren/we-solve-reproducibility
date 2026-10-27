@@ -1,0 +1,57 @@
+{
+  "handle": "ECON-C78-175",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C78-175/review.md",
+  "document_sha256": "23aecc78a9e6d5ac5314723adfa108433507dbb4a3bfa527f4ad8f56f1e965e0",
+  "checked_scope": "The strict-refinement cover, forced-pair feasibility oracle, and polynomial-delay dependence on the number of refinements.",
+  "checks": [
+    "Partner-first tie refinements cover every weakly stable matching, and each strict-refinement stable matching is weakly stable originally. The R=product tie sizes family need not be polynomial.",
+    "Forced-pair oracle tests internal blocks and imposes all residual obligations to forced endpoints; retained residual partners outrank endpoints that could block, and deleted edges cannot block a completed matching. Rejected-pair induction for deferred acceptance certifies perfectness whenever a perfect stable residual matching exists.",
+    "Corrected source-fidelity error: source enumerates one prefix tree using an R-refinement weak-completion oracle, rather than outputting separately per refinement with duplicate suppression. At most 2n^2 oracle calls per delay, each O(Rn^2), give O(Rn^4+poly(L)); unique labeled leaves avoid duplicates and regenerated refinements preserve polynomial space."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C78-175.txt",
+      "sha256": "a46516f9234f8a4088bee3f0056934703c2709544b42d2b07f63aec92936864d",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C78-175-prior.html",
+      "sha256": "6ad12ffc302106693e9679d5362d78aaae4df74cd2d1afc8c2f0896a5d08e1cf",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C78-175-prior.txt",
+      "sha256": "ac30d826cbea11a11601a7b696c36466d9e98a48cfc4064f4ed929f747e2bc33",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C78-175/metadata.json",
+      "sha256": "48f87e987262a159d578af394e9c8c2f2221e8c5543bc2f7e0a6d695addd04ca",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C78-175/source_notes.md",
+      "sha256": "8111af38f1d24144fe012f8c58d5ff5493561508cdbd4957361004f1a4f295e7",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C78-175-prior.yaml",
+      "sha256": "aae01b627d98b9a717a7d5780130c241e692ee839c2e3150aae4201ddc03ddce",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "This supports the feasibility oracle and the reported delay bound with its R dependence. It does not give polynomial delay in unrestricted input size when the refinement family is exponential, or prove an unrestricted enumeration-complexity classification.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "corrections_made": [
+    "Replaced inaccurate per-refinement output/deduplication description with the actual single-prefix-tree, R-refinement completion oracle and polynomial-space delay proof."
+  ]
+}

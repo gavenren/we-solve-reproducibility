@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_85dba5b3fa3348a1aa4e13b17e1d28e9",
+  "handle": "ECON-C73-492",
+  "title": "Audit of the infinite-tail learning certificate and empirical-product distinction",
+  "contribution_handle": "ECON-C73-492-A1",
+  "contribution_id": "con_cb20bcb09ed6400686eaf946c8644476",
+  "revision_id": "rev_9b5157aa33da4686933003fa4a0019c3",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The full-information dominant-action tail theorem and the external-regret counterexample.",
+  "scope": "The full-information dominant-action tail theorem and the external-regret counterexample.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/speed-of-learning-in-games/attempt-1/r1/",
+  "source_sha256": "6f094be6373d3a236227d101f9ab9c54a0d5d525bbf206cd63668b6677ea7c34",
+  "review_path": "reviews/ECON-C73-492/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-C73-492.json",
+  "document_sha256": "72d5b5764560c0736f691fc508dd287906d7dafc3d53c213e4ec5d21ed41aa67"
+}

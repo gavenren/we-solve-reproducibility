@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-L41-613",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-L41-613/review.md",
+  "document_sha256": "e50f3e60c5e7fb5d282b7f14847517b6453229235a889ac19ca31e030960ab75",
+  "checked_scope": "**Finding:** Supports the claim for the interior quality game and the stated marginal-information bounds. This review checks equilibrium quality incentives, the accounting for eliminated products, and sharpness of the survivor-effect bounds.",
+  "checks": [
+    "Differentiated separate/joint quality profits to get m*alpha/kappa versus m*(alpha-beta)/kappa_M; strictly concave interior optima yield the exact efficiency threshold. beta=0 with equal curvature yields equality.",
+    "Verified principal-stratum provision decomposition and the 0.8/0.4 deletion example. Clarified that at p0=p1 the exit term is zero without an undefined mean of the empty eliminated stratum.",
+    "Checked lower/upper fractional trimming via (z-cutoff)*(a-a_low)>=0 and equal mass. Independent treated-marginal assignment attains both endpoints without rank preservation; r=1 collapses to the observed mean difference.",
+    "For half mass at 0 and 1, r=1/2, mu1=1/2 gives [-1/2,1/2]. The separate aggregate construction realizes any 0<=q<=v/Jmax by all-present probability v/Jmax and quality q*Jmax/v, with v=0 handled separately."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-L41-613/prior.tex",
+      "sha256": "6a397e8efcfb416a77f97deeb2e3e5812626344104f965ea13e78316e2041566",
+      "git_blob_sha": "6b13b55a9a787cb9e6f78b1046b75b23b02d3b85",
+      "revision": "r1",
+      "revision_id": "rev_bf8e778f86064c38b716a1f699b03947",
+      "contribution_id": "con_709e557da470447e9367551ad29de515",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-L41-613/record.json",
+      "sha256": "6dbeb7aaf4e073842fd787c90c6b8cb019e5ff2cb53da70ad0ce9a202618d33a",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Quality game assumes interiority at fixed prices; trimming uses no-entry monotonicity and marginal information, while the aggregate sensitivity construction is deliberately separate.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

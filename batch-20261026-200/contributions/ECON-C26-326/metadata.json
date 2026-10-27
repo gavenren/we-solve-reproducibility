@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-C26-326",
+  "problem_id": "prb_02eb9d149f3745219f0b6db9aab08638",
+  "catalog_rank": 330,
+  "title": "Independent review: Encouragement designs and weak identification of mediator effects",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "The weak-first-stage lower-bound construction and its nκ² scaling, including exact observable cell probabilities; not adaptive optimal design.",
+  "contribution_handle": "ECON-C26-326-A1",
+  "contribution_id": "con_e968e8b074a74ccba4f27c1cf7709cb7",
+  "revision_id": "rev_c2b3505e1c744e138a27148b7dfc69e2",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/encouragement-designs-and-weak-identification-of-mediator-effects/attempt-1/r1/",
+  "source_sha256": "3f9063686034318b27fbadb8e5d5f7173b26586094100d31ee971cd27570a37e",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-C26-326.json",
+  "qualified_audit": "qualified_audits/ECON-C26-326.json"
+}

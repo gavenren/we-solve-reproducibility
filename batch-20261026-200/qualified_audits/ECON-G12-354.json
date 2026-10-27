@@ -1,0 +1,64 @@
+{
+  "handle": "ECON-G12-354",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-G12-354/report.md",
+  "document_sha256": "cf599fac3a9ac9b368cc255ef2c9eeba4e538ed49ecb4a98af3efdad6ff512ef",
+  "checked_scope": "Existence, uniqueness, joint continuity and bounded-payoff-price continuity of finite-state relative-entropy minimizers on every fibre of one fixed payoff polytope, including calibration boundaries; normalized multiplier invariance.",
+  "checks": [
+    "Checked strict convexity and continuous extension of q log(q/p) on the closed simplex for strictly positive p; every nonempty fibre is compact and has a unique minimizer.",
+    "Verified the minimal-face exposure gap forces outside-face mass to zero, including redundant columns and the full-polytope case with no outside columns.",
+    "Verified the fibre-approximation construction: the normalized inside barycentre cn tends to b, the relative ball supplies vn, and (1-tn)un plus the retained outside coordinates has exactly barycentre bn and converges to any specified q in the limiting fibre.",
+    "Checked singleton faces separately and ensured epsilon_n<1 eventually; the L1 bound 2tn+2epsilon_n is valid.",
+    "Applied the subsequence/feasible-comparison argument with joint entropy continuity in p and q; compactness and uniqueness imply full sequential continuity and uniform continuity on pi>=delta compact physical-law sets.",
+    "Recomputed the three-state bound ||q-(1,0,0)||1<=2b and the multiplier invariance space {v: v dot ai is constant}; prior attempt 2 conflates lost equivalence with discontinuity and uses too small a multiplier quotient.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-G12-354.txt",
+      "sha256": "8c896cd61d17361bdb5c2fa60151c12e2a13baab21c274c7ce96952008a3d732",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-G12-354_A1.txt",
+      "sha256": "816b60906be542b7b802e7a1390816d36a89f8500fb999b7b2e7a2d57d85f812",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "prior/ECON-G12-354_A2.txt",
+      "sha256": "d6f4ab4e4cc086b7f3fdbac54ceaca3c51507ba274ca67b2f6271b5246f6eb32",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-G12-354/source_notes.md",
+      "sha256": "7d04c6a89dc688885b448ddf1bdd7f5ecfec0313c7fe3ac8ec326bcbd7536b7a",
+      "check": "source-note binding checked"
+    }
+  ],
+  "limitations": [
+    "The payoff columns are fixed and the limiting physical probabilities remain positive. No arbitrary matrix/rank perturbation, infinite-state extension, global Lipschitz modulus, equivalent boundary measure, or economic preference identification is claimed.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ],
+  "checker_evidence": {
+    "program_path": "contributions/ECON-G12-354/verify.py",
+    "program_sha256": "caf4eb36b7f333ecc9526379955148de7ccea14b87983606439249e5d258132e",
+    "author_execution_record_path": "contributions/ECON-G12-354/verification.json",
+    "author_execution_record_sha256": "94c9088795b0b79c6205046b2186a3f4524abc88811aea913e97dd953ba97c77",
+    "independent_root_execution_record_path": "root_checker_runs.json",
+    "root_record_sha256": "e34cfee3cfbcf94bb08610d9cb5880aeef655dc5436c166e9a08eccfc72ab861",
+    "root_record_entry": {
+      "handle": "ECON-G12-354",
+      "program_sha256": "caf4eb36b7f333ecc9526379955148de7ccea14b87983606439249e5d258132e",
+      "returncode": 0,
+      "stdout": "{\"status\": \"PASS\", \"simplex_points\": 176850, \"denominators\": \"1..100\", \"arithmetic\": \"exact fractions\", \"scope\": \"three-state boundary inequality; not the general continuity theorem\"}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.619,
+      "source_unchanged": true
+    },
+    "reviewer_action": "Read checker source and exact matching success records; did not redundantly rerun. General result verified by the written mathematical argument, not inferred from a finite test."
+  }
+}

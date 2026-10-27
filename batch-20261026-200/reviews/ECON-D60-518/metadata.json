@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_30d5a9cffc48412da541bf4613930f62",
+  "handle": "ECON-D60-518",
+  "title": "Audit of revealed-ranking reachability under verified consideration sets",
+  "contribution_handle": "ECON-D60-518-A1",
+  "contribution_id": "con_906f4d39adb0452084f76089201badcc",
+  "revision_id": "rev_458d83fad6294a2dbded6869480623e7",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The observational impossibility with unrestricted attention and the DAG characterization under verified consideration.",
+  "scope": "The observational impossibility with unrestricted attention and the DAG characterization under verified consideration.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/welfare-from-inconsistent-choices/attempt-1/r1/",
+  "source_sha256": "36eb2416665d0ef7761aefc4bf340820fe2007e2bdbcd8b4291e8c436ff9120d",
+  "review_path": "reviews/ECON-D60-518/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-D60-518.json",
+  "document_sha256": "0f0fd91c7651791a9c4065249d45bf4310c9c9786188a2de4e97063a3627f63a"
+}

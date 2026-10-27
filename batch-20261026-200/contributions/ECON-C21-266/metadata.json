@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_90c81921da19468293faa98189df0b4c",
+  "canonical_problem_id": "prb_90c81921da19468293faa98189df0b4c",
+  "handle": "ECON-C21-266",
+  "catalog_rank": 270,
+  "problem_title": "Heterogeneous causal effects on metric covariate spaces",
+  "title": "Scoped review of metric-cell geometry and the doubly robust error bound",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C21-266-A1",
+  "contribution_display_handle": "Econ-270-A1",
+  "contribution_id": "con_b21100abfc484676aa1384e90fd65d23",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_fd3bc4991c304c3f8be47fab18097d2d",
+  "checked_scope": "Voronoi construction, exact conditional-score bias, finite-sample risk constants and nuisance norm requirement",
+  "scope": "Voronoi construction, exact conditional-score bias, finite-sample risk constants and nuisance norm requirement",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/heterogeneous-causal-effects-on-metric-covariate-spaces/attempt-1/r1/",
+  "source_sha256": "47f3cbbecfd17c8440edf6420945c5787d72be11913e76595e41b6456db84b8d",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C21-266.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C21-266.txt",
+      "sha256": "309a6812f02d7c3c52134d280f882606d03fb2068628210d569d9bd3b10f3079"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C21-266.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/heterogeneous-causal-effects-on-metric-covariate-spaces/attempt-1/r1/index.html",
+      "sha256": "47f3cbbecfd17c8440edf6420945c5787d72be11913e76595e41b6456db84b8d"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C21-266.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/heterogeneous-causal-effects-on-metric-covariate-spaces/attempt-1/r1/contribution.yaml",
+      "sha256": "b28f334efbc6ca6ae6833357e6a5f492683c502552eb2757cea5b96118782d11"
+    }
+  ],
+  "review_path": "contributions/ECON-C21-266/review.md",
+  "review_sha256": "b2bf1d224cc9cd10fa7c3104d48488d393776ac6368f5dee166d8aba086b8281",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C21-266.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "Voronoi construction, exact conditional-score bias, finite-sample risk constants and nuisance norm requirement",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

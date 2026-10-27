@@ -1,0 +1,68 @@
+{
+  "handle": "ECON-D71-180",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D71-180/review.md",
+  "document_sha256": "c04660b174167d85ae8d662677d1f39925da49ec0192ca72286e0df89fee58a5",
+  "checked_scope": "The two-alternative minimax lottery and the strict-ranking closure used for finite transcript optimization.",
+  "checks": [
+    "For two alternatives, feasible welfare closure [r/2,r+s/2] and the two endpoint fractional ratios are correct. Their monotone balance gives p=r(r+2s)/(r^2+4rs+s^2) and distortion1+2rs/(r+s)^2. Unanimity and n=1 conventions give1.",
+    "Maximizing integer r(n-r) gives floor(n^2/4); one cardinal query per voter determines its other utility by unit-sum normalization and yields distortion1.",
+    "For a realizable fixed transcript and seed, mixing a consistent strict point into any weakly feasible point preserves all response constraints and makes required ranking inequalities strict. Adaptive next-query choices are fixed by the preceding answers, so closure adds no hidden cross-voter constraints. This is conditional characterization, not optimal adaptive design."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-D71-180.txt",
+      "sha256": "390e2ece0a18b36a7ea83b83a19e4ee7a587f865a92fc254263dc4ba843e16be",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-D71-180-prior.html",
+      "sha256": "346c73983b108caec6b6b89020e8c598caa950e3c25e00a8b4091642ad3d6aee",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-D71-180-prior.txt",
+      "sha256": "4e02ed426d4fff97cf8a380ebefb77ef667795e961f306982fbfb4d1e5604fac",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-D71-180/metadata.json",
+      "sha256": "463691b77010bcce3498abb9596152d724449743c5ff2c054b02c257a6d648c2",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-D71-180/source_notes.md",
+      "sha256": "89482751ad8cb80b6a4f1ccc2af0922d75f1dfb31ca14277b3be9119c60e63f6",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-D71-180-prior.yaml",
+      "sha256": "db8015778cb26e194f6ba0b1b62d2ed32fdfd1a500786bb6ddd8cf05a8f85cc1",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    },
+    {
+      "path": "verify_econ_a_reviews.py",
+      "sha256": "3fa86e108ffffb86f11d783753dd7bf21e826c1007275cd96d956ac4422b4030",
+      "inspected_scope": "Inspected all ten finite-check routines, including assigned case construction and exact arithmetic; no redundant rerun."
+    },
+    {
+      "path": "econ_a_review_check_results.json",
+      "sha256": "7dd8233512ac5a13077a9a9ef4ec674fba459ff754b1f30d7541b11d03bebcf5",
+      "inspected_scope": "Inspected retained case counts/results and compared their stated scope to review."
+    }
+  ],
+  "limitations": [
+    "This supports the binary formula and fixed-transcript reduction. It does not solve the general many-alternative query frontier, and the closure argument presumes a realizable strict transcript rather than every formally feasible weak transcript.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "finite_evidence_inspected": {
+    "cases": 440,
+    "check": "Exact endpoint balance and all 101 rational grid lotteries for r,s in 0..20, excluding r+s=0."
+  }
+}

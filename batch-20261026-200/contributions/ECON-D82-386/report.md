@@ -71,7 +71,7 @@ Equal marginal report distributions do not, in general, identify zero loss chang
 
 The result requires that B is a pre-assignment state unchanged by the incentive. If incentives change the target belief itself, two potential latent states are needed and this common-state restriction no longer follows. Randomization must also apply to the baseline population, without conditioning on post-treatment response or participation. A selected-responder comparison requires a separate missingness model. The result does not assert that scores equal latent probabilities, that narratives are truthful, or that the bounds are narrow in every application.
 
-A standard-library exact checker enumerates small rational binary-code models and checks (1)–(3) against all feasible Bernoulli couplings on the tested grids. Finite checking supports the algebra; the written coupling argument establishes sharpness for arbitrary report laws. Independent review is pending.
+A standard-library exact checker enumerates small rational binary-code models and checks (1)–(3) against all feasible Bernoulli couplings on the tested grids. Finite checking supports the algebra; the written coupling argument establishes sharpness for arbitrary report laws. A separate scoped mathematical review by `/root/verify_c` (configured `gpt-6.1-sol`, reasoning `ultra`; serving revision unknown) checked the arguments and source binding. This is an AI mathematical review, not human review or formal verification.
 
 ## Sources and attribution
 

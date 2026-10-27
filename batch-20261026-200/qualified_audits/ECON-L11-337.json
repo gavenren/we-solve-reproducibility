@@ -1,0 +1,44 @@
+{
+  "handle": "ECON-L11-337",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-L11-337/review.md",
+  "document_sha256": "fa5999312f1777d572de9625de82718619f28be784eeb7719fd958326c4cd38a",
+  "checked_scope": "Opposite-sign conduct observational equivalence and sharp conduct-component bounds under independent cost intervals.",
+  "checks": [
+    "Substituted observed a-c1=b*Q1*(1+lambda1) into the conduct component to derive K=b*Q1^2/2*[1-((1+lambda1)/(1+lambda0))^2].",
+    "Checked monotonicity in lambda0 and lambda1 on [0,1], attained rectangle corners and continuous intermediate values; reconstructed compatible costs p-bQlambda.",
+    "Recomputed bounds -37.5 and 9.375 at b=1,Q1=5,Lambda0=Lambda1=[0,1]. Equal two-firm production supports H=1/2 in the explicitly selected competitive/cartel examples.",
+    "Verified pass-through derivative lambda/(1+lambda) under fixed c and lambda; overlapping singleton conduct intervals may give only zero, consistent with the source wording.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-L11-337.txt",
+      "sha256": "7fc61b105aff2750d874f97a35768e72d88d66c1ff5ad19338db0369ae69d987",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-L11-337_A1.txt",
+      "sha256": "d250f7047bb56b640b199e67dfc311cddcbd3fc04a270e81408bc7c363730512",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-L11-337/source_notes.md",
+      "sha256": "c1dbb8cbd235591e17e62c4f6190306ebc7dc17a7e8c42f706683ac634df7abf",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-L11-337_A1.yaml",
+      "sha256": "5af40a974d7d21fb4daa816a45b084675eda815ffe39d55bb9f00cdb580b0df9",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Independent cross-date cost-interval conduct benchmark only. Additional joint cost restrictions change the rectangle; no empirical retail market-power decomposition or arbitrary oligopoly-share rationalization is certified.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

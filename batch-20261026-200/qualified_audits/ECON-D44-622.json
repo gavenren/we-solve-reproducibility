@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-D44-622",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D44-622/review.md",
+  "document_sha256": "af4ccb0526a61584c7da6003aa3bf5c69b6fda99d011e2166a91a58a26de9e9a",
+  "checked_scope": "**Finding:** Supports the checked claims. This review verifies the entry-loss formula, its learning rate, the mediation counterexample, and the enforcement condition.",
+  "checks": [
+    "Integrated actual omitted-entrant surplus q*(v-T*) to obtain q*(T-T*)^2/2 and c^2*(1-b)^2/(2q*b^2), retaining interior entry and b=1 boundary.",
+    "Beta-success updating gives (1-b_t)/b_t=beta/(alpha+t), entry gap c*beta/(q*(alpha+t)) and welfare gap c^2*beta^2/(2q*(alpha+t)^2); this requires independent complete compliance audits.",
+    "Checked the two structural mediation models yield the same randomized (Z,B,Y) law but belief-intervention effects one versus zero.",
+    "Deviation payoff g_d-a*eta_d*F gives exact enforcement inequalities, infeasibility for positive undetectable gain, feasible maximum ratio <=1 and compliance at ties. Explicitly retained empty maximum zero and zero-gain/zero-detection boundary."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-D44-622/prior.tex",
+      "sha256": "eca7a416409c7906095a6c02769cf4a0f13d5d5f86069490103cc09b398ba700",
+      "git_blob_sha": "bcdfb7c000c0d767eaa40a354d80c97cddd54af5",
+      "revision": "r1",
+      "revision_id": "rev_6b6aa5a6c5e349b1b136804ad498776c",
+      "contribution_id": "con_840bb550bf444baca225fd453813a7bc",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-D44-622/record.json",
+      "sha256": "28b42cf25f7cab953fd7012033bdc09e7dc819c977db81a54b90b17793591a14",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Interior entry, stable Beta learning and enforceable risk-neutral audit penalties are assumed; subjective and informed loss evaluators are intentionally different.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

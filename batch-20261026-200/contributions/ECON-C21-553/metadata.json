@@ -9,14 +9,26 @@
   "contribution_id": "con_b2e788c1c6c5441bb81464ab19738763",
   "revision": "r1",
   "revision_id": "rev_3cfb88407caf459ab4e027bc0a405eb0",
-  "checked_scope": "**Finding:** Supports the claim within the stated model. **Checked scope:** Theorem \u201cValidation removes predictive drift bias,\u201d Proposition \u201cCost-aware validation allocation,\u201d and the unvalidated-support proposition in contribution ECON-C21-553-A1, revision r1.",
-  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact version/settings unavailable",
-  "verification": "Independent derivations and exact arithmetic examples in review; no numerical program claimed.",
+  "checked_scope": "**Finding:** Supports the claim within the stated model. **Checked scope:** Theorem “Validation removes predictive drift bias,” Proposition “Cost-aware validation allocation,” and the unvalidated-support proposition in contribution ECON-C21-553-A1, revision r1.",
+  "scope": "**Finding:** Supports the claim within the stated model. **Checked scope:** Theorem “Validation removes predictive drift bias,” Proposition “Cost-aware validation allocation,” and the unvalidated-support proposition in contribution ECON-C21-553-A1, revision r1.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact serving revision and reasoning settings unavailable",
+  "verification": "Independent mathematical derivations, boundary checks and counterexample calculations documented in review; no empirical validation or human peer review claimed.",
   "source_urls": [
     "https://github.com/We-Solve/research/blob/main/problems/99/prb_9989b54ff3854261950bca61fa269e78/contributions/con_b2e788c1c6c5441bb81464ab19738763/files/C21-553.tex",
     "https://we-solve.github.io/contributions/long-run-effects-from-proxies/attempt-1/r1/"
   ],
   "source_blob_sha": "894c1d83d0ff5163870f99a1189073b0f729bf59",
-  "source_sha256": "9c9ac2a2213ef5bdf526bb7096943d2d0fdac3a0d8de2ad721c6e4b723e6bae4",
-  "latest_check": "r2 API returned 404 on retrieval"
+  "source_sha256": "a1057f7686282177dbe47e861d59b09874559cb1aeaba9a537e348fa29953d71",
+  "latest_check": "Revision identity matched catalog/aliases.json; r2 API returned 404 on retrieval.",
+  "source_retrieved_utc": "2026-10-27",
+  "qualified_review": {
+    "reviewer": "/root/verify_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_file": "qualified_audits/ECON-C21-553.json",
+    "document_sha256": "24dda56535d6cbec3ccdb655d877e643314ae87a4dbf9ab99e2160e6f2cbf0c8",
+    "scope": "Independent scoped mathematical check of final manuscript against retained prior r1 source; no human, formal or historical-novelty certification."
+  }
 }

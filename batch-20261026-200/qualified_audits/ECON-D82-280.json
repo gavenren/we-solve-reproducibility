@@ -1,0 +1,53 @@
+{
+  "handle": "ECON-D82-280",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D82-280/review.md",
+  "document_sha256": "4363c0a027981ac4def433cc03d107280284cfaed305c300e63362743647ec77",
+  "checked_scope": "Common adverse sorting, threshold-mixture reduction, and exact zero-revenue optimum",
+  "checks": [
+    "DSIC, IR and no subsidies give monotone x, U(0)=0 and U(r)=integral_0^r x. Equal-mass comparison with 1{r<a} and the sign of U-U(a) proves the same adverse sorting for every mechanism.",
+    "Threshold integration gives welfare W(a-t)_+^2/2 and payment t(1-t). The Stieltjes threshold mixture and harmless atomless endpoint changes yield a compact convex-hull problem; a supporting line gives at most two threshold contacts.",
+    "For zero revenue weight, convexity gives f(z)<=z*f(1), hence value<=qWa^2/2, attained by uniform free rationing. Deterministic unrationed prices require t>=1-q and can have zero welfare when q<=1-a, a<1; the result expressly excludes rationed-price mechanisms."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-D82-280.txt",
+      "sha256": "3e17d6474f54660381fb5a0b891b88be5e00348cc03fe76315ea1571a884464a",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-D82-280.prior0.html",
+      "sha256": "a29c8546b9ae0fab2600d6146b6731e4391b5d66e6a71dad1749206c2d699d03",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-D82-280.prior0.yaml",
+      "sha256": "8479f80bdeb738ba46ecad578444b566b802bcd6a9f591a2839181fb9d843ddd",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-D82-280/source_notes.md",
+      "sha256": "2043846e9a50b18d25e99134d05fb1544c49283c87ccfcbb0a2349e3cff0e475",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ],
+  "assistance": {
+    "reviewer": "/root/verify_b/b_source_check",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "role": "Additional independent retained-source and mathematical checks for the exact scoped contribution documented in this audit."
+  }
+}

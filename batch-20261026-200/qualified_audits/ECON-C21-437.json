@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-C21-437",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C21-437/review.md",
+  "document_sha256": "e15eaa67f44bc1022ee19134a23acdc67b27619dfbe702cf53a65ea602db95dd",
+  "checked_scope": "Dimension cancellation in target-risk transfer and the fixed-sparsity scope",
+  "checks": [
+    "Checked q^(k-|S|) cancellation and the marginal design-density lower bound, giving q^(-2r)/epsilon pointwise for every sparse candidate and hence for data selection.",
+    "Verified Z_f has mean prediction risk, |Z_f|<=4 and E Z_f^2<=16 R(f), which supports the stated finite-class Bernstein fast-rate mechanism; net candidates need only be clipped sparse approximants.",
+    "Recomputed the one-coordinate separation a^2 q^2/6 and the fixed-r comparison log(sum binomial(k,j))~log k. The review explicitly withholds growing-r and unexamined bump-constant certification.",
+    "Checked the exact raw-loss factor q^k and the resulting warning that raw consistency can be vacuous when k grows."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-C21-437/source_notes.md",
+      "sha256": "b6d47cfc053cd2e9fe860dfc82a2a2f45676574a95bc057f1ac218178dea84b3",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-C21-437/metadata.json",
+      "sha256": "984be3f7b51f29dd1fe63c49bb91d947f15118c85991f8376d78d4b33c21b1c6",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/heterogeneity-under-multivariate-treatment_attempt-1_r1.html",
+      "sha256": "e25de55107a1224d58f7f2be8f6345b88da3fd014273b240c4009760140228b8",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/heterogeneity-under-multivariate-treatment_attempt-1_r1.txt",
+      "sha256": "7e429ab6e6bb3d0337aaf46228e90cb48b5f9d42b2ce5e9a6a41ec3deac4c816",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-C21-437-A1.yaml",
+      "sha256": "f628fb705f1e69b17cdc04b41e05ee37b2a0fdc917d09eac587b65101d071093",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

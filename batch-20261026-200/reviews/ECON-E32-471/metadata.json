@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_2b43b3a1635d4e39873c73891139440d",
+  "handle": "ECON-E32-471",
+  "title": "Audit of consumption-equivalent aggregation and the marginal insurance derivative",
+  "contribution_handle": "ECON-E32-471-A1",
+  "contribution_id": "con_7ca0663dee784918b64831d757cf2283",
+  "revision_id": "rev_bd570ef863a84e6b884c4b1826bf0618",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The CRRA compensation formula, its aggregation weights, and the zero-benefit welfare derivative on an interior equilibrium branch.",
+  "scope": "The CRRA compensation formula, its aggregation weights, and the zero-benefit welfare derivative on an interior equilibrium branch.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/welfare-costs-of-fluctuations/attempt-1/r1/",
+  "source_sha256": "d897e6584ba5a8ca92221f568bb55db05ad45caee28131596f7b4ef3389a9f34",
+  "review_path": "reviews/ECON-E32-471/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-E32-471.json",
+  "document_sha256": "5c8f3e1c8e1aa88f438c044e5af6df074c213f313ce4588bb1c9b6aec1641f6c"
+}

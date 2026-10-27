@@ -1,0 +1,34 @@
+{
+  "problem_id": "prb_6beb6dbda7144735b648c15defc0ef8b",
+  "handle": "ECON-M21-599",
+  "title": "Review: knowledge contamination and profit-based support allocation",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-M21-599-A1",
+  "contribution_id": "con_e43e0581837f4c848dc7a497c54db2c0",
+  "revision": "r1",
+  "revision_id": "rev_0cfd49195b804a77bf830831e08ce23c",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** controlled-effect identification, binary knowledge-contamination bounds and fractional targeting duality in ECON-M21-599-A1, revision r1.",
+  "scope": "**Finding:** Supports the checked claims. **Checked scope:** controlled-effect identification, binary knowledge-contamination bounds and fractional targeting duality in ECON-M21-599-A1, revision r1.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact serving revision and reasoning settings unavailable",
+  "verification": "Independent mathematical derivations, boundary checks and counterexample calculations documented in review; no empirical validation or human peer review claimed.",
+  "source_urls": [
+    "https://github.com/We-Solve/research/blob/main/problems/6b/prb_6beb6dbda7144735b648c15defc0ef8b/contributions/con_e43e0581837f4c848dc7a497c54db2c0/files/M21-599.tex",
+    "https://we-solve.github.io/contributions/the-knowledge-adoption-gap-in-small-business-practices/attempt-1/r1/"
+  ],
+  "source_blob_sha": "de7512f84f63dec120ec9626be177b35d44a88c0",
+  "source_sha256": "1e4bfcd3d9a5bbd28e73697a4162efbccd54e6eef2333cf8a45fef9ed03d1cb6",
+  "latest_check": "Revision identity matched catalog/aliases.json; r2 API returned 404 on retrieval.",
+  "source_retrieved_utc": "2026-10-27",
+  "qualified_review": {
+    "reviewer": "/root/verify_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_file": "qualified_audits/ECON-M21-599.json",
+    "document_sha256": "d64f8a1c8cb88a5fb04fb3c802d9747a45c55ecf127034639d09cc7aea0257d3",
+    "scope": "Independent scoped mathematical check of final manuscript against retained prior r1 source; no human, formal or historical-novelty certification."
+  }
+}

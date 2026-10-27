@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D84-472",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D84-472/review.md",
+  "document_sha256": "fc7863f801602dcd36d4c85233b3b9ee879cfa42a055ee60c0b7d0eea67407ab",
+  "checked_scope": "The Hilbert-space contraction argument, mean-shift interpretation, and Vandermonde identification of bounded reasoning depth.",
+  "checks": [
+    "Jensen and conditional-expectation contraction give ||T||≤1 on the assumed closed field space; the Neumann series and tower/Fubini identities yield Eā=Eθ̄/(1−α).",
+    "Applying the mean identity separately at intervention values proves the unconditional shift multiplier without differentiating changing information operators; the Gaussian conditional coefficient λ/(1−αλ) describes a different contrast.",
+    "For maximal depth K≥1, subtracting the known constant and dividing by nonzero x=αλ yields a degree-K−1 polynomial; K distinct nonzero x values identify the tails, whose monotone differences recover all shares. K=0 is already degenerate."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-D84-472_0.tex",
+      "sha256": "fa89eb845b03619e2d9c96ba88677824506dc89df93c22f4b43c18888fc556aa",
+      "revision_id": "rev_6a2d94a34b97490a9f572cd284b74294",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/general-equilibrium-with-limited-higher-order-beliefs/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_01306d628b9943dca166b18238c05d9d",
+  "canonical_problem_id": "prb_01306d628b9943dca166b18238c05d9d",
+  "handle": "ECON-C31-282",
+  "catalog_rank": 286,
+  "problem_title": "Information and statistical power under interference",
+  "title": "Audit of paired-network information and conditional versus joint identification",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C31-282-A1",
+  "contribution_display_handle": "Econ-286-A1",
+  "contribution_id": "con_3c1efa7473a04e8e9653720819cbb5f0",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_1a4a1a81addb438a909086df10485713",
+  "checked_scope": "The covariance-class information identity, disjoint-pair optimum, and complete-graph random-count qualification.",
+  "scope": "The covariance-class information identity, disjoint-pair optimum, and complete-graph random-count qualification.",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/information-and-statistical-power-under-interference/attempt-1/r1/",
+  "source_sha256": "cc1c6951d2150331355e3d3f01e14d510b6b8d16bb6d6c4e23e2ac76874d1b45",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C31-282.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C31-282.txt",
+      "sha256": "9cdb37367dbbf979ecef9d238c54671539ec91ce8181a3a8b0867d660ed4e6b3"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C31-282.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/information-and-statistical-power-under-interference/attempt-1/r1/index.html",
+      "sha256": "cc1c6951d2150331355e3d3f01e14d510b6b8d16bb6d6c4e23e2ac76874d1b45"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C31-282.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/information-and-statistical-power-under-interference/attempt-1/r1/contribution.yaml",
+      "sha256": "cd0da1bece5c7b1476152fc737aa381e8f37f1e5d7b6b5bb97ba16a1f3559792"
+    }
+  ],
+  "review_path": "contributions/ECON-C31-282/review.md",
+  "review_sha256": "b7f4d525b32c0bd33490634b1de9d38a98b289c48babff24d7594ad6615c1d3d",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C31-282.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "The covariance-class information identity, disjoint-pair optimum, and complete-graph random-count qualification.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

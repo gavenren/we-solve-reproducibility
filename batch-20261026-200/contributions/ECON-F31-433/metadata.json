@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_51bbce4a542d4dd09f7d0888da800934",
+  "handle": "ECON-F31-433",
+  "title": "Independent review of ECON-F31-433-A1: Reset-cohort transmission and the equilibrium-selection derivative obstruction",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-F31-433-A1",
+  "contribution_id": "con_45678a4dea4c43c4ba732afcdccb07b9",
+  "revision_id": "rev_6ff717aebd37433fb9cdf2349da3095b",
+  "finding": "Supports the claim",
+  "checked_scope": "Reset-cohort transmission and the equilibrium-selection derivative obstruction",
+  "scope": "Reset-cohort transmission and the equilibrium-selection derivative obstruction",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/dominant-currency-pricing-and-exchange-rate-pass-through/attempt-1/r1/",
+  "source_sha256": "7705dda57b646b7cb5daa9daea4f504ae0af457a9a2a4b50fdd2b55ed306d37a",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-F31-433.json"
+  }
+}

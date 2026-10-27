@@ -1,0 +1,75 @@
+{
+  "handle": "ECON-C31-219",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C31-219/report.md",
+  "document_sha256": "7a9ae1618baac84f91268fc0ba549aecbcd6e44f1e753c0951dc73c50413b9fa",
+  "checked_scope": "Exact conditional policy confidence intervals and matching n^-1 squared-risk order for fixed-size loopless complete-component networks with one observed outcome in each sampled component, unknown propagation/noise, and vanishing sampling fraction.",
+  "checks": [
+    "For B=P-Q/(k-1), directly obtained M_delta=P/(1-delta)+Q/(1+delta/(k-1)); the displayed kappa, lambda, u, v and marginal variance equal the exact resolvent coefficients/diagonal.",
+    "One observed vertex per distinct component gives independent Gaussian errors independent of every treatment. Full treatments reveal both W_i and D_i. Population policy cancellation yields psi_N=c_N[u+(k-1)v].",
+    "For rank(X)=3 and n>3 the Gaussian projection decomposition yields the exact t_(n-3) pivot; multiplying an ordered interval by c_N and clipping to a true prespecified range preserves coverage. c_N=0 gives target {0}; rank failure uses bounded fallback.",
+    "Three positive-probability design rows (0,0),(1,0),(0,1) yield a fixed positive Gram lower bound with exponentially high probability. Fixed k, stability and compactness give uniform risk/expected-length upper orders.",
+    "The interior beta perturbation h/sqrt(n), alpha=gamma=delta=0, has KL=h^2/(4 sigma0^2), and target separation |c_N|h/sqrt(n). Lower orders require |c_N|>=c0 and the stated interior submodel. Prior assumes supplied delta/sigma and self-loop example, so comparison is faithful."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C31-219.txt",
+      "sha256": "76ff841ec9fe1bcfbc45470600e6bafb3a64dfc81d3353ec1cb51cc4ec572f96",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C31-219-prior.html",
+      "sha256": "60cde8c52289a42276a247b900fb4097cfc518cc8c4dad8b2c605feea7dea12f",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C31-219-prior.txt",
+      "sha256": "52e224138c6b6761b7710b89e43d40ae5cc60a00d84abc7cc524e96afc36d23a",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "contributions/ECON-C31-219/metadata.json",
+      "sha256": "73e2dbef8b09b9f10b6a9e86f8f4380c5049d34b45f1cf60902f01bc2b2d5b7f",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "contributions/ECON-C31-219/source_notes.md",
+      "sha256": "de19aa544ee48a1fa943d147b3088a8f1ddedc5ea6c045abc4af60391db71d59",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "contributions/ECON-C31-219/verify.py",
+      "sha256": "a577dca878d3460ed6b3030ec307e656eb8b898dcfcefe359840742160b8da4a",
+      "inspected_scope": "Inspected exact finite checker code; hash matches successful root rerun."
+    },
+    {
+      "path": "root_audits/ECON-C31-219.json",
+      "sha256": "32b10c08b6dc36debe32e41bd7eafcb62fcd637b2db6a73665fadcc50c1d21e2",
+      "inspected_scope": "Inspected earlier root written-proof audit; no substitution for this independent derivation."
+    },
+    {
+      "path": "root_checker_runs.json",
+      "sha256": "e34cfee3cfbcf94bb08610d9cb5880aeef655dc5436c166e9a08eccfc72ab861",
+      "inspected_scope": "Inspected successful unchanged-script rerun evidence; reviewer did not redundantly rerun."
+    }
+  ],
+  "limitations": [
+    "Only fixed-size loopless complete components, one observed outcome per sampled distinct component, independent Gaussian innovations/treatments, and stable compact homogeneous parameters; sharp lower rates also require an interior beta submodel and nonzero aggregate policy weight.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "finite_evidence_inspected": {
+    "handle": "ECON-C31-219",
+    "program_sha256": "a577dca878d3460ed6b3030ec307e656eb8b898dcfcefe359840742160b8da4a",
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"exact_resolvent_cases\": 72, \"arithmetic\": \"fractions.Fraction\", \"limits\": \"finite matrix identities only; inference theorem uses written Gaussian proof\"}\n",
+    "stderr": "",
+    "elapsed_seconds": 0.04,
+    "source_unchanged": true
+  }
+}

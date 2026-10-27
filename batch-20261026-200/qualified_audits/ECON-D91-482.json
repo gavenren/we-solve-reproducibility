@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D91-482",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D91-482/review.md",
+  "document_sha256": "f893edc6256851213eee533c11ea832d08c3d6f34977f80deca2bace0536a118",
+  "checked_scope": "The all-adaptive-algorithms query theorem and the finite-threshold availability identified set.",
+  "checks": [
+    "A fixed random seed leaves one all-failure path, reducing nonredundant adaptive algorithms to query budgets q≤n−1 before a final guess.",
+    "Query k occurs with probability (n−k+1)/n; Cq=q−q(q−1)/(2n). The value quadratic is convex, so endpoints suffice, and subtracting them gives threshold κ=2/(n+2), including n=2 and κ=0.",
+    "Inspected the retained exact Fraction script and its 495 successful cost/size comparisons without rerunning them; the algebra independently establishes arbitrary n. Finite threshold selection shares are a sub-CDF and allow arbitrary extra available mass above the largest tested finite threshold."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-D91-482_0.tex",
+      "sha256": "5154d534ce720f564c631ac0eaca80d0dd208abb1e3ef36e83d2176ae4ad38af",
+      "revision_id": "rev_9e67d65d4a084d0faf9f15f835a317d3",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/economic-models-of-costly-computation/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

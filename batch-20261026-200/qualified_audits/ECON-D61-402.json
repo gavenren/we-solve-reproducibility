@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-D61-402",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D61-402/review.md",
+  "document_sha256": "17ee9c262708aae3bf13d0b0642067b82ee556762fd1b001589019d313a46455",
+  "checked_scope": "Demand-preserving welfare equivalence and signed marginal-benefit sharpness",
+  "checks": [
+    "Verified v+h and b-h preserve every decision payoff at every price and nudge and therefore demand/equilibria, while changing experienced welfare by the endpoint h difference; recomputed opposite welfare signs with increasing linear benefits.",
+    "Checked reversed derivative-envelope orientation for falling consumption, absolutely continuous extremizers and continuous distortions inducing unique observed choices. Sharpness is confined to the two observed regimes without extra demand/concavity restrictions.",
+    "Recomputed both numerical welfare intervals and the two Hoeffding mean radii with bounded measurement bias.",
+    "Checked the review correctly interprets the ambiguous conditional-on-cost phrase only through the joint event and the justified unconditional 1-alpha-alpha_C coverage. Unpaired-arm coupling and normative/empirical extensions are not certified."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-D61-402/source_notes.md",
+      "sha256": "3fb2612a2556a4ec90fcb4dc5a6b7d2cfa542dee856f045814c74fa703259a15",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-D61-402/metadata.json",
+      "sha256": "2f2583e32cd243be9dc731ec267612cf44fca270eca77019f3bc06854ece5c1b",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/welfare-effects-of-nudges_attempt-1_r1.html",
+      "sha256": "effac3866cef5daab6e17d51e401e757a2e84c42dc30fb1609d8d062213326e8",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/welfare-effects-of-nudges_attempt-1_r1.txt",
+      "sha256": "d7988efa0a62cb1c8199d180414dbc24ca3989453d33e17878e9863d167c034f",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-D61-402-A1.yaml",
+      "sha256": "0e50068a331fd21d4cfb29a45393dc495796729bd9d805605817422020dc3b53",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

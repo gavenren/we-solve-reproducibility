@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D60-518",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D60-518/review.md",
+  "document_sha256": "0f0fd91c7651791a9c4065249d45bf4310c9c9786188a2de4e97063a3627f63a",
+  "checked_scope": "The observational impossibility with unrestricted attention and the DAG characterization under verified consideration.",
+  "checks": [
+    "Singleton consideration sets reproduce any joint choice/process law under every strict ranking when attention is unrestricted.",
+    "Verified consideration choices impose directed strict edges; acyclicity is exactly topological extendibility, and absence of x→y reachability permits adding y→x without a cycle for distinct alternatives.",
+    "The independent four-node diamond has exactly two total extensions and leaves only b versus c unresolved. Binary forced-consideration comparison trees require at least ceil(log₂(m!)) answers."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-D60-518_0.tex",
+      "sha256": "36eb2416665d0ef7761aefc4bf340820fe2007e2bdbcd8b4291e8c436ff9120d",
+      "revision_id": "rev_458d83fad6294a2dbded6869480623e7",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/welfare-from-inconsistent-choices/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

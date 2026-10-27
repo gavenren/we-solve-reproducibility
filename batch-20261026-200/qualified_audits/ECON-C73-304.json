@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C73-304",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C73-304/review.md",
+  "document_sha256": "0f202b6106b6ac457bac8cff25e29fa06dda54eed287a1ef816d003ebdf2ff1e",
+  "checked_scope": "The necessary tangent symmetry condition, explicit three-strategy obstruction and continuous-kernel inverse obstruction.",
+  "checks": [
+    "Arbitrary signed finite tangent speeds in the simplex interior force D1Gamma[eta]=lambda<rho-F(mu),eta>. For C1 F this makes the tangent one-form exact and its Jacobian symmetric.",
+    "The stated skew matrix gives eta^T K zeta=-3 and the reverse=3, despite h^TKh=0. Its rectangle circulation has magnitude 6lambda times coordinate area; wording was clarified to avoid confusing this with Euclidean area in the embedded plane.",
+    "The symmetric positive-definite quadratic residual cancels the input cross term and leaves a nonpositive term. Continuous-kernel images of delta_(s_n)-delta_(s_0) tend uniformly to zero while TV remains two, precluding a bounded inverse from sup norm to TV."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C73-304.txt",
+      "sha256": "9b618d7be96241c48fe1fbea48205a03268a8d8d3e0facea46a389e4eed80f58",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C73-304.prior0.html",
+      "sha256": "be7e7b75822f47beff87e727e1ed137cbcdf92726f252c213cd7ae0757356d89",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C73-304.prior0.yaml",
+      "sha256": "97d01eb33819ef58fb109dc257b3abd49a5beca41f58c5befbecd80699ee26f1",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C73-304/source_notes.md",
+      "sha256": "7435dce7b880032f31b35551b927dd6415aac120b4dbf9c96e0279b3be53ede6",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

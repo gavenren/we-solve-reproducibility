@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_40259451bd6e4ec78f5bef69b9154fd7",
+  "handle": "ECON-D84-472",
+  "title": "Audit of the unconditional multiplier and finite-depth moment inversion",
+  "contribution_handle": "ECON-D84-472-A1",
+  "contribution_id": "con_2363baa5683c4bd299d10f71405460f0",
+  "revision_id": "rev_6a2d94a34b97490a9f572cd284b74294",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The Hilbert-space contraction argument, mean-shift interpretation, and Vandermonde identification of bounded reasoning depth.",
+  "scope": "The Hilbert-space contraction argument, mean-shift interpretation, and Vandermonde identification of bounded reasoning depth.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/general-equilibrium-with-limited-higher-order-beliefs/attempt-1/r1/",
+  "source_sha256": "fa89eb845b03619e2d9c96ba88677824506dc89df93c22f4b43c18888fc556aa",
+  "review_path": "reviews/ECON-D84-472/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-D84-472.json",
+  "document_sha256": "fc7863f801602dcd36d4c85233b3b9ee879cfa42a055ee60c0b7d0eea67407ab"
+}

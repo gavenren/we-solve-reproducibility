@@ -1,0 +1,57 @@
+{
+  "handle": "ECON-C21-194",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C21-194/review.md",
+  "document_sha256": "8f9a91d7cdf78dd07fa882ada1fc4d304a2beb5df7d9b7092c74ff06aa34f3a5",
+  "checked_scope": "The uniform independent-block inference theorem, including remainder control and variance estimation. Fixed uniformly bounded nuisance fits, uniform prediction rates and residual-information conditions are required.",
+  "checks": [
+    "Expanded fitted score error is -delta_q epsilon-v delta_l+theta v delta_q+delta_q delta_l-theta delta_q^2. Conditional on intact-fold training, first three terms have zero marginal mean; the remainder mean is <=e_q e_l+K e_q^2. Jensen handles arbitrary within-block dependence.",
+    "Conditional evaluation blocks remain independent within each fixed fold. Centered weighted-error variance<=C sum w_b^2(e_qb^2+e_lb^2)=oP(sigma_m^2), and finite-fold addition is valid despite cross-fold fit dependence. Added explicit fixed uniform envelope for nuisance fits, obtainable by clipping to known bounds.",
+    "No-dominant-weight implies sum w_b^2->0 and denominator concentration. Berry-Esseen ratio<=C max w_b/sqrt(sum w_b^2)->0 under variance comparability. Ideal variance estimator concentration uses sum w_b^4<=max(w_b)^2 sum w_b^2=o(sigma_m^4). Fitted-score and theta errors in weighted squared sums are negligible, yielding uniform studentization under the stated uniform rates and residual information."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C21-194.txt",
+      "sha256": "a441062471c0df67b8649be66df68d60c45e32da348002c4abdc97d099c57ef7",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C21-194-prior.html",
+      "sha256": "950d3f67a2fb3ece90f510a12d88781e814b82b3dc5d024e5a44782767685310",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C21-194-prior.txt",
+      "sha256": "3be0a46ade13cf4a6111b62c94752139b89c742002a5066a2b4ad690a51f6b84",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C21-194/metadata.json",
+      "sha256": "795fd5bc0e05fbd460a70d6d3197afee0f7df3a188ebabb99f76f23339e4bbfb",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C21-194/source_notes.md",
+      "sha256": "7fcab03ef423381c1867ac8c53fe0b8ed58e557e9dd9e58eabcf1d4acb01bf12",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C21-194-prior.yaml",
+      "sha256": "b794d9563e2faa9db974e1101b9d4c352400f88737a2324c79c6772bb17c1598",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "This supports the sufficient block theorem. It does not show that a specified high-dimensional learner meets the prediction conditions under drift, or extend the conclusion to dependent evaluation blocks or weak residual information. The bounded-fit premise is a fixed uniform envelope over sample sizes and laws, obtainable by clipping fits to the known nuisance bounds.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "corrections_made": [
+    "Made the fixed uniform fitted-nuisance envelope explicit; arbitrary individual finite bounds are outside this scoped support."
+  ]
+}

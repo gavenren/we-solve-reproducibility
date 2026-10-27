@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_89bda48cd80242ab96fe699d1310e811",
+  "handle": "ECON-D91-431",
+  "title": "Independent review of ECON-D91-431-A1: Finite response-type identification, classification constants, and belief-mediation equivalence",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-D91-431-A1",
+  "contribution_id": "con_a2300ac27e774abdb2e37a2f4884816d",
+  "revision_id": "rev_1a0820e77d894615898e8af9d68adcd5",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite response-type identification, classification constants, and belief-mediation equivalence",
+  "scope": "Finite response-type identification, classification constants, and belief-mediation equivalence",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/causal-mental-models/attempt-1/r1/",
+  "source_sha256": "fcae89bc8481d9e4fe5922bae25c32bd78edc2c0879cfcf6c9b3cff6f871c929",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-D91-431.json"
+  }
+}

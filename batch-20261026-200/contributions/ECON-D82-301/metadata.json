@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_6c037bd59e43434984f6a485b84e1685",
+  "canonical_problem_id": "prb_6c037bd59e43434984f6a485b84e1685",
+  "handle": "ECON-D82-301",
+  "catalog_rank": 305,
+  "problem_title": "General-cost strategic disclosure on continuous type spaces",
+  "title": "Scoped review of posterior-mean compactness and the Gaussian boundary",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-D82-301-A1",
+  "contribution_display_handle": "Econ-305-A1",
+  "contribution_id": "con_c525442df8164164a6b79ab626f70478",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_9614eb7def3d40599b3794ad66504852",
+  "checked_scope": "Feasible-coupling attainment, covariance realization, and strict Gaussian-gap counterexample",
+  "scope": "Feasible-coupling attainment, covariance realization, and strict Gaussian-gap counterexample",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/general-cost-strategic-disclosure-on-continuous-type-spaces/attempt-1/r1/",
+  "source_sha256": "22d5734416d17d4d8e0cfa604bfb4185460559e0ffc6d04060eeea6a83cf5a1b",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-D82-301.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-D82-301.txt",
+      "sha256": "770c68c7450a3a93a2031e431b24ccf19f1a0d900fc192fdbd5ff3f2612b651f"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-D82-301.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/general-cost-strategic-disclosure-on-continuous-type-spaces/attempt-1/r1/index.html",
+      "sha256": "22d5734416d17d4d8e0cfa604bfb4185460559e0ffc6d04060eeea6a83cf5a1b"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-D82-301.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/general-cost-strategic-disclosure-on-continuous-type-spaces/attempt-1/r1/contribution.yaml",
+      "sha256": "05fba0e3946b580cbb3773f27a6e9c30a9fb27a889fde83acbc63416426384e9"
+    }
+  ],
+  "review_path": "contributions/ECON-D82-301/review.md",
+  "review_sha256": "800a9afca1a8fce76ef6c467965f303977a804a3b7bc03875bd3bbce1a3be988",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-D82-301.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "Feasible-coupling attainment, covariance realization, and strict Gaussian-gap counterexample",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

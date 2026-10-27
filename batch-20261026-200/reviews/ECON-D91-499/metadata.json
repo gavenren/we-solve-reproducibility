@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_9dcef8f9a81e40068f2b2d2a8b846ad9",
+  "handle": "ECON-D91-499",
+  "title": "Audit of attention-erasure equivalence and Gaussian motivated-belief precision",
+  "contribution_handle": "ECON-D91-499-A1",
+  "contribution_id": "con_9c0ae02c3ae44afd8b985ed6c97846ba",
+  "revision_id": "rev_00048cdebaea4ddfa76a4138b5747e9c",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The factorial intersections, pathwise observational equivalence, and exponential-tilt distribution result.",
+  "scope": "The factorial intersections, pathwise observational equivalence, and exponential-tilt distribution result.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/a-unified-theory-of-belief-updating-biases/attempt-1/r1/",
+  "source_sha256": "c08f40d6b75b9abc2865366ddbb37ea67258d6c08cc9b3834c95927f0b552ab6",
+  "review_path": "reviews/ECON-D91-499/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-D91-499.json",
+  "document_sha256": "ccfcb44f87f031ae79c7a107c2dc2b53114903be57b9ca82f6e44c9ee48a4860"
+}

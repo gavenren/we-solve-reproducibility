@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-L11-310",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-L11-310/review.md",
+  "document_sha256": "fb8c931bb9630ff43117baba6bfbdb6e64b9132135a901e9c6facf715070f886",
+  "checked_scope": "Joint affine-cost markup bounds, audit contraction, and the distinction between convex and differentiable interpolation.",
+  "checks": [
+    "Recomputed A=2/(1-x^2) on c1+c2=2, giving [2,8/3], and audit contraction upper bound 2/(1-e^2), including 32/15 at e=1/4.",
+    "Checked the positive-gradient convex interpolation witness (C0,C1,g0,g1)=(1,3,2,3): supporting inequalities hold but any differentiable convex interpolant must be affine with derivative two up to point one, contradicting g1=3.",
+    "Verified convex objective maximization has a vertex maximizer on a compact polytope without becoming a convex minimization problem, and reciprocal audit propagation is bounded by ej/cmin^2.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-L11-310.txt",
+      "sha256": "a50b0f32217870572a6faee81c942d85702fc74037acdbf9bc1a4746154d5966",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-L11-310_A1.txt",
+      "sha256": "601eb00838fd0e9c524eb7d15b385cef7d3b86b00ab49db9c014ecfb99c07bee",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-L11-310/source_notes.md",
+      "sha256": "4aed68494cfd574883530be7d29d635a6eaa01645f2dc1506b079edc82857558",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-L11-310_A1.yaml",
+      "sha256": "53516442673c161d886cb7ef884d339d7d901477aa1d6e00c60785a17edf2362",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Sharp affine-cost subclass and the failure of the differentiable-interpolation shortcut only. No sharpness for the complete manufacturing technology/measurement class or empirical audit validation is certified.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

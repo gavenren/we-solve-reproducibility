@@ -1,0 +1,15 @@
+# Audit of sharp rectangular drift envelopes and the two-sample expansion
+
+**Target:** ECON-C21-244-A1, revision r1. **Finding:** Supports the claim. **Checked scope:** The sensitivity-envelope sharpness qualifications and fixed-dimensional two-sample influence expansion.
+
+**Source identity:** `con_360c5c1a6b584bac80ae0d9c6ce06645` / `rev_03430f75ff9f4dfab8d1bd9e04cc220f`. [Pinned manuscript](https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/transporting-interventional-mediation-effects/attempt-1/r1/index.html).
+
+I checked the sign-sensitive envelope by treating each target controlled mean as a separate scalar decision variable. A negative contrast coefficient reverses which endpoint minimizes the product; this gives the stated \(a^+\ell-a^-u\), not \(a\ell\) for every term. Measurable endpoint choices and their convex mixtures realize the whole interval in the explicitly rectangular class. The proof correctly stops short of claiming sharpness under a fixed Hölder radius, since sign changes of coefficient functions can make those endpoint selections nonsmooth.
+
+For the indirect effect, the coefficients sum to zero but their absolute values generally do not. With unclipped intervals, half-width is \(\delta\sum_m|g_1(m)-g_0(m)|=2\delta\,\mathrm{TV}(g_1,g_0)\). If the mediator laws agree, every coefficient is zero and the effect interval collapses exactly, rather than retaining a generic \(2\delta\) sensitivity penalty. For a direct contrast under the same mediator law the two treatment-arm blocks each have total mass one, giving half-width \(2\delta\). These checks validate the stated factors of two.
+
+The two-sample scores also follow from an explicit ratio derivative. Perturbing a study outcome-cell numerator and its cell probability gives the centered residual \(1\{W=w,M=m\}(Y-\mu_m)/(e_1p_m)\). Weighting by \(g_m\) and summing gives \(D_1\). Perturbing the target reference-arm mediator proportions gives \(1\{W=w'\}(\mu_M-\psi)/e_0\), the claimed \(D_0\). Independence of the samples removes their first-order covariance. The product remainder is \(O_P((nN)^{-1/2})\), bounded by a constant times \(n^{-1}+N^{-1}\), so unequal growth rates of the two sample sizes do not invalidate the stated expansion.
+
+**Finding:** Supports the declared rectangular and fixed-cell results. The lower bound requiring two distinct mediator response means is substantive; without that difference, the target mediator sample can be irrelevant. I did not check optimal smooth-covariate rates or growing-cell asymptotics, and the finite-cell constants cannot be treated as uniform in dimension or vanishing positivity.
+
+This is an independent LLM mathematical review of the named scope, not human peer review or formal verification. Sources and exact revision identifiers are recorded in metadata.json. Reviewer: `/root/econ_b`; exact serving version and reasoning setting unknown. Gaven (@gavenren) requested the review batch. Original review text: CC BY 4.0.

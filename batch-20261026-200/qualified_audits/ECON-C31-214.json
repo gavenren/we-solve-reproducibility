@@ -1,0 +1,75 @@
+{
+  "handle": "ECON-C31-214",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C31-214/report.md",
+  "document_sha256": "68fb0f87d0fd046cc1464428c7b85dd2f17f4cf200d4459d28ccc4d7fff7f155",
+  "checked_scope": "Matching sparse-cascade separation order sqrt(q log J/m) in a fork with an observed common random gate of probability q, known leaf background b, and one active terminal edge; explicit q-adaptive test and hidden-gate comparison.",
+  "checks": [
+    "Rederived A=WB, P(A=1)=q/2, leaf contrast delta=q(1-b)p, and the rare-class probability delta under shared counterfactual randomness; L>=2, K>=L, b in (0,1), q>0, J>=2 are material.",
+    "Conditional on the complete A sequence, Hoeffding gives size alpha. M~Bin(m,q/2), P(M<mq/4)<=exp(-mq/16), and the displayed delta threshold makes the active-leaf lower-tail error <=beta/2 on the good-count event.",
+    "Recomputed E0 Lj^2=(1+delta^2/(2q b(1-b)))^m and E0 LjLk=1 for j!=k with every observed upstream vertex retained. Uniform-mixture chi-square has the stated 1/J factor; a small constant works uniformly J>=2.",
+    "Checked alternatives require delta<=rho and delta<=q(1-b); mq of order at least log J is substantive. Hiding the entire gate/path gives diagonal increment delta^2/(2b(1-b)), with no latent dependence on inactive leaves in the one-active-leaf class.",
+    "Full prior manuscript has deterministic-gate fork and path results, explicitly leaving shared bottlenecks open. The new observed random-gate dependence, adaptive test and comparison are distinguished and credited correctly."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C31-214.txt",
+      "sha256": "c1ce04ce4f1e46d38cbf5d23a55e325dd88b323d063852cd62fc14522105c01b",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C31-214-prior.html",
+      "sha256": "c3466168fc1cfecd783ca6568485a9b93a17fd6b663c76bc86ede735a56c401b",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C31-214-prior.txt",
+      "sha256": "a7587a00ff298ba06a8a68ad97307294723dccb79bec310f1e540e1b5d9eafb1",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "contributions/ECON-C31-214/metadata.json",
+      "sha256": "39dfda038e2704ea9799dd54abb1efb4c35e5c05bf2c3dafd2ff9cc9e622eb72",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "contributions/ECON-C31-214/source_notes.md",
+      "sha256": "f113c5953121d49d77572cc404c368b018aa305d8938776536d8166400a7344d",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "contributions/ECON-C31-214/verify.py",
+      "sha256": "db9c7a76452b2d562042599875e18aef992c223cd1d70a81096247540bf06a3c",
+      "inspected_scope": "Inspected exact finite checker code; hash matches successful root rerun."
+    },
+    {
+      "path": "root_audits/ECON-C31-214.json",
+      "sha256": "73939ec567211d5b5d956aa7126b94948e9b9c100d49951c0b2fb9d5b9664c46",
+      "inspected_scope": "Inspected earlier root written-proof audit; no substitution for this independent derivation."
+    },
+    {
+      "path": "root_checker_runs.json",
+      "sha256": "e34cfee3cfbcf94bb08610d9cb5880aeef655dc5436c166e9a08eccfc72ab861",
+      "inspected_scope": "Inspected successful unchanged-script rerun evidence; reviewer did not redundantly rerun."
+    }
+  ],
+  "limitations": [
+    "Only the known-background, observed-common-gate fork with one active terminal leaf and explicit nonempty rare-signal regime; arbitrary networks, unknown b or many active leaves remain untreated.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "finite_evidence_inspected": {
+    "handle": "ECON-C31-214",
+    "program_sha256": "db9c7a76452b2d562042599875e18aef992c223cd1d70a81096247540bf06a3c",
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"exact_chi_square_cases\": 192, \"arithmetic\": \"fractions.Fraction\", \"limits\": \"finite likelihood identities only; no infinite-theorem certification\"}\n",
+    "stderr": "",
+    "elapsed_seconds": 0.058,
+    "source_unchanged": true
+  }
+}

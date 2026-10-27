@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-C81-341",
+  "problem_id": "prb_18767e6b3bf74ff89be3512112a43b46",
+  "catalog_rank": 345,
+  "title": "Independent review: Measurement error in digital and administrative data",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "The finite reporting-kernel LP, including exact causal-model reconstruction, zero-probability latent rows and attained sharp endpoints.",
+  "contribution_handle": "ECON-C81-341-A1",
+  "contribution_id": "con_91eb509edbda4e5d86666719a197a697",
+  "revision_id": "rev_cb9e0c6aa2a1451395d392172638553b",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/measurement-error-in-digital-and-administrative-data/attempt-1/r1/",
+  "source_sha256": "15fde9ba528da5d064927d5b44443f6dc5a3de49257eaf0ada4c717c51029abc",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-C81-341.json",
+  "qualified_audit": "qualified_audits/ECON-C81-341.json"
+}

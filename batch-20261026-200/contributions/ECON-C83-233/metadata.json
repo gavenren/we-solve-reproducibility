@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_fd0da3e612404bed85cddd9c2e55b794",
+  "canonical_problem_id": "prb_fd0da3e612404bed85cddd9c2e55b794",
+  "handle": "ECON-C83-233",
+  "catalog_rank": 237,
+  "problem_title": "Network-population validity without independent unit sampling",
+  "title": "Audit of the sampling–outcome covariance decomposition and sharp cluster example",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C83-233-A1",
+  "contribution_display_handle": "Econ-237-A1",
+  "contribution_id": "con_3329d9c4c71e45aea90e955b9759a8dd",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_45f287b113da466e8b84cc9b00cf6f20",
+  "checked_scope": "The variance identity, simple-random-sampling specialization, cluster counterexample and local-transport proviso.",
+  "scope": "The variance identity, simple-random-sampling specialization, cluster counterexample and local-transport proviso.",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/network-population-validity-without-independent-unit-sampling/attempt-1/r1/",
+  "source_sha256": "9c56aa1b4285c54802f9ea66c8277cd443255b62708fce18309802e6a0788e45",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C83-233.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C83-233.txt",
+      "sha256": "e8b82e644d45c4227971fb0b6783a92fb49d11124d93ada23dc90d7ecf6f2844"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C83-233.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/network-population-validity-without-independent-unit-sampling/attempt-1/r1/index.html",
+      "sha256": "9c56aa1b4285c54802f9ea66c8277cd443255b62708fce18309802e6a0788e45"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C83-233.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/network-population-validity-without-independent-unit-sampling/attempt-1/r1/contribution.yaml",
+      "sha256": "5e837223b4047e11f5b0929b2f5373231e475e38222f34d150c9b9c9cd55d3d7"
+    }
+  ],
+  "review_path": "contributions/ECON-C83-233/review.md",
+  "review_sha256": "e12fd38184cbe5403fa82ece49aad346c50a9ed11cef3654f65271de17d5def5",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C83-233.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "The variance identity, simple-random-sampling specialization, cluster counterexample and local-transport proviso.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

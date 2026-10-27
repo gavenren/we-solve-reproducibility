@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-H55-336",
+  "problem_id": "prb_3c8672b95e8144fead6239320478a1c6",
+  "catalog_rank": 340,
+  "title": "Independent review: Public pensions and longevity risk",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Two-date pooled-category pension optimum, borrowing-boundary conditions, and the explicit limit on global uniqueness.",
+  "contribution_handle": "ECON-H55-336-A1",
+  "contribution_id": "con_464d8544482246f6844533de09cd87a7",
+  "revision_id": "rev_3823f783c8ff4d9ba3ec54aa63a8eb5e",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/public-pensions-and-longevity-risk/attempt-1/r1/",
+  "source_sha256": "1522179fbe188965dc26f7c4a1e3e1879eaf3c53037f79fec37fa5b9ef2eb8c2",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-H55-336.json",
+  "qualified_audit": "qualified_audits/ECON-H55-336.json"
+}

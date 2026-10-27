@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_02be1b765d574b1b9b76ca1bf38f6652",
+  "canonical_problem_id": "prb_02be1b765d574b1b9b76ca1bf38f6652",
+  "handle": "ECON-C73-252",
+  "catalog_rank": 256,
+  "problem_title": "Learning in games and convergence",
+  "title": "Audit of reset-tolerant regret and the last-iterate counterexample",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C73-252-A1",
+  "contribution_display_handle": "Econ-256-A1",
+  "contribution_id": "con_89fd02117b3947e49aac6fa3cba56fff",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_70f7cfdbe64e4a18abd13ac406aae8dc",
+  "checked_scope": "The epoch/block regret summation, adaptive-action concentration and empirical-versus-current-play distinction.",
+  "scope": "The epoch/block regret summation, adaptive-action concentration and empirical-versus-current-play distinction.",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/learning-in-games-and-convergence/attempt-1/r1/",
+  "source_sha256": "85e2a670dc9323ad62eb52fadafe4637cca6b6a2f6e564b9093f83373805e721",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C73-252.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C73-252.txt",
+      "sha256": "3914e2bacdf48d383b12f48fec216450f63b89dfd55f146ec224c6f7f0888f8a"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C73-252.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/learning-in-games-and-convergence/attempt-1/r1/index.html",
+      "sha256": "85e2a670dc9323ad62eb52fadafe4637cca6b6a2f6e564b9093f83373805e721"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C73-252.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/learning-in-games-and-convergence/attempt-1/r1/contribution.yaml",
+      "sha256": "fa1d87f6bd5b31dc365c900dbd21d6e22a0a7fc5196c3c0fed3d9ad656ffad3e"
+    }
+  ],
+  "review_path": "contributions/ECON-C73-252/review.md",
+  "review_sha256": "6ae0719bc30809d56949845cc6b2d6fb1965661e10f555553376e24b4bd37eed",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C73-252.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "The epoch/block regret summation, adaptive-action concentration and empirical-versus-current-play distinction.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

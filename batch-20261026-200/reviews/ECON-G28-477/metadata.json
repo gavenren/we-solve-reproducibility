@@ -1,0 +1,21 @@
+{
+  "problem_id": "prb_8ff2ce5e4638460094489cf715381406",
+  "handle": "ECON-G28-477",
+  "title": "Audit of credit displacement, loss accounting, and coverage uncertainty",
+  "contribution_handle": "ECON-G28-477-A1",
+  "contribution_id": "con_9f0f80c44a5c4c31887c67a6c5527720",
+  "revision_id": "rev_cc78a86f486143f2880c32c4771e1b6b",
+  "revision_label": "r1",
+  "finding": "Supports the claim",
+  "checked_scope": "The interior quadratic credit model, linear expected-loss comparison, and sharp coverage-adjusted displacement interval.",
+  "scope": "The interior quadratic credit model, linear expected-loss comparison, and sharp coverage-adjusted displacement interval.",
+  "author": "/root/econ_e",
+  "kind": "review",
+  "status": "scoped_second_review_complete",
+  "source_url": "https://we-solve.github.io/contributions/macroprudential-leakage/attempt-1/r1/",
+  "source_sha256": "b10190368d6aea086676c93af935e708ab2a2d3f22f3d3f1ff709771a4276247",
+  "review_path": "reviews/ECON-G28-477/review.md",
+  "verification": "Independent final scoped mathematical verification by /root/verify_e, configured GPT-6.1 Sol / ultra; exact serving revision unknown. See qualified audit record.",
+  "qualified_audit_path": "qualified_audits/ECON-G28-477.json",
+  "document_sha256": "0136209f9f19b933f1311375fb1d5eca485c5b7b97746fbcb91a258272e446df"
+}

@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C63-149",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C63-149/review.md",
+  "document_sha256": "d7256f316ae6dfe6beba3c9d78e4d5bc44e29e030241c6f48a5057c1afae987c",
+  "checked_scope": "The primary/secondary linear-program certificates, the common-affine-utility construction, and the fixed-perturbation obstruction.",
+  "checks": [
+    "Primary dual inequalities and complementary slackness certify maximum utility over the equality unit-simplex budget slice. For the secondary minimization Lagrangian, budget multiplier gamma>=0 produces (1+gamma)p_j>=delta+zeta u_j and objective delta+zeta V-gamma, with the displayed sign.",
+    "For positive-affine common utility rows, D>0 prices sum to n and uniform demand costs one; utility is a strictly increasing affine function of expenditure. This certifies both utility and minimum-expenditure stages and clearing. D=0 requires separate zero prices.",
+    "At prices (0,2) and utility (0,d), d in (0,2eta), the perturbed scalar objective chooses q2=0 although exact utility optimum uses q2=1/2. The example is a demand obstruction, not a clearing equilibrium or a complexity proof."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C63-149.txt",
+      "sha256": "6d2467b3742afcfcac701bc72a843c7586f009f1cc2eecd2c76992c3ca9a9646",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C63-149-prior.html",
+      "sha256": "792b26c22888f75252d20b7c07111cba87df6e768097a4d45a6c0a26c9bb74c1",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C63-149-prior.txt",
+      "sha256": "ee3467c668cfb3ea630217d8d31d868c2173f7d1545ddde9e50692a0b80c62fc",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C63-149/metadata.json",
+      "sha256": "4492465529279920bf501963b59a19b0a3de082a9e4b0db36e19d4becec6a033",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C63-149/source_notes.md",
+      "sha256": "edc585f67004746105cddbd386eb1267acfa1835e0c1363d300b0a753e6b7db8",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C63-149-prior.yaml",
+      "sha256": "83446dc4442c11145e23884a695c3b30b7d941f8cb293120fea05b4b12d43df0",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "These checks support the exact certificates and restricted construction. They do not verify the manuscript’s external complexity citations or settle the general HZ search complexity.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

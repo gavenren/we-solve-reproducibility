@@ -65,7 +65,7 @@ It is generally larger than ker Aᵀ, where A has the columns ai. Adding v in L 
 
 The first prior attempt correctly warns about changing constraint rank. The theorem here fixes the columns A: it does not contradict that example, and does not claim continuity under arbitrary payoff-matrix perturbations. It also requires the limiting physical law to remain strictly positive. General infinite-state markets, uniform integrability, global terminal constraints and economic justification of entropy selection remain outside the result. A continuous extension to non-equivalent measures does not establish existence in the original equivalence-constrained problem at a boundary.
 
-The proof was checked for vertex faces, positive-dimensional faces, redundant columns and zero limiting probabilities. A separate exact checker validates the displayed three-state boundary inequality on a finite rational grid. That check is not a proof of the general theorem. Independent review is pending.
+The proof was checked for vertex faces, positive-dimensional faces, redundant columns and zero limiting probabilities. A separate exact checker validates the displayed three-state boundary inequality on a finite rational grid. That check is not a proof of the general theorem. A separate scoped mathematical review by `/root/verify_c` (configured `gpt-6.1-sol`, reasoning `ultra`; serving revision unknown) checked the arguments and source binding. This is an AI mathematical review, not human review or formal verification.
 
 ## Checked sources and attribution
 

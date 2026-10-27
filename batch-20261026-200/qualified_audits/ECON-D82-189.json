@@ -1,0 +1,68 @@
+{
+  "handle": "ECON-D82-189",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D82-189/review.md",
+  "document_sha256": "07bcbf6169fccff36c9045e2d48baab9a96592c22b36f21015c08b3ff8e63c3f",
+  "checked_scope": "The two-type finite-horizon budget-constrained menu and the fully refundable escrow reduction.",
+  "checks": [
+    "Initial low IR and high-type imitation yield P_l<=lX_l and P_h<=min(B,hT-(h-l)X_l). For B>=lT this gives the piecewise-affine envelope with maximizers x0 or T; B<=lT is attained by feeB for T units.",
+    "Checked both IC inequalities and fees<=B for low option(x0,lx0), high option(T,min(B,hT)); high-type tie selection uses weak IC. Upfront sunk fees and free fixed continuation provide participation after every initial report, including deviations. B=lT and B>=hT formulas coincide correctly.",
+    "At discount1, fully refundable deposit B minus exit/end refund equals nonnegative deductions pathwise for every reporting/exit strategy. Simulating those deductions as ordinary fees preserves balance feasibility, utility, revenue and off-path incentives. This requires no interest, forfeiture, interim cash uses or borrowing."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-D82-189.txt",
+      "sha256": "8c3bff7be3a3c6892ed7484fe9d45d67010ec566d3822c7c5b359504ca5ea56a",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-D82-189-prior.html",
+      "sha256": "2120663d6117d475fa72fc9c35e132d60c1a5b5edb01b49dd9589f786c3d85fe",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-D82-189-prior.txt",
+      "sha256": "134cb4c6f5d0d90c4ddd325fb0712ad19dd5ff0c462a89cdc3fd5c3cfb47b4ef",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-D82-189/metadata.json",
+      "sha256": "8c1ce5662e0231d14faae7d3c8e78dc1d09d87a0fabccc8fc456cbeebaafdea8",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-D82-189/source_notes.md",
+      "sha256": "9f8218bd75533a639cb8682f3e229e615b462e2063313cebb866f6a87341bc10",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-D82-189-prior.yaml",
+      "sha256": "85dbf53d4f2af12d5aac1aee77e8b0be48411312b5021e30a876b74d91103756",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    },
+    {
+      "path": "verify_econ_a_reviews.py",
+      "sha256": "3fa86e108ffffb86f11d783753dd7bf21e826c1007275cd96d956ac4422b4030",
+      "inspected_scope": "Inspected all ten finite-check routines, including assigned case construction and exact arithmetic; no redundant rerun."
+    },
+    {
+      "path": "econ_a_review_check_results.json",
+      "sha256": "7dd8233512ac5a13077a9a9ef4ec674fba459ff754b1f30d7541b11d03bebcf5",
+      "inspected_scope": "Inspected retained case counts/results and compared their stated scope to review."
+    }
+  ],
+  "limitations": [
+    "This supports the persistent two-type restriction and stated escrow equivalence. It does not solve changing types or discounted refundable escrow, where the timing of deposits and refunds can change utility.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ],
+  "finite_evidence_inspected": {
+    "cases": 840,
+    "check": "Three (low,high) pairs, four horizons, half-integer budgets, three type probabilities; envelope endpoints and 101-point service grid checked exactly."
+  }
+}

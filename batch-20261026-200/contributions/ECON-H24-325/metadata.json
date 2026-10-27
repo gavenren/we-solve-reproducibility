@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-H24-325",
+  "problem_id": "prb_c091b5d65c1f49b4adba8d1d3c7808e9",
+  "catalog_rank": 329,
+  "title": "Independent review: Wealth-tax behavioral responses",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Joint wealth-reporting bounds, initial-resident missingness bounds, and representative-audit identification versus precision.",
+  "contribution_handle": "ECON-H24-325-A1",
+  "contribution_id": "con_96b8cdc8055b416581292350db4a9d56",
+  "revision_id": "rev_a5649ab00b9c4ac38b88607b266ca515",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/wealth-tax-behavioral-responses/attempt-1/r1/",
+  "source_sha256": "fdb3ce2e9d9a4e081617dd678772da30e8ee14b7f901d31f90f7ec1d265c481d",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-H24-325.json",
+  "qualified_audit": "qualified_audits/ECON-H24-325.json"
+}

@@ -1,0 +1,193 @@
+{
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "assigned_count": 33,
+  "approved_scoped": 33,
+  "needs_revision": 0,
+  "unresolved_matters": [],
+  "corrections": [
+    {
+      "handle": "ECON-D83-521",
+      "change": "Changed badge scaling multiplier from .01 to .0001: a score range of 100 then becomes .01, strictly below quality range 1."
+    },
+    {
+      "handle": "ECON-D91-499",
+      "change": "Changed claim that one signal sign cannot separate models to the correct claim about a single signal–desirability cell. A single nonzero sign crossed with both desirability signs can identify the Bayesian intersection."
+    },
+    {
+      "handle": "ECON-H22-468",
+      "change": "Qualified the n^(−1/4) bias/noise balancing with L>0."
+    }
+  ],
+  "validation": "Every approved document hash matches final file bytes and metadata. Every retained TeX source hash matches its exact checked revision record. Existing exact-arithmetic script and results were inspected where cited, without unnecessary reruns.",
+  "meaning_of_approval": "The final stated mathematical scope is independently supportable and material under its assumptions. Approval is not human peer review, formal proof verification, novelty certification, validation of reported experiments, or editorial acceptance.",
+  "reviews": [
+    {
+      "handle": "ECON-C73-487",
+      "verdict": "approved_scoped",
+      "document_sha256": "d1abf56860a98bf99407e79590b5daab1db76addcb549135f769d534c3eb6add"
+    },
+    {
+      "handle": "ECON-C78-511",
+      "verdict": "approved_scoped",
+      "document_sha256": "465ea46204fd838b21c1f4237e57c19bf23c0ea0ad1814ca15704b22b3f3c02e"
+    },
+    {
+      "handle": "ECON-C21-494",
+      "verdict": "approved_scoped",
+      "document_sha256": "a04bbfd62e7da8a4081609c7c210940b0d8d8f36d3be5d2799e261de50752464"
+    },
+    {
+      "handle": "ECON-C21-469",
+      "verdict": "approved_scoped",
+      "document_sha256": "59d45ea058a6f046ce7770c212ad1e96b36ec6ba1fddd579a5fa5a95f49e1c3e"
+    },
+    {
+      "handle": "ECON-C31-491",
+      "verdict": "approved_scoped",
+      "document_sha256": "b7edfb2558df1e65e4a774f27b2b9db66b7853fb81c9ff0f9811a36d5f731b8f"
+    },
+    {
+      "handle": "ECON-C24-509",
+      "verdict": "approved_scoped",
+      "document_sha256": "f63e48ff68202a38c41384660ca375abcb61bd8b8d7b810ee16aa41796105a8a"
+    },
+    {
+      "handle": "ECON-D82-513",
+      "verdict": "approved_scoped",
+      "document_sha256": "36200e15158c9ce3e5127a573264d24571c1f8d1e284515d7ee988afe384f694"
+    },
+    {
+      "handle": "ECON-C73-496",
+      "verdict": "approved_scoped",
+      "document_sha256": "ac22bba4565a209b84af7bb8e5c55895b00d7d47ca4847f72c7de141575a324f"
+    },
+    {
+      "handle": "ECON-D63-473",
+      "verdict": "approved_scoped",
+      "document_sha256": "7a967b60fa545f14ba891ddddeebe81db0142b1d42ee4cf8e0021aceffa96348"
+    },
+    {
+      "handle": "ECON-C72-488",
+      "verdict": "approved_scoped",
+      "document_sha256": "335ab00b3b8816f3dfa5efce12d9d9e8e13d5f7b91cb423cdc0254e063a3884c"
+    },
+    {
+      "handle": "ECON-C32-504",
+      "verdict": "approved_scoped",
+      "document_sha256": "3821c2341044876480ca218e2660d35114fab8292595f4439e862da6621bbcf6"
+    },
+    {
+      "handle": "ECON-D60-517",
+      "verdict": "approved_scoped",
+      "document_sha256": "f0a0f75a4f5451cfa34cf917b178b9b87c45f81e259030997010ac9b2a6bbc4b"
+    },
+    {
+      "handle": "ECON-D60-518",
+      "verdict": "approved_scoped",
+      "document_sha256": "0f0fd91c7651791a9c4065249d45bf4310c9c9786188a2de4e97063a3627f63a"
+    },
+    {
+      "handle": "ECON-D83-521",
+      "verdict": "approved_scoped",
+      "document_sha256": "8ec55bb3993bf36b4c5f04f39e77b106b74cf6e79cd5a09b4e493b711a8a60c2"
+    },
+    {
+      "handle": "ECON-D91-538",
+      "verdict": "approved_scoped",
+      "document_sha256": "895e41a2d9787ce880a591befae6b57b0ec51251e3b3b1add3144d5df08863e6"
+    },
+    {
+      "handle": "ECON-E31-467",
+      "verdict": "approved_scoped",
+      "document_sha256": "dcc23c8bb2e2626069bdf4ba02217a17aa0745347f494b09ffdf202c11e8f842"
+    },
+    {
+      "handle": "ECON-H22-468",
+      "verdict": "approved_scoped",
+      "document_sha256": "7f8bbc753ff6f62ef37044ee66ad732c61593fc3472e9f668065a9d10e36f06b"
+    },
+    {
+      "handle": "ECON-E32-471",
+      "verdict": "approved_scoped",
+      "document_sha256": "5c8f3e1c8e1aa88f438c044e5af6df074c213f313ce4588bb1c9b6aec1641f6c"
+    },
+    {
+      "handle": "ECON-D84-472",
+      "verdict": "approved_scoped",
+      "document_sha256": "fc7863f801602dcd36d4c85233b3b9ee879cfa42a055ee60c0b7d0eea67407ab"
+    },
+    {
+      "handle": "ECON-G28-477",
+      "verdict": "approved_scoped",
+      "document_sha256": "0136209f9f19b933f1311375fb1d5eca485c5b7b97746fbcb91a258272e446df"
+    },
+    {
+      "handle": "ECON-Q54-485",
+      "verdict": "approved_scoped",
+      "document_sha256": "c497453f616e8f58c0fc8c43e5bc386d98595636db3ece4256d28ce5d5fe7f6f"
+    },
+    {
+      "handle": "ECON-D83-479",
+      "verdict": "approved_scoped",
+      "document_sha256": "d6a1c259013dc76c626434e64e39270dfaabb654f9135aa2104fb07f0fbf6050"
+    },
+    {
+      "handle": "ECON-D91-507",
+      "verdict": "approved_scoped",
+      "document_sha256": "9223282bd58476ace17690c3144036bf7788449944aee6eddff87a400329b1ca"
+    },
+    {
+      "handle": "ECON-D91-482",
+      "verdict": "approved_scoped",
+      "document_sha256": "f893edc6256851213eee533c11ea832d08c3d6f34977f80deca2bace0536a118"
+    },
+    {
+      "handle": "ECON-L51-495",
+      "verdict": "approved_scoped",
+      "document_sha256": "c76480bf648c3162add6a42b5afa25b8f05a4643caf86160d848a0c290a329dd"
+    },
+    {
+      "handle": "ECON-Q58-500",
+      "verdict": "approved_scoped",
+      "document_sha256": "bec6ba179fcaaca2b0842722701dd418fcbbcd758d2c85749b2a7bae415beb14"
+    },
+    {
+      "handle": "ECON-C72-489",
+      "verdict": "approved_scoped",
+      "document_sha256": "8ac0b408105399b1476398041a265160c5274f48b7949f8359211e5a06e2b1e9"
+    },
+    {
+      "handle": "ECON-C73-492",
+      "verdict": "approved_scoped",
+      "document_sha256": "72d5b5764560c0736f691fc508dd287906d7dafc3d53c213e4ec5d21ed41aa67"
+    },
+    {
+      "handle": "ECON-D91-499",
+      "verdict": "approved_scoped",
+      "document_sha256": "ccfcb44f87f031ae79c7a107c2dc2b53114903be57b9ca82f6e44c9ee48a4860"
+    },
+    {
+      "handle": "ECON-L41-501",
+      "verdict": "approved_scoped",
+      "document_sha256": "5b304bd58359711e0d20e17ca2d8f1eaec0ce90b1848732354765bb955cb726c"
+    },
+    {
+      "handle": "ECON-D12-516",
+      "verdict": "approved_scoped",
+      "document_sha256": "83fbf7c0d3774d3688153c40e6625bec16f19db147bf9e23c3a526a73d252426"
+    },
+    {
+      "handle": "ECON-I32-523",
+      "verdict": "approved_scoped",
+      "document_sha256": "5d2626fd754f227a6fc80b6a14c5fe97eb91bcf9d2c605a74ce1d36a31100481"
+    },
+    {
+      "handle": "ECON-C73-532",
+      "verdict": "approved_scoped",
+      "document_sha256": "bba7f2a584433acc338bbe6479d84688351f697dec7e2bfe64a9aa6bbbd808f3"
+    }
+  ]
+}

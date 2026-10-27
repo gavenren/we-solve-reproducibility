@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-C55-360",
+  "problem_id": "prb_7b58afccdfe842caab09c40fb6a2a570",
+  "catalog_rank": 364,
+  "title": "Independent review: Practical adaptive penalties for debiased regularized GMM",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Exact cancellation of regularization bias and finite-sample simultaneous Student coverage in the diagonal Gaussian submodel.",
+  "contribution_handle": "ECON-C55-360-A1",
+  "contribution_id": "con_a3e11f6631f14fa2a0cdda984a432a2e",
+  "revision_id": "rev_19514e229df94598ab6df79ab7ce61f5",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/practical-adaptive-penalties-for-debiased-regularized-gmm/attempt-1/r1/",
+  "source_sha256": "cb04852a74af106a40f385c8e1843b1a8e759a072db21549c3e0f31fb16798d4",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-C55-360.json",
+  "qualified_audit": "qualified_audits/ECON-C55-360.json"
+}

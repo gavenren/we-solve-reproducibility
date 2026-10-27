@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_ed7b9f42dc6e4b24b70145871977eeb9",
+  "handle": "ECON-G12-455",
+  "title": "Independent review of ECON-G12-455-A1: Directional rank identification and exact Frobenius exclusion-sensitivity endpoints",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-G12-455-A1",
+  "contribution_id": "con_a63665d7cd8843e48b9973d462a34aee",
+  "revision_id": "rev_38bed0d3675d40c3b161632eb7bdd6fb",
+  "finding": "Supports the claim",
+  "checked_scope": "Directional rank identification and exact Frobenius exclusion-sensitivity endpoints",
+  "scope": "Directional rank identification and exact Frobenius exclusion-sensitivity endpoints",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/asset-demand-elasticity/attempt-1/r1/",
+  "source_sha256": "1103f4dee184e8ffb7ad346e03be5f3f5f0dcd96f591e08c17d8fb54e84066d6",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-G12-455.json"
+  }
+}

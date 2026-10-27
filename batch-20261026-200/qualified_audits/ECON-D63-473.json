@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-D63-473",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-D63-473/review.md",
+  "document_sha256": "7a967b60fa545f14ba891ddddeebe81db0142b1d42ee4cf8e0021aceffa96348",
+  "checked_scope": "The existence construction for disjoint conflict cliques and the fixed-three-agent running-time argument.",
+  "checks": [
+    "Rotating whole feasible bundles preserves each bundle and weakly increases every agent’s own value, so every prior EF1 witness remains usable.",
+    "Topological order runs from envier to envied. Earlier agents can choose every later new item; later agents previously do not envy earlier agents and can delete the earlier agent’s new item. Empty bundles and exhausted cliques obey the same cases.",
+    "Every leftover clique item conflicts with one item in every final bundle, including zero values; bundle permutations preserve this property. Each phase has at most n! bundle assignments with strictly increasing total own value, so n=3 has polynomial running time."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-D63-473_0.tex",
+      "sha256": "615121eaf5a1404b3ca578be19df5975306d2626b3f2fda33129894d355749da",
+      "revision_id": "rev_3efd7a13774b4887811d91f7f82ef2ca",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/maximal-ef1-allocations-for-three-agents-with-conflicting-goods/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

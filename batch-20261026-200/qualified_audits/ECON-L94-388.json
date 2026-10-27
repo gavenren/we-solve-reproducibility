@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-L94-388",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-L94-388/review.md",
+  "document_sha256": "69cf0f4f3585d1dc79dff873a00c98b01b74d360707d3c6bda5a55688fb0a84e",
+  "checked_scope": "Tariff incidence, constrained variance frontier, and collateral-boundary checks",
+  "checks": [
+    "Checked exact cancellation of spot retail receipts and wholesale consumption purchases, retained hedge/rebate incidence and marginal price derivative p_t in the quasilinear price-taking setting.",
+    "Expanded the centered variance quadratic and checked compact convex K_eta is nonempty via h_C, including singular covariance/cost matrices; KKT factors are correct subject to qualification.",
+    "Verified scalar square completion, constrained projection, the 3.64 infeasibility example and realizable covariance construction. Zero payoff variance forces zero covariance.",
+    "Checked Cantelli requires positive mean-threshold gap and gives only a sufficient terminal tail bound; interim collateral and application-level resource law remain separate substantive inputs."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-L94-388/source_notes.md",
+      "sha256": "6482f0c9cd17fd0d3a3a9969447eee477c47c7e57bec7364255a9bb009415b35",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-L94-388/metadata.json",
+      "sha256": "9394812e9235d91356e177d6e573c31d19bce90e79a92c645c1fc6bca3f259b0",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/electricity-hedging-and-demand-incentives_attempt-1_r1.html",
+      "sha256": "aec4836a3b91f16dc9397ae1800b9fd7d5fe7aa466acdc9ef8125e7375472a96",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/electricity-hedging-and-demand-incentives_attempt-1_r1.txt",
+      "sha256": "b8419c2ed5f6235a8a862dc637cd260f4636b119d998bd1281b4de699f951f0f",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-L94-388-A1.yaml",
+      "sha256": "abbf59140e1b123051c02c79dfce717140d93cc78813a01369003f0022ed0623",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

@@ -5,9 +5,10 @@
   "title": "Sharp audit-free bounds for latent survey loss under randomized assignment",
   "claim": "Partial result",
   "author": "/root/econ_c",
-  "status": "draft_for_independent_review",
-  "verification": "Written proof plus executed scoped checker; independent review pending",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-D82-386.json",
   "model": "Codex (GPT-6)",
   "model_version": "unknown",
-  "thinking": "unknown"
+  "thinking": "unknown",
+  "qualified_audit": "qualified_audits/ECON-D82-386.json"
 }

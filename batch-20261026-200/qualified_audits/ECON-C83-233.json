@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C83-233",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C83-233/review.md",
+  "document_sha256": "e12fd38184cbe5403fa82ece49aad346c50a9ed11cef3654f65271de17d5def5",
+  "checked_scope": "The variance identity, simple-random-sampling specialization, cluster counterexample and local-transport proviso.",
+  "checks": [
+    "Independence of the whole sampling and score vectors gives Cov(IiZi/pii,IjZj/pij)=ratio*Cov(Zi,Zj)+(ratio-1)mui*muj. Marginal independence alone would not justify it.",
+    "SRS diagonal ratio N/n and off-diagonal ratio N(n-1)/(n(N-1)) give normalized absolute sampling sum 2(N-n)/(nN), including zero at census.",
+    "Cluster signs yield exact variance 1/n+(n-1)d/[n(N-1)], equal to (d+1)/N at census. Sampling a whole deterministic half-population yields variance 1/4. The local transport inequality requires the same Lipschitz response map and approximation error; long-cycle connectedness violates that locality."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C83-233.txt",
+      "sha256": "e8b82e644d45c4227971fb0b6783a92fb49d11124d93ada23dc90d7ecf6f2844",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C83-233.prior0.html",
+      "sha256": "9c56aa1b4285c54802f9ea66c8277cd443255b62708fce18309802e6a0788e45",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C83-233.prior0.yaml",
+      "sha256": "5e837223b4047e11f5b0929b2f5373231e475e38222f34d150c9b9c9cd55d3d7",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C83-233/source_notes.md",
+      "sha256": "ee4d4860b62bbfa1c5bca8f265005ca087c73d4356658d4594dfd8f0249d0f2c",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-D81-567",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D81-567/review.md",
+  "document_sha256": "d6f52a85d4dae228c95c8f56bfdde2564fa5d85e82bad089b45fe6847663a70c",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** observational obstruction, sharp population coupling bounds and finite-panel guarantees in ECON-D81-567-A1, revision r1.",
+  "checks": [
+    "Computed certainty equivalents 2 and 1 for normalized linear and square-root utilities in the 0/4 lottery; systematic errors generate identical reports under every representation sequence.",
+    "Verified coupling sharpness at the law of latent conditional mean mu, with d=mu-v and zero trial errors; this deliberately does not preserve an arbitrary finite-panel observable law.",
+    "CDF extrema use min(x,mu+eta) and max(y,mu-eta); the restriction y<=t<x is necessary, with both CDFs equal one at t=x.",
+    "Range 2B gives per-subject Hoeffding failure 2 exp(-J*b^2/(2B^2)); union over N yields the displayed eta-plus-noise bound. Known continuous increasing utility maps the complete CE interval onto the weight interval."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-D81-567/prior.tex",
+      "sha256": "791b8bf74093f08cb2529ef1215d50dfcf65b287acfbd657d431ec1829229d36",
+      "git_blob_sha": "b5f581aa746875ee5242ee920230908b762c009b",
+      "revision": "r1",
+      "revision_id": "rev_f288dd69f5844001a2ae99bd7490b290",
+      "contribution_id": "con_f4d414072d7d4c988f978b49fdb2e94b",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-D81-567/record.json",
+      "sha256": "216b47be0bf7a9404e0e31ebe836b605da227b7b7f4dee7651bd470d48c2233a",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Population-mu coupling sharpness is narrower than finite-panel law identification; mirror calibration, unknown utility and empirical independence are unverified.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

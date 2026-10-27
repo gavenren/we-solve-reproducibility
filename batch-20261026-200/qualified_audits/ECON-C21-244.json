@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C21-244",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C21-244/review.md",
+  "document_sha256": "07d5c99cff3fd5e5fd67855d71fc723f8f6b7545b70ddbbd60cb6a7e7b296bf7",
+  "checked_scope": "The sensitivity-envelope sharpness qualifications and fixed-dimensional two-sample influence expansion.",
+  "checks": [
+    "For signed contrast coefficients, scalar endpoint optimization gives a^+ell-a^-u and the reversed upper choice. Measurable rectangular endpoint selections and convex mixtures realize the whole interval; fixed Holder restrictions can invalidate those selections.",
+    "Unclipped indirect half-width is delta sum|g1-g0|=2delta*TV, vanishing if mediator laws coincide; direct contrast half-width is 2delta.",
+    "Finite-cell ratio derivatives yield study residual g_M*1{W=w}(Y-mu_M)/(e1*p_M) and target residual 1{W=wprime}(mu_M-psi)/e0. Independence removes first-order covariance; product remainder (nN)^-1/2 is bounded by a multiple of n^-1+N^-1."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C21-244.txt",
+      "sha256": "510be3a6c8f27582b89b811641b74a77f08aab17f022dd16b7fa39f8cccf2416",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C21-244.prior0.html",
+      "sha256": "501c334b03205432ea060dcebd9964135fbc0866eadf7428f44dba3590424081",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C21-244.prior0.yaml",
+      "sha256": "31d43cee09c2408e3222e1dd066e0d41897c677334322c17fa3b89cf2049f2c9",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C21-244/source_notes.md",
+      "sha256": "acbbf29c1b9e2c4118b98c6f9ec069746dc99a899abe7368b98d38aa86a67b52",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

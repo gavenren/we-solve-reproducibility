@@ -1,0 +1,53 @@
+{
+  "handle": "ECON-C21-266",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C21-266/review.md",
+  "document_sha256": "b2bf1d224cc9cd10fa7c3104d48488d393776ac6368f5dee166d8aba086b8281",
+  "checked_scope": "Voronoi construction, exact conditional-score bias, finite-sample risk constants and nuisance norm requirement",
+  "checks": [
+    "Centers separated by >h have disjoint h/3 balls inside their indexed Voronoi cells; maximality gives radius-h coverage, diameter <=2h and lower cell mass. Lower ball mass guarantees termination and measurable finite cells.",
+    "Expanding the split-sample score gives the stated nuisance bias with both bracket signs positive; known propensity cancels it. Reciprocal-binomial and empty-bin bounds give 3M^2*N/(n+1) around cell means, then the two square inequalities give constants 6,4,4.",
+    "Final clipping reduces squared error. Holder controls cell oscillation and Jensen controls average bias; Holder inequality needs L4 nuisance factors for L2 product control, so two unsupported L2 rates cannot be multiplied."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C21-266.txt",
+      "sha256": "309a6812f02d7c3c52134d280f882606d03fb2068628210d569d9bd3b10f3079",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C21-266.prior0.html",
+      "sha256": "47f3cbbecfd17c8440edf6420945c5787d72be11913e76595e41b6456db84b8d",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C21-266.prior0.yaml",
+      "sha256": "b28f334efbc6ca6ae6833357e6a5f492683c502552eb2757cea5b96118782d11",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C21-266/source_notes.md",
+      "sha256": "e7d9617810ca47c10726f02872227da950793e9aef8c2fbc45cf4c8ade5260bb",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ],
+  "assistance": {
+    "reviewer": "/root/verify_b/b_source_check",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "role": "Additional independent retained-source and mathematical checks for the exact scoped contribution documented in this audit."
+  }
+}

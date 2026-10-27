@@ -1,0 +1,37 @@
+{
+  "handle": "ECON-O33-598",
+  "reviewer": "/root/verify_f",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-O33-598/review.md",
+  "document_sha256": "ce57260f032d600580bac1cd277694e8ea05c413c321646d999ef36c5521ed22",
+  "checked_scope": "**Finding:** Supports the checked claims. **Checked scope:** equilibrium, individual versus market Wald ratios and full-matrix structural identification in ECON-O33-598-A1, revision r1.",
+  "checks": [
+    "Row-stochastic nonnegative W has sup norm one; gamma<1 gives a nonnegative Neumann inverse and a contraction of projected best responses, proving unique feasible equilibrium.",
+    "Individual assignment changes all outcomes by theta*pi*R*e_i, giving own Wald theta*R_ii; zero diagonal starts return terms at length two, and nonnegative walks prevent cancellation.",
+    "For a two-firm mutual link and gamma=1/2, computed individual ratio 4theta/3 and common-market ratio 2theta; positive gamma/theta are needed for the no-return-walk equivalence.",
+    "Verified Cov(I,Z)=theta*pi*R*Cov(Z) in this matrix order, D=theta*R, inverse diagonal identifies theta and off-diagonal entries identify gamma. At theta=0 feedback is unidentified; investment gains alone do not imply welfare gains."
+  ],
+  "source_checks": [
+    {
+      "file": "source_cache/ECON-O33-598/prior.tex",
+      "sha256": "458a09927001f8dec5976df560e64fc67c44c7f96d16938a064bc2f1905effd6",
+      "git_blob_sha": "9b81209aaca4514fa023293bad1d8db1ee5ed4e3",
+      "revision": "r1",
+      "revision_id": "rev_c896fce0f8f144af811300531279fec9",
+      "contribution_id": "con_21bb035b975947fa9e1552c3a6dd1cb3",
+      "checked": "Actual retained TeX read for the precisely scoped theorem/model and compared against this final manuscript; hash matches the source verification index."
+    },
+    {
+      "file": "source_cache/ECON-O33-598/record.json",
+      "sha256": "90a481be9058db8f647a46df12d57062fa5f16bfcef6ebaea676bdacc19b923b",
+      "checked": "Parsed retained record; alias, r1, revision_id, contribution_id and home_problem_id match econ_f.json."
+    }
+  ],
+  "limitations": [
+    "Known stable network, full vector outcomes, positive assignment variances and linear exclusion are assumed; adoption/investment is not validated social welfare.",
+    "Scoped LLM mathematical support only; not formal proof-assistant certification, human peer review, historical novelty verification, or editorial acceptance. External empirical literature claims were not independently audited."
+  ]
+}

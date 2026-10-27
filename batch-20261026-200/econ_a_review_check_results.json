@@ -1,0 +1,43 @@
+{
+  "ECON-D71-180": {
+    "cases": 440,
+    "check": "Exact endpoint balance and all 101 rational grid lotteries for r,s in 0..20, excluding r+s=0."
+  },
+  "ECON-D63-158": {
+    "cases": 6560,
+    "check": "Enumerated 0..7 goods with weights in {0,1,2}, for 2 and 3 agents; every removed good, including zero, satisfies EFX."
+  },
+  "ECON-D63-177": {
+    "cases": 6560,
+    "check": "Enumerated 0..7 goods with weights in {0,1,2}, for 2 and 3 agents; every removed good, including zero, satisfies EFX."
+  },
+  "ECON-D44-196": {
+    "cases": 54,
+    "check": "All eight bundles compared exactly at 27 perturbation triples and both price vectors."
+  },
+  "ECON-D82-172": {
+    "cases": 2,
+    "check": "Both truthful and deviating facility paths generated recursively; undiscounted own costs are 2 and 1."
+  },
+  "ECON-C31-168": {
+    "cases": 2,
+    "check": "Enumerated both fixed-treatment pair laws and the discrepant complete-array joint probability 1/4 versus 1/16."
+  },
+  "ECON-C23-188": {
+    "cases": 4,
+    "check": "All four (A,T) cells; factor residual means zero in both groups and factor ATT 1/2, while selection ATT is 1."
+  },
+  "ECON-D82-189": {
+    "cases": 840,
+    "check": "Three (low,high) pairs, four horizons, half-integer budgets, three type probabilities; envelope endpoints and 101-point service grid checked exactly."
+  },
+  "ECON-C78-178": {
+    "cases": 20,
+    "matching_pairs": 56872,
+    "check": "Exhaustive incumbent/challenger enumeration for 1..4 applicants and 0..4 commonly ranked houses, allowing unmatched applicants."
+  },
+  "ECON-D71-190": {
+    "cases": 9330,
+    "check": "All ordered strict-ranking profiles for 3 candidates and 1..5 voters; complementary-set and selected-voter-top-set certificates."
+  }
+}

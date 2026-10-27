@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-D13-434",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D13-434/review.md",
+  "document_sha256": "3ce14eeeb5acfc0ea321b8cff161ea6296ca9098fc3b8dd03e63ed495281985a",
+  "checked_scope": "Strict-threshold conditional poverty bounds and population attainability",
+  "checks": [
+    "Checked zero-poor closed interval [a,b], two-poor open interval (b,a), all weak/strict endpoint tests against closed [l,u], including singleton intersections and public-service zero-poverty cases.",
+    "Recomputed z=.5 and z=.6 examples and confirmed equality at the strict poverty threshold is nonpoor.",
+    "Verified measurable endpoint/midpoint selections attain integrated extrema and conditional-law mixtures fill all population expected rates; fixed-household counts remain discrete and point identification requires a zero gap almost surely.",
+    "Checked every full-resource linear allocation is Pareto efficient and optimal at strictly positive equal welfare weights, leaving poverty ambiguity; known metric/service valuations remain substantive restrictions."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-D13-434/source_notes.md",
+      "sha256": "e52c061e410c861d99e495a1837078ca0314a96ec239f2fe2a0ee9a2d2aeec94",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-D13-434/metadata.json",
+      "sha256": "f6b737c40b36d17a5554f4389cab13b6a22d76f5699fb55675b6ffdc4cabdd78",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/measuring-inequality-within-households_attempt-1_r1.html",
+      "sha256": "2747cdb1de9b43b50af683f5fc01df32bbe4dc20f9924b4ebd185f01bc3f7e2b",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/measuring-inequality-within-households_attempt-1_r1.txt",
+      "sha256": "94a9201a2c8ef45e2fc9ec4649a47466ddadfee103f94476228b5f80903a77fa",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-D13-434-A1.yaml",
+      "sha256": "343a43559513cc9a28798d02584f6037f2857653f86b27a0c241d5a67f7d322b",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

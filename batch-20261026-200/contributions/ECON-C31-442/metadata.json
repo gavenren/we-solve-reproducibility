@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_2417198cabc941a591fefa7494691a02",
+  "handle": "ECON-C31-442",
+  "title": "Independent review of ECON-C31-442-A1: Joint endpoint sharpness and design variance under rare endpoint support",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-C31-442-A1",
+  "contribution_id": "con_d351dc59f75840caa2771a4cbb18dab1",
+  "revision_id": "rev_17e036d97a2041ddbb6f12e626422c00",
+  "finding": "Supports the claim",
+  "checked_scope": "Joint endpoint sharpness and design variance under rare endpoint support",
+  "scope": "Joint endpoint sharpness and design variance under rare endpoint support",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/interference-and-equilibrium/attempt-1/r1/",
+  "source_sha256": "33e0373d82709cc1173f3c5b6eb2b3ded4e7ff00d4c84ac4d20e2aad36d4a230",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C31-442.json"
+  }
+}

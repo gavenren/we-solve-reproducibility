@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-F31-433",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-F31-433/review.md",
+  "document_sha256": "3933193eaf4d5899b60cc33a757b31004960f8e425aa761901748a1e8e07f615",
+  "checked_scope": "Reset-cohort transmission and the equilibrium-selection derivative obstruction",
+  "checks": [
+    "Checked reset/no-reset weighting and independence of the permanent-shock hazard, including h=0, lambda=0 and lambda=1 boundaries and the declared nonzero exchange-rate denominator.",
+    "Verified product-rule currency-share and conditional-price composition terms and equal-level cancellation under the fixed-population assumptions.",
+    "Solved nonatomic pure and interior coordination equilibria with all threshold signs and checked continuous branch-switching prices can still have unequal one-sided derivatives.",
+    "Recomputed the two-shock population regression slope .6 versus causal monetary ratio .2. Endogenous reset/selection, excluded innovations and welfare ranking remain outside the review."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-F31-433/source_notes.md",
+      "sha256": "9ca8a7e73be7e52b8f81edabb86acc733097183ef8b5b3662fb8b0d57310af1b",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-F31-433/metadata.json",
+      "sha256": "6492f318c44ccc2b2a6eaad2b6fc8e7254690b298ae0195c3073139e981bd06e",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/dominant-currency-pricing-and-exchange-rate-pass-through_attempt-1_r1.html",
+      "sha256": "7705dda57b646b7cb5daa9daea4f504ae0af457a9a2a4b50fdd2b55ed306d37a",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/dominant-currency-pricing-and-exchange-rate-pass-through_attempt-1_r1.txt",
+      "sha256": "d3be078aaceefe693a7a8a711d8edb60ec8f7e7f53b1d466a5db5d7794ddada1",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-F31-433-A1.yaml",
+      "sha256": "7198778a1faabdf062c4f72c3053947e7158565c60395d7aacb065836b80ee99",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

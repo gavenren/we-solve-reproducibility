@@ -1,0 +1,55 @@
+{
+  "handle": "ECON-D24-460",
+  "reviewer": "/root/verify_d",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-D24-460/review.md",
+  "document_sha256": "7c7be05946f1d0df5c2191882689bd3500df601755993db59498e474929d4801",
+  "checked_scope": "CES efficient-allocation formula and nonlinear gain uncertainty under audit error",
+  "checks": [
+    "Re-derived the normalized-input Holder bound, strictly concave CES maximizer s_i proportional to omega_i^epsilon A_i^(epsilon-1), and its attainable common-input-share allocation; current feasibility ensures G>=0.",
+    "Verified technology log error d_A plus independent denominator-index bound d_q gives D=2d_q+alpha d_k+gamma d_l+eta d_m; projection onto nonnegative log gains is nonexpansive.",
+    "Checked the 4N audit union bound and independence-across-rounds qualification, while permitting within-round correlation.",
+    "Recomputed Y=1+2 sqrt(t(1-t)), efficient output two and persistent log offsets for the observational-equivalence example. Compact bounded-log error sets give attained extrema, with no unsupported claim that the gain image is connected."
+  ],
+  "source_checks": [
+    {
+      "path": "contributions/ECON-D24-460/source_notes.md",
+      "sha256": "1876bb15589b2a2205d23f80d12e91bcbbdb2ad69040acf6e0da847e5bb96069",
+      "checked": "source inventory and explicit limits"
+    },
+    {
+      "path": "contributions/ECON-D24-460/metadata.json",
+      "sha256": "6639f6b96e5e5f9a0bb8f55730ea9441c85f216482c4cc09f6d0fdbfd5934d6b",
+      "checked": "final target metadata and qualified-review status"
+    },
+    {
+      "path": "../catalog/aliases.json",
+      "sha256": "e4fc63a6e1a60b6b6985940c6af06823ba3a9b2984c6c24b8594668ff1bb5eb8",
+      "checked": "canonical contribution and revision alias record"
+    },
+    {
+      "path": "prior_attempts/misallocation-versus-measurement-error_attempt-1_r1.html",
+      "sha256": "fccec69b31d83f4654664c7da12570238c62cf51dc1e3fefe4a8800dc4a0ca88",
+      "checked": "retained source HTML; hash matched declared source; mathematical body inspected through its text extraction"
+    },
+    {
+      "path": "prior_attempts/misallocation-versus-measurement-error_attempt-1_r1.txt",
+      "sha256": "088e3d863d7d420d638fb6d608dca02ed451a305baf0741b60e1214dc285152a",
+      "checked": "complete retained source mathematical text compared to review"
+    },
+    {
+      "path": "prior_attempts/ECON-D24-460-A1.yaml",
+      "sha256": "b40036dc9bf167592fbfbe78d260d1b74bda285020b32ef44e5920e659677788",
+      "checked": "archived contribution/revision/home-problem identifiers verified"
+    }
+  ],
+  "limitations": [
+    "Approval covers only the explicitly stated mathematical scope and qualifications in this final document.",
+    "No novelty, literature completeness, formal proof-assistant, human peer-review, or editorial-acceptance certification.",
+    "Configured model and reasoning labels are parent-specified; the exact serving revision is unavailable.",
+    "This audit does not broaden the original review to the source manuscript's expressly unreviewed theorems, empirical assumptions, computations, or cited literature."
+  ]
+}

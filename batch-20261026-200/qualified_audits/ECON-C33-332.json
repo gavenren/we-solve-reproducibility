@@ -1,0 +1,43 @@
+{
+  "handle": "ECON-C33-332",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C33-332/review.md",
+  "document_sha256": "8288680d1e0c7d667d7dac0d12ee6d54998d1ab20440173ed69f13fb49735906",
+  "checked_scope": "Two-distance identification of the exponential spatial range and policy-functional invariance in the equal-distance nonidentified class.",
+  "checks": [
+    "Verified contemporaneous conditional covariance equals Dt Var(Wt|history), requiring invertibility of the joint treatment covariance rather than merely marginal overlap.",
+    "Dividing off known h(r) cancels aN in the edge ratio; distinct r and gamma!=0 identify ell=-(r1-r2)/log|v1/v2| and then gamma.",
+    "Checked the single-distance rescaling preserves both At and Dt and hence the entire sequential law at the same geometry, while the fixed-location policy-mean recursion is invariant. No unconditional deterministic recursion is inferred for outcome-adaptive locations.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C33-332.txt",
+      "sha256": "8586f8b9aa18d94326d3395179a9939954c100e794bf1ccb268cc0077a1e18c7",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-C33-332_A1.txt",
+      "sha256": "5179083c15fb9eac628b0c3cd822ae273dec1a5b38f1801013ba1b3c7c949112",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-C33-332/source_notes.md",
+      "sha256": "a6b388e0222ef47a6b22fa9216d2ae2dc302ebcea55c8a4825e3587f4d78c8d1",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-C33-332_A1.yaml",
+      "sha256": "e3443cb1db25a3e04b0548d77587567a22b31e024cbfcc5624fc7cc04b9717e6",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Population identification/invariance only, not stability near weak channels, uniform unknown-range risk, or end-to-end near-linear optimization. Transport to new distances is excluded.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "handle": "ECON-C81-368",
+  "problem_id": "prb_2e8f2322c4ba41beb504d0c2ea3d9466",
+  "catalog_rank": 372,
+  "title": "Independent review: LLM-based economic measurement",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "checked_scope": "Audited-moment interval constants, the denominator safeguard and the periodic audit-refresh optimum; not global optimal audit design.",
+  "contribution_handle": "ECON-C81-368-A1",
+  "contribution_id": "con_d666e13be9ab4d5fbb7a30e1ee2601c4",
+  "revision_id": "rev_128095ef21b845a286be98d1d1aba74f",
+  "revision": "r1",
+  "source_url": "https://we-solve.github.io/contributions/llm-based-economic-measurement/attempt-1/r1/",
+  "source_sha256": "c51472dd1e10be9fc9f31b2576ac7bf02b418f2843dec5c53cd3ef082612338b",
+  "author": "/root/econ_c",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-C81-368.json",
+  "qualified_audit": "qualified_audits/ECON-C81-368.json"
+}

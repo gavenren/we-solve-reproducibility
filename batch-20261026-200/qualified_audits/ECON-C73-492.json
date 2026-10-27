@@ -1,0 +1,26 @@
+{
+  "handle": "ECON-C73-492",
+  "reviewer": "/root/verify_e",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C73-492/review.md",
+  "document_sha256": "72d5b5764560c0736f691fc508dd287906d7dafc3d53c213e4ec5d21ed41aa67",
+  "checked_scope": "The full-information dominant-action tail theorem and the external-regret counterexample.",
+  "checks": [
+    "Conditional score-difference range length two gives Hoeffding MGF exp(θ²/2); optimizing at θ=Δ yields date-t error ≤K exp(−Δ²(t−1)/2), including ties without temporal independence.",
+    "Summing over all dates after m gives the geometric infinite-tail bound. On its complement each empirical marginal has inferior-action mass ≤m/t, and dominance bounds product exploitability by that mass simultaneously at every t.",
+    "The coordination joint history pays one, gives nonpositive external-regret differences, and has product payoff 5/8 versus deviation payoff 3/4, giving exploitability 1/8. Finite-window inference uses independent groups and does not itself certify unobserved tail dates."
+  ],
+  "source_checks": [
+    {
+      "path": "prior/ECON-C73-492_0.tex",
+      "sha256": "6f094be6373d3a236227d101f9ab9c54a0d5d525bbf206cd63668b6677ea7c34",
+      "revision_id": "rev_9b5157aa33da4686933003fa4a0019c3",
+      "revision_label": "r1",
+      "source_url": "https://we-solve.github.io/contributions/speed-of-learning-in-games/attempt-1/r1/"
+    }
+  ],
+  "limitations": "Approval applies only to the review’s expressly stated mathematical scope under the manuscript assumptions. It is not human peer review, formal verification, certification of historical novelty, experimental validation, or editorial acceptance. Bibliographic third-party claims and excluded extensions were not independently certified."
+}

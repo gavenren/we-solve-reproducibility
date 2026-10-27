@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C21-173",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C21-173/review.md",
+  "document_sha256": "d4ca6af50f17727f5ffc9519da9cbf8997d6b92a5634e0b44b80e44009639fc1",
+  "checked_scope": "The finite-fiber lift bounds and the learned/reference encoder comparison under response factorization.",
+  "checks": [
+    "Within a finite fiber, box capacities Rq_m and prescribed mass g define a compact polytope. Threshold sorted fill minimizes linear response and reverse fill maximizes it; all intermediate values occur by convexity.",
+    "For 0<g<sum Rq_m, the proportional-capacity feasible vector is strictly interior, allowing pairwise transfers; invariance forces equal responses. At zero/full mass the feasible allocation can be unique without response constancy.",
+    "Exact response factorization through phi_star and a common representation intervention g are necessary hypotheses of stability: sup encoder error a bounds response deviation from nu(x,z) by La^t and within learned-fiber oscillation by L(2a)^t. Changing g or allowing arbitrary within-reference-fiber response invalidates that inference."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C21-173.txt",
+      "sha256": "d03f4db323e0a3e7e19e5c73d748219e7a435139114b9eb7d6eabaacaddfbcf7",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C21-173-prior.html",
+      "sha256": "34448d67d28634cf83589a99d050a7c8dc85f9ae2c4d16c66bbb40b35c603f2e",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C21-173-prior.txt",
+      "sha256": "6749083666fbcfe28ea5235d56b2a05b0d58a3da0b7630a7626011c3a3b23d00",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C21-173/metadata.json",
+      "sha256": "32b03899e099de6ff8b8a354707d766d41ed268924882bffd0b14cd4ff355539",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C21-173/source_notes.md",
+      "sha256": "dad6f42cd222e79cc8de9c984f4e86f05058f62ed544682315b551d85bb9899c",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C21-173-prior.yaml",
+      "sha256": "9a0f82c572a3d45cc07f78809cdfd5a6d0adaf6cb44b64cbd8b8b822d11ba0bf",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "This supports the finite-fiber and stability propositions under their declared mass and factorization conditions. It does not establish a continuous-density identification theorem, learnability of the reference encoder, or stability when the intervention mass also changes.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

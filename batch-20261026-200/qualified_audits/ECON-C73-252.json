@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C73-252",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C73-252/review.md",
+  "document_sha256": "6ae0719bc30809d56949845cc6b2d6fb1965661e10f555553376e24b4bd37eed",
+  "checked_scope": "The epoch/block regret summation, adaptive-action concentration and empirical-versus-current-play distinction.",
+  "checks": [
+    "The truncated doubling epoch has scheduled L<=actual block length ell; its regret <=sqrt(L log(m)/2) sums to less than 4sqrt(ell log(m)). Cauchy-Schwarz across <=K+1 predictable blocks gives the stated reset factor.",
+    "Given past and opponents current actions, independent own draws center payoff-sampling error with range length one. Conditional Hoeffding plus player union bound gives sqrt(log(N/alpha)/(2T)); full feedback permits adaptive opponents.",
+    "The four-profile matching-pennies cycle gives every fixed and swap deviation equal payoff on complete cycles and regret <=3 on prefixes, while current marginals stay l1-distance one from uniform Nash. This is a low-regret path counterexample, not a universally no-regret algorithm."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C73-252.txt",
+      "sha256": "3914e2bacdf48d383b12f48fec216450f63b89dfd55f146ec224c6f7f0888f8a",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C73-252.prior0.html",
+      "sha256": "85e2a670dc9323ad62eb52fadafe4637cca6b6a2f6e564b9093f83373805e721",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C73-252.prior0.yaml",
+      "sha256": "fa1d87f6bd5b31dc365c900dbd21d6e22a0a7fc5196c3c0fed3d9ad656ffad3e",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C73-252/source_notes.md",
+      "sha256": "367b451c79dbde4104044931bd5730df68f3786551d195f11b40424604ecf315",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

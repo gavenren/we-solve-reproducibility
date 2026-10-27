@@ -1,0 +1,44 @@
+{
+  "handle": "ECON-H77-307",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-H77-307/review.md",
+  "document_sha256": "218ce97bdf077e033f31241c9471a0e7169d9e9e920de57c66485f44101d673c",
+  "checked_scope": "Network-quadratic uniqueness, inverse positivity, and the stated limits of unconstrained comparative statics.",
+  "checks": [
+    "Checked Laplacian factor convention and positive-definite Hessian B=diag(b)+gamma L, giving strict concavity and unique B-norm projection on any nonempty fixed feasible polytope.",
+    "Rechecked inverse nonnegativity by a negative minimum coordinate, including disconnected graphs; it does not assert strict positivity.",
+    "Derived ||x-xprime||<=||a-aprime||/bmin from the two variational inequalities. The B=I two-region binding-budget example makes the second choice fall after raising a1, correctly limiting unconstrained monotonicity.",
+    "Checked robust hypograph convexity and existence using compactness of the d domain rather than claiming compactness of the unbounded-below t hypograph.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-H77-307.txt",
+      "sha256": "3f8e59429955763aa16a7909b9a3750bdb9aad36f49c233e582bc7576e483e72",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-H77-307_A1.txt",
+      "sha256": "8716ef467b35c49e2c21a4cf991f6e4a2e24fe7ab7b94b8e8c7b3925c6ad1537",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-H77-307/source_notes.md",
+      "sha256": "edac5449c8999a80e253526564b02c7f4b922cef7fd80944408716924cda7ca3",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-H77-307_A1.yaml",
+      "sha256": "7facbd47afcdfb5fe4648e5e1868b00f73dabc8b4a9793eec62ae5b3df51dda1",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Hypothetical scalar-path quadratic authority model only. Empirical coefficients, endogenous financing, full authority vectors and national causal policy identification remain outside the finding.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

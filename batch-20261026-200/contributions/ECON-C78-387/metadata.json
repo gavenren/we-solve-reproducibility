@@ -1,0 +1,26 @@
+{
+  "problem_id": "prb_b5368cb2e10142c1a70ccc441e99dcbb",
+  "handle": "ECON-C78-387",
+  "title": "Independent review of ECON-C78-387-A1: Vote-assignment test and exact relevant-tie probability compression",
+  "kind": "review",
+  "claim": "Review",
+  "contribution_handle": "ECON-C78-387-A1",
+  "contribution_id": "con_ede778b65f4043f5a42c91052a3b4861",
+  "revision_id": "rev_4090c1d216cc4db3adaec9b3dedfccdb",
+  "finding": "Supports the claim",
+  "checked_scope": "Vote-assignment test and exact relevant-tie probability compression",
+  "scope": "Vote-assignment test and exact relevant-tie probability compression",
+  "author": "/root/econ_d",
+  "status": "independently_reviewed_scoped",
+  "source_url": "https://we-solve.github.io/contributions/popularity-probability-under-uncertain-house-allocation-preferences/attempt-1/r1/",
+  "source_sha256": "aebedc715839c707691e1ac87c4eff0a28dd2a314471af37182148956c9a3e72",
+  "verification": "Independent written algebraic/probabilistic audit; no code run for this review.",
+  "qualified_review": {
+    "reviewer": "/root/verify_d",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C78-387.json"
+  }
+}

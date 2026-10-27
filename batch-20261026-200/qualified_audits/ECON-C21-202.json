@@ -1,0 +1,54 @@
+{
+  "handle": "ECON-C21-202",
+  "reviewer": "/root/verify_a",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "reviews/ECON-C21-202/review.md",
+  "document_sha256": "043c347bf915cbd124dd8eeff93e51c083ae7e45325e2c5262296f66ef317fbf",
+  "checked_scope": "The known-Gram projection estimator, its conditional confidence ellipsoid, and the doubly robust remainder bound.",
+  "checks": [
+    "For independently selected fixed basis and supplied positive Gram G, variance in prediction norm<=A^2 E[bprime G^-1 b]/n=A^2 K/n. Conditional-on-training Markov gives radius A sqrt(K/(n eta)) at realized dimension without a union over dimensions.",
+    "Doubly robust response remainder equals(ehat-e)[(m1hat-m1)/ehat+(m0hat-m0)/(1-ehat)]. Its coefficient displacement is an L2 orthogonal projection, with G-norm<=||R||2; Holder L4 product bound introduces no sqrt(K).",
+    "Almost-sure realized training certificate is required for almost-sure conditional coverage. Merely high-probability nuisance rates give unconditional coverage after paying training failure; supplied population Gram is not empirical-Gram control and projection coverage is not full-CATE coverage."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-C21-202.txt",
+      "sha256": "7c115358f85f799d5970b97c557c97585d02cbbbed4bf4e9bf48549ea2e2b68d",
+      "inspected_scope": "Relevant problem statement and source conventions; immutable prompt hash checked."
+    },
+    {
+      "path": "prompts/ECON-C21-202-prior.html",
+      "sha256": "02bd497031ea4d49c2fea9edb0254d73ea7d32949d0522622546fa5da634cf21",
+      "inspected_scope": "Full retained rendered source; text-extraction fidelity checked against full prior text."
+    },
+    {
+      "path": "prompts/ECON-C21-202-prior.txt",
+      "sha256": "e2b06050b22a318cd0f56c925c57cb304d47cfa1c69ffac8cda7aa0b5590287b",
+      "inspected_scope": "Full retained prior manuscript read, including hypotheses, proofs, limits and claimed source relationship."
+    },
+    {
+      "path": "reviews/ECON-C21-202/metadata.json",
+      "sha256": "6fb0c0e365adb7f29a60ff551fa849d4d46c60f692c965eae70df59b2470e5d8",
+      "inspected_scope": "Final contribution metadata; source identities/hashes and scope checked."
+    },
+    {
+      "path": "reviews/ECON-C21-202/source_notes.md",
+      "sha256": "75e5886461a91593bb1071bfbecb013193e36c84d8faf1fdd887f5fd3057de12",
+      "inspected_scope": "Source provenance, exact retained hashes, checked scope and limitations inspected."
+    },
+    {
+      "path": "prompts/ECON-C21-202-prior.yaml",
+      "sha256": "bc252e4d4e99e15c08d4655f7d2e8b5cb54bcc9eab02cc5f8c0dc3bf2fd7edb9",
+      "inspected_scope": "Source contribution/revision/problem identity, licence and archived claim record checked."
+    }
+  ],
+  "limitations": [
+    "This supports the known-Gram conditional ellipsoid and projected-bias calculation. It does not establish empirical-Gram control, arbitrary learned-basis regularity, or conditional coverage from nuisance rates that hold only with high probability.",
+    "Approval means independent mathematical support for this material scoped contribution only; it does not certify the entire source manuscript, historical novelty, formal proof-assistant correctness, human review, significance ranking or editorial acceptance.",
+    "Retained full manuscript text and relevant prompt/record were inspected locally; external scientific references in source manuscripts were not independently retrieved or certified in this final check.",
+    "Finite evidence is supplementary and restricted to its enumerated cases; no original author program or infinite theorem is represented as newly rerun by this reviewer."
+  ]
+}

@@ -5,9 +5,10 @@
   "title": "Exact rank-maximal probability optimization with few uncertain applicants",
   "claim": "Partial result",
   "author": "/root/econ_c",
-  "status": "draft_for_independent_review",
-  "verification": "Written proof plus executed scoped checker; independent review pending",
+  "status": "independently_reviewed_scoped",
+  "verification": "Scoped independent mathematical review completed by /root/verify_c (configured gpt-6.1-sol; reasoning ultra; serving revision unknown); see qualified_audits/ECON-C78-373.json",
   "model": "Codex (GPT-6)",
   "model_version": "unknown",
-  "thinking": "unknown"
+  "thinking": "unknown",
+  "qualified_audit": "qualified_audits/ECON-C78-373.json"
 }

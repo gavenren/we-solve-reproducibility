@@ -1,0 +1,66 @@
+{
+  "handle": "ECON-C79-271",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C79-271/review.md",
+  "document_sha256": "e444e98df9e1bc13cf73c874affdd6ccce7fc67b96fa49db5a41b86b5a6de22c",
+  "checked_scope": "Opposite-zero-face Grundy values, antipodal response strategy, three-heap outcome classification and eighteen-row certificate",
+  "checks": [
+    "Permanent zeros make separated positive blocks independent. Every smaller total of an adjacent two-heap block is attainable, proving Grundy=a+b and the opposite-zero-face xor; antipodal copying is legal for k<=half the circle.",
+    "Three-consecutive-heap losing states are exactly (a,0,a), since every other state reaches one by zeroing the middle and reducing its larger endpoint. The positive example has eight singleton and ten two-heap followers, exactly the eighteen retained rows.",
+    "The retained checker code and PASS results cover4096states,214zeros,256face cases,64mirror cases,64path cases and all18responses. A helper independently replayed with singleton/adjacent changed-support generation and total-sum DP, parsing rows directly from retained HTML, with the same results. Infinite claims rely on structural arguments, not this finite replay.",
+    "Publication packaging: replaced the raw source-text runtime dependency with the exact18numeric certificate pairs, matched in order against retained canonical-revision HTML, and reran the standalone checker successfully from /tmp. Approved review bytes are unchanged."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C79-271.txt",
+      "sha256": "cba390b88c187dd5f3304de3afaa2c3c031c3e9329a22ef1fde659e30adaeb19",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C79-271.prior0.html",
+      "sha256": "9f091ce2d3516295fb4b02dfd0cda7c87d7b7c81628332ddae914705e9d99db7",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C79-271.prior0.yaml",
+      "sha256": "755814413f6fc146318a59e874b1ba0d9dca0ca1c22a87c778072318572dd6d9",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C79-271/source_notes.md",
+      "sha256": "6813baf4c4b085a44d23fae6f081c5929143e155e5709df0844d05bf82967bcb",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    },
+    {
+      "role": "finite_checker",
+      "path": "contributions/ECON-C79-271/verify.py",
+      "sha256": "c0fc81970bd511045dd3af45a3403ecbb8308b5ac62da38b02d5a6684e344ad2",
+      "check": "Checked standalone source: its eighteen embedded numeric pairs match the retained full HTML table exactly, with canonical revision and CC BY 4.0 attribution. Executed once from /tmp; no source-paper input or working-directory dependency."
+    },
+    {
+      "role": "finite_checker_result",
+      "path": "contributions/ECON-C79-271/verification.json",
+      "sha256": "ec8286047c0c93dd254ed437fa93c69e511c978f0a28d23bd4bfd0baa4012f08",
+      "check": "Fresh standalone execution from /tmp passed4096states,214zero values,256face cases,64mirror cases,64path cases and all18certificate rows; output written beside __file__."
+    }
+  ],
+  "limitations": [
+    "Bounded enumeration does not classify all unbounded six-heap states or supply all nonzero Grundy values.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ],
+  "assistance": {
+    "reviewer": "/root/verify_b/b_source_check",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "role": "Additional independent retained-source and mathematical checks; Circular Nim read-only alternative replay."
+  }
+}

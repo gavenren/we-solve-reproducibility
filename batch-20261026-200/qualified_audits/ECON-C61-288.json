@@ -1,0 +1,46 @@
+{
+  "handle": "ECON-C61-288",
+  "reviewer": "/root/verify_b",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-C61-288/review.md",
+  "document_sha256": "8ad95169ebd55185721ac2b77075ece374133893ccedaa91e79363e65cd5d880",
+  "checked_scope": "The quadratic subclass's first integral, unique positive boundary, and discounted transversality argument.",
+  "checks": [
+    "Setting U=C-v gives sigma^2 Udoubleprime+a(Uprime)^2-2rho U=0. F=(Uprime)^2 solves sigma^2 Fprime+2aF=4rho U; the displayed F and small-U asymptotic satisfy this exactly.",
+    "The boundary equation compares strictly increasing q^2b^2 with strictly decreasing F(L-qb^2/2), with opposite endpoint inequalities. The quadrature diverges logarithmically at U=0 and extends the branch to infinity.",
+    "Continuation v is concave and obstacle k strictly convex, so smooth fit gives strict v<k outside. The inside residual decreases in |x| but stays positive at b. Bounded v removes discounted terminal remnants even without finite expected hitting time; K0=C allows both never stopping and immediate stopping at zero."
+  ],
+  "source_checks": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C61-288.txt",
+      "sha256": "c3d80c305aa9eb6bed8135987267e7b99e703699ba174610418fb8d1095fee46",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C61-288.prior0.html",
+      "sha256": "6947c15bd053dca5c3c8d9411cf5b833f43a0bbdd43706f1921cd730cd101771",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C61-288.prior0.yaml",
+      "sha256": "8c9290fc0e3b4a23516af03fab04cbacbb17b2e2ba9637a287f72e83a5b57471",
+      "check": "Retained local bytes verified against supplied SHA-256; prompt/scope and manuscript mathematics inspected; YAML contribution/revision identities checked. No Git-blob identity inferred."
+    },
+    {
+      "role": "source_notes",
+      "path": "contributions/ECON-C61-288/source_notes.md",
+      "sha256": "b9bb7ea6a8cad726ba55ebd436f0adbb2b8f94c9b927ab0ace198bd811f59ea7",
+      "check": "Checked declared scope, source paths, recorded hashes and limits."
+    }
+  ],
+  "limitations": [
+    "Only the expressly stated restricted mathematical deductions are approved; broader open problem, imported literature and unreviewed results remain outside scope.",
+    "No historical novelty certification, comprehensive external literature audit, formal verification, human peer review, editorial acceptance or external publication is claimed."
+  ]
+}

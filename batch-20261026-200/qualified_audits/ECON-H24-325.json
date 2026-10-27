@@ -1,0 +1,44 @@
+{
+  "handle": "ECON-H24-325",
+  "reviewer": "/root/verify_c",
+  "configured_model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "serving_revision": "unknown",
+  "verdict": "approved_scoped",
+  "document_path": "contributions/ECON-H24-325/review.md",
+  "document_sha256": "b72090a69e35b18651a25af113e906eb37edb2cabc8b5117c0ab83d6f3eec184",
+  "checked_scope": "Joint wealth-reporting bounds, initial-resident missingness bounds, and representative-audit identification versus precision.",
+  "checks": [
+    "Checked the reporting identity restricts (Delta K,Delta A) to (a-1,a), so Delta K-Delta A=-1 while its coordinate rectangle would wrongly allow [-2,0].",
+    "Verified initial-resident missingness width pi*(U-L); independent regime endpoint witnesses can be coupled before randomized assignment, giving contrast width equal to the sum of regime widths.",
+    "Recomputed E[VA/q|O,A]=A and E[(VA/q)^2]=E[A^2/q]. The example O~Uniform(0,1), A=1, q=O has positive inclusion probability and finite mean but infinite second moment.",
+    "Checked finite-type mixture constraints define a compact polytope and linear image with attained directional bounds, without treating continuous discretization as automatically sharp.",
+    "Compared the final manuscript with the retained full prior manuscript(s), current mathematical problem statement and source-note binding; verified every recorded source digest used below. Approval is confined to the expressly checked mathematics."
+  ],
+  "source_checks": [
+    {
+      "path": "prompts/ECON-H24-325.txt",
+      "sha256": "b4138b1d04279cef47664b2d69fd84b78c32c748e08241546375b170ce734ddc",
+      "check": "current prompt; mathematical statement and scope checked"
+    },
+    {
+      "path": "prior/ECON-H24-325_A1.txt",
+      "sha256": "fdb3ce2e9d9a4e081617dd678772da30e8ee14b7f901d31f90f7ec1d265c481d",
+      "check": "retained full prior manuscript; mathematical source fidelity checked"
+    },
+    {
+      "path": "contributions/ECON-H24-325/source_notes.md",
+      "sha256": "afa7901fc8e6871617e85b470e45a14cc8d6d6275f4d72fb865be69c36b97b2e",
+      "check": "source-note binding checked"
+    },
+    {
+      "path": "prior/ECON-H24-325_A1.yaml",
+      "sha256": "d6c3988688b906f722cc8d72f2c41946046e92322029377bebae385b29ee07e6",
+      "check": "contribution, revision and problem identifiers checked"
+    }
+  ],
+  "limitations": [
+    "Identification and precision statements for declared reporting/missingness/audit models only; the full five-coordinate wealth-tax equilibrium response and empirical asset envelopes remain unresolved.",
+    "This is an independent AI mathematical check of a scoped contribution. It does not certify historical novelty, human peer review, formal verification, empirical truth, editorial acceptance or the full catalogue target. References only listed inside prior manuscripts were not independently validated."
+  ]
+}

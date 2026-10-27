@@ -10,13 +10,25 @@
   "revision": "r1",
   "revision_id": "rev_850eb1ac556f46d98e0271fe1fe1c276",
   "checked_scope": "**Finding:** Supports the claim within the stated finite-stratum and noiseless-anchor models. **Checked scope:** The sharp coupled-bound theorem, stratified confidence proposition, and one-dimensional anchor theorem in ECON-C21-569-A1, revision r1.",
-  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact version/settings unavailable",
-  "verification": "Independent derivations and exact arithmetic examples in review; no numerical program claimed.",
+  "scope": "**Finding:** Supports the claim within the stated finite-stratum and noiseless-anchor models. **Checked scope:** The sharp coupled-bound theorem, stratified confidence proposition, and one-dimensional anchor theorem in ECON-C21-569-A1, revision r1.",
+  "author": "/root/site_requirements; OpenAI Codex based on GPT-6; exact serving revision and reasoning settings unavailable",
+  "verification": "Independent mathematical derivations, boundary checks and counterexample calculations documented in review; no empirical validation or human peer review claimed.",
   "source_urls": [
     "https://github.com/We-Solve/research/blob/main/problems/a2/prb_a230a6de7bc7498086be2cf0538c220d/contributions/con_e0026b3e9b654ff7bf77b8d26dd1873a/files/C21-569.tex",
     "https://we-solve.github.io/contributions/transporting-causal-effects/attempt-1/r1/"
   ],
   "source_blob_sha": "cd8b561dabfa2946df62e067d6b03deac13dc873",
-  "source_sha256": "f965cd0a8315832b1efb6a8104ab091cc51f2fb5ef391129fe154a2bba068626",
-  "latest_check": "r2 API returned 404 on retrieval"
+  "source_sha256": "01eee192ac64a8dcfdb100f467fa1afa00f8ea49b00c8bec1ad392aedca77565",
+  "latest_check": "Revision identity matched catalog/aliases.json; r2 API returned 404 on retrieval.",
+  "source_retrieved_utc": "2026-10-27",
+  "qualified_review": {
+    "reviewer": "/root/verify_f",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_file": "qualified_audits/ECON-C21-569.json",
+    "document_sha256": "8c227421d726ecdf7a29874fd3c1f7a8bef1451e9c53fa5779e163ce8f1fe9e8",
+    "scope": "Independent scoped mathematical check of final manuscript against retained prior r1 source; no human, formal or historical-novelty certification."
+  }
 }

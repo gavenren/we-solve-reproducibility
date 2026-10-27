@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_e8fdd465021d46c096f728069564e04d",
+  "canonical_problem_id": "prb_e8fdd465021d46c096f728069564e04d",
+  "handle": "ECON-C21-306",
+  "catalog_rank": 310,
+  "problem_title": "Optimal experimental designs for interventional mediation effects",
+  "title": "Scoped review of mediation influence terms and oracle allocation",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C21-306-A1",
+  "contribution_display_handle": "Econ-310-A1",
+  "contribution_id": "con_9b860017101b4d9facb6e007b34d74c4",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_0bdf69dc091d4012b3ad43f894e3e8cb",
+  "checked_scope": "Reduced-experiment covariance, equality-of-mediators boundary and finite-stratum pilot value guarantee",
+  "scope": "Reduced-experiment covariance, equality-of-mediators boundary and finite-stratum pilot value guarantee",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/optimal-experimental-designs-for-interventional-mediation-effects/attempt-1/r1/",
+  "source_sha256": "f3a3017c0c3bf36ca4aef0b949d928f03bbcceb3879ca825f5e021c76ccaee25",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C21-306.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C21-306.txt",
+      "sha256": "265553cf59b9dc931d3970e324d0740fa81f3f66a15d95029fca39168263582a"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C21-306.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/optimal-experimental-designs-for-interventional-mediation-effects/attempt-1/r1/index.html",
+      "sha256": "f3a3017c0c3bf36ca4aef0b949d928f03bbcceb3879ca825f5e021c76ccaee25"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C21-306.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/optimal-experimental-designs-for-interventional-mediation-effects/attempt-1/r1/contribution.yaml",
+      "sha256": "76bd733b5156e6d43322c5f52750e9ab7cf3a41ef3bfdbc85771cf87418ff10f"
+    }
+  ],
+  "review_path": "contributions/ECON-C21-306/review.md",
+  "review_sha256": "49e5f576c44b22b3f21fb69556ab054c1d87d6c901556fcea51b6dfc0575883e",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C21-306.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "Reduced-experiment covariance, equality-of-mediators boundary and finite-stratum pilot value guarantee",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "problem_id": "prb_9d0ce6cef4b543408ac13d353aecf011",
+  "canonical_problem_id": "prb_9d0ce6cef4b543408ac13d353aecf011",
+  "handle": "ECON-C44-248",
+  "catalog_rank": 252,
+  "problem_title": "Policy learning under covariate and response shifts",
+  "title": "Audit of response-shift nonidentification and the separate target-sample cost",
+  "kind": "review",
+  "type": "review",
+  "claim": "Review",
+  "finding": "Supports the claim",
+  "contribution_handle": "ECON-C44-248-A1",
+  "contribution_display_handle": "Econ-252-A1",
+  "contribution_id": "con_7ab5e4eaa043479ca22e227a78e3486f",
+  "revision": "r1",
+  "revision_label": "r1",
+  "revision_id": "rev_b0f5e9fcea4b478e91a664275343a7a6",
+  "checked_scope": "The response-shift lower bound, oracle reweighting upper bound and the claim that target covariates can carry indispensable information.",
+  "scope": "The response-shift lower bound, oracle reweighting upper bound and the claim that target covariates can carry indispensable information.",
+  "author": "/root/econ_b",
+  "status": "approved_scoped",
+  "publication_status": "draft_not_submitted",
+  "source_commit": "8fae5b83d055c1c430c74c1ca52472de0fea79f3",
+  "source_url": "https://we-solve.github.io/contributions/policy-learning-under-covariate-and-response-shifts/attempt-1/r1/",
+  "source_sha256": "d8c1da85f10480be4e5e833fe8c7ee7dfa09b78c54a1ebee69f206429ea9b30c",
+  "sources": [
+    {
+      "role": "problem_prompt",
+      "path": "batch_200_20261026/prompts/ECON-C44-248.txt",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/prompts/ECON-C44-248.txt",
+      "sha256": "eb436001af595d40bf2d0f5e47610d884f85a096ec095499c994c47f52c876e2"
+    },
+    {
+      "role": "full_prior_manuscript",
+      "path": "batch_200_20261026/prompts/ECON-C44-248.prior0.html",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/policy-learning-under-covariate-and-response-shifts/attempt-1/r1/index.html",
+      "sha256": "d8c1da85f10480be4e5e833fe8c7ee7dfa09b78c54a1ebee69f206429ea9b30c"
+    },
+    {
+      "role": "prior_revision_metadata",
+      "path": "batch_200_20261026/prompts/ECON-C44-248.prior0.yaml",
+      "url": "https://raw.githubusercontent.com/We-Solve/we-solve.github.io/8fae5b83d055c1c430c74c1ca52472de0fea79f3/contributions/policy-learning-under-covariate-and-response-shifts/attempt-1/r1/contribution.yaml",
+      "sha256": "80f428389ff3af9a6edc1644e3e8bfc95eebb7d736110725f84eef5e526d6c23"
+    }
+  ],
+  "review_path": "contributions/ECON-C44-248/review.md",
+  "review_sha256": "d6dbb1c92f173afffdc44c4ecb9ea8c59f371b8f74b03284bd162baa5a7f1b61",
+  "verification": "Independent scoped mathematical review; no formal verification or human peer review",
+  "model": "Codex (GPT-6)",
+  "model_version": "unknown",
+  "thinking": "unknown",
+  "time_budget": "unknown",
+  "license": "CC-BY-4.0",
+  "qualified_audit_path": "qualified_audits/ECON-C44-248.json",
+  "independent_review": {
+    "reviewer": "/root/verify_b",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "scope": "The response-shift lower bound, oracle reweighting upper bound and the claim that target covariates can carry indispensable information.",
+    "limitations": "Scoped mathematical review only; no historical novelty, formal verification, human review, or editorial certification."
+  }
+}

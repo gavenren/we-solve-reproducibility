@@ -7,11 +7,19 @@
   "claim": "Partial result",
   "scope": "Matching sparse-cascade separation order sqrt(q log J/m) in a fork with an observed common random gate of probability q, known leaf background b, and one active terminal edge; explicit q-adaptive test and hidden-gate comparison.",
   "author": "/root/econ_a",
-  "verification_status": "author proof audit and exact finite checker passed; separate review pending",
+  "verification_status": "Independent final mathematical review complete; approved only in the documented scoped contribution.",
   "publication_status": "draft_not_submitted",
   "model": "OpenAI Codex (GPT-6)",
   "model_version": "unknown",
   "thinking": "unknown",
   "time_budget": "unknown",
-  "license": "CC-BY-4.0"
+  "license": "CC-BY-4.0",
+  "qualified_review": {
+    "reviewer": "/root/verify_a",
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "serving_revision": "unknown",
+    "verdict": "approved_scoped",
+    "audit_path": "qualified_audits/ECON-C31-214.json"
+  }
 }
