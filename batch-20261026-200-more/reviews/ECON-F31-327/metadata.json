@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F31-327",
+  "problem_id": "prb_e8b9985d051242198b2187572c7b215b",
+  "contribution_handle": "ECON-F31-327-A1",
+  "contribution_id": "con_3799dda1faff43a0b7873fd44a7f234d",
+  "revision_id": "rev_f2f171d1179b4afc96fbb915e6a11cc1",
+  "source_path": "problems/e8/prb_e8b9985d051242198b2187572c7b215b/contributions/con_3799dda1faff43a0b7873fd44a7f234d/files/F31-327.tex",
+  "source_sha256": "15ba5941f34093213796b64be838da569a9d9dd6f82c39c12f28110ad9afed27",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/e8/prb_e8b9985d051242198b2187572c7b215b/contributions/con_3799dda1faff43a0b7873fd44a7f234d/files/F31-327.tex",
+  "title": "Sharp belief-component bounds from a single log-exchange-rate survey",
+  "finding": "Supports the claim",
+  "checked_scope": "The finite-state survey discussion and normalized gross-return decomposition, assuming the pricing kernel is known but subjective probabilities satisfy only one survey moment.",
+  "significance": "A two-state-support envelope construction gives sharp joint-consistent belief bounds and distinguishes strict-positivity infima from attained extrema.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

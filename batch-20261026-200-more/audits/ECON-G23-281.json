@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-G23-281",
+  "contribution_handle": "ECON-G23-281-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "40f77d6ab233ed5aa86de38e0e91fc39e9e9435ec7bbeab606f4f40fc59a1b06",
+  "source_sha256": "933f67c4bb571bdf47fbfe9df2ff848757f519cd222ca4a5cb7e48a350d48b3a",
+  "checked_scope": "Mean-only and convex-order cash-call uncertainty on compact low-sales branch.",
+  "checks_performed": [
+    "Read full report/source/YAML; canonical IDs matched.",
+    "Implicitly differentiated l=X\u2212hX\u00b2 to confirm g\u2032 and g\u2033, including fold asymptotics.",
+    "Checked Jensen lower law, endpoint-chord upper law, convex mixture attainment, uniform strictness and declared branch/inventory restrictions."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Sharp system-loss interval at known mean and support, plus a precise dispersion amplification mechanism."
+}

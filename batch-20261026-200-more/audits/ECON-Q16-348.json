@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-Q16-348",
+  "contribution_handle": "ECON-Q16-348-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "639c0027080d180e8bce4047e766ffe5f0b171b78a3df4b5a6cc1f8f45a7bf3e",
+  "source_sha256": "5cfd0233cb7902868da4fdb4b637c826f877961e594c551732072bc428e64d65",
+  "checked_scope": "Finite positive-benefit ambiguity scenarios, shared PSD research costs and box allocations.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Checked strict feasible hypograph point, KKT t-stationarity and active-scenario complementary slackness.",
+    "Verified mixed-benefit strict concavity, converse saddle certificate, interior inverse and boundary normal-cone caveat, and nonnegative-prize implementation restrictions."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Provides a fully checkable least-favorable scenario-mixture certificate and restricted incentive implementation for robust research allocation."
+}

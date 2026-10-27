@@ -1,0 +1,22 @@
+{
+  "handle": "ECON-F44-296",
+  "contribution_handle": "ECON-F44-296-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "8e4ae12981a2397bbdfe1e3d9bd48f625ad21304401bfb720c2724d081069f3b",
+  "source_sha256": "a0953363cc6817c5f0edbfd38d98c82e058597e527be2ef1f3e1d4b3ac4e6df6",
+  "checked_scope": "Entire report/source/YAML; nonnegative impact-system walk expansion, removal overcount identity and order-average attribution.",
+  "checks_performed": [
+    "Verified nonnegative deleted-system stability using v=(I\u2212B)^\u22121 1>0 and D_SBv\u2264Bv<v.",
+    "Expanded coordinate walks independently, including repeated-coordinate membership and zero-length walks; established absolute convergence.",
+    "Recomputed exact overcount and last-visited-coordinate allocations, strictness condition and source two-channel example."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Proves a general positive-feedback channel attribution theorem: removal contrasts count each walk once per visited channel, while Shapley attribution divides each walk among its distinct channels."
+}

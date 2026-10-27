@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-D82-308",
+  "contribution_handle": "ECON-D82-308-A1",
+  "reviewer": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "440d3b9a42357595f977ce67f09b4070a118229a6405dcdf6dacbd9e6628a9e7",
+  "source_sha256": "738f9f935f3572081d8aae10214352297bdf9a1cda3620c58f8b3245e34e2047",
+  "checked_scope": "Entire report/source/YAML; all deterministic two-item prices and all disclosure signals for the source's specific two-state prior.",
+  "checks_performed": [
+    "Checked q<p and q\u2212p>1 cases and individual-rationality upper bounds.",
+    "Derived both purchase posterior lower bounds and all moment-relaxation vertices, including a1=0, a1=1/2, impossible-purchase and axis cases.",
+    "Independently optimized mixed vertex: for1<p<1.5 revenue increases to q=p+1, then maximum at p=2\u22121/sqrt2 equals3\u2212sqrt2.",
+    "Verified source Bayes-plausible construction attains bound with stated tie selection; no lottery-menu or general-conjecture claim."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references were not independently verified."
+  ],
+  "significance": "Proves that 3\u2212\u221a2 is the unrestricted item-menu optimum in the source's correlated example, going beyond its optimum only within one declared two-signal family."
+}

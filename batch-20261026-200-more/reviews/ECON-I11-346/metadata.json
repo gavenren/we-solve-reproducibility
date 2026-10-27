@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I11-346",
+  "problem_id": "prb_4a68be176edb45b49ee8c6b3e5b6eafa",
+  "contribution_handle": "ECON-I11-346-A1",
+  "contribution_id": "con_4bc64afeea374002960ef76ceebfe2cd",
+  "revision_id": "rev_ca648439e4fb4d2799dada1ac1f0dc75",
+  "source_path": "problems/4a/prb_4a68be176edb45b49ee8c6b3e5b6eafa/contributions/con_4bc64afeea374002960ef76ceebfe2cd/files/I11-346.tex",
+  "source_sha256": "44fbb70181b201f4f4ad7cae6b8a373725bb0879e961ad60ed07ca53048fae07",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/4a/prb_4a68be176edb45b49ee8c6b3e5b6eafa/contributions/con_4bc64afeea374002960ef76ceebfe2cd/files/I11-346.tex",
+  "title": "Least-cost prizes exploit the shadow price of scarce research capacity",
+  "finding": "Supports the claim",
+  "checked_scope": "The exact research allocation and conditional reward implementation, restricted to nonnegative per-success prizes and a target allocation under the same shared capacity.",
+  "significance": "An exact minimal expected-prize construction shows that matching social and private objectives can spend more than necessary to implement the social allocation.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

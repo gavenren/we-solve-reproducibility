@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F44-296",
+  "title": "Walk-based channel attribution and exact double counting under nonnegative impact feedback",
+  "finding": "Supports the claim",
+  "checked_scope": "Impact-only linear systems with entrywise nonnegative B,g,\u2113 and spectral radius \u03c1(B)<1; coordinate equation removal.",
+  "significance": "Proves a general positive-feedback channel attribution theorem: removal contrasts count each walk once per visited channel, while Shapley attribution divides each walk among its distinct channels.",
+  "problem_id": "prb_2d03b82c56904e15925e4c7229911442",
+  "contribution_handle": "ECON-F44-296-A1",
+  "contribution_id": "con_7a4902bb07b147b0beaf1a99605822db",
+  "revision_id": "rev_a1ee3cc5b4d149a182c1d82d150f47a4",
+  "source_path": "problems/2d/prb_2d03b82c56904e15925e4c7229911442/contributions/con_7a4902bb07b147b0beaf1a99605822db/files/F44-296.tex",
+  "source_sha256": "a0953363cc6817c5f0edbfd38d98c82e058597e527be2ef1f3e1d4b3ac4e6df6",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/2d/prb_2d03b82c56904e15925e4c7229911442/contributions/con_7a4902bb07b147b0beaf1a99605822db/files/F44-296.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

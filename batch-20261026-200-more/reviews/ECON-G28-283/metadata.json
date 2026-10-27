@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G28-283",
+  "title": "Exact Pareto-safe intensity and a distributionally robust macroprudential objective",
+  "finding": "Supports the claim",
+  "checked_scope": "The source's finite heterogeneous-household benchmark with all crisis severities positive and its common policy response.",
+  "significance": "Characterizes the entire no-compensation Pareto-improving policy set and solves the maximin normalized group-surplus policy, making the most exposed access-cost group decisive.",
+  "problem_id": "prb_8ac15180204a45aa856cb455645376c2",
+  "contribution_handle": "ECON-G28-283-A1",
+  "contribution_id": "con_81df11bde27d43499c9f5b1d716627df",
+  "revision_id": "rev_b2743790f07d4ae6a0c8f5f8c4a45a4f",
+  "source_path": "problems/8a/prb_8ac15180204a45aa856cb455645376c2/contributions/con_81df11bde27d43499c9f5b1d716627df/files/G28-283.tex",
+  "source_sha256": "ffcafdb4cf10e6ed6b5088a87931ec1c38fbecf9e007c7dd42d7a9f2cb97ef8a",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/8a/prb_8ac15180204a45aa856cb455645376c2/contributions/con_81df11bde27d43499c9f5b1d716627df/files/G28-283.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

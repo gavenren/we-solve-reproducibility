@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-R23-315",
+  "problem_id": "prb_63d29bea2e53449a85d206555aa3985e",
+  "contribution_handle": "ECON-R23-315-A1",
+  "contribution_id": "con_fc3a1b7d9f6447b39db4a2c3ded48b86",
+  "revision_id": "rev_16b712f1d5684b799636cd3a80d1c2f1",
+  "source_path": "problems/63/prb_63d29bea2e53449a85d206555aa3985e/contributions/con_fc3a1b7d9f6447b39db4a2c3ded48b86/files/R23-315.tex",
+  "source_sha256": "34268d20f86a7357649d43fb21645e9e5610adf75b2fc9ece3a0ed2cca1893f1",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/63/prb_63d29bea2e53449a85d206555aa3985e/contributions/con_fc3a1b7d9f6447b39db4a2c3ded48b86/files/R23-315.tex",
+  "title": "Sharp finite-reform mobility gains from a local scarcity value and curvature bounds",
+  "finding": "Supports the claim",
+  "checked_scope": "Two-location quasilinear capacity benchmark with one binding upper bound and strongly concave aggregate surplus.",
+  "significance": "Derives sharp saturating gain and rent bounds for finite capacity expansions using only a local shadow value and global curvature interval.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

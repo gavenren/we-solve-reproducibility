@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-L51-345",
+  "problem_id": "prb_982b116b6f25484b9111bb151e05bef9",
+  "contribution_handle": "ECON-L51-345-A1",
+  "contribution_id": "con_ce554cd84f9c4d19892f8de86633195f",
+  "revision_id": "rev_f1e0a07ff93f4be7ad1256458c2e7a31",
+  "source_path": "problems/98/prb_982b116b6f25484b9111bb151e05bef9/contributions/con_ce554cd84f9c4d19892f8de86633195f/files/L51-345.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/98/prb_982b116b6f25484b9111bb151e05bef9/contributions/con_ce554cd84f9c4d19892f8de86633195f/files/L51-345.tex",
+  "title": "A known mean missing valuation yields sharp quantile welfare bounds",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Derives sharp signed-exposure welfare bounds with an externally known nonrespondent mean valuation using threshold rearrangement, including atoms and endpoint cases.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "9254d0c5e5a7d03273731c252162cbfa510bbfb73d6a5f97d25064061b7b60ca"
+}

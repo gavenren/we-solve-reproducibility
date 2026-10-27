@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G23-313",
+  "problem_id": "prb_46b9e1a2afa04de8bb90b9876963597c",
+  "contribution_handle": "ECON-G23-313-A1",
+  "contribution_id": "con_9655b9e32d7347d495169eabe0aeae78",
+  "revision_id": "rev_f687236e716c444cb29b5427f27adf23",
+  "source_path": "problems/46/prb_46b9e1a2afa04de8bb90b9876963597c/contributions/con_9655b9e32d7347d495169eabe0aeae78/files/G23-313.tex",
+  "source_sha256": "58bbff3312fd92d3fc1a0f9587b37b462088c9f1c53c2637700d0c28d4af921a",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/46/prb_46b9e1a2afa04de8bb90b9876963597c/contributions/con_9655b9e32d7347d495169eabe0aeae78/files/G23-313.tex",
+  "title": "A sharp useful-access frontier under a portfolio default constraint",
+  "finding": "Supports the claim",
+  "checked_scope": "The transparent-score portability benchmark, extended to optimal loan selection at known type risks with an explicit portfolio default-rate constraint.",
+  "significance": "An exact quantile frontier and uniform example distinguish avoidable selection changes from an unavoidable access\u2013risk tradeoff.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

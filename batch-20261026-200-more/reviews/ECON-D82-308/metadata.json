@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-D82-308",
+  "title": "Global optimality of the worked example's item-pricing revenue",
+  "finding": "Supports the claim",
+  "checked_scope": "All nonnegative deterministic two-item prices and all disclosures for the prior putting equal mass on (1,0) and (2,3).",
+  "significance": "Proves that 3\u2212\u221a2 is the unrestricted item-menu optimum in the source's correlated example, going beyond its optimum only within one declared two-signal family.",
+  "problem_id": "prb_c8d20950f1034117926fb5ceb06e92b8",
+  "contribution_handle": "ECON-D82-308-A1",
+  "contribution_id": "con_4fd296cca3474d90b656569b0b00bcb2",
+  "revision_id": "rev_82f84e95ad4944d38de5b8ce93653762",
+  "source_path": "problems/c8/prb_c8d20950f1034117926fb5ceb06e92b8/contributions/con_4fd296cca3474d90b656569b0b00bcb2/files/D82-308.tex",
+  "source_sha256": "738f9f935f3572081d8aae10214352297bdf9a1cda3620c58f8b3245e34e2047",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/c8/prb_c8d20950f1034117926fb5ceb06e92b8/contributions/con_4fd296cca3474d90b656569b0b00bcb2/files/D82-308.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

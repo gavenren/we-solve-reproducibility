@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-L51-345",
+  "contribution_handle": "ECON-L51-345-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "aa90349809dd3b6cdd0f0737a5dcba74c6749e3e5f9ce9fdc7c93adc9a50dd80",
+  "source_sha256": "9254d0c5e5a7d03273731c252162cbfa510bbfb73d6a5f97d25064061b7b60ca",
+  "checked_scope": "Known mean missing valuation with signed exposure contrasts.",
+  "checks_performed": [
+    "Reduced missing contribution to 0<=y<=1 with fixed mass and verified quantile support optimum.",
+    "Checked fractional atom selection, endpoint attainment, convex filling and signed-exposure example.",
+    "Verified mean-zero/full-ceiling and missing-share/zero-H boundaries.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Sharp quantile welfare bounds add one substantive external moment without imposing missing-at-random."
+}

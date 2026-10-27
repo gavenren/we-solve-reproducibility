@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-Q57-292",
+  "contribution_handle": "ECON-Q57-292-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "afc375c0fd34d957df30ce84f4b6e46f8ce57e13e278cf886c5cd5e35615b045",
+  "source_sha256": "e27bfbd51314e4328ce345c1e0f3bfd7376fd117930d198a68075379bd2891fe",
+  "checked_scope": "CES essential-service compensation with random service strictly above critical threshold.",
+  "checks_performed": [
+    "Read full report/source/YAML; canonical IDs matched.",
+    "Verified Y-positive transfer formula and equivalence of negative moments.",
+    "Checked Tonelli tail identity, local MVT equivalence to ecological distance, power-law criterion \u03b3>\u22121/\u03c1 including logarithmic divergence at equality and blow-up constant."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Distinguishes almost-sure finite compensability from an infinite expected compensation bill within the same CES model."
+}

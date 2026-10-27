@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J88-323",
+  "problem_id": "prb_fa8d168233584e8299a75e80e7f5902c",
+  "contribution_handle": "ECON-J88-323-A1",
+  "contribution_id": "con_cd9850841ef843f780ddc7c1937b62f7",
+  "revision_id": "rev_b2862443186e4f9aa1c2469e48bed8e4",
+  "source_path": "problems/fa/prb_fa8d168233584e8299a75e80e7f5902c/contributions/con_cd9850841ef843f780ddc7c1937b62f7/files/J88-323.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/fa/prb_fa8d168233584e8299a75e80e7f5902c/contributions/con_cd9850841ef843f780ddc7c1937b62f7/files/J88-323.tex",
+  "title": "Joint employment and wage responses identify the portable-benefit frontier",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Derives an exact two-frontier identified set under common valuation uncertainty and identifies valuation from baseline supply and intervention responses.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "e7db295c064e80857f36287d06b6f0150653692bfbd47760ef15b6c0aef86793"
+}

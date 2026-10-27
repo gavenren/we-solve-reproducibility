@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-R23-315",
+  "contribution_handle": "ECON-R23-315-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "b252f6df90c6bc0b64e7a4ec68d3bfc490ecebed3efc18de6158fb0e5bfb442d",
+  "source_sha256": "34268d20f86a7357649d43fb21645e9e5610adf75b2fc9ece3a0ed2cca1893f1",
+  "checked_scope": "Finite upper-capacity expansion in strictly concave mobility surplus with known initial derivative and curvature interval.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Integrated curvature bounds, verified positive-part envelope derivative and saturation beyond unconstrained maximum.",
+    "Checked A_L,A_\u03bc integral formulas, quadratic extremizers, extension left of old cap and single subtraction of real costs."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Sharp finite-reform welfare and scarcity-value bounds from a local rent and global curvature restrictions."
+}

@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-I11-346",
+  "checked_scope": "Minimum nonnegative expected-prize payments implementing fixed social allocation.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Derived private active KKT equalities, inactive inequalities and \u03bb_min over all coordinates.",
+    "Verified least-payout monotonicity in capacity multiplier, sufficiency and unique allocation implementation.",
+    "Checked slack-capacity/all-zero case and identical-indication example with zero minimal prizes versus positive objective-matching expenditure."
+  ],
+  "significance": "Separates sufficient incentive alignment from budget-minimal implementation under scarce shared research capacity.",
+  "contribution_handle": "ECON-I11-346-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "64ea63f830fc40aea2b2c0e9dc2e092285e75a97a87a1c6e3b699151041cbf3e",
+  "source_sha256": "44fbb70181b201f4f4ad7cae6b8a373725bb0879e961ad60ed07ca53048fae07",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

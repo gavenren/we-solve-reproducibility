@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-F31-327",
+  "checked_scope": "Known-kernel survey-restricted subjective-law belief-component bounds.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Checked belief objective from normalized Euler decomposition, convex-hull slice and two-support extreme argument.",
+    "Verified pair interpolation, equal-log states, strict-positive mixture approximation and endpoint nonattainment when nonconstant.",
+    "Recomputed three-state exponential exchange example and open interval; checked constant-objective exception."
+  ],
+  "significance": "Computes sharp component bounds from incomplete survey information while respecting strict subjective positivity.",
+  "contribution_handle": "ECON-F31-327-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "9b5a20625f581ebaa0611dd562230fe26a26f30d74347e52cf34c309f11703d5",
+  "source_sha256": "15ba5941f34093213796b64be838da569a9d9dd6f82c39c12f28110ad9afed27",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

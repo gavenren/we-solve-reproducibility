@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-H11-328",
+  "contribution_handle": "ECON-H11-328-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "6ec21d229ae5786efb1a2bf2a6020b24e85dba1cf5dc20f3882b16075f669d9e",
+  "source_sha256": "74ec51b9226324f49671a78c1fb9cee4d70f4e551445183328cd06be44294409",
+  "checked_scope": "Exogenous finite political chain with transition-dependent multiplicative capability retention.",
+  "checks_performed": [
+    "Read report/full source/YAML; canonical IDs matched.",
+    "Derived weighted-state recursion a_{t+1}=a_t(P\u2218d), substochastic resolvent convergence, and constant-retention special case.",
+    "Recomputed alternating-regime destruction counterexample and derivative \u03b2R E_ij R, with boundary/sign cases and predation constraint interpretation."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Exact durability multipliers and transition-specific marginal values without an invalid average-retention approximation."
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-Q57-292",
+  "problem_id": "prb_cd99762ab7124cb1a0f731d99f792915",
+  "contribution_handle": "ECON-Q57-292-A1",
+  "contribution_id": "con_1794be4711df4fd6bb1dd2863de8657c",
+  "revision_id": "rev_f981f4e43b4842d58a67c4300917bc61",
+  "source_path": "problems/cd/prb_cd99762ab7124cb1a0f731d99f792915/contributions/con_1794be4711df4fd6bb1dd2863de8657c/files/Q57-292.tex",
+  "source_sha256": "e27bfbd51314e4328ce345c1e0f3bfd7376fd117930d198a68075379bd2891fe",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/cd/prb_cd99762ab7124cb1a0f731d99f792915/contributions/con_1794be4711df4fd6bb1dd2863de8657c/files/Q57-292.tex",
+  "title": "Almost-sure compensability can coexist with infinite expected compensation near the ecological boundary",
+  "finding": "Supports the claim",
+  "checked_scope": "Essential-service CES preferences; random degraded services strictly above the deterministic critical threshold.",
+  "significance": "Derives exact negative-moment criterion and sharp near-boundary tail exponent separating finite statewise transfers from an infinite expected compensation budget.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

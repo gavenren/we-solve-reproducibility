@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-Q16-348",
+  "problem_id": "prb_edc8c7660123444aada0bf1ffd596735",
+  "contribution_handle": "ECON-Q16-348-A1",
+  "contribution_id": "con_2e55e3c6443a436ab9c0723d76eec9e7",
+  "revision_id": "rev_41110b1a2c564398bb34fb8a93f2cc2b",
+  "source_path": "problems/ed/prb_edc8c7660123444aada0bf1ffd596735/contributions/con_2e55e3c6443a436ab9c0723d76eec9e7/files/Q16-348.tex",
+  "source_sha256": "5cfd0233cb7902868da4fdb4b637c826f877961e594c551732072bc428e64d65",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/ed/prb_edc8c7660123444aada0bf1ffd596735/contributions/con_2e55e3c6443a436ab9c0723d76eec9e7/files/Q16-348.tex",
+  "title": "Least-favorable benefit mixtures characterize the robust research allocation",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite convex-hull benefit ambiguity in the source's concave quadratic research benchmark.",
+  "significance": "Proves an exact active-scenario mixture certificate, derives an equivalent ordinary quadratic optimizer, and clarifies when nonnegative success prizes implement the robust allocation.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

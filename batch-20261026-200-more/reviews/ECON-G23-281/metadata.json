@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G23-281",
+  "problem_id": "prb_d5926147e35f49e3a333f07f611c45f6",
+  "contribution_handle": "ECON-G23-281-A1",
+  "contribution_id": "con_f99dd883433d4f32ae8a2f3ba99b50b7",
+  "revision_id": "rev_0725cce833594297ab55da8a57cde279",
+  "source_path": "problems/d5/prb_d5926147e35f49e3a333f07f611c45f6/contributions/con_f99dd883433d4f32ae8a2f3ba99b50b7/files/G23-281.tex",
+  "source_sha256": "933f67c4bb571bdf47fbfe9df2ff848757f519cd222ca4a5cb7e48a350d48b3a",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/d5/prb_d5926147e35f49e3a333f07f611c45f6/contributions/con_f99dd883433d4f32ae8a2f3ba99b50b7/files/G23-281.tex",
+  "title": "Sharp mean-only system-loss bounds and convex-order amplification",
+  "finding": "Supports the claim",
+  "checked_scope": "Declared stable liquidation branch with random aggregate cash calls and unchanged absorption technology.",
+  "significance": "Proves convex cash-call loss, identifies sharp expected-loss bounds under support/mean information, and characterizes amplification near the clearing fold.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-J65-312",
+  "contribution_handle": "ECON-J65-312-A1",
+  "reviewer": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "0425a085dc17fc968000602c665a57d1284b4dff0fd1aaad9562aa7ef04cc02a",
+  "source_sha256": "b380a414324c213d2a20deb2de3718838570da82272cc834586bb77b06b3c031",
+  "checked_scope": "Grouped log insurance, full-information regret and variance bounds.",
+  "checks_performed": [
+    "Checked interior bracket and Jensen direction under unemployment-conditioned asset law.",
+    "Expanded regret into y-1-log y; checked first-order reciprocal moment.",
+    "Verified lower curvature regret bound and upper comparison at feasible mean optimum.",
+    "Read full exact manuscript/YAML; verified canonical IDs, source SHA256, pinned URL and final READY bytes."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External bibliography and empirical applicability were not independently verified."
+  ],
+  "significance": "Exact heterogeneity bias direction and information value, with quantitative variance bounds."
+}

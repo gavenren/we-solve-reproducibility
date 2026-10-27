@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-G23-313",
+  "checked_scope": "Top-risk-quantile lending selection and access/default-rate feasibility frontier.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Verified threshold exchange inequality for fixed mass including atoms and eligibility restriction.",
+    "Checked necessity/sufficiency of J(q)\u2264dq and monotonicity of average default as mass increases.",
+    "Recomputed uniform [1/2,1] example q=2(1\u2212t), D=q/4 and numerator q\u00b2/4; checked zero-access convention."
+  ],
+  "significance": "Supplies sharp selection benchmark rather than asserting portability jointly improves inclusion and risk.",
+  "contribution_handle": "ECON-G23-313-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "f5c885f9a41c266cad58a87b1ccea0aa13a13070867b85ea87366639dd146104",
+  "source_sha256": "58bbff3312fd92d3fc1a0f9587b37b462088c9f1c53c2637700d0c28d4af921a",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J65-312",
+  "problem_id": "prb_85a15969023b4be596b496f90e3c5311",
+  "contribution_handle": "ECON-J65-312-A1",
+  "contribution_id": "con_0f62907c5e9044c4837ab7dad855c5e5",
+  "revision_id": "rev_665c95c0af694912b154ebaba29735f8",
+  "source_path": "problems/85/prb_85a15969023b4be596b496f90e3c5311/contributions/con_0f62907c5e9044c4837ab7dad855c5e5/files/J65-312.tex",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/85/prb_85a15969023b4be596b496f90e3c5311/contributions/con_0f62907c5e9044c4837ab7dad855c5e5/files/J65-312.tex",
+  "title": "Asset heterogeneity increases grouped log-insurance benefits and has variance bounds",
+  "finding": "Supports the claim",
+  "checked_scope": "Full exact manuscript/YAML and independent result proved in report.",
+  "significance": "Proves a strict mean-assets comparison, an exact information-value formula, and quantitative bounds on the value of observing assets.",
+  "author": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "source_sha256": "b380a414324c213d2a20deb2de3718838570da82272cc834586bb77b06b3c031"
+}

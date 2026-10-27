@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-H11-328",
+  "problem_id": "prb_73ac7f704dfb4491bfa043d149389aaf",
+  "contribution_handle": "ECON-H11-328-A1",
+  "contribution_id": "con_def258efe3c44ac4bb14f36dc00d2f6f",
+  "revision_id": "rev_bd9721d54d804b75a3ae2d07b94c2bd4",
+  "source_path": "problems/73/prb_73ac7f704dfb4491bfa043d149389aaf/contributions/con_def258efe3c44ac4bb14f36dc00d2f6f/files/H11-328.tex",
+  "source_sha256": "74ec51b9226324f49671a78c1fb9cee4d70f4e551445183328cd06be44294409",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/73/prb_73ac7f704dfb4491bfa043d149389aaf/contributions/con_def258efe3c44ac4bb14f36dc00d2f6f/files/H11-328.tex",
+  "title": "Exact durability with political-state-dependent capability destruction",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite political Markov chain, transition-dependent multiplicative capability retention, and discounted service/predation accounting.",
+  "significance": "Replaces independent scalar retention by a substochastic transition matrix and derives exact sensitivity formulas for durable service and predation multipliers.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F13-303",
+  "problem_id": "prb_8baf63758c084ce9a274a1777bd3384a",
+  "contribution_handle": "ECON-F13-303-A1",
+  "contribution_id": "con_e1bb08b01522484ab8390bb376bea367",
+  "revision_id": "rev_843def5610a84de09ed20bc469f1e40c",
+  "source_path": "problems/8b/prb_8baf63758c084ce9a274a1777bd3384a/contributions/con_e1bb08b01522484ab8390bb376bea367/files/F13-303.tex",
+  "source_sha256": "84e3954e678d8ab1f5a703a7fe0665479f715d046ec01e0cf6069f97dc043c80",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/8b/prb_8baf63758c084ce9a274a1777bd3384a/contributions/con_e1bb08b01522484ab8390bb376bea367/files/F13-303.tex",
+  "title": "Sharp many-supplier scarcity bounds and fragmentation comparisons from marginal outages",
+  "finding": "Supports the claim",
+  "checked_scope": "One-period unit suppliers, one-unit target and maximum-delivery allocation; unrestricted dependence held fixed across policies.",
+  "significance": "Generalizes the source's two-supplier interval to arbitrary supplier counts and gives a sharp common-law intervention risk-increase formula for removing all but one supplier.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}
