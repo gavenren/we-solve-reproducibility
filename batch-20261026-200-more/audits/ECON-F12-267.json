@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-F12-267",
+  "contribution_handle": "ECON-F12-267-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "128f84632a25713c66bf4f750ff732fb73bbd683d4124bd5c2c2aea94ec9e580",
+  "source_sha256": "06f5948f4dd624c9078135d7b17a5a428146a0cf209fb1ebc2a0889a66806a98",
+  "checked_scope": "Full exact manuscript/YAML and improved analytic CES approximation certificates.",
+  "checks_performed": "Verified common-price translation identity for signed/zero r, equilibrium and linear shifts, scalar minimax interval condition, Hessian convexity signs and nonnegative inverse, equal-share oscillation contraction and variance constant 1/4.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Removes an exact shock direction from the quadratic error bound and derives sign/dispersion refinements."
+}

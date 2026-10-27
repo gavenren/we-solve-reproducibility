@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-Q58-273",
+  "problem_id": "prb_abaa496ad668406d85e314a864026f4b",
+  "contribution_handle": "ECON-Q58-273-A1",
+  "contribution_id": "con_53749c3e6da9494398fe78045de6076e",
+  "revision_id": "rev_60d85918f83541e6985a4b7c0a13745e",
+  "source_path": "problems/ab/prb_abaa496ad668406d85e314a864026f4b/contributions/con_53749c3e6da9494398fe78045de6076e/files/Q58-273.tex",
+  "source_sha256": "e48caff9d0fc88748950c37883442cf7bdb752194baa9837491dfd880e8c3fd6",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/ab/prb_abaa496ad668406d85e314a864026f4b/contributions/con_53749c3e6da9494398fe78045de6076e/files/Q58-273.tex",
+  "title": "A fixed cheapest majority and an explicit water-filling durability frontier",
+  "finding": "Supports the claim",
+  "checked_scope": "Common-visibility, common-shock stationary rebate benchmark; exact coalition and tolerance computation.",
+  "significance": "Shows top baseline tolerances always supply a cheapest majority and derives the complete piecewise-affine frontier with visibility-budget concavity.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

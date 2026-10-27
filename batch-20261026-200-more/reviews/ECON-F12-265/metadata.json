@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F12-265",
+  "problem_id": "prb_4a57224985004bec88a393ce4b58c0a9",
+  "contribution_handle": "ECON-F12-265-A1",
+  "contribution_id": "con_12f7c6ca2c244a418391794746434d49",
+  "revision_id": "rev_1f9c214c570f4335ad26ad8166a57a32",
+  "source_path": "problems/4a/prb_4a57224985004bec88a393ce4b58c0a9/contributions/con_12f7c6ca2c244a418391794746434d49/files/F12-265.tex",
+  "source_sha256": "2ea980f6430544c766f2b2d3997b17041a67c6a0d586e47dfd9a12bba851cc45",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/4a/prb_4a57224985004bec88a393ce4b58c0a9/contributions/con_12f7c6ca2c244a418391794746434d49/files/F12-265.tex",
+  "title": "Sharp enforcement-welfare bounds with bounded investment costs",
+  "finding": "Supports the claim",
+  "checked_scope": "Investment lemma and observational-equivalence proposition; sharp partial identification in the one-mode benchmark",
+  "significance": "Converts the two-point nonidentification example into a complete sharp interval for enforcement probability and welfare gain, and identifies the extra surplus observation that collapses it.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

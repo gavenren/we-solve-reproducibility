@@ -1,0 +1,20 @@
+{
+  "handle": "ECON-C78-227",
+  "contribution_handle": "ECON-C78-227-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "3feb162fe292e6cbbe057cfb0c5b82dc839e553b26ed9460c85175bb555ec19c",
+  "source_sha256": "650ad5265bf8bb67addd475fa7e2ba1e7e930f45d1abcc453e31d0f2e7947832",
+  "checked_scope": "Full replacement report and full previously checked exact manuscript/YAML.",
+  "checks_performed": "Checked all type payoffs, immediate/continuation welfare, both sequential equilibria, off-path posterior epsilon/(1+epsilon), sequential rationality at every information set and consistency of completely mixed approximations.",
+  "changes_made": [
+    "Author replaced the false arbitrary-correlation n-agent claim after my independent three-agent counterexample; verified the complete replacement proof."
+  ],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Sharp three-agent boundary counterexample identifies why the sound two-agent result fails under correlated costs."
+}

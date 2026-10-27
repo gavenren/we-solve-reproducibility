@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-G12-270",
+  "checked_scope": "Exact coordinate evaluation radii in affine SDF pricing subspace; full-ball feasibility.",
+  "checks_performed": [
+    "Read full source/YAML/report.",
+    "Re-derived coordinate Riesz vector, weighted projection via B inverse and residual norm formula.",
+    "Checked attainment directions, zero-radius and zero-subspace cases, necessity and sufficiency of all coordinate inequalities.",
+    "Recomputed two-state example R=2/5 and conservative-source radius failure.",
+    "Verified distinction between full-ball feasibility and equality of a particular payoff image."
+  ],
+  "significance": "Replaces conservative inactive-bound certificate by necessary/sufficient leverage-sensitive full-ball test with a strict improvement example.",
+  "contribution_handle": "ECON-G12-270-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "054e15fa866f7daa6aef9edace44e90acd5fb2d01ddef291951ea044ce459696",
+  "source_sha256": "77ee3b6682f116f3aef8185e936e08967e8e03e64ef012102e830ff8e62606c6",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-H22-245",
+  "contribution_handle": "ECON-H22-245-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "f93905ba6c64ef6eb4ee35d87dcff53439da37fad67bea66245a5360677b3e48",
+  "source_sha256": "ab7238a723ff59288546569ccb55ce458b0fe9083c17845d2601091c0f70a36f",
+  "checked_scope": "Full exact manuscript/YAML and global equal-revenue tax comparison.",
+  "checks_performed": "Differentiated revenue and compensation, verified unique peak and two implementing rates, canceled common transfers, checked monotonic secant slope proof and zero/one-rate limits.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Global burden ordering, uniqueness of receipt branches and monotone normalized incidence strengthen the local source result."
+}

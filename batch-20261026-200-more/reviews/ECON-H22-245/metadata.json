@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-H22-245",
+  "problem_id": "prb_c5bcf3e537024841af5a6fef126cc2ce",
+  "contribution_handle": "ECON-H22-245-A1",
+  "contribution_id": "con_3ce486475e7144588576b6b79bf408f7",
+  "revision_id": "rev_8e64e25ce1c14ed29ac89097d283b8f7",
+  "source_path": "problems/c5/prb_c5bcf3e537024841af5a6fef126cc2ce/contributions/con_3ce486475e7144588576b6b79bf408f7/files/H22-245.tex",
+  "source_sha256": "ab7238a723ff59288546569ccb55ce458b0fe9083c17845d2601091c0f70a36f",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/c5/prb_c5bcf3e537024841af5a6fef126cc2ce/contributions/con_3ce486475e7144588576b6b79bf408f7/files/H22-245.tex",
+  "title": "Equal-revenue tax reforms have strictly different worker burdens",
+  "finding": "Supports the claim",
+  "checked_scope": "Global revenue and worker-welfare comparative statics in the source's small-open-economy Cobb-Douglas tax benchmark.",
+  "significance": "Proves the exact Laffer peak, strict global monotonicity of normalized incidence and worker compensation, and a strict burden ranking for equal-revenue reforms.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

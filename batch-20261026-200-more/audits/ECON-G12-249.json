@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-G12-249",
+  "checked_scope": "Strictly positive versus closed nonnegative finite-state pricing-kernel second-moment optimization.",
+  "checks_performed": [
+    "Read full source/YAML and review.",
+    "Verified compactness from positive bond-price mean and state positivity, strict convexity uniqueness and mixture approximation.",
+    "Checked strict-attainment iff closed minimizer positive; derived truncated-linear KKT characterization under strict feasibility.",
+    "Recomputed all three-state pricing constraints, unconstrained projection and exact second-moment polynomial, including unattained 51/25 versus 49/25."
+  ],
+  "significance": "Settles positivity-binding existence and value gaps with an exact non-arbitrage example.",
+  "contribution_handle": "ECON-G12-249-A1",
+  "reviewer": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "be46eb0ac4ae86182504a799c245f8bfecd4e27703192487ceb04ae6d22a4550",
+  "source_sha256": "19503a09224a48af104932225fa8ef866ab4629abf1c1299cc2da12f10eaa07e",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified."
+  ]
+}

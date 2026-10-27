@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-G21-262",
+  "contribution_handle": "ECON-G21-262-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "9896fdc302e5d5d2794b9a927b90a8b0b997c4f2475deab7197f5c73089af881",
+  "source_sha256": "aeec9193ca0b6ad43f2050161461088abcb6e024b841184f7dc76c34492d098c",
+  "checked_scope": "Arbitrary symmetric depositor count and arbitrary nonnegative common coordination strength with uniform shock and pure selectors.",
+  "checks_performed": [
+    "Read full report, source and YAML and matched IDs.",
+    "Checked impossibility of partial pure equilibria for every k and N\u22652, with \u03bb=0 ties excluded almost surely.",
+    "Recomputed both quadratic branches for \u03bb>1, compared to zero, verified t=(1+\u03bb)\u00b2/2>1+\u03bb, endpoint tie uniqueness, and continuity at \u03bb=1."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Extends the bank-run model to any symmetric population and identifies the new all-or-nothing robust-policy regime for \u03bb>1."
+}

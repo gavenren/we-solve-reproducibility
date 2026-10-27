@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-Q58-273",
+  "contribution_handle": "ECON-Q58-273-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "16172774fb1055df19e499058661db589c00c1f8b81685681bbe453272a2bc89",
+  "source_sha256": "e48caff9d0fc88748950c37883442cf7bdb752194baa9837491dfd880e8c3fd6",
+  "checked_scope": "Common-visibility majority rebate implementation at fixed tax and its tolerance frontier.",
+  "checks_performed": [
+    "Read full report, source and YAML and matched IDs.",
+    "Verified required-cost order is fixed by descending unrebated tolerance for every target z.",
+    "Derived water-filling segments, B=0 endpoint, tied tolerances, positive-budget uniqueness and nonincreasing slopes; checked caveat that arbitrary CDF does not preserve concavity."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Reduces coalition search to one fixed cheapest majority and gives explicit concave tolerance-budget frontier."
+}

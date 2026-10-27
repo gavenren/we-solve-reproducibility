@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-O14-274",
+  "title": "Sharp capacity and intervention bounds from observed service employment and output",
+  "finding": "Supports the claim",
+  "checked_scope": "Fixed A,w,N with unobserved K and the exact strict-threshold hiring rule; additive nonnegative capacity interventions.",
+  "significance": "Characterizes the full observationally equivalent capacity set and sharp job-response interval, distinguishing partial utilization, full workforce and zero-employment cases.",
+  "problem_id": "prb_48ee27833c814322b8c05865bd17ac49",
+  "contribution_handle": "ECON-O14-274-A1",
+  "contribution_id": "con_07faee120bac493aa8da336e3be53b1d",
+  "revision_id": "rev_6ae54ed1e93c4b8ca0b0fa6361e167d3",
+  "source_path": "problems/48/prb_48ee27833c814322b8c05865bd17ac49/contributions/con_07faee120bac493aa8da336e3be53b1d/files/O14-274.tex",
+  "source_sha256": "4f1ecc0638f1be44309c4f33cd904bf69a9d7b5f2daa57eee63394185c43040d",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/48/prb_48ee27833c814322b8c05865bd17ac49/contributions/con_07faee120bac493aa8da336e3be53b1d/files/O14-274.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

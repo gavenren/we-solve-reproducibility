@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G21-262",
+  "problem_id": "prb_999cdf7d31c847df9b301a3374495a76",
+  "contribution_handle": "ECON-G21-262-A1",
+  "contribution_id": "con_e4c4e2f69dcf43cb9afda09ddd19f026",
+  "revision_id": "rev_b9d8ada79ed3420c81ebc07b4637c098",
+  "source_path": "problems/99/prb_999cdf7d31c847df9b301a3374495a76/contributions/con_e4c4e2f69dcf43cb9afda09ddd19f026/files/G21-262.tex",
+  "source_sha256": "aeec9193ca0b6ad43f2050161461088abcb6e024b841184f7dc76c34492d098c",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/99/prb_999cdf7d31c847df9b301a3374495a76/contributions/con_e4c4e2f69dcf43cb9afda09ddd19f026/files/G21-262.tex",
+  "title": "Robust intervention beyond the two-depositor and bounded-coordination cases",
+  "finding": "Supports the claim",
+  "checked_scope": "Symmetric N-depositor common-shock complementarity, arbitrary coordination strength, and quadratic policy cost.",
+  "significance": "Extends sharp selection bounds to arbitrary N and solves the strong-coordination regime with a new endpoint intervention threshold.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

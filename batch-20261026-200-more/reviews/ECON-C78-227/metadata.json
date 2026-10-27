@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-C78-227",
+  "problem_id": "prb_8bf05de92829478a8cddc0f7a4c1a3e2",
+  "contribution_handle": "ECON-C78-227-A1",
+  "contribution_id": "con_a69b61babd8b4dfda322153c37ed8dcd",
+  "revision_id": "rev_3b89930751c4417fad77b7977dd681b8",
+  "source_path": "problems/8b/prb_8bf05de92829478a8cddc0f7a4c1a3e2/contributions/con_a69b61babd8b4dfda322153c37ed8dcd/files/C78-227.tex",
+  "source_sha256": "650ad5265bf8bb67addd475fa7e2ba1e7e930f45d1abcc453e31d0f2e7947832",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/8b/prb_8bf05de92829478a8cddc0f7a4c1a3e2/contributions/con_a69b61babd8b4dfda322153c37ed8dcd/files/C78-227.tex",
+  "title": "A three-agent boundary for sequential consent under correlated costs",
+  "finding": "Comment",
+  "checked_scope": "Independent three-incumbent extension of the source's two-agent consent model; explicit multiplicity of sequential-equilibrium outcomes under correlated costs.",
+  "significance": "Constructs and verifies a consistent off-path-belief equilibrium that rejects an all-positive gain profile, plus a welfare-superior equilibrium, locating the two-agent theorem's exact extension boundary.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

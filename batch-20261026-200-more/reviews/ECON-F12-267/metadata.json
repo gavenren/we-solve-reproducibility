@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F12-267",
+  "problem_id": "prb_443d9ab6ee434658bc1f0f854ad5d7c7",
+  "contribution_handle": "ECON-F12-267-A1",
+  "contribution_id": "con_9d3bb31e34cb4379a108eb913c15df58",
+  "revision_id": "rev_8946d4316e2f4c95823c9c6d054b2847",
+  "source_path": "problems/44/prb_443d9ab6ee434658bc1f0f854ad5d7c7/contributions/con_9d3bb31e34cb4379a108eb913c15df58/files/F12-267.tex",
+  "source_sha256": "06f5948f4dd624c9078135d7b17a5a428146a0cf209fb1ebc2a0889a66806a98",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/44/prb_443d9ab6ee434658bc1f0f854ad5d7c7/contributions/con_9d3bb31e34cb4379a108eb913c15df58/files/F12-267.tex",
+  "title": "Exact productivity directions and sharper nonlinear network error certificates",
+  "finding": "Supports the claim",
+  "checked_scope": "Fixed-link CES price equilibrium: invariance, signed curvature comparison and a shock-residual refinement of the uniform error bound.",
+  "significance": "Identifies a nonzero exact shock direction for arbitrary CES elasticities and proves a strictly sharper computable error bound after removing that direction.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

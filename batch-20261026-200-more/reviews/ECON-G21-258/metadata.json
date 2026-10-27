@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G21-258",
+  "problem_id": "prb_8e26044927224700a15f3f72dd88c0df",
+  "contribution_handle": "ECON-G21-258-A1",
+  "contribution_id": "con_3126ce2f86674907960728444b388d12",
+  "revision_id": "rev_7559353db10b4044ae284302558720ba",
+  "source_path": "problems/8e/prb_8e26044927224700a15f3f72dd88c0df/contributions/con_3126ce2f86674907960728444b388d12/files/G21-258.tex",
+  "source_sha256": "58a5cfbef53941a6d711c9e4bf550cbbe315cead501bffd988f6ebd907a363c5",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/8e/prb_8e26044927224700a15f3f72dd88c0df/contributions/con_3126ce2f86674907960728444b388d12/files/G21-258.tex",
+  "title": "Sparse implementation: one randomized group under one funding constraint",
+  "finding": "Supports the claim",
+  "checked_scope": "Structural refinement of the finite-group microcredit oracle and its quadratic aggregate-displacement extension.",
+  "significance": "Proves existence of an oracle randomizing in at most one group, and at most two groups with aggregate uptake fixed, with a sharp one-group example.",
+  "author": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

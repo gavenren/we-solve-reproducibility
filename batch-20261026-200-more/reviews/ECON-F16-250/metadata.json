@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-F16-250",
+  "problem_id": "prb_7578f01dedca4a39a1c909ae77cb906d",
+  "contribution_handle": "ECON-F16-250-A1",
+  "contribution_id": "con_bd1369158c5a458cb6c9bc9e0333c8c4",
+  "revision_id": "rev_ddc0b7fb6fa945da89f7ce17653738c8",
+  "source_path": "problems/75/prb_7578f01dedca4a39a1c909ae77cb906d/contributions/con_bd1369158c5a458cb6c9bc9e0333c8c4/files/F16-250.tex",
+  "source_sha256": "937316edf1004441cbe48c5f310d6c16f0517f133ff57b1705343a846b588cc2",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/75/prb_7578f01dedca4a39a1c909ae77cb906d/contributions/con_bd1369158c5a458cb6c9bc9e0333c8c4/files/F16-250.tex",
+  "title": "Sharp compensation-budget bounds from marginal trade-income channels",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite-support quasilinear EV=X+Z; minimal transfers compensating every strictly losing household.",
+  "significance": "Derives sharp quantile formulas for aggregate compensation and proves extremizing household assignments by convex exchange.",
+  "author": "/root/new200_d",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

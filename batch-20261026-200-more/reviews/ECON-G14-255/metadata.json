@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G14-255",
+  "problem_id": "prb_2d64636b0934411485eff7d188259d97",
+  "contribution_handle": "ECON-G14-255-A1",
+  "contribution_id": "con_f8eaceb5e83b405e9fbb712780dabea3",
+  "revision_id": "rev_f6b6c385f3a34586894e292d37f8f5b5",
+  "source_path": "problems/2d/prb_2d64636b0934411485eff7d188259d97/contributions/con_f8eaceb5e83b405e9fbb712780dabea3/files/G14-255.tex",
+  "source_sha256": "3b0d6b0549cc441e38cd5d6efebd3b81ee53962c80533983846453a62948309e",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/2d/prb_2d64636b0934411485eff7d188259d97/contributions/con_f8eaceb5e83b405e9fbb712780dabea3/files/G14-255.tex",
+  "title": "Quadratic disappearance of price information at the acquisition threshold",
+  "finding": "Supports the claim",
+  "checked_scope": "Capacity-threshold equilibrium and monotone-informativeness theorems; one-sided asymptotic law at zero acquisition",
+  "significance": "Derives an explicit critical coefficient: precision vanishes linearly while price informativeness vanishes quadratically, with a jump in its second derivative.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

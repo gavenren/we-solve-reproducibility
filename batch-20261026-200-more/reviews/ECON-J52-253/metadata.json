@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J52-253",
+  "title": "Wages increase monotonically with bargaining power in the stated investment model",
+  "finding": "Error found",
+  "checked_scope": "The final institutional-implications paragraph and equilibrium comparative statics under b\u03ba>\u03b7\u00b2.",
+  "significance": "Corrects the manuscript's claimed ambiguous equilibrium wage effect and derives a complete wage\u2013profit\u2013surplus tradeoff under its maintained assumptions.",
+  "problem_id": "prb_9091a8de16fe4af3a631d3f7a47f1833",
+  "contribution_handle": "ECON-J52-253-A1",
+  "contribution_id": "con_2957b6a15725480abd5cd5c2a203b63d",
+  "revision_id": "rev_1388f22f483e4bdf9fa0ee422c5cdbd5",
+  "source_path": "problems/90/prb_9091a8de16fe4af3a631d3f7a47f1833/contributions/con_2957b6a15725480abd5cd5c2a203b63d/files/J52-253.tex",
+  "source_sha256": "d98513c43b710d909ce78bb60ed5cb6c2e59fdf412055a9ef841d6bd4dfeb36e",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/90/prb_9091a8de16fe4af3a631d3f7a47f1833/contributions/con_2957b6a15725480abd5cd5c2a203b63d/files/J52-253.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

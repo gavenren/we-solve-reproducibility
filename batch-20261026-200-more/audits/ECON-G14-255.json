@@ -1,0 +1,24 @@
+{
+  "handle": "ECON-G14-255",
+  "contribution_handle": "ECON-G14-255-A1",
+  "reviewer": "/root/new200_a",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "563df290286706ff4599e16e01e1dd5542b471fc3c540bb930e05565f66c6506",
+  "source_sha256": "3b0d6b0549cc441e38cd5d6efebd3b81ee53962c80533983846453a62948309e",
+  "checked_scope": "Local acquisition-threshold asymptotics, differentiability of informativeness and price-variance diagnostic in the Gaussian capped-trader model.",
+  "checks_performed": [
+    "Read full exact manuscript and YAML independently, including unobserved acquisition and linear-pricing restrictions.",
+    "Recomputed F_y and F_B at (c/v^2,1), checked implicit root derivatives and t,z expansions.",
+    "Verified quadratic coefficient C, one-sided C1/C2 conclusions and passive-share chain rule.",
+    "Checked conditional-expectation variance identity, square-root expansion and inaccessible-threshold boundary cases.",
+    "Verified SHA256 and Git blob SHA of exact saved source and YAML; checked canonical IDs and final READY hash."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "Independent AI mathematical review; no human or formal verification.",
+    "External references not independently verified; no external literature claim certified."
+  ],
+  "significance": "Explicit critical law separates linear precision onset from quadratic information onset and provides model-specific price diagnostic."
+}

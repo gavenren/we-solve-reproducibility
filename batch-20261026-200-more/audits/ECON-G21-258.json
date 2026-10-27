@@ -1,0 +1,18 @@
+{
+  "handle": "ECON-G21-258",
+  "contribution_handle": "ECON-G21-258-A1",
+  "reviewer": "/root/new200_b",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "5756d5bf406f5cf8c8ff1ce3ecc0cae66b860399dadd752c45ac3a418d4e2b2b",
+  "source_sha256": "58a5cfbef53941a6d711c9e4bf550cbbe315cead501bffd988f6ebd907a363c5",
+  "checked_scope": "Full exact manuscript/YAML and sparse implementation proofs.",
+  "checks_performed": "Checked rank/nullspace perturbations with binding/slack budgets, positive support counts, sharp one-group example, uptake-slice extreme optimum and two-extra-coordinate bound.",
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references not independently verified."
+  ],
+  "significance": "Proves existence of nearly deterministic optimal offers even with multiple actions and aggregate quadratic uptake cost."
+}

@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-I18-263",
+  "title": "Exact budget feasibility and a scalar reduction of the antibiotic contract frontier",
+  "finding": "Supports the claim",
+  "checked_scope": "Minimum-payment contracts with one developer, nonnegative payments, perfect monitoring and the manuscript's tie rules.",
+  "significance": "Solves the previously set-defined fiscal feasibility test and derives the exact minimum-use boundary, reducing the budget-constrained welfare problem to one scalar.",
+  "problem_id": "prb_62c89c5a28ad43a9ba353a1af2a45079",
+  "contribution_handle": "ECON-I18-263-A1",
+  "contribution_id": "con_98f7984acd4b44a4ad2e508aeb58e7ac",
+  "revision_id": "rev_d5b127548a1f48509f65d9cb243cccbc",
+  "source_path": "problems/62/prb_62c89c5a28ad43a9ba353a1af2a45079/contributions/con_98f7984acd4b44a4ad2e508aeb58e7ac/files/I18-263.tex",
+  "source_sha256": "f347056ebeddef35fd0ec7cde1f00c1103b21e0f6d07f284cb89c7c4f2d05f33",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/62/prb_62c89c5a28ad43a9ba353a1af2a45079/contributions/con_98f7984acd4b44a4ad2e508aeb58e7ac/files/I18-263.tex",
+  "author": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

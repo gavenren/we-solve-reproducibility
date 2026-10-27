@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-E52-261",
+  "problem_id": "prb_49a1881a01514912b148a83cc73b5ecc",
+  "contribution_handle": "ECON-E52-261-A1",
+  "contribution_id": "con_e748c3b0b5e24cac9b336f5d26370c80",
+  "revision_id": "rev_4155399bb2114f628b3a8cc95cd53a61",
+  "source_path": "problems/49/prb_49a1881a01514912b148a83cc73b5ecc/contributions/con_e748c3b0b5e24cac9b336f5d26370c80/files/E52-261.tex",
+  "source_sha256": "c374023540ca70d867f069df7784fcb6c85a3351108fbe2e1b05997c9bbbe440",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/49/prb_49a1881a01514912b148a83cc73b5ecc/contributions/con_e748c3b0b5e24cac9b336f5d26370c80/files/E52-261.tex",
+  "title": "Mean-and-support uncertainty gives sharp inflation-target bounds",
+  "finding": "Supports the claim",
+  "checked_scope": "The restricted welfare model (1), for e=0 and threshold laws with a fixed mean and bounded support, replacing stochastic-order uncertainty by moment uncertainty.",
+  "significance": "Sharp endpoint distributions, closed-form identified target interval and a robust target follow under mean-and-support information alone.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

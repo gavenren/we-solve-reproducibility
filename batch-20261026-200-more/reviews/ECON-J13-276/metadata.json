@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-J13-276",
+  "problem_id": "prb_f2c3d6da894f48448f3b9c0ee4419a87",
+  "contribution_handle": "ECON-J13-276-A1",
+  "contribution_id": "con_86b6a9469172484b9b54f4430a180ec2",
+  "revision_id": "rev_7b5bfb62a9e8483baacd821aed5ae6dc",
+  "source_path": "problems/f2/prb_f2c3d6da894f48448f3b9c0ee4419a87/contributions/con_86b6a9469172484b9b54f4430a180ec2/files/J13-276.tex",
+  "source_sha256": "25989958969ecef6df3af13622b2d3d4b5026ed85d7cf9d29e7fe29f008ec545",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/f2/prb_f2c3d6da894f48448f3b9c0ee4419a87/contributions/con_86b6a9469172484b9b54f4430a180ec2/files/J13-276.tex",
+  "title": "A multiplicative transition-error bound for completed fertility",
+  "finding": "Supports the claim",
+  "checked_scope": "Finite life-cycle recursion and transition-sensitivity theorem; sharper coupling bound and sharp one-birth construction",
+  "significance": "Improves the additive total-variation error bound to a multiplicative bound and supplies an admissible parity-monotone model attaining it for K=1.",
+  "author": "/root/new200_f",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

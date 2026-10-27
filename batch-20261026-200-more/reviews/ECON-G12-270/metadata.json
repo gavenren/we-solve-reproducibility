@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G12-270",
+  "problem_id": "prb_292adebc7cbe48cbad0d126456a19b2a",
+  "contribution_handle": "ECON-G12-270-A1",
+  "contribution_id": "con_017ba33de9e44e53aed5b49ff8712069",
+  "revision_id": "rev_a891f2749c32442787ec48c6d757fc23",
+  "source_path": "problems/29/prb_292adebc7cbe48cbad0d126456a19b2a/contributions/con_017ba33de9e44e53aed5b49ff8712069/files/G12-270.tex",
+  "source_sha256": "77ee3b6682f116f3aef8185e936e08967e8e03e64ef012102e830ff8e62606c6",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/29/prb_292adebc7cbe48cbad0d126456a19b2a/contributions/con_017ba33de9e44e53aed5b49ff8712069/files/G12-270.tex",
+  "title": "Exact leverage-sensitive test for inactive SDF coordinate bounds",
+  "finding": "Supports the claim",
+  "checked_scope": "The exact joint-image theorem, sharpening the sufficient full-ball coordinate-feasibility condition (inactive) without removing positivity restrictions.",
+  "significance": "An exact projection-based criterion replaces conservative statewise norm bounds and can certify the full ellipsoidal image when the manuscript's criterion fails.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}

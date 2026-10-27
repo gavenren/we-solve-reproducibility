@@ -1,0 +1,23 @@
+{
+  "handle": "ECON-F16-250",
+  "contribution_handle": "ECON-F16-250-A1",
+  "reviewer": "/root/new200_e",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra",
+  "verdict": "approved_scoped",
+  "document_sha256": "54dccd7879577fa6172ce49f32c7cd4c9d9c8a9f0d3ea282bb9b6b58aa911816",
+  "source_sha256": "937316edf1004441cbe48c5f310d6c16f0517f133ff57b1705343a846b588cc2",
+  "checked_scope": "Finite-support marginal income channels and unrestricted couplings; targeted quasilinear compensation.",
+  "checks_performed": [
+    "Read full report, source and YAML and matched IDs.",
+    "Verified supermodular shortfall inequality from convex increments and finite atomic transport swaps preserving marginal masses.",
+    "Checked common/opposite quantile extremizers, convex-mixture sharpness, \u00b11 example and compensation accounting."
+  ],
+  "changes_made": [],
+  "limitations": [
+    "No human or formal verification.",
+    "External references and empirical validity not independently verified.",
+    "Analytic claims only; no computational reproduction claimed."
+  ],
+  "significance": "Sharp compensation-budget interval under one common coupling, beyond pointwise CDF bounds."
+}

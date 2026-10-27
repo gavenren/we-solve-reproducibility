@@ -1,0 +1,17 @@
+{
+  "handle": "ECON-G12-249",
+  "problem_id": "prb_ab07c4c112e9457d8e3eb047168bb531",
+  "contribution_handle": "ECON-G12-249-A1",
+  "contribution_id": "con_69e974eca342491b9b19d3bb6e764a3c",
+  "revision_id": "rev_3014498e30bc452394791ed2e8a0cf55",
+  "source_path": "problems/ab/prb_ab07c4c112e9457d8e3eb047168bb531/contributions/con_69e974eca342491b9b19d3bb6e764a3c/files/G12-249.tex",
+  "source_sha256": "19503a09224a48af104932225fa8ef866ab4629abf1c1299cc2da12f10eaa07e",
+  "source_url": "https://github.com/We-Solve/research/blob/bd5218964aa5efa77ac062e3600b8cfe70df528c/problems/ab/prb_ab07c4c112e9457d8e3eb047168bb531/contributions/con_69e974eca342491b9b19d3bb6e764a3c/files/G12-249.tex",
+  "title": "Positive pricing kernels can have an unattained second-moment infimum",
+  "finding": "Supports the claim",
+  "checked_scope": "The exact span criterion and minimum-second-moment statement in \u2018What traded prices identify\u2019, extended to positivity-active boundary cases.",
+  "significance": "A complete positivity-active quadratic characterization and explicit positive-feasible example show when the kernel variance bound is only an unattained infimum.",
+  "author": "/root/new200_c",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "ultra"
+}
